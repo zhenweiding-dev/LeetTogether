@@ -1,0 +1,174 @@
+{
+  "binary-search-tree-to-greater-sum-tree": {
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
+  "binary-tree-level-order-traversal": {
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "binary-tree-level-order-traversal-ii": {
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "binary-tree-right-side-view": {
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "construct-binary-tree-from-inorder-and-postorder-traversal": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Tree",
+      "Binary Tree"
+    ]
+  },
+  "construct-binary-tree-from-preorder-and-inorder-traversal": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Tree",
+      "Binary Tree"
+    ]
+  },
+  "construct-binary-tree-from-preorder-and-postorder-traversal": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Tree",
+      "Binary Tree"
+    ]
+  },
+  "convert-bst-to-greater-tree": {
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
+  "delete-node-in-a-bst": {
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
+  "find-first-and-last-position-of-element-in-sorted-array": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ]
+  },
+  "insert-into-a-binary-search-tree": {
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
+  "kth-smallest-element-in-a-bst": {
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
+  "maximum-binary-tree": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Divide and Conquer",
+      "Stack",
+      "Tree",
+      "Monotonic Stack",
+      "Binary Tree",
+      "Cartesian Tree"
+    ]
+  },
+  "n-ary-tree-level-order-traversal": {
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Breadth-First Search"
+    ]
+  },
+  "n-ary-tree-postorder-traversal": {
+    "difficulty": "Easy",
+    "tags": [
+      "Stack",
+      "Tree",
+      "Depth-First Search"
+    ]
+  },
+  "n-ary-tree-preorder-traversal": {
+    "difficulty": "Easy",
+    "tags": [
+      "Stack",
+      "Tree",
+      "Depth-First Search"
+    ]
+  },
+  "permutations": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Backtracking"
+    ]
+  },
+  "search-in-a-binary-search-tree": {
+    "difficulty": "Easy",
+    "tags": [
+      "Tree",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
+  "subsets": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Backtracking",
+      "Bit Manipulation"
+    ]
+  },
+  "validate-binary-search-tree": {
+    "difficulty": "Medium",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  }
+}
