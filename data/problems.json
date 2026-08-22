@@ -69,6 +69,14 @@
       "Binary Tree"
     ]
   },
+  "contains-duplicate": {
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ]
+  },
   "convert-bst-to-greater-tree": {
     "difficulty": "Medium",
     "tags": [
@@ -76,6 +84,15 @@
       "Depth-First Search",
       "Binary Search Tree",
       "Binary Tree"
+    ]
+  },
+  "course-schedule-ii": {
+    "difficulty": "Medium",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort"
     ]
   },
   "delete-node-in-a-bst": {
@@ -101,6 +118,14 @@
       "Binary Tree"
     ]
   },
+  "jump-game": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
   "kth-smallest-element-in-a-bst": {
     "difficulty": "Medium",
     "tags": [
@@ -108,6 +133,22 @@
       "Depth-First Search",
       "Binary Search Tree",
       "Binary Tree"
+    ]
+  },
+  "letter-combinations-of-a-phone-number": {
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Backtracking"
+    ]
+  },
+  "longest-common-prefix": {
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String",
+      "Trie"
     ]
   },
   "maximum-binary-tree": {
@@ -120,6 +161,21 @@
       "Monotonic Stack",
       "Binary Tree",
       "Cartesian Tree"
+    ]
+  },
+  "maximum-product-subarray": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  "maximum-subarray": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Divide and Conquer",
+      "Dynamic Programming"
     ]
   },
   "n-ary-tree-level-order-traversal": {
@@ -160,12 +216,39 @@
       "Binary Tree"
     ]
   },
+  "search-in-rotated-sorted-array": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ]
+  },
   "subsets": {
     "difficulty": "Medium",
     "tags": [
       "Array",
       "Backtracking",
       "Bit Manipulation"
+    ]
+  },
+  "top-k-frequent-elements": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Bucket Sort",
+      "Counting",
+      "Quickselect"
+    ]
+  },
+  "two-sum": {
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table"
     ]
   },
   "validate-binary-search-tree": {
