@@ -10,13 +10,25 @@ twice a day and rewrites the table on the front page.
 
 1. [Use this template](https://github.com/zhenweiding-dev/LeetTogether/generate) to
    create your own copy
-2. Add everyone — it refreshes the board before exiting:
+
+2. Clear the sample data it ships with, and set your own timezone:
+
+   ```bash
+   rm -f data/snapshots/*.json
+   ```
+
+   Then in `config.json` empty the `members` list and set `timezone` to any
+   [IANA name](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
+   (it starts as `America/Los_Angeles`). Keep `data/problems.json` — it is a
+   difficulty and tag cache, so inheriting it just saves you some lookups.
+
+3. Add everyone — it refreshes the board before exiting:
 
    ```bash
    python3 scripts/add.py
    ```
 
-3. `git push`
+4. `git push`
 
 That's the whole setup. Python standard library only, nothing to install. The
 Action takes over from there, twice a day.
