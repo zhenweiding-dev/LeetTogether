@@ -6,7 +6,7 @@ import urllib.error
 import urllib.request
 
 ENDPOINT = "https://leetcode.com/graphql"
-UA = "Mozilla/5.0 (LeetcodeTogether; +https://github.com)"
+UA = "Mozilla/5.0 (LeetTogether; +https://github.com)"
 
 # One request covers it all: solved counts, calendar, recent accepted list.
 USER_QUERY = """

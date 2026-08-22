@@ -1,4 +1,4 @@
-# LeetCode Together
+# LeetTogether
 
 <!-- LEADERBOARD:START -->
 
@@ -51,7 +51,7 @@
 
 <code>🌳 Tree丨18</code> <code>🌲 Binary Tree丨15</code> <code>🔢 Array丨8</code> <code>🎄 Binary Search Tree丨7</code> <code>🤿 Depth-First Search丨7</code> <code>⚔️ Divide and Conquer丨5</code> <code>🌊 Breadth-First Search丨4</code> <code>🥞 Stack丨4</code> <code>🗂️ Hash Table丨3</code> <code>↩️ Backtracking丨2</code> <code>🌱 Cartesian Tree丨2</code> <code>🧱 Monotonic Stack丨2</code> <code>🔍 Binary Search丨1</code> <code>🎛️ Bit Manipulation丨1</code>
 
-<sub>Updated 2026-08-22 00:56 (America/Los_Angeles) · 2 day(s) of history</sub>
+<sub>Updated 2026-08-22 01:01 (America/Los_Angeles) · 2 day(s) of history</sub>
 
 <!-- LEADERBOARD:END -->
 
