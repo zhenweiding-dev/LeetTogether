@@ -9,20 +9,18 @@ twice a day and rewrites the table on the front page.
 ## Quick start
 
 1. [Use this template](https://github.com/zhenweiding-dev/LeetTogether/generate) to
-   create your own copy
+   create your own repo
 
-2. Clear the sample data it ships with, and set your own timezone:
+2. Clear this group's data — GitHub copies a template verbatim, so it comes along:
 
    ```bash
-   rm -f data/snapshots/*.json
+   python3 scripts/clear.py
    ```
 
-   Then in `config.json` empty the `members` list and set `timezone` to any
-   [IANA name](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)
-   (it starts as `America/Los_Angeles`). Keep `data/problems.json` — it is a
-   difficulty and tag cache, so inheriting it just saves you some lookups.
+   Then set `timezone` in `config.json` to your
+   [IANA name](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
 
-3. Add everyone — it refreshes the board before exiting:
+3. Add everyone. It refreshes the board before exiting:
 
    ```bash
    python3 scripts/add.py
@@ -128,6 +126,7 @@ skipped.
 | `config.json` | members, timezone, scoring weights |
 | `data/snapshots/<date>.json` | one snapshot per day; re-running the same day overwrites |
 | `data/problems.json` | slug → difficulty and tags, cached forever |
+| `scripts/clear.py` | wipe the inherited data before the first run |
 | `scripts/add.py` | add members, then refresh |
 | `scripts/update.py` | fetch, snapshot, rewrite the board |
 | `scripts/theme.py` | every label, emoji and tag icon the board renders |
