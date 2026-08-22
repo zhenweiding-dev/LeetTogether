@@ -51,7 +51,7 @@
 
 <code>🌳 Tree丨18</code> <code>🌲 Binary Tree丨15</code> <code>🔢 Array丨8</code> <code>🎄 Binary Search Tree丨7</code> <code>🤿 Depth-First Search丨7</code> <code>⚔️ Divide and Conquer丨5</code> <code>🌊 Breadth-First Search丨4</code> <code>🥞 Stack丨4</code> <code>🗂️ Hash Table丨3</code> <code>↩️ Backtracking丨2</code> <code>🌱 Cartesian Tree丨2</code> <code>🧱 Monotonic Stack丨2</code> <code>🔍 Binary Search丨1</code> <code>🎛️ Bit Manipulation丨1</code>
 
-<sub>Updated 2026-08-22 01:02 (America/Los_Angeles) · 2 day(s) of history</sub>
+<sub>Updated 2026-08-22 01:09 (America/Los_Angeles) · 2 day(s) of history</sub>
 
 <!-- LEADERBOARD:END -->
 
@@ -60,18 +60,22 @@
 ## Usage
 
 ```bash
-python3 scripts/add.py       # add a member
-python3 scripts/update.py    # fetch and refresh the board above
+python3 scripts/add.py       # add members, then refresh
+python3 scripts/update.py    # refresh the board above on its own
 
 # Standard library only, nothing to install.
 # GitHub Actions runs update.py twice a day (~12:00 and ~23:50 local time).
 ```
+
+Adding someone is the only manual step: `add.py` refreshes the board when it
+finishes, and the daily runs take over from there.
 
 ## Adding members
 
 - `add.py` takes a username or profile URL, verifies it, asks for a display name,
   and writes it to [config.json](config.json)
 - Add several in a row; blank input finishes
+- On exit it runs the same fetch as `update.py`, so the board already shows them
 - Or pass it in directly:
 
 ```bash

@@ -8,6 +8,7 @@ import re
 import sys
 
 import lc
+import update
 from common import load_config, save_config
 
 
@@ -87,11 +88,12 @@ def main():
         added.append(name)
         print("  written to config.json\n")
 
-    if added:
-        print(f"Added {len(added)}: {', '.join(added)}")
-        print("Run `python3 scripts/update.py` to refresh the board.")
-    else:
+    if not added:
         print("No changes.")
+        return
+
+    print(f"Added {len(added)}: {', '.join(added)}\n")
+    update.main()  # fetch and refresh straight away, no second command needed
 
 
 if __name__ == "__main__":
