@@ -33,6 +33,12 @@
       "Binary Tree"
     ]
   },
+  "combinations": {
+    "difficulty": "Medium",
+    "tags": [
+      "Backtracking"
+    ]
+  },
   "construct-binary-tree-from-inorder-and-postorder-traversal": {
     "difficulty": "Medium",
     "tags": [

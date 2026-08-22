@@ -12,6 +12,13 @@ ERR_NOT_FETCHED = "not fetched"
 
 # --- today's progress line --------------------------------------------------
 
+# Shown above everything when a fetch went wrong; omitted entirely when all is well.
+WARN = "> ⚠️ {items}"
+WARN_FAILED = "**{names}** could not be fetched"
+WARN_STALE = "**{names}** showing earlier data from today"
+WARN_JOIN = " · "
+
+HEAD_BOARD = "## 🏆 Leaderboard"
 STATUS = "{icon} **{done}/{total} submitted today**"
 STATUS_PENDING = " · pending: {names}"
 
@@ -34,8 +41,8 @@ RANK_ALIGNS = ["center"] * len(RANK_HEADERS)
 MEDALS = ["🥇", "🥈", "🥉"]
 UP, DOWN = "🔺", "🔻"
 
-STREAK = "{days}"
-STREAK_CAPPED = "{days}+"  # coverage ran out, the real streak may be longer
+STREAK = "🔥 {days}"
+STREAK_CAPPED = "🔥 {days}+"  # coverage ran out, the real streak may be longer
 TODAY_CELL = "{solved} ✅丨{points} pts"
 WEEK_CELL = "{solved} ✅丨<b>{points} pts</b>"
 AT_LEAST = "≥{value}"
@@ -45,28 +52,32 @@ SPARK_LEVELS = [(0, "·"), (2, "▁"), (4, "▃"), (7, "▅"), (10**9, "▇")]
 NO_DATA = "░"
 
 LEGEND = (
-    "· Scoring Easy×{easy} / Medium×{medium} / Hard×{hard} "
-    "· Last {window} days: <code>·</code> none, <code>{no_data}</code> no data"
+    "🔺🔻 rank change since yesterday · <b>+</b> and <b>≥</b> mean at least<br>"
+    "💡 <b>Scoring</b> Easy ×{easy} · Medium ×{medium} · Hard ×{hard} — "
+    "<b>✅</b> problems solved, <b>pts</b> the same weighted by difficulty<br>"
+    "📊 <b>Last {window} days</b> <code>·</code> no submission · "
+    "<code>{no_data}</code> no data"
 )
 
 # --- today's submissions ----------------------------------------------------
 
-HEAD_DETAIL = "**Today's submissions**"
+HEAD_DETAIL = "## 📅 Today's submissions"
 DETAIL_HEADERS = ["Member", "Problems", "Tags"]
-DETAIL_HEAD_ALIGNS = ["center", "left", "center"]
 DETAIL_ALIGNS = ["center", "left", "left"]  # wrapping cells read better left
 
 # --- weekly tags ------------------------------------------------------------
 
-HEAD_TAGS = "**Tags this week**"
-TAG_CHIP = "{tag}丨{count}"
-TAG_CHIP_ICON = "{icon} {tag}丨{count}"
+HEAD_TAGS = "## 🏷️ Tags this week"
+TAG_CHIP = "{tag}丨{count}"  # <code> chip, used in the per-member Tags column
+TAG_LINE_ITEM = "{icon} {tag} **{count}**"  # weekly blockquote
+TAG_LINE_JOIN = " 丨 "
+TAG_LINE = "> {items}"
 
 # --- failures and footer ----------------------------------------------------
 
-HEAD_BROKEN = "**Fetch failed**"
+HEAD_BROKEN = "## ⚠️ Fetch failed"
 BROKEN_ROW = "- `{handle}` ({name}) - {error}"
-STAMP = "Updated {when} ({tz}) · {days} day(s) of history"
+STAMP = "🕒 Updated {when} ({tz}) · {days} day(s) of history"
 
 # --- tag icons --------------------------------------------------------------
 

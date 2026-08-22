@@ -42,14 +42,6 @@ def local_date(ts, cfg):
     return datetime.fromtimestamp(ts, tz_of(cfg)).strftime("%Y-%m-%d")
 
 
-def score_of(solved, weights):
-    return (
-        solved.get("easy", 0) * weights["easy"]
-        + solved.get("medium", 0) * weights["medium"]
-        + solved.get("hard", 0) * weights["hard"]
-    )
-
-
 def load_problems():
     """slug -> {difficulty, tags}."""
     if PROBLEMS_PATH.exists():

@@ -19,7 +19,6 @@ from common import (
     load_problems,
     local_now,
     save_problems,
-    score_of,
 )
 
 
@@ -53,8 +52,18 @@ def sync_questions(members):
     save_problems(problems)
 
 
-def fetch_members(cfg):
-    members, failures = {}, []
+def load_today(path):
+    """Today's snapshot members, if this is not the first run of the day."""
+    if not path.exists():
+        return {}
+    try:
+        return json.loads(path.read_text(encoding="utf-8")).get("members") or {}
+    except json.JSONDecodeError:
+        return {}
+
+
+def fetch_members(cfg, earlier):
+    members, failures, kept = {}, [], []
 
     for i, m in enumerate(cfg["members"]):
         handle = m["handle"]
@@ -66,6 +75,14 @@ def fetch_members(cfg):
             data = {"ok": False, "error": str(exc)}
 
         if not data["ok"]:
+            # A blip must not wipe data already collected today, so reuse it.
+            good = earlier.get(handle)
+            if good and good.get("ok"):
+                # flagged so the board can say the numbers are not fresh
+                members[handle] = {**good, "stale": True}
+                kept.append((handle, data["error"]))
+                print(f"  {handle}: {data['error']} (kept earlier)", file=sys.stderr)
+                continue
             failures.append((handle, data["error"]))
             members[handle] = {
                 "name": m.get("name") or handle,
@@ -80,7 +97,6 @@ def fetch_members(cfg):
             "name": m.get("name") or data["real_name"] or handle,
             "ok": True,
             "solved": data["solved"],
-            "score": score_of(data["solved"], cfg["score_weights"]),
             "ranking": data["ranking"],
             "lc_streak": data["lc_streak"],
             "lc_active_days": data["lc_active_days"],
@@ -90,7 +106,7 @@ def fetch_members(cfg):
         }
         print(f"  {handle}: {data['solved']['all']} solved, {len(recent)} recent ACs")
 
-    return members, failures
+    return members, failures, kept
 
 
 def main():
@@ -99,11 +115,12 @@ def main():
         raise SystemExit("No members in config.json. Run `python3 scripts/add.py`.")
 
     today = local_now(cfg).strftime("%Y-%m-%d")
-    members, failures = fetch_members(cfg)
-    sync_questions(members)
-
     SNAP_DIR.mkdir(parents=True, exist_ok=True)
     out = SNAP_DIR / f"{today}.json"
+
+    members, failures, kept = fetch_members(cfg, load_today(out))
+    sync_questions(members)
+
     out.write_text(
         json.dumps(
             {
@@ -123,11 +140,24 @@ def main():
     board.update_readme(cfg)
     print(f"\nWrote snapshot {out.name}, README board updated")
 
+    if kept:
+        print(
+            f"\n{len(kept)} member(s) failed but kept today's earlier data:",
+            file=sys.stderr,
+        )
+        for handle, err in kept:
+            print(f"  {handle} - {err}", file=sys.stderr)
+
     if failures:
         print(f"\n{len(failures)} member(s) failed:", file=sys.stderr)
         for handle, err in failures:
             print(f"  {handle} - {err}", file=sys.stderr)
-        print("Fix the username in config.json, or re-run add.py.", file=sys.stderr)
+        print(
+            "`does not exist` means a wrong username in config.json. A TLS or network\n"
+            "error is local: CERTIFICATE_VERIFY_FAILED means this Python has no CA\n"
+            'bundle — on macOS run "/Applications/Python 3.x/Install Certificates.command".',
+            file=sys.stderr,
+        )
 
 
 if __name__ == "__main__":

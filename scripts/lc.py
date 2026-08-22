@@ -1,12 +1,35 @@
 """LeetCode public GraphQL client. Read-only public data, no login required."""
 
 import json
+import ssl
 import time
 import urllib.error
 import urllib.request
 
 ENDPOINT = "https://leetcode.com/graphql"
 UA = "Mozilla/5.0 (LeetTogether; +https://github.com)"
+
+
+def _ssl_context():
+    """Default trust store, falling back to certifi if the interpreter has none.
+
+    python.org's macOS builds bundle their own OpenSSL, ignore the system keychain,
+    and start with an empty trust store until Install Certificates.command is run.
+    certifi ships with that same installer, so preferring it keeps this working
+    without asking anyone to repair their Python first.
+    """
+    ctx = ssl.create_default_context()
+    if ctx.cert_store_stats()["x509_ca"]:
+        return ctx
+    try:
+        import certifi
+    except ImportError:
+        return ctx  # nothing better available; the TLS error will say so
+    ctx.load_verify_locations(certifi.where())
+    return ctx
+
+
+SSL_CONTEXT = _ssl_context()
 
 # One request covers it all: solved counts, calendar, recent accepted list.
 USER_QUERY = """
@@ -38,6 +61,9 @@ query questionMeta($slug: String!) {
 # recentAcSubmissionList cap. Hitting it means older records were truncated.
 RECENT_LIMIT = 20
 
+# Only these HTTP codes are worth a second try; the rest are permanent.
+RETRY_CODES = {429, 500, 502, 503, 504}
+
 
 def query(gql, variables, retries=3):
     body = json.dumps({"query": gql, "variables": variables}).encode()
@@ -49,10 +75,16 @@ def query(gql, variables, retries=3):
     last = None
     for attempt in range(retries):
         try:
-            with urllib.request.urlopen(req, timeout=20) as resp:
+            with urllib.request.urlopen(req, timeout=20, context=SSL_CONTEXT) as resp:
                 return json.loads(resp.read())
+        # HTTPError subclasses URLError, so it has to be caught first
+        except urllib.error.HTTPError as exc:
+            last = exc
+            if exc.code not in RETRY_CODES:
+                break
         except (urllib.error.URLError, TimeoutError, json.JSONDecodeError) as exc:
             last = exc
+        if attempt < retries - 1:  # no point sleeping after the final attempt
             time.sleep(1.5 * (attempt + 1))
     raise RuntimeError(f"request failed: {last}")
 

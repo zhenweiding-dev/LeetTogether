@@ -28,88 +28,6 @@ from common import (
 WINDOW = 14
 WEEK = 7
 
-MEDALS = ["🥇", "🥈", "🥉"]
-UP, DOWN = "🔺", "🔻"
-
-# Mnemonic icon per topic tag, purely to make the list scannable. Names must match
-# LeetCode's topicTags exactly; anything unmapped falls back to TAG_FALLBACK.
-TAG_ICONS = {
-    "Array": "🔢",
-    "String": "🧵",
-    "Hash Table": "🗂️",
-    "Hash Function": "#️⃣",
-    "Rolling Hash": "🎡",
-    "Dynamic Programming": "🧩",
-    "Memoization": "🗒️",
-    "Math": "➗",
-    "Number Theory": "🔟",
-    "Geometry": "📐",
-    "Combinatorics": "🎰",
-    "Probability and Statistics": "🎯",
-    "Greedy": "🤑",
-    "Sorting": "📶",
-    "Merge Sort": "🪡",
-    "Bucket Sort": "🪣",
-    "Radix Sort": "🧺",
-    "Counting Sort": "🗳️",
-    "Tournament Sort": "🏆",
-    "Quickselect": "⚡",
-    "Counting": "🧮",
-    "Prefix Sum": "➕",
-    "Enumeration": "📋",
-    "Simulation": "🎮",
-    "Design": "🏗️",
-    "Binary Search": "🔍",
-    "String Matching": "🔎",
-    "Two Pointers": "↔️",
-    "Sliding Window": "🪟",
-    "Line Sweep": "🧹",
-    "Bit Manipulation": "🎛️",
-    "Bitmask": "🎭",
-    "Depth-First Search": "🤿",
-    "Breadth-First Search": "🌊",
-    "Backtracking": "↩️",
-    "Recursion": "🔁",
-    "Divide and Conquer": "⚔️",
-    "Tree": "🌳",
-    "Binary Tree": "🌲",
-    "Binary Search Tree": "🎄",
-    "N-ary Tree": "🌴",
-    "Trie": "🌿",
-    "Cartesian Tree": "🌱",
-    "Segment Tree": "🎋",
-    "Binary Indexed Tree": "🎍",
-    "Minimum Spanning Tree": "🌉",
-    "Graph": "🕸️",
-    "Graph Theory": "🕸️",
-    "Directed Acyclic Graph": "🪃",
-    "Topological Sort": "🧭",
-    "Shortest Path": "🛣️",
-    "Eulerian Circuit": "🔃",
-    "Strongly Connected Component": "🧷",
-    "Biconnected Component": "🔩",
-    "Union Find": "🤝",
-    "Stack": "🥞",
-    "Monotonic Stack": "🧱",
-    "Queue": "🎟️",
-    "Monotonic Queue": "🚋",
-    "Heap (Priority Queue)": "⛰️",
-    "Linked List": "🔗",
-    "Doubly-Linked List": "⛓️",
-    "Ordered Set": "📚",
-    "Suffix Array": "🪢",
-    "Data Stream": "🚰",
-    "Iterator": "➡️",
-    "Randomized": "🪙",
-    "Game Theory": "🎲",
-    "Reservoir Sampling": "🎣",
-    "Rejection Sampling": "🚫",
-    "Interactive": "💬",
-    "Concurrency": "⚙️",
-    "Database": "🗄️",
-    "Shell": "🐚",
-}
-TAG_FALLBACK = "⚪"
 
 
 def collect(handle, snapshots, cfg):
@@ -236,22 +154,22 @@ def code(value):
     return f"<code>{value}</code>"
 
 
-def tag_chips(pairs, icons=False):
-    """`tag丨count` chips, optionally with the tag's mnemonic icon inside the chip."""
-    if icons:
-        return " ".join(
-            code(
-                theme.TAG_CHIP_ICON.format(
-                    icon=theme.TAG_ICONS.get(tag, theme.TAG_FALLBACK),
-                    tag=esc(tag),
-                    count=n,
-                )
-            )
-            for tag, n in pairs
-        )
+def tag_chips(pairs):
+    """`tag丨count` code chips, for the per-member Tags column."""
     return " ".join(
         code(theme.TAG_CHIP.format(tag=esc(tag), count=n)) for tag, n in pairs
     )
+
+
+def tag_line(pairs):
+    """The weekly tag distribution as one blockquote line, icon per tag."""
+    items = theme.TAG_LINE_JOIN.join(
+        theme.TAG_LINE_ITEM.format(
+            icon=theme.TAG_ICONS.get(tag, theme.TAG_FALLBACK), tag=esc(tag), count=n
+        )
+        for tag, n in pairs
+    )
+    return theme.TAG_LINE.format(items=items)
 
 
 def progress_icon(done, total):
@@ -260,13 +178,6 @@ def progress_icon(done, total):
         return theme.PROGRESS_NONE
     share = done / total
     return next(icon for cut, icon in theme.PROGRESS if share >= cut)
-
-
-def header(text, align="center"):
-    """Renderer stylesheets tend to force text-align on <th>, which beats the align
-    attribute. Wrapping in <div align> survives because nothing styles that div.
-    """
-    return f'<div align="{align}">{text}</div>'
 
 
 def table(headers, aligns, rows, footer=None):
@@ -279,13 +190,12 @@ def table(headers, aligns, rows, footer=None):
     if len(headers) != len(aligns):
         raise ValueError(f"headers({len(headers)}) and aligns({len(aligns)}) differ")
 
-    def cell(tag, value, align, valign=None):
-        attrs = f' align="{align}"' if align else ""
-        attrs += f' valign="{valign}"' if valign else ""
-        return f"<{tag}{attrs}>{value}</{tag}>"
+    def cell(tag, value, align):
+        attr = f' align="{align}"' if align else ""
+        return f"<{tag}{attr}>{value}</{tag}>"
 
     out = ["<table>", "<thead>", "<tr>"]
-    out += [cell("th", h, a) for h, a in zip(headers, aligns)]
+    out += [cell("th", h, "left") for h in headers]  # headers always left
     out += ["</tr>", "</thead>", "<tbody>"]
     for cells in rows:
         out.append("<tr>")
@@ -342,6 +252,7 @@ def build_rows(cfg, snapshots, problems, today):
                 "week_partial": w_partial,
                 "week_score": w_score,
                 "total": cur["solved"]["all"],  # sort tiebreaker only
+                "stale": bool(cur.get("stale")),
                 "spark": spark(counts),
                 "acs": acs,
                 "week_slugs": window_slugs(days_back(today, WEEK), day_events),
@@ -386,6 +297,16 @@ def render(cfg, snapshots, problems):
     w = cfg["score_weights"]
     out = []
 
+    # Anything wrong goes at the very top; the terminal is not the only reader.
+    notes = []
+    if broken:
+        notes.append(theme.WARN_FAILED.format(names=", ".join(n for n, _, _ in broken)))
+    if stale := [r["name"] for r in rows if r["stale"]]:
+        notes.append(theme.WARN_STALE.format(names=", ".join(stale)))
+    if notes:
+        out.append(theme.WARN.format(items=theme.WARN_JOIN.join(notes)))
+        out.append("")
+
     # rows can be empty while broken is not: every fetch failed. Fall through so
     # the failures get reported instead of claiming there are no members.
     if rows:
@@ -396,6 +317,8 @@ def render(cfg, snapshots, problems):
         )
         if idle:
             line += theme.STATUS_PENDING.format(names=", ".join(idle))
+        out.append(theme.HEAD_BOARD)
+        out.append("")
         out.append(line)
         out.append("")
 
@@ -434,7 +357,7 @@ def render(cfg, snapshots, problems):
         )
         out.append(
             table(
-                [header(h.format(window=WINDOW)) for h in theme.RANK_HEADERS],
+                [h.format(window=WINDOW) for h in theme.RANK_HEADERS],
                 theme.RANK_ALIGNS,
                 ranking,
                 f"<sub>{legend}</sub>",
@@ -442,7 +365,11 @@ def render(cfg, snapshots, problems):
         )
         out.append("")
 
-    active = [r for r in rows if r["acs"]]
+    # by today's volume, not leaderboard rank: this table is scoped to today
+    active = sorted(
+        (r for r in rows if r["acs"]),
+        key=lambda r: (-r["today"], -r["today_score"]),
+    )
     if active:
         out.append(theme.HEAD_DETAIL)
         out.append("")
@@ -457,10 +384,7 @@ def render(cfg, snapshots, problems):
             detail.append([code(esc(r["name"])), f"<ol>{items}</ol>", chips])
         out.append(
             table(
-                [
-                    header(h, a)
-                    for h, a in zip(theme.DETAIL_HEADERS, theme.DETAIL_HEAD_ALIGNS)
-                ],
+                theme.DETAIL_HEADERS,
                 theme.DETAIL_ALIGNS,
                 detail,
             )
@@ -471,7 +395,7 @@ def render(cfg, snapshots, problems):
     if tags:
         out.append(theme.HEAD_TAGS)
         out.append("")
-        out.append(tag_chips(tags, icons=True))
+        out.append(tag_line(tags))
         out.append("")
 
     if broken:
