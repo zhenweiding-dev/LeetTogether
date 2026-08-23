@@ -10,7 +10,7 @@
 
 ## 🏆 Leaderboard
 
-💤 **0/2 submitted today** · pending: zhenwei, cheers🍻
+🔥 **1/2 submitted today** · pending: cheers🍻
 
 <table>
 <thead>
@@ -27,10 +27,10 @@
 <tr>
 <td align="center">🥇</td>
 <td align="center"><code>zhenwei</code></td>
-<td align="center"><code>🔥 6+</code></td>
-<td align="center"><code>0 ✅丨0 pts</code></td>
-<td align="center"><code>23 ✅丨<b>63 pts</b></code></td>
-<td align="center"><code>░ ░ ░ ░ ░ ░ ░ ▁ ▁ ▇ ▁ ▃ ▃ ·</code></td>
+<td align="center"><code>🔥 7+</code></td>
+<td align="center"><code>2 ✅丨6 pts</code></td>
+<td align="center"><code>24 ✅丨<b>66 pts</b></code></td>
+<td align="center"><code>░ ░ ░ ░ ░ ░ ░ ▁ ▁ ▇ ▁ ▃ ▁ ▁</code></td>
 </tr>
 <tr>
 <td align="center">🥈</td>
@@ -44,11 +44,30 @@
 </tbody>
 </table>
 
+## 📅 Today's submissions
+
+<table>
+<thead>
+<tr>
+<th align="left">Member</th>
+<th align="left">Problems</th>
+<th align="left">Tags</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center"><code>zhenwei</code></td>
+<td align="left"><ol><li><a href="https://leetcode.com/problems/subsets-ii/"><code>Subsets II</code></a></li><li><a href="https://leetcode.com/problems/subsets/"><code>Subsets</code></a></li></ol></td>
+<td align="left"><code>Array丨2</code> <code>Backtracking丨2</code> <code>Bit Manipulation丨2</code></td>
+</tr>
+</tbody>
+</table>
+
 ## 🏷️ Tags this week
 
-> 🌳 Tree **19** 丨 🔢 Array **16** 丨 🌲 Binary Tree **16** 丨 🤿 Depth-First Search **8** 丨 🗂️ Hash Table **8** 丨 🎄 Binary Search Tree **7** 丨 ⚔️ Divide and Conquer **7** 丨 🌊 Breadth-First Search **6** 丨 ↩️ Backtracking **5** 丨 🥞 Stack **4** 丨 📶 Sorting **3** 丨 🔍 Binary Search **2** 丨 🎛️ Bit Manipulation **2** 丨 🌱 Cartesian Tree **2** 丨 ⛰️ Heap (Priority Queue) **2** 丨 🧱 Monotonic Stack **2** 丨 ⚡ Quickselect **2** 丨 🧵 String **2** 丨 🪣 Bucket Sort **1** 丨 🧮 Counting **1** 丨 🕸️ Graph Theory **1** 丨 🧭 Topological Sort **1** 丨 🌿 Trie **1**
+> 🌳 Tree **19** 丨 🔢 Array **17** 丨 🌲 Binary Tree **16** 丨 🤿 Depth-First Search **8** 丨 🗂️ Hash Table **8** 丨 🎄 Binary Search Tree **7** 丨 ⚔️ Divide and Conquer **7** 丨 ↩️ Backtracking **6** 丨 🌊 Breadth-First Search **6** 丨 🥞 Stack **4** 丨 🎛️ Bit Manipulation **3** 丨 📶 Sorting **3** 丨 🔍 Binary Search **2** 丨 🌱 Cartesian Tree **2** 丨 ⛰️ Heap (Priority Queue) **2** 丨 🧱 Monotonic Stack **2** 丨 ⚡ Quickselect **2** 丨 🧵 String **2** 丨 🪣 Bucket Sort **1** 丨 🧮 Counting **1** 丨 🕸️ Graph Theory **1** 丨 🧭 Topological Sort **1** 丨 🌿 Trie **1**
 
-<sub>🕒 Updated 2026-08-23 00:21 (America/Los_Angeles) · 3 day(s) of history</sub>
+<sub>🕒 Updated 2026-08-23 12:12 (America/Los_Angeles) · 3 day(s) of history</sub>
 
 <!-- LEADERBOARD:END -->
 
