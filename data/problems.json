@@ -126,6 +126,16 @@
       "Greedy"
     ]
   },
+  "kth-largest-element-in-an-array": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Quickselect"
+    ]
+  },
   "kth-smallest-element-in-a-bst": {
     "difficulty": "Medium",
     "tags": [
@@ -224,6 +234,14 @@
     ]
   },
   "subsets": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Backtracking",
+      "Bit Manipulation"
+    ]
+  },
+  "subsets-ii": {
     "difficulty": "Medium",
     "tags": [
       "Array",
