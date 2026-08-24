@@ -4,8 +4,7 @@ on:
   schedule:
     # GitHub cron runs on UTC and can be delayed by up to an hour at peak.
     # Times below are converted for California (PDT = UTC-7, PST = UTC-8).
-    - cron: "0 19 * * *"   # ~12:00 PDT, so the board is not stale all day
-    - cron: "50 6 * * *"   # ~23:50 PDT, catches the tail of the local day
+    - cron: "0 * * * *"    # every hour (UTC)
   workflow_dispatch:        # or trigger it by hand from the Actions tab
 
 permissions:
@@ -36,6 +35,6 @@ jobs:
           if git diff --cached --quiet; then
             echo "No changes, skipping commit"
           else
-            git commit -m "chore: progress snapshot $(date -u +%Y-%m-%d)"
+            git commit -m "chore: progress snapshot $(date -u +%Y-%m-%dT%H:%M:%SZ)"
             git push
           fi
