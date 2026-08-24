@@ -33,6 +33,13 @@
       "Binary Tree"
     ]
   },
+  "combination-sum-ii": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Backtracking"
+    ]
+  },
   "combinations": {
     "difficulty": "Medium",
     "tags": [
@@ -104,6 +111,13 @@
     ]
   },
   "find-first-and-last-position-of-element-in-sorted-array": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ]
+  },
+  "find-minimum-in-rotated-sorted-array": {
     "difficulty": "Medium",
     "tags": [
       "Array",
@@ -216,6 +230,14 @@
     "tags": [
       "Array",
       "Backtracking"
+    ]
+  },
+  "permutations-ii": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Backtracking",
+      "Sorting"
     ]
   },
   "search-in-a-binary-search-tree": {
