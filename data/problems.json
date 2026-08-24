@@ -102,6 +102,14 @@
       "Topological Sort"
     ]
   },
+  "daily-temperatures": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
   "delete-node-in-a-bst": {
     "difficulty": "Medium",
     "tags": [
