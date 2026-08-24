@@ -260,7 +260,11 @@ def build_rows(cfg, snapshots, problems, today):
             }
         )
 
-    rows.sort(key=lambda r: (-r["week_score"], -r["streak"], -r["total"]))
+    # Today's points decide the rank; the rest only break ties, which happens a
+    # lot early in the day when nobody has submitted yet.
+    rows.sort(
+        key=lambda r: (-r["today_score"], -r["week_score"], -r["streak"], -r["total"])
+    )
     return rows, broken
 
 

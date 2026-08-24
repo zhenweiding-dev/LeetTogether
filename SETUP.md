@@ -4,7 +4,7 @@
 
 LeetTogether keeps a small group's LeetCode progress in a single README. No server,
 no database, no login, no API key — a GitHub Action reads everyone's public profile
-twice a day and rewrites the table on the front page.
+every hour and rewrites the table on the front page.
 
 ## Quick start
 
@@ -29,7 +29,7 @@ twice a day and rewrites the table on the front page.
 4. `git push`
 
 That's the whole setup. Python standard library only, nothing to install. The
-Action takes over from there, twice a day.
+Action takes over from there per hour.
 
 ## Adding members
 
@@ -80,11 +80,12 @@ we have no data on. Two things the legend does not spell out:
 - `📅 Today's submissions` is ordered by today's volume, so it does not follow the
   leaderboard.
 
-Ranking is **this week's points**, not lifetime totals, so someone in their second
-week can beat someone with 900 problems solved. Points are difficulty-weighted
-(Easy 1 / Medium 3 / Hard 6) so grinding Easies doesn't move you up. Solving the
-same problem twice in one day counts once; coming back to it another day counts
-again, because revisiting is practice.
+Ranking is **today's points**, so it resets every morning and nobody is ever out of
+reach — lifetime totals never enter into it. Ties fall back to this week's points,
+then the streak. Points are difficulty-weighted (Easy 1 / Medium 3 / Hard 6) so
+grinding Easies doesn't move you up. Solving the same problem twice in one day
+counts once; coming back to it another day counts again, because revisiting is
+practice.
 
 ## How it works
 
@@ -139,8 +140,8 @@ skipped.
 - Under **Settings → Actions → General**, new repos default the token to read-only.
   The workflow already asks for `contents: write` — leave that block in place or the
   daily commit fails with a 403.
-- The Action runs at ~12:00 and ~23:50 local time. GitHub's cron is UTC and can be
-  delayed by up to an hour at peak.
+- The Action runs hourly, so the daily ranking moves through the day. GitHub's cron
+  can be delayed by up to an hour at peak, and skips runs when the queue is busy.
 - Scheduled workflows are disabled after 60 days of repository inactivity. GitHub
   emails first, and one manual run brings it back.
 - Works with `leetcode.com`. `leetcode.cn` is a separate account system with a
