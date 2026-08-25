@@ -28,9 +28,9 @@
 <td align="center">🥇</td>
 <td align="center"><code>xiao</code></td>
 <td align="center"><code>🔥 4+</code></td>
-<td align="center"><code>7 ✅丨21 pts</code></td>
-<td align="center"><code>≥27 ✅丨<b>≥75 pts</b></code></td>
-<td align="center"><code>░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ▇ ▁ ▅ ▅</code></td>
+<td align="center"><code>11 ✅丨31 pts</code></td>
+<td align="center"><code>≥31 ✅丨<b>≥85 pts</b></code></td>
+<td align="center"><code>░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ▇ ▁ ▅ ▇</code></td>
 </tr>
 <tr>
 <td align="center">🥈</td>
@@ -73,8 +73,8 @@
 <tbody>
 <tr>
 <td align="center"><code>xiao</code></td>
-<td align="left"><ol><li><a href="https://leetcode.com/problems/moving-stones-until-consecutive-ii/"><code>Moving Stones Until Consecutive II</code></a></li><li><a href="https://leetcode.com/problems/grumpy-bookstore-owner/"><code>Grumpy Bookstore Owner</code></a></li><li><a href="https://leetcode.com/problems/swap-for-longest-repeated-character-substring/"><code>Swap For Longest Repeated Character Substring</code></a></li><li><a href="https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/"><code>Maximum Number of Occurrences of a Substring</code></a></li><li><a href="https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/"><code>Number of Substrings Containing All Three Characters</code></a></li><li><a href="https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/"><code>Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit</code></a></li><li><a href="https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/"><code>Find Two Non-overlapping Sub-arrays Each With Target Sum</code></a></li></ol></td>
-<td align="left"><code>Sliding Window丨7</code> <code>Array丨4</code> <code>Hash Table丨4</code> <code>String丨3</code> <code>Binary Search丨1</code> <code>Dynamic Programming丨1</code> <code>Heap (Priority Queue)丨1</code> <code>Math丨1</code> <code>Monotonic Queue丨1</code> <code>Ordered Set丨1</code> <code>Queue丨1</code> <code>Sorting丨1</code></td>
+<td align="left"><ol><li><a href="https://leetcode.com/problems/moving-stones-until-consecutive-ii/"><code>Moving Stones Until Consecutive II</code></a></li><li><a href="https://leetcode.com/problems/grumpy-bookstore-owner/"><code>Grumpy Bookstore Owner</code></a></li><li><a href="https://leetcode.com/problems/swap-for-longest-repeated-character-substring/"><code>Swap For Longest Repeated Character Substring</code></a></li><li><a href="https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/"><code>Maximum Number of Occurrences of a Substring</code></a></li><li><a href="https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/"><code>Number of Substrings Containing All Three Characters</code></a></li><li><a href="https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/"><code>Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit</code></a></li><li><a href="https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/"><code>Find Two Non-overlapping Sub-arrays Each With Target Sum</code></a></li><li><a href="https://leetcode.com/problems/frequency-of-the-most-frequent-element/"><code>Frequency of the Most Frequent Element</code></a></li><li><a href="https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/"><code>Longest Substring Of All Vowels in Order</code></a></li><li><a href="https://leetcode.com/problems/jump-game-vii/"><code>Jump Game VII</code></a></li><li><a href="https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/"><code>Substrings of Size Three with Distinct Characters</code></a></li></ol></td>
+<td align="left"><code>Sliding Window丨11</code> <code>String丨6</code> <code>Array丨5</code> <code>Hash Table丨5</code> <code>Binary Search丨2</code> <code>Dynamic Programming丨2</code> <code>Prefix Sum丨2</code> <code>Sorting丨2</code> <code>Counting丨1</code> <code>Greedy丨1</code> <code>Heap (Priority Queue)丨1</code> <code>Math丨1</code> <code>Monotonic Queue丨1</code> <code>Ordered Set丨1</code> <code>Queue丨1</code></td>
 </tr>
 <tr>
 <td align="center"><code>cheers🍻</code></td>
@@ -86,9 +86,9 @@
 
 ## 🏷️ Tags this week
 
-> 🔢 Array **41** 丨 🌳 Tree **16** 丨 ↩️ Backtracking **15** 丨 🗂️ Hash Table **15** 丨 🌲 Binary Tree **13** 丨 📶 Sorting **10** 丨 🧵 String **9** 丨 🤿 Depth-First Search **8** 丨 🪟 Sliding Window **8** 丨 🎄 Binary Search Tree **7** 丨 🌊 Breadth-First Search **7** 丨 🔍 Binary Search **6** 丨 🧩 Dynamic Programming **5** 丨 ⛰️ Heap (Priority Queue) **5** 丨 🎛️ Bit Manipulation **4** 丨 ⚔️ Divide and Conquer **4** 丨 🤑 Greedy **4** 丨 🧇 Matrix **4** 丨 🥞 Stack **4** 丨 ➗ Math **2** 丨 🧱 Monotonic Stack **2** 丨 ➕ Prefix Sum **2** 丨 ⚡ Quickselect **2** 丨 🎮 Simulation **2** 丨 🎍 Binary Indexed Tree **1** 丨 🪆 Bracket Sequences **1** 丨 🪣 Bucket Sort **1** 丨 🌱 Cartesian Tree **1** 丨 🧮 Counting **1** 丨 🕸️ Graph Theory **1** 丨 🚋 Monotonic Queue **1** 丨 📚 Ordered Set **1** 丨 🎟️ Queue **1** 丨 🎋 Segment Tree **1** 丨 🔎 String Matching **1** 丨 🧭 Topological Sort **1**
+> 🔢 Array **42** 丨 🗂️ Hash Table **16** 丨 🌳 Tree **16** 丨 ↩️ Backtracking **15** 丨 🌲 Binary Tree **13** 丨 🪟 Sliding Window **12** 丨 🧵 String **12** 丨 📶 Sorting **11** 丨 🤿 Depth-First Search **8** 丨 🔍 Binary Search **7** 丨 🎄 Binary Search Tree **7** 丨 🌊 Breadth-First Search **7** 丨 🧩 Dynamic Programming **6** 丨 🤑 Greedy **5** 丨 ⛰️ Heap (Priority Queue) **5** 丨 🎛️ Bit Manipulation **4** 丨 ⚔️ Divide and Conquer **4** 丨 🧇 Matrix **4** 丨 ➕ Prefix Sum **4** 丨 🥞 Stack **4** 丨 🧮 Counting **2** 丨 ➗ Math **2** 丨 🧱 Monotonic Stack **2** 丨 ⚡ Quickselect **2** 丨 🎮 Simulation **2** 丨 🎍 Binary Indexed Tree **1** 丨 🪆 Bracket Sequences **1** 丨 🪣 Bucket Sort **1** 丨 🌱 Cartesian Tree **1** 丨 🕸️ Graph Theory **1** 丨 🚋 Monotonic Queue **1** 丨 📚 Ordered Set **1** 丨 🎟️ Queue **1** 丨 🎋 Segment Tree **1** 丨 🔎 String Matching **1** 丨 🧭 Topological Sort **1**
 
-<sub>🕒 Updated 2026-08-25 04:21 (America/Los_Angeles) · 5 day(s) of history</sub>
+<sub>🕒 Updated 2026-08-25 05:34 (America/Los_Angeles) · 5 day(s) of history</sub>
 
 <!-- LEADERBOARD:END -->
 

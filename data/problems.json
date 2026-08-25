@@ -246,6 +246,17 @@
       "Sliding Window"
     ]
   },
+  "frequency-of-the-most-frequent-element": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Greedy",
+      "Sliding Window",
+      "Sorting",
+      "Prefix Sum"
+    ]
+  },
   "generate-parentheses": {
     "difficulty": "Medium",
     "tags": [
@@ -276,6 +287,15 @@
       "Array",
       "Dynamic Programming",
       "Greedy"
+    ]
+  },
+  "jump-game-vii": {
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Sliding Window",
+      "Prefix Sum"
     ]
   },
   "koko-eating-bananas": {
@@ -344,6 +364,13 @@
     "difficulty": "Medium",
     "tags": [
       "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  "longest-substring-of-all-vowels-in-order": {
+    "difficulty": "Medium",
+    "tags": [
       "String",
       "Sliding Window"
     ]
@@ -547,6 +574,15 @@
       "Array",
       "Backtracking",
       "Bit Manipulation"
+    ]
+  },
+  "substrings-of-size-three-with-distinct-characters": {
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window",
+      "Counting"
     ]
   },
   "swap-for-longest-repeated-character-substring": {
