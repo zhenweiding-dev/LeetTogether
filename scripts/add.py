@@ -2,13 +2,15 @@
 
     python3 scripts/add.py                       # interactive
     python3 scripts/add.py leetcode.com/u/alice/ # or pass it in
+
+Touches config.json and nothing else. The board and the snapshots are left to the
+Action, so a local run can never collide with it on a generated file.
 """
 
 import re
 import sys
 
 import lc
-import update
 from common import load_config, save_config
 
 
@@ -92,8 +94,9 @@ def main():
         print("No changes.")
         return
 
-    print(f"Added {len(added)}: {', '.join(added)}\n")
-    update.main()  # fetch and refresh straight away, no second command needed
+    print(f"Added {len(added)}: {', '.join(added)}")
+    print("\nOnly config.json changed. Commit and push it — the hourly Action")
+    print("rebuilds the board, or `gh workflow run daily.yml` to do it now.")
 
 
 if __name__ == "__main__":

@@ -20,13 +20,13 @@ every hour and rewrites the table on the front page.
    Then set `timezone` in `config.json` to your
    [IANA name](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
 
-3. Add everyone. It refreshes the board before exiting:
+3. Add everyone. This only writes `config.json`:
 
    ```bash
    python3 scripts/add.py
    ```
 
-4. `git push`
+4. `git push` — the hourly Action builds the board from there
 
 That's the whole setup. Python standard library only, nothing to install. The
 Action takes over from there per hour.
@@ -128,7 +128,7 @@ skipped.
 | `data/snapshots/<date>.json` | one snapshot per day; re-running the same day overwrites |
 | `data/problems.json` | slug → difficulty and tags, cached forever |
 | `scripts/clear.py` | wipe the inherited data before the first run |
-| `scripts/add.py` | add members, then refresh |
+| `scripts/add.py` | add members to `config.json`, nothing else |
 | `scripts/update.py` | fetch, snapshot, rewrite the board |
 | `scripts/theme.py` | every label, emoji and tag icon the board renders |
 | `scripts/board.py` | metrics and rendering |
