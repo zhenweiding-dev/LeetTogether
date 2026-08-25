@@ -10,7 +10,7 @@
 
 ## 🏆 Leaderboard
 
-🔥 **3/4 submitted today** · pending: Glo
+🎉 **4/4 submitted today**
 
 <table>
 <thead>
@@ -34,27 +34,27 @@
 </tr>
 <tr>
 <td align="center">🥈</td>
-<td align="center"><code>zhenwei</code></td>
+<td align="center"><code>Glo</code> 🔺</td>
+<td align="center"><code>🔥 1</code></td>
+<td align="center"><code>2 ✅丨4 pts</code></td>
+<td align="center"><code>2 ✅丨<b>4 pts</b></code></td>
+<td align="center"><code>· · · · · · · · · · · · · ▁</code></td>
+</tr>
+<tr>
+<td align="center">🥉</td>
+<td align="center"><code>zhenwei</code> 🔻</td>
 <td align="center"><code>🔥 9+</code></td>
 <td align="center"><code>1 ✅丨3 pts</code></td>
 <td align="center"><code>29 ✅丨<b>81 pts</b></code></td>
 <td align="center"><code>░ ░ ░ ░ ░ ▁ ▁ ▇ ▁ ▃ ▁ ▅ ▃ ▁</code></td>
 </tr>
 <tr>
-<td align="center">🥉</td>
-<td align="center"><code>cheers🍻</code></td>
+<td align="center"><code>4</code></td>
+<td align="center"><code>cheers🍻</code> 🔻</td>
 <td align="center"><code>🔥 2</code></td>
 <td align="center"><code>1 ✅丨3 pts</code></td>
 <td align="center"><code>10 ✅丨<b>26 pts</b></code></td>
 <td align="center"><code>· · · · · · ▁ ▃ · ▁ ▁ · ▁ ▁</code></td>
-</tr>
-<tr>
-<td align="center"><code>4</code></td>
-<td align="center"><code>Glo</code></td>
-<td align="center"><code>🔥 0</code></td>
-<td align="center"><code>0 ✅丨0 pts</code></td>
-<td align="center"><code>0 ✅丨<b>0 pts</b></code></td>
-<td align="center"><code>· · · · · · · · · · · · · ·</code></td>
 </tr>
 <tr><td colspan="6"><sub>🔺🔻 rank change since yesterday · <b>+</b> and <b>≥</b> mean at least<br>💡 <b>Scoring</b> Easy ×1 · Medium ×3 · Hard ×6 — <b>✅</b> problems solved, <b>pts</b> the same weighted by difficulty<br>📊 <b>Last 14 days</b> <code>·</code> no submission · <code>░</code> no data</sub></td></tr>
 </tbody>
@@ -77,6 +77,11 @@
 <td align="left"><code>Sliding Window丨17</code> <code>Array丨11</code> <code>Hash Table丨8</code> <code>String丨6</code> <code>Binary Search丨3</code> <code>Dynamic Programming丨2</code> <code>Heap (Priority Queue)丨2</code> <code>Monotonic Queue丨2</code> <code>Ordered Set丨2</code> <code>Prefix Sum丨2</code> <code>Queue丨2</code> <code>Sorting丨2</code> <code>Counting丨1</code> <code>Greedy丨1</code> <code>Math丨1</code></td>
 </tr>
 <tr>
+<td align="center"><code>Glo</code></td>
+<td align="left"><ol><li><a href="https://leetcode.com/problems/valid-parentheses/"><code>Valid Parentheses</code></a></li><li><a href="https://leetcode.com/problems/min-stack/"><code>Min Stack</code></a></li></ol></td>
+<td align="left"><code>Stack丨2</code> <code>Bracket Sequences丨1</code> <code>Design丨1</code> <code>String丨1</code></td>
+</tr>
+<tr>
 <td align="center"><code>zhenwei</code></td>
 <td align="left"><ol><li><a href="https://leetcode.com/problems/generate-parentheses/"><code>Generate Parentheses</code></a></li></ol></td>
 <td align="left"><code>Backtracking丨1</code> <code>Bracket Sequences丨1</code> <code>Dynamic Programming丨1</code> <code>String丨1</code></td>
@@ -91,9 +96,9 @@
 
 ## 🏷️ Tags this week
 
-> 🔢 Array **48** 丨 🗂️ Hash Table **19** 丨 🪟 Sliding Window **18** 丨 ↩️ Backtracking **16** 丨 🌳 Tree **16** 丨 🌲 Binary Tree **13** 丨 🧵 String **13** 丨 📶 Sorting **11** 丨 🔍 Binary Search **8** 丨 🤿 Depth-First Search **8** 丨 🎄 Binary Search Tree **7** 丨 🌊 Breadth-First Search **7** 丨 🧩 Dynamic Programming **7** 丨 ⛰️ Heap (Priority Queue) **6** 丨 🤑 Greedy **5** 丨 🎛️ Bit Manipulation **4** 丨 ⚔️ Divide and Conquer **4** 丨 🧇 Matrix **4** 丨 ➕ Prefix Sum **4** 丨 🥞 Stack **4** 丨 🪆 Bracket Sequences **2** 丨 🧮 Counting **2** 丨 ➗ Math **2** 丨 🚋 Monotonic Queue **2** 丨 🧱 Monotonic Stack **2** 丨 📚 Ordered Set **2** 丨 🎟️ Queue **2** 丨 ⚡ Quickselect **2** 丨 🎮 Simulation **2** 丨 🎍 Binary Indexed Tree **1** 丨 🪣 Bucket Sort **1** 丨 🌱 Cartesian Tree **1** 丨 🕸️ Graph Theory **1** 丨 🎋 Segment Tree **1** 丨 🔎 String Matching **1** 丨 🧭 Topological Sort **1**
+> 🔢 Array **48** 丨 🗂️ Hash Table **19** 丨 🪟 Sliding Window **18** 丨 ↩️ Backtracking **16** 丨 🌳 Tree **16** 丨 🧵 String **14** 丨 🌲 Binary Tree **13** 丨 📶 Sorting **11** 丨 🔍 Binary Search **8** 丨 🤿 Depth-First Search **8** 丨 🎄 Binary Search Tree **7** 丨 🌊 Breadth-First Search **7** 丨 🧩 Dynamic Programming **7** 丨 ⛰️ Heap (Priority Queue) **6** 丨 🥞 Stack **6** 丨 🤑 Greedy **5** 丨 🎛️ Bit Manipulation **4** 丨 ⚔️ Divide and Conquer **4** 丨 🧇 Matrix **4** 丨 ➕ Prefix Sum **4** 丨 🪆 Bracket Sequences **3** 丨 🧮 Counting **2** 丨 ➗ Math **2** 丨 🚋 Monotonic Queue **2** 丨 🧱 Monotonic Stack **2** 丨 📚 Ordered Set **2** 丨 🎟️ Queue **2** 丨 ⚡ Quickselect **2** 丨 🎮 Simulation **2** 丨 🎍 Binary Indexed Tree **1** 丨 🪣 Bucket Sort **1** 丨 🌱 Cartesian Tree **1** 丨 🏗️ Design **1** 丨 🕸️ Graph Theory **1** 丨 🎋 Segment Tree **1** 丨 🔎 String Matching **1** 丨 🧭 Topological Sort **1**
 
-<sub>🕒 Updated 2026-08-25 14:20 (America/Los_Angeles) · 5 day(s) of history</sub>
+<sub>🕒 Updated 2026-08-25 15:19 (America/Los_Angeles) · 5 day(s) of history</sub>
 
 <!-- LEADERBOARD:END -->
 
