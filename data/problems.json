@@ -363,6 +363,14 @@
       "Cartesian Tree"
     ]
   },
+  "maximum-number-of-occurrences-of-a-substring": {
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
   "maximum-number-of-points-with-cost": {
     "difficulty": "Medium",
     "tags": [
@@ -448,6 +456,14 @@
       "Math",
       "Dynamic Programming",
       "Prefix Sum"
+    ]
+  },
+  "number-of-substrings-containing-all-three-characters": {
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
     ]
   },
   "permutations": {

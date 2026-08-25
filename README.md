@@ -28,9 +28,9 @@
 <td align="center">🥇</td>
 <td align="center"><code>xiao</code></td>
 <td align="center"><code>🔥 4+</code></td>
-<td align="center"><code>3 ✅丨9 pts</code></td>
-<td align="center"><code>≥23 ✅丨<b>≥63 pts</b></code></td>
-<td align="center"><code>░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ▇ ▁ ▅ ▃</code></td>
+<td align="center"><code>5 ✅丨15 pts</code></td>
+<td align="center"><code>≥25 ✅丨<b>≥69 pts</b></code></td>
+<td align="center"><code>░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ▇ ▁ ▅ ▅</code></td>
 </tr>
 <tr>
 <td align="center">🥈</td>
@@ -73,8 +73,8 @@
 <tbody>
 <tr>
 <td align="center"><code>xiao</code></td>
-<td align="left"><ol><li><a href="https://leetcode.com/problems/moving-stones-until-consecutive-ii/"><code>Moving Stones Until Consecutive II</code></a></li><li><a href="https://leetcode.com/problems/grumpy-bookstore-owner/"><code>Grumpy Bookstore Owner</code></a></li><li><a href="https://leetcode.com/problems/swap-for-longest-repeated-character-substring/"><code>Swap For Longest Repeated Character Substring</code></a></li></ol></td>
-<td align="left"><code>Sliding Window丨3</code> <code>Array丨2</code> <code>Hash Table丨1</code> <code>Math丨1</code> <code>Sorting丨1</code> <code>String丨1</code></td>
+<td align="left"><ol><li><a href="https://leetcode.com/problems/moving-stones-until-consecutive-ii/"><code>Moving Stones Until Consecutive II</code></a></li><li><a href="https://leetcode.com/problems/grumpy-bookstore-owner/"><code>Grumpy Bookstore Owner</code></a></li><li><a href="https://leetcode.com/problems/swap-for-longest-repeated-character-substring/"><code>Swap For Longest Repeated Character Substring</code></a></li><li><a href="https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/"><code>Maximum Number of Occurrences of a Substring</code></a></li><li><a href="https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/"><code>Number of Substrings Containing All Three Characters</code></a></li></ol></td>
+<td align="left"><code>Sliding Window丨5</code> <code>Hash Table丨3</code> <code>String丨3</code> <code>Array丨2</code> <code>Math丨1</code> <code>Sorting丨1</code></td>
 </tr>
 <tr>
 <td align="center"><code>cheers🍻</code></td>
@@ -86,9 +86,9 @@
 
 ## 🏷️ Tags this week
 
-> 🔢 Array **39** 丨 🌳 Tree **16** 丨 ↩️ Backtracking **15** 丨 🌲 Binary Tree **13** 丨 🗂️ Hash Table **12** 丨 📶 Sorting **10** 丨 🤿 Depth-First Search **8** 丨 🎄 Binary Search Tree **7** 丨 🌊 Breadth-First Search **7** 丨 🧵 String **7** 丨 🔍 Binary Search **5** 丨 🎛️ Bit Manipulation **4** 丨 ⚔️ Divide and Conquer **4** 丨 🧩 Dynamic Programming **4** 丨 🤑 Greedy **4** 丨 ⛰️ Heap (Priority Queue) **4** 丨 🧇 Matrix **4** 丨 🪟 Sliding Window **4** 丨 🥞 Stack **4** 丨 ➗ Math **2** 丨 🧱 Monotonic Stack **2** 丨 ➕ Prefix Sum **2** 丨 ⚡ Quickselect **2** 丨 🎮 Simulation **2** 丨 🎍 Binary Indexed Tree **1** 丨 🪆 Bracket Sequences **1** 丨 🪣 Bucket Sort **1** 丨 🌱 Cartesian Tree **1** 丨 🧮 Counting **1** 丨 🕸️ Graph Theory **1** 丨 🎋 Segment Tree **1** 丨 🔎 String Matching **1** 丨 🧭 Topological Sort **1**
+> 🔢 Array **39** 丨 🌳 Tree **16** 丨 ↩️ Backtracking **15** 丨 🗂️ Hash Table **14** 丨 🌲 Binary Tree **13** 丨 📶 Sorting **10** 丨 🧵 String **9** 丨 🤿 Depth-First Search **8** 丨 🎄 Binary Search Tree **7** 丨 🌊 Breadth-First Search **7** 丨 🪟 Sliding Window **6** 丨 🔍 Binary Search **5** 丨 🎛️ Bit Manipulation **4** 丨 ⚔️ Divide and Conquer **4** 丨 🧩 Dynamic Programming **4** 丨 🤑 Greedy **4** 丨 ⛰️ Heap (Priority Queue) **4** 丨 🧇 Matrix **4** 丨 🥞 Stack **4** 丨 ➗ Math **2** 丨 🧱 Monotonic Stack **2** 丨 ➕ Prefix Sum **2** 丨 ⚡ Quickselect **2** 丨 🎮 Simulation **2** 丨 🎍 Binary Indexed Tree **1** 丨 🪆 Bracket Sequences **1** 丨 🪣 Bucket Sort **1** 丨 🌱 Cartesian Tree **1** 丨 🧮 Counting **1** 丨 🕸️ Graph Theory **1** 丨 🎋 Segment Tree **1** 丨 🔎 String Matching **1** 丨 🧭 Topological Sort **1**
 
-<sub>🕒 Updated 2026-08-25 02:28 (America/Los_Angeles) · 5 day(s) of history</sub>
+<sub>🕒 Updated 2026-08-25 03:24 (America/Los_Angeles) · 5 day(s) of history</sub>
 
 <!-- LEADERBOARD:END -->
 
