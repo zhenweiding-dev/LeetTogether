@@ -91,9 +91,9 @@
 
 ## 🏷️ Tags this week
 
-> 🔢 Array **41** 丨 🌳 Tree **18** 丨 ↩️ Backtracking **15** 丨 🌲 Binary Tree **15** 丨 🗂️ Hash Table **13** 丨 📶 Sorting **9** 丨 🤿 Depth-First Search **8** 丨 🎄 Binary Search Tree **7** 丨 🌊 Breadth-First Search **7** 丨 ⚔️ Divide and Conquer **6** 丨 🧵 String **6** 丨 🔍 Binary Search **5** 丨 🎛️ Bit Manipulation **4** 丨 🧩 Dynamic Programming **4** 丨 🤑 Greedy **4** 丨 ⛰️ Heap (Priority Queue) **4** 丨 ⚪ Matrix **4** 丨 🥞 Stack **4** 丨 🧱 Monotonic Stack **2** 丨 ➕ Prefix Sum **2** 丨 ⚡ Quickselect **2** 丨 🎮 Simulation **2** 丨 🎍 Binary Indexed Tree **1** 丨 ⚪ Bracket Sequences **1** 丨 🪣 Bucket Sort **1** 丨 🌱 Cartesian Tree **1** 丨 🧮 Counting **1** 丨 🕸️ Graph Theory **1** 丨 ➗ Math **1** 丨 🎋 Segment Tree **1** 丨 🔎 String Matching **1** 丨 🧭 Topological Sort **1** 丨 🌿 Trie **1**
+> 🔢 Array **41** 丨 🌳 Tree **18** 丨 ↩️ Backtracking **15** 丨 🌲 Binary Tree **15** 丨 🗂️ Hash Table **13** 丨 📶 Sorting **9** 丨 🤿 Depth-First Search **8** 丨 🎄 Binary Search Tree **7** 丨 🌊 Breadth-First Search **7** 丨 ⚔️ Divide and Conquer **6** 丨 🧵 String **6** 丨 🔍 Binary Search **5** 丨 🎛️ Bit Manipulation **4** 丨 🧩 Dynamic Programming **4** 丨 🤑 Greedy **4** 丨 ⛰️ Heap (Priority Queue) **4** 丨 🧇 Matrix **4** 丨 🥞 Stack **4** 丨 🧱 Monotonic Stack **2** 丨 ➕ Prefix Sum **2** 丨 ⚡ Quickselect **2** 丨 🎮 Simulation **2** 丨 🎍 Binary Indexed Tree **1** 丨 🪆 Bracket Sequences **1** 丨 🪣 Bucket Sort **1** 丨 🌱 Cartesian Tree **1** 丨 🧮 Counting **1** 丨 🕸️ Graph Theory **1** 丨 ➗ Math **1** 丨 🎋 Segment Tree **1** 丨 🔎 String Matching **1** 丨 🧭 Topological Sort **1** 丨 🌿 Trie **1**
 
-<sub>🕒 Updated 2026-08-24 23:26 (America/Los_Angeles) · 4 day(s) of history</sub>
+<sub>🕒 Updated 2026-08-24 23:39 (America/Los_Angeles) · 4 day(s) of history</sub>
 
 <!-- LEADERBOARD:END -->
 
