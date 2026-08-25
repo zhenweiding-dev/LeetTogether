@@ -1,8 +1,22 @@
 {
   "timezone": "America/Los_Angeles",
-  "score_weights": { "easy": 1, "medium": 3, "hard": 6 },
+  "score_weights": {
+    "easy": 1,
+    "medium": 3,
+    "hard": 6
+  },
   "members": [
-    { "handle": "m1", "name": "zhenwei" },
-    { "handle": "m2", "name": "cheers🍻" }
+    {
+      "handle": "m1",
+      "name": "zhenwei"
+    },
+    {
+      "handle": "m2",
+      "name": "cheers🍻"
+    },
+    {
+      "handle": "m3",
+      "name": "Glo"
+    }
   ]
 }
