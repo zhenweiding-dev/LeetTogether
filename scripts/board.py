@@ -180,7 +180,7 @@ def progress_icon(done, total):
     return next(icon for cut, icon in theme.PROGRESS if share >= cut)
 
 
-def table(headers, aligns, rows, footer=None):
+def table(headers, aligns, rows, footer=None, widths=None):
     """Render an HTML table.
 
     HTML rather than a Markdown pipe table, for the two things pipe tables cannot
@@ -190,12 +190,17 @@ def table(headers, aligns, rows, footer=None):
     if len(headers) != len(aligns):
         raise ValueError(f"headers({len(headers)}) and aligns({len(aligns)}) differ")
 
-    def cell(tag, value, align):
-        attr = f' align="{align}"' if align else ""
-        return f"<{tag}{attr}>{value}</{tag}>"
+    def cell(tag, value, align, width=None):
+        attrs = f' align="{align}"' if align else ""
+        attrs += f' width="{width}"' if width else ""
+        return f"<{tag}{attrs}>{value}</{tag}>"
 
     out = ["<table>", "<thead>", "<tr>"]
-    out += [cell("th", h, "left") for h in headers]  # headers always left
+    # headers always left; width on the header is enough to pin the column
+    out += [
+        cell("th", h, "left", w)
+        for h, w in zip(headers, widths or [None] * len(headers))
+    ]
     out += ["</tr>", "</thead>", "<tbody>"]
     for cells in rows:
         out.append("<tr>")
@@ -391,6 +396,7 @@ def render(cfg, snapshots, problems):
                 theme.DETAIL_HEADERS,
                 theme.DETAIL_ALIGNS,
                 detail,
+                widths=theme.DETAIL_WIDTHS,
             )
         )
         out.append("")

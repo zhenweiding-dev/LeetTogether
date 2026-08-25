@@ -64,6 +64,9 @@ LEGEND = (
 HEAD_DETAIL = "## 📅 Today's submissions"
 DETAIL_HEADERS = ["Member", "Problems", "Tags"]
 DETAIL_ALIGNS = ["center", "left", "left"]  # wrapping cells read better left
+# Left to itself the browser hands Tags the most room, because a row of inline
+# chips asks for more width than a stack of list items. Pin the split instead.
+DETAIL_WIDTHS = ["8%", "57%", "35%"]
 
 # --- weekly tags ------------------------------------------------------------
 
