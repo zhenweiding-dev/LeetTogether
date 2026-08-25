@@ -402,6 +402,15 @@
       "Matrix"
     ]
   },
+  "moving-stones-until-consecutive-ii": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Sliding Window",
+      "Sorting"
+    ]
+  },
   "n-ary-tree-level-order-traversal": {
     "difficulty": "Medium",
     "tags": [

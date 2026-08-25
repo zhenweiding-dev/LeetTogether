@@ -10,7 +10,7 @@
 
 ## 🏆 Leaderboard
 
-⏳ **1/4 submitted today** · pending: zhenwei, xiao, Glo
+🔥 **2/4 submitted today** · pending: zhenwei, Glo
 
 <table>
 <thead>
@@ -26,6 +26,14 @@
 <tbody>
 <tr>
 <td align="center">🥇</td>
+<td align="center"><code>xiao</code></td>
+<td align="center"><code>🔥 4+</code></td>
+<td align="center"><code>1 ✅丨3 pts</code></td>
+<td align="center"><code>≥21 ✅丨<b>≥57 pts</b></code></td>
+<td align="center"><code>░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ▇ ▁ ▅ ▁</code></td>
+</tr>
+<tr>
+<td align="center">🥈</td>
 <td align="center"><code>cheers🍻</code> 🔺</td>
 <td align="center"><code>🔥 2</code></td>
 <td align="center"><code>1 ✅丨3 pts</code></td>
@@ -33,20 +41,12 @@
 <td align="center"><code>· · · · · · ▁ ▃ · ▁ ▁ · ▁ ▁</code></td>
 </tr>
 <tr>
-<td align="center">🥈</td>
-<td align="center"><code>zhenwei</code></td>
+<td align="center">🥉</td>
+<td align="center"><code>zhenwei</code> 🔻</td>
 <td align="center"><code>🔥 8+</code></td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>28 ✅丨<b>78 pts</b></code></td>
 <td align="center"><code>░ ░ ░ ░ ░ ▁ ▁ ▇ ▁ ▃ ▁ ▅ ▃ ·</code></td>
-</tr>
-<tr>
-<td align="center">🥉</td>
-<td align="center"><code>xiao</code> 🔻</td>
-<td align="center"><code>🔥 3+</code></td>
-<td align="center"><code>0 ✅丨0 pts</code></td>
-<td align="center"><code>≥20 ✅丨<b>≥54 pts</b></code></td>
-<td align="center"><code>░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ▇ ▁ ▅ ·</code></td>
 </tr>
 <tr>
 <td align="center"><code>4</code></td>
@@ -72,6 +72,11 @@
 </thead>
 <tbody>
 <tr>
+<td align="center"><code>xiao</code></td>
+<td align="left"><ol><li><a href="https://leetcode.com/problems/moving-stones-until-consecutive-ii/"><code>Moving Stones Until Consecutive II</code></a></li></ol></td>
+<td align="left"><code>Array丨1</code> <code>Math丨1</code> <code>Sliding Window丨1</code> <code>Sorting丨1</code></td>
+</tr>
+<tr>
 <td align="center"><code>cheers🍻</code></td>
 <td align="left"><ol><li><a href="https://leetcode.com/problems/longest-repeating-character-replacement/"><code>Longest Repeating Character Replacement</code></a></li></ol></td>
 <td align="left"><code>Hash Table丨1</code> <code>Sliding Window丨1</code> <code>String丨1</code></td>
@@ -81,9 +86,9 @@
 
 ## 🏷️ Tags this week
 
-> 🔢 Array **37** 丨 🌳 Tree **16** 丨 ↩️ Backtracking **15** 丨 🌲 Binary Tree **13** 丨 🗂️ Hash Table **11** 丨 📶 Sorting **9** 丨 🤿 Depth-First Search **8** 丨 🎄 Binary Search Tree **7** 丨 🌊 Breadth-First Search **7** 丨 🧵 String **6** 丨 🔍 Binary Search **5** 丨 🎛️ Bit Manipulation **4** 丨 ⚔️ Divide and Conquer **4** 丨 🧩 Dynamic Programming **4** 丨 🤑 Greedy **4** 丨 ⛰️ Heap (Priority Queue) **4** 丨 🧇 Matrix **4** 丨 🥞 Stack **4** 丨 🧱 Monotonic Stack **2** 丨 ➕ Prefix Sum **2** 丨 ⚡ Quickselect **2** 丨 🎮 Simulation **2** 丨 🎍 Binary Indexed Tree **1** 丨 🪆 Bracket Sequences **1** 丨 🪣 Bucket Sort **1** 丨 🌱 Cartesian Tree **1** 丨 🧮 Counting **1** 丨 🕸️ Graph Theory **1** 丨 ➗ Math **1** 丨 🎋 Segment Tree **1** 丨 🪟 Sliding Window **1** 丨 🔎 String Matching **1** 丨 🧭 Topological Sort **1**
+> 🔢 Array **38** 丨 🌳 Tree **16** 丨 ↩️ Backtracking **15** 丨 🌲 Binary Tree **13** 丨 🗂️ Hash Table **11** 丨 📶 Sorting **10** 丨 🤿 Depth-First Search **8** 丨 🎄 Binary Search Tree **7** 丨 🌊 Breadth-First Search **7** 丨 🧵 String **6** 丨 🔍 Binary Search **5** 丨 🎛️ Bit Manipulation **4** 丨 ⚔️ Divide and Conquer **4** 丨 🧩 Dynamic Programming **4** 丨 🤑 Greedy **4** 丨 ⛰️ Heap (Priority Queue) **4** 丨 🧇 Matrix **4** 丨 🥞 Stack **4** 丨 ➗ Math **2** 丨 🧱 Monotonic Stack **2** 丨 ➕ Prefix Sum **2** 丨 ⚡ Quickselect **2** 丨 🎮 Simulation **2** 丨 🪟 Sliding Window **2** 丨 🎍 Binary Indexed Tree **1** 丨 🪆 Bracket Sequences **1** 丨 🪣 Bucket Sort **1** 丨 🌱 Cartesian Tree **1** 丨 🧮 Counting **1** 丨 🕸️ Graph Theory **1** 丨 🎋 Segment Tree **1** 丨 🔎 String Matching **1** 丨 🧭 Topological Sort **1**
 
-<sub>🕒 Updated 2026-08-25 00:38 (America/Los_Angeles) · 5 day(s) of history</sub>
+<sub>🕒 Updated 2026-08-25 01:33 (America/Los_Angeles) · 5 day(s) of history</sub>
 
 <!-- LEADERBOARD:END -->
 
