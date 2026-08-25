@@ -7,6 +7,13 @@
       "Sorting"
     ]
   },
+  "average-waiting-time": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Simulation"
+    ]
+  },
   "binary-search": {
     "difficulty": "Easy",
     "tags": [
@@ -57,7 +64,30 @@
       "Monotonic Stack"
     ]
   },
+  "cinema-seat-allocation": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Bit Manipulation"
+    ]
+  },
+  "combination-sum": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Backtracking"
+    ]
+  },
   "combination-sum-ii": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Backtracking"
+    ]
+  },
+  "combination-sum-iii": {
     "difficulty": "Medium",
     "tags": [
       "Array",
@@ -125,6 +155,15 @@
       "Binary Tree"
     ]
   },
+  "count-number-of-teams": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Binary Indexed Tree",
+      "Segment Tree"
+    ]
+  },
   "course-schedule-ii": {
     "difficulty": "Medium",
     "tags": [
@@ -150,6 +189,31 @@
       "Binary Tree"
     ]
   },
+  "describe-the-painting": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting",
+      "Prefix Sum"
+    ]
+  },
+  "destination-city": {
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ]
+  },
+  "diagonal-traverse-ii": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  },
   "evaluate-reverse-polish-notation": {
     "difficulty": "Medium",
     "tags": [
@@ -170,6 +234,15 @@
     "tags": [
       "Array",
       "Binary Search"
+    ]
+  },
+  "generate-parentheses": {
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Backtracking",
+      "Bracket Sequences"
     ]
   },
   "insert-into-a-binary-search-tree": {
@@ -239,6 +312,30 @@
       "Trie"
     ]
   },
+  "magnetic-force-between-two-balls": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Sorting"
+    ]
+  },
+  "map-of-highest-peak": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
+  "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
   "maximum-binary-tree": {
     "difficulty": "Medium",
     "tags": [
@@ -249,6 +346,14 @@
       "Monotonic Stack",
       "Binary Tree",
       "Cartesian Tree"
+    ]
+  },
+  "maximum-number-of-points-with-cost": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
     ]
   },
   "maximum-product-subarray": {
@@ -273,6 +378,22 @@
       "Design"
     ]
   },
+  "minimum-subsequence-in-non-increasing-order": {
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
+  "minimum-swaps-to-arrange-a-binary-grid": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Matrix"
+    ]
+  },
   "n-ary-tree-level-order-traversal": {
     "difficulty": "Medium",
     "tags": [
@@ -294,6 +415,15 @@
       "Stack",
       "Tree",
       "Depth-First Search"
+    ]
+  },
+  "number-of-sub-arrays-with-odd-sum": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Prefix Sum"
     ]
   },
   "permutations": {
@@ -334,6 +464,14 @@
       "Binary Search"
     ]
   },
+  "string-matching-in-an-array": {
+    "difficulty": "Easy",
+    "tags": [
+      "Array",
+      "String",
+      "String Matching"
+    ]
+  },
   "subsets": {
     "difficulty": "Medium",
     "tags": [
@@ -348,6 +486,14 @@
       "Array",
       "Backtracking",
       "Bit Manipulation"
+    ]
+  },
+  "the-number-of-the-smallest-unoccupied-chair": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Heap (Priority Queue)"
     ]
   },
   "time-based-key-value-store": {
@@ -419,6 +565,14 @@
       "Depth-First Search",
       "Binary Search Tree",
       "Binary Tree"
+    ]
+  },
+  "where-will-the-ball-fall": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Simulation"
     ]
   }
 }
