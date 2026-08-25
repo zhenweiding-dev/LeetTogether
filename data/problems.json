@@ -236,6 +236,16 @@
       "Binary Search"
     ]
   },
+  "find-two-non-overlapping-sub-arrays-each-with-target-sum": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Dynamic Programming",
+      "Sliding Window"
+    ]
+  },
   "generate-parentheses": {
     "difficulty": "Medium",
     "tags": [
@@ -317,6 +327,17 @@
       "Array",
       "String",
       "Trie"
+    ]
+  },
+  "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Queue",
+      "Sliding Window",
+      "Heap (Priority Queue)",
+      "Ordered Set",
+      "Monotonic Queue"
     ]
   },
   "longest-repeating-character-replacement": {
