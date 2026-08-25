@@ -312,6 +312,14 @@
       "Trie"
     ]
   },
+  "longest-repeating-character-replacement": {
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
   "magnetic-force-between-two-balls": {
     "difficulty": "Medium",
     "tags": [
