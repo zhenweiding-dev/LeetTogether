@@ -146,6 +146,17 @@
       "Sorting"
     ]
   },
+  "continuous-subarrays": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Queue",
+      "Sliding Window",
+      "Heap (Priority Queue)",
+      "Ordered Set",
+      "Monotonic Queue"
+    ]
+  },
   "convert-bst-to-greater-tree": {
     "difficulty": "Medium",
     "tags": [
@@ -155,6 +166,14 @@
       "Binary Tree"
     ]
   },
+  "count-complete-subarrays-in-an-array": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
+    ]
+  },
   "count-number-of-teams": {
     "difficulty": "Medium",
     "tags": [
@@ -162,6 +181,14 @@
       "Dynamic Programming",
       "Binary Indexed Tree",
       "Segment Tree"
+    ]
+  },
+  "count-the-number-of-good-subarrays": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
     ]
   },
   "course-schedule-ii": {
@@ -234,6 +261,15 @@
     "tags": [
       "Array",
       "Binary Search"
+    ]
+  },
+  "find-the-longest-equal-subarray": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Sliding Window"
     ]
   },
   "find-two-non-overlapping-sub-arrays-each-with-target-sum": {
@@ -463,6 +499,13 @@
       "Array",
       "Greedy",
       "Matrix"
+    ]
+  },
+  "minimum-swaps-to-group-all-1s-together-ii": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Sliding Window"
     ]
   },
   "moving-stones-until-consecutive-ii": {
