@@ -146,6 +146,17 @@
       "Sorting"
     ]
   },
+  "continuous-subarrays": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Queue",
+      "Sliding Window",
+      "Heap (Priority Queue)",
+      "Ordered Set",
+      "Monotonic Queue"
+    ]
+  },
   "convert-bst-to-greater-tree": {
     "difficulty": "Medium",
     "tags": [
@@ -155,6 +166,14 @@
       "Binary Tree"
     ]
   },
+  "count-complete-subarrays-in-an-array": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
+    ]
+  },
   "count-number-of-teams": {
     "difficulty": "Medium",
     "tags": [
@@ -162,6 +181,21 @@
       "Dynamic Programming",
       "Binary Indexed Tree",
       "Segment Tree"
+    ]
+  },
+  "count-subarrays-where-max-element-appears-at-least-k-times": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Sliding Window"
+    ]
+  },
+  "count-the-number-of-good-subarrays": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
     ]
   },
   "course-schedule-ii": {
@@ -236,6 +270,36 @@
       "Binary Search"
     ]
   },
+  "find-the-longest-equal-subarray": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Sliding Window"
+    ]
+  },
+  "find-two-non-overlapping-sub-arrays-each-with-target-sum": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Dynamic Programming",
+      "Sliding Window"
+    ]
+  },
+  "frequency-of-the-most-frequent-element": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Greedy",
+      "Sliding Window",
+      "Sorting",
+      "Prefix Sum"
+    ]
+  },
   "generate-parentheses": {
     "difficulty": "Medium",
     "tags": [
@@ -243,6 +307,13 @@
       "Dynamic Programming",
       "Backtracking",
       "Bracket Sequences"
+    ]
+  },
+  "grumpy-bookstore-owner": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Sliding Window"
     ]
   },
   "insert-into-a-binary-search-tree": {
@@ -259,6 +330,15 @@
       "Array",
       "Dynamic Programming",
       "Greedy"
+    ]
+  },
+  "jump-game-vii": {
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Sliding Window",
+      "Prefix Sum"
     ]
   },
   "koko-eating-bananas": {
@@ -312,6 +392,32 @@
       "Trie"
     ]
   },
+  "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Queue",
+      "Sliding Window",
+      "Heap (Priority Queue)",
+      "Ordered Set",
+      "Monotonic Queue"
+    ]
+  },
+  "longest-repeating-character-replacement": {
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  "longest-substring-of-all-vowels-in-order": {
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Sliding Window"
+    ]
+  },
   "magnetic-force-between-two-balls": {
     "difficulty": "Medium",
     "tags": [
@@ -346,6 +452,14 @@
       "Monotonic Stack",
       "Binary Tree",
       "Cartesian Tree"
+    ]
+  },
+  "maximum-number-of-occurrences-of-a-substring": {
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
     ]
   },
   "maximum-number-of-points-with-cost": {
@@ -394,6 +508,22 @@
       "Matrix"
     ]
   },
+  "minimum-swaps-to-group-all-1s-together-ii": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Sliding Window"
+    ]
+  },
+  "moving-stones-until-consecutive-ii": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Math",
+      "Sliding Window",
+      "Sorting"
+    ]
+  },
   "n-ary-tree-level-order-traversal": {
     "difficulty": "Medium",
     "tags": [
@@ -424,6 +554,14 @@
       "Math",
       "Dynamic Programming",
       "Prefix Sum"
+    ]
+  },
+  "number-of-substrings-containing-all-three-characters": {
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
     ]
   },
   "permutations": {
@@ -486,6 +624,23 @@
       "Array",
       "Backtracking",
       "Bit Manipulation"
+    ]
+  },
+  "substrings-of-size-three-with-distinct-characters": {
+    "difficulty": "Easy",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window",
+      "Counting"
+    ]
+  },
+  "swap-for-longest-repeated-character-substring": {
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
     ]
   },
   "the-number-of-the-smallest-unoccupied-chair": {

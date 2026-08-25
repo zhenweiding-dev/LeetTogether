@@ -10,7 +10,7 @@
 
 ## 🏆 Leaderboard
 
-🔥 **3/4 submitted today** · pending: Glo
+🔥 **2/4 submitted today** · pending: zhenwei, Glo
 
 <table>
 <thead>
@@ -26,27 +26,27 @@
 <tbody>
 <tr>
 <td align="center">🥇</td>
-<td align="center"><code>xiao</code> 🔺</td>
-<td align="center"><code>🔥 3+</code></td>
-<td align="center"><code>7 ✅丨21 pts</code></td>
-<td align="center"><code>≥20 ✅丨<b>≥54 pts</b></code></td>
-<td align="center"><code>░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ▇ ▁ ▅</code></td>
+<td align="center"><code>xiao</code></td>
+<td align="center"><code>🔥 4+</code></td>
+<td align="center"><code>17 ✅丨49 pts</code></td>
+<td align="center"><code>≥37 ✅丨<b>≥103 pts</b></code></td>
+<td align="center"><code>░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ▇ ▁ ▅ ▇</code></td>
 </tr>
 <tr>
 <td align="center">🥈</td>
-<td align="center"><code>zhenwei</code> 🔻</td>
-<td align="center"><code>🔥 8+</code></td>
-<td align="center"><code>3 ✅丨9 pts</code></td>
-<td align="center"><code>30 ✅丨<b>84 pts</b></code></td>
-<td align="center"><code>░ ░ ░ ░ ░ ░ ▁ ▁ ▇ ▁ ▃ ▁ ▅ ▃</code></td>
+<td align="center"><code>cheers🍻</code> 🔺</td>
+<td align="center"><code>🔥 2</code></td>
+<td align="center"><code>1 ✅丨3 pts</code></td>
+<td align="center"><code>10 ✅丨<b>26 pts</b></code></td>
+<td align="center"><code>· · · · · · ▁ ▃ · ▁ ▁ · ▁ ▁</code></td>
 </tr>
 <tr>
 <td align="center">🥉</td>
-<td align="center"><code>cheers🍻</code></td>
-<td align="center"><code>🔥 1</code></td>
-<td align="center"><code>1 ✅丨3 pts</code></td>
-<td align="center"><code>11 ✅丨<b>25 pts</b></code></td>
-<td align="center"><code>· · · · · · · ▁ ▃ · ▁ ▁ · ▁</code></td>
+<td align="center"><code>zhenwei</code> 🔻</td>
+<td align="center"><code>🔥 8+</code></td>
+<td align="center"><code>0 ✅丨0 pts</code></td>
+<td align="center"><code>28 ✅丨<b>78 pts</b></code></td>
+<td align="center"><code>░ ░ ░ ░ ░ ▁ ▁ ▇ ▁ ▃ ▁ ▅ ▃ ·</code></td>
 </tr>
 <tr>
 <td align="center"><code>4</code></td>
@@ -73,27 +73,22 @@
 <tbody>
 <tr>
 <td align="center"><code>xiao</code></td>
-<td align="left"><ol><li><a href="https://leetcode.com/problems/maximum-number-of-points-with-cost/"><code>Maximum Number of Points with Cost</code></a></li><li><a href="https://leetcode.com/problems/the-number-of-the-smallest-unoccupied-chair/"><code>The Number of the Smallest Unoccupied Chair</code></a></li><li><a href="https://leetcode.com/problems/describe-the-painting/"><code>Describe the Painting</code></a></li><li><a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/"><code>Letter Combinations of a Phone Number</code></a></li><li><a href="https://leetcode.com/problems/generate-parentheses/"><code>Generate Parentheses</code></a></li><li><a href="https://leetcode.com/problems/combination-sum/"><code>Combination Sum</code></a></li><li><a href="https://leetcode.com/problems/permutations/"><code>Permutations</code></a></li></ol></td>
-<td align="left"><code>Array丨5</code> <code>Backtracking丨4</code> <code>Hash Table丨3</code> <code>Dynamic Programming丨2</code> <code>String丨2</code> <code>Bracket Sequences丨1</code> <code>Heap (Priority Queue)丨1</code> <code>Matrix丨1</code> <code>Prefix Sum丨1</code> <code>Sorting丨1</code></td>
-</tr>
-<tr>
-<td align="center"><code>zhenwei</code></td>
-<td align="left"><ol><li><a href="https://leetcode.com/problems/combinations/"><code>Combinations</code></a></li><li><a href="https://leetcode.com/problems/combination-sum/"><code>Combination Sum</code></a></li><li><a href="https://leetcode.com/problems/combination-sum-iii/"><code>Combination Sum III</code></a></li></ol></td>
-<td align="left"><code>Backtracking丨3</code> <code>Array丨2</code></td>
+<td align="left"><ol><li><a href="https://leetcode.com/problems/moving-stones-until-consecutive-ii/"><code>Moving Stones Until Consecutive II</code></a></li><li><a href="https://leetcode.com/problems/grumpy-bookstore-owner/"><code>Grumpy Bookstore Owner</code></a></li><li><a href="https://leetcode.com/problems/swap-for-longest-repeated-character-substring/"><code>Swap For Longest Repeated Character Substring</code></a></li><li><a href="https://leetcode.com/problems/maximum-number-of-occurrences-of-a-substring/"><code>Maximum Number of Occurrences of a Substring</code></a></li><li><a href="https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/"><code>Number of Substrings Containing All Three Characters</code></a></li><li><a href="https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/"><code>Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit</code></a></li><li><a href="https://leetcode.com/problems/find-two-non-overlapping-sub-arrays-each-with-target-sum/"><code>Find Two Non-overlapping Sub-arrays Each With Target Sum</code></a></li><li><a href="https://leetcode.com/problems/frequency-of-the-most-frequent-element/"><code>Frequency of the Most Frequent Element</code></a></li><li><a href="https://leetcode.com/problems/longest-substring-of-all-vowels-in-order/"><code>Longest Substring Of All Vowels in Order</code></a></li><li><a href="https://leetcode.com/problems/jump-game-vii/"><code>Jump Game VII</code></a></li><li><a href="https://leetcode.com/problems/substrings-of-size-three-with-distinct-characters/"><code>Substrings of Size Three with Distinct Characters</code></a></li><li><a href="https://leetcode.com/problems/minimum-swaps-to-group-all-1s-together-ii/"><code>Minimum Swaps to Group All 1&#x27;s Together II</code></a></li><li><a href="https://leetcode.com/problems/count-the-number-of-good-subarrays/"><code>Count the Number of Good Subarrays</code></a></li><li><a href="https://leetcode.com/problems/continuous-subarrays/"><code>Continuous Subarrays</code></a></li><li><a href="https://leetcode.com/problems/count-complete-subarrays-in-an-array/"><code>Count Complete Subarrays in an Array</code></a></li><li><a href="https://leetcode.com/problems/find-the-longest-equal-subarray/"><code>Find the Longest Equal Subarray</code></a></li><li><a href="https://leetcode.com/problems/count-subarrays-where-max-element-appears-at-least-k-times/"><code>Count Subarrays Where Max Element Appears at Least K Times</code></a></li></ol></td>
+<td align="left"><code>Sliding Window丨17</code> <code>Array丨11</code> <code>Hash Table丨8</code> <code>String丨6</code> <code>Binary Search丨3</code> <code>Dynamic Programming丨2</code> <code>Heap (Priority Queue)丨2</code> <code>Monotonic Queue丨2</code> <code>Ordered Set丨2</code> <code>Prefix Sum丨2</code> <code>Queue丨2</code> <code>Sorting丨2</code> <code>Counting丨1</code> <code>Greedy丨1</code> <code>Math丨1</code></td>
 </tr>
 <tr>
 <td align="center"><code>cheers🍻</code></td>
-<td align="left"><ol><li><a href="https://leetcode.com/problems/daily-temperatures/"><code>Daily Temperatures</code></a></li></ol></td>
-<td align="left"><code>Array丨1</code> <code>Monotonic Stack丨1</code> <code>Stack丨1</code></td>
+<td align="left"><ol><li><a href="https://leetcode.com/problems/longest-repeating-character-replacement/"><code>Longest Repeating Character Replacement</code></a></li></ol></td>
+<td align="left"><code>Hash Table丨1</code> <code>Sliding Window丨1</code> <code>String丨1</code></td>
 </tr>
 </tbody>
 </table>
 
 ## 🏷️ Tags this week
 
-> 🔢 Array **41** 丨 🌳 Tree **18** 丨 ↩️ Backtracking **15** 丨 🌲 Binary Tree **15** 丨 🗂️ Hash Table **13** 丨 📶 Sorting **9** 丨 🤿 Depth-First Search **8** 丨 🎄 Binary Search Tree **7** 丨 🌊 Breadth-First Search **7** 丨 ⚔️ Divide and Conquer **6** 丨 🧵 String **6** 丨 🔍 Binary Search **5** 丨 🎛️ Bit Manipulation **4** 丨 🧩 Dynamic Programming **4** 丨 🤑 Greedy **4** 丨 ⛰️ Heap (Priority Queue) **4** 丨 🧇 Matrix **4** 丨 🥞 Stack **4** 丨 🧱 Monotonic Stack **2** 丨 ➕ Prefix Sum **2** 丨 ⚡ Quickselect **2** 丨 🎮 Simulation **2** 丨 🎍 Binary Indexed Tree **1** 丨 🪆 Bracket Sequences **1** 丨 🪣 Bucket Sort **1** 丨 🌱 Cartesian Tree **1** 丨 🧮 Counting **1** 丨 🕸️ Graph Theory **1** 丨 ➗ Math **1** 丨 🎋 Segment Tree **1** 丨 🔎 String Matching **1** 丨 🧭 Topological Sort **1** 丨 🌿 Trie **1**
+> 🔢 Array **48** 丨 🗂️ Hash Table **19** 丨 🪟 Sliding Window **18** 丨 🌳 Tree **16** 丨 ↩️ Backtracking **15** 丨 🌲 Binary Tree **13** 丨 🧵 String **12** 丨 📶 Sorting **11** 丨 🔍 Binary Search **8** 丨 🤿 Depth-First Search **8** 丨 🎄 Binary Search Tree **7** 丨 🌊 Breadth-First Search **7** 丨 🧩 Dynamic Programming **6** 丨 ⛰️ Heap (Priority Queue) **6** 丨 🤑 Greedy **5** 丨 🎛️ Bit Manipulation **4** 丨 ⚔️ Divide and Conquer **4** 丨 🧇 Matrix **4** 丨 ➕ Prefix Sum **4** 丨 🥞 Stack **4** 丨 🧮 Counting **2** 丨 ➗ Math **2** 丨 🚋 Monotonic Queue **2** 丨 🧱 Monotonic Stack **2** 丨 📚 Ordered Set **2** 丨 🎟️ Queue **2** 丨 ⚡ Quickselect **2** 丨 🎮 Simulation **2** 丨 🎍 Binary Indexed Tree **1** 丨 🪆 Bracket Sequences **1** 丨 🪣 Bucket Sort **1** 丨 🌱 Cartesian Tree **1** 丨 🕸️ Graph Theory **1** 丨 🎋 Segment Tree **1** 丨 🔎 String Matching **1** 丨 🧭 Topological Sort **1**
 
-<sub>🕒 Updated 2026-08-24 23:39 (America/Los_Angeles) · 4 day(s) of history</sub>
+<sub>🕒 Updated 2026-08-25 09:26 (America/Los_Angeles) · 5 day(s) of history</sub>
 
 <!-- LEADERBOARD:END -->
 
