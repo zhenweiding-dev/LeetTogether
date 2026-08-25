@@ -564,6 +564,14 @@
       "Sliding Window"
     ]
   },
+  "palindrome-partitioning": {
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Backtracking"
+    ]
+  },
   "permutations": {
     "difficulty": "Medium",
     "tags": [

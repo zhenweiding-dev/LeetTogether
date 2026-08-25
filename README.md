@@ -36,16 +36,16 @@
 <td align="center">🥈</td>
 <td align="center"><code>Glo</code> 🔺</td>
 <td align="center"><code>🔥 1</code></td>
-<td align="center"><code>2 ✅丨4 pts</code></td>
-<td align="center"><code>2 ✅丨<b>4 pts</b></code></td>
-<td align="center"><code>· · · · · · · · · · · · · ▁</code></td>
+<td align="center"><code>4 ✅丨10 pts</code></td>
+<td align="center"><code>4 ✅丨<b>10 pts</b></code></td>
+<td align="center"><code>· · · · · · · · · · · · · ▃</code></td>
 </tr>
 <tr>
 <td align="center">🥉</td>
 <td align="center"><code>zhenwei</code> 🔻</td>
 <td align="center"><code>🔥 9+</code></td>
-<td align="center"><code>1 ✅丨3 pts</code></td>
-<td align="center"><code>29 ✅丨<b>81 pts</b></code></td>
+<td align="center"><code>2 ✅丨6 pts</code></td>
+<td align="center"><code>30 ✅丨<b>84 pts</b></code></td>
 <td align="center"><code>░ ░ ░ ░ ░ ▁ ▁ ▇ ▁ ▃ ▁ ▅ ▃ ▁</code></td>
 </tr>
 <tr>
@@ -78,13 +78,13 @@
 </tr>
 <tr>
 <td align="center"><code>Glo</code></td>
-<td align="left"><ol><li><a href="https://leetcode.com/problems/valid-parentheses/"><code>Valid Parentheses</code></a></li><li><a href="https://leetcode.com/problems/min-stack/"><code>Min Stack</code></a></li></ol></td>
-<td align="left"><code>Stack丨2</code> <code>Bracket Sequences丨1</code> <code>Design丨1</code> <code>String丨1</code></td>
+<td align="left"><ol><li><a href="https://leetcode.com/problems/valid-parentheses/"><code>Valid Parentheses</code></a></li><li><a href="https://leetcode.com/problems/min-stack/"><code>Min Stack</code></a></li><li><a href="https://leetcode.com/problems/evaluate-reverse-polish-notation/"><code>Evaluate Reverse Polish Notation</code></a></li><li><a href="https://leetcode.com/problems/daily-temperatures/"><code>Daily Temperatures</code></a></li></ol></td>
+<td align="left"><code>Stack丨4</code> <code>Array丨2</code> <code>Bracket Sequences丨1</code> <code>Design丨1</code> <code>Math丨1</code> <code>Monotonic Stack丨1</code> <code>String丨1</code></td>
 </tr>
 <tr>
 <td align="center"><code>zhenwei</code></td>
-<td align="left"><ol><li><a href="https://leetcode.com/problems/generate-parentheses/"><code>Generate Parentheses</code></a></li></ol></td>
-<td align="left"><code>Backtracking丨1</code> <code>Bracket Sequences丨1</code> <code>Dynamic Programming丨1</code> <code>String丨1</code></td>
+<td align="left"><ol><li><a href="https://leetcode.com/problems/generate-parentheses/"><code>Generate Parentheses</code></a></li><li><a href="https://leetcode.com/problems/palindrome-partitioning/"><code>Palindrome Partitioning</code></a></li></ol></td>
+<td align="left"><code>Backtracking丨2</code> <code>Dynamic Programming丨2</code> <code>String丨2</code> <code>Bracket Sequences丨1</code></td>
 </tr>
 <tr>
 <td align="center"><code>cheers🍻</code></td>
@@ -96,9 +96,9 @@
 
 ## 🏷️ Tags this week
 
-> 🔢 Array **48** 丨 🗂️ Hash Table **19** 丨 🪟 Sliding Window **18** 丨 ↩️ Backtracking **16** 丨 🌳 Tree **16** 丨 🧵 String **14** 丨 🌲 Binary Tree **13** 丨 📶 Sorting **11** 丨 🔍 Binary Search **8** 丨 🤿 Depth-First Search **8** 丨 🎄 Binary Search Tree **7** 丨 🌊 Breadth-First Search **7** 丨 🧩 Dynamic Programming **7** 丨 ⛰️ Heap (Priority Queue) **6** 丨 🥞 Stack **6** 丨 🤑 Greedy **5** 丨 🎛️ Bit Manipulation **4** 丨 ⚔️ Divide and Conquer **4** 丨 🧇 Matrix **4** 丨 ➕ Prefix Sum **4** 丨 🪆 Bracket Sequences **3** 丨 🧮 Counting **2** 丨 ➗ Math **2** 丨 🚋 Monotonic Queue **2** 丨 🧱 Monotonic Stack **2** 丨 📚 Ordered Set **2** 丨 🎟️ Queue **2** 丨 ⚡ Quickselect **2** 丨 🎮 Simulation **2** 丨 🎍 Binary Indexed Tree **1** 丨 🪣 Bucket Sort **1** 丨 🌱 Cartesian Tree **1** 丨 🏗️ Design **1** 丨 🕸️ Graph Theory **1** 丨 🎋 Segment Tree **1** 丨 🔎 String Matching **1** 丨 🧭 Topological Sort **1**
+> 🔢 Array **50** 丨 🗂️ Hash Table **19** 丨 🪟 Sliding Window **18** 丨 ↩️ Backtracking **17** 丨 🌳 Tree **16** 丨 🧵 String **15** 丨 🌲 Binary Tree **13** 丨 📶 Sorting **11** 丨 🔍 Binary Search **8** 丨 🤿 Depth-First Search **8** 丨 🧩 Dynamic Programming **8** 丨 🥞 Stack **8** 丨 🎄 Binary Search Tree **7** 丨 🌊 Breadth-First Search **7** 丨 ⛰️ Heap (Priority Queue) **6** 丨 🤑 Greedy **5** 丨 🎛️ Bit Manipulation **4** 丨 ⚔️ Divide and Conquer **4** 丨 🧇 Matrix **4** 丨 ➕ Prefix Sum **4** 丨 🪆 Bracket Sequences **3** 丨 ➗ Math **3** 丨 🧱 Monotonic Stack **3** 丨 🧮 Counting **2** 丨 🚋 Monotonic Queue **2** 丨 📚 Ordered Set **2** 丨 🎟️ Queue **2** 丨 ⚡ Quickselect **2** 丨 🎮 Simulation **2** 丨 🎍 Binary Indexed Tree **1** 丨 🪣 Bucket Sort **1** 丨 🌱 Cartesian Tree **1** 丨 🏗️ Design **1** 丨 🕸️ Graph Theory **1** 丨 🎋 Segment Tree **1** 丨 🔎 String Matching **1** 丨 🧭 Topological Sort **1**
 
-<sub>🕒 Updated 2026-08-25 15:19 (America/Los_Angeles) · 5 day(s) of history</sub>
+<sub>🕒 Updated 2026-08-25 16:19 (America/Los_Angeles) · 5 day(s) of history</sub>
 
 <!-- LEADERBOARD:END -->
 
