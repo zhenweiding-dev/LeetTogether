@@ -245,6 +245,13 @@
       "Bracket Sequences"
     ]
   },
+  "grumpy-bookstore-owner": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Sliding Window"
+    ]
+  },
   "insert-into-a-binary-search-tree": {
     "difficulty": "Medium",
     "tags": [
@@ -503,6 +510,14 @@
       "Array",
       "Backtracking",
       "Bit Manipulation"
+    ]
+  },
+  "swap-for-longest-repeated-character-substring": {
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
     ]
   },
   "the-number-of-the-smallest-unoccupied-chair": {
