@@ -183,6 +183,13 @@
       "Segment Tree"
     ]
   },
+  "count-subarrays-where-max-element-appears-at-least-k-times": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Sliding Window"
+    ]
+  },
   "count-the-number-of-good-subarrays": {
     "difficulty": "Medium",
     "tags": [
