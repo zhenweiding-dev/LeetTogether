@@ -435,6 +435,16 @@
       "Sliding Window"
     ]
   },
+  "longest-well-performing-interval": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Stack",
+      "Monotonic Stack",
+      "Prefix Sum"
+    ]
+  },
   "magnetic-force-between-two-balls": {
     "difficulty": "Medium",
     "tags": [
@@ -449,6 +459,14 @@
       "Array",
       "Breadth-First Search",
       "Matrix"
+    ]
+  },
+  "matrix-block-sum": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Prefix Sum"
     ]
   },
   "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts": {
@@ -494,6 +512,13 @@
       "Dynamic Programming"
     ]
   },
+  "maximum-score-after-splitting-a-string": {
+    "difficulty": "Easy",
+    "tags": [
+      "String",
+      "Prefix Sum"
+    ]
+  },
   "maximum-subarray": {
     "difficulty": "Medium",
     "tags": [
@@ -507,6 +532,14 @@
     "tags": [
       "Stack",
       "Design"
+    ]
+  },
+  "mini-parser": {
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Stack",
+      "Depth-First Search"
     ]
   },
   "minimum-subsequence-in-non-increasing-order": {
@@ -562,6 +595,16 @@
       "Stack",
       "Tree",
       "Depth-First Search"
+    ]
+  },
+  "number-of-good-ways-to-split-a-string": {
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Dynamic Programming",
+      "Bit Manipulation",
+      "Prefix Sum"
     ]
   },
   "number-of-sub-arrays-with-odd-sum": {
