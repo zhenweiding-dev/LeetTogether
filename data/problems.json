@@ -752,6 +752,22 @@
       "Sliding Window"
     ]
   },
+  "ones-and-zeroes": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "String",
+      "Dynamic Programming",
+      "Knapsack Problem",
+      "0-1 Knapsack"
+    ]
+  },
+  "out-of-boundary-paths": {
+    "difficulty": "Medium",
+    "tags": [
+      "Dynamic Programming"
+    ]
+  },
   "palindrome-partitioning": {
     "difficulty": "Medium",
     "tags": [
