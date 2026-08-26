@@ -472,6 +472,15 @@
       "Prefix Sum"
     ]
   },
+  "lru-cache": {
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
+    ]
+  },
   "magnetic-force-between-two-balls": {
     "difficulty": "Medium",
     "tags": [
@@ -672,6 +681,18 @@
       "Array",
       "Backtracking",
       "Sorting"
+    ]
+  },
+  "regions-cut-by-slashes": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix",
+      "Planar Graph"
     ]
   },
   "restore-ip-addresses": {
