@@ -644,6 +644,14 @@
       "Depth-First Search"
     ]
   },
+  "minimum-ascii-delete-sum-for-two-strings": {
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Longest Common Subsequence"
+    ]
+  },
   "minimum-subsequence-in-non-increasing-order": {
     "difficulty": "Easy",
     "tags": [
@@ -968,6 +976,16 @@
     "tags": [
       "String",
       "Stack",
+      "Bracket Sequences"
+    ]
+  },
+  "valid-parenthesis-string": {
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Stack",
+      "Greedy",
       "Bracket Sequences"
     ]
   },
