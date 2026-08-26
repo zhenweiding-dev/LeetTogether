@@ -64,6 +64,16 @@
       "Monotonic Stack"
     ]
   },
+  "car-pooling": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Simulation",
+      "Prefix Sum"
+    ]
+  },
   "cinema-seat-allocation": {
     "difficulty": "Medium",
     "tags": [
@@ -164,6 +174,13 @@
       "Depth-First Search",
       "Binary Search Tree",
       "Binary Tree"
+    ]
+  },
+  "corporate-flight-bookings": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Prefix Sum"
     ]
   },
   "count-complete-subarrays-in-an-array": {
@@ -587,6 +604,13 @@
       "Sorting"
     ]
   },
+  "restore-ip-addresses": {
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Backtracking"
+    ]
+  },
   "search-a-2d-matrix": {
     "difficulty": "Medium",
     "tags": [
@@ -616,6 +640,14 @@
       "Array",
       "String",
       "String Matching"
+    ]
+  },
+  "subarray-sums-divisible-by-k": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
     ]
   },
   "subsets": {
