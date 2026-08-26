@@ -14,6 +14,14 @@
       "Simulation"
     ]
   },
+  "battleships-in-a-board": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Matrix"
+    ]
+  },
   "binary-search": {
     "difficulty": "Easy",
     "tags": [
@@ -72,6 +80,17 @@
       "Heap (Priority Queue)",
       "Simulation",
       "Prefix Sum"
+    ]
+  },
+  "cheapest-flights-within-k-stops": {
+    "difficulty": "Medium",
+    "tags": [
+      "Dynamic Programming",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Shortest Path"
     ]
   },
   "cinema-seat-allocation": {
@@ -683,6 +702,15 @@
     "tags": [
       "Array",
       "Binary Search"
+    ]
+  },
+  "shortest-bridge": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Matrix"
     ]
   },
   "string-matching-in-an-array": {
