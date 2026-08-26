@@ -365,6 +365,14 @@
       "Prefix Sum"
     ]
   },
+  "game-of-life": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
+  },
   "generate-parentheses": {
     "difficulty": "Medium",
     "tags": [
@@ -602,6 +610,16 @@
       "Dynamic Programming"
     ]
   },
+  "maximum-sum-circular-subarray": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Divide and Conquer",
+      "Dynamic Programming",
+      "Queue",
+      "Monotonic Queue"
+    ]
+  },
   "min-stack": {
     "difficulty": "Medium",
     "tags": [
@@ -681,6 +699,13 @@
       "Stack",
       "Tree",
       "Depth-First Search"
+    ]
+  },
+  "n-queens-ii": {
+    "difficulty": "Hard",
+    "tags": [
+      "Backtracking",
+      "Algorithm X"
     ]
   },
   "nearest-exit-from-entrance-in-maze": {
