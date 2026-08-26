@@ -649,6 +649,17 @@
       "Sorting"
     ]
   },
+  "my-calendar-ii": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Design",
+      "Segment Tree",
+      "Prefix Sum",
+      "Ordered Set"
+    ]
+  },
   "n-ary-tree-level-order-traversal": {
     "difficulty": "Medium",
     "tags": [
@@ -670,6 +681,14 @@
       "Stack",
       "Tree",
       "Depth-First Search"
+    ]
+  },
+  "nearest-exit-from-entrance-in-maze": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
     ]
   },
   "number-of-good-ways-to-split-a-string": {

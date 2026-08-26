@@ -28,8 +28,8 @@
 <td align="center">🥇</td>
 <td align="center"><code>xiao</code></td>
 <td align="center"><code>🔥 5+</code></td>
-<td align="center"><code>8 ✅丨24 pts</code></td>
-<td align="center"><code>≥49 ✅丨<b>≥137 pts</b></code></td>
+<td align="center"><code>10 ✅丨30 pts</code></td>
+<td align="center"><code>≥51 ✅丨<b>≥143 pts</b></code></td>
 <td align="center"><code>░ ░ ░ ░ ░ ░ ░ ░ ░ ▇ ▁ ▅ ▇ ▇</code></td>
 </tr>
 <tr>
@@ -73,8 +73,8 @@
 <tbody>
 <tr>
 <td align="center"><code>xiao</code></td>
-<td align="left"><ol><li><a href="https://leetcode.com/problems/cheapest-flights-within-k-stops/"><code>Cheapest Flights Within K Stops</code></a></li><li><a href="https://leetcode.com/problems/shortest-bridge/"><code>Shortest Bridge</code></a></li><li><a href="https://leetcode.com/problems/regions-cut-by-slashes/"><code>Regions Cut By Slashes</code></a></li><li><a href="https://leetcode.com/problems/coloring-a-border/"><code>Coloring A Border</code></a></li><li><a href="https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/"><code>Find Elements in a Contaminated Binary Tree</code></a></li><li><a href="https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/"><code>Longest ZigZag Path in a Binary Tree</code></a></li><li><a href="https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/"><code>Pseudo-Palindromic Paths in a Binary Tree</code></a></li><li><a href="https://leetcode.com/problems/course-schedule-iv/"><code>Course Schedule IV</code></a></li></ol></td>
-<td align="left"><code>Depth-First Search丨8</code> <code>Breadth-First Search丨7</code> <code>Array丨3</code> <code>Binary Tree丨3</code> <code>Matrix丨3</code> <code>Tree丨3</code> <code>Dynamic Programming丨2</code> <code>Graph Theory丨2</code> <code>Hash Table丨2</code> <code>Bit Manipulation丨1</code> <code>DP on Trees丨1</code> <code>Design丨1</code> <code>Heap (Priority Queue)丨1</code> <code>Planar Graph丨1</code> <code>Shortest Path丨1</code> <code>Topological Sort丨1</code> <code>Union-Find丨1</code></td>
+<td align="left"><ol><li><a href="https://leetcode.com/problems/cheapest-flights-within-k-stops/"><code>Cheapest Flights Within K Stops</code></a></li><li><a href="https://leetcode.com/problems/shortest-bridge/"><code>Shortest Bridge</code></a></li><li><a href="https://leetcode.com/problems/regions-cut-by-slashes/"><code>Regions Cut By Slashes</code></a></li><li><a href="https://leetcode.com/problems/coloring-a-border/"><code>Coloring A Border</code></a></li><li><a href="https://leetcode.com/problems/find-elements-in-a-contaminated-binary-tree/"><code>Find Elements in a Contaminated Binary Tree</code></a></li><li><a href="https://leetcode.com/problems/longest-zigzag-path-in-a-binary-tree/"><code>Longest ZigZag Path in a Binary Tree</code></a></li><li><a href="https://leetcode.com/problems/pseudo-palindromic-paths-in-a-binary-tree/"><code>Pseudo-Palindromic Paths in a Binary Tree</code></a></li><li><a href="https://leetcode.com/problems/course-schedule-iv/"><code>Course Schedule IV</code></a></li><li><a href="https://leetcode.com/problems/nearest-exit-from-entrance-in-maze/"><code>Nearest Exit from Entrance in Maze</code></a></li><li><a href="https://leetcode.com/problems/my-calendar-ii/"><code>My Calendar II</code></a></li></ol></td>
+<td align="left"><code>Breadth-First Search丨8</code> <code>Depth-First Search丨8</code> <code>Array丨5</code> <code>Matrix丨4</code> <code>Binary Tree丨3</code> <code>Tree丨3</code> <code>Design丨2</code> <code>Dynamic Programming丨2</code> <code>Graph Theory丨2</code> <code>Hash Table丨2</code> <code>Binary Search丨1</code> <code>Bit Manipulation丨1</code> <code>DP on Trees丨1</code> <code>Heap (Priority Queue)丨1</code> <code>Ordered Set丨1</code> <code>Planar Graph丨1</code> <code>Prefix Sum丨1</code> <code>Segment Tree丨1</code> <code>Shortest Path丨1</code> <code>Topological Sort丨1</code> <code>Union-Find丨1</code></td>
 </tr>
 <tr>
 <td align="center"><code>cheers🍻</code></td>
@@ -86,9 +86,9 @@
 
 ## 🏷️ Tags this week
 
-> 🔢 Array **54** 丨 ↩️ Backtracking **18** 丨 🗂️ Hash Table **18** 丨 🧵 String **17** 丨 🤿 Depth-First Search **14** 丨 🪟 Sliding Window **12** 丨 🥞 Stack **12** 丨 🧩 Dynamic Programming **11** 丨 ➕ Prefix Sum **11** 丨 🌊 Breadth-First Search **10** 丨 📶 Sorting **10** 丨 🔍 Binary Search **9** 丨 🧇 Matrix **9** 丨 🌳 Tree **7** 丨 🎛️ Bit Manipulation **6** 丨 ⛰️ Heap (Priority Queue) **6** 丨 🤑 Greedy **5** 丨 🧱 Monotonic Stack **5** 丨 🌲 Binary Tree **4** 丨 🪆 Bracket Sequences **3** 丨 🏗️ Design **3** 丨 🕸️ Graph Theory **3** 丨 🎮 Simulation **3** 丨 ➗ Math **2** 丨 🧭 Topological Sort **2** 丨 🎍 Binary Indexed Tree **1** 丨 🎄 Binary Search Tree **1** 丨 🧮 Counting **1** 丨 ⚪ DP on Trees **1** 丨 ⚔️ Divide and Conquer **1** 丨 ⛓️ Doubly-Linked List **1** 丨 🔗 Linked List **1** 丨 🚋 Monotonic Queue **1** 丨 📚 Ordered Set **1** 丨 ⚪ Planar Graph **1** 丨 🎟️ Queue **1** 丨 ⚡ Quickselect **1** 丨 📏 Range Minimum/Maximum Query **1** 丨 🎋 Segment Tree **1** 丨 🛣️ Shortest Path **1** 丨 🔎 String Matching **1** 丨 🤝 Union-Find **1**
+> 🔢 Array **56** 丨 ↩️ Backtracking **18** 丨 🗂️ Hash Table **18** 丨 🧵 String **17** 丨 🤿 Depth-First Search **14** 丨 ➕ Prefix Sum **12** 丨 🪟 Sliding Window **12** 丨 🥞 Stack **12** 丨 🌊 Breadth-First Search **11** 丨 🧩 Dynamic Programming **11** 丨 🔍 Binary Search **10** 丨 🧇 Matrix **10** 丨 📶 Sorting **10** 丨 🌳 Tree **7** 丨 🎛️ Bit Manipulation **6** 丨 ⛰️ Heap (Priority Queue) **6** 丨 🤑 Greedy **5** 丨 🧱 Monotonic Stack **5** 丨 🌲 Binary Tree **4** 丨 🏗️ Design **4** 丨 🪆 Bracket Sequences **3** 丨 🕸️ Graph Theory **3** 丨 🎮 Simulation **3** 丨 ➗ Math **2** 丨 📚 Ordered Set **2** 丨 🎋 Segment Tree **2** 丨 🧭 Topological Sort **2** 丨 🎍 Binary Indexed Tree **1** 丨 🎄 Binary Search Tree **1** 丨 🧮 Counting **1** 丨 ⚪ DP on Trees **1** 丨 ⚔️ Divide and Conquer **1** 丨 ⛓️ Doubly-Linked List **1** 丨 🔗 Linked List **1** 丨 🚋 Monotonic Queue **1** 丨 ⚪ Planar Graph **1** 丨 🎟️ Queue **1** 丨 ⚡ Quickselect **1** 丨 📏 Range Minimum/Maximum Query **1** 丨 🛣️ Shortest Path **1** 丨 🔎 String Matching **1** 丨 🤝 Union-Find **1**
 
-<sub>🕒 Updated 2026-08-26 04:22 (America/Los_Angeles) · 6 day(s) of history</sub>
+<sub>🕒 Updated 2026-08-26 05:37 (America/Los_Angeles) · 6 day(s) of history</sub>
 
 <!-- LEADERBOARD:END -->
 
