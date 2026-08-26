@@ -401,6 +401,14 @@
       "Backtracking"
     ]
   },
+  "longest-absolute-file-path": {
+    "difficulty": "Medium",
+    "tags": [
+      "String",
+      "Stack",
+      "Depth-First Search"
+    ]
+  },
   "longest-common-prefix": {
     "difficulty": "Easy",
     "tags": [
