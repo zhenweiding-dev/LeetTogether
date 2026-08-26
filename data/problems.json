@@ -102,6 +102,15 @@
       "Bit Manipulation"
     ]
   },
+  "coloring-a-border": {
+    "difficulty": "Medium",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
   "combination-sum": {
     "difficulty": "Medium",
     "tags": [
@@ -292,6 +301,17 @@
       "Stack"
     ]
   },
+  "find-elements-in-a-contaminated-binary-tree": {
+    "difficulty": "Medium",
+    "tags": [
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Design",
+      "Binary Tree"
+    ]
+  },
   "find-first-and-last-position-of-element-in-sorted-array": {
     "difficulty": "Medium",
     "tags": [
@@ -470,6 +490,16 @@
       "Stack",
       "Monotonic Stack",
       "Prefix Sum"
+    ]
+  },
+  "longest-zigzag-path-in-a-binary-tree": {
+    "difficulty": "Medium",
+    "tags": [
+      "Dynamic Programming",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree",
+      "DP on Trees"
     ]
   },
   "lru-cache": {
@@ -681,6 +711,16 @@
       "Array",
       "Backtracking",
       "Sorting"
+    ]
+  },
+  "pseudo-palindromic-paths-in-a-binary-tree": {
+    "difficulty": "Medium",
+    "tags": [
+      "Bit Manipulation",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
     ]
   },
   "regions-cut-by-slashes": {
