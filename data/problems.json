@@ -252,6 +252,15 @@
       "Topological Sort"
     ]
   },
+  "course-schedule-iv": {
+    "difficulty": "Medium",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort"
+    ]
+  },
   "daily-temperatures": {
     "difficulty": "Medium",
     "tags": [
