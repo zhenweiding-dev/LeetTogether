@@ -635,6 +635,15 @@
       "Dynamic Programming"
     ]
   },
+  "maximum-repeating-substring": {
+    "difficulty": "Easy",
+    "frontend_id": "1668",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "String Matching"
+    ]
+  },
   "maximum-score-after-splitting-a-string": {
     "difficulty": "Easy",
     "tags": [
@@ -755,6 +764,15 @@
       "Stack",
       "Tree",
       "Depth-First Search"
+    ]
+  },
+  "n-queens": {
+    "difficulty": "Hard",
+    "frontend_id": "51",
+    "tags": [
+      "Array",
+      "Backtracking",
+      "Algorithm X"
     ]
   },
   "n-queens-ii": {
@@ -1093,6 +1111,17 @@
       "Array",
       "Dynamic Programming",
       "Greedy"
+    ]
+  },
+  "word-search": {
+    "difficulty": "Medium",
+    "frontend_id": "79",
+    "tags": [
+      "Array",
+      "String",
+      "Backtracking",
+      "Depth-First Search",
+      "Matrix"
     ]
   }
 }
