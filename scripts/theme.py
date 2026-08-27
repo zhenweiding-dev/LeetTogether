@@ -67,7 +67,7 @@ DETAIL_HEADERS = ["Member", "Problems", "Tags"]
 DETAIL_ALIGNS = ["left", "left", "left"]
 # Left to itself the browser hands Tags the most room, because a row of inline
 # chips asks for more width than a stack of lines. Pin the split instead.
-DETAIL_WIDTHS = ["12%", "58%", "30%"]
+DETAIL_WIDTHS = ["15%", "55%", "30%"]
 
 # Plain lines rather than an <ol>: the number is LeetCode's own, and dropping the
 # list reclaims its indent for the titles.
@@ -75,9 +75,11 @@ PROBLEM_ITEM = "{num} {link}"
 PROBLEM_JOIN = "<br>"
 PROBLEM_LIMIT = 20
 PROBLEM_MORE = "…"
-# A problem takes a whole line, a tag chip about half of one, so allow this many
-# tags per problem line to keep the two cells roughly the same height.
-TAGS_PER_PROBLEM_LINE = 2
+# Tags are budgeted by width, not by count: "Array" and "Dynamic Programming"
+# are wildly different sizes, so a fixed count makes the cell either half empty
+# or twice as tall as the problem list. Roughly how many characters of tag text
+# fit on one line of the Tags column.
+TAG_CHARS_PER_LINE = 26
 TAG_MORE = "…"
 
 # --- weekly tags ------------------------------------------------------------

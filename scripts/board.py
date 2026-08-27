@@ -405,12 +405,19 @@ def render(cfg, snapshots, problems, unreadable=()):
             if len(r["acs"]) > theme.PROBLEM_LIMIT:
                 lines.append(theme.PROBLEM_MORE)
 
-            # counted over everything today, but shown in proportion to the
-            # problem lines so the two cells stay about the same height
+            # counted over everything today, but only as much tag text as the
+            # problem list is tall, so neither cell towers over the other
             pairs = tag_counts([a["slug"] for a in r["acs"]], problems)
-            cap = len(lines) * theme.TAGS_PER_PROBLEM_LINE
-            chips = tag_chips(pairs[:cap])
-            if len(pairs) > cap:
+            budget = len(lines) * theme.TAG_CHARS_PER_LINE
+            shown, used = [], 0
+            for tag, n in pairs:
+                cost = len(tag) + len(str(n)) + 2  # "tag丨n" plus the gap
+                if shown and used + cost > budget:
+                    break
+                shown.append((tag, n))
+                used += cost
+            chips = tag_chips(shown)
+            if len(shown) < len(pairs):
                 chips += f" {theme.TAG_MORE}"
 
             detail.append(
