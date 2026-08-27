@@ -162,11 +162,35 @@ def tag_chips(pairs):
     )
 
 
+def diff_line(slugs, problems):
+    """This week's split by difficulty, in Easy/Medium/Hard order."""
+    counts = Counter(difficulty_of(problems, s) for s in slugs)
+    items = [
+        theme.DIFF_LINE_ITEM.format(
+            name=theme.DIFF_WORDS.get(d.lower(), d), count=counts[d]
+        )
+        for d in theme.DIFF_ORDER
+        if counts.get(d)
+    ]
+    return theme.TAG_LINE.format(items=theme.TAG_LINE_JOIN.join(items))
+
+
 def tag_line(pairs):
-    """The weekly tag distribution as one blockquote line, icon per tag."""
+    """The weekly tag distribution as one blockquote line of chips.
+
+    Every tag keeps its place; the ones seen only once show no count.
+    """
     items = theme.TAG_LINE_JOIN.join(
-        theme.TAG_LINE_ITEM.format(
-            icon=theme.TAG_ICONS.get(tag, theme.TAG_FALLBACK), tag=esc(tag), count=n
+        code(
+            (
+                theme.TAG_LINE_ITEM
+                if n >= theme.TAG_MIN_COUNT
+                else theme.TAG_LINE_ITEM_BARE
+            ).format(
+                icon=theme.TAG_ICONS.get(tag, theme.TAG_FALLBACK),
+                tag=esc(tag),
+                count=n,
+            )
         )
         for tag, n in pairs
     )
@@ -397,10 +421,14 @@ def render(cfg, snapshots, problems, unreadable=()):
                     f"{code(esc(a['title']))}</a>"
                 )
                 nid = frontend_id_of(problems, a["slug"])
+                diff = difficulty_of(problems, a["slug"]).lower()
+                word = theme.DIFF_WORDS.get(diff, theme.DIFF_FALLBACK)
                 lines.append(
-                    theme.PROBLEM_ITEM.format(num=code(nid), link=link)
-                    if nid
-                    else link
+                    theme.PROBLEM_ITEM.format(
+                        diff=code(word),
+                        num=code(nid) if nid else "",
+                        link=link,
+                    )
                 )
             if len(r["acs"]) > theme.PROBLEM_LIMIT:
                 lines.append(theme.PROBLEM_MORE)
@@ -433,9 +461,12 @@ def render(cfg, snapshots, problems, unreadable=()):
         )
         out.append("")
 
-    tags = tag_counts([s for r in rows for s in r["week_slugs"]], problems)
+    week_slugs = [s for r in rows for s in r["week_slugs"]]
+    tags = tag_counts(week_slugs, problems)
     if tags:
         out.append(theme.HEAD_TAGS)
+        out.append("")
+        out.append(diff_line(week_slugs, problems))
         out.append("")
         out.append(tag_line(tags))
         out.append("")

@@ -671,6 +671,15 @@
       "Monotonic Queue"
     ]
   },
+  "median-of-two-sorted-arrays": {
+    "difficulty": "Hard",
+    "frontend_id": "4",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Divide and Conquer"
+    ]
+  },
   "min-stack": {
     "difficulty": "Medium",
     "frontend_id": "155",
@@ -935,6 +944,15 @@
     "tags": [
       "Array",
       "Depth-First Search",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
+  "shortest-path-in-binary-matrix": {
+    "difficulty": "Medium",
+    "frontend_id": "1091",
+    "tags": [
+      "Array",
       "Breadth-First Search",
       "Matrix"
     ]

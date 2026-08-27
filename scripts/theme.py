@@ -52,9 +52,14 @@ AT_LEAST = "≥{value}"
 SPARK_LEVELS = [(0, "·"), (2, "▁"), (4, "▃"), (7, "▅"), (10**9, "▇")]
 NO_DATA = "░"
 
+# Words, not coloured dots: any circle in a README reads as a status alert.
+DIFF_WORDS = {"easy": "Easy", "medium": "Med", "hard": "Hard"}
+DIFF_FALLBACK = "?"
+DIFF_ORDER = ["Easy", "Medium", "Hard"]  # API spelling, in a fixed display order
+
 LEGEND = (
     "🔺🔻 rank change since yesterday · <b>+</b> and <b>≥</b> mean at least<br>"
-    "💡 <b>Scoring</b> Easy ×{easy} · Medium ×{medium} · Hard ×{hard} — "
+    "💡 <b>Scoring</b> Easy ×{easy} · Med ×{medium} · Hard ×{hard} — "
     "<b>✅</b> problems solved, <b>pts</b> the same weighted by difficulty<br>"
     "📊 <b>Last {window} days</b> <code>·</code> no submission · "
     "<code>{no_data}</code> no data"
@@ -71,7 +76,7 @@ DETAIL_WIDTHS = ["15%", "55%", "30%"]
 
 # Plain lines rather than an <ol>: the number is LeetCode's own, and dropping the
 # list reclaims its indent for the titles.
-PROBLEM_ITEM = "{num} {link}"
+PROBLEM_ITEM = "{diff} {num} {link}"
 PROBLEM_JOIN = "<br>"
 PROBLEM_LIMIT = 20
 PROBLEM_MORE = "…"
@@ -85,9 +90,14 @@ TAG_MORE = "…"
 # --- weekly tags ------------------------------------------------------------
 
 HEAD_TAGS = "## 🏷️ Tags this week"
+DIFF_LINE_ITEM = "{name} {count}"
 TAG_CHIP = "{tag}丨{count}"  # <code> chip, used in the per-member Tags column
-TAG_LINE_ITEM = "{icon} {tag} **{count}**"  # weekly blockquote
-TAG_LINE_JOIN = " 丨 "
+# Weekly blockquote, each item inside a <code> chip. A third of the tags are
+# usually one-offs, so those keep their place but drop the "丨1" noise.
+TAG_LINE_ITEM = "{icon} {tag}丨{count}"
+TAG_LINE_ITEM_BARE = "{icon} {tag}"
+TAG_MIN_COUNT = 2
+TAG_LINE_JOIN = " "
 TAG_LINE = "> {items}"
 
 # --- failures and footer ----------------------------------------------------
@@ -126,10 +136,13 @@ TAG_ICONS = {
     "Enumeration": "📋",
     "Simulation": "🎮",
     "Meet in the Middle": "🧲",
+    "Knapsack Problem": "🎒",
+    "0-1 Knapsack": "🧳",
     "Design": "🏗️",
     "Binary Search": "🔍",
     "String Matching": "🔎",
     "Bracket Sequences": "🪆",
+    "Longest Common Subsequence": "🧬",
     "Two Pointers": "↔️",
     "Sliding Window": "🪟",
     "Line Sweep": "🧹",
@@ -140,6 +153,8 @@ TAG_ICONS = {
     "Depth-First Search": "🤿",
     "Breadth-First Search": "🌊",
     "Backtracking": "↩️",
+    "Algorithm X": "✖️",
+    "Dancing Links": "💃",
     "Recursion": "🔁",
     "Divide and Conquer": "⚔️",
     "Tree": "🌳",
@@ -148,12 +163,14 @@ TAG_ICONS = {
     "N-ary Tree": "🌴",
     "Trie": "🌿",
     "Cartesian Tree": "🌱",
+    "DP on Trees": "🪵",
     "Segment Tree": "🎋",
     "Binary Indexed Tree": "🎍",
     "Range Minimum/Maximum Query": "📏",
     "Minimum Spanning Tree": "🌉",
     "Graph": "🕸️",
     "Graph Theory": "🕸️",
+    "Planar Graph": "📄",
     "Directed Acyclic Graph": "🪃",
     "Topological Sort": "🧭",
     "Shortest Path": "🛣️",
