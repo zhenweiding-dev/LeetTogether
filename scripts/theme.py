@@ -77,9 +77,9 @@ PROBLEM_LIMIT = 20
 PROBLEM_MORE = "…"
 # Tags are budgeted by width, not by count: "Array" and "Dynamic Programming"
 # are wildly different sizes, so a fixed count makes the cell either half empty
-# or twice as tall as the problem list. Roughly how many characters of tag text
-# fit on one line of the Tags column.
-TAG_CHARS_PER_LINE = 26
+# or twice as tall as the problem list. Measured off the rendered board, not
+# derived — each chip's padding costs more room than its characters suggest.
+TAG_CHARS_PER_LINE = 18
 TAG_MORE = "…"
 
 # --- weekly tags ------------------------------------------------------------
