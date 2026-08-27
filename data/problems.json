@@ -16,6 +16,7 @@
   },
   "battleships-in-a-board": {
     "difficulty": "Medium",
+    "frontend_id": "419",
     "tags": [
       "Array",
       "Depth-First Search",
@@ -24,6 +25,7 @@
   },
   "binary-search": {
     "difficulty": "Easy",
+    "frontend_id": "704",
     "tags": [
       "Array",
       "Binary Search"
@@ -40,6 +42,7 @@
   },
   "binary-tree-level-order-traversal": {
     "difficulty": "Medium",
+    "frontend_id": "102",
     "tags": [
       "Tree",
       "Breadth-First Search",
@@ -65,6 +68,7 @@
   },
   "car-fleet": {
     "difficulty": "Medium",
+    "frontend_id": "853",
     "tags": [
       "Array",
       "Stack",
@@ -84,6 +88,7 @@
   },
   "cheapest-flights-within-k-stops": {
     "difficulty": "Medium",
+    "frontend_id": "787",
     "tags": [
       "Dynamic Programming",
       "Depth-First Search",
@@ -104,6 +109,7 @@
   },
   "coloring-a-border": {
     "difficulty": "Medium",
+    "frontend_id": "1034",
     "tags": [
       "Array",
       "Depth-First Search",
@@ -113,6 +119,7 @@
   },
   "combination-sum": {
     "difficulty": "Medium",
+    "frontend_id": "39",
     "tags": [
       "Array",
       "Backtracking"
@@ -120,6 +127,7 @@
   },
   "combination-sum-ii": {
     "difficulty": "Medium",
+    "frontend_id": "40",
     "tags": [
       "Array",
       "Backtracking"
@@ -127,6 +135,7 @@
   },
   "combination-sum-iii": {
     "difficulty": "Medium",
+    "frontend_id": "216",
     "tags": [
       "Array",
       "Backtracking"
@@ -134,6 +143,7 @@
   },
   "combinations": {
     "difficulty": "Medium",
+    "frontend_id": "77",
     "tags": [
       "Backtracking"
     ]
@@ -178,6 +188,7 @@
   },
   "contains-duplicate": {
     "difficulty": "Easy",
+    "frontend_id": "217",
     "tags": [
       "Array",
       "Hash Table",
@@ -245,6 +256,7 @@
   },
   "course-schedule-ii": {
     "difficulty": "Medium",
+    "frontend_id": "210",
     "tags": [
       "Depth-First Search",
       "Breadth-First Search",
@@ -254,6 +266,7 @@
   },
   "course-schedule-iv": {
     "difficulty": "Medium",
+    "frontend_id": "1462",
     "tags": [
       "Depth-First Search",
       "Breadth-First Search",
@@ -263,6 +276,7 @@
   },
   "daily-temperatures": {
     "difficulty": "Medium",
+    "frontend_id": "739",
     "tags": [
       "Array",
       "Stack",
@@ -304,6 +318,7 @@
   },
   "evaluate-reverse-polish-notation": {
     "difficulty": "Medium",
+    "frontend_id": "150",
     "tags": [
       "Array",
       "Math",
@@ -312,6 +327,7 @@
   },
   "find-elements-in-a-contaminated-binary-tree": {
     "difficulty": "Medium",
+    "frontend_id": "1261",
     "tags": [
       "Hash Table",
       "Tree",
@@ -323,6 +339,7 @@
   },
   "find-first-and-last-position-of-element-in-sorted-array": {
     "difficulty": "Medium",
+    "frontend_id": "34",
     "tags": [
       "Array",
       "Binary Search"
@@ -330,6 +347,7 @@
   },
   "find-minimum-in-rotated-sorted-array": {
     "difficulty": "Medium",
+    "frontend_id": "153",
     "tags": [
       "Array",
       "Binary Search"
@@ -367,6 +385,7 @@
   },
   "game-of-life": {
     "difficulty": "Medium",
+    "frontend_id": "289",
     "tags": [
       "Array",
       "Matrix",
@@ -375,6 +394,7 @@
   },
   "generate-parentheses": {
     "difficulty": "Medium",
+    "frontend_id": "22",
     "tags": [
       "String",
       "Dynamic Programming",
@@ -399,6 +419,7 @@
   },
   "jump-game": {
     "difficulty": "Medium",
+    "frontend_id": "55",
     "tags": [
       "Array",
       "Dynamic Programming",
@@ -416,6 +437,7 @@
   },
   "k-th-largest-perfect-subtree-size-in-binary-tree": {
     "difficulty": "Medium",
+    "frontend_id": "3319",
     "tags": [
       "Tree",
       "Depth-First Search",
@@ -425,6 +447,7 @@
   },
   "koko-eating-bananas": {
     "difficulty": "Medium",
+    "frontend_id": "875",
     "tags": [
       "Array",
       "Binary Search"
@@ -432,6 +455,7 @@
   },
   "kth-largest-element-in-an-array": {
     "difficulty": "Medium",
+    "frontend_id": "215",
     "tags": [
       "Array",
       "Divide and Conquer",
@@ -451,6 +475,7 @@
   },
   "largest-rectangle-in-histogram": {
     "difficulty": "Hard",
+    "frontend_id": "84",
     "tags": [
       "Array",
       "Stack",
@@ -460,6 +485,7 @@
   },
   "letter-combinations-of-a-phone-number": {
     "difficulty": "Medium",
+    "frontend_id": "17",
     "tags": [
       "Hash Table",
       "String",
@@ -476,6 +502,7 @@
   },
   "longest-common-prefix": {
     "difficulty": "Easy",
+    "frontend_id": "14",
     "tags": [
       "Array",
       "String",
@@ -495,6 +522,7 @@
   },
   "longest-repeating-character-replacement": {
     "difficulty": "Medium",
+    "frontend_id": "424",
     "tags": [
       "Hash Table",
       "String",
@@ -520,6 +548,7 @@
   },
   "longest-zigzag-path-in-a-binary-tree": {
     "difficulty": "Medium",
+    "frontend_id": "1372",
     "tags": [
       "Dynamic Programming",
       "Tree",
@@ -530,6 +559,7 @@
   },
   "lru-cache": {
     "difficulty": "Medium",
+    "frontend_id": "146",
     "tags": [
       "Hash Table",
       "Linked List",
@@ -599,6 +629,7 @@
   },
   "maximum-product-subarray": {
     "difficulty": "Medium",
+    "frontend_id": "152",
     "tags": [
       "Array",
       "Dynamic Programming"
@@ -613,6 +644,7 @@
   },
   "maximum-subarray": {
     "difficulty": "Medium",
+    "frontend_id": "53",
     "tags": [
       "Array",
       "Divide and Conquer",
@@ -621,6 +653,7 @@
   },
   "maximum-sum-circular-subarray": {
     "difficulty": "Medium",
+    "frontend_id": "918",
     "tags": [
       "Array",
       "Divide and Conquer",
@@ -631,6 +664,7 @@
   },
   "min-stack": {
     "difficulty": "Medium",
+    "frontend_id": "155",
     "tags": [
       "Stack",
       "Design"
@@ -646,6 +680,7 @@
   },
   "minimum-ascii-delete-sum-for-two-strings": {
     "difficulty": "Medium",
+    "frontend_id": "712",
     "tags": [
       "String",
       "Dynamic Programming",
@@ -686,6 +721,7 @@
   },
   "my-calendar-ii": {
     "difficulty": "Medium",
+    "frontend_id": "731",
     "tags": [
       "Array",
       "Binary Search",
@@ -697,6 +733,7 @@
   },
   "n-ary-tree-level-order-traversal": {
     "difficulty": "Medium",
+    "frontend_id": "429",
     "tags": [
       "Tree",
       "Breadth-First Search"
@@ -704,6 +741,7 @@
   },
   "n-ary-tree-postorder-traversal": {
     "difficulty": "Easy",
+    "frontend_id": "590",
     "tags": [
       "Stack",
       "Tree",
@@ -712,6 +750,7 @@
   },
   "n-ary-tree-preorder-traversal": {
     "difficulty": "Easy",
+    "frontend_id": "589",
     "tags": [
       "Stack",
       "Tree",
@@ -720,6 +759,7 @@
   },
   "n-queens-ii": {
     "difficulty": "Hard",
+    "frontend_id": "52",
     "tags": [
       "Backtracking",
       "Algorithm X"
@@ -727,6 +767,7 @@
   },
   "nearest-exit-from-entrance-in-maze": {
     "difficulty": "Medium",
+    "frontend_id": "1926",
     "tags": [
       "Array",
       "Breadth-First Search",
@@ -762,6 +803,7 @@
   },
   "ones-and-zeroes": {
     "difficulty": "Medium",
+    "frontend_id": "474",
     "tags": [
       "Array",
       "String",
@@ -772,12 +814,14 @@
   },
   "out-of-boundary-paths": {
     "difficulty": "Medium",
+    "frontend_id": "576",
     "tags": [
       "Dynamic Programming"
     ]
   },
   "palindrome-partitioning": {
     "difficulty": "Medium",
+    "frontend_id": "131",
     "tags": [
       "String",
       "Dynamic Programming",
@@ -786,6 +830,7 @@
   },
   "permutations": {
     "difficulty": "Medium",
+    "frontend_id": "46",
     "tags": [
       "Array",
       "Backtracking"
@@ -793,6 +838,7 @@
   },
   "permutations-ii": {
     "difficulty": "Medium",
+    "frontend_id": "47",
     "tags": [
       "Array",
       "Backtracking",
@@ -801,6 +847,7 @@
   },
   "pseudo-palindromic-paths-in-a-binary-tree": {
     "difficulty": "Medium",
+    "frontend_id": "1457",
     "tags": [
       "Bit Manipulation",
       "Tree",
@@ -811,6 +858,7 @@
   },
   "regions-cut-by-slashes": {
     "difficulty": "Medium",
+    "frontend_id": "959",
     "tags": [
       "Array",
       "Hash Table",
@@ -823,13 +871,24 @@
   },
   "restore-ip-addresses": {
     "difficulty": "Medium",
+    "frontend_id": "93",
     "tags": [
       "String",
       "Backtracking"
     ]
   },
+  "rotting-oranges": {
+    "difficulty": "Medium",
+    "frontend_id": "994",
+    "tags": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
   "search-a-2d-matrix": {
     "difficulty": "Medium",
+    "frontend_id": "74",
     "tags": [
       "Array",
       "Binary Search",
@@ -846,6 +905,7 @@
   },
   "search-in-rotated-sorted-array": {
     "difficulty": "Medium",
+    "frontend_id": "33",
     "tags": [
       "Array",
       "Binary Search"
@@ -853,6 +913,7 @@
   },
   "shortest-bridge": {
     "difficulty": "Medium",
+    "frontend_id": "934",
     "tags": [
       "Array",
       "Depth-First Search",
@@ -878,6 +939,7 @@
   },
   "subsets": {
     "difficulty": "Medium",
+    "frontend_id": "78",
     "tags": [
       "Array",
       "Backtracking",
@@ -886,6 +948,7 @@
   },
   "subsets-ii": {
     "difficulty": "Medium",
+    "frontend_id": "90",
     "tags": [
       "Array",
       "Backtracking",
@@ -919,6 +982,7 @@
   },
   "time-based-key-value-store": {
     "difficulty": "Medium",
+    "frontend_id": "981",
     "tags": [
       "Hash Table",
       "String",
@@ -928,6 +992,7 @@
   },
   "top-k-frequent-elements": {
     "difficulty": "Medium",
+    "frontend_id": "347",
     "tags": [
       "Array",
       "Hash Table",
@@ -951,6 +1016,7 @@
   },
   "two-sum": {
     "difficulty": "Easy",
+    "frontend_id": "1",
     "tags": [
       "Array",
       "Hash Table"
@@ -973,6 +1039,7 @@
   },
   "valid-parentheses": {
     "difficulty": "Easy",
+    "frontend_id": "20",
     "tags": [
       "String",
       "Stack",
@@ -981,6 +1048,7 @@
   },
   "valid-parenthesis-string": {
     "difficulty": "Medium",
+    "frontend_id": "678",
     "tags": [
       "String",
       "Dynamic Programming",
@@ -1008,6 +1076,7 @@
   },
   "wiggle-subsequence": {
     "difficulty": "Medium",
+    "frontend_id": "376",
     "tags": [
       "Array",
       "Dynamic Programming",
