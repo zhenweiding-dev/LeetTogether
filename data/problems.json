@@ -964,6 +964,18 @@
       "Counting"
     ]
   },
+  "sudoku-solver": {
+    "difficulty": "Hard",
+    "frontend_id": "37",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Backtracking",
+      "Matrix",
+      "Algorithm X",
+      "Dancing Links"
+    ]
+  },
   "swap-for-longest-repeated-character-substring": {
     "difficulty": "Medium",
     "tags": [

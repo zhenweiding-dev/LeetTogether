@@ -10,7 +10,7 @@
 
 ## 🏆 Leaderboard
 
-🔥 **3/4 submitted today** · pending: zhenwei
+🎉 **4/4 submitted today**
 
 <table>
 <thead>
@@ -38,18 +38,18 @@
 <td align="center"><code>· · · · · · · · · · · · ▅ ▅</code></td>
 </tr>
 <tr>
-<td align="left">🥉 <code>cheers🍻</code> 🔺</td>
+<td align="left">🥉 <code>zhenwei</code></td>
+<td align="center"><code>1 ✅丨6 pts</code></td>
+<td align="center"><code>21 ✅丨<b>62 pts</b></code></td>
+<td align="center"><code>🔥 10+</code></td>
+<td align="center"><code>░ ░ ░ ░ ▁ ▁ ▇ ▁ ▃ ▁ ▅ ▃ ▃ ▁</code></td>
+</tr>
+<tr>
+<td align="left"><code>4</code> <code>cheers🍻</code></td>
 <td align="center"><code>2 ✅丨6 pts</code></td>
 <td align="center"><code>8 ✅丨<b>24 pts</b></code></td>
 <td align="center"><code>🔥 3</code></td>
 <td align="center"><code>· · · · · ▁ ▃ · ▁ ▁ · ▁ ▁ ▁</code></td>
-</tr>
-<tr>
-<td align="left"><code>4</code> <code>zhenwei</code> 🔻</td>
-<td align="center"><code>0 ✅丨0 pts</code></td>
-<td align="center"><code>20 ✅丨<b>56 pts</b></code></td>
-<td align="center"><code>🔥 9+</code></td>
-<td align="center"><code>░ ░ ░ ░ ▁ ▁ ▇ ▁ ▃ ▁ ▅ ▃ ▃ ·</code></td>
 </tr>
 <tr><td colspan="5"><sub>🔺🔻 rank change since yesterday · <b>+</b> and <b>≥</b> mean at least<br>💡 <b>Scoring</b> Easy ×1 · Medium ×3 · Hard ×6 — <b>✅</b> problems solved, <b>pts</b> the same weighted by difficulty<br>📊 <b>Last 14 days</b> <code>·</code> no submission · <code>░</code> no data</sub></td></tr>
 </tbody>
@@ -81,14 +81,19 @@
 <td align="left"><code>146</code> <a href="https://leetcode.com/problems/lru-cache/"><code>LRU Cache</code></a><br><code>994</code> <a href="https://leetcode.com/problems/rotting-oranges/"><code>Rotting Oranges</code></a></td>
 <td align="left"><code>Array丨1</code> <code>Breadth-First Search丨1</code> …</td>
 </tr>
+<tr>
+<td align="left"><code>zhenwei</code></td>
+<td align="left"><code>37</code> <a href="https://leetcode.com/problems/sudoku-solver/"><code>Sudoku Solver</code></a></td>
+<td align="left"><code>Algorithm X丨1</code> …</td>
+</tr>
 </tbody>
 </table>
 
 ## 🏷️ Tags this week
 
-> 🔢 Array **65** 丨 🧵 String **21** 丨 ↩️ Backtracking **19** 丨 🗂️ Hash Table **19** 丨 🧩 Dynamic Programming **17** 丨 🔍 Binary Search **15** 丨 🤿 Depth-First Search **15** 丨 🧇 Matrix **13** 丨 🥞 Stack **13** 丨 🌊 Breadth-First Search **12** 丨 ➕ Prefix Sum **12** 丨 🪟 Sliding Window **12** 丨 📶 Sorting **11** 丨 🌳 Tree **8** 丨 🤑 Greedy **7** 丨 🎛️ Bit Manipulation **6** 丨 ⛰️ Heap (Priority Queue) **6** 丨 🌲 Binary Tree **5** 丨 🏗️ Design **5** 丨 🧱 Monotonic Stack **5** 丨 🪆 Bracket Sequences **4** 丨 🎮 Simulation **4** 丨 🕸️ Graph Theory **3** 丨 ⚔️ Divide and Conquer **2** 丨 ➗ Math **2** 丨 🚋 Monotonic Queue **2** 丨 📚 Ordered Set **2** 丨 🎟️ Queue **2** 丨 🎋 Segment Tree **2** 丨 🧭 Topological Sort **2** 丨 ⚪ 0-1 Knapsack **1** 丨 ⚪ Algorithm X **1** 丨 🎍 Binary Indexed Tree **1** 丨 🎄 Binary Search Tree **1** 丨 🧮 Counting **1** 丨 ⚪ DP on Trees **1** 丨 ⛓️ Doubly-Linked List **1** 丨 ⚪ Knapsack Problem **1** 丨 🔗 Linked List **1** 丨 ⚪ Longest Common Subsequence **1** 丨 ⚪ Planar Graph **1** 丨 ⚡ Quickselect **1** 丨 📏 Range Minimum/Maximum Query **1** 丨 🛣️ Shortest Path **1** 丨 🔎 String Matching **1** 丨 🤝 Union-Find **1**
+> 🔢 Array **66** 丨 🧵 String **21** 丨 ↩️ Backtracking **20** 丨 🗂️ Hash Table **20** 丨 🧩 Dynamic Programming **17** 丨 🔍 Binary Search **15** 丨 🤿 Depth-First Search **15** 丨 🧇 Matrix **14** 丨 🥞 Stack **13** 丨 🌊 Breadth-First Search **12** 丨 ➕ Prefix Sum **12** 丨 🪟 Sliding Window **12** 丨 📶 Sorting **11** 丨 🌳 Tree **8** 丨 🤑 Greedy **7** 丨 🎛️ Bit Manipulation **6** 丨 ⛰️ Heap (Priority Queue) **6** 丨 🌲 Binary Tree **5** 丨 🏗️ Design **5** 丨 🧱 Monotonic Stack **5** 丨 🪆 Bracket Sequences **4** 丨 🎮 Simulation **4** 丨 🕸️ Graph Theory **3** 丨 ⚪ Algorithm X **2** 丨 ⚔️ Divide and Conquer **2** 丨 ➗ Math **2** 丨 🚋 Monotonic Queue **2** 丨 📚 Ordered Set **2** 丨 🎟️ Queue **2** 丨 🎋 Segment Tree **2** 丨 🧭 Topological Sort **2** 丨 ⚪ 0-1 Knapsack **1** 丨 🎍 Binary Indexed Tree **1** 丨 🎄 Binary Search Tree **1** 丨 🧮 Counting **1** 丨 ⚪ DP on Trees **1** 丨 ⚪ Dancing Links **1** 丨 ⛓️ Doubly-Linked List **1** 丨 ⚪ Knapsack Problem **1** 丨 🔗 Linked List **1** 丨 ⚪ Longest Common Subsequence **1** 丨 ⚪ Planar Graph **1** 丨 ⚡ Quickselect **1** 丨 📏 Range Minimum/Maximum Query **1** 丨 🛣️ Shortest Path **1** 丨 🔎 String Matching **1** 丨 🤝 Union-Find **1**
 
-<sub>🕒 Updated 2026-08-26 17:52 (America/Los_Angeles) · 6 day(s) of history</sub>
+<sub>🕒 Updated 2026-08-26 19:46 (America/Los_Angeles) · 6 day(s) of history</sub>
 
 <!-- LEADERBOARD:END -->
 
