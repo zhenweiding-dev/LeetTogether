@@ -36,7 +36,7 @@ RANK_HEADERS = [
     "Streak",
     "Last {window} days",
 ]
-RANK_ALIGNS = ["center"] * len(RANK_HEADERS)
+RANK_ALIGNS = ["left"] + ["center"] * (len(RANK_HEADERS) - 1)  # names left
 
 MEDALS = ["🥇", "🥈", "🥉"]
 UP, DOWN = "🔺", "🔻"
@@ -64,15 +64,21 @@ LEGEND = (
 
 HEAD_DETAIL = "## 📅 Today's submissions"
 DETAIL_HEADERS = ["Member", "Problems", "Tags"]
-DETAIL_ALIGNS = ["center", "left", "left"]  # wrapping cells read better left
+DETAIL_ALIGNS = ["left", "left", "left"]
 # Left to itself the browser hands Tags the most room, because a row of inline
 # chips asks for more width than a stack of lines. Pin the split instead.
-DETAIL_WIDTHS = ["7%", "63%", "30%"]
+DETAIL_WIDTHS = ["12%", "58%", "30%"]
 
 # Plain lines rather than an <ol>: the number is LeetCode's own, and dropping the
 # list reclaims its indent for the titles.
-PROBLEM_ITEM = "{num}. {link}"
+PROBLEM_ITEM = "{num} {link}"
 PROBLEM_JOIN = "<br>"
+PROBLEM_LIMIT = 20
+PROBLEM_MORE = "…"
+# A problem takes a whole line, a tag chip about half of one, so allow this many
+# tags per problem line to keep the two cells roughly the same height.
+TAGS_PER_PROBLEM_LINE = 2
+TAG_MORE = "…"
 
 # --- weekly tags ------------------------------------------------------------
 

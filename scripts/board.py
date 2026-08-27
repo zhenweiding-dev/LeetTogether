@@ -391,16 +391,28 @@ def render(cfg, snapshots, problems, unreadable=()):
         detail = []
         for r in active:
             lines = []
-            for a in r["acs"]:
+            for a in r["acs"][: theme.PROBLEM_LIMIT]:
                 link = (
                     f'<a href="https://leetcode.com/problems/{esc(a["slug"])}/">'
                     f"{code(esc(a['title']))}</a>"
                 )
                 nid = frontend_id_of(problems, a["slug"])
                 lines.append(
-                    theme.PROBLEM_ITEM.format(num=nid, link=link) if nid else link
+                    theme.PROBLEM_ITEM.format(num=code(nid), link=link)
+                    if nid
+                    else link
                 )
-            chips = tag_chips(tag_counts([a["slug"] for a in r["acs"]], problems))
+            if len(r["acs"]) > theme.PROBLEM_LIMIT:
+                lines.append(theme.PROBLEM_MORE)
+
+            # counted over everything today, but shown in proportion to the
+            # problem lines so the two cells stay about the same height
+            pairs = tag_counts([a["slug"] for a in r["acs"]], problems)
+            cap = len(lines) * theme.TAGS_PER_PROBLEM_LINE
+            chips = tag_chips(pairs[:cap])
+            if len(pairs) > cap:
+                chips += f" {theme.TAG_MORE}"
+
             detail.append(
                 [code(esc(r["name"])), theme.PROBLEM_JOIN.join(lines), chips]
             )
