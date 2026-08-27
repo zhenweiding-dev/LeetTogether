@@ -323,6 +323,14 @@
       "Heap (Priority Queue)"
     ]
   },
+  "escape-the-ghosts": {
+    "difficulty": "Medium",
+    "frontend_id": "789",
+    "tags": [
+      "Array",
+      "Math"
+    ]
+  },
   "evaluate-reverse-polish-notation": {
     "difficulty": "Medium",
     "frontend_id": "150",
@@ -426,6 +434,14 @@
     "tags": [
       "Array",
       "Sliding Window"
+    ]
+  },
+  "image-overlap": {
+    "difficulty": "Medium",
+    "frontend_id": "835",
+    "tags": [
+      "Array",
+      "Matrix"
     ]
   },
   "insert-into-a-binary-search-tree": {
@@ -539,6 +555,16 @@
       "Monotonic Queue"
     ]
   },
+  "longest-mountain-in-array": {
+    "difficulty": "Medium",
+    "frontend_id": "845",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Dynamic Programming",
+      "Enumeration"
+    ]
+  },
   "longest-repeating-character-replacement": {
     "difficulty": "Medium",
     "frontend_id": "424",
@@ -617,6 +643,13 @@
       "Array",
       "Greedy",
       "Matrix"
+    ]
+  },
+  "maximize-distance-to-closest-person": {
+    "difficulty": "Medium",
+    "frontend_id": "849",
+    "tags": [
+      "Array"
     ]
   },
   "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts": {
