@@ -16,6 +16,7 @@ ERR_NOT_FETCHED = "not fetched"
 WARN = "> ⚠️ {items}"
 WARN_FAILED = "**{names}** could not be fetched"
 WARN_STALE = "**{names}** showing earlier data from today"
+WARN_UNREADABLE = "**{names}** could not be parsed, that day is missing"
 WARN_JOIN = " · "
 
 HEAD_BOARD = "## 🏆 Leaderboard"
@@ -29,17 +30,17 @@ PROGRESS_NONE = "💤"
 # --- leaderboard ------------------------------------------------------------
 
 RANK_HEADERS = [
-    "Rank",
     "Member",
-    "Streak",
     "Today",
     "This week",
+    "Streak",
     "Last {window} days",
 ]
 RANK_ALIGNS = ["center"] * len(RANK_HEADERS)
 
 MEDALS = ["🥇", "🥈", "🥉"]
 UP, DOWN = "🔺", "🔻"
+MEMBER_CELL = "{rank} {name}{move}"  # rank lives in the member cell to save a column
 
 STREAK = "🔥 {days}"
 STREAK_CAPPED = "🔥 {days}+"  # coverage ran out, the real streak may be longer
@@ -65,8 +66,13 @@ HEAD_DETAIL = "## 📅 Today's submissions"
 DETAIL_HEADERS = ["Member", "Problems", "Tags"]
 DETAIL_ALIGNS = ["center", "left", "left"]  # wrapping cells read better left
 # Left to itself the browser hands Tags the most room, because a row of inline
-# chips asks for more width than a stack of list items. Pin the split instead.
-DETAIL_WIDTHS = ["8%", "57%", "35%"]
+# chips asks for more width than a stack of lines. Pin the split instead.
+DETAIL_WIDTHS = ["7%", "63%", "30%"]
+
+# Plain lines rather than an <ol>: the number is LeetCode's own, and dropping the
+# list reclaims its indent for the titles.
+PROBLEM_ITEM = "{num}. {link}"
+PROBLEM_JOIN = "<br>"
 
 # --- weekly tags ------------------------------------------------------------
 

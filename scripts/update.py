@@ -23,9 +23,9 @@ from common import (
 
 
 def sync_questions(members):
-    """Fill in difficulty and tags for new problems, queried once each.
+    """Fill in the number, difficulty and tags for new problems, once each.
 
-    Entries in the old cache format are re-queried to pick up their tags.
+    Entries cached before a field existed are re-queried to pick it up.
     """
     problems = load_problems()
     slugs = {
@@ -34,11 +34,16 @@ def sync_questions(members):
         if m.get("ok")
         for s in m.get("recent_ac", [])
     }
-    missing = sorted(s for s in slugs if not isinstance(problems.get(s), dict))
+    missing = sorted(
+        s
+        for s in slugs
+        if not isinstance(problems.get(s), dict)
+        or "frontend_id" not in problems[s]
+    )
     if not missing:
         return
 
-    print(f"\nFetching difficulty and tags for {len(missing)} new problem(s)...")
+    print(f"\nFetching metadata for {len(missing)} problem(s)...")
     for i, slug in enumerate(missing):
         if i:
             time.sleep(0.3)

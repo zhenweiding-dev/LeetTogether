@@ -51,6 +51,7 @@ query userProgress($handle: String!) {
 QUESTION_QUERY = """
 query questionMeta($slug: String!) {
   question(titleSlug: $slug) {
+    questionFrontendId
     title
     difficulty
     topicTags { name }
@@ -135,6 +136,7 @@ def fetch_question(slug):
     if not q:
         return None
     return {
+        "frontend_id": q.get("questionFrontendId") or "",
         "difficulty": q.get("difficulty") or "",
         "tags": [t["name"] for t in (q.get("topicTags") or [])],
     }

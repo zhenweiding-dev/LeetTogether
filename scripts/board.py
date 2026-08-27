@@ -18,6 +18,7 @@ from common import (
     README,
     days_back,
     difficulty_of,
+    frontend_id_of,
     load_problems,
     load_snapshots,
     local_date,
@@ -292,7 +293,7 @@ def rank_move(handle, rank, prev_ranks):
     return f" {theme.UP}" if rank < was else f" {theme.DOWN}"
 
 
-def render(cfg, snapshots, problems):
+def render(cfg, snapshots, problems, unreadable=()):
     now = local_now(cfg)
     today = now.strftime("%Y-%m-%d")
 
@@ -308,6 +309,8 @@ def render(cfg, snapshots, problems):
 
     # Anything wrong goes at the very top; the terminal is not the only reader.
     notes = []
+    if unreadable:
+        notes.append(theme.WARN_UNREADABLE.format(names=", ".join(unreadable)))
     if broken:
         notes.append(theme.WARN_FAILED.format(names=", ".join(n for n, _, _ in broken)))
     if stale := [r["name"] for r in rows if r["stale"]]:
@@ -335,13 +338,15 @@ def render(cfg, snapshots, problems):
         ranking = []
         for i, r in enumerate(rows, 1):
             streak = theme.STREAK_CAPPED if r["streak_limited"] else theme.STREAK
+            member = theme.MEMBER_CELL.format(
+                rank=theme.MEDALS[i - 1] if i <= len(theme.MEDALS) else code(i),
+                name=f'<a href="https://leetcode.com/u/{esc(r["handle"])}/">'
+                f"{code(esc(r['name']))}</a>",
+                move=rank_move(r["handle"], i, prev_ranks),
+            )
             ranking.append(
                 [
-                    theme.MEDALS[i - 1] if i <= len(theme.MEDALS) else code(i),
-                    f'<a href="https://leetcode.com/u/{esc(r["handle"])}/">'
-                    f"{code(esc(r['name']))}</a>"
-                    f"{rank_move(r['handle'], i, prev_ranks)}",
-                    code(streak.format(days=r["streak"])),
+                    member,
                     code(
                         theme.TODAY_CELL.format(
                             solved=num(r["today"], r["today_partial"]),
@@ -354,6 +359,7 @@ def render(cfg, snapshots, problems):
                             points=num(r["week_score"], r["week_partial"]),
                         )
                     ),
+                    code(streak.format(days=r["streak"])),
                     code(r["spark"]),
                 ]
             )
@@ -384,13 +390,20 @@ def render(cfg, snapshots, problems):
         out.append("")
         detail = []
         for r in active:
-            items = "".join(
-                f'<li><a href="https://leetcode.com/problems/{esc(a["slug"])}/">'
-                f"{code(esc(a['title']))}</a></li>"
-                for a in r["acs"]
-            )
+            lines = []
+            for a in r["acs"]:
+                link = (
+                    f'<a href="https://leetcode.com/problems/{esc(a["slug"])}/">'
+                    f"{code(esc(a['title']))}</a>"
+                )
+                nid = frontend_id_of(problems, a["slug"])
+                lines.append(
+                    theme.PROBLEM_ITEM.format(num=nid, link=link) if nid else link
+                )
             chips = tag_chips(tag_counts([a["slug"] for a in r["acs"]], problems))
-            detail.append([code(esc(r["name"])), f"<ol>{items}</ol>", chips])
+            detail.append(
+                [code(esc(r["name"])), theme.PROBLEM_JOIN.join(lines), chips]
+            )
         out.append(
             table(
                 theme.DETAIL_HEADERS,
@@ -427,7 +440,8 @@ def render(cfg, snapshots, problems):
 
 
 def update_readme(cfg):
-    board = render(cfg, load_snapshots(), load_problems())
+    snapshots, unreadable = load_snapshots()
+    board = render(cfg, snapshots, load_problems(), unreadable)
     text = README.read_text(encoding="utf-8")
 
     if MARK_START not in text or MARK_END not in text:

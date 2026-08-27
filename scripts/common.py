@@ -54,6 +54,12 @@ def difficulty_of(problems, slug):
     return (v.get("difficulty") if isinstance(v, dict) else v) or ""
 
 
+def frontend_id_of(problems, slug):
+    """The number LeetCode shows for the problem, or "" for an older cache entry."""
+    v = problems.get(slug)
+    return (v.get("frontend_id") or "") if isinstance(v, dict) else ""
+
+
 def tags_of(problems, slug):
     v = problems.get(slug)
     return v.get("tags") or [] if isinstance(v, dict) else []
@@ -68,16 +74,20 @@ def save_problems(problems):
 
 
 def load_snapshots():
-    """[(date, snapshot)] in ascending date order."""
+    """Returns ([(date, snapshot)] ascending, [names that would not parse]).
+
+    A broken file is skipped rather than fatal, but it silently costs a whole day
+    of history, so the caller is told about it and puts it on the board.
+    """
     if not SNAP_DIR.exists():
-        return []
-    out = []
+        return [], []
+    out, unreadable = [], []
     for path in sorted(SNAP_DIR.glob("*.json")):
         try:
             out.append((path.stem, json.loads(path.read_text(encoding="utf-8"))))
-        except json.JSONDecodeError:
-            continue
-    return out
+        except (json.JSONDecodeError, OSError):
+            unreadable.append(path.name)
+    return out, unreadable
 
 
 def days_back(end_str, n):
