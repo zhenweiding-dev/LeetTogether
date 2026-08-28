@@ -470,6 +470,15 @@
       "Binary Tree"
     ]
   },
+  "interval-list-intersections": {
+    "difficulty": "Medium",
+    "frontend_id": "986",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sweep Line"
+    ]
+  },
   "jump-game": {
     "difficulty": "Medium",
     "frontend_id": "55",
@@ -898,6 +907,17 @@
       "Dynamic Programming",
       "Bit Manipulation",
       "Prefix Sum"
+    ]
+  },
+  "number-of-islands": {
+    "difficulty": "Medium",
+    "frontend_id": "200",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
     ]
   },
   "number-of-sub-arrays-with-odd-sum": {
