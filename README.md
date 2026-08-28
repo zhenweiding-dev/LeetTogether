@@ -24,18 +24,18 @@
 </thead>
 <tbody>
 <tr>
-<td align="left">🥇 <code>xiao</code></td>
+<td align="left">🥇 <code>zhenwei</code> 🔺</td>
+<td align="center"><code>3 ✅丨9 pts</code></td>
+<td align="center"><code>25 ✅丨<b>85 pts</b></code></td>
+<td align="center"><code>🔥 12+</code></td>
+<td align="center"><code>░ ░ ▁ ▁ ▇ ▁ ▃ ▁ ▅ ▃ ▃ ▃ ▅ ▃</code></td>
+</tr>
+<tr>
+<td align="left">🥈 <code>xiao</code> 🔻</td>
 <td align="center"><code>3 ✅丨7 pts</code></td>
 <td align="center"><code>≥76 ✅丨<b>≥215 pts</b></code></td>
 <td align="center"><code>🔥 7+</code></td>
 <td align="center"><code>░ ░ ░ ░ ░ ░ ░ ▇ ▁ ▅ ▇ ▇ ▇ ▃</code></td>
-</tr>
-<tr>
-<td align="left">🥈 <code>zhenwei</code></td>
-<td align="center"><code>2 ✅丨6 pts</code></td>
-<td align="center"><code>24 ✅丨<b>82 pts</b></code></td>
-<td align="center"><code>🔥 12+</code></td>
-<td align="center"><code>░ ░ ▁ ▁ ▇ ▁ ▃ ▁ ▅ ▃ ▃ ▃ ▅ ▁</code></td>
 </tr>
 <tr>
 <td align="left">🥉 <code>cheers🍻</code></td>
@@ -67,14 +67,14 @@
 </thead>
 <tbody>
 <tr>
+<td align="left"><code>zhenwei</code></td>
+<td align="left"><code>Med</code> <code>1254</code> <a href="https://leetcode.com/problems/number-of-closed-islands/"><code>Number of Closed Islands</code></a><br><code>Med</code> <code>695</code> <a href="https://leetcode.com/problems/max-area-of-island/"><code>Max Area of Island</code></a><br><code>Med</code> <code>1905</code> <a href="https://leetcode.com/problems/count-sub-islands/"><code>Count Sub Islands</code></a></td>
+<td align="left"><code>Array丨3</code> <code>Breadth-First Search丨3</code> <code>Depth-First Search丨3</code> …</td>
+</tr>
+<tr>
 <td align="left"><code>xiao</code></td>
 <td align="left"><code>Med</code> <code>1169</code> <a href="https://leetcode.com/problems/invalid-transactions/"><code>Invalid Transactions</code></a><br><code>Med</code> <code>1352</code> <a href="https://leetcode.com/problems/product-of-the-last-k-numbers/"><code>Product of the Last K Numbers</code></a><br><code>Easy</code> <code>476</code> <a href="https://leetcode.com/problems/number-complement/"><code>Number Complement</code></a></td>
 <td align="left"><code>Array丨2</code> <code>Bit Manipulation丨1</code> <code>Data Stream丨1</code> <code>Design丨1</code> …</td>
-</tr>
-<tr>
-<td align="left"><code>zhenwei</code></td>
-<td align="left"><code>Med</code> <code>1254</code> <a href="https://leetcode.com/problems/number-of-closed-islands/"><code>Number of Closed Islands</code></a><br><code>Med</code> <code>695</code> <a href="https://leetcode.com/problems/max-area-of-island/"><code>Max Area of Island</code></a></td>
-<td align="left"><code>Array丨2</code> <code>Breadth-First Search丨2</code> …</td>
 </tr>
 <tr>
 <td align="left"><code>cheers🍻</code></td>
@@ -91,11 +91,11 @@
 
 ## 🏷️ Tags this week
 
-> Easy 12 Med 105 Hard 7
+> Easy 12 Med 106 Hard 7
 
-> <code>🔢 Array丨82</code> <code>🧵 String丨28</code> <code>🗂️ Hash Table丨24</code> <code>↩️ Backtracking丨22</code> <code>🌊 Breadth-First Search丨22</code> <code>🧩 Dynamic Programming丨22</code> <code>🧇 Matrix丨22</code> <code>🤿 Depth-First Search丨20</code> <code>🔍 Binary Search丨14</code> <code>➕ Prefix Sum丨13</code> <code>🪟 Sliding Window丨12</code> <code>📶 Sorting丨12</code> <code>🥞 Stack丨11</code> <code>🤑 Greedy丨9</code> <code>🎛️ Bit Manipulation丨7</code> <code>🏗️ Design丨6</code> <code>🕸️ Graph Theory丨6</code> <code>⛰️ Heap (Priority Queue)丨6</code> <code>🎮 Simulation丨6</code> <code>🌲 Binary Tree丨5</code> <code>➗ Math丨5</code> <code>🧱 Monotonic Stack丨5</code> <code>🌳 Tree丨5</code> <code>🪆 Bracket Sequences丨4</code> <code>🧭 Topological Sort丨4</code> <code>🤝 Union-Find丨4</code> <code>✖️ Algorithm X丨3</code> <code>⚪ Bidirectional Search丨3</code> <code>⚔️ Divide and Conquer丨3</code> <code>🚋 Monotonic Queue丨2</code> <code>📚 Ordered Set丨2</code> <code>🎟️ Queue丨2</code> <code>🎋 Segment Tree丨2</code> <code>🔎 String Matching丨2</code> <code>↔️ Two Pointers丨2</code> <code>🧳 0-1 Knapsack</code> <code>⚪ A* Search</code> <code>🎍 Binary Indexed Tree</code> <code>🧮 Counting</code> <code>🪵 DP on Trees</code> <code>💃 Dancing Links</code> <code>🚰 Data Stream</code> <code>🪃 Directed Acyclic Graph</code> <code>⛓️ Doubly-Linked List</code> <code>📋 Enumeration</code> <code>📐 Geometry</code> <code>⚪ Heuristic Search</code> <code>🎒 Knapsack Problem</code> <code>⚪ Kosaraju&#x27;s Algorithm</code> <code>🔗 Linked List</code> <code>🧬 Longest Common Subsequence</code> <code>🗒️ Memoization</code> <code>📄 Planar Graph</code> <code>⚡ Quickselect</code> <code>📏 Range Minimum/Maximum Query</code> <code>🛣️ Shortest Path</code> <code>🧹 Sweep Line</code> <code>⚪ Tarjan&#x27;s SCC Algorithm</code>
+> <code>🔢 Array丨83</code> <code>🧵 String丨28</code> <code>🗂️ Hash Table丨24</code> <code>🌊 Breadth-First Search丨23</code> <code>🧇 Matrix丨23</code> <code>↩️ Backtracking丨22</code> <code>🧩 Dynamic Programming丨22</code> <code>🤿 Depth-First Search丨21</code> <code>🔍 Binary Search丨14</code> <code>➕ Prefix Sum丨13</code> <code>🪟 Sliding Window丨12</code> <code>📶 Sorting丨12</code> <code>🥞 Stack丨11</code> <code>🤑 Greedy丨9</code> <code>🎛️ Bit Manipulation丨7</code> <code>🏗️ Design丨6</code> <code>🕸️ Graph Theory丨6</code> <code>⛰️ Heap (Priority Queue)丨6</code> <code>🎮 Simulation丨6</code> <code>🌲 Binary Tree丨5</code> <code>➗ Math丨5</code> <code>🧱 Monotonic Stack丨5</code> <code>🌳 Tree丨5</code> <code>🤝 Union-Find丨5</code> <code>🪆 Bracket Sequences丨4</code> <code>🧭 Topological Sort丨4</code> <code>✖️ Algorithm X丨3</code> <code>⚪ Bidirectional Search丨3</code> <code>⚔️ Divide and Conquer丨3</code> <code>🚋 Monotonic Queue丨2</code> <code>📚 Ordered Set丨2</code> <code>🎟️ Queue丨2</code> <code>🎋 Segment Tree丨2</code> <code>🔎 String Matching丨2</code> <code>↔️ Two Pointers丨2</code> <code>🧳 0-1 Knapsack</code> <code>⚪ A* Search</code> <code>🎍 Binary Indexed Tree</code> <code>🧮 Counting</code> <code>🪵 DP on Trees</code> <code>💃 Dancing Links</code> <code>🚰 Data Stream</code> <code>🪃 Directed Acyclic Graph</code> <code>⛓️ Doubly-Linked List</code> <code>📋 Enumeration</code> <code>📐 Geometry</code> <code>⚪ Heuristic Search</code> <code>🎒 Knapsack Problem</code> <code>⚪ Kosaraju&#x27;s Algorithm</code> <code>🔗 Linked List</code> <code>🧬 Longest Common Subsequence</code> <code>🗒️ Memoization</code> <code>📄 Planar Graph</code> <code>⚡ Quickselect</code> <code>📏 Range Minimum/Maximum Query</code> <code>🛣️ Shortest Path</code> <code>🧹 Sweep Line</code> <code>⚪ Tarjan&#x27;s SCC Algorithm</code>
 
-<sub>🕒 Updated 2026-08-28 12:59 (America/Los_Angeles) · 8 day(s) of history</sub>
+<sub>🕒 Updated 2026-08-28 13:34 (America/Los_Angeles) · 8 day(s) of history</sub>
 
 <!-- LEADERBOARD:END -->
 

@@ -264,6 +264,17 @@
       "Segment Tree"
     ]
   },
+  "count-sub-islands": {
+    "difficulty": "Medium",
+    "frontend_id": "1905",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ]
+  },
   "count-subarrays-where-max-element-appears-at-least-k-times": {
     "difficulty": "Medium",
     "tags": [
