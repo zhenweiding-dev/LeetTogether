@@ -122,6 +122,16 @@
       "Bit Manipulation"
     ]
   },
+  "clone-graph": {
+    "difficulty": "Medium",
+    "frontend_id": "133",
+    "tags": [
+      "Hash Table",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory"
+    ]
+  },
   "coloring-a-border": {
     "difficulty": "Medium",
     "frontend_id": "1034",
@@ -681,6 +691,17 @@
       "Prefix Sum"
     ]
   },
+  "max-area-of-island": {
+    "difficulty": "Medium",
+    "frontend_id": "695",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ]
+  },
   "max-increase-to-keep-city-skyline": {
     "difficulty": "Medium",
     "frontend_id": "807",
@@ -914,6 +935,24 @@
     "tags": [
       "Array",
       "Breadth-First Search",
+      "Matrix"
+    ]
+  },
+  "number-complement": {
+    "difficulty": "Easy",
+    "frontend_id": "476",
+    "tags": [
+      "Bit Manipulation"
+    ]
+  },
+  "number-of-closed-islands": {
+    "difficulty": "Medium",
+    "frontend_id": "1254",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
       "Matrix"
     ]
   },
