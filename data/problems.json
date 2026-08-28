@@ -23,6 +23,14 @@
       "Matrix"
     ]
   },
+  "best-time-to-buy-and-sell-stock": {
+    "difficulty": "Easy",
+    "frontend_id": "121",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
   "binary-search": {
     "difficulty": "Easy",
     "frontend_id": "704",
@@ -477,6 +485,16 @@
       "Array",
       "Two Pointers",
       "Sweep Line"
+    ]
+  },
+  "invalid-transactions": {
+    "difficulty": "Medium",
+    "frontend_id": "1169",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
     ]
   },
   "jump-game": {
@@ -990,6 +1008,17 @@
       "Array",
       "Backtracking",
       "Sorting"
+    ]
+  },
+  "product-of-the-last-k-numbers": {
+    "difficulty": "Medium",
+    "frontend_id": "1352",
+    "tags": [
+      "Array",
+      "Math",
+      "Design",
+      "Data Stream",
+      "Prefix Sum"
     ]
   },
   "pseudo-palindromic-paths-in-a-binary-tree": {
