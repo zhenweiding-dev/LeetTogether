@@ -74,8 +74,20 @@
       "Binary Tree"
     ]
   },
+  "binary-tree-maximum-path-sum": {
+    "difficulty": "Hard",
+    "frontend_id": "124",
+    "tags": [
+      "Dynamic Programming",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree",
+      "DP on Trees"
+    ]
+  },
   "binary-tree-right-side-view": {
     "difficulty": "Medium",
+    "frontend_id": "199",
     "tags": [
       "Tree",
       "Depth-First Search",
