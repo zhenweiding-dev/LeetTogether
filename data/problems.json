@@ -693,6 +693,15 @@
       "Sliding Window"
     ]
   },
+  "longest-substring-without-repeating-characters": {
+    "difficulty": "Medium",
+    "frontend_id": "3",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
   "longest-well-performing-interval": {
     "difficulty": "Medium",
     "tags": [
@@ -1097,6 +1106,26 @@
       "String",
       "Dynamic Programming",
       "Backtracking"
+    ]
+  },
+  "path-sum": {
+    "difficulty": "Easy",
+    "frontend_id": "112",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "path-sum-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "113",
+    "tags": [
+      "Backtracking",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
     ]
   },
   "permutations": {
