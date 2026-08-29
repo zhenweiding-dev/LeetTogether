@@ -14,6 +14,15 @@
       "Simulation"
     ]
   },
+  "balanced-binary-tree": {
+    "difficulty": "Easy",
+    "frontend_id": "110",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
   "battleships-in-a-board": {
     "difficulty": "Medium",
     "frontend_id": "419",
@@ -111,6 +120,17 @@
       "Graph Theory",
       "Heap (Priority Queue)",
       "Shortest Path"
+    ]
+  },
+  "check-knight-tour-configuration": {
+    "difficulty": "Medium",
+    "frontend_id": "2596",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Matrix",
+      "Simulation"
     ]
   },
   "cinema-seat-allocation": {
@@ -282,6 +302,14 @@
       "Sliding Window"
     ]
   },
+  "count-the-number-of-good-nodes": {
+    "difficulty": "Medium",
+    "frontend_id": "3249",
+    "tags": [
+      "Tree",
+      "Depth-First Search"
+    ]
+  },
   "count-the-number-of-good-subarrays": {
     "difficulty": "Medium",
     "tags": [
@@ -370,6 +398,16 @@
       "Heap (Priority Queue)"
     ]
   },
+  "diameter-of-binary-tree": {
+    "difficulty": "Easy",
+    "frontend_id": "543",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree",
+      "DP on Trees"
+    ]
+  },
   "escape-the-ghosts": {
     "difficulty": "Medium",
     "frontend_id": "789",
@@ -385,6 +423,14 @@
       "Array",
       "Math",
       "Stack"
+    ]
+  },
+  "find-closest-node-to-given-two-nodes": {
+    "difficulty": "Medium",
+    "frontend_id": "2359",
+    "tags": [
+      "Depth-First Search",
+      "Graph Theory"
     ]
   },
   "find-elements-in-a-contaminated-binary-tree": {
@@ -747,6 +793,16 @@
       "Monotonic Stack",
       "Binary Tree",
       "Cartesian Tree"
+    ]
+  },
+  "maximum-depth-of-binary-tree": {
+    "difficulty": "Easy",
+    "frontend_id": "104",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
     ]
   },
   "maximum-number-of-occurrences-of-a-substring": {
