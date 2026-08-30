@@ -895,6 +895,15 @@
       "Divide and Conquer"
     ]
   },
+  "merge-intervals": {
+    "difficulty": "Medium",
+    "frontend_id": "56",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Quicksort"
+    ]
+  },
   "min-stack": {
     "difficulty": "Medium",
     "frontend_id": "155",
@@ -950,6 +959,15 @@
     "difficulty": "Medium",
     "tags": [
       "Array",
+      "Sliding Window"
+    ]
+  },
+  "minimum-window-substring": {
+    "difficulty": "Hard",
+    "frontend_id": "76",
+    "tags": [
+      "Hash Table",
+      "String",
       "Sliding Window"
     ]
   },
