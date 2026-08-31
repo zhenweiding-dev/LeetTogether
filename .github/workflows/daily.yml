@@ -4,7 +4,10 @@ on:
   schedule:
     # GitHub cron runs on UTC and can be delayed by up to an hour at peak.
     # Times below are converted for California (PDT = UTC-7, PST = UTC-8).
-    - cron: "0 * * * *"    # every hour (UTC)
+    # Not on the hour: GitHub's own docs say :00 is when the scheduled-workflow
+    # queue is most loaded, and runs get dropped there. :37 dodges both :00 and
+    # the other popular choices (:15 :30 :45).
+    - cron: "37 * * * *"
   workflow_dispatch:        # or trigger it by hand from the Actions tab
 
 permissions:

@@ -24,6 +24,7 @@ from common import (
     local_date,
     local_now,
     tags_of,
+    tz_of,
 )
 
 WINDOW = 14
@@ -112,6 +113,33 @@ def streak_of(day_events, intervals, today):
         anchor -= timedelta(days=1)
 
 
+def stored_streak(handle, snapshots, today):
+    """Yesterday's stored end-of-day streak, or None if that day has no snapshot."""
+    prev = (
+        datetime.strptime(today, "%Y-%m-%d").date() - timedelta(days=1)
+    ).isoformat()
+    for date, snap in snapshots:
+        if date == prev:
+            m = (snap.get("members") or {}).get(handle)
+            return m.get("streak") if m and m.get("ok") else None
+    return None
+
+
+def streak_with_history(day_events, intervals, today, active, prev_eod):
+    """Returns (display, end_of_day, coverage_limited).
+
+    The 20-item windows can only prove recent days, so the streak is carried
+    forward in the snapshots instead of being re-derived from scratch. The derived
+    value is still used as a floor: a stored count can be stale-low when the last
+    run of that day landed before the member's last submission of it.
+    """
+    derived, limited = streak_of(day_events, intervals, today)
+    if prev_eod is None:  # no snapshot for yesterday, nothing to carry
+        return derived, (derived if active else 0), limited
+    display = max(derived, prev_eod + 1 if active else prev_eod)
+    return display, (display if active else 0), False
+
+
 def window_stats(dates, day_events, intervals, problems, weights):
     """Problems and weighted points in a window. partial means it spans no-data days."""
     probs = score = 0
@@ -163,7 +191,7 @@ def tag_chips(pairs):
 
 
 def diff_line(slugs, problems):
-    """This week's split by difficulty, in Easy/Medium/Hard order."""
+    """Split by difficulty over the window, in Easy/Medium/Hard order."""
     counts = Counter(difficulty_of(problems, s) for s in slugs)
     items = [
         theme.DIFF_LINE_ITEM.format(
@@ -195,6 +223,15 @@ def tag_line(pairs):
         for tag, n in pairs
     )
     return theme.TAG_LINE.format(items=items)
+
+
+def streak_ladder():
+    """Each tier as `icon` plus the day it starts at, straight from STREAK_LEVELS."""
+    out, low = [], 0
+    for hi, icon in theme.STREAK_LEVELS:
+        out.append(f"{icon}{low}")
+        low = hi + 1
+    return theme.LADDER_JOIN.join(out)
 
 
 def progress_icon(done, total):
@@ -256,12 +293,18 @@ def build_rows(cfg, snapshots, problems, today):
             continue
 
         day_events, intervals = collect(handle, snapshots, cfg)
-        streak, streak_limited = streak_of(day_events, intervals, today)
         w_probs, w_score, w_partial = window_stats(
             days_back(today, WEEK), day_events, intervals, problems, weights
         )
         t_probs, t_score, t_partial = window_stats(
             [today], day_events, intervals, problems, weights
+        )
+        streak, streak_eod, streak_limited = streak_with_history(
+            day_events,
+            intervals,
+            today,
+            active=t_probs >= 1,
+            prev_eod=stored_streak(handle, snapshots, today),
         )
         counts = [day_count(d, day_events, intervals) for d in days_back(today, WINDOW)]
         acs = sorted(
@@ -274,6 +317,7 @@ def build_rows(cfg, snapshots, problems, today):
                 "name": cur.get("name") or handle,
                 "handle": handle,
                 "streak": streak,
+                "streak_eod": streak_eod,  # what tomorrow carries forward
                 "streak_limited": streak_limited,
                 "today": t_probs,
                 "today_score": t_score,
@@ -361,7 +405,13 @@ def render(cfg, snapshots, problems, unreadable=()):
         prev_ranks = previous_ranks(cfg, snapshots, problems, today)
         ranking = []
         for i, r in enumerate(rows, 1):
-            streak = theme.STREAK_CAPPED if r["streak_limited"] else theme.STREAK
+            tpl = theme.STREAK_CAPPED if r["streak_limited"] else theme.STREAK
+            streak = tpl.format(
+                icon=next(
+                    i for hi, i in theme.STREAK_LEVELS if r["streak"] <= hi
+                ),
+                days=r["streak"],
+            )
             member = theme.MEMBER_CELL.format(
                 rank=theme.MEDALS[i - 1] if i <= len(theme.MEDALS) else code(i),
                 name=f'<a href="https://leetcode.com/u/{esc(r["handle"])}/">'
@@ -383,11 +433,12 @@ def render(cfg, snapshots, problems, unreadable=()):
                             points=num(r["week_score"], r["week_partial"]),
                         )
                     ),
-                    code(streak.format(days=r["streak"])),
+                    code(streak),
                     code(r["spark"]),
                 ]
             )
         legend = theme.LEGEND.format(
+            ladder=streak_ladder(),
             easy=w["easy"],
             medium=w["medium"],
             hard=w["hard"],
@@ -396,7 +447,7 @@ def render(cfg, snapshots, problems, unreadable=()):
         )
         out.append(
             table(
-                [h.format(window=WINDOW) for h in theme.RANK_HEADERS],
+                [h.format(window=WINDOW, week=WEEK) for h in theme.RANK_HEADERS],
                 theme.RANK_ALIGNS,
                 ranking,
                 f"<sub>{legend}</sub>",
@@ -464,7 +515,7 @@ def render(cfg, snapshots, problems, unreadable=()):
     week_slugs = [s for r in rows for s in r["week_slugs"]]
     tags = tag_counts(week_slugs, problems)
     if tags:
-        out.append(theme.HEAD_TAGS)
+        out.append(theme.HEAD_TAGS.format(week=WEEK))
         out.append("")
         out.append(diff_line(week_slugs, problems))
         out.append("")
@@ -480,8 +531,16 @@ def render(cfg, snapshots, problems, unreadable=()):
             )
         out.append("")
 
+    # The snapshot's own timestamp, not the render time: a run that finds nothing
+    # new leaves both the snapshot and this line untouched, so no commit is made.
+    fetched = snapshots[-1][1].get("fetched_at")
+    when = (
+        datetime.fromisoformat(fetched).astimezone(tz_of(cfg))
+        if fetched
+        else now
+    ).strftime("%Y-%m-%d %H:%M")
     stamp = theme.STAMP.format(
-        when=now.strftime("%Y-%m-%d %H:%M"),
+        when=when,
         tz=cfg["timezone"],
         days=len(snapshots),
     )
@@ -490,8 +549,10 @@ def render(cfg, snapshots, problems, unreadable=()):
 
 
 def update_readme(cfg):
+    """Rewrites the README and returns {handle: end-of-day streak} to persist."""
     snapshots, unreadable = load_snapshots()
-    board = render(cfg, snapshots, load_problems(), unreadable)
+    problems = load_problems()
+    board = render(cfg, snapshots, problems, unreadable)
     text = README.read_text(encoding="utf-8")
 
     if MARK_START not in text or MARK_END not in text:
@@ -502,3 +563,9 @@ def update_readme(cfg):
     README.write_text(
         f"{head}{MARK_START}\n\n{board}\n{MARK_END}{tail}", encoding="utf-8"
     )
+
+    if not snapshots:
+        return {}
+    today = local_now(cfg).strftime("%Y-%m-%d")
+    rows, _ = build_rows(cfg, snapshots, problems, today)
+    return {r["handle"]: r["streak_eod"] for r in rows}

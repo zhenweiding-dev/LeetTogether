@@ -32,7 +32,7 @@ PROGRESS_NONE = "💤"
 RANK_HEADERS = [
     "Member",
     "Today",
-    "This week",
+    "Last {week} days",
     "Streak",
     "Last {window} days",
 ]
@@ -42,8 +42,35 @@ MEDALS = ["🥇", "🥈", "🥉"]
 UP, DOWN = "🔺", "🔻"
 MEMBER_CELL = "{rank} {name}{move}"  # rank lives in the member cell to save a column
 
-STREAK = "🔥 {days}"
-STREAK_CAPPED = "🔥 {days}+"  # coverage ran out, the real streak may be longer
+STREAK = "{icon} {days}"
+STREAK_CAPPED = "{icon} {days}+"  # coverage ran out, the real streak may be longer
+
+# Streak ladder: (upper bound in days, icon), first match wins.
+#
+# Front-loaded on purpose — an upgrade every day or two in the first week, when
+# quitting is easiest. Icons climb spark -> star -> moon filling up -> sun, so the
+# glyph alone shows progress without reading the number.
+#
+# Light tops out at the sun; there is no brighter same-family glyph. Past 37 days
+# it goes rarer rather than brighter — rainbow, unicorn, crown — which is the right
+# axis for a long streak. Those tiers also need the repo to have that much history
+# before anyone can reach them, so they stay aspirational for a long time.
+STREAK_LEVELS = [
+    (0, "😴"),
+    (1, "✨"),
+    (3, "💫"),
+    (5, "⭐"),
+    (6, "🌟"),
+    (9, "🌙"),
+    (13, "🌒"),
+    (19, "🌓"),
+    (29, "🌔"),
+    (36, "🌕"),
+    (49, "☀️"),
+    (99, "🌈"),
+    (364, "🦄"),
+    (10**9, "👑"),
+]
 TODAY_CELL = "{solved} ✅丨{points} pts"
 WEEK_CELL = "{solved} ✅丨<b>{points} pts</b>"
 AT_LEAST = "≥{value}"
@@ -57,10 +84,13 @@ DIFF_WORDS = {"easy": "Easy", "medium": "Med", "hard": "Hard"}
 DIFF_FALLBACK = "?"
 DIFF_ORDER = ["Easy", "Medium", "Hard"]  # API spelling, in a fixed display order
 
+# 🔺🔻 needs no explaining, so it is left out. {ladder} is generated from
+# STREAK_LEVELS rather than written out here, so the two can never drift apart.
+LADDER_JOIN = "&nbsp; "  # Markdown collapses runs of spaces
 LEGEND = (
-    "🔺🔻 rank change since yesterday · <b>+</b> and <b>≥</b> mean at least<br>"
+    "🔥 <b>Streak</b> {ladder}<br>"
     "💡 <b>Scoring</b> Easy ×{easy} · Med ×{medium} · Hard ×{hard} — "
-    "<b>✅</b> problems solved, <b>pts</b> the same weighted by difficulty<br>"
+    "<b>✅</b> solved, <b>pts</b> weighted points<br>"
     "📊 <b>Last {window} days</b> <code>·</code> no submission · "
     "<code>{no_data}</code> no data"
 )
@@ -89,7 +119,7 @@ TAG_MORE = "…"
 
 # --- weekly tags ------------------------------------------------------------
 
-HEAD_TAGS = "## 🏷️ Tags this week"
+HEAD_TAGS = "## 🏷️ Tags, last {week} days"
 DIFF_LINE_ITEM = "{name} {count}"
 TAG_CHIP = "{tag}丨{count}"  # <code> chip, used in the per-member Tags column
 # Weekly blockquote, each item inside a <code> chip. A third of the tags are

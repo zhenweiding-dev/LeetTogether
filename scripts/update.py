@@ -58,13 +58,18 @@ def sync_questions(members):
 
 
 def load_today(path):
-    """Today's snapshot members, if this is not the first run of the day."""
+    """Today's snapshot, if this is not the first run of the day."""
     if not path.exists():
-        return {}
+        return None
     try:
-        return json.loads(path.read_text(encoding="utf-8")).get("members") or {}
+        return json.loads(path.read_text(encoding="utf-8"))
     except json.JSONDecodeError:
-        return {}
+        return None
+
+
+def core(members):
+    """Members minus fields the board writes back, for change detection."""
+    return {h: {k: v for k, v in m.items() if k != "streak"} for h, m in members.items()}
 
 
 def fetch_members(cfg, earlier):
@@ -102,9 +107,10 @@ def fetch_members(cfg, earlier):
             "name": m.get("name") or data["real_name"] or handle,
             "ok": True,
             "solved": data["solved"],
-            "ranking": data["ranking"],
+            # Kept for reference; `ranking` and `lc_active_days` are deliberately
+            # not stored — they move every hour because of everyone else on
+            # LeetCode, which would mean a commit every run and no real news.
             "lc_streak": data["lc_streak"],
-            "lc_active_days": data["lc_active_days"],
             # board.py uses this to decide the coverage boundary
             "recent_truncated": len(recent) >= lc.RECENT_LIMIT,
             "recent_ac": recent,
@@ -122,28 +128,53 @@ def main():
     today = local_now(cfg).strftime("%Y-%m-%d")
     SNAP_DIR.mkdir(parents=True, exist_ok=True)
     out = SNAP_DIR / f"{today}.json"
+    prev = load_today(out)
+    prev_members = (prev or {}).get("members") or {}
 
-    members, failures, kept = fetch_members(cfg, load_today(out))
+    members, failures, kept = fetch_members(cfg, prev_members)
     sync_questions(members)
 
-    out.write_text(
-        json.dumps(
-            {
-                "date": today,
-                "timezone": cfg["timezone"],
-                "fetched_at": datetime.now(timezone.utc).isoformat(timespec="seconds"),
-                "score_weights": cfg["score_weights"],
-                "members": members,
-            },
-            ensure_ascii=False,
-            indent=2,
-        )
-        + "\n",
-        encoding="utf-8",
+    # Hold on to any streak already stored; the board recomputes it below.
+    for handle, m in members.items():
+        if "streak" in prev_members.get(handle, {}):
+            m["streak"] = prev_members[handle]["streak"]
+
+    # A run that finds nothing new keeps the old timestamp, so the file and the
+    # board's "Updated" line stay byte-identical and the Action skips the commit.
+    unchanged = prev is not None and core(prev_members) == core(members)
+    fetched_at = (
+        prev["fetched_at"]
+        if unchanged
+        else datetime.now(timezone.utc).isoformat(timespec="seconds")
     )
 
-    board.update_readme(cfg)
-    print(f"\nWrote snapshot {out.name}, README board updated")
+    def write():
+        out.write_text(
+            json.dumps(
+                {
+                    "date": today,
+                    "timezone": cfg["timezone"],
+                    "fetched_at": fetched_at,
+                    "score_weights": cfg["score_weights"],
+                    "members": members,
+                },
+                ensure_ascii=False,
+                indent=2,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+
+    write()
+    # The board hands back today's end-of-day streaks so tomorrow can carry them
+    # forward instead of re-deriving from the 20-item windows, which slide away.
+    for handle, eod in board.update_readme(cfg).items():
+        if handle in members:
+            members[handle]["streak"] = eod
+    write()
+
+    verb = "unchanged" if unchanged else "updated"
+    print(f"\nSnapshot {out.name} {verb}, README board rewritten")
 
     if kept:
         print(
