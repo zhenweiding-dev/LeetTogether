@@ -496,6 +496,14 @@
       "Binary Search"
     ]
   },
+  "find-peak-element": {
+    "difficulty": "Medium",
+    "frontend_id": "162",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ]
+  },
   "find-the-longest-equal-subarray": {
     "difficulty": "Medium",
     "tags": [
@@ -1237,6 +1245,14 @@
       "Union-Find",
       "Matrix",
       "Planar Graph"
+    ]
+  },
+  "remove-nth-node-from-end-of-list": {
+    "difficulty": "Medium",
+    "frontend_id": "19",
+    "tags": [
+      "Linked List",
+      "Two Pointers"
     ]
   },
   "reorder-list": {
