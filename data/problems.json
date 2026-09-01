@@ -7,6 +7,17 @@
       "Sorting"
     ]
   },
+  "all-paths-from-source-to-target": {
+    "difficulty": "Medium",
+    "frontend_id": "797",
+    "tags": [
+      "Backtracking",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Directed Acyclic Graph"
+    ]
+  },
   "average-waiting-time": {
     "difficulty": "Medium",
     "tags": [
@@ -1226,6 +1237,16 @@
       "Union-Find",
       "Matrix",
       "Planar Graph"
+    ]
+  },
+  "reorder-list": {
+    "difficulty": "Medium",
+    "frontend_id": "143",
+    "tags": [
+      "Linked List",
+      "Two Pointers",
+      "Stack",
+      "Recursion"
     ]
   },
   "restore-ip-addresses": {
