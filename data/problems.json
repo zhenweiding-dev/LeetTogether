@@ -1307,6 +1307,14 @@
       "Binary Search"
     ]
   },
+  "search-insert-position": {
+    "difficulty": "Easy",
+    "frontend_id": "35",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ]
+  },
   "shortest-bridge": {
     "difficulty": "Medium",
     "frontend_id": "934",
