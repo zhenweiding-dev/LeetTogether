@@ -733,6 +733,16 @@
       "Sliding Window"
     ]
   },
+  "longest-valid-parentheses": {
+    "difficulty": "Hard",
+    "frontend_id": "32",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Stack",
+      "Bracket Sequences"
+    ]
+  },
   "longest-well-performing-interval": {
     "difficulty": "Medium",
     "tags": [
