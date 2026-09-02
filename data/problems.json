@@ -1197,6 +1197,16 @@
       "Binary Tree"
     ]
   },
+  "permutation-in-string": {
+    "difficulty": "Medium",
+    "frontend_id": "567",
+    "tags": [
+      "Hash Table",
+      "Two Pointers",
+      "String",
+      "Sliding Window"
+    ]
+  },
   "permutations": {
     "difficulty": "Medium",
     "frontend_id": "46",
