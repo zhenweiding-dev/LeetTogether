@@ -968,6 +968,15 @@
       "Binary Tree"
     ]
   },
+  "minimum-path-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "64",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ]
+  },
   "minimum-subsequence-in-non-increasing-order": {
     "difficulty": "Easy",
     "tags": [
@@ -1513,6 +1522,15 @@
       "Array",
       "Two Pointers",
       "Binary Search"
+    ]
+  },
+  "unique-paths": {
+    "difficulty": "Medium",
+    "frontend_id": "62",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Combinatorics"
     ]
   },
   "valid-palindrome": {
