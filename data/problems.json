@@ -1273,6 +1273,16 @@
       "Geometry"
     ]
   },
+  "redundant-connection": {
+    "difficulty": "Medium",
+    "frontend_id": "684",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory"
+    ]
+  },
   "regions-cut-by-slashes": {
     "difficulty": "Medium",
     "frontend_id": "959",
@@ -1329,6 +1339,16 @@
       "Depth-First Search",
       "Breadth-First Search",
       "Binary Tree"
+    ]
+  },
+  "satisfiability-of-equality-equations": {
+    "difficulty": "Medium",
+    "frontend_id": "990",
+    "tags": [
+      "Array",
+      "String",
+      "Union-Find",
+      "Graph Theory"
     ]
   },
   "search-a-2d-matrix": {
