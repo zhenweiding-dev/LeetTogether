@@ -1131,6 +1131,16 @@
       "Matrix"
     ]
   },
+  "number-of-provinces": {
+    "difficulty": "Medium",
+    "frontend_id": "547",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory"
+    ]
+  },
   "number-of-sub-arrays-with-odd-sum": {
     "difficulty": "Medium",
     "tags": [
