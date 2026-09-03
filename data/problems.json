@@ -1468,6 +1468,17 @@
       "Simulation"
     ]
   },
+  "surrounded-regions": {
+    "difficulty": "Medium",
+    "frontend_id": "130",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ]
+  },
   "swap-for-longest-repeated-character-substring": {
     "difficulty": "Medium",
     "tags": [
