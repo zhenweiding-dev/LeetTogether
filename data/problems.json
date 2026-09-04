@@ -1398,6 +1398,17 @@
       "Recursion"
     ]
   },
+  "repeated-string-match": {
+    "difficulty": "Medium",
+    "frontend_id": "686",
+    "tags": [
+      "String",
+      "String Matching",
+      "Z Algorithm",
+      "Knuth–Morris–Pratt Algorithm",
+      "Boyer–Moore String-Search Algorithm"
+    ]
+  },
   "restore-ip-addresses": {
     "difficulty": "Medium",
     "frontend_id": "93",
@@ -1714,6 +1725,15 @@
       "Union-Find",
       "Graph Theory",
       "Binary Tree"
+    ]
+  },
+  "walking-robot-simulation": {
+    "difficulty": "Medium",
+    "frontend_id": "874",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Simulation"
     ]
   },
   "where-will-the-ball-fall": {

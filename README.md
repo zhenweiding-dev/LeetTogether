@@ -25,10 +25,10 @@
 <tbody>
 <tr>
 <td align="left">🥇 <code>xiao</code> 🔺</td>
-<td align="center"><code>6 ✅丨16 pts</code></td>
-<td align="center"><code>23 ✅丨<b>71 pts</b></code></td>
+<td align="center"><code>8 ✅丨22 pts</code></td>
+<td align="center"><code>25 ✅丨<b>77 pts</b></code></td>
 <td align="center"><code>⭐ 5</code></td>
-<td align="center"><code>▇ ▁ ▅ ▇ ▇ ▇ ▅ · · ▅ ▅ ▁ ▁ ▅</code></td>
+<td align="center"><code>▇ ▁ ▅ ▇ ▇ ▇ ▅ · · ▅ ▅ ▁ ▁ ▇</code></td>
 </tr>
 <tr>
 <td align="left">🥈 <code>cheers🍻</code></td>
@@ -68,8 +68,8 @@
 <tbody>
 <tr>
 <td align="left"><code>xiao</code></td>
-<td align="left"><code>Med</code> <code>990</code> <a href="https://leetcode.com/problems/satisfiability-of-equality-equations/"><code>Satisfiability of Equality Equations</code></a><br><code>Med</code> <code>684</code> <a href="https://leetcode.com/problems/redundant-connection/"><code>Redundant Connection</code></a><br><code>Med</code> <code>2707</code> <a href="https://leetcode.com/problems/extra-characters-in-a-string/"><code>Extra Characters in a String</code></a><br><code>Med</code> <code>3043</code> <a href="https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/"><code>Find the Length of the Longest Common Prefix</code></a><br><code>Easy</code> <code>3042</code> <a href="https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/"><code>Count Prefix and Suffix Pairs I</code></a><br><code>Med</code> <code>677</code> <a href="https://leetcode.com/problems/map-sum-pairs/"><code>Map Sum Pairs</code></a></td>
-<td align="left"><code>String丨5</code> <code>Array丨4</code> <code>Trie丨4</code> <code>Hash Table丨3</code> <code>Graph Theory丨2</code> <code>Union-Find丨2</code> <code>Breadth-First Search丨1</code> …</td>
+<td align="left"><code>Med</code> <code>990</code> <a href="https://leetcode.com/problems/satisfiability-of-equality-equations/"><code>Satisfiability of Equality Equations</code></a><br><code>Med</code> <code>684</code> <a href="https://leetcode.com/problems/redundant-connection/"><code>Redundant Connection</code></a><br><code>Med</code> <code>2707</code> <a href="https://leetcode.com/problems/extra-characters-in-a-string/"><code>Extra Characters in a String</code></a><br><code>Med</code> <code>3043</code> <a href="https://leetcode.com/problems/find-the-length-of-the-longest-common-prefix/"><code>Find the Length of the Longest Common Prefix</code></a><br><code>Easy</code> <code>3042</code> <a href="https://leetcode.com/problems/count-prefix-and-suffix-pairs-i/"><code>Count Prefix and Suffix Pairs I</code></a><br><code>Med</code> <code>677</code> <a href="https://leetcode.com/problems/map-sum-pairs/"><code>Map Sum Pairs</code></a><br><code>Med</code> <code>686</code> <a href="https://leetcode.com/problems/repeated-string-match/"><code>Repeated String Match</code></a><br><code>Med</code> <code>874</code> <a href="https://leetcode.com/problems/walking-robot-simulation/"><code>Walking Robot Simulation</code></a></td>
+<td align="left"><code>String丨6</code> <code>Array丨5</code> <code>Hash Table丨4</code> <code>Trie丨4</code> <code>Graph Theory丨2</code> <code>String Matching丨2</code> <code>Union-Find丨2</code> <code>Boyer–Moore String-Search Algorithm丨1</code> <code>Breadth-First Search丨1</code> …</td>
 </tr>
 <tr>
 <td align="left"><code>cheers🍻</code></td>
@@ -81,11 +81,11 @@
 
 ## 🏷️ Tags, last 7 days
 
-> Easy 5 Med 48 Hard 8
+> Easy 5 Med 50 Hard 8
 
-> <code>🔢 Array丨29</code> <code>🧵 String丨18</code> <code>🤿 Depth-First Search丨16</code> <code>🔍 Binary Search丨14</code> <code>🌊 Breadth-First Search丨13</code> <code>↩️ Backtracking丨12</code> <code>🧩 Dynamic Programming丨11</code> <code>🕸️ Graph Theory丨11</code> <code>🗂️ Hash Table丨11</code> <code>🤝 Union-Find丨8</code> <code>🌲 Binary Tree丨6</code> <code>🌳 Tree丨6</code> <code>⚔️ Divide and Conquer丨5</code> <code>🧇 Matrix丨5</code> <code>🌿 Trie丨4</code> <code>↔️ Two Pointers丨4</code> <code>🪆 Bracket Sequences丨3</code> <code>🏗️ Design丨3</code> <code>🔗 Linked List丨3</code> <code>➗ Math丨3</code> <code>🪟 Sliding Window丨3</code> <code>📶 Sorting丨3</code> <code>🧭 Topological Sort丨3</code> <code>✖️ Algorithm X丨2</code> <code>🎰 Combinatorics丨2</code> <code>🪃 Directed Acyclic Graph丨2</code> <code>🔁 Recursion丨2</code> <code>🥞 Stack丨2</code> <code>🎛️ Bit Manipulation</code> <code>⚪ Boyer–Moore Majority Vote Algorithm</code> <code>🧮 Counting</code> <code>🪵 DP on Trees</code> <code>🤑 Greedy</code> <code>#️⃣ Hash Function</code> <code>⛰️ Heap (Priority Queue)</code> <code>🪡 Merge Sort</code> <code>⚪ Quicksort</code> <code>🎡 Rolling Hash</code> <code>🔎 String Matching</code> <code>🏆 Tournament Sort</code>
+> <code>🔢 Array丨30</code> <code>🧵 String丨19</code> <code>🤿 Depth-First Search丨16</code> <code>🔍 Binary Search丨14</code> <code>🌊 Breadth-First Search丨13</code> <code>↩️ Backtracking丨12</code> <code>🗂️ Hash Table丨12</code> <code>🧩 Dynamic Programming丨11</code> <code>🕸️ Graph Theory丨11</code> <code>🤝 Union-Find丨8</code> <code>🌲 Binary Tree丨6</code> <code>🌳 Tree丨6</code> <code>⚔️ Divide and Conquer丨5</code> <code>🧇 Matrix丨5</code> <code>🌿 Trie丨4</code> <code>↔️ Two Pointers丨4</code> <code>🪆 Bracket Sequences丨3</code> <code>🏗️ Design丨3</code> <code>🔗 Linked List丨3</code> <code>➗ Math丨3</code> <code>🪟 Sliding Window丨3</code> <code>📶 Sorting丨3</code> <code>🧭 Topological Sort丨3</code> <code>✖️ Algorithm X丨2</code> <code>🎰 Combinatorics丨2</code> <code>🪃 Directed Acyclic Graph丨2</code> <code>🔁 Recursion丨2</code> <code>🥞 Stack丨2</code> <code>🔎 String Matching丨2</code> <code>🎛️ Bit Manipulation</code> <code>⚪ Boyer–Moore Majority Vote Algorithm</code> <code>⚪ Boyer–Moore String-Search Algorithm</code> <code>🧮 Counting</code> <code>🪵 DP on Trees</code> <code>🤑 Greedy</code> <code>#️⃣ Hash Function</code> <code>⛰️ Heap (Priority Queue)</code> <code>⚪ Knuth–Morris–Pratt Algorithm</code> <code>🪡 Merge Sort</code> <code>⚪ Quicksort</code> <code>🎡 Rolling Hash</code> <code>🎮 Simulation</code> <code>🏆 Tournament Sort</code> <code>⚪ Z Algorithm</code>
 
-<sub>🕒 Updated 2026-09-04 04:39 (America/Los_Angeles) · 15 day(s) of history</sub>
+<sub>🕒 Updated 2026-09-04 09:33 (America/Los_Angeles) · 15 day(s) of history</sub>
 
 <!-- LEADERBOARD:END -->
 
