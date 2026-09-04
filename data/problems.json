@@ -165,6 +165,15 @@
       "Bit Manipulation"
     ]
   },
+  "climbing-stairs": {
+    "difficulty": "Easy",
+    "frontend_id": "70",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Memoization"
+    ]
+  },
   "clone-graph": {
     "difficulty": "Medium",
     "frontend_id": "133",
