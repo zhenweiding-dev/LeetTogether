@@ -307,6 +307,18 @@
       "Segment Tree"
     ]
   },
+  "count-prefix-and-suffix-pairs-i": {
+    "difficulty": "Easy",
+    "frontend_id": "3042",
+    "tags": [
+      "Array",
+      "String",
+      "Trie",
+      "Rolling Hash",
+      "String Matching",
+      "Hash Function"
+    ]
+  },
   "count-sub-islands": {
     "difficulty": "Medium",
     "frontend_id": "1905",
@@ -448,6 +460,17 @@
       "Stack"
     ]
   },
+  "extra-characters-in-a-string": {
+    "difficulty": "Medium",
+    "frontend_id": "2707",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Dynamic Programming",
+      "Trie"
+    ]
+  },
   "find-closest-node-to-given-two-nodes": {
     "difficulty": "Medium",
     "frontend_id": "2359",
@@ -504,6 +527,16 @@
       "Binary Search"
     ]
   },
+  "find-the-length-of-the-longest-common-prefix": {
+    "difficulty": "Medium",
+    "frontend_id": "3043",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Trie"
+    ]
+  },
   "find-the-longest-equal-subarray": {
     "difficulty": "Medium",
     "tags": [
@@ -551,6 +584,16 @@
       "Dynamic Programming",
       "Backtracking",
       "Bracket Sequences"
+    ]
+  },
+  "group-anagrams": {
+    "difficulty": "Medium",
+    "frontend_id": "49",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting"
     ]
   },
   "grumpy-bookstore-owner": {
@@ -782,12 +825,34 @@
       "Sorting"
     ]
   },
+  "majority-element": {
+    "difficulty": "Easy",
+    "frontend_id": "169",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Sorting",
+      "Counting",
+      "Boyer–Moore Majority Vote Algorithm"
+    ]
+  },
   "map-of-highest-peak": {
     "difficulty": "Medium",
     "tags": [
       "Array",
       "Breadth-First Search",
       "Matrix"
+    ]
+  },
+  "map-sum-pairs": {
+    "difficulty": "Medium",
+    "frontend_id": "677",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Design",
+      "Trie"
     ]
   },
   "matrix-block-sum": {
@@ -931,6 +996,17 @@
       "Array",
       "Sorting",
       "Quicksort"
+    ]
+  },
+  "merge-k-sorted-lists": {
+    "difficulty": "Hard",
+    "frontend_id": "23",
+    "tags": [
+      "Linked List",
+      "Divide and Conquer",
+      "Heap (Priority Queue)",
+      "Merge Sort",
+      "Tournament Sort"
     ]
   },
   "min-stack": {
