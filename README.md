@@ -25,10 +25,10 @@
 <tbody>
 <tr>
 <td align="left">🥇 <code>zhenwei</code></td>
-<td align="center"><code>2 ✅丨6 pts</code></td>
-<td align="center"><code>16 ✅丨<b>51 pts</b></code></td>
+<td align="center"><code>3 ✅丨9 pts</code></td>
+<td align="center"><code>17 ✅丨<b>54 pts</b></code></td>
 <td align="center"><code>⭐ 4</code></td>
-<td align="center"><code>▃ ▁ ▅ ▃ ▃ ▃ ▅ ▃ ▁ · ▃ ▃ ▃ ▁</code></td>
+<td align="center"><code>▃ ▁ ▅ ▃ ▃ ▃ ▅ ▃ ▁ · ▃ ▃ ▃ ▃</code></td>
 </tr>
 <tr>
 <td align="left">🥈 <code>Glo</code> 🔺</td>
@@ -68,8 +68,8 @@
 <tbody>
 <tr>
 <td align="left"><code>zhenwei</code></td>
-<td align="left"><code>Med</code> <code>990</code> <a href="https://leetcode.com/problems/satisfiability-of-equality-equations/"><code>Satisfiability of Equality Equations</code></a><br><code>Med</code> <code>684</code> <a href="https://leetcode.com/problems/redundant-connection/"><code>Redundant Connection</code></a></td>
-<td align="left"><code>Graph Theory丨2</code> <code>Union-Find丨2</code> <code>Array丨1</code> …</td>
+<td align="left"><code>Med</code> <code>990</code> <a href="https://leetcode.com/problems/satisfiability-of-equality-equations/"><code>Satisfiability of Equality Equations</code></a><br><code>Med</code> <code>684</code> <a href="https://leetcode.com/problems/redundant-connection/"><code>Redundant Connection</code></a><br><code>Med</code> <code>1361</code> <a href="https://leetcode.com/problems/validate-binary-tree-nodes/"><code>Validate Binary Tree Nodes</code></a></td>
+<td align="left"><code>Graph Theory丨3</code> <code>Union-Find丨3</code> <code>Breadth-First Search丨2</code> …</td>
 </tr>
 <tr>
 <td align="left"><code>Glo</code></td>
@@ -86,11 +86,11 @@
 
 ## 🏷️ Tags, last 7 days
 
-> Easy 8 Med 52 Hard 7
+> Easy 8 Med 53 Hard 7
 
-> <code>🔢 Array丨32</code> <code>🤿 Depth-First Search丨25</code> <code>🌊 Breadth-First Search丨19</code> <code>🧵 String丨15</code> <code>🔍 Binary Search丨14</code> <code>↩️ Backtracking丨12</code> <code>🧇 Matrix丨11</code> <code>🧩 Dynamic Programming丨10</code> <code>🕸️ Graph Theory丨10</code> <code>🗂️ Hash Table丨10</code> <code>🌳 Tree丨9</code> <code>🤝 Union-Find丨9</code> <code>🌲 Binary Tree丨8</code> <code>🪟 Sliding Window丨5</code> <code>↔️ Two Pointers丨4</code> <code>🪆 Bracket Sequences丨3</code> <code>🏗️ Design丨3</code> <code>⚔️ Divide and Conquer丨3</code> <code>🧭 Topological Sort丨3</code> <code>✖️ Algorithm X丨2</code> <code>🎛️ Bit Manipulation丨2</code> <code>🪵 DP on Trees丨2</code> <code>🪃 Directed Acyclic Graph丨2</code> <code>🔗 Linked List丨2</code> <code>➗ Math丨2</code> <code>📶 Sorting丨2</code> <code>🥞 Stack丨2</code> <code>🎰 Combinatorics</code> <code>🚰 Data Stream</code> <code>🤑 Greedy</code> <code>➕ Prefix Sum</code> <code>⚪ Quicksort</code> <code>🔁 Recursion</code> <code>🎮 Simulation</code>
+> <code>🔢 Array丨32</code> <code>🤿 Depth-First Search丨26</code> <code>🌊 Breadth-First Search丨20</code> <code>🧵 String丨15</code> <code>🔍 Binary Search丨14</code> <code>↩️ Backtracking丨12</code> <code>🕸️ Graph Theory丨11</code> <code>🧇 Matrix丨11</code> <code>🧩 Dynamic Programming丨10</code> <code>🗂️ Hash Table丨10</code> <code>🌳 Tree丨10</code> <code>🤝 Union-Find丨10</code> <code>🌲 Binary Tree丨9</code> <code>🪟 Sliding Window丨5</code> <code>↔️ Two Pointers丨4</code> <code>🪆 Bracket Sequences丨3</code> <code>🏗️ Design丨3</code> <code>⚔️ Divide and Conquer丨3</code> <code>🧭 Topological Sort丨3</code> <code>✖️ Algorithm X丨2</code> <code>🎛️ Bit Manipulation丨2</code> <code>🪵 DP on Trees丨2</code> <code>🪃 Directed Acyclic Graph丨2</code> <code>🔗 Linked List丨2</code> <code>➗ Math丨2</code> <code>📶 Sorting丨2</code> <code>🥞 Stack丨2</code> <code>🎰 Combinatorics</code> <code>🚰 Data Stream</code> <code>🤑 Greedy</code> <code>➕ Prefix Sum</code> <code>⚪ Quicksort</code> <code>🔁 Recursion</code> <code>🎮 Simulation</code>
 
-<sub>🕒 Updated 2026-09-03 15:46 (America/Los_Angeles) · 14 day(s) of history</sub>
+<sub>🕒 Updated 2026-09-03 23:21 (America/Los_Angeles) · 14 day(s) of history</sub>
 
 <!-- LEADERBOARD:END -->
 

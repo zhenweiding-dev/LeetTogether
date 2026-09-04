@@ -1620,6 +1620,18 @@
       "Binary Tree"
     ]
   },
+  "validate-binary-tree-nodes": {
+    "difficulty": "Medium",
+    "frontend_id": "1361",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory",
+      "Binary Tree"
+    ]
+  },
   "where-will-the-ball-fall": {
     "difficulty": "Medium",
     "tags": [
