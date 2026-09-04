@@ -471,6 +471,16 @@
       "Trie"
     ]
   },
+  "fibonacci-number": {
+    "difficulty": "Easy",
+    "frontend_id": "509",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Recursion",
+      "Memoization"
+    ]
+  },
   "find-closest-node-to-given-two-nodes": {
     "difficulty": "Medium",
     "frontend_id": "2359",
@@ -1044,6 +1054,16 @@
       "Binary Tree"
     ]
   },
+  "minimum-increment-to-make-array-unique": {
+    "difficulty": "Medium",
+    "frontend_id": "945",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Counting"
+    ]
+  },
   "minimum-path-sum": {
     "difficulty": "Medium",
     "frontend_id": "64",
@@ -1083,6 +1103,17 @@
       "Hash Table",
       "String",
       "Sliding Window"
+    ]
+  },
+  "most-stones-removed-with-same-row-or-column": {
+    "difficulty": "Medium",
+    "frontend_id": "947",
+    "tags": [
+      "Hash Table",
+      "Depth-First Search",
+      "Union-Find",
+      "Graph Theory",
+      "Bipartite Graph"
     ]
   },
   "moving-stones-until-consecutive-ii": {
