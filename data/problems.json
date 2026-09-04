@@ -1243,6 +1243,14 @@
       "Sorting"
     ]
   },
+  "powx-n": {
+    "difficulty": "Medium",
+    "frontend_id": "50",
+    "tags": [
+      "Math",
+      "Recursion"
+    ]
+  },
   "product-of-the-last-k-numbers": {
     "difficulty": "Medium",
     "frontend_id": "1352",
