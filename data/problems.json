@@ -313,6 +313,19 @@
       "Monotonic Queue"
     ]
   },
+  "convert-binary-search-tree-to-sorted-doubly-linked-list": {
+    "difficulty": "Medium",
+    "frontend_id": "426",
+    "tags": [
+      "Linked List",
+      "Stack",
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree",
+      "Doubly-Linked List"
+    ]
+  },
   "convert-bst-to-greater-tree": {
     "difficulty": "Medium",
     "tags": [
@@ -447,6 +460,15 @@
       "String"
     ]
   },
+  "delete-leaves-with-a-given-value": {
+    "difficulty": "Medium",
+    "frontend_id": "1325",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
   "delete-node-in-a-bst": {
     "difficulty": "Medium",
     "tags": [
@@ -568,12 +590,35 @@
       "Binary Search"
     ]
   },
+  "find-k-closest-elements": {
+    "difficulty": "Medium",
+    "frontend_id": "658",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Sliding Window",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  },
   "find-minimum-in-rotated-sorted-array": {
     "difficulty": "Medium",
     "frontend_id": "153",
     "tags": [
       "Array",
       "Binary Search"
+    ]
+  },
+  "find-minimum-time-to-finish-all-jobs": {
+    "difficulty": "Hard",
+    "frontend_id": "1723",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Backtracking",
+      "Bit Manipulation",
+      "Bitmask"
     ]
   },
   "find-peak-element": {
@@ -622,6 +667,15 @@
       "Sliding Window",
       "Sorting",
       "Prefix Sum"
+    ]
+  },
+  "fruit-into-baskets": {
+    "difficulty": "Medium",
+    "frontend_id": "904",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
     ]
   },
   "game-of-life": {
@@ -1074,6 +1128,16 @@
       "Monotonic Queue"
     ]
   },
+  "maximum-width-of-binary-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "662",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
   "median-of-two-sorted-arrays": {
     "difficulty": "Hard",
     "frontend_id": "4",
@@ -1143,6 +1207,17 @@
       "Stack",
       "Greedy",
       "Bracket Sequences"
+    ]
+  },
+  "minimum-area-rectangle": {
+    "difficulty": "Medium",
+    "frontend_id": "939",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Geometry",
+      "Sorting"
     ]
   },
   "minimum-ascii-delete-sum-for-two-strings": {
@@ -1539,6 +1614,18 @@
       "Recursion"
     ]
   },
+  "reorganize-string": {
+    "difficulty": "Medium",
+    "frontend_id": "767",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Counting"
+    ]
+  },
   "repeated-string-match": {
     "difficulty": "Medium",
     "frontend_id": "686",
@@ -1639,6 +1726,14 @@
       "Matrix"
     ]
   },
+  "simplify-path": {
+    "difficulty": "Medium",
+    "frontend_id": "71",
+    "tags": [
+      "String",
+      "Stack"
+    ]
+  },
   "sliding-puzzle": {
     "difficulty": "Hard",
     "frontend_id": "773",
@@ -1664,6 +1759,18 @@
       "Heap (Priority Queue)",
       "Monotonic Queue",
       "Range Minimum/Maximum Query"
+    ]
+  },
+  "smallest-range-covering-elements-from-k-lists": {
+    "difficulty": "Hard",
+    "frontend_id": "632",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sliding Window",
+      "Sorting",
+      "Heap (Priority Queue)"
     ]
   },
   "spiral-matrix-iii": {
@@ -1826,6 +1933,17 @@
       "Dynamic Programming",
       "Stack",
       "Monotonic Stack"
+    ]
+  },
+  "two-city-scheduling": {
+    "difficulty": "Medium",
+    "frontend_id": "1029",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Hungarian Algorithm",
+      "Successive Shortest Path Algorithm"
     ]
   },
   "two-sum": {
