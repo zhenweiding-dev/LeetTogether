@@ -1,9 +1,14 @@
 {
-  "date": "2026-09-04",
-  "fetched_at": "2026-09-05T06:49:19+00:00",
+  "date": "2026-09-05",
+  "fetched_at": "2026-09-05T18:32:12+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Min Cost Climbing Stairs",
+          "slug": "min-cost-climbing-stairs",
+          "ts": 1788592976
+        },
         {
           "title": "House Robber III",
           "slug": "house-robber-iii",
@@ -98,11 +103,6 @@
           "title": "Find Peak Element",
           "slug": "find-peak-element",
           "ts": 1788227731
-        },
-        {
-          "title": "Find First and Last Position of Element in Sorted Array",
-          "slug": "find-first-and-last-position-of-element-in-sorted-array",
-          "ts": 1788225951
         }
       ]
     },
@@ -213,6 +213,11 @@
     "m3": {
       "recent_ac": [
         {
+          "title": "Sliding Window Maximum",
+          "slug": "sliding-window-maximum",
+          "ts": 1788593373
+        },
+        {
           "title": "Minimum Window Substring",
           "slug": "minimum-window-substring",
           "ts": 1788588280
@@ -306,16 +311,41 @@
           "title": "Min Stack",
           "slug": "min-stack",
           "ts": 1787695638
-        },
-        {
-          "title": "Valid Parentheses",
-          "slug": "valid-parentheses",
-          "ts": 1787693785
         }
       ]
     },
     "m4": {
       "recent_ac": [
+        {
+          "title": "Bag of Tokens",
+          "slug": "bag-of-tokens",
+          "ts": 1788627771
+        },
+        {
+          "title": "Magic Squares In Grid",
+          "slug": "magic-squares-in-grid",
+          "ts": 1788624288
+        },
+        {
+          "title": "Minimum Add to Make Parentheses Valid",
+          "slug": "minimum-add-to-make-parentheses-valid",
+          "ts": 1788620066
+        },
+        {
+          "title": "Word Subsets",
+          "slug": "word-subsets",
+          "ts": 1788618781
+        },
+        {
+          "title": "Ambiguous Coordinates",
+          "slug": "ambiguous-coordinates",
+          "ts": 1788601814
+        },
+        {
+          "title": "Subdomain Visit Count",
+          "slug": "subdomain-visit-count",
+          "ts": 1788599377
+        },
         {
           "title": "Minimum Increment to Make Array Unique",
           "slug": "minimum-increment-to-make-array-unique",
@@ -385,36 +415,6 @@
           "title": "Longest Valid Parentheses",
           "slug": "longest-valid-parentheses",
           "ts": 1788321147
-        },
-        {
-          "title": "Find Minimum in Rotated Sorted Array",
-          "slug": "find-minimum-in-rotated-sorted-array",
-          "ts": 1788248119
-        },
-        {
-          "title": "Search a 2D Matrix",
-          "slug": "search-a-2d-matrix",
-          "ts": 1788247409
-        },
-        {
-          "title": "Search Insert Position",
-          "slug": "search-insert-position",
-          "ts": 1788247054
-        },
-        {
-          "title": "Find First and Last Position of Element in Sorted Array",
-          "slug": "find-first-and-last-position-of-element-in-sorted-array",
-          "ts": 1788246918
-        },
-        {
-          "title": "Search in Rotated Sorted Array",
-          "slug": "search-in-rotated-sorted-array",
-          "ts": 1788246611
-        },
-        {
-          "title": "Palindrome Partitioning",
-          "slug": "palindrome-partitioning",
-          "ts": 1788246095
         }
       ]
     }

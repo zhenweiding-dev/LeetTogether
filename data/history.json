@@ -5,7 +5,7 @@
     "medium": 3,
     "hard": 6
   },
-  "fetched_at": "2026-09-05T06:49:19+00:00",
+  "fetched_at": "2026-09-05T18:32:12+00:00",
   "days": {
     "2026-08-21": {
       "run_hours": "",
@@ -1144,6 +1144,92 @@
             "hard": 0
           },
           "streak": 5
+        }
+      }
+    },
+    "2026-09-05": {
+      "run_hours": "001001000101000000000000",
+      "tags": {
+        "Array": 6,
+        "Backtracking": 1,
+        "Bracket Sequences": 1,
+        "Counting": 1,
+        "Dynamic Programming": 1,
+        "Enumeration": 1,
+        "Greedy": 2,
+        "Hash Table": 3,
+        "Heap (Priority Queue)": 1,
+        "Math": 1,
+        "Matrix": 1,
+        "Monotonic Queue": 1,
+        "Queue": 1,
+        "Range Minimum/Maximum Query": 1,
+        "Sliding Window": 1,
+        "Sorting": 1,
+        "Stack": 1,
+        "String": 4,
+        "Two Pointers": 1
+      },
+      "members": {
+        "m1": {
+          "solved": {
+            "all": 148,
+            "easy": 52,
+            "medium": 88,
+            "hard": 8
+          },
+          "day": {
+            "count": 1,
+            "easy": 1,
+            "medium": 0,
+            "hard": 0
+          },
+          "streak": 6
+        },
+        "m2": {
+          "solved": {
+            "all": 80,
+            "easy": 31,
+            "medium": 45,
+            "hard": 4
+          },
+          "day": {
+            "count": 0,
+            "easy": 0,
+            "medium": 0,
+            "hard": 0
+          },
+          "streak": 0
+        },
+        "m3": {
+          "solved": {
+            "all": 38,
+            "easy": 11,
+            "medium": 22,
+            "hard": 5
+          },
+          "day": {
+            "count": 1,
+            "easy": 0,
+            "medium": 0,
+            "hard": 1
+          },
+          "streak": 5
+        },
+        "m4": {
+          "solved": {
+            "all": 725,
+            "easy": 212,
+            "medium": 494,
+            "hard": 19
+          },
+          "day": {
+            "count": 6,
+            "easy": 0,
+            "medium": 6,
+            "hard": 0
+          },
+          "streak": 6
         }
       }
     }

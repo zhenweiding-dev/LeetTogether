@@ -18,11 +18,30 @@
       "Directed Acyclic Graph"
     ]
   },
+  "ambiguous-coordinates": {
+    "difficulty": "Medium",
+    "frontend_id": "816",
+    "tags": [
+      "String",
+      "Backtracking",
+      "Enumeration"
+    ]
+  },
   "average-waiting-time": {
     "difficulty": "Medium",
     "tags": [
       "Array",
       "Simulation"
+    ]
+  },
+  "bag-of-tokens": {
+    "difficulty": "Medium",
+    "frontend_id": "948",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Greedy",
+      "Sorting"
     ]
   },
   "balanced-binary-tree": {
@@ -882,6 +901,16 @@
       "Doubly-Linked List"
     ]
   },
+  "magic-squares-in-grid": {
+    "difficulty": "Medium",
+    "frontend_id": "840",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Matrix"
+    ]
+  },
   "magnetic-force-between-two-balls": {
     "difficulty": "Medium",
     "tags": [
@@ -1082,6 +1111,14 @@
       "Recursion"
     ]
   },
+  "min-cost-climbing-stairs": {
+    "difficulty": "Easy",
+    "frontend_id": "746",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
   "min-stack": {
     "difficulty": "Medium",
     "frontend_id": "155",
@@ -1096,6 +1133,16 @@
       "String",
       "Stack",
       "Depth-First Search"
+    ]
+  },
+  "minimum-add-to-make-parentheses-valid": {
+    "difficulty": "Medium",
+    "frontend_id": "921",
+    "tags": [
+      "String",
+      "Stack",
+      "Greedy",
+      "Bracket Sequences"
     ]
   },
   "minimum-ascii-delete-sum-for-two-strings": {
@@ -1607,6 +1654,18 @@
       "A* Search"
     ]
   },
+  "sliding-window-maximum": {
+    "difficulty": "Hard",
+    "frontend_id": "239",
+    "tags": [
+      "Array",
+      "Queue",
+      "Sliding Window",
+      "Heap (Priority Queue)",
+      "Monotonic Queue",
+      "Range Minimum/Maximum Query"
+    ]
+  },
   "spiral-matrix-iii": {
     "difficulty": "Medium",
     "frontend_id": "885",
@@ -1638,6 +1697,16 @@
       "Array",
       "Hash Table",
       "Prefix Sum"
+    ]
+  },
+  "subdomain-visit-count": {
+    "difficulty": "Medium",
+    "frontend_id": "811",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Counting"
     ]
   },
   "subsets": {
@@ -1878,6 +1947,15 @@
       "Backtracking",
       "Depth-First Search",
       "Matrix"
+    ]
+  },
+  "word-subsets": {
+    "difficulty": "Medium",
+    "frontend_id": "916",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
     ]
   }
 }
