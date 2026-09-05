@@ -657,6 +657,17 @@
       "Dynamic Programming"
     ]
   },
+  "house-robber-iii": {
+    "difficulty": "Medium",
+    "frontend_id": "337",
+    "tags": [
+      "Dynamic Programming",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree",
+      "DP on Trees"
+    ]
+  },
   "image-overlap": {
     "difficulty": "Medium",
     "frontend_id": "835",

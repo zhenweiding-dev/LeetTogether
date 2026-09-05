@@ -5,7 +5,7 @@
     "medium": 3,
     "hard": 6
   },
-  "fetched_at": "2026-09-05T06:13:26+00:00",
+  "fetched_at": "2026-09-05T06:49:19+00:00",
   "days": {
     "2026-08-21": {
       "run_hours": "",
@@ -1048,17 +1048,18 @@
         "Backtracking": 1,
         "Binary Search": 1,
         "Binary Search Tree": 1,
-        "Binary Tree": 2,
+        "Binary Tree": 3,
         "Bipartite Graph": 1,
         "Bit Manipulation": 1,
         "Boyer–Moore String-Search Algorithm": 1,
         "Breadth-First Search": 2,
         "Complete Knapsack": 1,
         "Counting": 1,
-        "Depth-First Search": 4,
+        "DP on Trees": 1,
+        "Depth-First Search": 5,
         "Design": 2,
         "Divide and Conquer": 1,
-        "Dynamic Programming": 6,
+        "Dynamic Programming": 7,
         "Graph Theory": 3,
         "Greedy": 1,
         "Hash Function": 2,
@@ -1078,7 +1079,7 @@
         "String": 9,
         "String Matching": 3,
         "Tournament Sort": 1,
-        "Tree": 2,
+        "Tree": 3,
         "Trie": 4,
         "Union-Find": 3,
         "Z Algorithm": 1
@@ -1086,15 +1087,15 @@
       "members": {
         "m1": {
           "solved": {
-            "all": 146,
+            "all": 147,
             "easy": 51,
-            "medium": 87,
+            "medium": 88,
             "hard": 8
           },
           "day": {
-            "count": 6,
+            "count": 7,
             "easy": 2,
-            "medium": 4,
+            "medium": 5,
             "hard": 0
           },
           "streak": 5

@@ -39,8 +39,8 @@
 </tr>
 <tr>
 <td align="left">🥉 <code>zhenwei</code> 🔻</td>
-<td align="center"><code>6 ✅丨14 pts</code></td>
-<td align="center"><code>19 ✅丨<b>56 pts</b></code></td>
+<td align="center"><code>7 ✅丨17 pts</code></td>
+<td align="center"><code>20 ✅丨<b>59 pts</b></code></td>
 <td align="center"><code>⭐ 5</code></td>
 <td align="center"><code>▁ ▅ ▃ ▃ ▃ ▅ ▃ ▁ · ▃ ▃ ▃ ▃ ▅</code></td>
 </tr>
@@ -78,8 +78,8 @@
 </tr>
 <tr>
 <td align="left"><code>zhenwei</code></td>
-<td align="left"><code>Med</code> <code>947</code> <a href="https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/"><code>Most Stones Removed with Same Row or Column</code></a><br><code>Easy</code> <code>509</code> <a href="https://leetcode.com/problems/fibonacci-number/"><code>Fibonacci Number</code></a><br><code>Easy</code> <code>70</code> <a href="https://leetcode.com/problems/climbing-stairs/"><code>Climbing Stairs</code></a><br><code>Med</code> <code>322</code> <a href="https://leetcode.com/problems/coin-change/"><code>Coin Change</code></a><br><code>Med</code> <code>198</code> <a href="https://leetcode.com/problems/house-robber/"><code>House Robber</code></a><br><code>Med</code> <code>213</code> <a href="https://leetcode.com/problems/house-robber-ii/"><code>House Robber II</code></a></td>
-<td align="left"><code>Dynamic Programming丨5</code> <code>Array丨3</code> <code>Math丨2</code> <code>Memoization丨2</code> <code>Bipartite Graph丨1</code> <code>Breadth-First Search丨1</code> …</td>
+<td align="left"><code>Med</code> <code>947</code> <a href="https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/"><code>Most Stones Removed with Same Row or Column</code></a><br><code>Easy</code> <code>509</code> <a href="https://leetcode.com/problems/fibonacci-number/"><code>Fibonacci Number</code></a><br><code>Easy</code> <code>70</code> <a href="https://leetcode.com/problems/climbing-stairs/"><code>Climbing Stairs</code></a><br><code>Med</code> <code>322</code> <a href="https://leetcode.com/problems/coin-change/"><code>Coin Change</code></a><br><code>Med</code> <code>198</code> <a href="https://leetcode.com/problems/house-robber/"><code>House Robber</code></a><br><code>Med</code> <code>213</code> <a href="https://leetcode.com/problems/house-robber-ii/"><code>House Robber II</code></a><br><code>Med</code> <code>337</code> <a href="https://leetcode.com/problems/house-robber-iii/"><code>House Robber III</code></a></td>
+<td align="left"><code>Dynamic Programming丨6</code> <code>Array丨3</code> <code>Depth-First Search丨2</code> <code>Math丨2</code> <code>Memoization丨2</code> <code>Binary Tree丨1</code> <code>Bipartite Graph丨1</code> …</td>
 </tr>
 <tr>
 <td align="left"><code>Glo</code></td>
@@ -91,11 +91,11 @@
 
 ## 🏷️ Tags, last 7 days
 
-> Easy 9 Med 59 Hard 9
+> Easy 9 Med 60 Hard 9
 
-> <code>🔢 Array丨35</code> <code>🧵 String丨21</code> <code>🤿 Depth-First Search丨19</code> <code>🧩 Dynamic Programming丨16</code> <code>🗂️ Hash Table丨16</code> <code>🔍 Binary Search丨15</code> <code>🌊 Breadth-First Search丨14</code> <code>↩️ Backtracking丨13</code> <code>🕸️ Graph Theory丨12</code> <code>🤝 Union-Find丨9</code> <code>🌲 Binary Tree丨8</code> <code>🌳 Tree丨8</code> <code>⚔️ Divide and Conquer丨5</code> <code>🔗 Linked List丨5</code> <code>➗ Math丨5</code> <code>🧇 Matrix丨5</code> <code>🏗️ Design丨4</code> <code>🔁 Recursion丨4</code> <code>🪟 Sliding Window丨4</code> <code>📶 Sorting丨4</code> <code>🌿 Trie丨4</code> <code>↔️ Two Pointers丨4</code> <code>🪆 Bracket Sequences丨3</code> <code>🔎 String Matching丨3</code> <code>🧭 Topological Sort丨3</code> <code>✖️ Algorithm X丨2</code> <code>🎛️ Bit Manipulation丨2</code> <code>🎰 Combinatorics丨2</code> <code>🧮 Counting丨2</code> <code>🪃 Directed Acyclic Graph丨2</code> <code>🤑 Greedy丨2</code> <code>#️⃣ Hash Function丨2</code> <code>🗒️ Memoization丨2</code> <code>🥞 Stack丨2</code> <code>🎄 Binary Search Tree</code> <code>⚪ Bipartite Graph</code> <code>⚪ Boyer–Moore Majority Vote Algorithm</code> <code>⚪ Boyer–Moore String-Search Algorithm</code> <code>⚪ Complete Knapsack</code> <code>🪵 DP on Trees</code> <code>⛰️ Heap (Priority Queue)</code> <code>🎒 Knapsack Problem</code> <code>⚪ Knuth–Morris–Pratt Algorithm</code> <code>🪡 Merge Sort</code> <code>⚪ Quicksort</code> <code>🎡 Rolling Hash</code> <code>🎮 Simulation</code> <code>🏆 Tournament Sort</code> <code>⚪ Z Algorithm</code>
+> <code>🔢 Array丨35</code> <code>🧵 String丨21</code> <code>🤿 Depth-First Search丨20</code> <code>🧩 Dynamic Programming丨17</code> <code>🗂️ Hash Table丨16</code> <code>🔍 Binary Search丨15</code> <code>🌊 Breadth-First Search丨14</code> <code>↩️ Backtracking丨13</code> <code>🕸️ Graph Theory丨12</code> <code>🌲 Binary Tree丨9</code> <code>🌳 Tree丨9</code> <code>🤝 Union-Find丨9</code> <code>⚔️ Divide and Conquer丨5</code> <code>🔗 Linked List丨5</code> <code>➗ Math丨5</code> <code>🧇 Matrix丨5</code> <code>🏗️ Design丨4</code> <code>🔁 Recursion丨4</code> <code>🪟 Sliding Window丨4</code> <code>📶 Sorting丨4</code> <code>🌿 Trie丨4</code> <code>↔️ Two Pointers丨4</code> <code>🪆 Bracket Sequences丨3</code> <code>🔎 String Matching丨3</code> <code>🧭 Topological Sort丨3</code> <code>✖️ Algorithm X丨2</code> <code>🎛️ Bit Manipulation丨2</code> <code>🎰 Combinatorics丨2</code> <code>🧮 Counting丨2</code> <code>🪵 DP on Trees丨2</code> <code>🪃 Directed Acyclic Graph丨2</code> <code>🤑 Greedy丨2</code> <code>#️⃣ Hash Function丨2</code> <code>🗒️ Memoization丨2</code> <code>🥞 Stack丨2</code> <code>🎄 Binary Search Tree</code> <code>⚪ Bipartite Graph</code> <code>⚪ Boyer–Moore Majority Vote Algorithm</code> <code>⚪ Boyer–Moore String-Search Algorithm</code> <code>⚪ Complete Knapsack</code> <code>⛰️ Heap (Priority Queue)</code> <code>🎒 Knapsack Problem</code> <code>⚪ Knuth–Morris–Pratt Algorithm</code> <code>🪡 Merge Sort</code> <code>⚪ Quicksort</code> <code>🎡 Rolling Hash</code> <code>🎮 Simulation</code> <code>🏆 Tournament Sort</code> <code>⚪ Z Algorithm</code>
 
-<sub>🕒 Updated 2026-09-04 23:13 (America/Los_Angeles) · 15 day(s) of history · ⏱️ 42% of hourly runs landed</sub>
+<sub>🕒 Updated 2026-09-04 23:49 (America/Los_Angeles) · 15 day(s) of history · ⏱️ 42% of hourly runs landed</sub>
 
 <!-- LEADERBOARD:END -->
 
