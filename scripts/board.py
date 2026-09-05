@@ -1,13 +1,14 @@
 """Compute the board and write it into the README marker block.
 
-Metrics come from AC events bucketed by day in cfg's timezone. A single snapshot
-only carries the 20 most recent ACs; the union across snapshots grows the
-reachable range over time. Dates outside that range are "no data", kept distinct
-from "zero solved".
+Two files feed this. history.json is numbers only: per member per day, how many
+problems and the difficulty split, plus one tag histogram for the whole group;
+it keeps RETAIN days and drops the rest. today.json holds the one problem list the
+project keeps, and anything about the current run. A day the window no longer
+covers is "no data", kept distinct from "zero solved".
 """
 
 import html
-from collections import Counter, defaultdict
+from collections import Counter
 from datetime import datetime, timedelta
 
 import lc
@@ -20,7 +21,8 @@ from common import (
     difficulty_of,
     frontend_id_of,
     load_problems,
-    load_snapshots,
+    load_history,
+    load_today,
     local_date,
     local_now,
     tags_of,
@@ -29,52 +31,79 @@ from common import (
 
 WINDOW = 14
 WEEK = 7
+# Days kept in history.json. Not WINDOW: the board also renders yesterday's
+# ranking to work out the 🔺🔻 arrows, which reaches one day further back, and
+# solved_deltas needs the day before that to take a difference against.
+RETAIN = WINDOW + 2
+# Hourly slots the run log needs before the hit rate is worth printing. Below this
+# it is one lucky run reading 100%, which says nothing about the scheduler.
+RATE_MIN_SLOTS = 12
 
 
 
-def collect(handle, snapshots, cfg):
-    """Returns (day_events, intervals).
+def day_events(mid, detail, cfg, on_date):
+    """{slug: {"title", "ts"}} for one day, out of today.json.
 
-    day_events -- {date: {slug: {"title", "ts"}}}
-    intervals  -- [(start, end)] covered ranges; start None reaches back to the beginning
+    The only problem list the project keeps. Every other day exists as the four
+    numbers in day_counts and nothing more.
     """
-    day_events = defaultdict(dict)
-    intervals = []
-
-    for snap_date, snap in snapshots:
-        m = (snap.get("members") or {}).get(handle)
-        if not m or not m.get("ok"):
+    out = {}
+    m = (detail.get("members") or {}).get(mid)
+    for s in (m or {}).get("recent_ac") or []:
+        if local_date(s["ts"], cfg) != on_date:
             continue
-
-        recent = m.get("recent_ac") or []
-        for s in recent:
-            date = local_date(s["ts"], cfg)
-            prev = day_events[date].get(s["slug"])
-            # same problem twice in one day counts once; keep the earliest time
-            if prev is None or s["ts"] < prev["ts"]:
-                day_events[date][s["slug"]] = {"title": s["title"], "ts": s["ts"]}
-
-        # hitting the cap means older records were truncated
-        truncated = m.get("recent_truncated", len(recent) >= lc.RECENT_LIMIT)
-        if not truncated:
-            intervals.append((None, snap_date))
-        elif recent:
-            intervals.append((min(local_date(s["ts"], cfg) for s in recent), snap_date))
-
-    return day_events, intervals
+        prev = out.get(s["slug"])
+        # same problem twice in one day counts once; keep the earliest time
+        if prev is None or s["ts"] < prev["ts"]:
+            out[s["slug"]] = {"title": s["title"], "ts": s["ts"]}
+    return out
 
 
-def is_covered(date, intervals):
-    return any(
-        (start is None or start <= date) and date <= end for start, end in intervals
-    )
+def day_counts(slugs, problems):
+    """One member's day: how many problems, split by difficulty.
+
+    All that survives of a day once its problem list is gone. Everything the
+    leaderboard shows for a past day is a sum over these four numbers.
+    """
+    out = {"count": len(slugs), "easy": 0, "medium": 0, "hard": 0}
+    for slug in slugs:
+        d = difficulty_of(problems, slug).lower()
+        if d in out:
+            out[d] += 1
+    return out
 
 
-def day_count(date, day_events, intervals):
-    """Problems solved that day; None when outside coverage (no data, not zero)."""
-    if date in day_events:
-        return len(day_events[date])
-    return 0 if is_covered(date, intervals) else None
+def tag_histogram(slugs, problems):
+    """{tag: count} over a set of slugs.
+
+    Stored once per day for the whole group, not per member: the weekly tag
+    section sums everyone together, so a per-member copy would be four times the
+    bytes for a number nothing reads.
+    """
+    counts = Counter()
+    for slug in slugs:
+        counts.update(tags_of(problems, slug))
+    return dict(sorted(counts.items()))
+
+
+def member_days(history, mid):
+    """{date: that day's record for this member}, ascending. Absent = no data."""
+    return {
+        date: m
+        for date, entry in sorted(history.items())
+        if (m := (entry.get("members") or {}).get(mid))
+    }
+
+
+def day_stats(days):
+    """{date: day counts} for the days that have them."""
+    return {date: m["day"] for date, m in days.items() if m.get("day")}
+
+
+def day_count(date, days):
+    """Problems solved that day; None when the window does not hold it."""
+    agg = days.get(date)
+    return agg["count"] if agg else None
 
 
 def spark(counts):
@@ -87,7 +116,7 @@ def spark(counts):
     return " ".join(out)
 
 
-def streak_of(day_events, intervals, today):
+def streak_of(days, today):
     """Returns (consecutive days, whether coverage cut it short).
 
     Not having submitted yet today is not a break.
@@ -96,7 +125,7 @@ def streak_of(day_events, intervals, today):
     anchor = None
     for back in (0, 1):
         d = cur - timedelta(days=back)
-        if (day_count(d.isoformat(), day_events, intervals) or 0) >= 1:
+        if (day_count(d.isoformat(), days) or 0) >= 1:
             anchor = d
             break
     if anchor is None:
@@ -104,7 +133,7 @@ def streak_of(day_events, intervals, today):
 
     count = 0
     while True:
-        c = day_count(anchor.isoformat(), day_events, intervals)
+        c = day_count(anchor.isoformat(), days)
         if c is None:
             return count, True  # hit the coverage edge, real streak may be longer
         if c < 1:
@@ -113,60 +142,96 @@ def streak_of(day_events, intervals, today):
         anchor -= timedelta(days=1)
 
 
-def stored_streak(handle, snapshots, today):
-    """Yesterday's stored end-of-day streak, or None if that day has no snapshot."""
+def stored_streak(days, today):
+    """Yesterday's stored end-of-day streak, or None if that day is not in history."""
     prev = (
         datetime.strptime(today, "%Y-%m-%d").date() - timedelta(days=1)
     ).isoformat()
-    for date, snap in snapshots:
-        if date == prev:
-            m = (snap.get("members") or {}).get(handle)
-            return m.get("streak") if m and m.get("ok") else None
-    return None
+    return (days.get(prev) or {}).get("streak")
 
 
-def streak_with_history(day_events, intervals, today, active, prev_eod):
+def streak_with_history(days, today, active, prev_eod):
     """Returns (display, end_of_day, coverage_limited).
 
-    The 20-item windows can only prove recent days, so the streak is carried
-    forward in the snapshots instead of being re-derived from scratch. The derived
-    value is still used as a floor: a stored count can be stale-low when the last
-    run of that day landed before the member's last submission of it.
+    The window only reaches back so far, so the streak is carried forward in it
+    instead of being re-derived from scratch. The derived value is still used as a
+    floor: a stored count can be stale-low when the last run of that day landed
+    before the member's last submission of it.
     """
-    derived, limited = streak_of(day_events, intervals, today)
+    derived, limited = streak_of(days, today)
     if prev_eod is None:  # no snapshot for yesterday, nothing to carry
         return derived, (derived if active else 0), limited
     display = max(derived, prev_eod + 1 if active else prev_eod)
     return display, (display if active else 0), False
 
 
-def window_stats(dates, day_events, intervals, problems, weights):
+def solved_deltas(days):
+    """{date: {easy/medium/hard: newly solved}} from consecutive lifetime totals.
+
+    Immune to the 20-item recent_ac cap, which is the point: on a day that filled
+    the cap this is what the day really was. Two things it is not — it cannot see a
+    re-solve, and it credits the day whose record caught the rise, so a day the
+    Action never ran rolls into the next one.
+    """
+    out, prev = {}, None
+    for date, m in days.items():
+        cur = m.get("solved") or {}
+        if prev is not None:
+            out[date] = {
+                k: max(0, cur.get(k, 0) - prev.get(k, 0))
+                for k in ("easy", "medium", "hard")
+            }
+        prev = cur
+    return out
+
+
+DIFFS = ("easy", "medium", "hard")
+
+
+def window_stats(dates, days, weights, deltas):
     """Problems and weighted points in a window. partial means it spans no-data days."""
     probs = score = 0
     partial = False
     for d in dates:
-        c = day_count(d, day_events, intervals)
-        if c is None:
+        agg = days.get(d)
+        if agg is None:
             partial = True
             continue
-        probs += c
-        for slug in day_events.get(d, {}):
-            score += weights.get(difficulty_of(problems, slug).lower(), 0)
+        c = agg["count"]
+        pts = sum(weights.get(k, 0) * agg.get(k, 0) for k in DIFFS)
         if c >= lc.RECENT_LIMIT:
-            partial = True  # one day filled the cap, more may be unfetched
+            # The fetch window truncated at 20, but the lifetime totals moved by
+            # the real amount that day, so read the day off those instead.
+            by_diff = deltas.get(d)
+            if not by_diff:
+                partial = True  # nothing to compare against, usually day one
+            elif sum(by_diff.values()) > c:
+                c = sum(by_diff.values())
+                pts = sum(weights.get(k, 0) * n for k, n in by_diff.items())
+        probs += c
+        score += pts
     return probs, score, partial
 
 
-def window_slugs(dates, day_events):
-    """Slugs in the window; a re-solve on another day counts again, as the counts do."""
-    return [slug for d in dates for slug in day_events.get(d, {})]
-
-
-def tag_counts(slugs, problems):
-    """[(tag, count)] by count descending, ties alphabetical."""
+def window_tags(dates, history):
+    """{tag: count} over the window, summed across the whole group."""
     counts = Counter()
-    for slug in slugs:
-        counts.update(tags_of(problems, slug))
+    for d in dates:
+        counts.update((history.get(d) or {}).get("tags") or {})
+    return counts
+
+
+def window_diffs(dates, days):
+    """{easy/medium/hard: n} over the window."""
+    counts = Counter()
+    for d in dates:
+        if agg := days.get(d):
+            counts.update({k: agg.get(k, 0) for k in DIFFS})
+    return counts
+
+
+def ranked(counts):
+    """A Counter as [(key, n)] by count descending, ties alphabetical."""
     return sorted(counts.items(), key=lambda kv: (-kv[1], kv[0]))
 
 
@@ -190,15 +255,12 @@ def tag_chips(pairs):
     )
 
 
-def diff_line(slugs, problems):
+def diff_line(counts):
     """Split by difficulty over the window, in Easy/Medium/Hard order."""
-    counts = Counter(difficulty_of(problems, s) for s in slugs)
     items = [
-        theme.DIFF_LINE_ITEM.format(
-            name=theme.DIFF_WORDS.get(d.lower(), d), count=counts[d]
-        )
-        for d in theme.DIFF_ORDER
-        if counts.get(d)
+        theme.DIFF_LINE_ITEM.format(name=theme.DIFF_WORDS[k], count=counts[k])
+        for k in DIFFS
+        if counts.get(k)
     ]
     return theme.TAG_LINE.format(items=theme.TAG_LINE_JOIN.join(items))
 
@@ -232,6 +294,30 @@ def streak_ladder():
         out.append(f"{icon}{low}")
         low = hi + 1
     return theme.LADDER_JOIN.join(out)
+
+
+def run_rate(history, now):
+    """Percent of hourly slots a run actually landed in, or None if not measurable.
+
+    GitHub drops scheduled runs under load, so this is measured rather than quoted:
+    every run marks its local hour in the day's record. Days from before the log
+    existed are skipped, not counted as misses. The first logged day starts at
+    its first run and today ends at the current hour, so neither partial day counts
+    hours that were never eligible.
+    """
+    logged = [(d, (e.get("run_hours") or "")) for d, e in sorted(history.items())]
+    logged = [(d, mask) for d, mask in logged if "1" in mask]
+    today = now.strftime("%Y-%m-%d")
+
+    hits = slots = 0
+    for i, (date, mask) in enumerate(logged):
+        lo = mask.index("1") if i == 0 else 0  # nothing before the log began counts
+        hi = now.hour if date == today else 23  # the rest of today has not happened
+        slots += max(0, hi - lo + 1)
+        hits += mask.count("1")
+    if slots < RATE_MIN_SLOTS:
+        return None
+    return min(100, round(100 * hits / slots))
 
 
 def progress_icon(done, total):
@@ -274,48 +360,45 @@ def table(headers, aligns, rows, footer=None, widths=None):
     return "\n".join(out)
 
 
-def build_rows(cfg, snapshots, problems, today):
-    latest = snapshots[-1][1]
+def build_rows(cfg, history, detail, problems, today):
+    # Whether a fetch just failed is current-run state, so it comes from
+    # today.json; history.json is only ever the numbers.
+    latest = (history[max(history)].get("members") or {}) if history else {}
+    failed = detail.get("failed") or {}
+    stale = set(detail.get("stale") or ())
     weights = cfg["score_weights"]
     rows, broken = [], []
 
     for m in cfg["members"]:
-        handle = m["handle"]
-        cur = (latest.get("members") or {}).get(handle)
-        if not cur or not cur.get("ok"):
-            broken.append(
-                (
-                    m.get("name") or handle,
-                    handle,
-                    (cur or {}).get("error", theme.ERR_NOT_FETCHED),
-                )
-            )
+        mid = m["id"]
+        name = m.get("name") or mid
+        cur = latest.get(mid)
+        if mid in failed or not cur:
+            broken.append((name, mid, failed.get(mid, theme.ERR_NOT_FETCHED)))
             continue
 
-        day_events, intervals = collect(handle, snapshots, cfg)
-        w_probs, w_score, w_partial = window_stats(
-            days_back(today, WEEK), day_events, intervals, problems, weights
-        )
-        t_probs, t_score, t_partial = window_stats(
-            [today], day_events, intervals, problems, weights
-        )
+        mdays = member_days(history, mid)
+        days = day_stats(mdays)
+        deltas = solved_deltas(mdays)
+        week = days_back(today, WEEK)
+        w_probs, w_score, w_partial = window_stats(week, days, weights, deltas)
+        t_probs, t_score, t_partial = window_stats([today], days, weights, deltas)
         streak, streak_eod, streak_limited = streak_with_history(
-            day_events,
-            intervals,
+            days,
             today,
             active=t_probs >= 1,
-            prev_eod=stored_streak(handle, snapshots, today),
+            prev_eod=stored_streak(mdays, today),
         )
-        counts = [day_count(d, day_events, intervals) for d in days_back(today, WINDOW)]
+        counts = [day_count(d, days) for d in days_back(today, WINDOW)]
         acs = sorted(
-            (dict(slug=s, **v) for s, v in day_events.get(today, {}).items()),
+            (dict(slug=s, **v) for s, v in day_events(mid, detail, cfg, today).items()),
             key=lambda a: a["ts"],
         )
 
         rows.append(
             {
-                "name": cur.get("name") or handle,
-                "handle": handle,
+                "name": name,
+                "id": mid,
                 "streak": streak,
                 "streak_eod": streak_eod,  # what tomorrow carries forward
                 "streak_limited": streak_limited,
@@ -326,10 +409,10 @@ def build_rows(cfg, snapshots, problems, today):
                 "week_partial": w_partial,
                 "week_score": w_score,
                 "total": cur["solved"]["all"],  # sort tiebreaker only
-                "stale": bool(cur.get("stale")),
+                "stale": mid in stale,
                 "spark": spark(counts),
                 "acs": acs,
-                "week_slugs": window_slugs(days_back(today, WEEK), day_events),
+                "week_diffs": window_diffs(week, days),
                 "done_today": t_probs >= 1,
             }
         )
@@ -342,33 +425,33 @@ def build_rows(cfg, snapshots, problems, today):
     return rows, broken
 
 
-def previous_ranks(cfg, snapshots, problems, today):
-    """handle -> rank on the previous day's board; empty if that day has no snapshot."""
+def previous_ranks(cfg, history, detail, problems, today):
+    """member id -> rank on the previous day's board; empty if that day is not held."""
     prev = (
         datetime.strptime(today, "%Y-%m-%d").date() - timedelta(days=1)
     ).isoformat()
-    if not any(d == prev for d, _ in snapshots):
+    if prev not in history:
         return {}
-    rows, _ = build_rows(cfg, snapshots, problems, prev)
-    return {r["handle"]: i for i, r in enumerate(rows, 1)}
+    rows, _ = build_rows(cfg, history, detail, problems, prev)
+    return {r["id"]: i for i, r in enumerate(rows, 1)}
 
 
-def rank_move(handle, rank, prev_ranks):
+def rank_move(mid, rank, prev_ranks):
     """Marker for a rank change since yesterday; blank when new or unchanged."""
-    was = prev_ranks.get(handle)
+    was = prev_ranks.get(mid)
     if was is None or was == rank:
         return ""
     return f" {theme.UP}" if rank < was else f" {theme.DOWN}"
 
 
-def render(cfg, snapshots, problems, unreadable=()):
+def render(cfg, history, detail, problems, unreadable=()):
     now = local_now(cfg)
     today = now.strftime("%Y-%m-%d")
 
-    if not snapshots:
+    if not history:
         return theme.EMPTY_DATA + "\n"
 
-    rows, broken = build_rows(cfg, snapshots, problems, today)
+    rows, broken = build_rows(cfg, history, detail, problems, today)
     if not rows and not broken:
         return theme.EMPTY_MEMBERS + "\n"
 
@@ -402,7 +485,7 @@ def render(cfg, snapshots, problems, unreadable=()):
         out.append(line)
         out.append("")
 
-        prev_ranks = previous_ranks(cfg, snapshots, problems, today)
+        prev_ranks = previous_ranks(cfg, history, detail, problems, today)
         ranking = []
         for i, r in enumerate(rows, 1):
             tpl = theme.STREAK_CAPPED if r["streak_limited"] else theme.STREAK
@@ -412,11 +495,12 @@ def render(cfg, snapshots, problems, unreadable=()):
                 ),
                 days=r["streak"],
             )
+            # The display name only, never a link to the profile: the board should
+            # not be the thing that ties a codename to a real LeetCode account.
             member = theme.MEMBER_CELL.format(
                 rank=theme.MEDALS[i - 1] if i <= len(theme.MEDALS) else code(i),
-                name=f'<a href="https://leetcode.com/u/{esc(r["handle"])}/">'
-                f"{code(esc(r['name']))}</a>",
-                move=rank_move(r["handle"], i, prev_ranks),
+                name=code(esc(r["name"])),
+                move=rank_move(r["id"], i, prev_ranks),
             )
             ranking.append(
                 [
@@ -463,7 +547,7 @@ def render(cfg, snapshots, problems, unreadable=()):
     if active:
         out.append(theme.HEAD_DETAIL)
         out.append("")
-        detail = []
+        detail_rows = []
         for r in active:
             lines = []
             for a in r["acs"][: theme.PROBLEM_LIMIT]:
@@ -486,7 +570,7 @@ def render(cfg, snapshots, problems, unreadable=()):
 
             # counted over everything today, but only as much tag text as the
             # problem list is tall, so neither cell towers over the other
-            pairs = tag_counts([a["slug"] for a in r["acs"]], problems)
+            pairs = ranked(tag_histogram([a["slug"] for a in r["acs"]], problems))
             budget = len(lines) * theme.TAG_CHARS_PER_LINE
             shown, used = [], 0
             for tag, n in pairs:
@@ -499,60 +583,64 @@ def render(cfg, snapshots, problems, unreadable=()):
             if len(shown) < len(pairs):
                 chips += f" {theme.TAG_MORE}"
 
-            detail.append(
+            detail_rows.append(
                 [code(esc(r["name"])), theme.PROBLEM_JOIN.join(lines), chips]
             )
         out.append(
             table(
                 theme.DETAIL_HEADERS,
                 theme.DETAIL_ALIGNS,
-                detail,
+                detail_rows,
                 widths=theme.DETAIL_WIDTHS,
             )
         )
         out.append("")
 
-    week_slugs = [s for r in rows for s in r["week_slugs"]]
-    tags = tag_counts(week_slugs, problems)
+    tags = window_tags(days_back(today, WEEK), history)
     if tags:
         out.append(theme.HEAD_TAGS.format(week=WEEK))
         out.append("")
-        out.append(diff_line(week_slugs, problems))
+        out.append(diff_line(sum((r["week_diffs"] for r in rows), Counter())))
         out.append("")
-        out.append(tag_line(tags))
+        out.append(tag_line(ranked(tags)))
         out.append("")
 
     if broken:
         out.append(theme.HEAD_BROKEN)
         out.append("")
-        for name, handle, err in broken:
+        for name, mid, err in broken:
             out.append(
-                theme.BROKEN_ROW.format(handle=handle, name=name, error=err)
+                theme.BROKEN_ROW.format(id=mid, name=name, error=err)
             )
         out.append("")
 
-    # The snapshot's own timestamp, not the render time: a run that finds nothing
-    # new leaves both the snapshot and this line untouched, so no commit is made.
-    fetched = snapshots[-1][1].get("fetched_at")
+    # The stored timestamp, not the render time: a run that finds nothing new
+    # leaves both the data and this line untouched, so no commit is made.
+    fetched = detail.get("fetched_at")
     when = (
         datetime.fromisoformat(fetched).astimezone(tz_of(cfg))
         if fetched
         else now
     ).strftime("%Y-%m-%d %H:%M")
+    rate = run_rate(history, now)
     stamp = theme.STAMP.format(
         when=when,
         tz=cfg["timezone"],
-        days=len(snapshots),
+        days=len(history),
+        rate="" if rate is None else theme.STAMP_RATE.format(pct=rate),
     )
     out.append(f"<sub>{stamp}</sub>")
     return "\n".join(out).rstrip() + "\n"
 
 
 def update_readme(cfg):
-    """Rewrites the README and returns {handle: end-of-day streak} to persist."""
-    snapshots, unreadable = load_snapshots()
+    """Rewrites the README and returns {member id: end-of-day streak} to persist."""
+    stored, bad_history = load_history()
+    detail, bad_today = load_today()
+    history = stored.get("days") or {}
+    unreadable = [n for n in (bad_history, bad_today) if n]
     problems = load_problems()
-    board = render(cfg, snapshots, problems, unreadable)
+    board = render(cfg, history, detail, problems, unreadable)
     text = README.read_text(encoding="utf-8")
 
     if MARK_START not in text or MARK_END not in text:
@@ -564,8 +652,8 @@ def update_readme(cfg):
         f"{head}{MARK_START}\n\n{board}\n{MARK_END}{tail}", encoding="utf-8"
     )
 
-    if not snapshots:
+    if not history:
         return {}
     today = local_now(cfg).strftime("%Y-%m-%d")
-    rows, _ = build_rows(cfg, snapshots, problems, today)
-    return {r["handle"]: r["streak_eod"] for r in rows}
+    rows, _ = build_rows(cfg, history, detail, problems, today)
+    return {r["id"]: r["streak_eod"] for r in rows}

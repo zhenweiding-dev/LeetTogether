@@ -649,6 +649,14 @@
       "Dynamic Programming"
     ]
   },
+  "house-robber-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "213",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
   "image-overlap": {
     "difficulty": "Medium",
     "frontend_id": "835",

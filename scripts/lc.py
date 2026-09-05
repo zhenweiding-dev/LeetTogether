@@ -31,14 +31,19 @@ def _ssl_context():
 
 SSL_CONTEXT = _ssl_context()
 
-# One request covers it all: solved counts, calendar, recent accepted list.
+# One request covers it all: solved counts and the recent accepted list.
+#
+# Asks for nothing it does not use, with one deliberate exception: `userCalendar`
+# is requested and discarded, because asking for it is what makes an official or
+# special account fail loudly instead of silently returning nothing. `profile` is
+# left out entirely — it carries realName, and a public board should not even
+# receive a field it has no business publishing.
 USER_QUERY = """
 query userProgress($handle: String!) {
   matchedUser(username: $handle) {
     username
-    profile { realName userAvatar ranking }
     submitStats { acSubmissionNum { difficulty count } }
-    userCalendar { streak totalActiveDays submissionCalendar }
+    userCalendar { streak }
   }
   recentAcSubmissionList(username: $handle, limit: 20) {
     title
@@ -107,22 +112,15 @@ def fetch_user(handle):
         row["difficulty"].lower(): row["count"]
         for row in user["submitStats"]["acSubmissionNum"]
     }
-    cal = user.get("userCalendar") or {}
-
     return {
         "ok": True,
         "handle": user["username"],
-        "real_name": (user.get("profile") or {}).get("realName") or "",
-        "ranking": (user.get("profile") or {}).get("ranking"),
         "solved": {
             "all": counts.get("all", 0),
             "easy": counts.get("easy", 0),
             "medium": counts.get("medium", 0),
             "hard": counts.get("hard", 0),
         },
-        # Official streak is bucketed by UTC day; the board ignores it, kept for reference
-        "lc_streak": cal.get("streak", 0),
-        "lc_active_days": cal.get("totalActiveDays", 0),
         "recent_ac": [
             {"title": s["title"], "slug": s["titleSlug"], "ts": int(s["timestamp"])}
             for s in (data.get("recentAcSubmissionList") or [])

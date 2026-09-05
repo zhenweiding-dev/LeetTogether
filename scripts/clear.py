@@ -2,25 +2,27 @@
 
     python3 scripts/clear.py
 
-Empties the member list, deletes every snapshot and blanks the board. Keeps
-data/problems.json, which is only a difficulty and tag cache.
+Empties the member list, deletes the history and today files and blanks the
+board. Keeps data/problems.json, which is only a difficulty and tag cache.
 """
 
 import board
-from common import SNAP_DIR, load_config, save_config
+from common import HANDLES_PATH, HISTORY_PATH, TODAY_PATH, load_config, save_config
 
 
 def main():
     cfg = load_config()
-    snaps = sorted(SNAP_DIR.glob("*.json"))
-    handles = [m["handle"] for m in cfg["members"]]
+    data = [p for p in (HISTORY_PATH, TODAY_PATH) if p.exists()]
+    names = [m.get("name") or m.get("id", "?") for m in cfg["members"]]
 
-    if not handles and not snaps:
+    if not names and not data and not HANDLES_PATH.exists():
         print("Already clear.")
         return
 
-    print(f"Drop members : {', '.join(handles) or 'none'}")
-    print(f"Delete       : {len(snaps)} snapshot(s)")
+    print(f"Drop members : {', '.join(names) or 'none'}")
+    print(f"Delete       : {', '.join(p.name for p in data) or 'nothing'}")
+    if HANDLES_PATH.exists():
+        print(f"Delete       : {HANDLES_PATH.name}")
     try:
         agreed = input("Proceed? [y/N]: ").strip().lower() in ("y", "yes")
     except EOFError:
@@ -31,8 +33,9 @@ def main():
 
     cfg["members"] = []
     save_config(cfg)
-    for path in snaps:
+    for path in data:
         path.unlink()
+    HANDLES_PATH.unlink(missing_ok=True)
     board.update_readme(cfg)
 
     print("\nCleared. Set `timezone` in config.json, then run scripts/add.py.")

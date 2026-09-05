@@ -7,19 +7,19 @@
   },
   "members": [
     {
-      "handle": "m1",
+      "id": "m1",
       "name": "zhenwei"
     },
     {
-      "handle": "m2",
+      "id": "m2",
       "name": "cheers🍻"
     },
     {
-      "handle": "m3",
+      "id": "m3",
       "name": "Glo"
     },
     {
-      "handle": "m4",
+      "id": "m4",
       "name": "xiao"
     }
   ]

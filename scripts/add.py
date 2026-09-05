@@ -1,17 +1,19 @@
-"""Add a member: enter a username or profile URL, verify it, name it, save to config.
+"""Add a member: enter a username or profile URL, verify it, name it, save it.
 
     python3 scripts/add.py                       # interactive
     python3 scripts/add.py leetcode.com/u/alice/ # or pass it in
 
-Touches config.json and nothing else. The board and the snapshots are left to the
-Action, so a local run can never collide with it on a generated file.
+Writes two files and no others. config.json gets a codename and an opaque id, safe
+to commit; handles.local.json gets the id -> real handle mapping and is ignored by
+git. The board and the data files are left to the Action, so a local run can never
+collide with it on a generated file.
 """
 
 import re
 import sys
 
 import lc
-from common import load_config, save_config
+from common import HANDLES_PATH, load_config, load_handles, save_config, save_handles
 
 
 def parse_handle(raw):
@@ -39,9 +41,19 @@ def prompts(args):
             return
 
 
+def next_id(cfg):
+    """m1, m2, ... — deliberately says nothing about who the member is."""
+    used = {m.get("id") for m in cfg["members"]}
+    n = 1
+    while f"m{n}" in used:
+        n += 1
+    return f"m{n}"
+
+
 def main():
     cfg = load_config()
-    known = {m["handle"].lower() for m in cfg["members"]}
+    handles = load_handles()
+    known = {h.lower() for h in handles.values()}
     added = []
 
     for raw in prompts(sys.argv[1:]):
@@ -78,25 +90,35 @@ def main():
             f"{len(data['recent_ac'])} recent ACs"
         )
 
-        default = data["real_name"] or handle
+        # This is the name the public board will show, so it defaults to nothing:
+        # neither the real name nor the handle should slip out by pressing Enter.
         try:
-            name = input(f"  display name [{default}]: ").strip() or default
+            name = input("  display name (shown on the public board): ").strip()
         except EOFError:
-            name = default
+            name = ""
+        if not name:
+            print("  skipped: a display name is required\n")
+            continue
 
-        cfg["members"].append({"handle": handle, "name": name})
+        mid = next_id(cfg)
+        cfg["members"].append({"id": mid, "name": name})
+        handles[mid] = handle
         known.add(handle.lower())
         save_config(cfg)  # save as we go so an interrupt loses nothing
+        save_handles(handles)
         added.append(name)
-        print("  written to config.json\n")
+        print(f"  saved as {mid}\n")
 
     if not added:
         print("No changes.")
         return
 
     print(f"Added {len(added)}: {', '.join(added)}")
-    print("\nOnly config.json changed. Commit and push it — the hourly Action")
-    print("rebuilds the board, or `gh workflow run daily.yml` to do it now.")
+    print(f"\nconfig.json holds only codenames — commit it. {HANDLES_PATH.name} holds")
+    print("the real handles and is git-ignored; paste its contents into the")
+    print("LC_HANDLES repo secret so the Action can fetch:")
+    print("\n  gh secret set LC_HANDLES < handles.local.json\n")
+    print("Then `gh workflow run daily.yml`, or wait for the hourly run.")
 
 
 if __name__ == "__main__":

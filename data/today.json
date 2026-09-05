@@ -1,0 +1,424 @@
+{
+  "date": "2026-09-04",
+  "fetched_at": "2026-09-05T05:45:12+00:00",
+  "members": {
+    "m1": {
+      "recent_ac": [
+        {
+          "title": "House Robber II",
+          "slug": "house-robber-ii",
+          "ts": 1788586739
+        },
+        {
+          "title": "Climbing Stairs",
+          "slug": "climbing-stairs",
+          "ts": 1788567668
+        },
+        {
+          "title": "House Robber",
+          "slug": "house-robber",
+          "ts": 1788566781
+        },
+        {
+          "title": "Coin Change",
+          "slug": "coin-change",
+          "ts": 1788565537
+        },
+        {
+          "title": "Climbing Stairs",
+          "slug": "climbing-stairs",
+          "ts": 1788548784
+        },
+        {
+          "title": "Fibonacci Number",
+          "slug": "fibonacci-number",
+          "ts": 1788546335
+        },
+        {
+          "title": "Most Stones Removed with Same Row or Column",
+          "slug": "most-stones-removed-with-same-row-or-column",
+          "ts": 1788543413
+        },
+        {
+          "title": "Validate Binary Tree Nodes",
+          "slug": "validate-binary-tree-nodes",
+          "ts": 1788498297
+        },
+        {
+          "title": "Redundant Connection",
+          "slug": "redundant-connection",
+          "ts": 1788472077
+        },
+        {
+          "title": "Satisfiability of Equality Equations",
+          "slug": "satisfiability-of-equality-equations",
+          "ts": 1788469700
+        },
+        {
+          "title": "Surrounded Regions",
+          "slug": "surrounded-regions",
+          "ts": 1788418771
+        },
+        {
+          "title": "Number of Provinces",
+          "slug": "number-of-provinces",
+          "ts": 1788411691
+        },
+        {
+          "title": "Course Schedule II",
+          "slug": "course-schedule-ii",
+          "ts": 1788332931
+        },
+        {
+          "title": "Course Schedule",
+          "slug": "course-schedule",
+          "ts": 1788331016
+        },
+        {
+          "title": "Course Schedule II",
+          "slug": "course-schedule-ii",
+          "ts": 1788329653
+        },
+        {
+          "title": "Course Schedule",
+          "slug": "course-schedule",
+          "ts": 1788328223
+        },
+        {
+          "title": "Find First and Last Position of Element in Sorted Array",
+          "slug": "find-first-and-last-position-of-element-in-sorted-array",
+          "ts": 1788298767
+        },
+        {
+          "title": "Find Peak Element",
+          "slug": "find-peak-element",
+          "ts": 1788227731
+        },
+        {
+          "title": "Find First and Last Position of Element in Sorted Array",
+          "slug": "find-first-and-last-position-of-element-in-sorted-array",
+          "ts": 1788225951
+        },
+        {
+          "title": "All Paths From Source to Target",
+          "slug": "all-paths-from-source-to-target",
+          "ts": 1788217716
+        }
+      ]
+    },
+    "m2": {
+      "recent_ac": [
+        {
+          "title": "Subsets",
+          "slug": "subsets",
+          "ts": 1788571628
+        },
+        {
+          "title": "Validate Binary Search Tree",
+          "slug": "validate-binary-search-tree",
+          "ts": 1788566778
+        },
+        {
+          "title": "Copy List with Random Pointer",
+          "slug": "copy-list-with-random-pointer",
+          "ts": 1788563320
+        },
+        {
+          "title": "Merge Two Sorted Lists",
+          "slug": "merge-two-sorted-lists",
+          "ts": 1788560386
+        },
+        {
+          "title": "Subtree of Another Tree",
+          "slug": "subtree-of-another-tree",
+          "ts": 1788558994
+        },
+        {
+          "title": "Time Based Key-Value Store",
+          "slug": "time-based-key-value-store",
+          "ts": 1788556093
+        },
+        {
+          "title": "Group Anagrams",
+          "slug": "group-anagrams",
+          "ts": 1788509111
+        },
+        {
+          "title": "Merge k Sorted Lists",
+          "slug": "merge-k-sorted-lists",
+          "ts": 1788508110
+        },
+        {
+          "title": "Majority Element",
+          "slug": "majority-element",
+          "ts": 1788504678
+        },
+        {
+          "title": "Pow(x, n)",
+          "slug": "powx-n",
+          "ts": 1788502917
+        },
+        {
+          "title": "Same Tree",
+          "slug": "same-tree",
+          "ts": 1788420165
+        },
+        {
+          "title": "Find Minimum in Rotated Sorted Array",
+          "slug": "find-minimum-in-rotated-sorted-array",
+          "ts": 1788416516
+        },
+        {
+          "title": "Generate Parentheses",
+          "slug": "generate-parentheses",
+          "ts": 1788414535
+        },
+        {
+          "title": "Permutation in String",
+          "slug": "permutation-in-string",
+          "ts": 1788387160
+        },
+        {
+          "title": "Maximum Subarray",
+          "slug": "maximum-subarray",
+          "ts": 1788299811
+        },
+        {
+          "title": "Jump Game",
+          "slug": "jump-game",
+          "ts": 1788240647
+        },
+        {
+          "title": "Remove Nth Node From End of List",
+          "slug": "remove-nth-node-from-end-of-list",
+          "ts": 1788222429
+        },
+        {
+          "title": "Reorder List",
+          "slug": "reorder-list",
+          "ts": 1788218789
+        },
+        {
+          "title": "Search a 2D Matrix",
+          "slug": "search-a-2d-matrix",
+          "ts": 1788215068
+        },
+        {
+          "title": "Merge Intervals",
+          "slug": "merge-intervals",
+          "ts": 1788124384
+        }
+      ]
+    },
+    "m3": {
+      "recent_ac": [
+        {
+          "title": "Permutation in String",
+          "slug": "permutation-in-string",
+          "ts": 1788423235
+        },
+        {
+          "title": "Time Based Key-Value Store",
+          "slug": "time-based-key-value-store",
+          "ts": 1788405664
+        },
+        {
+          "title": "Median of Two Sorted Arrays",
+          "slug": "median-of-two-sorted-arrays",
+          "ts": 1788319793
+        },
+        {
+          "title": "Longest Repeating Character Replacement",
+          "slug": "longest-repeating-character-replacement",
+          "ts": 1787985547
+        },
+        {
+          "title": "Longest Substring Without Repeating Characters",
+          "slug": "longest-substring-without-repeating-characters",
+          "ts": 1787983151
+        },
+        {
+          "title": "Best Time to Buy and Sell Stock",
+          "slug": "best-time-to-buy-and-sell-stock",
+          "ts": 1787903872
+        },
+        {
+          "title": "Median of Two Sorted Arrays",
+          "slug": "median-of-two-sorted-arrays",
+          "ts": 1787813157
+        },
+        {
+          "title": "Time Based Key-Value Store",
+          "slug": "time-based-key-value-store",
+          "ts": 1787791386
+        },
+        {
+          "title": "Search in Rotated Sorted Array",
+          "slug": "search-in-rotated-sorted-array",
+          "ts": 1787784676
+        },
+        {
+          "title": "Find Minimum in Rotated Sorted Array",
+          "slug": "find-minimum-in-rotated-sorted-array",
+          "ts": 1787774258
+        },
+        {
+          "title": "Koko Eating Bananas",
+          "slug": "koko-eating-bananas",
+          "ts": 1787772188
+        },
+        {
+          "title": "Search a 2D Matrix",
+          "slug": "search-a-2d-matrix",
+          "ts": 1787770753
+        },
+        {
+          "title": "Binary Search",
+          "slug": "binary-search",
+          "ts": 1787725431
+        },
+        {
+          "title": "Largest Rectangle in Histogram",
+          "slug": "largest-rectangle-in-histogram",
+          "ts": 1787704090
+        },
+        {
+          "title": "Car Fleet",
+          "slug": "car-fleet",
+          "ts": 1787703236
+        },
+        {
+          "title": "Daily Temperatures",
+          "slug": "daily-temperatures",
+          "ts": 1787699120
+        },
+        {
+          "title": "Evaluate Reverse Polish Notation",
+          "slug": "evaluate-reverse-polish-notation",
+          "ts": 1787697014
+        },
+        {
+          "title": "Min Stack",
+          "slug": "min-stack",
+          "ts": 1787695638
+        },
+        {
+          "title": "Valid Parentheses",
+          "slug": "valid-parentheses",
+          "ts": 1787693785
+        },
+        {
+          "title": "Time Based Key-Value Store",
+          "slug": "time-based-key-value-store",
+          "ts": 1785722669
+        }
+      ]
+    },
+    "m4": {
+      "recent_ac": [
+        {
+          "title": "Minimum Increment to Make Array Unique",
+          "slug": "minimum-increment-to-make-array-unique",
+          "ts": 1788544837
+        },
+        {
+          "title": "Walking Robot Simulation",
+          "slug": "walking-robot-simulation",
+          "ts": 1788535364
+        },
+        {
+          "title": "Repeated String Match",
+          "slug": "repeated-string-match",
+          "ts": 1788534384
+        },
+        {
+          "title": "Map Sum Pairs",
+          "slug": "map-sum-pairs",
+          "ts": 1788520498
+        },
+        {
+          "title": "Count Prefix and Suffix Pairs I",
+          "slug": "count-prefix-and-suffix-pairs-i",
+          "ts": 1788519570
+        },
+        {
+          "title": "Find the Length of the Longest Common Prefix",
+          "slug": "find-the-length-of-the-longest-common-prefix",
+          "ts": 1788517544
+        },
+        {
+          "title": "Extra Characters in a String",
+          "slug": "extra-characters-in-a-string",
+          "ts": 1788516122
+        },
+        {
+          "title": "Satisfiability of Equality Equations",
+          "slug": "satisfiability-of-equality-equations",
+          "ts": 1788507343
+        },
+        {
+          "title": "Redundant Connection",
+          "slug": "redundant-connection",
+          "ts": 1788507008
+        },
+        {
+          "title": "Satisfiability of Equality Equations",
+          "slug": "satisfiability-of-equality-equations",
+          "ts": 1788505743
+        },
+        {
+          "title": "Unique Paths",
+          "slug": "unique-paths",
+          "ts": 1788503838
+        },
+        {
+          "title": "Minimum Path Sum",
+          "slug": "minimum-path-sum",
+          "ts": 1788393246
+        },
+        {
+          "title": "Unique Paths",
+          "slug": "unique-paths",
+          "ts": 1788393130
+        },
+        {
+          "title": "Longest Valid Parentheses",
+          "slug": "longest-valid-parentheses",
+          "ts": 1788321147
+        },
+        {
+          "title": "Find Minimum in Rotated Sorted Array",
+          "slug": "find-minimum-in-rotated-sorted-array",
+          "ts": 1788248119
+        },
+        {
+          "title": "Search a 2D Matrix",
+          "slug": "search-a-2d-matrix",
+          "ts": 1788247409
+        },
+        {
+          "title": "Search Insert Position",
+          "slug": "search-insert-position",
+          "ts": 1788247054
+        },
+        {
+          "title": "Find First and Last Position of Element in Sorted Array",
+          "slug": "find-first-and-last-position-of-element-in-sorted-array",
+          "ts": 1788246918
+        },
+        {
+          "title": "Search in Rotated Sorted Array",
+          "slug": "search-in-rotated-sorted-array",
+          "ts": 1788246611
+        },
+        {
+          "title": "Palindrome Partitioning",
+          "slug": "palindrome-partitioning",
+          "ts": 1788246095
+        }
+      ]
+    }
+  },
+  "failed": {},
+  "stale": []
+}

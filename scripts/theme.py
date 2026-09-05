@@ -9,6 +9,7 @@ used as-is. Tag names must match LeetCode's topicTags exactly.
 EMPTY_DATA = "_No data yet. Run `python3 scripts/update.py`._"
 EMPTY_MEMBERS = "_No members yet. Run `python3 scripts/add.py`._"
 ERR_NOT_FETCHED = "not fetched"
+ERR_NO_HANDLE = "no LeetCode handle configured for this id"
 
 # --- today's progress line --------------------------------------------------
 
@@ -82,7 +83,6 @@ NO_DATA = "░"
 # Words, not coloured dots: any circle in a README reads as a status alert.
 DIFF_WORDS = {"easy": "Easy", "medium": "Med", "hard": "Hard"}
 DIFF_FALLBACK = "?"
-DIFF_ORDER = ["Easy", "Medium", "Hard"]  # API spelling, in a fixed display order
 
 # 🔺🔻 needs no explaining, so it is left out. {ladder} is generated from
 # STREAK_LEVELS rather than written out here, so the two can never drift apart.
@@ -133,8 +133,11 @@ TAG_LINE = "> {items}"
 # --- failures and footer ----------------------------------------------------
 
 HEAD_BROKEN = "## ⚠️ Fetch failed"
-BROKEN_ROW = "- `{handle}` ({name}) - {error}"
-STAMP = "🕒 Updated {when} ({tz}) · {days} day(s) of history"
+BROKEN_ROW = "- `{id}` ({name}) - {error}"
+STAMP = "🕒 Updated {when} ({tz}) · {days} day(s) of history{rate}"
+# Measured from the run log in the snapshots, not a number written down once.
+# Dropped entirely until there is a logged day to measure.
+STAMP_RATE = " · ⏱️ {pct}% of hourly runs landed"
 
 # --- tag icons --------------------------------------------------------------
 

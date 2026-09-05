@@ -1,3 +1,6 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# LeetCode handles: the whole point is that these never reach the repo.
+*.local.json

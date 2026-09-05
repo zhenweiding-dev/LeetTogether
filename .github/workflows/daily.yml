@@ -22,12 +22,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v7
+        with:
+          # The commit step amends the tip, which needs its parent present. The
+          # default depth of 1 does not include it.
+          fetch-depth: 2
 
       - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
 
       - name: Fetch and update the board
+        # The id -> LeetCode handle mapping lives here and nowhere in the repo.
+        # Set it with: gh secret set LC_HANDLES < handles.local.json
+        env:
+          LC_HANDLES: ${{ secrets.LC_HANDLES }}
         run: python3 scripts/update.py
 
       - name: Commit changes
@@ -37,7 +45,24 @@ jobs:
           git add data README.md
           if git diff --cached --quiet; then
             echo "No changes, skipping commit"
+            exit 0
+          fi
+
+          # One commit per day, amended in place by the later runs, so an active
+          # day is a single entry in the log instead of a dozen. The message has
+          # to be stable within a day for that test to work, hence no clock time.
+          # The day is the config timezone's, so the commit boundary matches the
+          # board's own.
+          tz=$(python3 -c 'import json; print(json.load(open("config.json"))["timezone"])')
+          msg="chore: progress $(TZ="$tz" date +%Y-%m-%d)"
+
+          if [ "$(git log -1 --format=%s)" = "$msg" ] \
+             && [ "$(git log -1 --format=%ae)" = "41898282+github-actions[bot]@users.noreply.github.com" ]; then
+            # Only ever rewrites a commit this job made earlier today, and nothing
+            # else pushes here, so --force-with-lease has a real ref to check.
+            git commit --amend -m "$msg" --date=now
+            git push --force-with-lease
           else
-            git commit -m "chore: progress snapshot $(date -u +%Y-%m-%dT%H:%M:%SZ)"
+            git commit -m "$msg"
             git push
           fi
