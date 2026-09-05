@@ -1,6 +1,6 @@
 {
   "date": "2026-09-05",
-  "fetched_at": "2026-09-05T18:32:12+00:00",
+  "fetched_at": "2026-09-05T18:45:13+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -415,6 +415,110 @@
           "title": "Longest Valid Parentheses",
           "slug": "longest-valid-parentheses",
           "ts": 1788321147
+        }
+      ]
+    },
+    "m5": {
+      "recent_ac": [
+        {
+          "title": "Min Stack",
+          "slug": "min-stack",
+          "ts": 1787752951
+        },
+        {
+          "title": "Find Minimum Time to Finish All Jobs",
+          "slug": "find-minimum-time-to-finish-all-jobs",
+          "ts": 1787494250
+        },
+        {
+          "title": "Reorganize String",
+          "slug": "reorganize-string",
+          "ts": 1787492109
+        },
+        {
+          "title": "Fruit Into Baskets",
+          "slug": "fruit-into-baskets",
+          "ts": 1787369909
+        },
+        {
+          "title": "Find Peak Element",
+          "slug": "find-peak-element",
+          "ts": 1786889180
+        },
+        {
+          "title": "LRU Cache",
+          "slug": "lru-cache",
+          "ts": 1786715889
+        },
+        {
+          "title": "Smallest Range Covering Elements from K Lists",
+          "slug": "smallest-range-covering-elements-from-k-lists",
+          "ts": 1786712424
+        },
+        {
+          "title": "Satisfiability of Equality Equations",
+          "slug": "satisfiability-of-equality-equations",
+          "ts": 1786157423
+        },
+        {
+          "title": "Simplify Path",
+          "slug": "simplify-path",
+          "ts": 1785939857
+        },
+        {
+          "title": "Clone Graph",
+          "slug": "clone-graph",
+          "ts": 1785843840
+        },
+        {
+          "title": "Rotting Oranges",
+          "slug": "rotting-oranges",
+          "ts": 1785839794
+        },
+        {
+          "title": "Convert Binary Search Tree to Sorted Doubly Linked List",
+          "slug": "convert-binary-search-tree-to-sorted-doubly-linked-list",
+          "ts": 1785417885
+        },
+        {
+          "title": "Minimum Area Rectangle",
+          "slug": "minimum-area-rectangle",
+          "ts": 1785157312
+        },
+        {
+          "title": "Combination Sum II",
+          "slug": "combination-sum-ii",
+          "ts": 1784951762
+        },
+        {
+          "title": "Delete Leaves With a Given Value",
+          "slug": "delete-leaves-with-a-given-value",
+          "ts": 1784949897
+        },
+        {
+          "title": "Longest Repeating Character Replacement",
+          "slug": "longest-repeating-character-replacement",
+          "ts": 1784946690
+        },
+        {
+          "title": "Find K Closest Elements",
+          "slug": "find-k-closest-elements",
+          "ts": 1784348755
+        },
+        {
+          "title": "Longest Repeating Character Replacement",
+          "slug": "longest-repeating-character-replacement",
+          "ts": 1784346705
+        },
+        {
+          "title": "Maximum Width of Binary Tree",
+          "slug": "maximum-width-of-binary-tree",
+          "ts": 1784342366
+        },
+        {
+          "title": "Two City Scheduling",
+          "slug": "two-city-scheduling",
+          "ts": 1783742844
         }
       ]
     }

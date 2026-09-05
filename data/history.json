@@ -5,7 +5,7 @@
     "medium": 3,
     "hard": 6
   },
-  "fetched_at": "2026-09-05T18:32:12+00:00",
+  "fetched_at": "2026-09-05T18:45:13+00:00",
   "days": {
     "2026-08-21": {
       "run_hours": "",
@@ -1230,6 +1230,21 @@
             "hard": 0
           },
           "streak": 6
+        },
+        "m5": {
+          "solved": {
+            "all": 540,
+            "easy": 176,
+            "medium": 325,
+            "hard": 39
+          },
+          "day": {
+            "count": 0,
+            "easy": 0,
+            "medium": 0,
+            "hard": 0
+          },
+          "streak": 0
         }
       }
     }
