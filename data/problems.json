@@ -184,6 +184,17 @@
       "Graph Theory"
     ]
   },
+  "coin-change": {
+    "difficulty": "Medium",
+    "frontend_id": "322",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Breadth-First Search",
+      "Knapsack Problem",
+      "Complete Knapsack"
+    ]
+  },
   "coloring-a-border": {
     "difficulty": "Medium",
     "frontend_id": "1034",
@@ -290,6 +301,14 @@
       "Depth-First Search",
       "Binary Search Tree",
       "Binary Tree"
+    ]
+  },
+  "copy-list-with-random-pointer": {
+    "difficulty": "Medium",
+    "frontend_id": "138",
+    "tags": [
+      "Hash Table",
+      "Linked List"
     ]
   },
   "corporate-flight-bookings": {
@@ -620,6 +639,14 @@
     "tags": [
       "Array",
       "Sliding Window"
+    ]
+  },
+  "house-robber": {
+    "difficulty": "Medium",
+    "frontend_id": "198",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
     ]
   },
   "image-overlap": {
@@ -1026,6 +1053,14 @@
       "Heap (Priority Queue)",
       "Merge Sort",
       "Tournament Sort"
+    ]
+  },
+  "merge-two-sorted-lists": {
+    "difficulty": "Easy",
+    "frontend_id": "21",
+    "tags": [
+      "Linked List",
+      "Recursion"
     ]
   },
   "min-stack": {
@@ -1613,6 +1648,17 @@
       "Counting"
     ]
   },
+  "subtree-of-another-tree": {
+    "difficulty": "Easy",
+    "frontend_id": "572",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "String Matching",
+      "Binary Tree",
+      "Hash Function"
+    ]
+  },
   "sudoku-solver": {
     "difficulty": "Hard",
     "frontend_id": "37",
@@ -1748,6 +1794,7 @@
   },
   "validate-binary-search-tree": {
     "difficulty": "Medium",
+    "frontend_id": "98",
     "tags": [
       "Tree",
       "Depth-First Search",
