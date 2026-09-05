@@ -9,8 +9,7 @@ everyone's public LeetCode profile hourly and rewrites the table on the front pa
 
 1. [Use this template](https://github.com/zhenweiding-dev/LeetTogether/generate)
 
-2. Wipe this group's data — a template is copied verbatim, so it comes along. Then
-   set `timezone` in `config.json` to your
+2. Wipe this group's data, then set `timezone` in `config.json` to your
    [IANA name](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones).
 
    ```bash
@@ -24,37 +23,29 @@ everyone's public LeetCode profile hourly and rewrites the table on the front pa
    python3 scripts/add.py
    ```
 
-   It writes two files: `config.json`, which holds only codenames and opaque ids
-   (`m1`, `m2`, …) and is safe to commit, and `handles.local.json`, which holds the
-   real LeetCode handles and is git-ignored.
+   Three destinations: the codename goes to `config.json`, the real handle to
+   `handles.local.json` which git ignores, and the mapping into the `LC_HANDLES`
+   secret the Action reads. It checks for the GitHub CLI before asking anything —
+   offering to install it if Homebrew is around — and if the secret still cannot
+   be written it says why and prints the one command to finish by hand. The local
+   files are saved either way.
 
-4. Give the Action its own copy of the handles — it cannot read the ignored file.
+4. `git push`
 
-   ```bash
-   gh secret set LC_HANDLES < handles.local.json
-   ```
-
-5. `git push`
-
-Python standard library only, nothing to install. Nothing for the others to do
-either: a normal LeetCode account is readable as is.
+The Action needs nothing installed — Python standard library only. Setup uses the
+[GitHub CLI](https://cli.github.com) for that one secret. Nothing for the others to
+do either: a normal LeetCode account is readable as is.
 
 ## Reading the board
 
 | Mark | Means |
 |---|---|
 | `🔺` `🔻` | moved up or down since yesterday |
-| `≥21` | at least 21 — the window reaches back past the oldest day held |
-| `12+` | streak is at least 12; the history does not reach far enough to prove more |
-| `·` `░` | that day had no submission / is unknown |
+| `·` `░` | that day had no submission / is outside the window |
+| `≥21` | at least 21; the window does not reach far enough back to be sure |
+| `12+` | streak is at least 12, possibly longer |
 | `⚠️` above the table | a fetch went wrong; absent when all is well |
 | `😴 ✨ 💫 ⭐ 🌟 🌙 🌒 🌓 🌔 🌕 ☀️ 🌈 🦄 👑` | streak ladder, front-loaded so it moves in the first week |
-
-Only 20 recent solves come back per fetch, so a 20-problem day used to read `≥20`.
-It no longer does: the lifetime totals on consecutive days say exactly how many
-problems were new that day, and the board uses that whenever the fetch window
-truncated. `≥` is left for the one thing nothing can recover — days from before the
-group started tracking, or older than the window keeps.
 
 Ranking is **today's points** — it resets every morning and lifetime totals never
 count, so nobody is ever out of reach. Ties go to the last 7 days, then the streak.
@@ -68,82 +59,45 @@ picked up again another day it counts again.
 
 | Error | Cause |
 |---|---|
+| `no LeetCode handle configured for this id` | in `config.json` but not in the secret; `gh secret set LC_HANDLES < handles.local.json` |
+| `not fetched` | just added, and the Action has not run since |
 | `That user does not exist.` | wrong username |
 | `no permission to check the calendar.` | official or special account, rare |
 | `request failed: ...` | network, timeout or TLS — retried, then reported |
 
-Nothing already recorded is ever lost. If someone has good numbers from earlier
-today the board keeps them and says so at the top; only a member with no data at all
+Nothing already recorded is lost. If someone has good numbers from earlier today
+the board keeps them and says so at the top; only a member with no data at all
 drops out of the table.
 
 ## Files
 
 | Path | Purpose |
 |---|---|
-| `config.json` | codenames and ids, timezone, scoring weights — committed |
+| `config.json` | codenames and ids, timezone, scoring weights |
 | `handles.local.json` | id → LeetCode handle — **git-ignored, never commit it** |
 | `data/history.json` | 16 days of numbers, keyed by id — bounded, never grows |
-| `data/today.json` | today's problem lists and this run's state — the only detail kept |
+| `data/today.json` | today's problem lists, replaced each day |
 | `data/problems.json` | slug → number, difficulty, tags — queried once per problem |
 | `scripts/theme.py` | every label, emoji and threshold the board renders |
 | `scripts/board.py` | metrics and rendering |
-| `scripts/update.py` | fetch, roll the window, rewrite the board — what the Action runs |
+| `scripts/update.py` | what the Action runs |
+
+## Privacy
+
+Ask your group before making the repo public. Handles are never committed — the
+board shows codenames, and the mapping stays in the `LC_HANDLES` secret. Only
+today's problem list is kept; older days are counts. A private repo works exactly
+the same, and members only need read access.
 
 ## Notes
 
 - Under **Settings → Actions → General**, new repos default the token to read-only.
   The workflow asks for `contents: write` — leave that block in or the commit 403s.
-- The cron fires at `:37`, not on the hour, because that is when GitHub's scheduled
-  queue is least loaded. Runs still get dropped anyway, sometimes for hours. Every
-  run marks its own hour in the day's record, and the board prints the measured
-  hit rate in its footer, so the number is current rather than something written
-  down once. A gap only costs data if someone solved more than 20 problems inside
-  it, and even then the lifetime totals recover the count.
-- The Action makes **one commit per day**, amended in place by each later run, so
-  the history stays readable. It force-pushes that commit, which is safe because
-  nothing else writes to the branch — but branch protection on `main` will block
-  it, and a human commit landing mid-day correctly starts a fresh one.
+- The Action makes one commit per day and amends it on later runs, so it
+  force-pushes. Branch protection on `main` will block that.
+- GitHub drops scheduled runs when its queue is busy. The board's footer prints the
+  measured hit rate, so you can see how often yours land.
 - Scheduled workflows stop after 60 days of repository inactivity; GitHub emails
-  first and one manual run brings them back.
+  first, and one manual run brings them back.
 - `leetcode.com` only. `leetcode.cn` is a separate account system with a different
   GraphQL schema.
-
-## Before you make it public
-
-Everything here is already public on each member's LeetCode profile, but this
-repo **collects it, timestamps it and ranks it** — which is a different thing.
-
-What the project does about it:
-
-- No LeetCode handle is committed anywhere. The board, `config.json` and the data
-  files use codenames and opaque ids; the mapping lives in a git-ignored file and
-  an Actions secret.
-- The board does not link to anyone's profile.
-- The GraphQL query does not ask for `realName`, so a real name never even arrives.
-- `add.py` requires a display name rather than defaulting to one.
-- **Only two data files exist, and both are bounded.** `today.json` holds the
-  problem lists for today and is replaced tomorrow, never appended to.
-  `history.json` is numbers only — per person per day, how many problems and the
-  difficulty split, plus one tag histogram for the whole group — and drops the
-  oldest day as each new one lands. Nothing accumulates.
-- **A dated list of which problems someone solved, with timestamps, is a record of
-  when they were at their keyboard.** That list now lives for one day. A count does
-  not carry the same thing, so counts are what the history keeps.
-
-What it cannot do — worth being straight about:
-
-- **The problem list is itself a fingerprint.** Anyone holding a shortlist of
-  candidate profiles can match them against the board by hand. Codenames stop a
-  search engine tying a handle to this page; they do not stop someone who already
-  suspects who is in the group.
-- **The repo owner is named** by the account and the commit authorship, which
-  narrows that shortlist a lot.
-- **History is not retroactive.** Anything committed before a change is still in
-  the old commits, and public-repo commits are mirrored by third-party archives
-  within the hour. Rewriting history removes it from here; nothing removes it from
-  the mirrors.
-
-So: **ask everyone first**, and if any of the above matters, make the repo private.
-It works exactly the same — members need read access to see the board, free-tier
-Actions minutes cover an hourly job with room to spare, and unlike codenames it
-covers the history too. For a small group that is the better default.

@@ -247,8 +247,8 @@ def main():
         "tags": board.tag_histogram(
             [s for slugs in day_slugs.values() for s in slugs], problems
         ),
-        # Numbers only: no name (config has it), no ok/error/stale (this run's
-        # business, in today.json), no lc_streak (the board never reads it).
+        # Numbers only. The name lives in config.json, and whether this run
+        # worked is today.json's business — neither belongs in the record.
         "members": {
             mid: {"solved": m["solved"], "day": m["day"], **({"streak": m["streak"]} if "streak" in m else {})}
             for mid, m in members.items()

@@ -3,17 +3,28 @@
     python3 scripts/add.py                       # interactive
     python3 scripts/add.py leetcode.com/u/alice/ # or pass it in
 
-Writes two files and no others. config.json gets a codename and an opaque id, safe
-to commit; handles.local.json gets the id -> real handle mapping and is ignored by
-git. The board and the data files are left to the Action, so a local run can never
-collide with it on a generated file.
+Writes config.json (codename and an opaque id, safe to commit), handles.local.json
+(id -> real handle, git-ignored), and the LC_HANDLES secret the Action reads.
+
+Never touches the board or the data files. Those belong to the Action, which runs
+every hour, so a local rewrite would only race it for the same lines.
 """
 
 import re
+import shutil
+import subprocess
 import sys
 
 import lc
-from common import HANDLES_PATH, load_config, load_handles, save_config, save_handles
+import theme
+from common import (
+    HANDLES_ENV,
+    HANDLES_PATH,
+    load_config,
+    load_handles,
+    save_config,
+    save_handles,
+)
 
 
 def parse_handle(raw):
@@ -41,6 +52,92 @@ def prompts(args):
             return
 
 
+# Two different sizes of problem, so they say two different things. Missing git or
+# a repo that is not on GitHub means the Action does not exist at all and nothing
+# will ever update on its own. A missing gh only means this one secret has to be
+# copied over by hand.
+NO_AUTOMATION = "the hourly Action cannot run at all, so the board never updates on its own"
+NO_SYNC = "the Action cannot read the new handles, so the board shows them as missing"
+
+
+def install_gh():
+    """Offer to install the GitHub CLI with Homebrew. Returns whether it is now there.
+
+    Homebrew only. Guessing at another platform's package manager and running it
+    with sudo is not a script's business, and guessing wrong is worse than one
+    manual install.
+    """
+    if not shutil.which("brew"):
+        return False  # the caller's message already says where to get it
+    print(f"\nThe GitHub CLI is missing — it is what writes the {HANDLES_ENV} secret.")
+    try:
+        agreed = input("  install it now with Homebrew? [y/N]: ").strip().lower()
+    except EOFError:
+        return False
+    if agreed not in ("y", "yes"):
+        return False
+    print()
+    subprocess.run(["brew", "install", "gh"])  # visible: it is not a quick one
+    return bool(shutil.which("gh"))
+
+
+def preflight():
+    """What stops the secret being written: (short reason, consequence, how to fix).
+
+    Checked before a single username is asked for. The same problem found at the
+    end costs the whole roster typed in again, and the point of writing the secret
+    here at all is that nobody has to remember a second step.
+    """
+    # One call covers both ways gh can fail to find the repo: it exits non-zero
+    # outside a work tree, and prints nothing when the tree has no remote.
+    try:
+        remotes = subprocess.run(["git", "remote"], capture_output=True, text=True)
+    except FileNotFoundError:
+        return ("git is not installed", NO_AUTOMATION,
+                "macOS: xcode-select --install · else https://git-scm.com")
+    if remotes.returncode:
+        return ("this folder is not a git repository", NO_AUTOMATION,
+                "git init, then gh repo create --source=. --private --push")
+    if not remotes.stdout.strip():
+        return ("this repository has no remote", NO_AUTOMATION,
+                "gh repo create --source=. --private --push")
+
+    if not shutil.which("gh"):
+        if not install_gh():
+            return ("gh is not installed", NO_SYNC,
+                    "brew install gh · else https://cli.github.com")
+
+    # Worded here rather than passed through from gh, whose phrasing for this moves
+    # between versions and whose last stderr line is often just the suggested command.
+    if subprocess.run(["gh", "auth", "status"], capture_output=True).returncode:
+        return ("gh is not logged in", NO_SYNC, "gh auth login")
+    return None
+
+
+def set_secret():
+    """Push the whole mapping into the LC_HANDLES secret. Returns None, or why not.
+
+    Written once at the end rather than per member, because the secret holds the
+    whole file. Piped on stdin, never passed as an argument: anything in argv is
+    readable by every process on the machine, and this is the one moment real
+    handles leave it.
+    """
+    try:
+        with HANDLES_PATH.open("rb") as f:
+            done = subprocess.run(
+                ["gh", "secret", "set", HANDLES_ENV],
+                stdin=f,
+                capture_output=True,
+                text=True,
+            )
+    except FileNotFoundError:
+        return "gh is not installed"
+    if done.returncode:
+        err = done.stderr.strip().splitlines()
+        return err[-1] if err else "gh failed"
+    return None
+
+
 def next_id(cfg):
     """m1, m2, ... — deliberately says nothing about who the member is."""
     used = {m.get("id") for m in cfg["members"]}
@@ -55,6 +152,13 @@ def main():
     handles = load_handles()
     known = {h.lower() for h in handles.values()}
     added = []
+
+    blocked = preflight()
+    if blocked:
+        reason, cost, fix = blocked
+        print(f"\n{reason} — {cost}.")
+        print(f"Fix with:  {fix}")
+        print("Members are still saved locally either way.\n")
 
     for raw in prompts(sys.argv[1:]):
         if not raw.strip():
@@ -113,12 +217,19 @@ def main():
         print("No changes.")
         return
 
-    print(f"Added {len(added)}: {', '.join(added)}")
-    print(f"\nconfig.json holds only codenames — commit it. {HANDLES_PATH.name} holds")
-    print("the real handles and is git-ignored; paste its contents into the")
-    print("LC_HANDLES repo secret so the Action can fetch:")
-    print("\n  gh secret set LC_HANDLES < handles.local.json\n")
-    print("Then `gh workflow run daily.yml`, or wait for the hourly run.")
+    print(f"Added {len(added)}: {', '.join(added)}\n")
+    print("  config.json          codenames only, commit it")
+    print(f"  {HANDLES_PATH.name}   real handles, git-ignored")
+
+    failed = (blocked[0] if blocked else None) or set_secret()
+    if failed:
+        print(f"  {HANDLES_ENV} secret    NOT set: {failed}\n")
+        print(f"The board will show `{theme.ERR_NO_HANDLE}` for them")
+        print("until the secret catches up. Once the above is sorted:\n")
+        print(f"  gh secret set {HANDLES_ENV} < {HANDLES_PATH.name}\n")
+    else:
+        print(f"  {HANDLES_ENV} secret    updated, {len(handles)} member(s)\n")
+        print("Commit config.json; the hourly Action takes it from there.")
 
 
 if __name__ == "__main__":

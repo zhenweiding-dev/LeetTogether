@@ -1,6 +1,6 @@
 {
   "date": "2026-09-04",
-  "fetched_at": "2026-09-05T05:45:12+00:00",
+  "fetched_at": "2026-09-05T06:13:26+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -213,6 +213,11 @@
     "m3": {
       "recent_ac": [
         {
+          "title": "Minimum Window Substring",
+          "slug": "minimum-window-substring",
+          "ts": 1788588280
+        },
+        {
           "title": "Permutation in String",
           "slug": "permutation-in-string",
           "ts": 1788423235
@@ -306,11 +311,6 @@
           "title": "Valid Parentheses",
           "slug": "valid-parentheses",
           "ts": 1787693785
-        },
-        {
-          "title": "Time Based Key-Value Store",
-          "slug": "time-based-key-value-store",
-          "ts": 1785722669
         }
       ]
     },

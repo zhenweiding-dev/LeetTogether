@@ -5,7 +5,7 @@
     "medium": 3,
     "hard": 6
   },
-  "fetched_at": "2026-09-05T05:45:12+00:00",
+  "fetched_at": "2026-09-05T06:13:26+00:00",
   "days": {
     "2026-08-21": {
       "run_hours": "",
@@ -1042,7 +1042,7 @@
       }
     },
     "2026-09-04": {
-      "run_hours": "000000000000100011000010",
+      "run_hours": "000000000000100011000011",
       "tags": {
         "Array": 11,
         "Backtracking": 1,
@@ -1062,7 +1062,7 @@
         "Graph Theory": 3,
         "Greedy": 1,
         "Hash Function": 2,
-        "Hash Table": 8,
+        "Hash Table": 9,
         "Heap (Priority Queue)": 1,
         "Knapsack Problem": 1,
         "Knuth–Morris–Pratt Algorithm": 1,
@@ -1073,8 +1073,9 @@
         "Recursion": 2,
         "Rolling Hash": 1,
         "Simulation": 1,
+        "Sliding Window": 1,
         "Sorting": 2,
-        "String": 8,
+        "String": 9,
         "String Matching": 3,
         "Tournament Sort": 1,
         "Tree": 2,
@@ -1121,12 +1122,12 @@
             "hard": 4
           },
           "day": {
-            "count": 0,
+            "count": 1,
             "easy": 0,
             "medium": 0,
-            "hard": 0
+            "hard": 1
           },
-          "streak": 0
+          "streak": 4
         },
         "m4": {
           "solved": {

@@ -117,7 +117,7 @@ def spark(counts):
 
 
 def streak_of(days, today):
-    """Returns (consecutive days, whether coverage cut it short).
+    """Returns (consecutive days, whether the window cut it short).
 
     Not having submitted yet today is not a break.
     """
@@ -135,7 +135,7 @@ def streak_of(days, today):
     while True:
         c = day_count(anchor.isoformat(), days)
         if c is None:
-            return count, True  # hit the coverage edge, real streak may be longer
+            return count, True  # ran off the window, the real streak may be longer
         if c < 1:
             return count, False  # confirmed break
         count += 1
@@ -151,7 +151,7 @@ def stored_streak(days, today):
 
 
 def streak_with_history(days, today, active, prev_eod):
-    """Returns (display, end_of_day, coverage_limited).
+    """Returns (display, end_of_day, window_limited).
 
     The window only reaches back so far, so the streak is carried forward in it
     instead of being re-derived from scratch. The derived value is still used as a
@@ -159,7 +159,7 @@ def streak_with_history(days, today, active, prev_eod):
     before the member's last submission of it.
     """
     derived, limited = streak_of(days, today)
-    if prev_eod is None:  # no snapshot for yesterday, nothing to carry
+    if prev_eod is None:  # yesterday is not in the window, nothing to carry
         return derived, (derived if active else 0), limited
     display = max(derived, prev_eod + 1 if active else prev_eod)
     return display, (display if active else 0), False

@@ -44,7 +44,7 @@ UP, DOWN = "🔺", "🔻"
 MEMBER_CELL = "{rank} {name}{move}"  # rank lives in the member cell to save a column
 
 STREAK = "{icon} {days}"
-STREAK_CAPPED = "{icon} {days}+"  # coverage ran out, the real streak may be longer
+STREAK_CAPPED = "{icon} {days}+"  # window ran out, the real streak may be longer
 
 # Streak ladder: (upper bound in days, icon), first match wins.
 #
@@ -135,7 +135,7 @@ TAG_LINE = "> {items}"
 HEAD_BROKEN = "## ⚠️ Fetch failed"
 BROKEN_ROW = "- `{id}` ({name}) - {error}"
 STAMP = "🕒 Updated {when} ({tz}) · {days} day(s) of history{rate}"
-# Measured from the run log in the snapshots, not a number written down once.
+# Measured from the run log each day carries, not a number written down once.
 # Dropped entirely until there is a logged day to measure.
 STAMP_RATE = " · ⏱️ {pct}% of hourly runs landed"
 

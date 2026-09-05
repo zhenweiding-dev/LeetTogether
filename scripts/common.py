@@ -118,7 +118,10 @@ def _read(path, empty):
 
 
 def load_history():
-    """The rolling window: ({date: {run_hours, members}}, unreadable name or None)."""
+    """({timezone, score_weights, fetched_at, days}, unreadable name or None).
+
+    `days` is the rolling window itself, {date: {run_hours, tags, members}}.
+    """
     data, bad = _read(HISTORY_PATH, {})
     return data, bad
 
@@ -131,7 +134,10 @@ def save_history(history):
 
 
 def load_today():
-    """Today's problem lists: ({date, fetched_at, members}, unreadable name or None)."""
+    """({date, fetched_at, members, failed, stale}, unreadable name or None).
+
+    `members` is the problem lists; `failed` and `stale` are this run's state.
+    """
     data, bad = _read(TODAY_PATH, {})
     return data, bad
 
