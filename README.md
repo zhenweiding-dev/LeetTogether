@@ -38,7 +38,7 @@
 <td align="center"><code>▁ · ▁ ▁ ▃ ▁ ▃ ▅ ▁ ▃ ▁ ▃ ▃ ▇</code></td>
 </tr>
 <tr>
-<td align="left">🥉 <code>zhenwei</code> 🔻</td>
+<td align="left">🥉 <code>john</code> 🔻</td>
 <td align="center"><code>7 ✅丨17 pts</code></td>
 <td align="center"><code>20 ✅丨<b>59 pts</b></code></td>
 <td align="center"><code>⭐ 5</code></td>
@@ -77,7 +77,7 @@
 <td align="left"><code>Hash Table丨3</code> <code>Linked List丨3</code> <code>Array丨2</code> <code>Binary Tree丨2</code> <code>Depth-First Search丨2</code> <code>String丨2</code> <code>Tree丨2</code> <code>Backtracking丨1</code> <code>Binary Search丨1</code> <code>Binary Search Tree丨1</code> …</td>
 </tr>
 <tr>
-<td align="left"><code>zhenwei</code></td>
+<td align="left"><code>john</code></td>
 <td align="left"><code>Med</code> <code>947</code> <a href="https://leetcode.com/problems/most-stones-removed-with-same-row-or-column/"><code>Most Stones Removed with Same Row or Column</code></a><br><code>Easy</code> <code>509</code> <a href="https://leetcode.com/problems/fibonacci-number/"><code>Fibonacci Number</code></a><br><code>Easy</code> <code>70</code> <a href="https://leetcode.com/problems/climbing-stairs/"><code>Climbing Stairs</code></a><br><code>Med</code> <code>322</code> <a href="https://leetcode.com/problems/coin-change/"><code>Coin Change</code></a><br><code>Med</code> <code>198</code> <a href="https://leetcode.com/problems/house-robber/"><code>House Robber</code></a><br><code>Med</code> <code>213</code> <a href="https://leetcode.com/problems/house-robber-ii/"><code>House Robber II</code></a><br><code>Med</code> <code>337</code> <a href="https://leetcode.com/problems/house-robber-iii/"><code>House Robber III</code></a></td>
 <td align="left"><code>Dynamic Programming丨6</code> <code>Array丨3</code> <code>Depth-First Search丨2</code> <code>Math丨2</code> <code>Memoization丨2</code> <code>Binary Tree丨1</code> <code>Bipartite Graph丨1</code> …</td>
 </tr>
