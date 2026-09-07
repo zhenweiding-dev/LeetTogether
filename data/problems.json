@@ -183,6 +183,13 @@
       "Shortest Path"
     ]
   },
+  "check-divisibility-by-digit-sum-and-product": {
+    "difficulty": "Easy",
+    "frontend_id": "3622",
+    "tags": [
+      "Math"
+    ]
+  },
   "check-knight-tour-configuration": {
     "difficulty": "Medium",
     "frontend_id": "2596",
@@ -531,6 +538,14 @@
       "DP on Trees"
     ]
   },
+  "edit-distance": {
+    "difficulty": "Medium",
+    "frontend_id": "72",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ]
+  },
   "escape-the-ghosts": {
     "difficulty": "Medium",
     "frontend_id": "789",
@@ -621,8 +636,6 @@
       "Heap (Priority Queue)"
     ]
   },
-<<<<<<< HEAD
-=======
   "find-longest-special-substring-that-occurs-thrice-i": {
     "difficulty": "Medium",
     "frontend_id": "2981",
@@ -645,7 +658,6 @@
       "Counting"
     ]
   },
->>>>>>> 2bd3c2e0c6763e76529e7c9fcbd4d015f1e208ee
   "find-minimum-in-rotated-sorted-array": {
     "difficulty": "Medium",
     "frontend_id": "153",
@@ -1580,6 +1592,29 @@
       "Binary Tree"
     ]
   },
+  "path-sum-iii": {
+    "difficulty": "Medium",
+    "frontend_id": "437",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "path-with-minimum-effort": {
+    "difficulty": "Medium",
+    "frontend_id": "1631",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Heap (Priority Queue)",
+      "Matrix",
+      "Dijkstra's Algorithm"
+    ]
+  },
   "permutation-in-string": {
     "difficulty": "Medium",
     "frontend_id": "567",
@@ -1653,6 +1688,13 @@
     "tags": [
       "Math",
       "Geometry"
+    ]
+  },
+  "recyclable-and-low-fat-products": {
+    "difficulty": "Easy",
+    "frontend_id": "1757",
+    "tags": [
+      "Database"
     ]
   },
   "redundant-connection": {
@@ -1824,8 +1866,6 @@
       "Matrix"
     ]
   },
-<<<<<<< HEAD
-=======
   "shuffle-an-array": {
     "difficulty": "Medium",
     "frontend_id": "384",
@@ -1836,7 +1876,6 @@
       "Randomized"
     ]
   },
->>>>>>> 2bd3c2e0c6763e76529e7c9fcbd4d015f1e208ee
   "simplify-path": {
     "difficulty": "Medium",
     "frontend_id": "71",
@@ -2094,6 +2133,7 @@
   },
   "valid-palindrome": {
     "difficulty": "Easy",
+    "frontend_id": "125",
     "tags": [
       "Two Pointers",
       "String"
@@ -2165,6 +2205,19 @@
       "Array",
       "Dynamic Programming",
       "Greedy"
+    ]
+  },
+  "word-break": {
+    "difficulty": "Medium",
+    "frontend_id": "139",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Dynamic Programming",
+      "Trie",
+      "Memoization",
+      "Brute-Force Search"
     ]
   },
   "word-ladder": {

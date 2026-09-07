@@ -5,11 +5,7 @@
     "medium": 3,
     "hard": 6
   },
-<<<<<<< HEAD
-  "fetched_at": "2026-09-05T18:45:13+00:00",
-=======
-  "fetched_at": "2026-09-07T00:16:45+00:00",
->>>>>>> 2bd3c2e0c6763e76529e7c9fcbd4d015f1e208ee
+  "fetched_at": "2026-09-07T00:41:23+00:00",
   "days": {
     "2026-08-22": {
       "run_hours": "",
@@ -1125,11 +1121,7 @@
       }
     },
     "2026-09-05": {
-<<<<<<< HEAD
-      "run_hours": "001001000101010000000000",
-=======
       "run_hours": "001001000101010010100001",
->>>>>>> 2bd3c2e0c6763e76529e7c9fcbd4d015f1e208ee
       "tags": {
         "Algorithm X": 1,
         "Array": 12,
@@ -1240,22 +1232,24 @@
       "run_hours": "000010010010101001000000",
       "tags": {
         "Array": 8,
+        "Backtracking": 1,
         "Binary Search": 8,
         "Binary Search Tree": 1,
-        "Binary Tree": 4,
+        "Binary Tree": 6,
         "Bit Manipulation": 1,
-        "Breadth-First Search": 1,
+        "Breadth-First Search": 2,
         "Counting": 2,
         "DP on Trees": 1,
-        "Depth-First Search": 4,
+        "Depth-First Search": 7,
         "Divide and Conquer": 1,
         "Dynamic Programming": 1,
-        "Hash Table": 3,
+        "Graph Theory": 1,
+        "Hash Table": 4,
         "Matrix": 1,
         "Sliding Window": 4,
         "Stack": 1,
         "String": 2,
-        "Tree": 4,
+        "Tree": 6,
         "Trie": 1
       },
       "members": {
@@ -1332,25 +1326,22 @@
             "medium": 0,
             "hard": 0
           },
-<<<<<<< HEAD
-          "streak": 6
+          "streak": 0
         },
-        "m5": {
+        "m6": {
           "solved": {
-            "all": 540,
-            "easy": 176,
-            "medium": 325,
-            "hard": 39
+            "all": 395,
+            "easy": 131,
+            "medium": 235,
+            "hard": 29
           },
           "day": {
-            "count": 0,
+            "count": 3,
             "easy": 0,
-            "medium": 0,
+            "medium": 3,
             "hard": 0
           },
-=======
->>>>>>> 2bd3c2e0c6763e76529e7c9fcbd4d015f1e208ee
-          "streak": 0
+          "streak": 1
         }
       }
     }
