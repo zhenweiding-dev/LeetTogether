@@ -27,6 +27,14 @@
       "Directed Acyclic Graph"
     ]
   },
+  "alternating-groups-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "3208",
+    "tags": [
+      "Array",
+      "Sliding Window"
+    ]
+  },
   "ambiguous-coordinates": {
     "difficulty": "Medium",
     "frontend_id": "816",
@@ -240,6 +248,16 @@
       "Complete Knapsack"
     ]
   },
+  "coin-change-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "518",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Knapsack Problem",
+      "Complete Knapsack"
+    ]
+  },
   "coloring-a-border": {
     "difficulty": "Medium",
     "frontend_id": "1034",
@@ -423,6 +441,24 @@
       "Sliding Window"
     ]
   },
+  "count-substrings-that-can-be-rearranged-to-contain-a-string-i": {
+    "difficulty": "Medium",
+    "frontend_id": "3297",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
+  "count-substrings-with-k-frequency-characters-i": {
+    "difficulty": "Medium",
+    "frontend_id": "3325",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
   "count-the-number-of-good-nodes": {
     "difficulty": "Medium",
     "frontend_id": "3249",
@@ -536,6 +572,16 @@
       "Depth-First Search",
       "Binary Tree",
       "DP on Trees"
+    ]
+  },
+  "distinct-points-reachable-after-substring-removal": {
+    "difficulty": "Medium",
+    "frontend_id": "3694",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window",
+      "Prefix Sum"
     ]
   },
   "edit-distance": {
@@ -704,6 +750,22 @@
       "Sliding Window"
     ]
   },
+  "find-the-power-of-k-size-subarrays-i": {
+    "difficulty": "Medium",
+    "frontend_id": "3254",
+    "tags": [
+      "Array",
+      "Sliding Window"
+    ]
+  },
+  "find-the-power-of-k-size-subarrays-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "3255",
+    "tags": [
+      "Array",
+      "Sliding Window"
+    ]
+  },
   "find-two-non-overlapping-sub-arrays-each-with-target-sum": {
     "difficulty": "Medium",
     "tags": [
@@ -712,6 +774,16 @@
       "Binary Search",
       "Dynamic Programming",
       "Sliding Window"
+    ]
+  },
+  "find-unique-binary-string": {
+    "difficulty": "Medium",
+    "frontend_id": "1980",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Backtracking"
     ]
   },
   "frequency-of-the-most-frequent-element": {
@@ -1105,6 +1177,17 @@
       "Matrix"
     ]
   },
+  "max-chunks-to-make-sorted": {
+    "difficulty": "Medium",
+    "frontend_id": "769",
+    "tags": [
+      "Array",
+      "Stack",
+      "Greedy",
+      "Sorting",
+      "Monotonic Stack"
+    ]
+  },
   "max-increase-to-keep-city-skyline": {
     "difficulty": "Medium",
     "frontend_id": "807",
@@ -1333,6 +1416,17 @@
       "Binary Tree"
     ]
   },
+  "minimum-discards-to-balance-inventory": {
+    "difficulty": "Medium",
+    "frontend_id": "3679",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window",
+      "Simulation",
+      "Counting"
+    ]
+  },
   "minimum-increment-to-make-array-unique": {
     "difficulty": "Medium",
     "frontend_id": "945",
@@ -1343,6 +1437,17 @@
       "Counting"
     ]
   },
+  "minimum-operations-to-make-binary-array-elements-equal-to-one-i": {
+    "difficulty": "Medium",
+    "frontend_id": "3191",
+    "tags": [
+      "Array",
+      "Bit Manipulation",
+      "Queue",
+      "Sliding Window",
+      "Prefix Sum"
+    ]
+  },
   "minimum-path-sum": {
     "difficulty": "Medium",
     "frontend_id": "64",
@@ -1350,6 +1455,15 @@
       "Array",
       "Dynamic Programming",
       "Matrix"
+    ]
+  },
+  "minimum-subarray-length-with-distinct-sum-at-least-k": {
+    "difficulty": "Medium",
+    "frontend_id": "3795",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
     ]
   },
   "minimum-subsequence-in-non-increasing-order": {
@@ -2074,6 +2188,15 @@
       "Binary Tree"
     ]
   },
+  "take-k-of-each-character-from-left-and-right": {
+    "difficulty": "Medium",
+    "frontend_id": "2516",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sliding Window"
+    ]
+  },
   "task-scheduler": {
     "difficulty": "Medium",
     "frontend_id": "621",
@@ -2084,6 +2207,19 @@
       "Sorting",
       "Heap (Priority Queue)",
       "Counting"
+    ]
+  },
+  "the-number-of-beautiful-subsets": {
+    "difficulty": "Medium",
+    "frontend_id": "2597",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Dynamic Programming",
+      "Backtracking",
+      "Sorting",
+      "Combinatorics"
     ]
   },
   "the-number-of-the-smallest-unoccupied-chair": {
@@ -2192,6 +2328,17 @@
       "Bracket Sequences"
     ]
   },
+  "valid-subarrays-with-matching-sum-digits-i": {
+    "difficulty": "Medium",
+    "frontend_id": "3969",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window",
+      "Enumeration",
+      "Prefix Sum"
+    ]
+  },
   "validate-binary-search-tree": {
     "difficulty": "Medium",
     "frontend_id": "98",
@@ -2221,6 +2368,15 @@
       "Array",
       "Hash Table",
       "Simulation"
+    ]
+  },
+  "weighted-sum-of-a-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "4015",
+    "tags": [
+      "Array",
+      "Tree",
+      "Depth-First Search"
     ]
   },
   "where-will-the-ball-fall": {

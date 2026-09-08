@@ -1,9 +1,19 @@
 {
-  "date": "2026-09-06",
-  "fetched_at": "2026-09-07T05:04:47+00:00",
+  "date": "2026-09-07",
+  "fetched_at": "2026-09-08T05:06:25+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Maximum Subarray",
+          "slug": "maximum-subarray",
+          "ts": 1788828811
+        },
+        {
+          "title": "Edit Distance",
+          "slug": "edit-distance",
+          "ts": 1788827142
+        },
         {
           "title": "N-Queens",
           "slug": "n-queens",
@@ -93,21 +103,21 @@
           "title": "Course Schedule II",
           "slug": "course-schedule-ii",
           "ts": 1788332931
-        },
-        {
-          "title": "Course Schedule",
-          "slug": "course-schedule",
-          "ts": 1788331016
-        },
-        {
-          "title": "Course Schedule II",
-          "slug": "course-schedule-ii",
-          "ts": 1788329653
         }
       ]
     },
     "m2": {
       "recent_ac": [
+        {
+          "title": "Top K Frequent Elements",
+          "slug": "top-k-frequent-elements",
+          "ts": 1788842652
+        },
+        {
+          "title": "Nearest Exit from Entrance in Maze",
+          "slug": "nearest-exit-from-entrance-in-maze",
+          "ts": 1788760284
+        },
         {
           "title": "Task Scheduler",
           "slug": "task-scheduler",
@@ -197,25 +207,20 @@
           "title": "Maximum Subarray",
           "slug": "maximum-subarray",
           "ts": 1788299811
-        },
-        {
-          "title": "Jump Game",
-          "slug": "jump-game",
-          "ts": 1788240647
-        },
-        {
-          "title": "Remove Nth Node From End of List",
-          "slug": "remove-nth-node-from-end-of-list",
-          "ts": 1788222429
         }
       ]
     },
     "m3": {
       "recent_ac": [
         {
+          "title": "Merge Two Sorted Lists",
+          "slug": "merge-two-sorted-lists",
+          "ts": 1788819434
+        },
+        {
           "title": "Reverse Linked List",
           "slug": "reverse-linked-list",
-          "ts": 1788672414
+          "ts": 1788816642
         },
         {
           "title": "Sliding Window Maximum",
@@ -306,16 +311,81 @@
           "title": "Daily Temperatures",
           "slug": "daily-temperatures",
           "ts": 1787699120
-        },
-        {
-          "title": "Evaluate Reverse Polish Notation",
-          "slug": "evaluate-reverse-polish-notation",
-          "ts": 1787697014
         }
       ]
     },
     "m4": {
       "recent_ac": [
+        {
+          "title": "Max Chunks To Make Sorted",
+          "slug": "max-chunks-to-make-sorted",
+          "ts": 1788831069
+        },
+        {
+          "title": "The Number of Beautiful Subsets",
+          "slug": "the-number-of-beautiful-subsets",
+          "ts": 1788789833
+        },
+        {
+          "title": "Find Unique Binary String",
+          "slug": "find-unique-binary-string",
+          "ts": 1788788367
+        },
+        {
+          "title": "Take K of Each Character From Left and Right",
+          "slug": "take-k-of-each-character-from-left-and-right",
+          "ts": 1788786208
+        },
+        {
+          "title": "Minimum Operations to Make Binary Array Elements Equal to One I",
+          "slug": "minimum-operations-to-make-binary-array-elements-equal-to-one-i",
+          "ts": 1788785027
+        },
+        {
+          "title": "Alternating Groups II",
+          "slug": "alternating-groups-ii",
+          "ts": 1788784037
+        },
+        {
+          "title": "Find the Power of K-Size Subarrays II",
+          "slug": "find-the-power-of-k-size-subarrays-ii",
+          "ts": 1788783221
+        },
+        {
+          "title": "Find the Power of K-Size Subarrays I",
+          "slug": "find-the-power-of-k-size-subarrays-i",
+          "ts": 1788782991
+        },
+        {
+          "title": "Count Substrings That Can Be Rearranged to Contain a String I",
+          "slug": "count-substrings-that-can-be-rearranged-to-contain-a-string-i",
+          "ts": 1788782062
+        },
+        {
+          "title": "Count Substrings With K-Frequency Characters I",
+          "slug": "count-substrings-with-k-frequency-characters-i",
+          "ts": 1788778143
+        },
+        {
+          "title": " Minimum Discards to Balance Inventory",
+          "slug": "minimum-discards-to-balance-inventory",
+          "ts": 1788771824
+        },
+        {
+          "title": "Distinct Points Reachable After Substring Removal",
+          "slug": "distinct-points-reachable-after-substring-removal",
+          "ts": 1788768931
+        },
+        {
+          "title": "Minimum Subarray Length With Distinct Sum At Least K",
+          "slug": "minimum-subarray-length-with-distinct-sum-at-least-k",
+          "ts": 1788761005
+        },
+        {
+          "title": "Valid Subarrays With Matching Sum Digits I",
+          "slug": "valid-subarrays-with-matching-sum-digits-i",
+          "ts": 1788759346
+        },
         {
           "title": "Find Longest Special Substring That Occurs Thrice II",
           "slug": "find-longest-special-substring-that-occurs-thrice-ii",
@@ -345,76 +415,6 @@
           "title": "Validate Binary Search Tree",
           "slug": "validate-binary-search-tree",
           "ts": 1788683189
-        },
-        {
-          "title": "Binary Tree Inorder Traversal",
-          "slug": "binary-tree-inorder-traversal",
-          "ts": 1788683045
-        },
-        {
-          "title": "Find Minimum in Rotated Sorted Array",
-          "slug": "find-minimum-in-rotated-sorted-array",
-          "ts": 1788682979
-        },
-        {
-          "title": "Binary Tree Maximum Path Sum",
-          "slug": "binary-tree-maximum-path-sum",
-          "ts": 1788682780
-        },
-        {
-          "title": "Search a 2D Matrix",
-          "slug": "search-a-2d-matrix",
-          "ts": 1788681839
-        },
-        {
-          "title": "Search Insert Position",
-          "slug": "search-insert-position",
-          "ts": 1788681475
-        },
-        {
-          "title": "Find First and Last Position of Element in Sorted Array",
-          "slug": "find-first-and-last-position-of-element-in-sorted-array",
-          "ts": 1788681379
-        },
-        {
-          "title": "Search in Rotated Sorted Array",
-          "slug": "search-in-rotated-sorted-array",
-          "ts": 1788681212
-        },
-        {
-          "title": "Median of Two Sorted Arrays",
-          "slug": "median-of-two-sorted-arrays",
-          "ts": 1788680242
-        },
-        {
-          "title": "Palindrome Partitioning",
-          "slug": "palindrome-partitioning",
-          "ts": 1788676311
-        },
-        {
-          "title": "Word Search",
-          "slug": "word-search",
-          "ts": 1788673497
-        },
-        {
-          "title": "Subsets",
-          "slug": "subsets",
-          "ts": 1788665760
-        },
-        {
-          "title": "N-Queens",
-          "slug": "n-queens",
-          "ts": 1788665675
-        },
-        {
-          "title": "Permutations",
-          "slug": "permutations",
-          "ts": 1788665429
-        },
-        {
-          "title": "Combination Sum",
-          "slug": "combination-sum",
-          "ts": 1788665346
         }
       ]
     },
@@ -525,6 +525,31 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Coin Change II",
+          "slug": "coin-change-ii",
+          "ts": 1788813972
+        },
+        {
+          "title": "Koko Eating Bananas",
+          "slug": "koko-eating-bananas",
+          "ts": 1788812228
+        },
+        {
+          "title": "Generate Parentheses",
+          "slug": "generate-parentheses",
+          "ts": 1788811126
+        },
+        {
+          "title": "Maximum Product Subarray",
+          "slug": "maximum-product-subarray",
+          "ts": 1788808869
+        },
+        {
+          "title": "Weighted Sum of a Tree",
+          "slug": "weighted-sum-of-a-tree",
+          "ts": 1788806593
+        },
+        {
           "title": "Merge k Sorted Lists",
           "slug": "merge-k-sorted-lists",
           "ts": 1788745358
@@ -598,31 +623,6 @@
           "title": "Validate Binary Search Tree",
           "slug": "validate-binary-search-tree",
           "ts": 1788376318
-        },
-        {
-          "title": "Subsets",
-          "slug": "subsets",
-          "ts": 1788372949
-        },
-        {
-          "title": "Longest Repeating Character Replacement",
-          "slug": "longest-repeating-character-replacement",
-          "ts": 1788372158
-        },
-        {
-          "title": "Word Ladder",
-          "slug": "word-ladder",
-          "ts": 1788332174
-        },
-        {
-          "title": "Koko Eating Bananas",
-          "slug": "koko-eating-bananas",
-          "ts": 1788129205
-        },
-        {
-          "title": "Generate Parentheses",
-          "slug": "generate-parentheses",
-          "ts": 1788128143
         }
       ]
     }
