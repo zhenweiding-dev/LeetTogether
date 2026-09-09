@@ -704,6 +704,17 @@
       "Counting"
     ]
   },
+  "find-median-from-data-stream": {
+    "difficulty": "Hard",
+    "frontend_id": "295",
+    "tags": [
+      "Two Pointers",
+      "Design",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Data Stream"
+    ]
+  },
   "find-minimum-in-rotated-sorted-array": {
     "difficulty": "Medium",
     "frontend_id": "153",
@@ -988,6 +999,16 @@
       "Backtracking"
     ]
   },
+  "linked-list-cycle": {
+    "difficulty": "Easy",
+    "frontend_id": "141",
+    "tags": [
+      "Hash Table",
+      "Linked List",
+      "Two Pointers",
+      "Floyd's Cycle Finding Algorithm"
+    ]
+  },
   "longest-absolute-file-path": {
     "difficulty": "Medium",
     "tags": [
@@ -1003,6 +1024,15 @@
       "Array",
       "String",
       "Trie"
+    ]
+  },
+  "longest-common-subsequence": {
+    "difficulty": "Medium",
+    "frontend_id": "1143",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Longest Common Subsequence"
     ]
   },
   "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit": {
@@ -1138,6 +1168,16 @@
       "Sorting",
       "Counting",
       "Boyer–Moore Majority Vote Algorithm"
+    ]
+  },
+  "make-array-non-decreasing": {
+    "difficulty": "Medium",
+    "frontend_id": "3523",
+    "tags": [
+      "Array",
+      "Stack",
+      "Greedy",
+      "Monotonic Stack"
     ]
   },
   "map-of-highest-peak": {
@@ -1844,6 +1884,13 @@
       "Planar Graph"
     ]
   },
+  "remove-interval": {
+    "difficulty": "Medium",
+    "frontend_id": "1272",
+    "tags": [
+      "Array"
+    ]
+  },
   "remove-nth-node-from-end-of-list": {
     "difficulty": "Medium",
     "frontend_id": "19",
@@ -1891,6 +1938,15 @@
     "tags": [
       "String",
       "Backtracking"
+    ]
+  },
+  "resulting-string-after-adjacent-removals": {
+    "difficulty": "Medium",
+    "frontend_id": "3561",
+    "tags": [
+      "String",
+      "Stack",
+      "Simulation"
     ]
   },
   "reverse-linked-list": {
@@ -2359,6 +2415,15 @@
       "Union-Find",
       "Graph Theory",
       "Binary Tree"
+    ]
+  },
+  "validate-stack-sequences": {
+    "difficulty": "Medium",
+    "frontend_id": "946",
+    "tags": [
+      "Array",
+      "Stack",
+      "Simulation"
     ]
   },
   "walking-robot-simulation": {
