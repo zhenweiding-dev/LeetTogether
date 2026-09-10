@@ -79,6 +79,15 @@
       "Matrix"
     ]
   },
+  "beautiful-towers-i": {
+    "difficulty": "Medium",
+    "frontend_id": "2865",
+    "tags": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
   "best-time-to-buy-and-sell-stock": {
     "difficulty": "Easy",
     "frontend_id": "121",
@@ -539,6 +548,15 @@
       "Binary Tree"
     ]
   },
+  "delete-operation-for-two-strings": {
+    "difficulty": "Medium",
+    "frontend_id": "583",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Longest Common Subsequence"
+    ]
+  },
   "describe-the-painting": {
     "difficulty": "Medium",
     "tags": [
@@ -546,6 +564,15 @@
       "Hash Table",
       "Sorting",
       "Prefix Sum"
+    ]
+  },
+  "design-a-stack-with-increment-operation": {
+    "difficulty": "Medium",
+    "frontend_id": "1381",
+    "tags": [
+      "Array",
+      "Stack",
+      "Design"
     ]
   },
   "destination-city": {
@@ -1364,6 +1391,15 @@
       "Divide and Conquer"
     ]
   },
+  "merge-adjacent-equal-elements": {
+    "difficulty": "Medium",
+    "frontend_id": "3834",
+    "tags": [
+      "Array",
+      "Stack",
+      "Simulation"
+    ]
+  },
   "merge-intervals": {
     "difficulty": "Medium",
     "frontend_id": "56",
@@ -1426,6 +1462,16 @@
       "Bracket Sequences"
     ]
   },
+  "minimum-additions-to-make-valid-string": {
+    "difficulty": "Medium",
+    "frontend_id": "2645",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Stack",
+      "Greedy"
+    ]
+  },
   "minimum-area-rectangle": {
     "difficulty": "Medium",
     "frontend_id": "939",
@@ -1444,6 +1490,15 @@
       "String",
       "Dynamic Programming",
       "Longest Common Subsequence"
+    ]
+  },
+  "minimum-deletions-to-make-array-beautiful": {
+    "difficulty": "Medium",
+    "frontend_id": "2216",
+    "tags": [
+      "Array",
+      "Stack",
+      "Greedy"
     ]
   },
   "minimum-depth-of-binary-tree": {
@@ -1477,6 +1532,16 @@
       "Counting"
     ]
   },
+  "minimum-insertions-to-balance-a-parentheses-string": {
+    "difficulty": "Medium",
+    "frontend_id": "1541",
+    "tags": [
+      "String",
+      "Stack",
+      "Greedy",
+      "Bracket Sequences"
+    ]
+  },
   "minimum-operations-to-make-binary-array-elements-equal-to-one-i": {
     "difficulty": "Medium",
     "frontend_id": "3191",
@@ -1495,6 +1560,15 @@
       "Array",
       "Dynamic Programming",
       "Matrix"
+    ]
+  },
+  "minimum-string-length-after-balanced-removals": {
+    "difficulty": "Medium",
+    "frontend_id": "3746",
+    "tags": [
+      "String",
+      "Stack",
+      "Counting"
     ]
   },
   "minimum-subarray-length-with-distinct-sum-at-least-k": {
@@ -1884,11 +1958,29 @@
       "Planar Graph"
     ]
   },
+  "remove-all-occurrences-of-a-substring": {
+    "difficulty": "Medium",
+    "frontend_id": "1910",
+    "tags": [
+      "String",
+      "Stack",
+      "Simulation"
+    ]
+  },
   "remove-interval": {
     "difficulty": "Medium",
     "frontend_id": "1272",
     "tags": [
       "Array"
+    ]
+  },
+  "remove-k-balanced-substrings": {
+    "difficulty": "Medium",
+    "frontend_id": "3703",
+    "tags": [
+      "String",
+      "Stack",
+      "Simulation"
     ]
   },
   "remove-nth-node-from-end-of-list": {
@@ -1897,6 +1989,15 @@
     "tags": [
       "Linked List",
       "Two Pointers"
+    ]
+  },
+  "removing-stars-from-a-string": {
+    "difficulty": "Medium",
+    "frontend_id": "2390",
+    "tags": [
+      "String",
+      "Stack",
+      "Simulation"
     ]
   },
   "reorder-list": {
@@ -1955,6 +2056,15 @@
     "tags": [
       "Linked List",
       "Recursion"
+    ]
+  },
+  "reverse-substrings-between-each-pair-of-parentheses": {
+    "difficulty": "Medium",
+    "frontend_id": "1190",
+    "tags": [
+      "String",
+      "Stack",
+      "Bracket Sequences"
     ]
   },
   "rotate-string": {
@@ -2284,6 +2394,17 @@
       "Array",
       "Hash Table",
       "Heap (Priority Queue)"
+    ]
+  },
+  "the-number-of-weak-characters-in-the-game": {
+    "difficulty": "Medium",
+    "frontend_id": "1996",
+    "tags": [
+      "Array",
+      "Stack",
+      "Greedy",
+      "Sorting",
+      "Monotonic Stack"
     ]
   },
   "time-based-key-value-store": {
