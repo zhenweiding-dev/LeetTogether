@@ -27,6 +27,14 @@
       "Directed Acyclic Graph"
     ]
   },
+  "alphabet-board-path": {
+    "difficulty": "Medium",
+    "frontend_id": "1138",
+    "tags": [
+      "Hash Table",
+      "String"
+    ]
+  },
   "alternating-groups-ii": {
     "difficulty": "Medium",
     "frontend_id": "3208",
@@ -68,6 +76,15 @@
       "Tree",
       "Depth-First Search",
       "Binary Tree"
+    ]
+  },
+  "basic-calculator-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "227",
+    "tags": [
+      "Math",
+      "String",
+      "Stack"
     ]
   },
   "battleships-in-a-board": {
@@ -161,6 +178,16 @@
       "Binary Tree"
     ]
   },
+  "binary-trees-with-factors": {
+    "difficulty": "Medium",
+    "frontend_id": "823",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Dynamic Programming",
+      "Sorting"
+    ]
+  },
   "car-fleet": {
     "difficulty": "Medium",
     "frontend_id": "853",
@@ -244,6 +271,17 @@
       "Depth-First Search",
       "Breadth-First Search",
       "Graph Theory"
+    ]
+  },
+  "closest-dessert-cost": {
+    "difficulty": "Medium",
+    "frontend_id": "1774",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Backtracking",
+      "Knapsack Problem",
+      "Mixed Knapsack"
     ]
   },
   "coin-change": {
@@ -601,6 +639,18 @@
       "DP on Trees"
     ]
   },
+  "distant-barcodes": {
+    "difficulty": "Medium",
+    "frontend_id": "1054",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Counting"
+    ]
+  },
   "distinct-points-reachable-after-substring-removal": {
     "difficulty": "Medium",
     "frontend_id": "3694",
@@ -611,12 +661,30 @@
       "Prefix Sum"
     ]
   },
+  "distribute-candies": {
+    "difficulty": "Easy",
+    "frontend_id": "575",
+    "tags": [
+      "Array",
+      "Hash Table"
+    ]
+  },
   "edit-distance": {
     "difficulty": "Medium",
     "frontend_id": "72",
     "tags": [
       "String",
       "Dynamic Programming"
+    ]
+  },
+  "equal-sum-grid-partition-i": {
+    "difficulty": "Medium",
+    "frontend_id": "3546",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Enumeration",
+      "Prefix Sum"
     ]
   },
   "escape-the-ghosts": {
@@ -788,6 +856,14 @@
       "Sliding Window"
     ]
   },
+  "find-the-middle-index-in-array": {
+    "difficulty": "Easy",
+    "frontend_id": "1991",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
   "find-the-power-of-k-size-subarrays-i": {
     "difficulty": "Medium",
     "frontend_id": "3254",
@@ -889,6 +965,24 @@
       "Sliding Window"
     ]
   },
+  "h-index-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "275",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ]
+  },
+  "hand-of-straights": {
+    "difficulty": "Medium",
+    "frontend_id": "846",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sorting"
+    ]
+  },
   "house-robber": {
     "difficulty": "Medium",
     "frontend_id": "198",
@@ -960,6 +1054,15 @@
       "Greedy"
     ]
   },
+  "jump-game-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "45",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
   "jump-game-vii": {
     "difficulty": "Medium",
     "tags": [
@@ -1015,6 +1118,16 @@
       "Stack",
       "Monotonic Stack",
       "Range Minimum/Maximum Query"
+    ]
+  },
+  "largest-triangle-area": {
+    "difficulty": "Easy",
+    "frontend_id": "812",
+    "tags": [
+      "Array",
+      "Math",
+      "Geometry",
+      "Polygons"
     ]
   },
   "letter-combinations-of-a-phone-number": {
@@ -1101,6 +1214,14 @@
       "Enumeration"
     ]
   },
+  "longest-palindromic-subsequence": {
+    "difficulty": "Medium",
+    "frontend_id": "516",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ]
+  },
   "longest-repeating-character-replacement": {
     "difficulty": "Medium",
     "frontend_id": "424",
@@ -1108,6 +1229,18 @@
       "Hash Table",
       "String",
       "Sliding Window"
+    ]
+  },
+  "longest-string-chain": {
+    "difficulty": "Medium",
+    "frontend_id": "1048",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "String",
+      "Dynamic Programming",
+      "Sorting"
     ]
   },
   "longest-substring-of-all-vowels-in-order": {
@@ -1301,6 +1434,18 @@
       "Binary Tree"
     ]
   },
+  "maximum-frequency-after-subarray-operation": {
+    "difficulty": "Medium",
+    "frontend_id": "3434",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Dynamic Programming",
+      "Greedy",
+      "Enumeration",
+      "Prefix Sum"
+    ]
+  },
   "maximum-number-of-occurrences-of-a-substring": {
     "difficulty": "Medium",
     "tags": [
@@ -1315,6 +1460,15 @@
       "Array",
       "Dynamic Programming",
       "Matrix"
+    ]
+  },
+  "maximum-population-year": {
+    "difficulty": "Easy",
+    "frontend_id": "1854",
+    "tags": [
+      "Array",
+      "Counting",
+      "Prefix Sum"
     ]
   },
   "maximum-product-subarray": {
@@ -1452,6 +1606,17 @@
       "Depth-First Search"
     ]
   },
+  "minimize-maximum-of-array": {
+    "difficulty": "Medium",
+    "frontend_id": "2439",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Greedy",
+      "Prefix Sum"
+    ]
+  },
   "minimum-add-to-make-parentheses-valid": {
     "difficulty": "Medium",
     "frontend_id": "921",
@@ -1532,6 +1697,23 @@
       "Counting"
     ]
   },
+  "minimum-index-sum-of-two-lists": {
+    "difficulty": "Easy",
+    "frontend_id": "599",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ]
+  },
+  "minimum-insertion-steps-to-make-a-string-palindrome": {
+    "difficulty": "Hard",
+    "frontend_id": "1312",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ]
+  },
   "minimum-insertions-to-balance-a-parentheses-string": {
     "difficulty": "Medium",
     "frontend_id": "1541",
@@ -1560,6 +1742,15 @@
       "Array",
       "Dynamic Programming",
       "Matrix"
+    ]
+  },
+  "minimum-positive-sum-subarray": {
+    "difficulty": "Easy",
+    "frontend_id": "3364",
+    "tags": [
+      "Array",
+      "Sliding Window",
+      "Prefix Sum"
     ]
   },
   "minimum-string-length-after-balanced-removals": {
@@ -1610,6 +1801,13 @@
       "Hash Table",
       "String",
       "Sliding Window"
+    ]
+  },
+  "monotonic-array": {
+    "difficulty": "Easy",
+    "frontend_id": "896",
+    "tags": [
+      "Array"
     ]
   },
   "most-stones-removed-with-same-row-or-column": {
@@ -1694,6 +1892,16 @@
       "Array",
       "Breadth-First Search",
       "Matrix"
+    ]
+  },
+  "non-overlapping-intervals": {
+    "difficulty": "Medium",
+    "frontend_id": "435",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy",
+      "Sorting"
     ]
   },
   "number-complement": {
@@ -1837,6 +2045,15 @@
       "Tree",
       "Depth-First Search",
       "Binary Tree"
+    ]
+  },
+  "path-with-maximum-gold": {
+    "difficulty": "Medium",
+    "frontend_id": "1219",
+    "tags": [
+      "Array",
+      "Backtracking",
+      "Matrix"
     ]
   },
   "path-with-minimum-effort": {
@@ -2148,6 +2365,13 @@
       "Binary Search"
     ]
   },
+  "self-dividing-numbers": {
+    "difficulty": "Easy",
+    "frontend_id": "728",
+    "tags": [
+      "Math"
+    ]
+  },
   "shortest-bridge": {
     "difficulty": "Medium",
     "frontend_id": "934",
@@ -2212,6 +2436,15 @@
       "Range Minimum/Maximum Query"
     ]
   },
+  "smallest-missing-integer-greater-than-sequential-prefix-sum": {
+    "difficulty": "Easy",
+    "frontend_id": "2996",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting"
+    ]
+  },
   "smallest-range-covering-elements-from-k-lists": {
     "difficulty": "Hard",
     "frontend_id": "632",
@@ -2224,6 +2457,22 @@
       "Heap (Priority Queue)"
     ]
   },
+  "smallest-stable-index-i": {
+    "difficulty": "Easy",
+    "frontend_id": "3903",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
+  "smallest-stable-index-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "3904",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
   "spiral-matrix-iii": {
     "difficulty": "Medium",
     "frontend_id": "885",
@@ -2231,6 +2480,15 @@
       "Array",
       "Matrix",
       "Simulation"
+    ]
+  },
+  "split-a-string-into-the-max-number-of-unique-substrings": {
+    "difficulty": "Medium",
+    "frontend_id": "1593",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Backtracking"
     ]
   },
   "string-matching-in-an-array": {
@@ -2483,6 +2741,15 @@
     "tags": [
       "Two Pointers",
       "String"
+    ]
+  },
+  "valid-palindrome-ii": {
+    "difficulty": "Easy",
+    "frontend_id": "680",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Greedy"
     ]
   },
   "valid-parentheses": {

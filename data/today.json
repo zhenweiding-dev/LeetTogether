@@ -1,13 +1,28 @@
 {
-  "date": "2026-09-09",
-  "fetched_at": "2026-09-10T05:07:54+00:00",
+  "date": "2026-09-10",
+  "fetched_at": "2026-09-11T06:35:25+00:00",
   "members": {
     "m1": {
       "recent_ac": [
         {
+          "title": "Minimum Insertion Steps to Make a String Palindrome",
+          "slug": "minimum-insertion-steps-to-make-a-string-palindrome",
+          "ts": 1789081484
+        },
+        {
+          "title": "Longest Palindromic Subsequence",
+          "slug": "longest-palindromic-subsequence",
+          "ts": 1789078924
+        },
+        {
+          "title": "Minimum ASCII Delete Sum for Two Strings",
+          "slug": "minimum-ascii-delete-sum-for-two-strings",
+          "ts": 1789073844
+        },
+        {
           "title": "Delete Operation for Two Strings",
           "slug": "delete-operation-for-two-strings",
-          "ts": 1789016715
+          "ts": 1789071072
         },
         {
           "title": "Longest Common Subsequence",
@@ -88,21 +103,6 @@
           "title": "Validate Binary Tree Nodes",
           "slug": "validate-binary-tree-nodes",
           "ts": 1788498297
-        },
-        {
-          "title": "Redundant Connection",
-          "slug": "redundant-connection",
-          "ts": 1788472077
-        },
-        {
-          "title": "Satisfiability of Equality Equations",
-          "slug": "satisfiability-of-equality-equations",
-          "ts": 1788469700
-        },
-        {
-          "title": "Surrounded Regions",
-          "slug": "surrounded-regions",
-          "ts": 1788418771
         }
       ]
     },
@@ -213,6 +213,11 @@
     "m3": {
       "recent_ac": [
         {
+          "title": "Remove Nth Node From End of List",
+          "slug": "remove-nth-node-from-end-of-list",
+          "ts": 1789104043
+        },
+        {
           "title": "Reorder List",
           "slug": "reorder-list",
           "ts": 1789002048
@@ -306,115 +311,110 @@
           "title": "Binary Search",
           "slug": "binary-search",
           "ts": 1787725431
-        },
-        {
-          "title": "Largest Rectangle in Histogram",
-          "slug": "largest-rectangle-in-histogram",
-          "ts": 1787704090
         }
       ]
     },
     "m4": {
       "recent_ac": [
         {
-          "title": "Remove All Occurrences of a Substring",
-          "slug": "remove-all-occurrences-of-a-substring",
-          "ts": 1788951228
+          "title": "Smallest Stable Index II",
+          "slug": "smallest-stable-index-ii",
+          "ts": 1789037839
         },
         {
-          "title": "The Number of Weak Characters in the Game",
-          "slug": "the-number-of-weak-characters-in-the-game",
-          "ts": 1788950563
+          "title": "Smallest Stable Index I",
+          "slug": "smallest-stable-index-i",
+          "ts": 1789037793
         },
         {
-          "title": "Minimum Deletions to Make Array Beautiful",
-          "slug": "minimum-deletions-to-make-array-beautiful",
-          "ts": 1788948721
+          "title": "Equal Sum Grid Partition I",
+          "slug": "equal-sum-grid-partition-i",
+          "ts": 1789036730
         },
         {
-          "title": "Removing Stars From a String",
-          "slug": "removing-stars-from-a-string",
-          "ts": 1788947742
+          "title": "Maximum Frequency After Subarray Operation",
+          "slug": "maximum-frequency-after-subarray-operation",
+          "ts": 1789036468
         },
         {
-          "title": "Minimum Additions to Make Valid String",
-          "slug": "minimum-additions-to-make-valid-string",
-          "ts": 1788947685
+          "title": "Minimum Positive Sum Subarray ",
+          "slug": "minimum-positive-sum-subarray",
+          "ts": 1789036078
         },
         {
-          "title": "Merge Adjacent Equal Elements",
-          "slug": "merge-adjacent-equal-elements",
-          "ts": 1788946475
+          "title": "Minimize Maximum of Array",
+          "slug": "minimize-maximum-of-array",
+          "ts": 1789035642
         },
         {
-          "title": "Beautiful Towers I",
-          "slug": "beautiful-towers-i",
-          "ts": 1788944898
+          "title": "Find the Middle Index in Array",
+          "slug": "find-the-middle-index-in-array",
+          "ts": 1789034914
         },
         {
-          "title": "Minimum String Length After Balanced Removals",
-          "slug": "minimum-string-length-after-balanced-removals",
-          "ts": 1788943507
+          "title": "Maximum Population Year",
+          "slug": "maximum-population-year",
+          "ts": 1789034736
         },
         {
-          "title": "Remove K-Balanced Substrings",
-          "slug": "remove-k-balanced-substrings",
-          "ts": 1788943359
+          "title": "H-Index II",
+          "slug": "h-index-ii",
+          "ts": 1789033085
         },
         {
-          "title": "Minimum Insertions to Balance a Parentheses String",
-          "slug": "minimum-insertions-to-balance-a-parentheses-string",
-          "ts": 1788940023
+          "title": "Basic Calculator II",
+          "slug": "basic-calculator-ii",
+          "ts": 1789031987
         },
         {
-          "title": "Design a Stack With Increment Operation",
-          "slug": "design-a-stack-with-increment-operation",
-          "ts": 1788939300
+          "title": "Monotonic Array",
+          "slug": "monotonic-array",
+          "ts": 1789030277
         },
         {
-          "title": "Reverse Substrings Between Each Pair of Parentheses",
-          "slug": "reverse-substrings-between-each-pair-of-parentheses",
-          "ts": 1788938842
+          "title": "Largest Triangle Area",
+          "slug": "largest-triangle-area",
+          "ts": 1789029818
         },
         {
-          "title": "Resulting String After Adjacent Removals",
-          "slug": "resulting-string-after-adjacent-removals",
-          "ts": 1788893032
+          "title": "Self Dividing Numbers",
+          "slug": "self-dividing-numbers",
+          "ts": 1789028402
         },
         {
-          "title": "Make Array Non-decreasing",
-          "slug": "make-array-non-decreasing",
-          "ts": 1788891508
+          "title": "Valid Palindrome II",
+          "slug": "valid-palindrome-ii",
+          "ts": 1789028119
         },
         {
-          "title": "Validate Stack Sequences",
-          "slug": "validate-stack-sequences",
-          "ts": 1788849529
+          "title": "Minimum Index Sum of Two Lists",
+          "slug": "minimum-index-sum-of-two-lists",
+          "ts": 1789027791
         },
         {
-          "title": "Max Chunks To Make Sorted",
-          "slug": "max-chunks-to-make-sorted",
-          "ts": 1788831069
+          "title": "Distribute Candies",
+          "slug": "distribute-candies",
+          "ts": 1789027307
         },
         {
-          "title": "The Number of Beautiful Subsets",
-          "slug": "the-number-of-beautiful-subsets",
-          "ts": 1788789833
+          "title": "Closest Dessert Cost",
+          "slug": "closest-dessert-cost",
+          "ts": 1789027151
         },
         {
-          "title": "Find Unique Binary String",
-          "slug": "find-unique-binary-string",
-          "ts": 1788788367
+          "title": "Delete Operation for Two Strings",
+          "slug": "delete-operation-for-two-strings",
+          "ts": 1789026004
         },
         {
-          "title": "Take K of Each Character From Left and Right",
-          "slug": "take-k-of-each-character-from-left-and-right",
-          "ts": 1788786208
+          "title": "Split a String Into the Max Number of Unique Substrings",
+          "slug": "split-a-string-into-the-max-number-of-unique-substrings",
+          "ts": 1789024545
         },
         {
-          "title": "Minimum Operations to Make Binary Array Elements Equal to One I",
-          "slug": "minimum-operations-to-make-binary-array-elements-equal-to-one-i",
-          "ts": 1788785027
+          "title": "Path with Maximum Gold",
+          "slug": "path-with-maximum-gold",
+          "ts": 1789024075
         }
       ]
     },
@@ -525,6 +525,51 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Smallest Missing Integer Greater Than Sequential Prefix Sum",
+          "slug": "smallest-missing-integer-greater-than-sequential-prefix-sum",
+          "ts": 1789104442
+        },
+        {
+          "title": "Remove Interval",
+          "slug": "remove-interval",
+          "ts": 1789090194
+        },
+        {
+          "title": "Coin Change II",
+          "slug": "coin-change-ii",
+          "ts": 1789088394
+        },
+        {
+          "title": "Path Sum II",
+          "slug": "path-sum-ii",
+          "ts": 1789086958
+        },
+        {
+          "title": "Jump Game II",
+          "slug": "jump-game-ii",
+          "ts": 1789084253
+        },
+        {
+          "title": "Non-overlapping Intervals",
+          "slug": "non-overlapping-intervals",
+          "ts": 1789027401
+        },
+        {
+          "title": "Search in Rotated Sorted Array",
+          "slug": "search-in-rotated-sorted-array",
+          "ts": 1789025546
+        },
+        {
+          "title": "Path Sum III",
+          "slug": "path-sum-iii",
+          "ts": 1789024014
+        },
+        {
+          "title": "Clone Graph",
+          "slug": "clone-graph",
+          "ts": 1789022472
+        },
+        {
           "title": "Search a 2D Matrix",
           "slug": "search-a-2d-matrix",
           "ts": 1789008041
@@ -578,51 +623,6 @@
           "title": "Merge k Sorted Lists",
           "slug": "merge-k-sorted-lists",
           "ts": 1788745358
-        },
-        {
-          "title": "Clone Graph",
-          "slug": "clone-graph",
-          "ts": 1788739548
-        },
-        {
-          "title": "Path Sum III",
-          "slug": "path-sum-iii",
-          "ts": 1788735450
-        },
-        {
-          "title": "Path Sum II",
-          "slug": "path-sum-ii",
-          "ts": 1788728402
-        },
-        {
-          "title": "Check Divisibility by Digit Sum and Product",
-          "slug": "check-divisibility-by-digit-sum-and-product",
-          "ts": 1788657402
-        },
-        {
-          "title": "Recyclable and Low Fat Products",
-          "slug": "recyclable-and-low-fat-products",
-          "ts": 1788656736
-        },
-        {
-          "title": "Edit Distance",
-          "slug": "edit-distance",
-          "ts": 1788654903
-        },
-        {
-          "title": "Largest Rectangle in Histogram",
-          "slug": "largest-rectangle-in-histogram",
-          "ts": 1788653997
-        },
-        {
-          "title": "Valid Palindrome",
-          "slug": "valid-palindrome",
-          "ts": 1788649197
-        },
-        {
-          "title": "Rotting Oranges",
-          "slug": "rotting-oranges",
-          "ts": 1788580364
         }
       ]
     }
