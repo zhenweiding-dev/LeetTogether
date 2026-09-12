@@ -52,6 +52,13 @@
       "Enumeration"
     ]
   },
+  "apply-discount-to-prices": {
+    "difficulty": "Medium",
+    "frontend_id": "2288",
+    "tags": [
+      "String"
+    ]
+  },
   "average-waiting-time": {
     "difficulty": "Medium",
     "tags": [
@@ -194,6 +201,13 @@
     "tags": [
       "String",
       "Greedy"
+    ]
+  },
+  "capitalize-the-title": {
+    "difficulty": "Easy",
+    "frontend_id": "2129",
+    "tags": [
+      "String"
     ]
   },
   "car-fleet": {
@@ -568,6 +582,14 @@
       "Array",
       "Stack",
       "Monotonic Stack"
+    ]
+  },
+  "decode-the-message": {
+    "difficulty": "Easy",
+    "frontend_id": "2325",
+    "tags": [
+      "Hash Table",
+      "String"
     ]
   },
   "decrypt-string-from-alphabet-to-integer-mapping": {
@@ -1388,6 +1410,26 @@
       "Monotonic Stack"
     ]
   },
+  "making-a-large-island": {
+    "difficulty": "Hard",
+    "frontend_id": "827",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ]
+  },
+  "making-file-names-unique": {
+    "difficulty": "Medium",
+    "frontend_id": "1487",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
+    ]
+  },
   "map-of-highest-peak": {
     "difficulty": "Medium",
     "tags": [
@@ -1772,6 +1814,14 @@
       "Bracket Sequences"
     ]
   },
+  "minimum-number-of-frogs-croaking": {
+    "difficulty": "Medium",
+    "frontend_id": "1419",
+    "tags": [
+      "String",
+      "Counting"
+    ]
+  },
   "minimum-number-of-steps-to-make-two-strings-anagram": {
     "difficulty": "Medium",
     "frontend_id": "1347",
@@ -1834,6 +1884,14 @@
       "Array",
       "Greedy",
       "Sorting"
+    ]
+  },
+  "minimum-suffix-flips": {
+    "difficulty": "Medium",
+    "frontend_id": "1529",
+    "tags": [
+      "String",
+      "Greedy"
     ]
   },
   "minimum-swaps-to-arrange-a-binary-grid": {
@@ -2912,6 +2970,16 @@
       "Array",
       "Stack",
       "Simulation"
+    ]
+  },
+  "vowels-of-all-substrings": {
+    "difficulty": "Medium",
+    "frontend_id": "2063",
+    "tags": [
+      "Math",
+      "String",
+      "Dynamic Programming",
+      "Combinatorics"
     ]
   },
   "walking-robot-simulation": {

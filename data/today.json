@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-11",
-  "fetched_at": "2026-09-12T06:23:58+00:00",
+  "date": "2026-09-12",
+  "fetched_at": "2026-09-12T11:11:43+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -109,6 +109,11 @@
     "m2": {
       "recent_ac": [
         {
+          "title": "Linked List Cycle",
+          "slug": "linked-list-cycle",
+          "ts": 1789202472
+        },
+        {
           "title": "Subsets II",
           "slug": "subsets-ii",
           "ts": 1788846362
@@ -202,11 +207,6 @@
           "title": "Generate Parentheses",
           "slug": "generate-parentheses",
           "ts": 1788414535
-        },
-        {
-          "title": "Permutation in String",
-          "slug": "permutation-in-string",
-          "ts": 1788387160
         }
       ]
     },
@@ -317,6 +317,41 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Capitalize the Title",
+          "slug": "capitalize-the-title",
+          "ts": 1789205373
+        },
+        {
+          "title": "Decode the Message",
+          "slug": "decode-the-message",
+          "ts": 1789205074
+        },
+        {
+          "title": "Apply Discount to Prices",
+          "slug": "apply-discount-to-prices",
+          "ts": 1789204497
+        },
+        {
+          "title": "Vowels of All Substrings",
+          "slug": "vowels-of-all-substrings",
+          "ts": 1789203307
+        },
+        {
+          "title": "Minimum Suffix Flips",
+          "slug": "minimum-suffix-flips",
+          "ts": 1789201559
+        },
+        {
+          "title": "Making File Names Unique",
+          "slug": "making-file-names-unique",
+          "ts": 1789201243
+        },
+        {
+          "title": "Minimum Number of Frogs Croaking",
+          "slug": "minimum-number-of-frogs-croaking",
+          "ts": 1789200731
+        },
+        {
           "title": "Minimum Number of Steps to Make Two Strings Anagram",
           "slug": "minimum-number-of-steps-to-make-two-strings-anagram",
           "ts": 1789183682
@@ -380,41 +415,6 @@
           "title": "Maximum Frequency After Subarray Operation",
           "slug": "maximum-frequency-after-subarray-operation",
           "ts": 1789036468
-        },
-        {
-          "title": "Minimum Positive Sum Subarray ",
-          "slug": "minimum-positive-sum-subarray",
-          "ts": 1789036078
-        },
-        {
-          "title": "Minimize Maximum of Array",
-          "slug": "minimize-maximum-of-array",
-          "ts": 1789035642
-        },
-        {
-          "title": "Find the Middle Index in Array",
-          "slug": "find-the-middle-index-in-array",
-          "ts": 1789034914
-        },
-        {
-          "title": "Maximum Population Year",
-          "slug": "maximum-population-year",
-          "ts": 1789034736
-        },
-        {
-          "title": "H-Index II",
-          "slug": "h-index-ii",
-          "ts": 1789033085
-        },
-        {
-          "title": "Basic Calculator II",
-          "slug": "basic-calculator-ii",
-          "ts": 1789031987
-        },
-        {
-          "title": "Monotonic Array",
-          "slug": "monotonic-array",
-          "ts": 1789030277
         }
       ]
     },
@@ -525,6 +525,21 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Binary Tree Right Side View",
+          "slug": "binary-tree-right-side-view",
+          "ts": 1789201231
+        },
+        {
+          "title": "Coin Change",
+          "slug": "coin-change",
+          "ts": 1789199236
+        },
+        {
+          "title": "Making A Large Island",
+          "slug": "making-a-large-island",
+          "ts": 1789198560
+        },
+        {
           "title": "Longest Continuous Increasing Subsequence",
           "slug": "longest-continuous-increasing-subsequence",
           "ts": 1789179757
@@ -608,21 +623,6 @@
           "title": "Coin Change II",
           "slug": "coin-change-ii",
           "ts": 1788813972
-        },
-        {
-          "title": "Koko Eating Bananas",
-          "slug": "koko-eating-bananas",
-          "ts": 1788812228
-        },
-        {
-          "title": "Generate Parentheses",
-          "slug": "generate-parentheses",
-          "ts": 1788811126
-        },
-        {
-          "title": "Maximum Product Subarray",
-          "slug": "maximum-product-subarray",
-          "ts": 1788808869
         }
       ]
     }
