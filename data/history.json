@@ -5,110 +5,8 @@
     "medium": 3,
     "hard": 6
   },
-  "fetched_at": "2026-09-11T06:35:25+00:00",
+  "fetched_at": "2026-09-12T06:23:58+00:00",
   "days": {
-    "2026-08-26": {
-      "run_hours": "",
-      "tags": {
-        "0-1 Knapsack": 1,
-        "Algorithm X": 3,
-        "Array": 19,
-        "Backtracking": 4,
-        "Binary Search": 7,
-        "Binary Tree": 4,
-        "Bit Manipulation": 1,
-        "Bracket Sequences": 1,
-        "Breadth-First Search": 10,
-        "DP on Trees": 1,
-        "Dancing Links": 1,
-        "Depth-First Search": 10,
-        "Design": 4,
-        "Divide and Conquer": 2,
-        "Doubly-Linked List": 1,
-        "Dynamic Programming": 9,
-        "Graph Theory": 2,
-        "Greedy": 2,
-        "Hash Table": 5,
-        "Heap (Priority Queue)": 1,
-        "Knapsack Problem": 1,
-        "Linked List": 1,
-        "Longest Common Subsequence": 1,
-        "Matrix": 10,
-        "Monotonic Queue": 1,
-        "Ordered Set": 1,
-        "Planar Graph": 1,
-        "Prefix Sum": 1,
-        "Queue": 1,
-        "Segment Tree": 1,
-        "Shortest Path": 1,
-        "Simulation": 1,
-        "Sorting": 1,
-        "Stack": 1,
-        "String": 6,
-        "String Matching": 1,
-        "Topological Sort": 1,
-        "Tree": 4,
-        "Union-Find": 1
-      },
-      "members": {
-        "m1": {
-          "solved": {
-            "all": 122,
-            "easy": 48,
-            "medium": 69,
-            "hard": 5
-          },
-          "day": {
-            "count": 3,
-            "easy": 0,
-            "medium": 1,
-            "hard": 2
-          }
-        },
-        "m2": {
-          "solved": {
-            "all": 60,
-            "easy": 27,
-            "medium": 32,
-            "hard": 1
-          },
-          "day": {
-            "count": 3,
-            "easy": 0,
-            "medium": 3,
-            "hard": 0
-          }
-        },
-        "m3": {
-          "solved": {
-            "all": 35,
-            "easy": 11,
-            "medium": 20,
-            "hard": 4
-          },
-          "day": {
-            "count": 6,
-            "easy": 0,
-            "medium": 5,
-            "hard": 1
-          }
-        },
-        "m4": {
-          "solved": {
-            "all": 691,
-            "easy": 209,
-            "medium": 464,
-            "hard": 18
-          },
-          "day": {
-            "count": 20,
-            "easy": 1,
-            "medium": 18,
-            "hard": 1
-          }
-        }
-      }
-    },
     "2026-08-27": {
       "run_hours": "",
       "tags": {
@@ -1474,7 +1372,7 @@
       "run_hours": "001000010010001110100001",
       "tags": {
         "Array": 21,
-        "Backtracking": 4,
+        "Backtracking": 2,
         "Binary Search": 3,
         "Binary Tree": 2,
         "Complete Knapsack": 1,
@@ -1484,19 +1382,19 @@
         "Enumeration": 2,
         "Geometry": 1,
         "Greedy": 5,
-        "Hash Table": 5,
+        "Hash Table": 4,
         "Knapsack Problem": 2,
         "Linked List": 1,
-        "Longest Common Subsequence": 3,
+        "Longest Common Subsequence": 2,
         "Math": 3,
-        "Matrix": 2,
+        "Matrix": 1,
         "Mixed Knapsack": 1,
         "Polygons": 1,
         "Prefix Sum": 8,
         "Sliding Window": 1,
         "Sorting": 2,
         "Stack": 1,
-        "String": 9,
+        "String": 7,
         "Tree": 2,
         "Two Pointers": 2
       },
@@ -1584,12 +1482,125 @@
             "hard": 29
           },
           "day": {
-            "count": 8,
+            "count": 9,
             "easy": 1,
-            "medium": 7,
+            "medium": 8,
             "hard": 0
           },
           "streak": 5
+        }
+      }
+    },
+    "2026-09-11": {
+      "run_hours": "000010000100100100100001",
+      "tags": {
+        "0-1 Knapsack": 1,
+        "Array": 5,
+        "Complete Knapsack": 1,
+        "Counting": 1,
+        "Dynamic Programming": 2,
+        "Greedy": 2,
+        "Hash Table": 1,
+        "Knapsack Problem": 2,
+        "Linked List": 1,
+        "Math": 1,
+        "Monotonic Stack": 1,
+        "Recursion": 1,
+        "Sorting": 1,
+        "Stack": 1,
+        "String": 9,
+        "Two Pointers": 3
+      },
+      "members": {
+        "m1": {
+          "solved": {
+            "all": 157,
+            "easy": 52,
+            "medium": 95,
+            "hard": 10
+          },
+          "day": {
+            "count": 2,
+            "easy": 0,
+            "medium": 2,
+            "hard": 0
+          },
+          "streak": 12
+        },
+        "m2": {
+          "solved": {
+            "all": 85,
+            "easy": 31,
+            "medium": 50,
+            "hard": 4
+          },
+          "day": {
+            "count": 0,
+            "easy": 0,
+            "medium": 0,
+            "hard": 0
+          },
+          "streak": 0
+        },
+        "m3": {
+          "solved": {
+            "all": 44,
+            "easy": 14,
+            "medium": 25,
+            "hard": 5
+          },
+          "day": {
+            "count": 1,
+            "easy": 0,
+            "medium": 1,
+            "hard": 0
+          },
+          "streak": 5
+        },
+        "m4": {
+          "solved": {
+            "all": 793,
+            "easy": 225,
+            "medium": 548,
+            "hard": 20
+          },
+          "day": {
+            "count": 9,
+            "easy": 2,
+            "medium": 7,
+            "hard": 0
+          },
+          "streak": 12
+        },
+        "m5": {
+          "solved": {
+            "all": 541,
+            "easy": 177,
+            "medium": 325,
+            "hard": 39
+          },
+          "day": {
+            "count": 0,
+            "easy": 0,
+            "medium": 0,
+            "hard": 0
+          },
+          "streak": 0
+        },
+        "m6": {
+          "solved": {
+            "all": 399,
+            "easy": 133,
+            "medium": 237,
+            "hard": 29
+          },
+          "day": {
+            "count": 1,
+            "easy": 1,
+            "medium": 0,
+            "hard": 0
+          },
+          "streak": 6
         }
       }
     }

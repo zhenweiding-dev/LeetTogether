@@ -188,6 +188,14 @@
       "Sorting"
     ]
   },
+  "break-a-palindrome": {
+    "difficulty": "Medium",
+    "frontend_id": "1328",
+    "tags": [
+      "String",
+      "Greedy"
+    ]
+  },
   "car-fleet": {
     "difficulty": "Medium",
     "frontend_id": "853",
@@ -1175,6 +1183,13 @@
       "Longest Common Subsequence"
     ]
   },
+  "longest-continuous-increasing-subsequence": {
+    "difficulty": "Easy",
+    "frontend_id": "674",
+    "tags": [
+      "Array"
+    ]
+  },
   "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit": {
     "difficulty": "Medium",
     "tags": [
@@ -1212,6 +1227,14 @@
       "Two Pointers",
       "Dynamic Programming",
       "Enumeration"
+    ]
+  },
+  "longest-non-decreasing-subarray-after-replacing-at-most-one-element": {
+    "difficulty": "Medium",
+    "frontend_id": "3738",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
     ]
   },
   "longest-palindromic-subsequence": {
@@ -1259,6 +1282,13 @@
       "Sliding Window"
     ]
   },
+  "longest-uncommon-subsequence-i": {
+    "difficulty": "Easy",
+    "frontend_id": "521",
+    "tags": [
+      "String"
+    ]
+  },
   "longest-valid-parentheses": {
     "difficulty": "Hard",
     "frontend_id": "32",
@@ -1277,6 +1307,16 @@
       "Stack",
       "Monotonic Stack",
       "Prefix Sum"
+    ]
+  },
+  "longest-word-in-dictionary-through-deleting": {
+    "difficulty": "Medium",
+    "frontend_id": "524",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "String",
+      "Sorting"
     ]
   },
   "longest-zigzag-path-in-a-binary-tree": {
@@ -1308,6 +1348,14 @@
       "Hash Table",
       "Math",
       "Matrix"
+    ]
+  },
+  "magical-string": {
+    "difficulty": "Medium",
+    "frontend_id": "481",
+    "tags": [
+      "Two Pointers",
+      "String"
     ]
   },
   "magnetic-force-between-two-balls": {
@@ -1724,6 +1772,15 @@
       "Bracket Sequences"
     ]
   },
+  "minimum-number-of-steps-to-make-two-strings-anagram": {
+    "difficulty": "Medium",
+    "frontend_id": "1347",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ]
+  },
   "minimum-operations-to-make-binary-array-elements-equal-to-one-i": {
     "difficulty": "Medium",
     "frontend_id": "3191",
@@ -2018,6 +2075,16 @@
       "Backtracking"
     ]
   },
+  "partition-equal-subset-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "416",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Knapsack Problem",
+      "0-1 Knapsack"
+    ]
+  },
   "path-sum": {
     "difficulty": "Easy",
     "frontend_id": "112",
@@ -2184,6 +2251,24 @@
       "Simulation"
     ]
   },
+  "remove-comments": {
+    "difficulty": "Medium",
+    "frontend_id": "722",
+    "tags": [
+      "Array",
+      "String"
+    ]
+  },
+  "remove-duplicate-letters": {
+    "difficulty": "Medium",
+    "frontend_id": "316",
+    "tags": [
+      "String",
+      "Stack",
+      "Greedy",
+      "Monotonic Stack"
+    ]
+  },
   "remove-interval": {
     "difficulty": "Medium",
     "frontend_id": "1272",
@@ -2206,6 +2291,14 @@
     "tags": [
       "Linked List",
       "Two Pointers"
+    ]
+  },
+  "remove-palindromic-subsequences": {
+    "difficulty": "Easy",
+    "frontend_id": "1332",
+    "tags": [
+      "Two Pointers",
+      "String"
     ]
   },
   "removing-stars-from-a-string": {
@@ -2803,6 +2896,13 @@
       "Union-Find",
       "Graph Theory",
       "Binary Tree"
+    ]
+  },
+  "validate-ip-address": {
+    "difficulty": "Medium",
+    "frontend_id": "468",
+    "tags": [
+      "String"
     ]
   },
   "validate-stack-sequences": {
