@@ -52,6 +52,13 @@
       "Enumeration"
     ]
   },
+  "apply-discount-to-prices": {
+    "difficulty": "Medium",
+    "frontend_id": "2288",
+    "tags": [
+      "String"
+    ]
+  },
   "average-waiting-time": {
     "difficulty": "Medium",
     "tags": [
@@ -194,6 +201,13 @@
     "tags": [
       "String",
       "Greedy"
+    ]
+  },
+  "capitalize-the-title": {
+    "difficulty": "Easy",
+    "frontend_id": "2129",
+    "tags": [
+      "String"
     ]
   },
   "car-fleet": {
@@ -570,6 +584,14 @@
       "Monotonic Stack"
     ]
   },
+  "decode-the-message": {
+    "difficulty": "Easy",
+    "frontend_id": "2325",
+    "tags": [
+      "Hash Table",
+      "String"
+    ]
+  },
   "decrypt-string-from-alphabet-to-integer-mapping": {
     "difficulty": "Easy",
     "frontend_id": "1309",
@@ -845,6 +867,18 @@
       "Binary Search"
     ]
   },
+  "find-the-duplicate-number": {
+    "difficulty": "Medium",
+    "frontend_id": "287",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Bit Manipulation",
+      "Pigeonhole Principle",
+      "Floyd's Cycle Finding Algorithm"
+    ]
+  },
   "find-the-length-of-the-longest-common-prefix": {
     "difficulty": "Medium",
     "frontend_id": "3043",
@@ -1024,6 +1058,16 @@
     "tags": [
       "Array",
       "Matrix"
+    ]
+  },
+  "implement-trie-prefix-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "208",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Design",
+      "Trie"
     ]
   },
   "insert-into-a-binary-search-tree": {
@@ -1386,6 +1430,26 @@
       "Stack",
       "Greedy",
       "Monotonic Stack"
+    ]
+  },
+  "making-a-large-island": {
+    "difficulty": "Hard",
+    "frontend_id": "827",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ]
+  },
+  "making-file-names-unique": {
+    "difficulty": "Medium",
+    "frontend_id": "1487",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
     ]
   },
   "map-of-highest-peak": {
@@ -1772,6 +1836,14 @@
       "Bracket Sequences"
     ]
   },
+  "minimum-number-of-frogs-croaking": {
+    "difficulty": "Medium",
+    "frontend_id": "1419",
+    "tags": [
+      "String",
+      "Counting"
+    ]
+  },
   "minimum-number-of-steps-to-make-two-strings-anagram": {
     "difficulty": "Medium",
     "frontend_id": "1347",
@@ -1834,6 +1906,14 @@
       "Array",
       "Greedy",
       "Sorting"
+    ]
+  },
+  "minimum-suffix-flips": {
+    "difficulty": "Medium",
+    "frontend_id": "1529",
+    "tags": [
+      "String",
+      "Greedy"
     ]
   },
   "minimum-swaps-to-arrange-a-binary-grid": {
@@ -1949,6 +2029,18 @@
       "Array",
       "Breadth-First Search",
       "Matrix"
+    ]
+  },
+  "network-delay-time": {
+    "difficulty": "Medium",
+    "frontend_id": "743",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Shortest Path",
+      "Dijkstra's Algorithm"
     ]
   },
   "non-overlapping-intervals": {
@@ -2085,6 +2177,16 @@
       "0-1 Knapsack"
     ]
   },
+  "partition-labels": {
+    "difficulty": "Medium",
+    "frontend_id": "763",
+    "tags": [
+      "Hash Table",
+      "Two Pointers",
+      "String",
+      "Greedy"
+    ]
+  },
   "path-sum": {
     "difficulty": "Easy",
     "frontend_id": "112",
@@ -2135,6 +2237,17 @@
       "Heap (Priority Queue)",
       "Matrix",
       "Dijkstra's Algorithm"
+    ]
+  },
+  "perfect-squares": {
+    "difficulty": "Medium",
+    "frontend_id": "279",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Breadth-First Search",
+      "Knapsack Problem",
+      "Complete Knapsack"
     ]
   },
   "permutation-in-string": {
@@ -2714,6 +2827,17 @@
       "Sliding Window"
     ]
   },
+  "target-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "494",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Backtracking",
+      "Knapsack Problem",
+      "0-1 Knapsack"
+    ]
+  },
   "task-scheduler": {
     "difficulty": "Medium",
     "frontend_id": "621",
@@ -2912,6 +3036,16 @@
       "Array",
       "Stack",
       "Simulation"
+    ]
+  },
+  "vowels-of-all-substrings": {
+    "difficulty": "Medium",
+    "frontend_id": "2063",
+    "tags": [
+      "Math",
+      "String",
+      "Dynamic Programming",
+      "Combinatorics"
     ]
   },
   "walking-robot-simulation": {
