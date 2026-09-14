@@ -700,6 +700,14 @@
       "Prefix Sum"
     ]
   },
+  "distinct-subsequences": {
+    "difficulty": "Hard",
+    "frontend_id": "115",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ]
+  },
   "distribute-candies": {
     "difficulty": "Easy",
     "frontend_id": "575",
