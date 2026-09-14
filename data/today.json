@@ -1,9 +1,19 @@
 {
-  "date": "2026-09-12",
-  "fetched_at": "2026-09-13T06:43:10+00:00",
+  "date": "2026-09-13",
+  "fetched_at": "2026-09-14T05:09:48+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Minimum Falling Path Sum",
+          "slug": "minimum-falling-path-sum",
+          "ts": 1789362333
+        },
+        {
+          "title": "Employees Earning More Than Their Managers",
+          "slug": "employees-earning-more-than-their-managers",
+          "ts": 1789286412
+        },
         {
           "title": "Perfect Squares",
           "slug": "perfect-squares",
@@ -93,21 +103,16 @@
           "title": "Climbing Stairs",
           "slug": "climbing-stairs",
           "ts": 1788567668
-        },
-        {
-          "title": "House Robber",
-          "slug": "house-robber",
-          "ts": 1788566781
-        },
-        {
-          "title": "Coin Change",
-          "slug": "coin-change",
-          "ts": 1788565537
         }
       ]
     },
     "m2": {
       "recent_ac": [
+        {
+          "title": "Lowest Common Ancestor of a Binary Search Tree",
+          "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+          "ts": 1789343032
+        },
         {
           "title": "Find the Duplicate Number",
           "slug": "find-the-duplicate-number",
@@ -202,11 +207,6 @@
           "title": "Same Tree",
           "slug": "same-tree",
           "ts": 1788420165
-        },
-        {
-          "title": "Find Minimum in Rotated Sorted Array",
-          "slug": "find-minimum-in-rotated-sorted-array",
-          "ts": 1788416516
         }
       ]
     },
@@ -525,6 +525,41 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Implement Stack using Queues",
+          "slug": "implement-stack-using-queues",
+          "ts": 1789332195
+        },
+        {
+          "title": "Min Stack",
+          "slug": "min-stack",
+          "ts": 1789330690
+        },
+        {
+          "title": "Word Search",
+          "slug": "word-search",
+          "ts": 1789329285
+        },
+        {
+          "title": "Trapping Rain Water",
+          "slug": "trapping-rain-water",
+          "ts": 1789327637
+        },
+        {
+          "title": "Jump Game",
+          "slug": "jump-game",
+          "ts": 1789325305
+        },
+        {
+          "title": "Search a 2D Matrix",
+          "slug": "search-a-2d-matrix",
+          "ts": 1789324480
+        },
+        {
+          "title": "Contains Duplicate II",
+          "slug": "contains-duplicate-ii",
+          "ts": 1789322730
+        },
+        {
           "title": "Partition Labels",
           "slug": "partition-labels",
           "ts": 1789250310
@@ -588,41 +623,6 @@
           "title": "Remove Interval",
           "slug": "remove-interval",
           "ts": 1789090194
-        },
-        {
-          "title": "Coin Change II",
-          "slug": "coin-change-ii",
-          "ts": 1789088394
-        },
-        {
-          "title": "Path Sum II",
-          "slug": "path-sum-ii",
-          "ts": 1789086958
-        },
-        {
-          "title": "Jump Game II",
-          "slug": "jump-game-ii",
-          "ts": 1789084253
-        },
-        {
-          "title": "Non-overlapping Intervals",
-          "slug": "non-overlapping-intervals",
-          "ts": 1789027401
-        },
-        {
-          "title": "Search in Rotated Sorted Array",
-          "slug": "search-in-rotated-sorted-array",
-          "ts": 1789025546
-        },
-        {
-          "title": "Path Sum III",
-          "slug": "path-sum-iii",
-          "ts": 1789024014
-        },
-        {
-          "title": "Clone Graph",
-          "slug": "clone-graph",
-          "ts": 1789022472
         }
       ]
     }

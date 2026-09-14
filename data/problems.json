@@ -415,6 +415,15 @@
       "Sorting"
     ]
   },
+  "contains-duplicate-ii": {
+    "difficulty": "Easy",
+    "frontend_id": "219",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
+    ]
+  },
   "continuous-subarrays": {
     "difficulty": "Medium",
     "tags": [
@@ -705,6 +714,13 @@
     "tags": [
       "String",
       "Dynamic Programming"
+    ]
+  },
+  "employees-earning-more-than-their-managers": {
+    "difficulty": "Easy",
+    "frontend_id": "181",
+    "tags": [
+      "Database"
     ]
   },
   "equal-sum-grid-partition-i": {
@@ -1060,6 +1076,15 @@
       "Matrix"
     ]
   },
+  "implement-stack-using-queues": {
+    "difficulty": "Easy",
+    "frontend_id": "225",
+    "tags": [
+      "Stack",
+      "Design",
+      "Queue"
+    ]
+  },
   "implement-trie-prefix-tree": {
     "difficulty": "Medium",
     "frontend_id": "208",
@@ -1372,6 +1397,18 @@
       "Depth-First Search",
       "Binary Tree",
       "DP on Trees"
+    ]
+  },
+  "lowest-common-ancestor-of-a-binary-search-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "235",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree",
+      "Binary Lifting",
+      "Lowest Common Ancestor"
     ]
   },
   "lru-cache": {
@@ -1797,6 +1834,15 @@
       "Sliding Window",
       "Simulation",
       "Counting"
+    ]
+  },
+  "minimum-falling-path-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "931",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
     ]
   },
   "minimum-increment-to-make-array-unique": {
@@ -2908,6 +2954,7 @@
   },
   "trapping-rain-water": {
     "difficulty": "Hard",
+    "frontend_id": "42",
     "tags": [
       "Array",
       "Two Pointers",
