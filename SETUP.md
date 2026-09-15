@@ -41,7 +41,7 @@ do either: a normal LeetCode account is readable as is.
 | Mark | Means |
 |---|---|
 | `🔺` `🔻` | moved up or down since yesterday |
-| `·` `░` | that day had no submission / is outside the window |
+| `·` `░` | that day had no submission / there is no record of it |
 | `≥21` | at least 21; the window does not reach far enough back to be sure |
 | `12+` | streak is at least 12, possibly longer |
 | `⚠️` above the table | a fetch went wrong; absent when all is well |
@@ -54,6 +54,11 @@ Weights are Easy 1 / Medium 3 / Hard 6, so grinding Easies does not move you up.
 Both windows are rolling, not calendar: `Last 7 days` is today plus the six before
 it, and does not reset on Mondays. A problem solved twice in one day counts once;
 picked up again another day it counts again.
+
+Somebody added today gets their recent days filled in from the solves LeetCode
+still returns — a few days for a heavy solver, weeks for a light one. Older days
+stay `░`: only 20 solves come back per fetch, and nothing else reports a day the
+way the board counts one.
 
 ## When a fetch fails
 

@@ -2834,6 +2834,17 @@
       "Prefix Sum"
     ]
   },
+  "sort-colors": {
+    "difficulty": "Medium",
+    "frontend_id": "75",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting",
+      "Quicksort",
+      "Bubble Sort"
+    ]
+  },
   "spiral-matrix-iii": {
     "difficulty": "Medium",
     "frontend_id": "885",

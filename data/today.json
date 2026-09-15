@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "fetched_at": "2026-09-14T22:39:34+00:00",
+  "fetched_at": "2026-09-14T23:57:48+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -629,6 +629,11 @@
     "m7": {
       "recent_ac": [
         {
+          "title": "Sort Colors",
+          "slug": "sort-colors",
+          "ts": 1789426302
+        },
+        {
           "title": "Plus One",
           "slug": "plus-one",
           "ts": 1789422967
@@ -722,11 +727,6 @@
           "title": "Remove Stones to Minimize the Total",
           "slug": "remove-stones-to-minimize-the-total",
           "ts": 1788977629
-        },
-        {
-          "title": "Maximum Beauty of an Array After Applying Operation",
-          "slug": "maximum-beauty-of-an-array-after-applying-operation",
-          "ts": 1788976751
         }
       ]
     }

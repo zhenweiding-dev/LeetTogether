@@ -175,7 +175,11 @@ def solved_deltas(days):
     """
     out, prev = {}, None
     for date, m in days.items():
-        cur = m.get("solved") or {}
+        # Backfilled days carry counts but no lifetime totals, and differencing
+        # against a day that has none would invent a jump on the next real one.
+        cur = m.get("solved")
+        if not cur:
+            continue
         if prev is not None:
             out[date] = {
                 k: max(0, cur.get(k, 0) - prev.get(k, 0))

@@ -8,6 +8,7 @@ data/today.json holds today's problem lists and is replaced, never appended to.
 
 import sys
 import time
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 
 import board
@@ -15,6 +16,7 @@ import lc
 import theme
 from common import (
     HANDLES_ENV,
+    days_back,
     load_config,
     load_handles,
     load_history,
@@ -91,6 +93,52 @@ def top_up_yesterday(history, detail, problems, cfg, today):
     # The group histogram is only replaced when it can be rebuilt in full.
     if raised and seen:
         entry["tags"] = board.tag_histogram(seen, problems)
+
+
+def backfill(history, members, problems, cfg, today):
+    """Give a member the past days their own fetch can still prove.
+
+    Someone added today would otherwise be a wall of `░` until the window fills.
+    The 20 most recent ACs reach back anywhere from three days to several weeks
+    depending on how much they solve, so take exactly that and no more: inside the
+    span they cover, a day with no AC really is a zero; before it, nothing is
+    known. A full list of 20 is truncated, so its oldest day may be missing ACs
+    and is left out too.
+
+    Only ever writes a day the member has no record for, and only days the group
+    already has, so this cannot overwrite history or invent days nobody was here
+    for. That makes it safe to run every time rather than only on the first sight
+    of a new member.
+    """
+    window = set(days_back(today, board.RETAIN))
+    for mid, m in members.items():
+        if not m.get("ok") or not m["recent_ac"]:
+            continue
+        by_day = {}
+        for s in m["recent_ac"]:
+            by_day.setdefault(local_date(s["ts"], cfg), set()).add(s["slug"])
+        start = min(by_day)
+        if len(m["recent_ac"]) >= lc.RECENT_LIMIT:
+            start = (
+                datetime.strptime(start, "%Y-%m-%d").date() + timedelta(days=1)
+            ).isoformat()
+
+        for date in sorted(window):
+            entry = history.get(date)
+            if not entry or date < start or date >= today:
+                continue  # today is written by the normal path
+            if mid in (entry.get("members") or {}):
+                continue
+            slugs = sorted(by_day.get(date, ()))
+            entry.setdefault("members", {})[mid] = {
+                "day": board.day_counts(slugs, problems)
+            }
+            if slugs:
+                # The group histogram is a sum, so a member who was never counted
+                # into it can only be added.
+                tags = Counter(entry.get("tags") or {})
+                tags.update(board.tag_histogram(slugs, problems))
+                entry["tags"] = dict(sorted(tags.items()))
 
 
 def core(members):
@@ -256,6 +304,7 @@ def main():
         },
     }
     top_up_yesterday(history, detail, problems, cfg, today)
+    backfill(history, members, problems, cfg, today)
 
     # The window is why this project does not grow without bound.
     for date in sorted(history)[: -board.RETAIN]:
