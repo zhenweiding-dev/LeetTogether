@@ -7,6 +7,13 @@
       "Sorting"
     ]
   },
+  "add-two-integers": {
+    "difficulty": "Easy",
+    "frontend_id": "2235",
+    "tags": [
+      "Math"
+    ]
+  },
   "add-two-numbers": {
     "difficulty": "Medium",
     "frontend_id": "2",
@@ -279,6 +286,7 @@
   },
   "cinema-seat-allocation": {
     "difficulty": "Medium",
+    "frontend_id": "1386",
     "tags": [
       "Array",
       "Hash Table",
@@ -408,6 +416,22 @@
       "Binary Tree"
     ]
   },
+  "construct-uniform-parity-array-i": {
+    "difficulty": "Easy",
+    "frontend_id": "3875",
+    "tags": [
+      "Array",
+      "Math"
+    ]
+  },
+  "construct-uniform-parity-array-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "3876",
+    "tags": [
+      "Array",
+      "Math"
+    ]
+  },
   "container-with-most-water": {
     "difficulty": "Medium",
     "tags": [
@@ -482,6 +506,20 @@
       "Prefix Sum"
     ]
   },
+  "count-commas-in-range": {
+    "difficulty": "Easy",
+    "frontend_id": "3870",
+    "tags": [
+      "Math"
+    ]
+  },
+  "count-commas-in-range-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "3871",
+    "tags": [
+      "Math"
+    ]
+  },
   "count-complete-subarrays-in-an-array": {
     "difficulty": "Medium",
     "tags": [
@@ -520,6 +558,11 @@
       "String Matching",
       "Hash Function"
     ]
+  },
+  "count-shadow-pairs-i": {
+    "difficulty": "Medium",
+    "frontend_id": "4054",
+    "tags": []
   },
   "count-sub-islands": {
     "difficulty": "Medium",
@@ -1199,6 +1242,13 @@
       "Binary Tree"
     ]
   },
+  "kids-with-the-greatest-number-of-candies": {
+    "difficulty": "Easy",
+    "frontend_id": "1431",
+    "tags": [
+      "Array"
+    ]
+  },
   "koko-eating-bananas": {
     "difficulty": "Medium",
     "frontend_id": "875",
@@ -1806,6 +1856,19 @@
       "Dynamic Programming"
     ]
   },
+  "min-cost-to-connect-all-points": {
+    "difficulty": "Medium",
+    "frontend_id": "1584",
+    "tags": [
+      "Array",
+      "Union-Find",
+      "Graph Theory",
+      "Minimum Spanning Tree",
+      "Prim's Algorithm",
+      "Kruskal's Algorithm",
+      "Borůvka's Algorithm"
+    ]
+  },
   "min-stack": {
     "difficulty": "Medium",
     "frontend_id": "155",
@@ -1949,6 +2012,17 @@
       "Bracket Sequences"
     ]
   },
+  "minimum-moves-to-clean-the-classroom": {
+    "difficulty": "Medium",
+    "frontend_id": "3568",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Bit Manipulation",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
   "minimum-number-of-frogs-croaking": {
     "difficulty": "Medium",
     "frontend_id": "1419",
@@ -2060,6 +2134,18 @@
       "Hash Table",
       "String",
       "Sliding Window"
+    ]
+  },
+  "missing-number": {
+    "difficulty": "Easy",
+    "frontend_id": "268",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Binary Search",
+      "Bit Manipulation",
+      "Sorting"
     ]
   },
   "monotonic-array": {
@@ -2259,6 +2345,15 @@
       "Sliding Window"
     ]
   },
+  "number-of-visible-people-in-a-queue": {
+    "difficulty": "Hard",
+    "frontend_id": "1944",
+    "tags": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
   "ones-and-zeroes": {
     "difficulty": "Medium",
     "frontend_id": "474",
@@ -2315,6 +2410,17 @@
       "Two Pointers",
       "String",
       "Greedy"
+    ]
+  },
+  "path-existence-queries-in-a-graph-i": {
+    "difficulty": "Medium",
+    "frontend_id": "3532",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Union-Find",
+      "Graph Theory"
     ]
   },
   "path-sum": {
@@ -2645,6 +2751,14 @@
       "Bracket Sequences"
     ]
   },
+  "richest-customer-wealth": {
+    "difficulty": "Easy",
+    "frontend_id": "1672",
+    "tags": [
+      "Array",
+      "Matrix"
+    ]
+  },
   "rotate-string": {
     "difficulty": "Easy",
     "frontend_id": "796",
@@ -2760,6 +2874,13 @@
       "Math",
       "Design",
       "Randomized"
+    ]
+  },
+  "shuffle-the-array": {
+    "difficulty": "Easy",
+    "frontend_id": "1470",
+    "tags": [
+      "Array"
     ]
   },
   "simplify-path": {
@@ -3035,6 +3156,15 @@
       "Counting"
     ]
   },
+  "the-earliest-moment-when-everyone-become-friends": {
+    "difficulty": "Medium",
+    "frontend_id": "1101",
+    "tags": [
+      "Array",
+      "Union-Find",
+      "Sorting"
+    ]
+  },
   "the-number-of-beautiful-subsets": {
     "difficulty": "Medium",
     "frontend_id": "2597",
@@ -3127,6 +3257,16 @@
       "Array",
       "Two Pointers",
       "Binary Search"
+    ]
+  },
+  "unique-3-digit-even-numbers": {
+    "difficulty": "Easy",
+    "frontend_id": "3483",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Recursion",
+      "Enumeration"
     ]
   },
   "unique-paths": {
@@ -3300,6 +3440,17 @@
       "String",
       "Backtracking",
       "Depth-First Search",
+      "Matrix"
+    ]
+  },
+  "word-search-ii": {
+    "difficulty": "Hard",
+    "frontend_id": "212",
+    "tags": [
+      "Array",
+      "String",
+      "Backtracking",
+      "Trie",
       "Matrix"
     ]
   },

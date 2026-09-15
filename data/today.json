@@ -1,6 +1,6 @@
 {
   "date": "2026-09-14",
-  "fetched_at": "2026-09-14T23:57:48+00:00",
+  "fetched_at": "2026-09-15T05:13:35+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -525,6 +525,11 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Word Search II",
+          "slug": "word-search-ii",
+          "ts": 1789448620
+        },
+        {
           "title": "Count Good Nodes in Binary Tree",
           "slug": "count-good-nodes-in-binary-tree",
           "ts": 1789421012
@@ -618,11 +623,6 @@
           "title": "Coin Change",
           "slug": "coin-change",
           "ts": 1789199236
-        },
-        {
-          "title": "Making A Large Island",
-          "slug": "making-a-large-island",
-          "ts": 1789198560
         }
       ]
     },
@@ -727,6 +727,110 @@
           "title": "Remove Stones to Minimize the Total",
           "slug": "remove-stones-to-minimize-the-total",
           "ts": 1788977629
+        }
+      ]
+    },
+    "m8": {
+      "recent_ac": [
+        {
+          "title": "Number of Visible People in a Queue",
+          "slug": "number-of-visible-people-in-a-queue",
+          "ts": 1789423626
+        },
+        {
+          "title": "Cinema Seat Allocation",
+          "slug": "cinema-seat-allocation",
+          "ts": 1789421888
+        },
+        {
+          "title": "Construct Uniform Parity Array II",
+          "slug": "construct-uniform-parity-array-ii",
+          "ts": 1789416978
+        },
+        {
+          "title": "Image Overlap",
+          "slug": "image-overlap",
+          "ts": 1789416096
+        },
+        {
+          "title": "Construct Uniform Parity Array I",
+          "slug": "construct-uniform-parity-array-i",
+          "ts": 1789412847
+        },
+        {
+          "title": "Missing Number",
+          "slug": "missing-number",
+          "ts": 1789362786
+        },
+        {
+          "title": "Minimum Moves to Clean the Classroom",
+          "slug": "minimum-moves-to-clean-the-classroom",
+          "ts": 1789341246
+        },
+        {
+          "title": "Path Existence Queries in a Graph I",
+          "slug": "path-existence-queries-in-a-graph-i",
+          "ts": 1789337867
+        },
+        {
+          "title": "Unique 3-Digit Even Numbers",
+          "slug": "unique-3-digit-even-numbers",
+          "ts": 1789335768
+        },
+        {
+          "title": "Min Cost to Connect All Points",
+          "slug": "min-cost-to-connect-all-points",
+          "ts": 1789334887
+        },
+        {
+          "title": "Richest Customer Wealth",
+          "slug": "richest-customer-wealth",
+          "ts": 1789333706
+        },
+        {
+          "title": "Shuffle the Array",
+          "slug": "shuffle-the-array",
+          "ts": 1789330159
+        },
+        {
+          "title": "Kids With the Greatest Number of Candies",
+          "slug": "kids-with-the-greatest-number-of-candies",
+          "ts": 1789329477
+        },
+        {
+          "title": "The Earliest Moment When Everyone Become Friends",
+          "slug": "the-earliest-moment-when-everyone-become-friends",
+          "ts": 1789329304
+        },
+        {
+          "title": "Longest Non-Decreasing Subarray After Replacing at Most One Element",
+          "slug": "longest-non-decreasing-subarray-after-replacing-at-most-one-element",
+          "ts": 1789280792
+        },
+        {
+          "title": "Count Commas in Range",
+          "slug": "count-commas-in-range",
+          "ts": 1789276805
+        },
+        {
+          "title": "Smallest Stable Index II",
+          "slug": "smallest-stable-index-ii",
+          "ts": 1789276719
+        },
+        {
+          "title": "Add Two Integers",
+          "slug": "add-two-integers",
+          "ts": 1789275769
+        },
+        {
+          "title": "Count Commas in Range II",
+          "slug": "count-commas-in-range-ii",
+          "ts": 1789275688
+        },
+        {
+          "title": "Count Shadow Pairs I",
+          "slug": "count-shadow-pairs-i",
+          "ts": 1789271953
         }
       ]
     }

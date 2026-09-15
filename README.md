@@ -10,7 +10,7 @@
 
 ## 🏆 Leaderboard
 
-⏳ **3/7 submitted today** · pending: xiao, Glo, cheers🍻, Andrea
+🔥 **4/8 submitted today** · pending: xiao, Glo, cheers🍻, Andrea
 
 <table>
 <thead>
@@ -24,49 +24,56 @@
 </thead>
 <tbody>
 <tr>
-<td align="left">🥇 <code>kitty</code> 🔺</td>
+<td align="left">🥇 <code>Alan</code></td>
+<td align="center"><code>5 ✅丨18 pts</code></td>
+<td align="center"><code>36 ✅丨<b>112 pts</b></code></td>
+<td align="center"><code>🌙 9</code></td>
+<td align="center"><code>░ ░ ░ ░ ░ ▃ ▅ ▃ ▁ ▇ ▁ ▇ ▅ ▅</code></td>
+</tr>
+<tr>
+<td align="left">🥈 <code>kitty</code> 🔺</td>
 <td align="center"><code>9 ✅丨18 pts</code></td>
 <td align="center"><code>≥9 ✅丨<b>≥18 pts</b></code></td>
 <td align="center"><code>✨ 1</code></td>
 <td align="center"><code>░ ░ ░ ░ ░ ░ ░ ░ ░ · · · · ▇</code></td>
 </tr>
 <tr>
-<td align="left">🥈 <code>Alan</code> 🔻</td>
-<td align="center"><code>4 ✅丨12 pts</code></td>
-<td align="center"><code>35 ✅丨<b>106 pts</b></code></td>
-<td align="center"><code>🌙 9</code></td>
-<td align="center"><code>░ ░ ░ ░ ░ ▃ ▅ ▃ ▁ ▇ ▁ ▇ ▅ ▃</code></td>
+<td align="left">🥉 <code>people</code> 🔻</td>
+<td align="center"><code>5 ✅丨16 pts</code></td>
+<td align="center"><code>≥14 ✅丨<b>≥33 pts</b></code></td>
+<td align="center"><code>💫 2+</code></td>
+<td align="center"><code>░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ░ ▇ ▅</code></td>
 </tr>
 <tr>
-<td align="left">🥉 <code>john</code> 🔻</td>
+<td align="left"><code>4</code> <code>john</code> 🔻</td>
 <td align="center"><code>2 ✅丨9 pts</code></td>
 <td align="center"><code>15 ✅丨<b>49 pts</b></code></td>
 <td align="center"><code>🌓 15</code></td>
 <td align="center"><code>▃ ▃ ▃ ▅ ▁ ▃ ▁ ▁ ▁ ▃ ▁ ▁ ▁ ▁</code></td>
 </tr>
 <tr>
-<td align="left"><code>4</code> <code>xiao</code></td>
+<td align="left"><code>5</code> <code>xiao</code></td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>54 ✅丨<b>134 pts</b></code></td>
 <td align="center"><code>😴 0</code></td>
 <td align="center"><code>▅ ▁ ▁ ▇ ▇ ▇ ▇ ▁ ▇ ▇ ▇ ▅ · ·</code></td>
 </tr>
 <tr>
-<td align="left"><code>5</code> <code>Glo</code></td>
+<td align="left"><code>6</code> <code>Glo</code></td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>6 ✅丨<b>14 pts</b></code></td>
 <td align="center"><code>😴 0</code></td>
 <td align="center"><code>▁ ▁ ▁ ▁ ▁ · ▁ ▁ ▁ ▁ ▁ ▁ · ·</code></td>
 </tr>
 <tr>
-<td align="left"><code>6</code> <code>cheers🍻</code> 🔻</td>
+<td align="left"><code>7</code> <code>cheers🍻</code> 🔻</td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>3 ✅丨<b>7 pts</b></code></td>
 <td align="center"><code>💫 2</code></td>
 <td align="center"><code>▁ ▃ ▃ ▇ ▁ ▁ ▁ · · · · ▁ ▁ ·</code></td>
 </tr>
 <tr>
-<td align="left"><code>7</code> <code>Andrea</code></td>
+<td align="left"><code>8</code> <code>Andrea</code></td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>0 ✅丨<b>0 pts</b></code></td>
 <td align="center"><code>😴 0</code></td>
@@ -94,8 +101,13 @@
 </tr>
 <tr>
 <td align="left"><code>Alan</code></td>
-<td align="left"><code>Med</code> <code>437</code> <a href="https://leetcode.com/problems/path-sum-iii/"><code>Path Sum III</code></a><br><code>Med</code> <code>45</code> <a href="https://leetcode.com/problems/jump-game-ii/"><code>Jump Game II</code></a><br><code>Med</code> <code>560</code> <a href="https://leetcode.com/problems/subarray-sum-equals-k/"><code>Subarray Sum Equals K</code></a><br><code>Med</code> <code>1448</code> <a href="https://leetcode.com/problems/count-good-nodes-in-binary-tree/"><code>Count Good Nodes in Binary Tree</code></a></td>
-<td align="left"><code>Array丨2</code> <code>Binary Tree丨2</code> <code>Depth-First Search丨2</code> <code>Tree丨2</code> …</td>
+<td align="left"><code>Med</code> <code>437</code> <a href="https://leetcode.com/problems/path-sum-iii/"><code>Path Sum III</code></a><br><code>Med</code> <code>45</code> <a href="https://leetcode.com/problems/jump-game-ii/"><code>Jump Game II</code></a><br><code>Med</code> <code>560</code> <a href="https://leetcode.com/problems/subarray-sum-equals-k/"><code>Subarray Sum Equals K</code></a><br><code>Med</code> <code>1448</code> <a href="https://leetcode.com/problems/count-good-nodes-in-binary-tree/"><code>Count Good Nodes in Binary Tree</code></a><br><code>Hard</code> <code>212</code> <a href="https://leetcode.com/problems/word-search-ii/"><code>Word Search II</code></a></td>
+<td align="left"><code>Array丨3</code> <code>Binary Tree丨2</code> <code>Depth-First Search丨2</code> <code>Tree丨2</code> <code>Backtracking丨1</code> <code>Breadth-First Search丨1</code> …</td>
+</tr>
+<tr>
+<td align="left"><code>people</code></td>
+<td align="left"><code>Easy</code> <code>3875</code> <a href="https://leetcode.com/problems/construct-uniform-parity-array-i/"><code>Construct Uniform Parity Array I</code></a><br><code>Med</code> <code>835</code> <a href="https://leetcode.com/problems/image-overlap/"><code>Image Overlap</code></a><br><code>Med</code> <code>3876</code> <a href="https://leetcode.com/problems/construct-uniform-parity-array-ii/"><code>Construct Uniform Parity Array II</code></a><br><code>Med</code> <code>1386</code> <a href="https://leetcode.com/problems/cinema-seat-allocation/"><code>Cinema Seat Allocation</code></a><br><code>Hard</code> <code>1944</code> <a href="https://leetcode.com/problems/number-of-visible-people-in-a-queue/"><code>Number of Visible People in a Queue</code></a></td>
+<td align="left"><code>Array丨5</code> <code>Math丨2</code> <code>Bit Manipulation丨1</code> <code>Greedy丨1</code> <code>Hash Table丨1</code> <code>Matrix丨1</code> <code>Monotonic Stack丨1</code> …</td>
 </tr>
 <tr>
 <td align="left"><code>john</code></td>
@@ -107,11 +119,11 @@
 
 ## 🏷️ Tags, last 7 days
 
-> Easy 28 Med 84 Hard 6
+> Easy 34 Med 91 Hard 8
 
-> <code>🔢 Array丨58</code> <code>🧵 String丨38</code> <code>🧩 Dynamic Programming丨30</code> <code>🗂️ Hash Table丨23</code> <code>↔️ Two Pointers丨18</code> <code>🤑 Greedy丨16</code> <code>🤿 Depth-First Search丨11</code> <code>🥞 Stack丨11</code> <code>📶 Sorting丨10</code> <code>🔗 Linked List丨9</code> <code>➕ Prefix Sum丨9</code> <code>🔍 Binary Search丨8</code> <code>🌊 Breadth-First Search丨8</code> <code>➗ Math丨8</code> <code>🎒 Knapsack Problem丨7</code> <code>🧇 Matrix丨7</code> <code>🌲 Binary Tree丨6</code> <code>🌳 Tree丨6</code> <code>↩️ Backtracking丨5</code> <code>🏗️ Design丨5</code> <code>🧬 Longest Common Subsequence丨5</code> <code>⚪ Complete Knapsack丨4</code> <code>🧮 Counting丨4</code> <code>🧱 Monotonic Stack丨4</code> <code>🔁 Recursion丨4</code> <code>⚪ Floyd&#x27;s Cycle Finding Algorithm丨3</code> <code>⛰️ Heap (Priority Queue)丨3</code> <code>🪟 Sliding Window丨3</code> <code>🌿 Trie丨3</code> <code>🧳 0-1 Knapsack丨2</code> <code>⚪ Brute-Force Search丨2</code> <code>📋 Enumeration丨2</code> <code>🕸️ Graph Theory丨2</code> <code>🗒️ Memoization丨2</code> <code>🎮 Simulation丨2</code> <code>🤝 Union-Find丨2</code> <code>✖️ Algorithm X</code> <code>⚪ Binary Lifting</code> <code>🎄 Binary Search Tree</code> <code>🎛️ Bit Manipulation</code> <code>⚪ Boyer–Moore String-Search Algorithm</code> <code>⚪ Bubble Sort</code> <code>🎰 Combinatorics</code> <code>🚰 Data Stream</code> <code>🗄️ Database</code> <code>⚪ Dijkstra&#x27;s Algorithm</code> <code>⛓️ Doubly-Linked List</code> <code>📐 Geometry</code> <code>⚪ Knuth–Morris–Pratt Algorithm</code> <code>⚪ Longest Increasing Subsequence</code> <code>⚪ Lowest Common Ancestor</code> <code>⚪ Mixed Knapsack</code> <code>⚪ Pigeonhole Principle</code> <code>⚪ Polygons</code> <code>🎟️ Queue</code> <code>⚪ Quicksort</code> <code>🛣️ Shortest Path</code> <code>🔎 String Matching</code> <code>⚪ Z Algorithm</code>
+> <code>🔢 Array丨73</code> <code>🧵 String丨39</code> <code>🧩 Dynamic Programming丨30</code> <code>🗂️ Hash Table丨28</code> <code>↔️ Two Pointers丨18</code> <code>🤑 Greedy丨17</code> <code>📶 Sorting丨12</code> <code>🥞 Stack丨12</code> <code>🤿 Depth-First Search丨11</code> <code>➗ Math丨11</code> <code>🧇 Matrix丨11</code> <code>🔍 Binary Search丨10</code> <code>🌊 Breadth-First Search丨9</code> <code>🔗 Linked List丨9</code> <code>➕ Prefix Sum丨9</code> <code>🎒 Knapsack Problem丨7</code> <code>↩️ Backtracking丨6</code> <code>🌲 Binary Tree丨6</code> <code>🌳 Tree丨6</code> <code>🏗️ Design丨5</code> <code>🧬 Longest Common Subsequence丨5</code> <code>🧱 Monotonic Stack丨5</code> <code>🔁 Recursion丨5</code> <code>🤝 Union-Find丨5</code> <code>🎛️ Bit Manipulation丨4</code> <code>⚪ Complete Knapsack丨4</code> <code>🧮 Counting丨4</code> <code>🕸️ Graph Theory丨4</code> <code>🌿 Trie丨4</code> <code>📋 Enumeration丨3</code> <code>⚪ Floyd&#x27;s Cycle Finding Algorithm丨3</code> <code>⛰️ Heap (Priority Queue)丨3</code> <code>🪟 Sliding Window丨3</code> <code>🧳 0-1 Knapsack丨2</code> <code>⚪ Brute-Force Search丨2</code> <code>🗒️ Memoization丨2</code> <code>🎮 Simulation丨2</code> <code>✖️ Algorithm X</code> <code>⚪ Binary Lifting</code> <code>🎄 Binary Search Tree</code> <code>⚪ Borůvka&#x27;s Algorithm</code> <code>⚪ Boyer–Moore String-Search Algorithm</code> <code>⚪ Bubble Sort</code> <code>🎰 Combinatorics</code> <code>🚰 Data Stream</code> <code>🗄️ Database</code> <code>⚪ Dijkstra&#x27;s Algorithm</code> <code>⛓️ Doubly-Linked List</code> <code>📐 Geometry</code> <code>⚪ Knuth–Morris–Pratt Algorithm</code> <code>⚪ Kruskal&#x27;s Algorithm</code> <code>⚪ Longest Increasing Subsequence</code> <code>⚪ Lowest Common Ancestor</code> <code>🌉 Minimum Spanning Tree</code> <code>⚪ Mixed Knapsack</code> <code>⚪ Pigeonhole Principle</code> <code>⚪ Polygons</code> <code>⚪ Prim&#x27;s Algorithm</code> <code>🎟️ Queue</code> <code>⚪ Quicksort</code> <code>🛣️ Shortest Path</code> <code>🔎 String Matching</code> <code>⚪ Z Algorithm</code>
 
-<sub>🕒 Updated 2026-09-14 16:57 (America/Los_Angeles) · 16 day(s) of history · ⏱️ 30% of hourly runs landed</sub>
+<sub>🕒 Updated 2026-09-14 22:13 (America/Los_Angeles) · 16 day(s) of history · ⏱️ 31% of hourly runs landed</sub>
 
 <!-- LEADERBOARD:END -->
 
