@@ -129,6 +129,14 @@
       "Monotonic Stack"
     ]
   },
+  "best-sightseeing-pair": {
+    "difficulty": "Medium",
+    "frontend_id": "1014",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
   "best-time-to-buy-and-sell-stock": {
     "difficulty": "Easy",
     "frontend_id": "121",
@@ -220,6 +228,14 @@
       "Greedy"
     ]
   },
+  "burst-balloons": {
+    "difficulty": "Hard",
+    "frontend_id": "312",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
   "capitalize-the-title": {
     "difficulty": "Easy",
     "frontend_id": "2129",
@@ -271,6 +287,13 @@
     "frontend_id": "3622",
     "tags": [
       "Math"
+    ]
+  },
+  "check-if-array-is-sorted-and-rotated": {
+    "difficulty": "Easy",
+    "frontend_id": "1752",
+    "tags": [
+      "Array"
     ]
   },
   "check-knight-tour-configuration": {
@@ -377,6 +400,14 @@
     "tags": [
       "Array",
       "Backtracking"
+    ]
+  },
+  "combination-sum-iv": {
+    "difficulty": "Medium",
+    "frontend_id": "377",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
     ]
   },
   "combinations": {
@@ -504,6 +535,13 @@
     "tags": [
       "Array",
       "Prefix Sum"
+    ]
+  },
+  "count-and-say": {
+    "difficulty": "Medium",
+    "frontend_id": "38",
+    "tags": [
+      "String"
     ]
   },
   "count-commas-in-range": {
@@ -1041,6 +1079,16 @@
       "Backtracking"
     ]
   },
+  "first-unique-character-in-a-string": {
+    "difficulty": "Easy",
+    "frontend_id": "387",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Queue",
+      "Counting"
+    ]
+  },
   "frequency-of-the-most-frequent-element": {
     "difficulty": "Medium",
     "tags": [
@@ -1184,6 +1232,17 @@
       "Tree",
       "Binary Search Tree",
       "Binary Tree"
+    ]
+  },
+  "intersection-of-two-arrays": {
+    "difficulty": "Easy",
+    "frontend_id": "349",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "Binary Search",
+      "Sorting"
     ]
   },
   "interval-list-intersections": {
@@ -1625,6 +1684,13 @@
       "Greedy",
       "Sorting",
       "Monotonic Stack"
+    ]
+  },
+  "max-consecutive-ones": {
+    "difficulty": "Easy",
+    "frontend_id": "485",
+    "tags": [
+      "Array"
     ]
   },
   "max-increase-to-keep-city-skyline": {
@@ -2269,6 +2335,14 @@
       "Sorting"
     ]
   },
+  "nth-digit": {
+    "difficulty": "Medium",
+    "frontend_id": "400",
+    "tags": [
+      "Math",
+      "Binary Search"
+    ]
+  },
   "number-complement": {
     "difficulty": "Easy",
     "frontend_id": "476",
@@ -2561,6 +2635,15 @@
       "Sorting"
     ]
   },
+  "ransom-note": {
+    "difficulty": "Easy",
+    "frontend_id": "383",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ]
+  },
   "rectangle-area": {
     "difficulty": "Medium",
     "frontend_id": "223",
@@ -2597,6 +2680,15 @@
       "Union-Find",
       "Matrix",
       "Planar Graph"
+    ]
+  },
+  "regular-expression-matching": {
+    "difficulty": "Hard",
+    "frontend_id": "10",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Recursion"
     ]
   },
   "remove-all-occurrences-of-a-substring": {
@@ -2847,6 +2939,18 @@
       "Math"
     ]
   },
+  "serialize-and-deserialize-binary-tree": {
+    "difficulty": "Hard",
+    "frontend_id": "297",
+    "tags": [
+      "String",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Design",
+      "Binary Tree"
+    ]
+  },
   "shortest-bridge": {
     "difficulty": "Medium",
     "frontend_id": "934",
@@ -2984,6 +3088,18 @@
       "Backtracking"
     ]
   },
+  "stone-game": {
+    "difficulty": "Medium",
+    "frontend_id": "877",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Minimax",
+      "Game Theory",
+      "Zero-Sum Game"
+    ]
+  },
   "string-matching-in-an-array": {
     "difficulty": "Easy",
     "tags": [
@@ -2998,6 +3114,16 @@
     "tags": [
       "String",
       "Greedy"
+    ]
+  },
+  "subarray-product-less-than-k": {
+    "difficulty": "Medium",
+    "frontend_id": "713",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Sliding Window",
+      "Prefix Sum"
     ]
   },
   "subarray-sum-equals-k": {
@@ -3221,6 +3347,20 @@
       "Quickselect"
     ]
   },
+  "top-k-frequent-words": {
+    "difficulty": "Medium",
+    "frontend_id": "692",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Trie",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Bucket Sort",
+      "Counting"
+    ]
+  },
   "trapping-rain-water": {
     "difficulty": "Hard",
     "frontend_id": "42",
@@ -3420,6 +3560,19 @@
       "Trie",
       "Memoization",
       "Brute-Force Search"
+    ]
+  },
+  "word-break-ii": {
+    "difficulty": "Hard",
+    "frontend_id": "140",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Dynamic Programming",
+      "Backtracking",
+      "Trie",
+      "Memoization"
     ]
   },
   "word-ladder": {
