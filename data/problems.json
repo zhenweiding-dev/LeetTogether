@@ -1410,6 +1410,15 @@
       "Longest Common Subsequence"
     ]
   },
+  "longest-consecutive-sequence": {
+    "difficulty": "Medium",
+    "frontend_id": "128",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Union-Find"
+    ]
+  },
   "longest-continuous-increasing-subsequence": {
     "difficulty": "Easy",
     "frontend_id": "674",
@@ -1470,6 +1479,16 @@
     "tags": [
       "String",
       "Dynamic Programming"
+    ]
+  },
+  "longest-palindromic-substring": {
+    "difficulty": "Medium",
+    "frontend_id": "5",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming",
+      "Manacher"
     ]
   },
   "longest-repeating-character-replacement": {
@@ -2475,6 +2494,13 @@
       "Dynamic Programming"
     ]
   },
+  "palindrome-number": {
+    "difficulty": "Easy",
+    "frontend_id": "9",
+    "tags": [
+      "Math"
+    ]
+  },
   "palindrome-partitioning": {
     "difficulty": "Medium",
     "frontend_id": "131",
@@ -2651,6 +2677,16 @@
       "Binary Indexed Tree",
       "Segment Tree",
       "Sorting"
+    ]
+  },
+  "range-sum-query-2d-immutable": {
+    "difficulty": "Medium",
+    "frontend_id": "304",
+    "tags": [
+      "Array",
+      "Design",
+      "Matrix",
+      "Prefix Sum"
     ]
   },
   "ransom-note": {
