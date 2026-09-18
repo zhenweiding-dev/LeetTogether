@@ -1,6 +1,7 @@
 {
   "3sum": {
     "difficulty": "Medium",
+    "frontend_id": "15",
     "tags": [
       "Array",
       "Two Pointers",
@@ -726,6 +727,13 @@
       "Binary Tree"
     ]
   },
+  "delete-node-in-a-linked-list": {
+    "difficulty": "Medium",
+    "frontend_id": "237",
+    "tags": [
+      "Linked List"
+    ]
+  },
   "delete-operation-for-two-strings": {
     "difficulty": "Medium",
     "frontend_id": "583",
@@ -1235,6 +1243,15 @@
       "Trie"
     ]
   },
+  "increasing-triplet-subsequence": {
+    "difficulty": "Medium",
+    "frontend_id": "334",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Longest Increasing Subsequence"
+    ]
+  },
   "insert-into-a-binary-search-tree": {
     "difficulty": "Medium",
     "tags": [
@@ -1252,6 +1269,15 @@
       "Two Pointers",
       "Binary Search",
       "Sorting"
+    ]
+  },
+  "intersection-of-two-linked-lists": {
+    "difficulty": "Easy",
+    "frontend_id": "160",
+    "tags": [
+      "Hash Table",
+      "Linked List",
+      "Two Pointers"
     ]
   },
   "interval-list-intersections": {
@@ -1384,6 +1410,16 @@
       "Floyd's Cycle Finding Algorithm"
     ]
   },
+  "linked-list-cycle-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "142",
+    "tags": [
+      "Hash Table",
+      "Linked List",
+      "Two Pointers",
+      "Floyd's Cycle Finding Algorithm"
+    ]
+  },
   "longest-absolute-file-path": {
     "difficulty": "Medium",
     "tags": [
@@ -1471,6 +1507,15 @@
     "tags": [
       "Array",
       "Dynamic Programming"
+    ]
+  },
+  "longest-palindrome": {
+    "difficulty": "Easy",
+    "frontend_id": "409",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Greedy"
     ]
   },
   "longest-palindromic-subsequence": {
@@ -2465,6 +2510,13 @@
       "Monotonic Stack"
     ]
   },
+  "odd-even-linked-list": {
+    "difficulty": "Medium",
+    "frontend_id": "328",
+    "tags": [
+      "Linked List"
+    ]
+  },
   "ones-and-zeroes": {
     "difficulty": "Medium",
     "frontend_id": "474",
@@ -2647,6 +2699,19 @@
       "Recursion"
     ]
   },
+  "predict-the-winner": {
+    "difficulty": "Medium",
+    "frontend_id": "486",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Recursion",
+      "Minimax",
+      "Game Theory",
+      "Zero-Sum Game"
+    ]
+  },
   "product-of-the-last-k-numbers": {
     "difficulty": "Medium",
     "frontend_id": "1352",
@@ -2686,6 +2751,15 @@
       "Array",
       "Design",
       "Matrix",
+      "Prefix Sum"
+    ]
+  },
+  "range-sum-query-immutable": {
+    "difficulty": "Easy",
+    "frontend_id": "303",
+    "tags": [
+      "Array",
+      "Design",
       "Prefix Sum"
     ]
   },
@@ -2897,6 +2971,22 @@
       "Bracket Sequences"
     ]
   },
+  "reverse-vowels-of-a-string": {
+    "difficulty": "Easy",
+    "frontend_id": "345",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ]
+  },
+  "reverse-words-in-a-string": {
+    "difficulty": "Medium",
+    "frontend_id": "151",
+    "tags": [
+      "Two Pointers",
+      "String"
+    ]
+  },
   "richest-customer-wealth": {
     "difficulty": "Easy",
     "frontend_id": "1672",
@@ -2973,6 +3063,14 @@
   "search-in-rotated-sorted-array": {
     "difficulty": "Medium",
     "frontend_id": "33",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ]
+  },
+  "search-in-rotated-sorted-array-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "81",
     "tags": [
       "Array",
       "Binary Search"
@@ -3470,6 +3568,15 @@
       "Math",
       "Dynamic Programming",
       "Combinatorics"
+    ]
+  },
+  "unique-paths-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "63",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
     ]
   },
   "valid-palindrome": {
