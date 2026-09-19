@@ -1,9 +1,44 @@
 {
-  "date": "2026-09-17",
-  "fetched_at": "2026-09-18T06:32:15+00:00",
+  "date": "2026-09-18",
+  "fetched_at": "2026-09-19T06:30:24+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Best Time to Buy and Sell Stock IV",
+          "slug": "best-time-to-buy-and-sell-stock-iv",
+          "ts": 1789793943
+        },
+        {
+          "title": "Best Time to Buy and Sell Stock III",
+          "slug": "best-time-to-buy-and-sell-stock-iii",
+          "ts": 1789781010
+        },
+        {
+          "title": "Best Time to Buy and Sell Stock with Transaction Fee",
+          "slug": "best-time-to-buy-and-sell-stock-with-transaction-fee",
+          "ts": 1789779147
+        },
+        {
+          "title": "Best Time to Buy and Sell Stock with Cooldown",
+          "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
+          "ts": 1789778636
+        },
+        {
+          "title": "Best Time to Buy and Sell Stock II",
+          "slug": "best-time-to-buy-and-sell-stock-ii",
+          "ts": 1789776119
+        },
+        {
+          "title": "Best Time to Buy and Sell Stock",
+          "slug": "best-time-to-buy-and-sell-stock",
+          "ts": 1789767570
+        },
+        {
+          "title": "Integer to Roman",
+          "slug": "integer-to-roman",
+          "ts": 1789715731
+        },
         {
           "title": "Add Two Numbers",
           "slug": "add-two-numbers",
@@ -68,41 +103,6 @@
           "title": "Minimum ASCII Delete Sum for Two Strings",
           "slug": "minimum-ascii-delete-sum-for-two-strings",
           "ts": 1789073844
-        },
-        {
-          "title": "Delete Operation for Two Strings",
-          "slug": "delete-operation-for-two-strings",
-          "ts": 1789071072
-        },
-        {
-          "title": "Longest Common Subsequence",
-          "slug": "longest-common-subsequence",
-          "ts": 1789000391
-        },
-        {
-          "title": "Maximum Subarray",
-          "slug": "maximum-subarray",
-          "ts": 1788828811
-        },
-        {
-          "title": "Edit Distance",
-          "slug": "edit-distance",
-          "ts": 1788827142
-        },
-        {
-          "title": "N-Queens",
-          "slug": "n-queens",
-          "ts": 1788757436
-        },
-        {
-          "title": "Russian Doll Envelopes",
-          "slug": "russian-doll-envelopes",
-          "ts": 1788750001
-        },
-        {
-          "title": "Longest Increasing Subsequence",
-          "slug": "longest-increasing-subsequence",
-          "ts": 1788747000
         }
       ]
     },
@@ -213,6 +213,11 @@
     "m3": {
       "recent_ac": [
         {
+          "title": "Find the Duplicate Number",
+          "slug": "find-the-duplicate-number",
+          "ts": 1789787115
+        },
+        {
           "title": "Add Two Numbers",
           "slug": "add-two-numbers",
           "ts": 1789536709
@@ -306,11 +311,6 @@
           "title": "Koko Eating Bananas",
           "slug": "koko-eating-bananas",
           "ts": 1787772188
-        },
-        {
-          "title": "Search a 2D Matrix",
-          "slug": "search-a-2d-matrix",
-          "ts": 1787770753
         }
       ]
     },
@@ -421,6 +421,36 @@
     "m5": {
       "recent_ac": [
         {
+          "title": "Last Stone Weight II",
+          "slug": "last-stone-weight-ii",
+          "ts": 1789780344
+        },
+        {
+          "title": "Permutations",
+          "slug": "permutations",
+          "ts": 1789764560
+        },
+        {
+          "title": "Number of Islands",
+          "slug": "number-of-islands",
+          "ts": 1789764256
+        },
+        {
+          "title": "Inorder Successor in BST",
+          "slug": "inorder-successor-in-bst",
+          "ts": 1789763748
+        },
+        {
+          "title": "Populating Next Right Pointers in Each Node",
+          "slug": "populating-next-right-pointers-in-each-node",
+          "ts": 1789762777
+        },
+        {
+          "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+          "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+          "ts": 1789762338
+        },
+        {
           "title": "Intersection of Two Linked Lists",
           "slug": "intersection-of-two-linked-lists",
           "ts": 1789683886
@@ -489,41 +519,31 @@
           "title": "Find Peak Element",
           "slug": "find-peak-element",
           "ts": 1786889180
-        },
-        {
-          "title": "LRU Cache",
-          "slug": "lru-cache",
-          "ts": 1786715889
-        },
-        {
-          "title": "Smallest Range Covering Elements from K Lists",
-          "slug": "smallest-range-covering-elements-from-k-lists",
-          "ts": 1786712424
-        },
-        {
-          "title": "Satisfiability of Equality Equations",
-          "slug": "satisfiability-of-equality-equations",
-          "ts": 1786157423
-        },
-        {
-          "title": "Simplify Path",
-          "slug": "simplify-path",
-          "ts": 1785939857
-        },
-        {
-          "title": "Clone Graph",
-          "slug": "clone-graph",
-          "ts": 1785843840
-        },
-        {
-          "title": "Rotting Oranges",
-          "slug": "rotting-oranges",
-          "ts": 1785839794
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Unique Paths",
+          "slug": "unique-paths",
+          "ts": 1789785010
+        },
+        {
+          "title": "Insert Interval",
+          "slug": "insert-interval",
+          "ts": 1789784514
+        },
+        {
+          "title": "Word Search II",
+          "slug": "word-search-ii",
+          "ts": 1789782530
+        },
+        {
+          "title": "Path Sum III",
+          "slug": "path-sum-iii",
+          "ts": 1789777903
+        },
         {
           "title": "Minimum Increment to Make Array Unique",
           "slug": "minimum-increment-to-make-array-unique",
@@ -603,26 +623,6 @@
           "title": "Search Insert Position",
           "slug": "search-insert-position",
           "ts": 1789491042
-        },
-        {
-          "title": "Longest Substring Without Repeating Characters",
-          "slug": "longest-substring-without-repeating-characters",
-          "ts": 1789490378
-        },
-        {
-          "title": "Combination Sum IV",
-          "slug": "combination-sum-iv",
-          "ts": 1789452400
-        },
-        {
-          "title": "Coin Change II",
-          "slug": "coin-change-ii",
-          "ts": 1789450710
-        },
-        {
-          "title": "Word Search II",
-          "slug": "word-search-ii",
-          "ts": 1789448620
         }
       ]
     },
@@ -733,6 +733,36 @@
     "m8": {
       "recent_ac": [
         {
+          "title": "Swim in Rising Water",
+          "slug": "swim-in-rising-water",
+          "ts": 1789783860
+        },
+        {
+          "title": "Longest Valid Parentheses",
+          "slug": "longest-valid-parentheses",
+          "ts": 1789766391
+        },
+        {
+          "title": "Trapping Rain Water",
+          "slug": "trapping-rain-water",
+          "ts": 1789764988
+        },
+        {
+          "title": "Largest Rectangle in Histogram",
+          "slug": "largest-rectangle-in-histogram",
+          "ts": 1789764622
+        },
+        {
+          "title": "Distinct Subsequences",
+          "slug": "distinct-subsequences",
+          "ts": 1789763163
+        },
+        {
+          "title": "Sliding Window Maximum",
+          "slug": "sliding-window-maximum",
+          "ts": 1789762289
+        },
+        {
           "title": "Group Anagrams",
           "slug": "group-anagrams",
           "ts": 1789623210
@@ -801,36 +831,6 @@
           "title": "Top K Frequent Words",
           "slug": "top-k-frequent-words",
           "ts": 1789506976
-        },
-        {
-          "title": "Count and Say",
-          "slug": "count-and-say",
-          "ts": 1789453594
-        },
-        {
-          "title": "Number of Visible People in a Queue",
-          "slug": "number-of-visible-people-in-a-queue",
-          "ts": 1789423626
-        },
-        {
-          "title": "Cinema Seat Allocation",
-          "slug": "cinema-seat-allocation",
-          "ts": 1789421888
-        },
-        {
-          "title": "Construct Uniform Parity Array II",
-          "slug": "construct-uniform-parity-array-ii",
-          "ts": 1789416978
-        },
-        {
-          "title": "Image Overlap",
-          "slug": "image-overlap",
-          "ts": 1789416096
-        },
-        {
-          "title": "Construct Uniform Parity Array I",
-          "slug": "construct-uniform-parity-array-i",
-          "ts": 1789412847
         }
       ]
     }

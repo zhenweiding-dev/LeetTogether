@@ -146,6 +146,48 @@
       "Dynamic Programming"
     ]
   },
+  "best-time-to-buy-and-sell-stock-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "122",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
+  "best-time-to-buy-and-sell-stock-iii": {
+    "difficulty": "Hard",
+    "frontend_id": "123",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  "best-time-to-buy-and-sell-stock-iv": {
+    "difficulty": "Hard",
+    "frontend_id": "188",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  "best-time-to-buy-and-sell-stock-with-cooldown": {
+    "difficulty": "Medium",
+    "frontend_id": "309",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
+  "best-time-to-buy-and-sell-stock-with-transaction-fee": {
+    "difficulty": "Medium",
+    "frontend_id": "714",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
   "binary-search": {
     "difficulty": "Easy",
     "frontend_id": "704",
@@ -430,6 +472,7 @@
   },
   "construct-binary-tree-from-preorder-and-inorder-traversal": {
     "difficulty": "Medium",
+    "frontend_id": "105",
     "tags": [
       "Array",
       "Hash Table",
@@ -1252,12 +1295,38 @@
       "Longest Increasing Subsequence"
     ]
   },
+  "inorder-successor-in-bst": {
+    "difficulty": "Medium",
+    "frontend_id": "285",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
+  "insert-interval": {
+    "difficulty": "Medium",
+    "frontend_id": "57",
+    "tags": [
+      "Array"
+    ]
+  },
   "insert-into-a-binary-search-tree": {
     "difficulty": "Medium",
     "tags": [
       "Tree",
       "Binary Search Tree",
       "Binary Tree"
+    ]
+  },
+  "integer-to-roman": {
+    "difficulty": "Medium",
+    "frontend_id": "12",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "String"
     ]
   },
   "intersection-of-two-arrays": {
@@ -1389,6 +1458,16 @@
       "Math",
       "Geometry",
       "Polygons"
+    ]
+  },
+  "last-stone-weight-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "1049",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Knapsack Problem",
+      "0-1 Knapsack"
     ]
   },
   "letter-combinations-of-a-phone-number": {
@@ -2691,6 +2770,17 @@
       "Math"
     ]
   },
+  "populating-next-right-pointers-in-each-node": {
+    "difficulty": "Medium",
+    "frontend_id": "116",
+    "tags": [
+      "Linked List",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
   "powx-n": {
     "difficulty": "Medium",
     "frontend_id": "50",
@@ -3390,6 +3480,21 @@
       "Hash Table",
       "String",
       "Sliding Window"
+    ]
+  },
+  "swim-in-rising-water": {
+    "difficulty": "Hard",
+    "frontend_id": "778",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Minimax",
+      "Heap (Priority Queue)",
+      "Matrix",
+      "Dijkstra's Algorithm"
     ]
   },
   "symmetric-tree": {
