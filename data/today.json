@@ -1,13 +1,18 @@
 {
-  "date": "2026-09-18",
-  "fetched_at": "2026-09-19T06:30:24+00:00",
+  "date": "2026-09-19",
+  "fetched_at": "2026-09-20T06:14:21+00:00",
   "members": {
     "m1": {
       "recent_ac": [
         {
+          "title": "Candy",
+          "slug": "candy",
+          "ts": 1789884732
+        },
+        {
           "title": "Best Time to Buy and Sell Stock IV",
           "slug": "best-time-to-buy-and-sell-stock-iv",
-          "ts": 1789793943
+          "ts": 1789804713
         },
         {
           "title": "Best Time to Buy and Sell Stock III",
@@ -98,16 +103,16 @@
           "title": "Longest Palindromic Subsequence",
           "slug": "longest-palindromic-subsequence",
           "ts": 1789078924
-        },
-        {
-          "title": "Minimum ASCII Delete Sum for Two Strings",
-          "slug": "minimum-ascii-delete-sum-for-two-strings",
-          "ts": 1789073844
         }
       ]
     },
     "m2": {
       "recent_ac": [
+        {
+          "title": "Exam Room",
+          "slug": "exam-room",
+          "ts": 1789863274
+        },
         {
           "title": "Design Underground System",
           "slug": "design-underground-system",
@@ -202,11 +207,6 @@
           "title": "Merge k Sorted Lists",
           "slug": "merge-k-sorted-lists",
           "ts": 1788508110
-        },
-        {
-          "title": "Majority Element",
-          "slug": "majority-element",
-          "ts": 1788504678
         }
       ]
     },
@@ -421,6 +421,16 @@
     "m5": {
       "recent_ac": [
         {
+          "title": "Word Ladder",
+          "slug": "word-ladder",
+          "ts": 1789882886
+        },
+        {
+          "title": "Path Sum II",
+          "slug": "path-sum-ii",
+          "ts": 1789857279
+        },
+        {
           "title": "Last Stone Weight II",
           "slug": "last-stone-weight-ii",
           "ts": 1789780344
@@ -509,21 +519,46 @@
           "title": "Reorganize String",
           "slug": "reorganize-string",
           "ts": 1787492109
-        },
-        {
-          "title": "Fruit Into Baskets",
-          "slug": "fruit-into-baskets",
-          "ts": 1787369909
-        },
-        {
-          "title": "Find Peak Element",
-          "slug": "find-peak-element",
-          "ts": 1786889180
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "House Robber",
+          "slug": "house-robber",
+          "ts": 1789869996
+        },
+        {
+          "title": "Partition Equal Subset Sum",
+          "slug": "partition-equal-subset-sum",
+          "ts": 1789866212
+        },
+        {
+          "title": "Minimum Path Sum",
+          "slug": "minimum-path-sum",
+          "ts": 1789864192
+        },
+        {
+          "title": "3Sum",
+          "slug": "3sum",
+          "ts": 1789860776
+        },
+        {
+          "title": "Combination Sum IV",
+          "slug": "combination-sum-iv",
+          "ts": 1789859510
+        },
+        {
+          "title": "Maximal Square",
+          "slug": "maximal-square",
+          "ts": 1789849125
+        },
+        {
+          "title": "Combination Sum IV",
+          "slug": "combination-sum-iv",
+          "ts": 1789844861
+        },
         {
           "title": "Unique Paths",
           "slug": "unique-paths",
@@ -588,41 +623,6 @@
           "title": "Binary Search",
           "slug": "binary-search",
           "ts": 1789599592
-        },
-        {
-          "title": "Valid Parentheses",
-          "slug": "valid-parentheses",
-          "ts": 1789598863
-        },
-        {
-          "title": "Binary Tree Right Side View",
-          "slug": "binary-tree-right-side-view",
-          "ts": 1789598308
-        },
-        {
-          "title": "Making A Large Island",
-          "slug": "making-a-large-island",
-          "ts": 1789597349
-        },
-        {
-          "title": "Maximal Square",
-          "slug": "maximal-square",
-          "ts": 1789519508
-        },
-        {
-          "title": "Serialize and Deserialize Binary Tree",
-          "slug": "serialize-and-deserialize-binary-tree",
-          "ts": 1789513406
-        },
-        {
-          "title": "Merge Intervals",
-          "slug": "merge-intervals",
-          "ts": 1789491771
-        },
-        {
-          "title": "Search Insert Position",
-          "slug": "search-insert-position",
-          "ts": 1789491042
         }
       ]
     },
@@ -733,6 +733,51 @@
     "m8": {
       "recent_ac": [
         {
+          "title": "Koko Eating Bananas",
+          "slug": "koko-eating-bananas",
+          "ts": 1789856298
+        },
+        {
+          "title": "House Robber",
+          "slug": "house-robber",
+          "ts": 1789855191
+        },
+        {
+          "title": "3Sum Closest",
+          "slug": "3sum-closest",
+          "ts": 1789854786
+        },
+        {
+          "title": "Fruit Into Baskets",
+          "slug": "fruit-into-baskets",
+          "ts": 1789854283
+        },
+        {
+          "title": "Letter Combinations of a Phone Number",
+          "slug": "letter-combinations-of-a-phone-number",
+          "ts": 1789851525
+        },
+        {
+          "title": "Split Array Largest Sum",
+          "slug": "split-array-largest-sum",
+          "ts": 1789850608
+        },
+        {
+          "title": "Maximum Subarray",
+          "slug": "maximum-subarray",
+          "ts": 1789849878
+        },
+        {
+          "title": "Subarray Sum Equals K",
+          "slug": "subarray-sum-equals-k",
+          "ts": 1789848392
+        },
+        {
+          "title": "Reverse Integer",
+          "slug": "reverse-integer",
+          "ts": 1789847669
+        },
+        {
           "title": "Swim in Rising Water",
           "slug": "swim-in-rising-water",
           "ts": 1789783860
@@ -786,51 +831,6 @@
           "title": "Median of Two Sorted Arrays",
           "slug": "median-of-two-sorted-arrays",
           "ts": 1789616346
-        },
-        {
-          "title": "Palindrome Number",
-          "slug": "palindrome-number",
-          "ts": 1789616333
-        },
-        {
-          "title": "Regular Expression Matching",
-          "slug": "regular-expression-matching",
-          "ts": 1789517726
-        },
-        {
-          "title": "First Unique Character in a String",
-          "slug": "first-unique-character-in-a-string",
-          "ts": 1789515795
-        },
-        {
-          "title": "Best Sightseeing Pair",
-          "slug": "best-sightseeing-pair",
-          "ts": 1789515393
-        },
-        {
-          "title": "Making A Large Island",
-          "slug": "making-a-large-island",
-          "ts": 1789514213
-        },
-        {
-          "title": "Smallest Stable Index I",
-          "slug": "smallest-stable-index-i",
-          "ts": 1789511868
-        },
-        {
-          "title": "Burst Balloons",
-          "slug": "burst-balloons",
-          "ts": 1789511138
-        },
-        {
-          "title": "Nth Digit",
-          "slug": "nth-digit",
-          "ts": 1789507967
-        },
-        {
-          "title": "Top K Frequent Words",
-          "slug": "top-k-frequent-words",
-          "ts": 1789506976
         }
       ]
     }

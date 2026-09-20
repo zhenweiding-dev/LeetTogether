@@ -8,6 +8,15 @@
       "Sorting"
     ]
   },
+  "3sum-closest": {
+    "difficulty": "Medium",
+    "frontend_id": "16",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
   "add-two-integers": {
     "difficulty": "Easy",
     "frontend_id": "2235",
@@ -277,6 +286,14 @@
     "tags": [
       "Array",
       "Dynamic Programming"
+    ]
+  },
+  "candy": {
+    "difficulty": "Hard",
+    "frontend_id": "135",
+    "tags": [
+      "Array",
+      "Greedy"
     ]
   },
   "capitalize-the-title": {
@@ -917,6 +934,15 @@
       "Array",
       "Math",
       "Stack"
+    ]
+  },
+  "exam-room": {
+    "difficulty": "Medium",
+    "frontend_id": "855",
+    "tags": [
+      "Design",
+      "Heap (Priority Queue)",
+      "Ordered Set"
     ]
   },
   "extra-characters-in-a-string": {
@@ -3044,6 +3070,13 @@
       "Simulation"
     ]
   },
+  "reverse-integer": {
+    "difficulty": "Medium",
+    "frontend_id": "7",
+    "tags": [
+      "Math"
+    ]
+  },
   "reverse-linked-list": {
     "difficulty": "Easy",
     "frontend_id": "206",
@@ -3328,6 +3361,17 @@
       "Hash Table",
       "String",
       "Backtracking"
+    ]
+  },
+  "split-array-largest-sum": {
+    "difficulty": "Hard",
+    "frontend_id": "410",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Greedy",
+      "Prefix Sum"
     ]
   },
   "stone-game": {
