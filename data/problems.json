@@ -33,6 +33,17 @@
       "Recursion"
     ]
   },
+  "all-nodes-distance-k-in-binary-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "863",
+    "tags": [
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
   "all-paths-from-source-to-target": {
     "difficulty": "Medium",
     "frontend_id": "797",
@@ -1175,6 +1186,17 @@
       "Counting"
     ]
   },
+  "flatten-binary-tree-to-linked-list": {
+    "difficulty": "Medium",
+    "frontend_id": "114",
+    "tags": [
+      "Linked List",
+      "Stack",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
   "frequency-of-the-most-frequent-element": {
     "difficulty": "Medium",
     "tags": [
@@ -1990,6 +2012,11 @@
       "Dynamic Programming"
     ]
   },
+  "maximum-pulse-value-after-one-subarray-rotation": {
+    "difficulty": "Medium",
+    "frontend_id": "4058",
+    "tags": []
+  },
   "maximum-repeating-substring": {
     "difficulty": "Easy",
     "frontend_id": "1668",
@@ -2568,6 +2595,16 @@
       "Prefix Sum"
     ]
   },
+  "number-of-intersecting-interval-pairs-i": {
+    "difficulty": "Easy",
+    "frontend_id": "4056",
+    "tags": []
+  },
+  "number-of-intersecting-interval-pairs-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "4057",
+    "tags": []
+  },
   "number-of-islands": {
     "difficulty": "Medium",
     "frontend_id": "200",
@@ -2826,6 +2863,14 @@
       "Minimax",
       "Game Theory",
       "Zero-Sum Game"
+    ]
+  },
+  "product-of-array-except-self": {
+    "difficulty": "Medium",
+    "frontend_id": "238",
+    "tags": [
+      "Array",
+      "Prefix Sum"
     ]
   },
   "product-of-the-last-k-numbers": {
