@@ -10,7 +10,7 @@
 
 ## 🏆 Leaderboard
 
-🔥 **4/8 submitted today** · pending: kitty, cheers🍻, Glo, xiao
+🔥 **7/8 submitted today** · pending: xiao
 
 <table>
 <thead>
@@ -24,60 +24,60 @@
 </thead>
 <tbody>
 <tr>
-<td align="left">🥇 <code>people</code></td>
-<td align="center"><code>6 ✅丨21 pts</code></td>
-<td align="center"><code>41 ✅丨<b>154 pts</b></code></td>
-<td align="center"><code>💫 3</code></td>
-<td align="center"><code>░ ░ ░ ░ ░ ░ ▇ ▅ ▇ ▅ · ▅ ▇ ▅</code></td>
+<td align="left">🥇 <code>kitty</code> 🔺</td>
+<td align="center"><code>9 ✅丨37 pts</code></td>
+<td align="center"><code>30 ✅丨<b>89 pts</b></code></td>
+<td align="center"><code>✨ 1</code></td>
+<td align="center"><code>░ ░ · · · · ▇ ▇ · ▇ · · · ▇</code></td>
 </tr>
 <tr>
 <td align="left">🥈 <code>Alan</code></td>
-<td align="center"><code>5 ✅丨19 pts</code></td>
-<td align="center"><code>42 ✅丨<b>134 pts</b></code></td>
-<td align="center"><code>🌓 15</code></td>
-<td align="center"><code>▅ ▃ ▁ ▇ ▁ ▇ ▅ ▅ ▅ ▅ ▅ ▃ ▇ ▅</code></td>
+<td align="center"><code>4 ✅丨13 pts</code></td>
+<td align="center"><code>39 ✅丨<b>123 pts</b></code></td>
+<td align="center"><code>🌓 16</code></td>
+<td align="center"><code>▃ ▁ ▇ ▁ ▇ ▅ ▅ ▅ ▅ ▅ ▃ ▇ ▅ ▃</code></td>
 </tr>
 <tr>
-<td align="left">🥉 <code>Andrea</code> 🔺</td>
-<td align="center"><code>3 ✅丨7 pts</code></td>
-<td align="center"><code>17 ✅丨<b>48 pts</b></code></td>
+<td align="left">🥉 <code>people</code> 🔻</td>
+<td align="center"><code>3 ✅丨12 pts</code></td>
+<td align="center"><code>38 ✅丨<b>147 pts</b></code></td>
 <td align="center"><code>⭐ 4</code></td>
-<td align="center"><code>· · · · · · · · ▁ · ▅ ▅ ▁ ▃</code></td>
+<td align="center"><code>░ ░ ░ ░ ░ ▇ ▅ ▇ ▅ · ▅ ▇ ▅ ▃</code></td>
 </tr>
 <tr>
-<td align="left"><code>4</code> <code>john</code> 🔻</td>
+<td align="left"><code>4</code> <code>Andrea</code> 🔻</td>
+<td align="center"><code>3 ✅丨9 pts</code></td>
+<td align="center"><code>20 ✅丨<b>57 pts</b></code></td>
+<td align="center"><code>⭐ 5</code></td>
+<td align="center"><code>· · · · · · · ▁ · ▅ ▅ ▁ ▃ ▃</code></td>
+</tr>
+<tr>
+<td align="left"><code>5</code> <code>john</code> 🔻</td>
+<td align="center"><code>1 ✅丨6 pts</code></td>
+<td align="center"><code>13 ✅丨<b>55 pts</b></code></td>
+<td align="center"><code>⭐ 4</code></td>
+<td align="center"><code>▁ ▁ ▃ ▁ ▁ ▁ ▁ ▁ ▁ · ▅ ▁ ▁ ▁</code></td>
+</tr>
+<tr>
+<td align="left"><code>6</code> <code>cheers🍻</code></td>
 <td align="center"><code>1 ✅丨3 pts</code></td>
-<td align="center"><code>14 ✅丨<b>58 pts</b></code></td>
-<td align="center"><code>💫 3</code></td>
-<td align="center"><code>▁ ▁ ▁ ▃ ▁ ▁ ▁ ▁ ▁ ▁ · ▅ ▁ ▁</code></td>
-</tr>
-<tr>
-<td align="left"><code>5</code> <code>kitty</code> 🔺</td>
-<td align="center"><code>0 ✅丨0 pts</code></td>
-<td align="center"><code>30 ✅丨<b>70 pts</b></code></td>
-<td align="center"><code>😴 0</code></td>
-<td align="center"><code>░ ░ ░ · · · · ▇ ▇ · ▇ · · ·</code></td>
-</tr>
-<tr>
-<td align="left"><code>6</code> <code>cheers🍻</code> 🔻</td>
-<td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>3 ✅丨<b>9 pts</b></code></td>
 <td align="center"><code>✨ 1</code></td>
-<td align="center"><code>▁ · · · · ▁ ▁ ▁ ▁ · · · ▁ ·</code></td>
+<td align="center"><code>· · · · ▁ ▁ ▁ ▁ · · · ▁ · ▁</code></td>
 </tr>
 <tr>
 <td align="left"><code>7</code> <code>Glo</code></td>
-<td align="center"><code>0 ✅丨0 pts</code></td>
-<td align="center"><code>2 ✅丨<b>6 pts</b></code></td>
-<td align="center"><code>😴 0</code></td>
-<td align="center"><code>▁ ▁ ▁ ▁ ▁ ▁ · · ▁ · · ▁ · ·</code></td>
+<td align="center"><code>1 ✅丨3 pts</code></td>
+<td align="center"><code>3 ✅丨<b>9 pts</b></code></td>
+<td align="center"><code>✨ 1</code></td>
+<td align="center"><code>▁ ▁ ▁ ▁ ▁ · · ▁ · · ▁ · · ▁</code></td>
 </tr>
 <tr>
 <td align="left"><code>8</code> <code>xiao</code></td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>0 ✅丨<b>0 pts</b></code></td>
 <td align="center"><code>😴 0</code></td>
-<td align="center"><code>▇ ▁ ▇ ▇ ▇ ▅ · · · · · · · ·</code></td>
+<td align="center"><code>▁ ▇ ▇ ▇ ▅ · · · · · · · · ·</code></td>
 </tr>
 <tr><td colspan="5"><sub>🔥 <b>Streak</b> 😴0&nbsp; ✨1&nbsp; 💫2&nbsp; ⭐4&nbsp; 🌟6&nbsp; 🌙7&nbsp; 🌒10&nbsp; 🌓14&nbsp; 🌔20&nbsp; 🌕30&nbsp; ☀️37&nbsp; 🌈50&nbsp; 🦄100&nbsp; 👑365<br>💡 <b>Scoring</b> Easy ×1 · Med ×3 · Hard ×6 — <b>✅</b> solved, <b>pts</b> weighted points<br>📊 <b>Last 14 days</b> <code>·</code> no submission · <code>░</code> no data</sub></td></tr>
 </tbody>
@@ -95,35 +95,50 @@
 </thead>
 <tbody>
 <tr>
-<td align="left"><code>people</code></td>
-<td align="left"><code>Med</code> <code>347</code> <a href="https://leetcode.com/problems/top-k-frequent-elements/"><code>Top K Frequent Elements</code></a><br><code>Med</code> <code>238</code> <a href="https://leetcode.com/problems/product-of-array-except-self/"><code>Product of Array Except Self</code></a><br><code>Med</code> <code>122</code> <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/"><code>Best Time to Buy and Sell Stock II</code></a><br><code>Hard</code> <code>51</code> <a href="https://leetcode.com/problems/n-queens/"><code>N-Queens</code></a><br><code>Med</code> <code>33</code> <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/"><code>Search in Rotated Sorted Array</code></a><br><code>Med</code> <code>200</code> <a href="https://leetcode.com/problems/number-of-islands/"><code>Number of Islands</code></a></td>
-<td align="left"><code>Array丨6</code> <code>Algorithm X丨1</code> <code>Backtracking丨1</code> <code>Binary Search丨1</code> <code>Breadth-First Search丨1</code> <code>Bucket Sort丨1</code> <code>Counting丨1</code> …</td>
+<td align="left"><code>kitty</code></td>
+<td align="left"><code>Med</code> <code>528</code> <a href="https://leetcode.com/problems/random-pick-with-weight/"><code>Random Pick with Weight</code></a><br><code>Easy</code> <code>977</code> <a href="https://leetcode.com/problems/squares-of-a-sorted-array/"><code>Squares of a Sorted Array</code></a><br><code>Med</code> <code>131</code> <a href="https://leetcode.com/problems/palindrome-partitioning/"><code>Palindrome Partitioning</code></a><br><code>Hard</code> <code>127</code> <a href="https://leetcode.com/problems/word-ladder/"><code>Word Ladder</code></a><br><code>Med</code> <code>1559</code> <a href="https://leetcode.com/problems/detect-cycles-in-2d-grid/"><code>Detect Cycles in 2D Grid</code></a><br><code>Hard</code> <code>297</code> <a href="https://leetcode.com/problems/serialize-and-deserialize-binary-tree/"><code>Serialize and Deserialize Binary Tree</code></a><br><code>Med</code> <code>678</code> <a href="https://leetcode.com/problems/valid-parenthesis-string/"><code>Valid Parenthesis String</code></a><br><code>Hard</code> <code>778</code> <a href="https://leetcode.com/problems/swim-in-rising-water/"><code>Swim in Rising Water</code></a><br><code>Hard</code> <code>827</code> <a href="https://leetcode.com/problems/making-a-large-island/"><code>Making A Large Island</code></a></td>
+<td align="left"><code>Array丨5</code> <code>Breadth-First Search丨5</code> <code>Depth-First Search丨4</code> <code>String丨4</code> <code>Matrix丨3</code> <code>Union-Find丨3</code> <code>Binary Search丨2</code> <code>Dynamic Programming丨2</code> <code>Backtracking丨1</code> <code>Bidirectional Search丨1</code> …</td>
 </tr>
 <tr>
 <td align="left"><code>Alan</code></td>
-<td align="left"><code>Easy</code> <code>70</code> <a href="https://leetcode.com/problems/climbing-stairs/"><code>Climbing Stairs</code></a><br><code>Med</code> <code>33</code> <a href="https://leetcode.com/problems/search-in-rotated-sorted-array/"><code>Search in Rotated Sorted Array</code></a><br><code>Med</code> <code>304</code> <a href="https://leetcode.com/problems/range-sum-query-2d-immutable/"><code>Range Sum Query 2D - Immutable</code></a><br><code>Hard</code> <code>827</code> <a href="https://leetcode.com/problems/making-a-large-island/"><code>Making A Large Island</code></a><br><code>Hard</code> <code>124</code> <a href="https://leetcode.com/problems/binary-tree-maximum-path-sum/"><code>Binary Tree Maximum Path Sum</code></a></td>
-<td align="left"><code>Array丨3</code> <code>Depth-First Search丨2</code> <code>Dynamic Programming丨2</code> <code>Matrix丨2</code> <code>Binary Search丨1</code> <code>Binary Tree丨1</code> …</td>
+<td align="left"><code>Hard</code> <code>124</code> <a href="https://leetcode.com/problems/binary-tree-maximum-path-sum/"><code>Binary Tree Maximum Path Sum</code></a><br><code>Easy</code> <code>746</code> <a href="https://leetcode.com/problems/min-cost-climbing-stairs/"><code>Min Cost Climbing Stairs</code></a><br><code>Med</code> <code>81</code> <a href="https://leetcode.com/problems/search-in-rotated-sorted-array-ii/"><code>Search in Rotated Sorted Array II</code></a><br><code>Med</code> <code>981</code> <a href="https://leetcode.com/problems/time-based-key-value-store/"><code>Time Based Key-Value Store</code></a></td>
+<td align="left"><code>Array丨2</code> <code>Binary Search丨2</code> <code>Dynamic Programming丨2</code> <code>Binary Tree丨1</code> …</td>
+</tr>
+<tr>
+<td align="left"><code>people</code></td>
+<td align="left"><code>Med</code> <code>29</code> <a href="https://leetcode.com/problems/divide-two-integers/"><code>Divide Two Integers</code></a><br><code>Med</code> <code>1621</code> <a href="https://leetcode.com/problems/number-of-sets-of-k-non-overlapping-line-segments/"><code>Number of Sets of K Non-Overlapping Line Segments</code></a><br><code>Hard</code> <code>940</code> <a href="https://leetcode.com/problems/distinct-subsequences-ii/"><code>Distinct Subsequences II</code></a></td>
+<td align="left"><code>Dynamic Programming丨2</code> <code>Math丨2</code> <code>Bit Manipulation丨1</code> …</td>
 </tr>
 <tr>
 <td align="left"><code>Andrea</code></td>
-<td align="left"><code>Med</code> <code>863</code> <a href="https://leetcode.com/problems/all-nodes-distance-k-in-binary-tree/"><code>All Nodes Distance K in Binary Tree</code></a><br><code>Med</code> <code>114</code> <a href="https://leetcode.com/problems/flatten-binary-tree-to-linked-list/"><code>Flatten Binary Tree to Linked List</code></a><br><code>Easy</code> <code>111</code> <a href="https://leetcode.com/problems/minimum-depth-of-binary-tree/"><code>Minimum Depth of Binary Tree</code></a></td>
-<td align="left"><code>Binary Tree丨3</code> <code>Depth-First Search丨3</code> <code>Tree丨3</code> …</td>
+<td align="left"><code>Med</code> <code>95</code> <a href="https://leetcode.com/problems/unique-binary-search-trees-ii/"><code>Unique Binary Search Trees II</code></a><br><code>Med</code> <code>1123</code> <a href="https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/"><code>Lowest Common Ancestor of Deepest Leaves</code></a><br><code>Med</code> <code>743</code> <a href="https://leetcode.com/problems/network-delay-time/"><code>Network Delay Time</code></a></td>
+<td align="left"><code>Binary Tree丨2</code> <code>Breadth-First Search丨2</code> …</td>
 </tr>
 <tr>
 <td align="left"><code>john</code></td>
-<td align="left"><code>Med</code> <code>7</code> <a href="https://leetcode.com/problems/reverse-integer/"><code>Reverse Integer</code></a></td>
-<td align="left"><code>Math丨1</code></td>
+<td align="left"><code>Hard</code> <code>887</code> <a href="https://leetcode.com/problems/super-egg-drop/"><code>Super Egg Drop</code></a></td>
+<td align="left"><code>Binary Search丨1</code> …</td>
+</tr>
+<tr>
+<td align="left"><code>cheers🍻</code></td>
+<td align="left"><code>Med</code> <code>142</code> <a href="https://leetcode.com/problems/linked-list-cycle-ii/"><code>Linked List Cycle II</code></a></td>
+<td align="left"><code>Floyd&#x27;s Cycle Finding Algorithm丨1</code> …</td>
+</tr>
+<tr>
+<td align="left"><code>Glo</code></td>
+<td align="left"><code>Med</code> <code>981</code> <a href="https://leetcode.com/problems/time-based-key-value-store/"><code>Time Based Key-Value Store</code></a></td>
+<td align="left"><code>Binary Search丨1</code> …</td>
 </tr>
 </tbody>
 </table>
 
 ## 🏷️ Tags, last 7 days
 
-> Easy 29 Med 90 Hard 30
+> Easy 24 Med 89 Hard 33
 
-> <code>🔢 Array丨89</code> <code>🧩 Dynamic Programming丨40</code> <code>🧵 String丨35</code> <code>🗂️ Hash Table丨30</code> <code>🤿 Depth-First Search丨18</code> <code>↔️ Two Pointers丨17</code> <code>🧇 Matrix丨16</code> <code>🔍 Binary Search丨15</code> <code>🌲 Binary Tree丨14</code> <code>🌊 Breadth-First Search丨14</code> <code>➗ Math丨14</code> <code>🌳 Tree丨14</code> <code>🤑 Greedy丨11</code> <code>🔗 Linked List丨11</code> <code>↩️ Backtracking丨10</code> <code>📶 Sorting丨10</code> <code>➕ Prefix Sum丨9</code> <code>🏗️ Design丨8</code> <code>🔁 Recursion丨7</code> <code>🪟 Sliding Window丨7</code> <code>🥞 Stack丨7</code> <code>🤝 Union-Find丨7</code> <code>🧮 Counting丨6</code> <code>🌿 Trie丨6</code> <code>⛰️ Heap (Priority Queue)丨5</code> <code>⚔️ Divide and Conquer丨4</code> <code>🎛️ Bit Manipulation丨3</code> <code>🪆 Bracket Sequences丨3</code> <code>🎒 Knapsack Problem丨3</code> <code>🗒️ Memoization丨3</code> <code>♟️ Minimax丨3</code> <code>🧱 Monotonic Stack丨3</code> <code>🎟️ Queue丨3</code> <code>🧳 0-1 Knapsack丨2</code> <code>✖️ Algorithm X丨2</code> <code>🪣 Bucket Sort丨2</code> <code>⚪ Floyd&#x27;s Cycle Finding Algorithm丨2</code> <code>🎲 Game Theory丨2</code> <code>⚪ Quicksort丨2</code> <code>📏 Range Minimum/Maximum Query丨2</code> <code>⚪ Zero-Sum Game丨2</code> <code>⚪ Bidirectional Search</code> <code>🎄 Binary Search Tree</code> <code>⚪ Boyer–Moore String-Search Algorithm</code> <code>⚪ Brute-Force Search</code> <code>⚪ Bubble Sort</code> <code>🎰 Combinatorics</code> <code>⚪ Complete Knapsack</code> <code>🪵 DP on Trees</code> <code>⚪ Dijkstra&#x27;s Algorithm</code> <code>⚪ Knuth–Morris–Pratt Algorithm</code> <code>⚪ Longest Increasing Subsequence</code> <code>⚪ Manacher</code> <code>🚋 Monotonic Queue</code> <code>📚 Ordered Set</code> <code>⚪ Pigeonhole Principle</code> <code>⚡ Quickselect</code> <code>🎮 Simulation</code> <code>🔎 String Matching</code> <code>⚪ Z Algorithm</code>
+> <code>🔢 Array丨78</code> <code>🧩 Dynamic Programming丨43</code> <code>🧵 String丨36</code> <code>🗂️ Hash Table丨31</code> <code>🤿 Depth-First Search丨23</code> <code>🔍 Binary Search丨20</code> <code>🌊 Breadth-First Search丨20</code> <code>🌲 Binary Tree丨16</code> <code>🧇 Matrix丨16</code> <code>🌳 Tree丨16</code> <code>➗ Math丨15</code> <code>↔️ Two Pointers丨14</code> <code>🏗️ Design丨11</code> <code>🔗 Linked List丨11</code> <code>↩️ Backtracking丨10</code> <code>🤑 Greedy丨10</code> <code>➕ Prefix Sum丨10</code> <code>📶 Sorting丨10</code> <code>🤝 Union-Find丨10</code> <code>⛰️ Heap (Priority Queue)丨7</code> <code>🔁 Recursion丨7</code> <code>🥞 Stack丨7</code> <code>🧮 Counting丨6</code> <code>🪟 Sliding Window丨6</code> <code>🪆 Bracket Sequences丨4</code> <code>⚔️ Divide and Conquer丨4</code> <code>♟️ Minimax丨4</code> <code>🌿 Trie丨4</code> <code>🎛️ Bit Manipulation丨3</code> <code>🪵 DP on Trees丨3</code> <code>⚪ Dijkstra&#x27;s Algorithm丨3</code> <code>⚪ Floyd&#x27;s Cycle Finding Algorithm丨3</code> <code>🎟️ Queue丨3</code> <code>🧳 0-1 Knapsack丨2</code> <code>⚪ Bidirectional Search丨2</code> <code>🎄 Binary Search Tree丨2</code> <code>🪣 Bucket Sort丨2</code> <code>🎰 Combinatorics丨2</code> <code>🎲 Game Theory丨2</code> <code>🎒 Knapsack Problem丨2</code> <code>🗒️ Memoization丨2</code> <code>🧱 Monotonic Stack丨2</code> <code>📏 Range Minimum/Maximum Query丨2</code> <code>⚪ Zero-Sum Game丨2</code> <code>✖️ Algorithm X</code> <code>⚪ Binary Lifting</code> <code>🕸️ Graph Theory</code> <code>⚪ Longest Increasing Subsequence</code> <code>⚪ Lowest Common Ancestor</code> <code>⚪ Manacher</code> <code>🚋 Monotonic Queue</code> <code>📚 Ordered Set</code> <code>⚪ Pigeonhole Principle</code> <code>⚡ Quickselect</code> <code>⚪ Quicksort</code> <code>🪙 Randomized</code> <code>🛣️ Shortest Path</code>
 
-<sub>🕒 Updated 2026-09-20 22:44 (America/Los_Angeles) · 16 day(s) of history · ⏱️ 29% of hourly runs landed</sub>
+<sub>🕒 Updated 2026-09-21 23:00 (America/Los_Angeles) · 16 day(s) of history · ⏱️ 29% of hourly runs landed</sub>
 
 <!-- LEADERBOARD:END -->
 

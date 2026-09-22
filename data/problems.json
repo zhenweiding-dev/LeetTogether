@@ -849,6 +849,17 @@
       "String"
     ]
   },
+  "detect-cycles-in-2d-grid": {
+    "difficulty": "Medium",
+    "frontend_id": "1559",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ]
+  },
   "diagonal-traverse-ii": {
     "difficulty": "Medium",
     "tags": [
@@ -897,12 +908,28 @@
       "Dynamic Programming"
     ]
   },
+  "distinct-subsequences-ii": {
+    "difficulty": "Hard",
+    "frontend_id": "940",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ]
+  },
   "distribute-candies": {
     "difficulty": "Easy",
     "frontend_id": "575",
     "tags": [
       "Array",
       "Hash Table"
+    ]
+  },
+  "divide-two-integers": {
+    "difficulty": "Medium",
+    "frontend_id": "29",
+    "tags": [
+      "Math",
+      "Bit Manipulation"
     ]
   },
   "edit-distance": {
@@ -1758,6 +1785,20 @@
       "Binary Tree",
       "Binary Lifting",
       "Lowest Common Ancestor"
+    ]
+  },
+  "lowest-common-ancestor-of-deepest-leaves": {
+    "difficulty": "Medium",
+    "frontend_id": "1123",
+    "tags": [
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree",
+      "Binary Lifting",
+      "Lowest Common Ancestor",
+      "DP on Trees"
     ]
   },
   "lru-cache": {
@@ -2626,6 +2667,16 @@
       "Graph Theory"
     ]
   },
+  "number-of-sets-of-k-non-overlapping-line-segments": {
+    "difficulty": "Medium",
+    "frontend_id": "1621",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Combinatorics",
+      "Prefix Sum"
+    ]
+  },
   "number-of-sub-arrays-with-odd-sum": {
     "difficulty": "Medium",
     "tags": [
@@ -2903,6 +2954,17 @@
       "Binary Indexed Tree",
       "Segment Tree",
       "Sorting"
+    ]
+  },
+  "random-pick-with-weight": {
+    "difficulty": "Medium",
+    "frontend_id": "528",
+    "tags": [
+      "Array",
+      "Math",
+      "Binary Search",
+      "Prefix Sum",
+      "Randomized"
     ]
   },
   "range-sum-query-2d-immutable": {
@@ -3419,6 +3481,15 @@
       "Prefix Sum"
     ]
   },
+  "squares-of-a-sorted-array": {
+    "difficulty": "Easy",
+    "frontend_id": "977",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
   "stone-game": {
     "difficulty": "Medium",
     "frontend_id": "877",
@@ -3550,6 +3621,15 @@
     "tags": [
       "Array",
       "Simulation"
+    ]
+  },
+  "super-egg-drop": {
+    "difficulty": "Hard",
+    "frontend_id": "887",
+    "tags": [
+      "Math",
+      "Binary Search",
+      "Dynamic Programming"
     ]
   },
   "surrounded-regions": {
@@ -3753,6 +3833,17 @@
       "Hash Table",
       "Recursion",
       "Enumeration"
+    ]
+  },
+  "unique-binary-search-trees-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "95",
+    "tags": [
+      "Dynamic Programming",
+      "Backtracking",
+      "Tree",
+      "Binary Search Tree",
+      "Binary Tree"
     ]
   },
   "unique-paths": {

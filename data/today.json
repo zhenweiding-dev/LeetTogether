@@ -1,9 +1,14 @@
 {
-  "date": "2026-09-20",
-  "fetched_at": "2026-09-21T05:44:20+00:00",
+  "date": "2026-09-21",
+  "fetched_at": "2026-09-22T06:00:34+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Super Egg Drop",
+          "slug": "super-egg-drop",
+          "ts": 1790056457
+        },
         {
           "title": "Reverse Integer",
           "slug": "reverse-integer",
@@ -98,16 +103,16 @@
           "title": "Partition Equal Subset Sum",
           "slug": "partition-equal-subset-sum",
           "ts": 1789174654
-        },
-        {
-          "title": "Minimum Insertion Steps to Make a String Palindrome",
-          "slug": "minimum-insertion-steps-to-make-a-string-palindrome",
-          "ts": 1789081484
         }
       ]
     },
     "m2": {
       "recent_ac": [
+        {
+          "title": "Linked List Cycle II",
+          "slug": "linked-list-cycle-ii",
+          "ts": 1790027367
+        },
         {
           "title": "Exam Room",
           "slug": "exam-room",
@@ -202,16 +207,16 @@
           "title": "Group Anagrams",
           "slug": "group-anagrams",
           "ts": 1788509111
-        },
-        {
-          "title": "Merge k Sorted Lists",
-          "slug": "merge-k-sorted-lists",
-          "ts": 1788508110
         }
       ]
     },
     "m3": {
       "recent_ac": [
+        {
+          "title": "Time Based Key-Value Store",
+          "slug": "time-based-key-value-store",
+          "ts": 1790026072
+        },
         {
           "title": "Find the Duplicate Number",
           "slug": "find-the-duplicate-number",
@@ -306,11 +311,6 @@
           "title": "Find Minimum in Rotated Sorted Array",
           "slug": "find-minimum-in-rotated-sorted-array",
           "ts": 1787774258
-        },
-        {
-          "title": "Koko Eating Bananas",
-          "slug": "koko-eating-bananas",
-          "ts": 1787772188
         }
       ]
     },
@@ -421,6 +421,21 @@
     "m5": {
       "recent_ac": [
         {
+          "title": "Network Delay Time",
+          "slug": "network-delay-time",
+          "ts": 1790015069
+        },
+        {
+          "title": "Lowest Common Ancestor of Deepest Leaves",
+          "slug": "lowest-common-ancestor-of-deepest-leaves",
+          "ts": 1790009826
+        },
+        {
+          "title": "Unique Binary Search Trees II",
+          "slug": "unique-binary-search-trees-ii",
+          "ts": 1790007558
+        },
+        {
           "title": "Minimum Depth of Binary Tree",
           "slug": "minimum-depth-of-binary-tree",
           "ts": 1789960273
@@ -504,30 +519,30 @@
           "title": "Reverse Linked List",
           "slug": "reverse-linked-list",
           "ts": 1789525916
-        },
-        {
-          "title": "Group Shifted Strings",
-          "slug": "group-shifted-strings",
-          "ts": 1788676843
-        },
-        {
-          "title": "Group Anagrams",
-          "slug": "group-anagrams",
-          "ts": 1788665807
-        },
-        {
-          "title": "Rotate String",
-          "slug": "rotate-string",
-          "ts": 1788665344
         }
       ]
     },
     "m6": {
       "recent_ac": [
         {
+          "title": "Time Based Key-Value Store",
+          "slug": "time-based-key-value-store",
+          "ts": 1790033984
+        },
+        {
+          "title": "Search in Rotated Sorted Array II",
+          "slug": "search-in-rotated-sorted-array-ii",
+          "ts": 1790033020
+        },
+        {
+          "title": "Min Cost Climbing Stairs",
+          "slug": "min-cost-climbing-stairs",
+          "ts": 1790031008
+        },
+        {
           "title": "Binary Tree Maximum Path Sum",
           "slug": "binary-tree-maximum-path-sum",
-          "ts": 1789949921
+          "ts": 1790030184
         },
         {
           "title": "Making A Large Island",
@@ -608,26 +623,56 @@
           "title": "Insert Interval",
           "slug": "insert-interval",
           "ts": 1789784514
-        },
-        {
-          "title": "Word Search II",
-          "slug": "word-search-ii",
-          "ts": 1789782530
-        },
-        {
-          "title": "Path Sum III",
-          "slug": "path-sum-iii",
-          "ts": 1789777903
-        },
-        {
-          "title": "Minimum Increment to Make Array Unique",
-          "slug": "minimum-increment-to-make-array-unique",
-          "ts": 1789704261
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Making A Large Island",
+          "slug": "making-a-large-island",
+          "ts": 1790056459
+        },
+        {
+          "title": "Swim in Rising Water",
+          "slug": "swim-in-rising-water",
+          "ts": 1790027947
+        },
+        {
+          "title": "Valid Parenthesis String",
+          "slug": "valid-parenthesis-string",
+          "ts": 1790025516
+        },
+        {
+          "title": "Serialize and Deserialize Binary Tree",
+          "slug": "serialize-and-deserialize-binary-tree",
+          "ts": 1790024499
+        },
+        {
+          "title": "Detect Cycles in 2D Grid",
+          "slug": "detect-cycles-in-2d-grid",
+          "ts": 1790019573
+        },
+        {
+          "title": "Word Ladder",
+          "slug": "word-ladder",
+          "ts": 1790016926
+        },
+        {
+          "title": "Palindrome Partitioning",
+          "slug": "palindrome-partitioning",
+          "ts": 1790014512
+        },
+        {
+          "title": "Squares of a Sorted Array",
+          "slug": "squares-of-a-sorted-array",
+          "ts": 1790013211
+        },
+        {
+          "title": "Random Pick with Weight",
+          "slug": "random-pick-with-weight",
+          "ts": 1790012982
+        },
         {
           "title": "Predict the Winner",
           "slug": "predict-the-winner",
@@ -682,56 +727,26 @@
           "title": "Check if Array Is Sorted and Rotated",
           "slug": "check-if-array-is-sorted-and-rotated",
           "ts": 1789515470
-        },
-        {
-          "title": "Kids With the Greatest Number of Candies",
-          "slug": "kids-with-the-greatest-number-of-candies",
-          "ts": 1789514701
-        },
-        {
-          "title": "Stone Game",
-          "slug": "stone-game",
-          "ts": 1789510536
-        },
-        {
-          "title": "Max Consecutive Ones",
-          "slug": "max-consecutive-ones",
-          "ts": 1789509319
-        },
-        {
-          "title": "Ransom Note",
-          "slug": "ransom-note",
-          "ts": 1789508195
-        },
-        {
-          "title": "Intersection of Two Arrays",
-          "slug": "intersection-of-two-arrays",
-          "ts": 1789507975
-        },
-        {
-          "title": "Distinct Subsequences",
-          "slug": "distinct-subsequences",
-          "ts": 1789507675
-        },
-        {
-          "title": "Longest Valid Parentheses",
-          "slug": "longest-valid-parentheses",
-          "ts": 1789507149
-        },
-        {
-          "title": "Merge Two Sorted Lists",
-          "slug": "merge-two-sorted-lists",
-          "ts": 1789499602
-        },
-        {
-          "title": "Subarray Product Less Than K",
-          "slug": "subarray-product-less-than-k",
-          "ts": 1789498654
         }
       ]
     },
     "m8": {
       "recent_ac": [
+        {
+          "title": "Distinct Subsequences II",
+          "slug": "distinct-subsequences-ii",
+          "ts": 1790055400
+        },
+        {
+          "title": "Number of Sets of K Non-Overlapping Line Segments",
+          "slug": "number-of-sets-of-k-non-overlapping-line-segments",
+          "ts": 1790054572
+        },
+        {
+          "title": "Divide Two Integers",
+          "slug": "divide-two-integers",
+          "ts": 1790052432
+        },
         {
           "title": "Number of Islands",
           "slug": "number-of-islands",
@@ -816,21 +831,6 @@
           "title": "Longest Valid Parentheses",
           "slug": "longest-valid-parentheses",
           "ts": 1789766391
-        },
-        {
-          "title": "Trapping Rain Water",
-          "slug": "trapping-rain-water",
-          "ts": 1789764988
-        },
-        {
-          "title": "Largest Rectangle in Histogram",
-          "slug": "largest-rectangle-in-histogram",
-          "ts": 1789764622
-        },
-        {
-          "title": "Distinct Subsequences",
-          "slug": "distinct-subsequences",
-          "ts": 1789763163
         }
       ]
     }
