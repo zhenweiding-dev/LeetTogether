@@ -3384,6 +3384,15 @@
       "Matrix"
     ]
   },
+  "rotate-image": {
+    "difficulty": "Medium",
+    "frontend_id": "48",
+    "tags": [
+      "Array",
+      "Math",
+      "Matrix"
+    ]
+  },
   "rotate-string": {
     "difficulty": "Easy",
     "frontend_id": "796",
@@ -3709,6 +3718,13 @@
       "Array",
       "String",
       "String Matching"
+    ]
+  },
+  "string-to-integer-atoi": {
+    "difficulty": "Medium",
+    "frontend_id": "8",
+    "tags": [
+      "String"
     ]
   },
   "string-without-aaa-or-bbb": {

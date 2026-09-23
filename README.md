@@ -10,7 +10,7 @@
 
 ## 🏆 Leaderboard
 
-🔥 **5/9 submitted today** · pending: sky, Andrea, Glo, xiao
+🔥 **7/9 submitted today** · pending: Glo, xiao
 
 <table>
 <thead>
@@ -52,25 +52,25 @@
 <td align="center"><code>▁ ▃ ▁ ▁ ▁ ▁ ▁ ▁ · ▅ ▁ ▁ ▁ ▁</code></td>
 </tr>
 <tr>
-<td align="left"><code>5</code> <code>cheers🍻</code> 🔺</td>
+<td align="left"><code>5</code> <code>sky</code> 🔻</td>
+<td align="center"><code>1 ✅丨3 pts</code></td>
+<td align="center"><code>≥20 ✅丨<b>≥65 pts</b></code></td>
+<td align="center"><code>⭐ 5</code></td>
+<td align="center"><code>░ ░ ░ ░ ░ ░ ░ ░ · ▁ ▇ ▃ ▅ ▁</code></td>
+</tr>
+<tr>
+<td align="left"><code>6</code> <code>Andrea</code> 🔻</td>
+<td align="center"><code>1 ✅丨3 pts</code></td>
+<td align="center"><code>20 ✅丨<b>59 pts</b></code></td>
+<td align="center"><code>🌟 6</code></td>
+<td align="center"><code>· · · · · · ▁ · ▅ ▅ ▁ ▃ ▃ ▁</code></td>
+</tr>
+<tr>
+<td align="left"><code>7</code> <code>cheers🍻</code></td>
 <td align="center"><code>1 ✅丨3 pts</code></td>
 <td align="center"><code>4 ✅丨<b>12 pts</b></code></td>
 <td align="center"><code>💫 2</code></td>
 <td align="center"><code>· · · ▁ ▁ ▁ ▁ · · · ▁ · ▁ ▁</code></td>
-</tr>
-<tr>
-<td align="left"><code>6</code> <code>sky</code> 🔻</td>
-<td align="center"><code>0 ✅丨0 pts</code></td>
-<td align="center"><code>≥19 ✅丨<b>≥62 pts</b></code></td>
-<td align="center"><code>⭐ 4</code></td>
-<td align="center"><code>░ ░ ░ ░ ░ ░ ░ ░ · ▁ ▇ ▃ ▅ ·</code></td>
-</tr>
-<tr>
-<td align="left"><code>7</code> <code>Andrea</code> 🔻</td>
-<td align="center"><code>0 ✅丨0 pts</code></td>
-<td align="center"><code>19 ✅丨<b>56 pts</b></code></td>
-<td align="center"><code>⭐ 5</code></td>
-<td align="center"><code>· · · · · · ▁ · ▅ ▅ ▁ ▃ ▃ ·</code></td>
 </tr>
 <tr>
 <td align="left"><code>8</code> <code>Glo</code></td>
@@ -122,6 +122,16 @@
 <td align="left"><code>Binary Search丨1</code> …</td>
 </tr>
 <tr>
+<td align="left"><code>sky</code></td>
+<td align="left"><code>Med</code> <code>8</code> <a href="https://leetcode.com/problems/string-to-integer-atoi/"><code>String to Integer (atoi)</code></a></td>
+<td align="left"><code>String丨1</code></td>
+</tr>
+<tr>
+<td align="left"><code>Andrea</code></td>
+<td align="left"><code>Med</code> <code>48</code> <a href="https://leetcode.com/problems/rotate-image/"><code>Rotate Image</code></a></td>
+<td align="left"><code>Array丨1</code> <code>Math丨1</code> …</td>
+</tr>
+<tr>
 <td align="left"><code>cheers🍻</code></td>
 <td align="left"><code>Med</code> <code>92</code> <a href="https://leetcode.com/problems/reverse-linked-list-ii/"><code>Reverse Linked List II</code></a></td>
 <td align="left"><code>Linked List丨1</code></td>
@@ -131,11 +141,11 @@
 
 ## 🏷️ Tags, last 7 days
 
-> Easy 18 Med 107 Hard 34
+> Easy 18 Med 109 Hard 34
 
-> <code>🔢 Array丨83</code> <code>🧩 Dynamic Programming丨42</code> <code>🤿 Depth-First Search丨32</code> <code>🧵 String丨30</code> <code>🌊 Breadth-First Search丨28</code> <code>🗂️ Hash Table丨28</code> <code>🔍 Binary Search丨22</code> <code>🌲 Binary Tree丨21</code> <code>🌳 Tree丨21</code> <code>➗ Math丨18</code> <code>🧇 Matrix丨18</code> <code>↔️ Two Pointers丨16</code> <code>➕ Prefix Sum丨14</code> <code>⛰️ Heap (Priority Queue)丨13</code> <code>🤑 Greedy丨12</code> <code>📶 Sorting丨12</code> <code>🤝 Union-Find丨12</code> <code>🔗 Linked List丨11</code> <code>↩️ Backtracking丨10</code> <code>🏗️ Design丨9</code> <code>🪟 Sliding Window丨8</code> <code>🥞 Stack丨7</code> <code>⚪ Dijkstra&#x27;s Algorithm丨5</code> <code>🕸️ Graph Theory丨5</code> <code>🪆 Bracket Sequences丨4</code> <code>🪵 DP on Trees丨4</code> <code>⚔️ Divide and Conquer丨4</code> <code>♟️ Minimax丨4</code> <code>🎄 Binary Search Tree丨3</code> <code>🎛️ Bit Manipulation丨3</code> <code>🎰 Combinatorics丨3</code> <code>🧮 Counting丨3</code> <code>⚪ Floyd&#x27;s Cycle Finding Algorithm丨3</code> <code>🚋 Monotonic Queue丨3</code> <code>🎟️ Queue丨3</code> <code>📏 Range Minimum/Maximum Query丨3</code> <code>🔁 Recursion丨3</code> <code>🛣️ Shortest Path丨3</code> <code>🧳 0-1 Knapsack丨2</code> <code>⚪ Bidirectional Search丨2</code> <code>🎲 Game Theory丨2</code> <code>🎒 Knapsack Problem丨2</code> <code>🧱 Monotonic Stack丨2</code> <code>🪙 Randomized丨2</code> <code>🧹 Sweep Line丨2</code> <code>🌿 Trie丨2</code> <code>⚪ Zero-Sum Game丨2</code> <code>✖️ Algorithm X</code> <code>⚪ Binary Lifting</code> <code>🪣 Bucket Sort</code> <code>🗳️ Counting Sort</code> <code>🪃 Directed Acyclic Graph</code> <code>📋 Enumeration</code> <code>⚪ Longest Increasing Subsequence</code> <code>⚪ Lowest Common Ancestor</code> <code>⚪ Manacher</code> <code>🗒️ Memoization</code> <code>📚 Ordered Set</code> <code>⚪ Pigeonhole Principle</code> <code>⚡ Quickselect</code> <code>⚪ Quicksort</code> <code>🧭 Topological Sort</code>
+> <code>🔢 Array丨84</code> <code>🧩 Dynamic Programming丨42</code> <code>🤿 Depth-First Search丨32</code> <code>🧵 String丨31</code> <code>🌊 Breadth-First Search丨28</code> <code>🗂️ Hash Table丨28</code> <code>🔍 Binary Search丨22</code> <code>🌲 Binary Tree丨21</code> <code>🌳 Tree丨21</code> <code>➗ Math丨19</code> <code>🧇 Matrix丨19</code> <code>↔️ Two Pointers丨16</code> <code>➕ Prefix Sum丨14</code> <code>⛰️ Heap (Priority Queue)丨13</code> <code>🤑 Greedy丨12</code> <code>📶 Sorting丨12</code> <code>🤝 Union-Find丨12</code> <code>🔗 Linked List丨11</code> <code>↩️ Backtracking丨10</code> <code>🏗️ Design丨9</code> <code>🪟 Sliding Window丨8</code> <code>🥞 Stack丨7</code> <code>⚪ Dijkstra&#x27;s Algorithm丨5</code> <code>🕸️ Graph Theory丨5</code> <code>🪆 Bracket Sequences丨4</code> <code>🪵 DP on Trees丨4</code> <code>⚔️ Divide and Conquer丨4</code> <code>♟️ Minimax丨4</code> <code>🎄 Binary Search Tree丨3</code> <code>🎛️ Bit Manipulation丨3</code> <code>🎰 Combinatorics丨3</code> <code>🧮 Counting丨3</code> <code>⚪ Floyd&#x27;s Cycle Finding Algorithm丨3</code> <code>🚋 Monotonic Queue丨3</code> <code>🎟️ Queue丨3</code> <code>📏 Range Minimum/Maximum Query丨3</code> <code>🔁 Recursion丨3</code> <code>🛣️ Shortest Path丨3</code> <code>🧳 0-1 Knapsack丨2</code> <code>⚪ Bidirectional Search丨2</code> <code>🎲 Game Theory丨2</code> <code>🎒 Knapsack Problem丨2</code> <code>🧱 Monotonic Stack丨2</code> <code>🪙 Randomized丨2</code> <code>🧹 Sweep Line丨2</code> <code>🌿 Trie丨2</code> <code>⚪ Zero-Sum Game丨2</code> <code>✖️ Algorithm X</code> <code>⚪ Binary Lifting</code> <code>🪣 Bucket Sort</code> <code>🗳️ Counting Sort</code> <code>🪃 Directed Acyclic Graph</code> <code>📋 Enumeration</code> <code>⚪ Longest Increasing Subsequence</code> <code>⚪ Lowest Common Ancestor</code> <code>⚪ Manacher</code> <code>🗒️ Memoization</code> <code>📚 Ordered Set</code> <code>⚪ Pigeonhole Principle</code> <code>⚡ Quickselect</code> <code>⚪ Quicksort</code> <code>🧭 Topological Sort</code>
 
-<sub>🕒 Updated 2026-09-22 22:48 (America/Los_Angeles) · 16 day(s) of history · ⏱️ 29% of hourly runs landed</sub>
+<sub>🕒 Updated 2026-09-22 23:30 (America/Los_Angeles) · 16 day(s) of history · ⏱️ 29% of hourly runs landed</sub>
 
 <!-- LEADERBOARD:END -->
 

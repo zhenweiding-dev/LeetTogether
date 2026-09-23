@@ -1,6 +1,6 @@
 {
   "date": "2026-09-22",
-  "fetched_at": "2026-09-23T05:48:10+00:00",
+  "fetched_at": "2026-09-23T06:30:29+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -421,6 +421,11 @@
     "m5": {
       "recent_ac": [
         {
+          "title": "Rotate Image",
+          "slug": "rotate-image",
+          "ts": 1790143868
+        },
+        {
           "title": "Network Delay Time",
           "slug": "network-delay-time",
           "ts": 1790015069
@@ -514,11 +519,6 @@
           "title": "3Sum",
           "slug": "3sum",
           "ts": 1789663371
-        },
-        {
-          "title": "Reverse Linked List",
-          "slug": "reverse-linked-list",
-          "ts": 1789525916
         }
       ]
     },
@@ -837,6 +837,11 @@
     "m9": {
       "recent_ac": [
         {
+          "title": "String to Integer (atoi)",
+          "slug": "string-to-integer-atoi",
+          "ts": 1790145011
+        },
+        {
           "title": "Binary Tree Pruning",
           "slug": "binary-tree-pruning",
           "ts": 1790059545
@@ -930,11 +935,6 @@
           "title": "Binary Tree Cameras",
           "slug": "binary-tree-cameras",
           "ts": 1789716278
-        },
-        {
-          "title": "Lowest Common Ancestor of Deepest Leaves",
-          "slug": "lowest-common-ancestor-of-deepest-leaves",
-          "ts": 1789611379
         }
       ]
     }
