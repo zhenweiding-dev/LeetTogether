@@ -1,6 +1,6 @@
 {
-  "date": "2026-09-21",
-  "fetched_at": "2026-09-22T06:00:34+00:00",
+  "date": "2026-09-22",
+  "fetched_at": "2026-09-23T00:53:30+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -109,6 +109,16 @@
     "m2": {
       "recent_ac": [
         {
+          "title": "Reverse Linked List II",
+          "slug": "reverse-linked-list-ii",
+          "ts": 1790064449
+        },
+        {
+          "title": "Partition List",
+          "slug": "partition-list",
+          "ts": 1790057381
+        },
+        {
           "title": "Linked List Cycle II",
           "slug": "linked-list-cycle-ii",
           "ts": 1790027367
@@ -197,16 +207,6 @@
           "title": "Subtree of Another Tree",
           "slug": "subtree-of-another-tree",
           "ts": 1788558994
-        },
-        {
-          "title": "Time Based Key-Value Store",
-          "slug": "time-based-key-value-store",
-          "ts": 1788556093
-        },
-        {
-          "title": "Group Anagrams",
-          "slug": "group-anagrams",
-          "ts": 1788509111
         }
       ]
     },
@@ -629,6 +629,41 @@
     "m7": {
       "recent_ac": [
         {
+          "title": "Length of Last Word",
+          "slug": "length-of-last-word",
+          "ts": 1790120937
+        },
+        {
+          "title": "First Missing Positive",
+          "slug": "first-missing-positive",
+          "ts": 1790118033
+        },
+        {
+          "title": "Number of Strings That Appear as Substrings in Word",
+          "slug": "number-of-strings-that-appear-as-substrings-in-word",
+          "ts": 1790114020
+        },
+        {
+          "title": "Find the Highest Altitude",
+          "slug": "find-the-highest-altitude",
+          "ts": 1790113315
+        },
+        {
+          "title": "Vertical Order Traversal of a Binary Tree",
+          "slug": "vertical-order-traversal-of-a-binary-tree",
+          "ts": 1790112719
+        },
+        {
+          "title": "Interval List Intersections",
+          "slug": "interval-list-intersections",
+          "ts": 1790110034
+        },
+        {
+          "title": "Minimum Add to Make Parentheses Valid",
+          "slug": "minimum-add-to-make-parentheses-valid",
+          "ts": 1790104855
+        },
+        {
           "title": "Making A Large Island",
           "slug": "making-a-large-island",
           "ts": 1790056459
@@ -692,46 +727,51 @@
           "title": "Range Sum Query - Immutable",
           "slug": "range-sum-query-immutable",
           "ts": 1789709158
-        },
-        {
-          "title": "Delete Node in a Linked List",
-          "slug": "delete-node-in-a-linked-list",
-          "ts": 1789706163
-        },
-        {
-          "title": "Reverse Words in a String",
-          "slug": "reverse-words-in-a-string",
-          "ts": 1789705270
-        },
-        {
-          "title": "Linked List Cycle II",
-          "slug": "linked-list-cycle-ii",
-          "ts": 1789704038
-        },
-        {
-          "title": "Subsets II",
-          "slug": "subsets-ii",
-          "ts": 1789701987
-        },
-        {
-          "title": "Unique Paths II",
-          "slug": "unique-paths-ii",
-          "ts": 1789700976
-        },
-        {
-          "title": "Regular Expression Matching",
-          "slug": "regular-expression-matching",
-          "ts": 1789521529
-        },
-        {
-          "title": "Check if Array Is Sorted and Rotated",
-          "slug": "check-if-array-is-sorted-and-rotated",
-          "ts": 1789515470
         }
       ]
     },
     "m8": {
       "recent_ac": [
+        {
+          "title": "Stone Game II",
+          "slug": "stone-game-ii",
+          "ts": 1790118770
+        },
+        {
+          "title": "Sequential Digits",
+          "slug": "sequential-digits",
+          "ts": 1790117364
+        },
+        {
+          "title": "Smallest Palindromic Rearrangement I",
+          "slug": "smallest-palindromic-rearrangement-i",
+          "ts": 1790116662
+        },
+        {
+          "title": "Random Pick with Weight",
+          "slug": "random-pick-with-weight",
+          "ts": 1790115108
+        },
+        {
+          "title": "Employee Free Time",
+          "slug": "employee-free-time",
+          "ts": 1790111601
+        },
+        {
+          "title": "Shortest Subarray with Sum at Least K",
+          "slug": "shortest-subarray-with-sum-at-least-k",
+          "ts": 1790109427
+        },
+        {
+          "title": "Find the Safest Path in a Grid",
+          "slug": "find-the-safest-path-in-a-grid",
+          "ts": 1790107777
+        },
+        {
+          "title": "Maximum Number of Non-Overlapping Substrings",
+          "slug": "maximum-number-of-non-overlapping-substrings",
+          "ts": 1790057619
+        },
         {
           "title": "Distinct Subsequences II",
           "slug": "distinct-subsequences-ii",
@@ -791,46 +831,6 @@
           "title": "3Sum Closest",
           "slug": "3sum-closest",
           "ts": 1789854786
-        },
-        {
-          "title": "Fruit Into Baskets",
-          "slug": "fruit-into-baskets",
-          "ts": 1789854283
-        },
-        {
-          "title": "Letter Combinations of a Phone Number",
-          "slug": "letter-combinations-of-a-phone-number",
-          "ts": 1789851525
-        },
-        {
-          "title": "Split Array Largest Sum",
-          "slug": "split-array-largest-sum",
-          "ts": 1789850608
-        },
-        {
-          "title": "Maximum Subarray",
-          "slug": "maximum-subarray",
-          "ts": 1789849878
-        },
-        {
-          "title": "Subarray Sum Equals K",
-          "slug": "subarray-sum-equals-k",
-          "ts": 1789848392
-        },
-        {
-          "title": "Reverse Integer",
-          "slug": "reverse-integer",
-          "ts": 1789847669
-        },
-        {
-          "title": "Swim in Rising Water",
-          "slug": "swim-in-rising-water",
-          "ts": 1789783860
-        },
-        {
-          "title": "Longest Valid Parentheses",
-          "slug": "longest-valid-parentheses",
-          "ts": 1789766391
         }
       ]
     }

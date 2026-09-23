@@ -940,6 +940,16 @@
       "Dynamic Programming"
     ]
   },
+  "employee-free-time": {
+    "difficulty": "Hard",
+    "frontend_id": "759",
+    "tags": [
+      "Array",
+      "Sweep Line",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  },
   "employees-earning-more-than-their-managers": {
     "difficulty": "Easy",
     "frontend_id": "181",
@@ -1128,6 +1138,14 @@
       "Floyd's Cycle Finding Algorithm"
     ]
   },
+  "find-the-highest-altitude": {
+    "difficulty": "Easy",
+    "frontend_id": "1732",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
   "find-the-index-of-the-first-occurrence-in-a-string": {
     "difficulty": "Easy",
     "frontend_id": "28",
@@ -1183,6 +1201,18 @@
       "Sliding Window"
     ]
   },
+  "find-the-safest-path-in-a-grid": {
+    "difficulty": "Medium",
+    "frontend_id": "2812",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Heap (Priority Queue)",
+      "Matrix"
+    ]
+  },
   "find-two-non-overlapping-sub-arrays-each-with-target-sum": {
     "difficulty": "Medium",
     "tags": [
@@ -1201,6 +1231,14 @@
       "Hash Table",
       "String",
       "Backtracking"
+    ]
+  },
+  "first-missing-positive": {
+    "difficulty": "Hard",
+    "frontend_id": "41",
+    "tags": [
+      "Array",
+      "Hash Table"
     ]
   },
   "first-unique-character-in-a-string": {
@@ -1543,6 +1581,13 @@
       "Dynamic Programming",
       "Knapsack Problem",
       "0-1 Knapsack"
+    ]
+  },
+  "length-of-last-word": {
+    "difficulty": "Easy",
+    "frontend_id": "58",
+    "tags": [
+      "String"
     ]
   },
   "letter-combinations-of-a-phone-number": {
@@ -2018,6 +2063,16 @@
       "Hash Table",
       "String",
       "Sliding Window"
+    ]
+  },
+  "maximum-number-of-non-overlapping-substrings": {
+    "difficulty": "Hard",
+    "frontend_id": "1520",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Sorting"
     ]
   },
   "maximum-number-of-occurrences-of-a-substring": {
@@ -2677,6 +2732,14 @@
       "Prefix Sum"
     ]
   },
+  "number-of-strings-that-appear-as-substrings-in-word": {
+    "difficulty": "Easy",
+    "frontend_id": "1967",
+    "tags": [
+      "Array",
+      "String"
+    ]
+  },
   "number-of-sub-arrays-with-odd-sum": {
     "difficulty": "Medium",
     "tags": [
@@ -2773,6 +2836,14 @@
       "Two Pointers",
       "String",
       "Greedy"
+    ]
+  },
+  "partition-list": {
+    "difficulty": "Medium",
+    "frontend_id": "86",
+    "tags": [
+      "Linked List",
+      "Two Pointers"
     ]
   },
   "path-existence-queries-in-a-graph-i": {
@@ -3192,6 +3263,13 @@
       "Recursion"
     ]
   },
+  "reverse-linked-list-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "92",
+    "tags": [
+      "Linked List"
+    ]
+  },
   "reverse-substrings-between-each-pair-of-parentheses": {
     "difficulty": "Medium",
     "frontend_id": "1190",
@@ -3321,6 +3399,13 @@
       "Math"
     ]
   },
+  "sequential-digits": {
+    "difficulty": "Medium",
+    "frontend_id": "1291",
+    "tags": [
+      "Enumeration"
+    ]
+  },
   "serialize-and-deserialize-binary-tree": {
     "difficulty": "Hard",
     "frontend_id": "297",
@@ -3350,6 +3435,19 @@
       "Array",
       "Breadth-First Search",
       "Matrix"
+    ]
+  },
+  "shortest-subarray-with-sum-at-least-k": {
+    "difficulty": "Hard",
+    "frontend_id": "862",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Queue",
+      "Sliding Window",
+      "Heap (Priority Queue)",
+      "Prefix Sum",
+      "Monotonic Queue"
     ]
   },
   "shuffle-an-array": {
@@ -3411,6 +3509,15 @@
       "Array",
       "Hash Table",
       "Sorting"
+    ]
+  },
+  "smallest-palindromic-rearrangement-i": {
+    "difficulty": "Medium",
+    "frontend_id": "3517",
+    "tags": [
+      "String",
+      "Sorting",
+      "Counting Sort"
     ]
   },
   "smallest-range-covering-elements-from-k-lists": {
@@ -3498,6 +3605,19 @@
       "Math",
       "Dynamic Programming",
       "Minimax",
+      "Game Theory",
+      "Zero-Sum Game"
+    ]
+  },
+  "stone-game-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "1140",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Minimax",
+      "Prefix Sum",
       "Game Theory",
       "Zero-Sum Game"
     ]
@@ -3948,6 +4068,18 @@
       "Array",
       "Stack",
       "Simulation"
+    ]
+  },
+  "vertical-order-traversal-of-a-binary-tree": {
+    "difficulty": "Hard",
+    "frontend_id": "987",
+    "tags": [
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Sorting",
+      "Binary Tree"
     ]
   },
   "vowels-of-all-substrings": {
