@@ -1,9 +1,29 @@
 {
-  "date": "2026-09-22",
-  "fetched_at": "2026-09-23T06:30:29+00:00",
+  "date": "2026-09-23",
+  "fetched_at": "2026-09-23T21:30:28+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Jump Game III",
+          "slug": "jump-game-iii",
+          "ts": 1790175361
+        },
+        {
+          "title": "Jump Game II",
+          "slug": "jump-game-ii",
+          "ts": 1790170885
+        },
+        {
+          "title": "Jump Game",
+          "slug": "jump-game",
+          "ts": 1790166328
+        },
+        {
+          "title": "Burst Balloons",
+          "slug": "burst-balloons",
+          "ts": 1790163899
+        },
         {
           "title": "Super Egg Drop",
           "slug": "super-egg-drop",
@@ -83,31 +103,16 @@
           "title": "Employees Earning More Than Their Managers",
           "slug": "employees-earning-more-than-their-managers",
           "ts": 1789286412
-        },
-        {
-          "title": "Perfect Squares",
-          "slug": "perfect-squares",
-          "ts": 1789280698
-        },
-        {
-          "title": "Target Sum",
-          "slug": "target-sum",
-          "ts": 1789246632
-        },
-        {
-          "title": "Coin Change II",
-          "slug": "coin-change-ii",
-          "ts": 1789182917
-        },
-        {
-          "title": "Partition Equal Subset Sum",
-          "slug": "partition-equal-subset-sum",
-          "ts": 1789174654
         }
       ]
     },
     "m2": {
       "recent_ac": [
+        {
+          "title": "Merge k Sorted Lists",
+          "slug": "merge-k-sorted-lists",
+          "ts": 1790191689
+        },
         {
           "title": "Reverse Linked List II",
           "slug": "reverse-linked-list-ii",
@@ -202,11 +207,6 @@
           "title": "Merge Two Sorted Lists",
           "slug": "merge-two-sorted-lists",
           "ts": 1788560386
-        },
-        {
-          "title": "Subtree of Another Tree",
-          "slug": "subtree-of-another-tree",
-          "ts": 1788558994
         }
       ]
     },
@@ -525,6 +525,16 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Maximal Square",
+          "slug": "maximal-square",
+          "ts": 1790184572
+        },
+        {
+          "title": "Word Search II",
+          "slug": "word-search-ii",
+          "ts": 1790147308
+        },
+        {
           "title": "Combination Sum",
           "slug": "combination-sum",
           "ts": 1790141820
@@ -613,21 +623,21 @@
           "title": "Minimum Path Sum",
           "slug": "minimum-path-sum",
           "ts": 1789864192
-        },
-        {
-          "title": "3Sum",
-          "slug": "3sum",
-          "ts": 1789860776
-        },
-        {
-          "title": "Combination Sum IV",
-          "slug": "combination-sum-iv",
-          "ts": 1789859510
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Remove K Digits",
+          "slug": "remove-k-digits",
+          "ts": 1790198654
+        },
+        {
+          "title": "Decode String",
+          "slug": "decode-string",
+          "ts": 1790188084
+        },
         {
           "title": "Find Minimum in Rotated Sorted Array",
           "slug": "find-minimum-in-rotated-sorted-array",
@@ -717,16 +727,6 @@
           "title": "Predict the Winner",
           "slug": "predict-the-winner",
           "ts": 1789711276
-        },
-        {
-          "title": "Longest Palindrome",
-          "slug": "longest-palindrome",
-          "ts": 1789710361
-        },
-        {
-          "title": "Reverse Vowels of a String",
-          "slug": "reverse-vowels-of-a-string",
-          "ts": 1789709580
         }
       ]
     },
@@ -837,6 +837,11 @@
     "m9": {
       "recent_ac": [
         {
+          "title": "Alien Dictionary",
+          "slug": "alien-dictionary",
+          "ts": 1790146760
+        },
+        {
           "title": "String to Integer (atoi)",
           "slug": "string-to-integer-atoi",
           "ts": 1790145011
@@ -930,11 +935,6 @@
           "title": "Number of Sets of K Non-Overlapping Line Segments",
           "slug": "number-of-sets-of-k-non-overlapping-line-segments",
           "ts": 1789857112
-        },
-        {
-          "title": "Binary Tree Cameras",
-          "slug": "binary-tree-cameras",
-          "ts": 1789716278
         }
       ]
     }

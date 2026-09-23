@@ -43,6 +43,19 @@
       "Recursion"
     ]
   },
+  "alien-dictionary": {
+    "difficulty": "Hard",
+    "frontend_id": "269",
+    "tags": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort",
+      "Directed Acyclic Graph"
+    ]
+  },
   "all-nodes-distance-k-in-binary-tree": {
     "difficulty": "Medium",
     "frontend_id": "863",
@@ -806,6 +819,15 @@
       "Monotonic Stack"
     ]
   },
+  "decode-string": {
+    "difficulty": "Medium",
+    "frontend_id": "394",
+    "tags": [
+      "String",
+      "Stack",
+      "Recursion"
+    ]
+  },
   "decode-the-message": {
     "difficulty": "Easy",
     "frontend_id": "2325",
@@ -1564,6 +1586,15 @@
       "Array",
       "Dynamic Programming",
       "Greedy"
+    ]
+  },
+  "jump-game-iii": {
+    "difficulty": "Medium",
+    "frontend_id": "1306",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search"
     ]
   },
   "jump-game-vii": {
@@ -3243,6 +3274,16 @@
       "String",
       "Stack",
       "Simulation"
+    ]
+  },
+  "remove-k-digits": {
+    "difficulty": "Medium",
+    "frontend_id": "402",
+    "tags": [
+      "String",
+      "Stack",
+      "Greedy",
+      "Monotonic Stack"
     ]
   },
   "remove-nth-node-from-end-of-list": {
