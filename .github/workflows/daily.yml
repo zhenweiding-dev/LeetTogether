@@ -22,6 +22,12 @@ jobs:
     steps:
       - uses: actions/checkout@v7
         with:
+          # Resolve the branch when the job starts, not when it was triggered.
+          # `concurrency` queues runs instead of cancelling them, and GitHub
+          # delivers delayed schedules in bunches, so a queued run would
+          # otherwise check out a tip the run before it has already moved past,
+          # amend that stale commit, and have its push rejected.
+          ref: ${{ github.ref }}
           # The commit step amends the tip, which needs its parent present. The
           # default depth of 1 does not include it.
           fetch-depth: 2
