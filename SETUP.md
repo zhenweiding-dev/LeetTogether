@@ -36,6 +36,10 @@ The Action needs nothing installed — Python standard library only. Setup uses 
 [GitHub CLI](https://cli.github.com) for that one secret. Nothing for the others to
 do either: a normal LeetCode account is readable as is.
 
+GitHub drops a lot of scheduled runs, so the board can sit several hours stale. If
+that bothers you, [a more reliable schedule](#a-more-reliable-schedule) at the
+bottom swaps the trigger for an external cron.
+
 ## Reading the board
 
 | Mark | Means |
@@ -106,3 +110,43 @@ the same, and members only need read access.
   first, and one manual run brings them back.
 - `leetcode.com` only. `leetcode.cn` is a separate account system with a different
   GraphQL schema.
+
+## A more reliable schedule
+
+This repo measured 29% of its hourly runs landing, with three to five hour gaps.
+Nothing is lost unless someone solves more than 20 problems inside one gap, but
+the board sits stale. An external cron calling the `workflow_dispatch` API fixes
+it, and the workflow already accepts that trigger.
+
+1. Make a [fine-grained token](https://github.com/settings/personal-access-tokens/new):
+   one year, `Only select repositories` → this repo, and `Repository permissions
+   → Actions → Read and write`. Nothing else. It is shown once, and it never goes
+   in the repo.
+
+2. Point a cron service at the workflow every 30 minutes —
+   [cron-job.org](https://cron-job.org) is free. Method `POST`, body
+   `{"ref":"main"}`, and three headers:
+
+   ```
+   https://api.github.com/repos/OWNER/REPO/actions/workflows/daily.yml/dispatches
+   ```
+
+   | Header | Value |
+   |---|---|
+   | `Authorization` | `Bearer` + a space + the token |
+   | `Accept` | `application/vnd.github+json` |
+   | `Content-Type` | `application/json` |
+
+   Its Test run should answer `204`, and the Actions tab should get a run straight
+   away. `401` is a mistyped token; `403` or `404` is a missing permission or the
+   wrong repo. Turn on its failure notifications, and leave the workflow's own
+   `schedule` in as a backup — `ref:` on the checkout step is what stops a queued
+   run from colliding with it.
+
+The cron service stores that token in plain text. `Actions: Read and write` can
+trigger, cancel and re-run workflows and delete their logs — it cannot push code,
+read secrets or edit the workflow.
+
+The footer's hit rate climbs over the next fortnight rather than at once, and it
+will not reach 100%: it counts hours that saw a run, so twice an hour earns no
+extra credit.
