@@ -1,4 +1,14 @@
 {
+  "01-matrix": {
+    "difficulty": "Medium",
+    "frontend_id": "542",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
   "3sum": {
     "difficulty": "Medium",
     "frontend_id": "15",
@@ -225,6 +235,27 @@
       "Binary Tree"
     ]
   },
+  "binary-subarrays-with-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "930",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window",
+      "Prefix Sum"
+    ]
+  },
+  "binary-tree-cameras": {
+    "difficulty": "Hard",
+    "frontend_id": "968",
+    "tags": [
+      "Dynamic Programming",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree",
+      "DP on Trees"
+    ]
+  },
   "binary-tree-inorder-traversal": {
     "difficulty": "Easy",
     "frontend_id": "94",
@@ -261,6 +292,15 @@
       "Depth-First Search",
       "Binary Tree",
       "DP on Trees"
+    ]
+  },
+  "binary-tree-pruning": {
+    "difficulty": "Medium",
+    "frontend_id": "814",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
     ]
   },
   "binary-tree-right-side-view": {
@@ -1004,6 +1044,13 @@
       "Trie"
     ]
   },
+  "factorial-trailing-zeroes": {
+    "difficulty": "Medium",
+    "frontend_id": "172",
+    "tags": [
+      "Math"
+    ]
+  },
   "fibonacci-number": {
     "difficulty": "Easy",
     "frontend_id": "509",
@@ -1116,6 +1163,16 @@
       "Backtracking",
       "Bit Manipulation",
       "Bitmask"
+    ]
+  },
+  "find-mode-in-binary-search-tree": {
+    "difficulty": "Easy",
+    "frontend_id": "501",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
     ]
   },
   "find-peak-element": {
@@ -1479,6 +1536,16 @@
       "Hash Table",
       "String",
       "Sorting"
+    ]
+  },
+  "invert-binary-tree": {
+    "difficulty": "Easy",
+    "frontend_id": "226",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
     ]
   },
   "jump-game": {
@@ -2895,6 +2962,20 @@
       "Matrix"
     ]
   },
+  "path-with-maximum-minimum-value": {
+    "difficulty": "Medium",
+    "frontend_id": "1102",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Heap (Priority Queue)",
+      "Matrix",
+      "Dijkstra's Algorithm"
+    ]
+  },
   "path-with-minimum-effort": {
     "difficulty": "Medium",
     "frontend_id": "1631",
@@ -3665,6 +3746,16 @@
       "Prefix Sum"
     ]
   },
+  "subarrays-with-k-different-integers": {
+    "difficulty": "Hard",
+    "frontend_id": "992",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window",
+      "Counting"
+    ]
+  },
   "subdomain-visit-count": {
     "difficulty": "Medium",
     "frontend_id": "811",
@@ -4099,6 +4190,15 @@
       "Array",
       "Hash Table",
       "Simulation"
+    ]
+  },
+  "walls-and-gates": {
+    "difficulty": "Medium",
+    "frontend_id": "286",
+    "tags": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
     ]
   },
   "weighted-sum-of-a-tree": {
