@@ -27,6 +27,15 @@
       "Sorting"
     ]
   },
+  "add-strings": {
+    "difficulty": "Easy",
+    "frontend_id": "415",
+    "tags": [
+      "Math",
+      "String",
+      "Simulation"
+    ]
+  },
   "add-two-integers": {
     "difficulty": "Easy",
     "frontend_id": "2235",
@@ -1019,6 +1028,15 @@
       "Database"
     ]
   },
+  "encode-and-decode-strings": {
+    "difficulty": "Medium",
+    "frontend_id": "271",
+    "tags": [
+      "Array",
+      "String",
+      "Design"
+    ]
+  },
   "equal-sum-grid-partition-i": {
     "difficulty": "Medium",
     "frontend_id": "3546",
@@ -1053,6 +1071,14 @@
       "Design",
       "Heap (Priority Queue)",
       "Ordered Set"
+    ]
+  },
+  "exclusive-time-of-functions": {
+    "difficulty": "Medium",
+    "frontend_id": "636",
+    "tags": [
+      "Array",
+      "Stack"
     ]
   },
   "extra-characters-in-a-string": {
@@ -1205,6 +1231,14 @@
       "Binary Search"
     ]
   },
+  "find-pivot-index": {
+    "difficulty": "Easy",
+    "frontend_id": "724",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
   "find-the-duplicate-number": {
     "difficulty": "Medium",
     "frontend_id": "287",
@@ -1245,6 +1279,16 @@
       "Hash Table",
       "String",
       "Trie"
+    ]
+  },
+  "find-the-lexicographically-smallest-valid-sequence": {
+    "difficulty": "Medium",
+    "frontend_id": "3302",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming",
+      "Greedy"
     ]
   },
   "find-the-longest-equal-subarray": {
@@ -1599,11 +1643,26 @@
   },
   "jump-game-vii": {
     "difficulty": "Medium",
+    "frontend_id": "1871",
     "tags": [
       "String",
       "Dynamic Programming",
       "Sliding Window",
       "Prefix Sum"
+    ]
+  },
+  "k-closest-points-to-origin": {
+    "difficulty": "Medium",
+    "frontend_id": "973",
+    "tags": [
+      "Array",
+      "Math",
+      "Divide and Conquer",
+      "Geometry",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Quickselect",
+      "K-D Tree"
     ]
   },
   "k-th-largest-perfect-subtree-size-in-binary-tree": {
@@ -2095,6 +2154,14 @@
       "Matrix"
     ]
   },
+  "maximize-active-section-with-trade-i": {
+    "difficulty": "Medium",
+    "frontend_id": "3499",
+    "tags": [
+      "String",
+      "Enumeration"
+    ]
+  },
   "maximize-distance-to-closest-person": {
     "difficulty": "Medium",
     "frontend_id": "849",
@@ -2108,6 +2175,14 @@
       "Array",
       "Greedy",
       "Sorting"
+    ]
+  },
+  "maximum-average-subarray-i": {
+    "difficulty": "Easy",
+    "frontend_id": "643",
+    "tags": [
+      "Array",
+      "Sliding Window"
     ]
   },
   "maximum-beauty-of-an-array-after-applying-operation": {
@@ -2368,6 +2443,15 @@
       "Dynamic Programming",
       "Greedy",
       "Prefix Sum"
+    ]
+  },
+  "minimum-absolute-distance-between-mirror-pairs": {
+    "difficulty": "Medium",
+    "frontend_id": "3761",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math"
     ]
   },
   "minimum-add-to-make-parentheses-valid": {
@@ -4091,6 +4175,19 @@
       "Array",
       "Two Pointers",
       "Binary Search"
+    ]
+  },
+  "two-sum-iv-input-is-a-bst": {
+    "difficulty": "Easy",
+    "frontend_id": "653",
+    "tags": [
+      "Hash Table",
+      "Two Pointers",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
     ]
   },
   "unique-3-digit-even-numbers": {

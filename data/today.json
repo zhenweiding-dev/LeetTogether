@@ -1,9 +1,14 @@
 {
   "date": "2026-09-23",
-  "fetched_at": "2026-09-23T21:30:28+00:00",
+  "fetched_at": "2026-09-24T06:55:36+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Jump Game VII",
+          "slug": "jump-game-vii",
+          "ts": 1790203013
+        },
         {
           "title": "Jump Game III",
           "slug": "jump-game-iii",
@@ -98,11 +103,6 @@
           "title": "Minimum Falling Path Sum",
           "slug": "minimum-falling-path-sum",
           "ts": 1789362333
-        },
-        {
-          "title": "Employees Earning More Than Their Managers",
-          "slug": "employees-earning-more-than-their-managers",
-          "ts": 1789286412
         }
       ]
     },
@@ -213,6 +213,11 @@
     "m3": {
       "recent_ac": [
         {
+          "title": "Find the Duplicate Number",
+          "slug": "find-the-duplicate-number",
+          "ts": 1790231559
+        },
+        {
           "title": "Time Based Key-Value Store",
           "slug": "time-based-key-value-store",
           "ts": 1790026072
@@ -306,11 +311,6 @@
           "title": "Search in Rotated Sorted Array",
           "slug": "search-in-rotated-sorted-array",
           "ts": 1787784676
-        },
-        {
-          "title": "Find Minimum in Rotated Sorted Array",
-          "slug": "find-minimum-in-rotated-sorted-array",
-          "ts": 1787774258
         }
       ]
     },
@@ -525,6 +525,21 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "K Closest Points to Origin",
+          "slug": "k-closest-points-to-origin",
+          "ts": 1790232672
+        },
+        {
+          "title": "Minimum Path Sum",
+          "slug": "minimum-path-sum",
+          "ts": 1790230599
+        },
+        {
+          "title": "Search a 2D Matrix",
+          "slug": "search-a-2d-matrix",
+          "ts": 1790229818
+        },
+        {
           "title": "Maximal Square",
           "slug": "maximal-square",
           "ts": 1790184572
@@ -608,26 +623,51 @@
           "title": "Number of Intersecting Interval Pairs I",
           "slug": "number-of-intersecting-interval-pairs-i",
           "ts": 1789872018
-        },
-        {
-          "title": "House Robber",
-          "slug": "house-robber",
-          "ts": 1789869996
-        },
-        {
-          "title": "Partition Equal Subset Sum",
-          "slug": "partition-equal-subset-sum",
-          "ts": 1789866212
-        },
-        {
-          "title": "Minimum Path Sum",
-          "slug": "minimum-path-sum",
-          "ts": 1789864192
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Find the Lexicographically Smallest Valid Sequence",
+          "slug": "find-the-lexicographically-smallest-valid-sequence",
+          "ts": 1790230752
+        },
+        {
+          "title": "Maximize Active Section with Trade I",
+          "slug": "maximize-active-section-with-trade-i",
+          "ts": 1790226681
+        },
+        {
+          "title": "Minimum Absolute Distance Between Mirror Pairs",
+          "slug": "minimum-absolute-distance-between-mirror-pairs",
+          "ts": 1790215605
+        },
+        {
+          "title": "Find Pivot Index",
+          "slug": "find-pivot-index",
+          "ts": 1790211551
+        },
+        {
+          "title": "Two Sum IV - Input is a BST",
+          "slug": "two-sum-iv-input-is-a-bst",
+          "ts": 1790207222
+        },
+        {
+          "title": "Maximum Average Subarray I",
+          "slug": "maximum-average-subarray-i",
+          "ts": 1790206068
+        },
+        {
+          "title": "Exclusive Time of Functions",
+          "slug": "exclusive-time-of-functions",
+          "ts": 1790203891
+        },
+        {
+          "title": "Add Strings",
+          "slug": "add-strings",
+          "ts": 1790200957
+        },
         {
           "title": "Remove K Digits",
           "slug": "remove-k-digits",
@@ -687,46 +727,6 @@
           "title": "Swim in Rising Water",
           "slug": "swim-in-rising-water",
           "ts": 1790027947
-        },
-        {
-          "title": "Valid Parenthesis String",
-          "slug": "valid-parenthesis-string",
-          "ts": 1790025516
-        },
-        {
-          "title": "Serialize and Deserialize Binary Tree",
-          "slug": "serialize-and-deserialize-binary-tree",
-          "ts": 1790024499
-        },
-        {
-          "title": "Detect Cycles in 2D Grid",
-          "slug": "detect-cycles-in-2d-grid",
-          "ts": 1790019573
-        },
-        {
-          "title": "Word Ladder",
-          "slug": "word-ladder",
-          "ts": 1790016926
-        },
-        {
-          "title": "Palindrome Partitioning",
-          "slug": "palindrome-partitioning",
-          "ts": 1790014512
-        },
-        {
-          "title": "Squares of a Sorted Array",
-          "slug": "squares-of-a-sorted-array",
-          "ts": 1790013211
-        },
-        {
-          "title": "Random Pick with Weight",
-          "slug": "random-pick-with-weight",
-          "ts": 1790012982
-        },
-        {
-          "title": "Predict the Winner",
-          "slug": "predict-the-winner",
-          "ts": 1789711276
         }
       ]
     },
@@ -837,6 +837,21 @@
     "m9": {
       "recent_ac": [
         {
+          "title": "Encode and Decode Strings",
+          "slug": "encode-and-decode-strings",
+          "ts": 1790232721
+        },
+        {
+          "title": "Top K Frequent Elements",
+          "slug": "top-k-frequent-elements",
+          "ts": 1790230729
+        },
+        {
+          "title": "Group Anagrams",
+          "slug": "group-anagrams",
+          "ts": 1790229311
+        },
+        {
           "title": "Alien Dictionary",
           "slug": "alien-dictionary",
           "ts": 1790146760
@@ -920,21 +935,6 @@
           "title": "Subarrays with K Different Integers",
           "slug": "subarrays-with-k-different-integers",
           "ts": 1789875434
-        },
-        {
-          "title": "Binary Subarrays With Sum",
-          "slug": "binary-subarrays-with-sum",
-          "ts": 1789864128
-        },
-        {
-          "title": "Sliding Window Maximum",
-          "slug": "sliding-window-maximum",
-          "ts": 1789858951
-        },
-        {
-          "title": "Number of Sets of K Non-Overlapping Line Segments",
-          "slug": "number-of-sets-of-k-non-overlapping-line-segments",
-          "ts": 1789857112
         }
       ]
     }
