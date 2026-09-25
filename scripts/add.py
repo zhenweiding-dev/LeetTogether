@@ -27,19 +27,42 @@ from common import (
 )
 
 
+# A profile URL is /u/<handle> or /profile/<handle>. Anything under another
+# section is a content page, not a profile, and its first segment is not a
+# handle: looking up "problems" or "contest" would only fail after a network
+# call, where parsing can fail before one.
+CONTENT_SECTIONS = {
+    "problems",
+    "problem",
+    "contest",
+    "discuss",
+    "studyplan",
+    "solution",
+    "tag",
+    "company",
+}
+# LeetCode usernames are letters, digits, underscore and dash. Anything else is
+# a paste error; better to say so here than to fetch it and get
+# "That user does not exist."
+HANDLE_RE = re.compile(r"^[A-Za-z0-9_-]+$")
+
+
 def parse_handle(raw):
     """Extract the handle from a username or any form of profile URL."""
     s = re.sub(r"^https?://", "", raw.strip())
     s = s.split("?")[0].split("#")[0]
     if "/" not in s:
-        return s
+        return s if HANDLE_RE.match(s) else ""
 
     parts = [p for p in s.split("/") if p]
     if parts and "leetcode" in parts[0].lower():
         parts = parts[1:]  # domain
     if parts and parts[0] in ("u", "profile"):
         parts = parts[1:]  # /u/ or /profile/ prefix
-    return parts[0] if parts else ""
+    if not parts or parts[0] in CONTENT_SECTIONS:
+        return ""
+    handle = parts[0]
+    return handle if HANDLE_RE.match(handle) else ""
 
 
 def prompts(args):
