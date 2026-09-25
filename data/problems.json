@@ -1740,6 +1740,14 @@
       "0-1 Knapsack"
     ]
   },
+  "left-and-right-sum-differences": {
+    "difficulty": "Easy",
+    "frontend_id": "2574",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
   "length-of-last-word": {
     "difficulty": "Easy",
     "frontend_id": "58",
@@ -2982,6 +2990,16 @@
     "frontend_id": "576",
     "tags": [
       "Dynamic Programming"
+    ]
+  },
+  "palindrome-linked-list": {
+    "difficulty": "Easy",
+    "frontend_id": "234",
+    "tags": [
+      "Linked List",
+      "Two Pointers",
+      "Stack",
+      "Recursion"
     ]
   },
   "palindrome-number": {

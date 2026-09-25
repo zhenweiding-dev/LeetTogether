@@ -1,9 +1,14 @@
 {
-  "date": "2026-09-23",
-  "fetched_at": "2026-09-24T06:55:36+00:00",
+  "date": "2026-09-24",
+  "fetched_at": "2026-09-25T06:56:10+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Valid Palindrome",
+          "slug": "valid-palindrome",
+          "ts": 1790319139
+        },
         {
           "title": "Jump Game VII",
           "slug": "jump-game-vii",
@@ -98,16 +103,16 @@
           "title": "Distinct Subsequences",
           "slug": "distinct-subsequences",
           "ts": 1789371051
-        },
-        {
-          "title": "Minimum Falling Path Sum",
-          "slug": "minimum-falling-path-sum",
-          "ts": 1789362333
         }
       ]
     },
     "m2": {
       "recent_ac": [
+        {
+          "title": "Palindrome Linked List",
+          "slug": "palindrome-linked-list",
+          "ts": 1790316677
+        },
         {
           "title": "Merge k Sorted Lists",
           "slug": "merge-k-sorted-lists",
@@ -202,16 +207,16 @@
           "title": "Copy List with Random Pointer",
           "slug": "copy-list-with-random-pointer",
           "ts": 1788563320
-        },
-        {
-          "title": "Merge Two Sorted Lists",
-          "slug": "merge-two-sorted-lists",
-          "ts": 1788560386
         }
       ]
     },
     "m3": {
       "recent_ac": [
+        {
+          "title": "Maximum Subarray",
+          "slug": "maximum-subarray",
+          "ts": 1790316993
+        },
         {
           "title": "Find the Duplicate Number",
           "slug": "find-the-duplicate-number",
@@ -306,11 +311,6 @@
           "title": "Time Based Key-Value Store",
           "slug": "time-based-key-value-store",
           "ts": 1787791386
-        },
-        {
-          "title": "Search in Rotated Sorted Array",
-          "slug": "search-in-rotated-sorted-array",
-          "ts": 1787784676
         }
       ]
     },
@@ -421,6 +421,11 @@
     "m5": {
       "recent_ac": [
         {
+          "title": "House Robber",
+          "slug": "house-robber",
+          "ts": 1790233288
+        },
+        {
           "title": "Rotate Image",
           "slug": "rotate-image",
           "ts": 1790143868
@@ -514,16 +519,26 @@
           "title": "Longest Substring Without Repeating Characters",
           "slug": "longest-substring-without-repeating-characters",
           "ts": 1789668212
-        },
-        {
-          "title": "3Sum",
-          "slug": "3sum",
-          "ts": 1789663371
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Rotate Image",
+          "slug": "rotate-image",
+          "ts": 1790318454
+        },
+        {
+          "title": "Jump Game II",
+          "slug": "jump-game-ii",
+          "ts": 1790317415
+        },
+        {
+          "title": "Partition Equal Subset Sum",
+          "slug": "partition-equal-subset-sum",
+          "ts": 1790315780
+        },
         {
           "title": "K Closest Points to Origin",
           "slug": "k-closest-points-to-origin",
@@ -608,26 +623,21 @@
           "title": "Climbing Stairs",
           "slug": "climbing-stairs",
           "ts": 1789926662
-        },
-        {
-          "title": "Maximum Pulse Value After One Subarray Rotation",
-          "slug": "maximum-pulse-value-after-one-subarray-rotation",
-          "ts": 1789876758
-        },
-        {
-          "title": "Number of Intersecting Interval Pairs II",
-          "slug": "number-of-intersecting-interval-pairs-ii",
-          "ts": 1789872723
-        },
-        {
-          "title": "Number of Intersecting Interval Pairs I",
-          "slug": "number-of-intersecting-interval-pairs-i",
-          "ts": 1789872018
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Left and Right Sum Differences",
+          "slug": "left-and-right-sum-differences",
+          "ts": 1790292076
+        },
+        {
+          "title": "Find the Safest Path in a Grid",
+          "slug": "find-the-safest-path-in-a-grid",
+          "ts": 1790291516
+        },
         {
           "title": "Find the Lexicographically Smallest Valid Sequence",
           "slug": "find-the-lexicographically-smallest-valid-sequence",
@@ -717,16 +727,6 @@
           "title": "Minimum Add to Make Parentheses Valid",
           "slug": "minimum-add-to-make-parentheses-valid",
           "ts": 1790104855
-        },
-        {
-          "title": "Making A Large Island",
-          "slug": "making-a-large-island",
-          "ts": 1790056459
-        },
-        {
-          "title": "Swim in Rising Water",
-          "slug": "swim-in-rising-water",
-          "ts": 1790027947
         }
       ]
     },
@@ -837,6 +837,16 @@
     "m9": {
       "recent_ac": [
         {
+          "title": "Valid Palindrome",
+          "slug": "valid-palindrome",
+          "ts": 1790318348
+        },
+        {
+          "title": "Product of Array Except Self",
+          "slug": "product-of-array-except-self",
+          "ts": 1790235172
+        },
+        {
           "title": "Encode and Decode Strings",
           "slug": "encode-and-decode-strings",
           "ts": 1790232721
@@ -925,16 +935,6 @@
           "title": "Factorial Trailing Zeroes",
           "slug": "factorial-trailing-zeroes",
           "ts": 1789877803
-        },
-        {
-          "title": "Reverse Words in a String",
-          "slug": "reverse-words-in-a-string",
-          "ts": 1789876696
-        },
-        {
-          "title": "Subarrays with K Different Integers",
-          "slug": "subarrays-with-k-different-integers",
-          "ts": 1789875434
         }
       ]
     }
