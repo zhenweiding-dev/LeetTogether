@@ -90,6 +90,21 @@ drops out of the table.
 | `scripts/theme.py` | every label, emoji and threshold the board renders |
 | `scripts/board.py` | metrics and rendering |
 | `scripts/update.py` | what the Action runs |
+| `pyproject.toml` | pytest/ruff config; the Action still needs nothing installed |
+
+## Previewing and testing locally
+
+```bash
+python3 scripts/update.py --preview   # rerender from existing data: no network, no handles
+python3 -m pytest                     # offline suite: never touches the network or data files
+```
+
+`--preview` runs the same render the hourly Action does, so a `theme.py` or
+`config.json` edit shows up immediately instead of on the next run; it rewrites
+README.md, so commit the result if the change is meant to last. The tests need
+`pip install pytest` (or `pip install ".[dev]"` for pytest + ruff) and run
+against temp files with a fake LeetCode client — the streaks, deltas and hit-rate
+rules they pin down are exactly the parts that would silently regress.
 
 ## Privacy
 

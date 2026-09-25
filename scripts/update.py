@@ -1,6 +1,7 @@
 """Fetch every member's progress, roll the history window, refresh the README board.
 
     python3 scripts/update.py
+    python3 scripts/update.py --preview   # rerender from existing data only
 
 Two files, both bounded. data/history.json keeps board.RETAIN days of totals;
 data/today.json holds today's problem lists and is replaced, never appended to.
@@ -219,7 +220,27 @@ def fetch_members(cfg, handles, earlier):
     return members, failures, kept
 
 
+def preview():
+    """Rerender the README board from existing data, without network or handles.
+
+        python3 scripts/update.py --preview
+
+    The Action does exactly this render with fresh numbers every hour; the flag
+    exists so a theme.py or config.json edit can be seen immediately instead of
+    waiting for the next run — nothing is fetched and no handles are needed.
+    """
+    cfg = load_config()
+    if not cfg["members"]:
+        raise SystemExit("No members in config.json. Run `python3 scripts/add.py`.")
+    board.update_readme(cfg)
+    print("README board rewritten from existing data (nothing fetched).")
+
+
 def main():
+    if "--preview" in sys.argv:
+        preview()
+        return
+
     cfg = load_config()
     if not cfg["members"]:
         raise SystemExit("No members in config.json. Run `python3 scripts/add.py`.")
