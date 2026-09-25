@@ -599,6 +599,7 @@
   },
   "container-with-most-water": {
     "difficulty": "Medium",
+    "frontend_id": "11",
     "tags": [
       "Array",
       "Two Pointers",
@@ -1414,6 +1415,14 @@
       "Simulation"
     ]
   },
+  "gas-station": {
+    "difficulty": "Medium",
+    "frontend_id": "134",
+    "tags": [
+      "Array",
+      "Greedy"
+    ]
+  },
   "generate-parentheses": {
     "difficulty": "Medium",
     "frontend_id": "22",
@@ -1448,6 +1457,15 @@
     "tags": [
       "Array",
       "Sliding Window"
+    ]
+  },
+  "h-index": {
+    "difficulty": "Medium",
+    "frontend_id": "274",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Counting Sort"
     ]
   },
   "h-index-ii": {
@@ -1539,6 +1557,17 @@
       "Depth-First Search",
       "Binary Search Tree",
       "Binary Tree"
+    ]
+  },
+  "insert-delete-getrandom-o1": {
+    "difficulty": "Medium",
+    "frontend_id": "380",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Design",
+      "Randomized"
     ]
   },
   "insert-interval": {
@@ -2395,6 +2424,15 @@
       "Heap (Priority Queue)",
       "Merge Sort",
       "Tournament Sort"
+    ]
+  },
+  "merge-sorted-array": {
+    "difficulty": "Easy",
+    "frontend_id": "88",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
     ]
   },
   "merge-two-sorted-lists": {
@@ -3362,6 +3400,22 @@
       "Two Pointers"
     ]
   },
+  "remove-duplicates-from-sorted-array-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "80",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ]
+  },
+  "remove-element": {
+    "difficulty": "Easy",
+    "frontend_id": "27",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ]
+  },
   "remove-interval": {
     "difficulty": "Medium",
     "frontend_id": "1272",
@@ -3525,6 +3579,15 @@
     "tags": [
       "Array",
       "Matrix"
+    ]
+  },
+  "rotate-array": {
+    "difficulty": "Medium",
+    "frontend_id": "189",
+    "tags": [
+      "Array",
+      "Math",
+      "Two Pointers"
     ]
   },
   "rotate-image": {
@@ -4189,6 +4252,7 @@
   },
   "two-sum-ii-input-array-is-sorted": {
     "difficulty": "Medium",
+    "frontend_id": "167",
     "tags": [
       "Array",
       "Two Pointers",
