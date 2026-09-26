@@ -599,6 +599,7 @@
   },
   "container-with-most-water": {
     "difficulty": "Medium",
+    "frontend_id": "11",
     "tags": [
       "Array",
       "Two Pointers",
@@ -1003,6 +1004,15 @@
       "Bit Manipulation"
     ]
   },
+  "dungeon-game": {
+    "difficulty": "Hard",
+    "frontend_id": "174",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
+    ]
+  },
   "edit-distance": {
     "difficulty": "Medium",
     "frontend_id": "72",
@@ -1336,6 +1346,14 @@
       "Matrix"
     ]
   },
+  "find-the-smallest-divisor-given-a-threshold": {
+    "difficulty": "Medium",
+    "frontend_id": "1283",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ]
+  },
   "find-two-non-overlapping-sub-arrays-each-with-target-sum": {
     "difficulty": "Medium",
     "tags": [
@@ -1414,6 +1432,14 @@
       "Simulation"
     ]
   },
+  "gas-station": {
+    "difficulty": "Medium",
+    "frontend_id": "134",
+    "tags": [
+      "Array",
+      "Greedy"
+    ]
+  },
   "generate-parentheses": {
     "difficulty": "Medium",
     "frontend_id": "22",
@@ -1450,6 +1476,15 @@
       "Sliding Window"
     ]
   },
+  "h-index": {
+    "difficulty": "Medium",
+    "frontend_id": "274",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Counting Sort"
+    ]
+  },
   "h-index-ii": {
     "difficulty": "Medium",
     "frontend_id": "275",
@@ -1466,6 +1501,16 @@
       "Hash Table",
       "Greedy",
       "Sorting"
+    ]
+  },
+  "happy-number": {
+    "difficulty": "Easy",
+    "frontend_id": "202",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "Two Pointers",
+      "Floyd's Cycle Finding Algorithm"
     ]
   },
   "house-robber": {
@@ -1541,6 +1586,17 @@
       "Binary Tree"
     ]
   },
+  "insert-delete-getrandom-o1": {
+    "difficulty": "Medium",
+    "frontend_id": "380",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Design",
+      "Randomized"
+    ]
+  },
   "insert-interval": {
     "difficulty": "Medium",
     "frontend_id": "57",
@@ -1612,6 +1668,15 @@
       "Depth-First Search",
       "Breadth-First Search",
       "Binary Tree"
+    ]
+  },
+  "is-subsequence": {
+    "difficulty": "Easy",
+    "frontend_id": "392",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
     ]
   },
   "jump-game": {
@@ -2237,6 +2302,15 @@
       "Prefix Sum"
     ]
   },
+  "maximum-good-subarray-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "3026",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ]
+  },
   "maximum-length-substring-with-two-occurrences": {
     "difficulty": "Easy",
     "frontend_id": "3090",
@@ -2270,6 +2344,14 @@
       "Array",
       "Dynamic Programming",
       "Matrix"
+    ]
+  },
+  "maximum-number-of-vowels-in-a-substring-of-given-length": {
+    "difficulty": "Medium",
+    "frontend_id": "1456",
+    "tags": [
+      "String",
+      "Sliding Window"
     ]
   },
   "maximum-population-year": {
@@ -2395,6 +2477,15 @@
       "Heap (Priority Queue)",
       "Merge Sort",
       "Tournament Sort"
+    ]
+  },
+  "merge-sorted-array": {
+    "difficulty": "Easy",
+    "frontend_id": "88",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
     ]
   },
   "merge-two-sorted-lists": {
@@ -2541,6 +2632,16 @@
       "Matrix"
     ]
   },
+  "minimum-height-trees": {
+    "difficulty": "Medium",
+    "frontend_id": "310",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort"
+    ]
+  },
   "minimum-increment-to-make-array-unique": {
     "difficulty": "Medium",
     "frontend_id": "945",
@@ -2587,6 +2688,24 @@
       "Bit Manipulation",
       "Breadth-First Search",
       "Matrix"
+    ]
+  },
+  "minimum-moves-to-make-array-complementary": {
+    "difficulty": "Medium",
+    "frontend_id": "1674",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
+    ]
+  },
+  "minimum-number-of-arrows-to-burst-balloons": {
+    "difficulty": "Medium",
+    "frontend_id": "452",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
     ]
   },
   "minimum-number-of-frogs-croaking": {
@@ -2640,6 +2759,16 @@
     "frontend_id": "3364",
     "tags": [
       "Array",
+      "Sliding Window",
+      "Prefix Sum"
+    ]
+  },
+  "minimum-size-subarray-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "209",
+    "tags": [
+      "Array",
+      "Binary Search",
       "Sliding Window",
       "Prefix Sum"
     ]
@@ -3362,6 +3491,22 @@
       "Two Pointers"
     ]
   },
+  "remove-duplicates-from-sorted-array-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "80",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ]
+  },
+  "remove-element": {
+    "difficulty": "Easy",
+    "frontend_id": "27",
+    "tags": [
+      "Array",
+      "Two Pointers"
+    ]
+  },
   "remove-interval": {
     "difficulty": "Medium",
     "frontend_id": "1272",
@@ -3527,6 +3672,24 @@
       "Matrix"
     ]
   },
+  "roman-to-integer": {
+    "difficulty": "Easy",
+    "frontend_id": "13",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "String"
+    ]
+  },
+  "rotate-array": {
+    "difficulty": "Medium",
+    "frontend_id": "189",
+    "tags": [
+      "Array",
+      "Math",
+      "Two Pointers"
+    ]
+  },
   "rotate-image": {
     "difficulty": "Medium",
     "frontend_id": "48",
@@ -3551,6 +3714,14 @@
       "Array",
       "Breadth-First Search",
       "Matrix"
+    ]
+  },
+  "running-sum-of-1d-array": {
+    "difficulty": "Easy",
+    "frontend_id": "1480",
+    "tags": [
+      "Array",
+      "Prefix Sum"
     ]
   },
   "russian-doll-envelopes": {
@@ -3781,6 +3952,18 @@
       "Prefix Sum"
     ]
   },
+  "sort-characters-by-frequency": {
+    "difficulty": "Medium",
+    "frontend_id": "451",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Bucket Sort",
+      "Counting"
+    ]
+  },
   "sort-colors": {
     "difficulty": "Medium",
     "frontend_id": "75",
@@ -3853,6 +4036,14 @@
       "Prefix Sum",
       "Game Theory",
       "Zero-Sum Game"
+    ]
+  },
+  "string-compression": {
+    "difficulty": "Medium",
+    "frontend_id": "443",
+    "tags": [
+      "Two Pointers",
+      "String"
     ]
   },
   "string-matching-in-an-array": {
@@ -3991,6 +4182,13 @@
     "tags": [
       "Array",
       "Simulation"
+    ]
+  },
+  "summary-ranges": {
+    "difficulty": "Easy",
+    "frontend_id": "228",
+    "tags": [
+      "Array"
     ]
   },
   "super-egg-drop": {
@@ -4189,6 +4387,7 @@
   },
   "two-sum-ii-input-array-is-sorted": {
     "difficulty": "Medium",
+    "frontend_id": "167",
     "tags": [
       "Array",
       "Two Pointers",
@@ -4463,6 +4662,13 @@
     "tags": [
       "Array",
       "Hash Table",
+      "String"
+    ]
+  },
+  "zigzag-conversion": {
+    "difficulty": "Medium",
+    "frontend_id": "6",
+    "tags": [
       "String"
     ]
   }
