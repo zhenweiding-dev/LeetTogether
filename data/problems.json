@@ -1986,6 +1986,11 @@
       "Sorting"
     ]
   },
+  "longest-subarray-with-restricted-pair-sums": {
+    "difficulty": "Medium",
+    "frontend_id": "4067",
+    "tags": []
+  },
   "longest-substring-of-all-vowels-in-order": {
     "difficulty": "Medium",
     "tags": [
@@ -2242,6 +2247,11 @@
       "Array"
     ]
   },
+  "maximize-meeting-earnings-with-idle-gaps": {
+    "difficulty": "Hard",
+    "frontend_id": "4068",
+    "tags": []
+  },
   "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts": {
     "difficulty": "Medium",
     "tags": [
@@ -2289,6 +2299,11 @@
       "Breadth-First Search",
       "Binary Tree"
     ]
+  },
+  "maximum-equal-adjacent-pairs-after-at-most-one-replacement": {
+    "difficulty": "Medium",
+    "frontend_id": "4066",
+    "tags": []
   },
   "maximum-frequency-after-subarray-operation": {
     "difficulty": "Medium",
@@ -2954,6 +2969,16 @@
       "Dijkstra's Algorithm"
     ]
   },
+  "next-greater-element-i": {
+    "difficulty": "Easy",
+    "frontend_id": "496",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
   "non-overlapping-intervals": {
     "difficulty": "Medium",
     "frontend_id": "435",
@@ -3101,6 +3126,16 @@
       "Dynamic Programming",
       "Knapsack Problem",
       "0-1 Knapsack"
+    ]
+  },
+  "online-stock-span": {
+    "difficulty": "Medium",
+    "frontend_id": "901",
+    "tags": [
+      "Stack",
+      "Design",
+      "Monotonic Stack",
+      "Data Stream"
     ]
   },
   "open-the-lock": {
@@ -3360,6 +3395,15 @@
       "Binary Tree"
     ]
   },
+  "queens-that-can-attack-the-king": {
+    "difficulty": "Medium",
+    "frontend_id": "1222",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
+  },
   "queue-reconstruction-by-height": {
     "difficulty": "Medium",
     "frontend_id": "406",
@@ -3408,6 +3452,11 @@
       "String",
       "Counting"
     ]
+  },
+  "rearrange-array-by-removing-distinct-values": {
+    "difficulty": "Easy",
+    "frontend_id": "4065",
+    "tags": []
   },
   "rectangle-area": {
     "difficulty": "Medium",
@@ -3637,6 +3686,14 @@
     "frontend_id": "92",
     "tags": [
       "Linked List"
+    ]
+  },
+  "reverse-nodes-in-k-group": {
+    "difficulty": "Hard",
+    "frontend_id": "25",
+    "tags": [
+      "Linked List",
+      "Recursion"
     ]
   },
   "reverse-substrings-between-each-pair-of-parentheses": {
@@ -4090,6 +4147,7 @@
   },
   "subarray-sums-divisible-by-k": {
     "difficulty": "Medium",
+    "frontend_id": "974",
     "tags": [
       "Array",
       "Hash Table",

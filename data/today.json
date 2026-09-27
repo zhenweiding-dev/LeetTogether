@@ -1,9 +1,19 @@
 {
-  "date": "2026-09-25",
-  "fetched_at": "2026-09-26T06:55:25+00:00",
+  "date": "2026-09-26",
+  "fetched_at": "2026-09-27T06:55:26+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Daily Temperatures",
+          "slug": "daily-temperatures",
+          "ts": 1790456961
+        },
+        {
+          "title": "Next Greater Element I",
+          "slug": "next-greater-element-i",
+          "ts": 1790455968
+        },
         {
           "title": "Min Stack",
           "slug": "min-stack",
@@ -93,16 +103,6 @@
           "title": "Best Time to Buy and Sell Stock",
           "slug": "best-time-to-buy-and-sell-stock",
           "ts": 1789767570
-        },
-        {
-          "title": "Integer to Roman",
-          "slug": "integer-to-roman",
-          "ts": 1789715731
-        },
-        {
-          "title": "Add Two Numbers",
-          "slug": "add-two-numbers",
-          "ts": 1789621726
         }
       ]
     },
@@ -213,9 +213,24 @@
     "m3": {
       "recent_ac": [
         {
+          "title": "Reverse Nodes in k-Group",
+          "slug": "reverse-nodes-in-k-group",
+          "ts": 1790489042
+        },
+        {
+          "title": "Merge k Sorted Lists",
+          "slug": "merge-k-sorted-lists",
+          "ts": 1790488943
+        },
+        {
+          "title": "LRU Cache",
+          "slug": "lru-cache",
+          "ts": 1790478719
+        },
+        {
           "title": "Maximum Subarray",
           "slug": "maximum-subarray",
-          "ts": 1790316993
+          "ts": 1790476889
         },
         {
           "title": "Find the Duplicate Number",
@@ -296,26 +311,26 @@
           "title": "Longest Substring Without Repeating Characters",
           "slug": "longest-substring-without-repeating-characters",
           "ts": 1787983151
-        },
-        {
-          "title": "Best Time to Buy and Sell Stock",
-          "slug": "best-time-to-buy-and-sell-stock",
-          "ts": 1787903872
-        },
-        {
-          "title": "Median of Two Sorted Arrays",
-          "slug": "median-of-two-sorted-arrays",
-          "ts": 1787813157
-        },
-        {
-          "title": "Time Based Key-Value Store",
-          "slug": "time-based-key-value-store",
-          "ts": 1787791386
         }
       ]
     },
     "m4": {
       "recent_ac": [
+        {
+          "title": "Queens That Can Attack the King",
+          "slug": "queens-that-can-attack-the-king",
+          "ts": 1790490620
+        },
+        {
+          "title": "Rearrange Array by Removing Distinct Values",
+          "slug": "rearrange-array-by-removing-distinct-values",
+          "ts": 1790489684
+        },
+        {
+          "title": "Maximum Equal Adjacent Pairs After at Most One Replacement",
+          "slug": "maximum-equal-adjacent-pairs-after-at-most-one-replacement",
+          "ts": 1790489679
+        },
         {
           "title": "Linked List Cycle",
           "slug": "linked-list-cycle",
@@ -400,26 +415,16 @@
           "title": "Two Sum II - Input Array Is Sorted",
           "slug": "two-sum-ii-input-array-is-sorted",
           "ts": 1790376579
-        },
-        {
-          "title": "Is Subsequence",
-          "slug": "is-subsequence",
-          "ts": 1790376144
-        },
-        {
-          "title": "Valid Palindrome",
-          "slug": "valid-palindrome",
-          "ts": 1790375831
-        },
-        {
-          "title": "Find the Index of the First Occurrence in a String",
-          "slug": "find-the-index-of-the-first-occurrence-in-a-string",
-          "ts": 1790374331
         }
       ]
     },
     "m5": {
       "recent_ac": [
+        {
+          "title": "Reverse Nodes in k-Group",
+          "slug": "reverse-nodes-in-k-group",
+          "ts": 1790440286
+        },
         {
           "title": "Reorder List",
           "slug": "reorder-list",
@@ -514,16 +519,36 @@
           "title": "Odd Even Linked List",
           "slug": "odd-even-linked-list",
           "ts": 1789670072
-        },
-        {
-          "title": "Increasing Triplet Subsequence",
-          "slug": "increasing-triplet-subsequence",
-          "ts": 1789668786
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Word Search II",
+          "slug": "word-search-ii",
+          "ts": 1790475781
+        },
+        {
+          "title": "Largest Rectangle in Histogram",
+          "slug": "largest-rectangle-in-histogram",
+          "ts": 1790473539
+        },
+        {
+          "title": "Valid Palindrome",
+          "slug": "valid-palindrome",
+          "ts": 1790472757
+        },
+        {
+          "title": "Maximum Depth of Binary Tree",
+          "slug": "maximum-depth-of-binary-tree",
+          "ts": 1790469217
+        },
+        {
+          "title": "House Robber II",
+          "slug": "house-robber-ii",
+          "ts": 1790464307
+        },
         {
           "title": "Longest Consecutive Sequence",
           "slug": "longest-consecutive-sequence",
@@ -598,36 +623,31 @@
           "title": "House Robber II",
           "slug": "house-robber-ii",
           "ts": 1790138473
-        },
-        {
-          "title": "Time Based Key-Value Store",
-          "slug": "time-based-key-value-store",
-          "ts": 1790033984
-        },
-        {
-          "title": "Search in Rotated Sorted Array II",
-          "slug": "search-in-rotated-sorted-array-ii",
-          "ts": 1790033020
-        },
-        {
-          "title": "Min Cost Climbing Stairs",
-          "slug": "min-cost-climbing-stairs",
-          "ts": 1790031008
-        },
-        {
-          "title": "Binary Tree Maximum Path Sum",
-          "slug": "binary-tree-maximum-path-sum",
-          "ts": 1790030184
-        },
-        {
-          "title": "Making A Large Island",
-          "slug": "making-a-large-island",
-          "ts": 1789940843
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Reverse Nodes in k-Group",
+          "slug": "reverse-nodes-in-k-group",
+          "ts": 1790488332
+        },
+        {
+          "title": "Zigzag Conversion",
+          "slug": "zigzag-conversion",
+          "ts": 1790486373
+        },
+        {
+          "title": "Online Stock Span",
+          "slug": "online-stock-span",
+          "ts": 1790471474
+        },
+        {
+          "title": "Subarray Sums Divisible by K",
+          "slug": "subarray-sums-divisible-by-k",
+          "ts": 1790470916
+        },
         {
           "title": "Find the Smallest Divisor Given a Threshold",
           "slug": "find-the-smallest-divisor-given-a-threshold",
@@ -707,31 +727,31 @@
           "title": "Decode String",
           "slug": "decode-string",
           "ts": 1790188084
-        },
-        {
-          "title": "Find Minimum in Rotated Sorted Array",
-          "slug": "find-minimum-in-rotated-sorted-array",
-          "ts": 1790127293
-        },
-        {
-          "title": "Length of Last Word",
-          "slug": "length-of-last-word",
-          "ts": 1790120937
-        },
-        {
-          "title": "First Missing Positive",
-          "slug": "first-missing-positive",
-          "ts": 1790118033
-        },
-        {
-          "title": "Number of Strings That Appear as Substrings in Word",
-          "slug": "number-of-strings-that-appear-as-substrings-in-word",
-          "ts": 1790114020
         }
       ]
     },
     "m8": {
       "recent_ac": [
+        {
+          "title": "Maximize Meeting Earnings with Idle Gaps",
+          "slug": "maximize-meeting-earnings-with-idle-gaps",
+          "ts": 1790480627
+        },
+        {
+          "title": "Longest Subarray With Restricted Pair Sums",
+          "slug": "longest-subarray-with-restricted-pair-sums",
+          "ts": 1790480613
+        },
+        {
+          "title": "Maximum Equal Adjacent Pairs After at Most One Replacement",
+          "slug": "maximum-equal-adjacent-pairs-after-at-most-one-replacement",
+          "ts": 1790480607
+        },
+        {
+          "title": "Rearrange Array by Removing Distinct Values",
+          "slug": "rearrange-array-by-removing-distinct-values",
+          "ts": 1790480598
+        },
         {
           "title": "Minimum Height Trees",
           "slug": "minimum-height-trees",
@@ -811,31 +831,51 @@
           "title": "Distinct Subsequences II",
           "slug": "distinct-subsequences-ii",
           "ts": 1790055400
-        },
-        {
-          "title": "Number of Sets of K Non-Overlapping Line Segments",
-          "slug": "number-of-sets-of-k-non-overlapping-line-segments",
-          "ts": 1790054572
-        },
-        {
-          "title": "Divide Two Integers",
-          "slug": "divide-two-integers",
-          "ts": 1790052432
-        },
-        {
-          "title": "Number of Islands",
-          "slug": "number-of-islands",
-          "ts": 1789961472
-        },
-        {
-          "title": "Search in Rotated Sorted Array",
-          "slug": "search-in-rotated-sorted-array",
-          "ts": 1789959374
         }
       ]
     },
     "m9": {
       "recent_ac": [
+        {
+          "title": "Car Fleet",
+          "slug": "car-fleet",
+          "ts": 1790478909
+        },
+        {
+          "title": "Merge k Sorted Lists",
+          "slug": "merge-k-sorted-lists",
+          "ts": 1790477368
+        },
+        {
+          "title": "First Missing Positive",
+          "slug": "first-missing-positive",
+          "ts": 1790475824
+        },
+        {
+          "title": "Daily Temperatures",
+          "slug": "daily-temperatures",
+          "ts": 1790456850
+        },
+        {
+          "title": "Min Stack",
+          "slug": "min-stack",
+          "ts": 1790456071
+        },
+        {
+          "title": "Sliding Window Maximum",
+          "slug": "sliding-window-maximum",
+          "ts": 1790409086
+        },
+        {
+          "title": "Minimum Window Substring",
+          "slug": "minimum-window-substring",
+          "ts": 1790408132
+        },
+        {
+          "title": "Find Peak Element",
+          "slug": "find-peak-element",
+          "ts": 1790407019
+        },
         {
           "title": "Permutation in String",
           "slug": "permutation-in-string",
@@ -895,46 +935,6 @@
           "title": "String to Integer (atoi)",
           "slug": "string-to-integer-atoi",
           "ts": 1790145011
-        },
-        {
-          "title": "Binary Tree Pruning",
-          "slug": "binary-tree-pruning",
-          "ts": 1790059545
-        },
-        {
-          "title": "Find Mode in Binary Search Tree",
-          "slug": "find-mode-in-binary-search-tree",
-          "ts": 1790058508
-        },
-        {
-          "title": "Invert Binary Tree",
-          "slug": "invert-binary-tree",
-          "ts": 1790057431
-        },
-        {
-          "title": "Walls and Gates",
-          "slug": "walls-and-gates",
-          "ts": 1790053242
-        },
-        {
-          "title": "01 Matrix",
-          "slug": "01-matrix",
-          "ts": 1790051744
-        },
-        {
-          "title": "Path With Maximum Minimum Value",
-          "slug": "path-with-maximum-minimum-value",
-          "ts": 1790048201
-        },
-        {
-          "title": "Path Sum III",
-          "slug": "path-sum-iii",
-          "ts": 1789967347
-        },
-        {
-          "title": "Cheapest Flights Within K Stops",
-          "slug": "cheapest-flights-within-k-stops",
-          "ts": 1789959484
         }
       ]
     }
