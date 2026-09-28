@@ -711,6 +711,14 @@
       "Binary Tree"
     ]
   },
+  "count-good-numbers": {
+    "difficulty": "Medium",
+    "frontend_id": "1922",
+    "tags": [
+      "Math",
+      "Recursion"
+    ]
+  },
   "count-number-of-teams": {
     "difficulty": "Medium",
     "tags": [
@@ -1448,6 +1456,16 @@
       "Dynamic Programming",
       "Backtracking",
       "Bracket Sequences"
+    ]
+  },
+  "greatest-sum-divisible-by-three": {
+    "difficulty": "Medium",
+    "frontend_id": "1262",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy",
+      "Sorting"
     ]
   },
   "group-anagrams": {
@@ -2407,6 +2425,16 @@
       "Prefix Sum"
     ]
   },
+  "maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold": {
+    "difficulty": "Medium",
+    "frontend_id": "1292",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Matrix",
+      "Prefix Sum"
+    ]
+  },
   "maximum-strong-pair-xor-i": {
     "difficulty": "Easy",
     "frontend_id": "2932",
@@ -2777,6 +2805,11 @@
       "Sliding Window",
       "Prefix Sum"
     ]
+  },
+  "minimum-queen-moves-to-reach-target": {
+    "difficulty": "Easy",
+    "frontend_id": "4061",
+    "tags": []
   },
   "minimum-size-subarray-sum": {
     "difficulty": "Medium",
@@ -3182,6 +3215,16 @@
       "Backtracking"
     ]
   },
+  "partition-array-into-two-equal-product-subsets": {
+    "difficulty": "Medium",
+    "frontend_id": "3566",
+    "tags": [
+      "Array",
+      "Bit Manipulation",
+      "Recursion",
+      "Enumeration"
+    ]
+  },
   "partition-equal-subset-sum": {
     "difficulty": "Medium",
     "frontend_id": "416",
@@ -3520,6 +3563,14 @@
     "tags": [
       "Array",
       "String"
+    ]
+  },
+  "remove-covered-intervals": {
+    "difficulty": "Medium",
+    "frontend_id": "1288",
+    "tags": [
+      "Array",
+      "Sorting"
     ]
   },
   "remove-duplicate-letters": {
@@ -4412,6 +4463,11 @@
       "Bucket Sort",
       "Counting"
     ]
+  },
+  "transform-array-using-pair-operations": {
+    "difficulty": "Medium",
+    "frontend_id": "4062",
+    "tags": []
   },
   "trapping-rain-water": {
     "difficulty": "Hard",
