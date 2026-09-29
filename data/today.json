@@ -1,9 +1,14 @@
 {
-  "date": "2026-09-27",
-  "fetched_at": "2026-09-28T04:00:40+00:00",
+  "date": "2026-09-28",
+  "fetched_at": "2026-09-29T06:55:41+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Merge Triplets to Form Target Triplet",
+          "slug": "merge-triplets-to-form-target-triplet",
+          "ts": 1790657798
+        },
         {
           "title": "Top K Frequent Elements",
           "slug": "top-k-frequent-elements",
@@ -98,11 +103,6 @@
           "title": "Best Time to Buy and Sell Stock with Transaction Fee",
           "slug": "best-time-to-buy-and-sell-stock-with-transaction-fee",
           "ts": 1789779147
-        },
-        {
-          "title": "Best Time to Buy and Sell Stock with Cooldown",
-          "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
-          "ts": 1789778636
         }
       ]
     },
@@ -213,6 +213,11 @@
     "m3": {
       "recent_ac": [
         {
+          "title": "LRU Cache",
+          "slug": "lru-cache",
+          "ts": 1790663718
+        },
+        {
           "title": "Reverse Nodes in k-Group",
           "slug": "reverse-nodes-in-k-group",
           "ts": 1790567722
@@ -306,11 +311,6 @@
           "title": "Longest Repeating Character Replacement",
           "slug": "longest-repeating-character-replacement",
           "ts": 1787985547
-        },
-        {
-          "title": "Longest Substring Without Repeating Characters",
-          "slug": "longest-substring-without-repeating-characters",
-          "ts": 1787983151
         }
       ]
     },
@@ -525,6 +525,31 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Weighted Sum of a Tree",
+          "slug": "weighted-sum-of-a-tree",
+          "ts": 1790646615
+        },
+        {
+          "title": "Generate Parentheses",
+          "slug": "generate-parentheses",
+          "ts": 1790631478
+        },
+        {
+          "title": "Path Sum III",
+          "slug": "path-sum-iii",
+          "ts": 1790630828
+        },
+        {
+          "title": "Partition Labels",
+          "slug": "partition-labels",
+          "ts": 1790580333
+        },
+        {
+          "title": "Implement Trie (Prefix Tree)",
+          "slug": "implement-trie-prefix-tree",
+          "ts": 1790578604
+        },
+        {
           "title": "Partition Equal Subset Sum",
           "slug": "partition-equal-subset-sum",
           "ts": 1790554309
@@ -598,36 +623,41 @@
           "title": "Search a 2D Matrix",
           "slug": "search-a-2d-matrix",
           "ts": 1790229818
-        },
-        {
-          "title": "Maximal Square",
-          "slug": "maximal-square",
-          "ts": 1790184572
-        },
-        {
-          "title": "Word Search II",
-          "slug": "word-search-ii",
-          "ts": 1790147308
-        },
-        {
-          "title": "Combination Sum",
-          "slug": "combination-sum",
-          "ts": 1790141820
-        },
-        {
-          "title": "Add Two Numbers",
-          "slug": "add-two-numbers",
-          "ts": 1790140679
-        },
-        {
-          "title": "House Robber",
-          "slug": "house-robber",
-          "ts": 1790138721
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Reverse Pairs",
+          "slug": "reverse-pairs",
+          "ts": 1790663147
+        },
+        {
+          "title": "Sum of Left Leaves",
+          "slug": "sum-of-left-leaves",
+          "ts": 1790659809
+        },
+        {
+          "title": "Rotate Function",
+          "slug": "rotate-function",
+          "ts": 1790659581
+        },
+        {
+          "title": "Rotate List",
+          "slug": "rotate-list",
+          "ts": 1790657992
+        },
+        {
+          "title": "Permutations",
+          "slug": "permutations",
+          "ts": 1790634467
+        },
+        {
+          "title": "Count and Say",
+          "slug": "count-and-say",
+          "ts": 1790634111
+        },
         {
           "title": "Reverse Nodes in k-Group",
           "slug": "reverse-nodes-in-k-group",
@@ -697,41 +727,26 @@
           "title": "Find Pivot Index",
           "slug": "find-pivot-index",
           "ts": 1790211551
-        },
-        {
-          "title": "Two Sum IV - Input is a BST",
-          "slug": "two-sum-iv-input-is-a-bst",
-          "ts": 1790207222
-        },
-        {
-          "title": "Maximum Average Subarray I",
-          "slug": "maximum-average-subarray-i",
-          "ts": 1790206068
-        },
-        {
-          "title": "Exclusive Time of Functions",
-          "slug": "exclusive-time-of-functions",
-          "ts": 1790203891
-        },
-        {
-          "title": "Add Strings",
-          "slug": "add-strings",
-          "ts": 1790200957
-        },
-        {
-          "title": "Remove K Digits",
-          "slug": "remove-k-digits",
-          "ts": 1790198654
-        },
-        {
-          "title": "Decode String",
-          "slug": "decode-string",
-          "ts": 1790188084
         }
       ]
     },
     "m8": {
       "recent_ac": [
+        {
+          "title": "Reverse Substrings Between Each Pair of Parentheses",
+          "slug": "reverse-substrings-between-each-pair-of-parentheses",
+          "ts": 1790659134
+        },
+        {
+          "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+          "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+          "ts": 1790657924
+        },
+        {
+          "title": "Minimum Cost For Tickets",
+          "slug": "minimum-cost-for-tickets",
+          "ts": 1790653128
+        },
         {
           "title": "Maximize Meeting Earnings with Idle Gaps",
           "slug": "maximize-meeting-earnings-with-idle-gaps",
@@ -816,21 +831,6 @@
           "title": "Shortest Subarray with Sum at Least K",
           "slug": "shortest-subarray-with-sum-at-least-k",
           "ts": 1790109427
-        },
-        {
-          "title": "Find the Safest Path in a Grid",
-          "slug": "find-the-safest-path-in-a-grid",
-          "ts": 1790107777
-        },
-        {
-          "title": "Maximum Number of Non-Overlapping Substrings",
-          "slug": "maximum-number-of-non-overlapping-substrings",
-          "ts": 1790057619
-        },
-        {
-          "title": "Distinct Subsequences II",
-          "slug": "distinct-subsequences-ii",
-          "ts": 1790055400
         }
       ]
     },

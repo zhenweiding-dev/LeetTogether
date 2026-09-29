@@ -1911,6 +1911,7 @@
   },
   "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit": {
     "difficulty": "Medium",
+    "frontend_id": "1438",
     "tags": [
       "Array",
       "Queue",
@@ -2531,6 +2532,14 @@
       "Sorting"
     ]
   },
+  "merge-triplets-to-form-target-triplet": {
+    "difficulty": "Medium",
+    "frontend_id": "1899",
+    "tags": [
+      "Array",
+      "Greedy"
+    ]
+  },
   "merge-two-sorted-lists": {
     "difficulty": "Easy",
     "frontend_id": "21",
@@ -2634,6 +2643,14 @@
       "String",
       "Dynamic Programming",
       "Longest Common Subsequence"
+    ]
+  },
+  "minimum-cost-for-tickets": {
+    "difficulty": "Medium",
+    "frontend_id": "983",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
     ]
   },
   "minimum-deletions-to-make-array-beautiful": {
@@ -3747,6 +3764,20 @@
       "Recursion"
     ]
   },
+  "reverse-pairs": {
+    "difficulty": "Hard",
+    "frontend_id": "493",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Divide and Conquer",
+      "Binary Indexed Tree",
+      "Segment Tree",
+      "Merge Sort",
+      "Ordered Set",
+      "Treap"
+    ]
+  },
   "reverse-substrings-between-each-pair-of-parentheses": {
     "difficulty": "Medium",
     "frontend_id": "1190",
@@ -3798,6 +3829,15 @@
       "Two Pointers"
     ]
   },
+  "rotate-function": {
+    "difficulty": "Medium",
+    "frontend_id": "396",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming"
+    ]
+  },
   "rotate-image": {
     "difficulty": "Medium",
     "frontend_id": "48",
@@ -3805,6 +3845,14 @@
       "Array",
       "Math",
       "Matrix"
+    ]
+  },
+  "rotate-list": {
+    "difficulty": "Medium",
+    "frontend_id": "61",
+    "tags": [
+      "Linked List",
+      "Two Pointers"
     ]
   },
   "rotate-string": {
@@ -4291,6 +4339,16 @@
     "tags": [
       "Array",
       "Simulation"
+    ]
+  },
+  "sum-of-left-leaves": {
+    "difficulty": "Easy",
+    "frontend_id": "404",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
     ]
   },
   "summary-ranges": {

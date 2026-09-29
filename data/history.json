@@ -5,145 +5,8 @@
     "medium": 3,
     "hard": 6
   },
-  "fetched_at": "2026-09-28T04:00:40+00:00",
+  "fetched_at": "2026-09-29T06:55:41+00:00",
   "days": {
-    "2026-09-12": {
-      "run_hours": "000010010010111010100001",
-      "tags": {
-        "0-1 Knapsack": 1,
-        "Array": 6,
-        "Backtracking": 1,
-        "Binary Search": 1,
-        "Binary Tree": 1,
-        "Bit Manipulation": 1,
-        "Breadth-First Search": 6,
-        "Combinatorics": 1,
-        "Complete Knapsack": 2,
-        "Counting": 1,
-        "Depth-First Search": 4,
-        "Design": 2,
-        "Dijkstra's Algorithm": 1,
-        "Doubly-Linked List": 1,
-        "Dynamic Programming": 4,
-        "Floyd's Cycle Finding Algorithm": 2,
-        "Graph Theory": 1,
-        "Greedy": 2,
-        "Hash Table": 6,
-        "Heap (Priority Queue)": 1,
-        "Knapsack Problem": 3,
-        "Linked List": 3,
-        "Math": 3,
-        "Matrix": 2,
-        "Pigeonhole Principle": 1,
-        "Recursion": 1,
-        "Shortest Path": 1,
-        "String": 9,
-        "Tree": 1,
-        "Trie": 1,
-        "Two Pointers": 3,
-        "Union-Find": 2
-      },
-      "members": {
-        "m1": {
-          "solved": {
-            "all": 159,
-            "easy": 52,
-            "medium": 97,
-            "hard": 10
-          },
-          "day": {
-            "count": 2,
-            "easy": 0,
-            "medium": 2,
-            "hard": 0
-          },
-          "streak": 13
-        },
-        "m2": {
-          "solved": {
-            "all": 86,
-            "easy": 31,
-            "medium": 51,
-            "hard": 4
-          },
-          "day": {
-            "count": 2,
-            "easy": 1,
-            "medium": 1,
-            "hard": 0
-          },
-          "streak": 1
-        },
-        "m3": {
-          "solved": {
-            "all": 44,
-            "easy": 14,
-            "medium": 25,
-            "hard": 5
-          },
-          "day": {
-            "count": 1,
-            "easy": 0,
-            "medium": 1,
-            "hard": 0
-          },
-          "streak": 6
-        },
-        "m4": {
-          "solved": {
-            "all": 800,
-            "easy": 227,
-            "medium": 553,
-            "hard": 20
-          },
-          "day": {
-            "count": 7,
-            "easy": 2,
-            "medium": 5,
-            "hard": 0
-          },
-          "streak": 13
-        },
-        "m5": {
-          "solved": {
-            "all": 541,
-            "easy": 177,
-            "medium": 325,
-            "hard": 39
-          },
-          "day": {
-            "count": 0,
-            "easy": 0,
-            "medium": 0,
-            "hard": 0
-          },
-          "streak": 0
-        },
-        "m6": {
-          "solved": {
-            "all": 399,
-            "easy": 133,
-            "medium": 237,
-            "hard": 29
-          },
-          "day": {
-            "count": 8,
-            "easy": 0,
-            "medium": 7,
-            "hard": 1
-          },
-          "streak": 7
-        },
-        "m7": {
-          "day": {
-            "count": 0,
-            "easy": 0,
-            "medium": 0,
-            "hard": 0
-          }
-        }
-      }
-    },
     "2026-09-13": {
       "run_hours": "000001000010100101000010",
       "tags": {
@@ -2474,11 +2337,12 @@
         "Bit Manipulation": 1,
         "Bucket Sort": 1,
         "Counting": 1,
+        "Design": 1,
         "Divide and Conquer": 3,
         "Dynamic Programming": 2,
         "Enumeration": 1,
         "Greedy": 1,
-        "Hash Table": 1,
+        "Hash Table": 2,
         "Heap (Priority Queue)": 3,
         "Knapsack Problem": 1,
         "Linked List": 2,
@@ -2489,7 +2353,9 @@
         "Quickselect": 2,
         "Recursion": 3,
         "Sorting": 4,
-        "Tournament Sort": 1
+        "String": 1,
+        "Tournament Sort": 1,
+        "Trie": 1
       },
       "members": {
         "m1": {
@@ -2575,9 +2441,9 @@
             "hard": 29
           },
           "day": {
-            "count": 1,
+            "count": 2,
             "easy": 0,
-            "medium": 1,
+            "medium": 2,
             "hard": 0
           },
           "streak": 22
@@ -2611,6 +2477,176 @@
             "hard": 0
           },
           "streak": 0
+        },
+        "m9": {
+          "solved": {
+            "all": 404,
+            "easy": 110,
+            "medium": 256,
+            "hard": 38
+          },
+          "day": {
+            "count": 0,
+            "easy": 0,
+            "medium": 0,
+            "hard": 0
+          },
+          "streak": 0
+        }
+      }
+    },
+    "2026-09-28": {
+      "run_hours": "111111111111111111111111",
+      "tags": {
+        "Array": 7,
+        "Backtracking": 2,
+        "Binary Indexed Tree": 1,
+        "Binary Search": 1,
+        "Binary Tree": 2,
+        "Bracket Sequences": 2,
+        "Breadth-First Search": 1,
+        "Depth-First Search": 3,
+        "Design": 1,
+        "Divide and Conquer": 1,
+        "Doubly-Linked List": 1,
+        "Dynamic Programming": 3,
+        "Greedy": 2,
+        "Hash Table": 2,
+        "Heap (Priority Queue)": 1,
+        "Linked List": 2,
+        "Math": 1,
+        "Merge Sort": 1,
+        "Monotonic Queue": 1,
+        "Ordered Set": 2,
+        "Queue": 1,
+        "Segment Tree": 1,
+        "Sliding Window": 1,
+        "Stack": 1,
+        "String": 4,
+        "Treap": 1,
+        "Tree": 3,
+        "Two Pointers": 2
+      },
+      "members": {
+        "m1": {
+          "solved": {
+            "all": 182,
+            "easy": 54,
+            "medium": 111,
+            "hard": 17
+          },
+          "day": {
+            "count": 1,
+            "easy": 0,
+            "medium": 1,
+            "hard": 0
+          },
+          "streak": 11
+        },
+        "m2": {
+          "solved": {
+            "all": 91,
+            "easy": 32,
+            "medium": 55,
+            "hard": 4
+          },
+          "day": {
+            "count": 0,
+            "easy": 0,
+            "medium": 0,
+            "hard": 0
+          },
+          "streak": 0
+        },
+        "m3": {
+          "solved": {
+            "all": 49,
+            "easy": 14,
+            "medium": 28,
+            "hard": 7
+          },
+          "day": {
+            "count": 1,
+            "easy": 0,
+            "medium": 1,
+            "hard": 0
+          },
+          "streak": 3
+        },
+        "m4": {
+          "solved": {
+            "all": 811,
+            "easy": 229,
+            "medium": 562,
+            "hard": 20
+          },
+          "day": {
+            "count": 0,
+            "easy": 0,
+            "medium": 0,
+            "hard": 0
+          },
+          "streak": 0
+        },
+        "m5": {
+          "solved": {
+            "all": 546,
+            "easy": 177,
+            "medium": 330,
+            "hard": 39
+          },
+          "day": {
+            "count": 0,
+            "easy": 0,
+            "medium": 0,
+            "hard": 0
+          },
+          "streak": 0
+        },
+        "m6": {
+          "solved": {
+            "all": 409,
+            "easy": 135,
+            "medium": 245,
+            "hard": 29
+          },
+          "day": {
+            "count": 4,
+            "easy": 0,
+            "medium": 4,
+            "hard": 0
+          },
+          "streak": 23
+        },
+        "m7": {
+          "solved": {
+            "all": 762,
+            "easy": 265,
+            "medium": 462,
+            "hard": 35
+          },
+          "day": {
+            "count": 6,
+            "easy": 1,
+            "medium": 4,
+            "hard": 1
+          },
+          "streak": 1
+        },
+        "m8": {
+          "solved": {
+            "all": 755,
+            "easy": 188,
+            "medium": 497,
+            "hard": 70
+          },
+          "day": {
+            "count": 3,
+            "easy": 0,
+            "medium": 3,
+            "hard": 0
+          },
+          "streak": 1
         },
         "m9": {
           "solved": {
