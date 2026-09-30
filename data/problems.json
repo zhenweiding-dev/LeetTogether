@@ -3029,6 +3029,15 @@
       "Monotonic Stack"
     ]
   },
+  "next-greater-element-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "503",
+    "tags": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
   "non-overlapping-intervals": {
     "difficulty": "Medium",
     "frontend_id": "435",
@@ -4653,6 +4662,14 @@
       "Stack",
       "Greedy",
       "Bracket Sequences"
+    ]
+  },
+  "valid-square": {
+    "difficulty": "Medium",
+    "frontend_id": "593",
+    "tags": [
+      "Math",
+      "Geometry"
     ]
   },
   "valid-subarrays-with-matching-sum-digits-i": {

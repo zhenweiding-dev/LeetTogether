@@ -1,9 +1,14 @@
 {
-  "date": "2026-09-28",
-  "fetched_at": "2026-09-29T06:55:41+00:00",
+  "date": "2026-09-29",
+  "fetched_at": "2026-09-30T06:55:29+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Find Median from Data Stream",
+          "slug": "find-median-from-data-stream",
+          "ts": 1790741491
+        },
         {
           "title": "Merge Triplets to Form Target Triplet",
           "slug": "merge-triplets-to-form-target-triplet",
@@ -98,11 +103,6 @@
           "title": "Best Time to Buy and Sell Stock III",
           "slug": "best-time-to-buy-and-sell-stock-iii",
           "ts": 1789781010
-        },
-        {
-          "title": "Best Time to Buy and Sell Stock with Transaction Fee",
-          "slug": "best-time-to-buy-and-sell-stock-with-transaction-fee",
-          "ts": 1789779147
         }
       ]
     },
@@ -213,6 +213,11 @@
     "m3": {
       "recent_ac": [
         {
+          "title": "Minimum Window Substring",
+          "slug": "minimum-window-substring",
+          "ts": 1790751297
+        },
+        {
           "title": "LRU Cache",
           "slug": "lru-cache",
           "ts": 1790663718
@@ -306,11 +311,6 @@
           "title": "Median of Two Sorted Arrays",
           "slug": "median-of-two-sorted-arrays",
           "ts": 1788319793
-        },
-        {
-          "title": "Longest Repeating Character Replacement",
-          "slug": "longest-repeating-character-replacement",
-          "ts": 1787985547
         }
       ]
     },
@@ -525,6 +525,21 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Best Time to Buy and Sell Stock",
+          "slug": "best-time-to-buy-and-sell-stock",
+          "ts": 1790750387
+        },
+        {
+          "title": "Find Median from Data Stream",
+          "slug": "find-median-from-data-stream",
+          "ts": 1790746766
+        },
+        {
+          "title": "Reverse Linked List",
+          "slug": "reverse-linked-list",
+          "ts": 1790743671
+        },
+        {
           "title": "Weighted Sum of a Tree",
           "slug": "weighted-sum-of-a-tree",
           "ts": 1790646615
@@ -608,26 +623,26 @@
           "title": "Partition Equal Subset Sum",
           "slug": "partition-equal-subset-sum",
           "ts": 1790315780
-        },
-        {
-          "title": "K Closest Points to Origin",
-          "slug": "k-closest-points-to-origin",
-          "ts": 1790232672
-        },
-        {
-          "title": "Minimum Path Sum",
-          "slug": "minimum-path-sum",
-          "ts": 1790230599
-        },
-        {
-          "title": "Search a 2D Matrix",
-          "slug": "search-a-2d-matrix",
-          "ts": 1790229818
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Valid Square",
+          "slug": "valid-square",
+          "ts": 1790742418
+        },
+        {
+          "title": "Next Greater Element II",
+          "slug": "next-greater-element-ii",
+          "ts": 1790731681
+        },
+        {
+          "title": "Target Sum",
+          "slug": "target-sum",
+          "ts": 1790731011
+        },
         {
           "title": "Reverse Pairs",
           "slug": "reverse-pairs",
@@ -712,21 +727,6 @@
           "title": "Find the Lexicographically Smallest Valid Sequence",
           "slug": "find-the-lexicographically-smallest-valid-sequence",
           "ts": 1790230752
-        },
-        {
-          "title": "Maximize Active Section with Trade I",
-          "slug": "maximize-active-section-with-trade-i",
-          "ts": 1790226681
-        },
-        {
-          "title": "Minimum Absolute Distance Between Mirror Pairs",
-          "slug": "minimum-absolute-distance-between-mirror-pairs",
-          "ts": 1790215605
-        },
-        {
-          "title": "Find Pivot Index",
-          "slug": "find-pivot-index",
-          "ts": 1790211551
         }
       ]
     },
