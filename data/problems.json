@@ -27,6 +27,16 @@
       "Sorting"
     ]
   },
+  "add-one-row-to-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "623",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
   "add-strings": {
     "difficulty": "Easy",
     "frontend_id": "415",
@@ -912,6 +922,16 @@
       "Design"
     ]
   },
+  "design-add-and-search-words-data-structure": {
+    "difficulty": "Medium",
+    "frontend_id": "211",
+    "tags": [
+      "String",
+      "Depth-First Search",
+      "Design",
+      "Trie"
+    ]
+  },
   "design-underground-system": {
     "difficulty": "Medium",
     "frontend_id": "1396",
@@ -1758,6 +1778,15 @@
       "Binary Tree"
     ]
   },
+  "keys-and-rooms": {
+    "difficulty": "Medium",
+    "frontend_id": "841",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory"
+    ]
+  },
   "kids-with-the-greatest-number-of-candies": {
     "difficulty": "Easy",
     "frontend_id": "1431",
@@ -1793,6 +1822,17 @@
       "Binary Tree"
     ]
   },
+  "kth-smallest-element-in-a-sorted-matrix": {
+    "difficulty": "Medium",
+    "frontend_id": "378",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Matrix"
+    ]
+  },
   "largest-rectangle-in-histogram": {
     "difficulty": "Hard",
     "frontend_id": "84",
@@ -1813,6 +1853,18 @@
       "Polygons"
     ]
   },
+  "last-day-where-you-can-still-cross": {
+    "difficulty": "Hard",
+    "frontend_id": "1970",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ]
+  },
   "last-stone-weight-ii": {
     "difficulty": "Medium",
     "frontend_id": "1049",
@@ -1829,6 +1881,14 @@
     "tags": [
       "Array",
       "Prefix Sum"
+    ]
+  },
+  "lemonade-change": {
+    "difficulty": "Easy",
+    "frontend_id": "860",
+    "tags": [
+      "Array",
+      "Greedy"
     ]
   },
   "length-of-last-word": {
@@ -2397,12 +2457,31 @@
       "Prefix Sum"
     ]
   },
+  "maximum-product-of-three-numbers": {
+    "difficulty": "Easy",
+    "frontend_id": "628",
+    "tags": [
+      "Array",
+      "Math",
+      "Sorting"
+    ]
+  },
   "maximum-product-subarray": {
     "difficulty": "Medium",
     "frontend_id": "152",
     "tags": [
       "Array",
       "Dynamic Programming"
+    ]
+  },
+  "maximum-profit-in-job-scheduling": {
+    "difficulty": "Hard",
+    "frontend_id": "1235",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Sorting"
     ]
   },
   "maximum-pulse-value-after-one-subarray-rotation": {
@@ -2424,6 +2503,16 @@
     "tags": [
       "String",
       "Prefix Sum"
+    ]
+  },
+  "maximum-score-of-non-overlapping-intervals": {
+    "difficulty": "Hard",
+    "frontend_id": "3414",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Sorting"
     ]
   },
   "maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold": {
@@ -3356,6 +3445,15 @@
       "Dijkstra's Algorithm"
     ]
   },
+  "peak-index-in-a-mountain-array": {
+    "difficulty": "Medium",
+    "frontend_id": "852",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Ternary Search"
+    ]
+  },
   "perfect-squares": {
     "difficulty": "Medium",
     "frontend_id": "279",
@@ -3665,6 +3763,15 @@
     "tags": [
       "Linked List",
       "Two Pointers"
+    ]
+  },
+  "remove-outermost-parentheses": {
+    "difficulty": "Easy",
+    "frontend_id": "1021",
+    "tags": [
+      "String",
+      "Stack",
+      "Bracket Sequences"
     ]
   },
   "remove-palindromic-subsequences": {
@@ -4358,6 +4465,15 @@
       "Depth-First Search",
       "Breadth-First Search",
       "Binary Tree"
+    ]
+  },
+  "sum-of-square-numbers": {
+    "difficulty": "Medium",
+    "frontend_id": "633",
+    "tags": [
+      "Math",
+      "Two Pointers",
+      "Binary Search"
     ]
   },
   "summary-ranges": {
