@@ -94,9 +94,13 @@ drops out of the table.
 ## Privacy
 
 Ask your group before making the repo public. Handles are never committed — the
-board shows codenames, and the mapping stays in the `LC_HANDLES` secret. Only
-today's problem list is kept; older days are counts. A private repo works exactly
-the same, and members only need read access.
+board shows codenames, and the mapping stays in the `LC_HANDLES` secret. A private
+repo works exactly the same, and members only need read access.
+
+The working tree holds one day of problem lists and counts for the rest, but
+`data/today.json` is committed on every run, so **git history accumulates every
+day's list, timestamps included**. Rewriting history is the only way to drop that,
+which is rarely worth it — but it is what someone cloning the repo gets.
 
 ## Notes
 

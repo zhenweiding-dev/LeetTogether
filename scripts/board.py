@@ -2,9 +2,9 @@
 
 Two files feed this. history.json is numbers only: per member per day, how many
 problems and the difficulty split, plus one tag histogram for the whole group;
-it keeps RETAIN days and drops the rest. today.json holds the one problem list the
-project keeps, and anything about the current run. A day the window no longer
-covers is "no data", kept distinct from "zero solved".
+it keeps RETAIN days and drops the rest. today.json holds the only problem list
+on disk, and anything about the current run. A day the window no longer covers is
+"no data", kept distinct from "zero solved".
 """
 
 import html
@@ -44,8 +44,9 @@ RATE_MIN_SLOTS = 12
 def day_events(mid, detail, cfg, on_date):
     """{slug: {"title", "ts"}} for one day, out of today.json.
 
-    The only problem list the project keeps. Every other day exists as the four
-    numbers in day_counts and nothing more.
+    The only problem list on disk. Every other day exists as the four numbers in
+    day_counts and nothing more — though each day's list does survive in git,
+    since today.json is committed on every run.
     """
     out = {}
     m = (detail.get("members") or {}).get(mid)
