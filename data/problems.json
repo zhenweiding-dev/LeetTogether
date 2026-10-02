@@ -4305,6 +4305,15 @@
       "Bubble Sort"
     ]
   },
+  "spiral-matrix": {
+    "difficulty": "Medium",
+    "frontend_id": "54",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Simulation"
+    ]
+  },
   "spiral-matrix-iii": {
     "difficulty": "Medium",
     "frontend_id": "885",

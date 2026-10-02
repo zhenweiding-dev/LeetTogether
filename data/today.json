@@ -1,6 +1,6 @@
 {
   "date": "2026-10-01",
-  "fetched_at": "2026-10-02T06:00:54+00:00",
+  "fetched_at": "2026-10-02T06:30:56+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -525,6 +525,11 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Spiral Matrix",
+          "slug": "spiral-matrix",
+          "ts": 1790921289
+        },
+        {
           "title": "Path Sum III",
           "slug": "path-sum-iii",
           "ts": 1790835981
@@ -618,11 +623,6 @@
           "title": "H-Index",
           "slug": "h-index",
           "ts": 1790391463
-        },
-        {
-          "title": "Coin Change II",
-          "slug": "coin-change-ii",
-          "ts": 1790319670
         }
       ]
     },
