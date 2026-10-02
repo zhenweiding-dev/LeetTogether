@@ -1,9 +1,29 @@
 {
-  "date": "2026-09-30",
-  "fetched_at": "2026-10-01T06:55:47+00:00",
+  "date": "2026-10-01",
+  "fetched_at": "2026-10-02T06:00:54+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "K Closest Points to Origin",
+          "slug": "k-closest-points-to-origin",
+          "ts": 1790919890
+        },
+        {
+          "title": "Reorganize String",
+          "slug": "reorganize-string",
+          "ts": 1790916444
+        },
+        {
+          "title": "Last Stone Weight",
+          "slug": "last-stone-weight",
+          "ts": 1790889742
+        },
+        {
+          "title": "Kth Largest Element in a Stream",
+          "slug": "kth-largest-element-in-a-stream",
+          "ts": 1790888311
+        },
         {
           "title": "Partition Labels",
           "slug": "partition-labels",
@@ -83,26 +103,6 @@
           "title": "Burst Balloons",
           "slug": "burst-balloons",
           "ts": 1790163899
-        },
-        {
-          "title": "Super Egg Drop",
-          "slug": "super-egg-drop",
-          "ts": 1790142303
-        },
-        {
-          "title": "Reverse Integer",
-          "slug": "reverse-integer",
-          "ts": 1789969223
-        },
-        {
-          "title": "Candy",
-          "slug": "candy",
-          "ts": 1789884732
-        },
-        {
-          "title": "Best Time to Buy and Sell Stock IV",
-          "slug": "best-time-to-buy-and-sell-stock-iv",
-          "ts": 1789804713
         }
       ]
     },
@@ -421,6 +421,16 @@
     "m5": {
       "recent_ac": [
         {
+          "title": "Open the Lock",
+          "slug": "open-the-lock",
+          "ts": 1790911733
+        },
+        {
+          "title": "Subarray Sums Divisible by K",
+          "slug": "subarray-sums-divisible-by-k",
+          "ts": 1790899989
+        },
+        {
           "title": "Merge k Sorted Lists",
           "slug": "merge-k-sorted-lists",
           "ts": 1790539253
@@ -509,16 +519,6 @@
           "title": "Populating Next Right Pointers in Each Node",
           "slug": "populating-next-right-pointers-in-each-node",
           "ts": 1789762777
-        },
-        {
-          "title": "Construct Binary Tree from Preorder and Inorder Traversal",
-          "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
-          "ts": 1789762338
-        },
-        {
-          "title": "Intersection of Two Linked Lists",
-          "slug": "intersection-of-two-linked-lists",
-          "ts": 1789683886
         }
       ]
     },
@@ -629,6 +629,11 @@
     "m7": {
       "recent_ac": [
         {
+          "title": "Maximum Level Sum of a Binary Tree",
+          "slug": "maximum-level-sum-of-a-binary-tree",
+          "ts": 1790918308
+        },
+        {
           "title": "Remove Outermost Parentheses",
           "slug": "remove-outermost-parentheses",
           "ts": 1790830304
@@ -722,16 +727,36 @@
           "title": "Rotate List",
           "slug": "rotate-list",
           "ts": 1790657992
-        },
-        {
-          "title": "Permutations",
-          "slug": "permutations",
-          "ts": 1790634467
         }
       ]
     },
     "m8": {
       "recent_ac": [
+        {
+          "title": "Largest Number",
+          "slug": "largest-number",
+          "ts": 1790900952
+        },
+        {
+          "title": "Group Shifted Strings",
+          "slug": "group-shifted-strings",
+          "ts": 1790898655
+        },
+        {
+          "title": "Bulb Switcher",
+          "slug": "bulb-switcher",
+          "ts": 1790897751
+        },
+        {
+          "title": "Wiggle Sort II",
+          "slug": "wiggle-sort-ii",
+          "ts": 1790896184
+        },
+        {
+          "title": "Allocate Mailboxes",
+          "slug": "allocate-mailboxes",
+          "ts": 1790894245
+        },
         {
           "title": "Maximum Profit in Job Scheduling",
           "slug": "maximum-profit-in-job-scheduling",
@@ -806,31 +831,6 @@
           "title": "Maximize Active Section with Trade I",
           "slug": "maximize-active-section-with-trade-i",
           "ts": 1790375277
-        },
-        {
-          "title": "Dungeon Game",
-          "slug": "dungeon-game",
-          "ts": 1790372322
-        },
-        {
-          "title": "String Compression",
-          "slug": "string-compression",
-          "ts": 1790369063
-        },
-        {
-          "title": "Stone Game II",
-          "slug": "stone-game-ii",
-          "ts": 1790118770
-        },
-        {
-          "title": "Sequential Digits",
-          "slug": "sequential-digits",
-          "ts": 1790117364
-        },
-        {
-          "title": "Smallest Palindromic Rearrangement I",
-          "slug": "smallest-palindromic-rearrangement-i",
-          "ts": 1790116662
         }
       ]
     },

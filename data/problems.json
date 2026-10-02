@@ -97,6 +97,16 @@
       "Directed Acyclic Graph"
     ]
   },
+  "allocate-mailboxes": {
+    "difficulty": "Hard",
+    "frontend_id": "1478",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Sorting"
+    ]
+  },
   "alphabet-board-path": {
     "difficulty": "Medium",
     "frontend_id": "1138",
@@ -361,6 +371,14 @@
     "tags": [
       "String",
       "Greedy"
+    ]
+  },
+  "bulb-switcher": {
+    "difficulty": "Medium",
+    "frontend_id": "319",
+    "tags": [
+      "Math",
+      "Brainteaser"
     ]
   },
   "burst-balloons": {
@@ -1802,6 +1820,18 @@
       "Binary Search"
     ]
   },
+  "kth-largest-element-in-a-stream": {
+    "difficulty": "Easy",
+    "frontend_id": "703",
+    "tags": [
+      "Tree",
+      "Design",
+      "Binary Search Tree",
+      "Heap (Priority Queue)",
+      "Binary Tree",
+      "Data Stream"
+    ]
+  },
   "kth-largest-element-in-an-array": {
     "difficulty": "Medium",
     "frontend_id": "215",
@@ -1831,6 +1861,16 @@
       "Sorting",
       "Heap (Priority Queue)",
       "Matrix"
+    ]
+  },
+  "largest-number": {
+    "difficulty": "Medium",
+    "frontend_id": "179",
+    "tags": [
+      "Array",
+      "String",
+      "Greedy",
+      "Sorting"
     ]
   },
   "largest-rectangle-in-histogram": {
@@ -1863,6 +1903,14 @@
       "Breadth-First Search",
       "Union-Find",
       "Matrix"
+    ]
+  },
+  "last-stone-weight": {
+    "difficulty": "Easy",
+    "frontend_id": "1046",
+    "tags": [
+      "Array",
+      "Heap (Priority Queue)"
     ]
   },
   "last-stone-weight-ii": {
@@ -2412,6 +2460,16 @@
       "Hash Table",
       "String",
       "Sliding Window"
+    ]
+  },
+  "maximum-level-sum-of-a-binary-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "1161",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
     ]
   },
   "maximum-number-of-non-overlapping-substrings": {
@@ -4892,6 +4950,17 @@
       "Array",
       "Matrix",
       "Simulation"
+    ]
+  },
+  "wiggle-sort-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "324",
+    "tags": [
+      "Array",
+      "Divide and Conquer",
+      "Greedy",
+      "Sorting",
+      "Quickselect"
     ]
   },
   "wiggle-subsequence": {
