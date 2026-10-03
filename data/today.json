@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-02",
-  "fetched_at": "2026-10-03T06:00:42+00:00",
+  "date": "2026-10-03",
+  "fetched_at": "2026-10-03T17:30:55+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -421,6 +421,11 @@
     "m5": {
       "recent_ac": [
         {
+          "title": "Rank Teams by Votes",
+          "slug": "rank-teams-by-votes",
+          "ts": 1791047014
+        },
+        {
           "title": "Open the Lock",
           "slug": "open-the-lock",
           "ts": 1790911733
@@ -514,16 +519,16 @@
           "title": "Inorder Successor in BST",
           "slug": "inorder-successor-in-bst",
           "ts": 1789763748
-        },
-        {
-          "title": "Populating Next Right Pointers in Each Node",
-          "slug": "populating-next-right-pointers-in-each-node",
-          "ts": 1789762777
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Time Based Key-Value Store",
+          "slug": "time-based-key-value-store",
+          "ts": 1791010658
+        },
         {
           "title": "Climbing Stairs",
           "slug": "climbing-stairs",
@@ -618,11 +623,6 @@
           "title": "Valid Palindrome",
           "slug": "valid-palindrome",
           "ts": 1790472757
-        },
-        {
-          "title": "Maximum Depth of Binary Tree",
-          "slug": "maximum-depth-of-binary-tree",
-          "ts": 1790469217
         }
       ]
     },

@@ -3695,6 +3695,17 @@
       "Prefix Sum"
     ]
   },
+  "rank-teams-by-votes": {
+    "difficulty": "Medium",
+    "frontend_id": "1366",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting",
+      "Counting"
+    ]
+  },
   "ransom-note": {
     "difficulty": "Easy",
     "frontend_id": "383",
