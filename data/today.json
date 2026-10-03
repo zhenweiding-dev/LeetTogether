@@ -1,9 +1,24 @@
 {
-  "date": "2026-10-01",
-  "fetched_at": "2026-10-02T06:30:56+00:00",
+  "date": "2026-10-02",
+  "fetched_at": "2026-10-03T06:00:42+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "4Sum",
+          "slug": "4sum",
+          "ts": 1790984367
+        },
+        {
+          "title": "3Sum",
+          "slug": "3sum",
+          "ts": 1790970232
+        },
+        {
+          "title": "Two Sum",
+          "slug": "two-sum",
+          "ts": 1790929069
+        },
         {
           "title": "K Closest Points to Origin",
           "slug": "k-closest-points-to-origin",
@@ -88,21 +103,6 @@
           "title": "Jump Game III",
           "slug": "jump-game-iii",
           "ts": 1790175361
-        },
-        {
-          "title": "Jump Game II",
-          "slug": "jump-game-ii",
-          "ts": 1790170885
-        },
-        {
-          "title": "Jump Game",
-          "slug": "jump-game",
-          "ts": 1790166328
-        },
-        {
-          "title": "Burst Balloons",
-          "slug": "burst-balloons",
-          "ts": 1790163899
         }
       ]
     },
@@ -525,6 +525,21 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Climbing Stairs",
+          "slug": "climbing-stairs",
+          "ts": 1791006112
+        },
+        {
+          "title": "Kth Largest Element in a Stream",
+          "slug": "kth-largest-element-in-a-stream",
+          "ts": 1791004983
+        },
+        {
+          "title": "Range Sum Query 2D - Immutable",
+          "slug": "range-sum-query-2d-immutable",
+          "ts": 1790924869
+        },
+        {
           "title": "Spiral Matrix",
           "slug": "spiral-matrix",
           "ts": 1790921289
@@ -608,26 +623,26 @@
           "title": "Maximum Depth of Binary Tree",
           "slug": "maximum-depth-of-binary-tree",
           "ts": 1790469217
-        },
-        {
-          "title": "House Robber II",
-          "slug": "house-robber-ii",
-          "ts": 1790464307
-        },
-        {
-          "title": "Longest Consecutive Sequence",
-          "slug": "longest-consecutive-sequence",
-          "ts": 1790393094
-        },
-        {
-          "title": "H-Index",
-          "slug": "h-index",
-          "ts": 1790391463
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Rectangle Area",
+          "slug": "rectangle-area",
+          "ts": 1791006792
+        },
+        {
+          "title": "Populating Next Right Pointers in Each Node",
+          "slug": "populating-next-right-pointers-in-each-node",
+          "ts": 1791005971
+        },
+        {
+          "title": "Design Task Manager",
+          "slug": "design-task-manager",
+          "ts": 1791005517
+        },
         {
           "title": "Maximum Level Sum of a Binary Tree",
           "slug": "maximum-level-sum-of-a-binary-tree",
@@ -712,26 +727,16 @@
           "title": "Reverse Pairs",
           "slug": "reverse-pairs",
           "ts": 1790663147
-        },
-        {
-          "title": "Sum of Left Leaves",
-          "slug": "sum-of-left-leaves",
-          "ts": 1790659809
-        },
-        {
-          "title": "Rotate Function",
-          "slug": "rotate-function",
-          "ts": 1790659581
-        },
-        {
-          "title": "Rotate List",
-          "slug": "rotate-list",
-          "ts": 1790657992
         }
       ]
     },
     "m8": {
       "recent_ac": [
+        {
+          "title": "Number of Dice Rolls With Target Sum",
+          "slug": "number-of-dice-rolls-with-target-sum",
+          "ts": 1791006866
+        },
         {
           "title": "Largest Number",
           "slug": "largest-number",
@@ -826,11 +831,6 @@
           "title": "Maximum Good Subarray Sum",
           "slug": "maximum-good-subarray-sum",
           "ts": 1790378301
-        },
-        {
-          "title": "Maximize Active Section with Trade I",
-          "slug": "maximize-active-section-with-trade-i",
-          "ts": 1790375277
         }
       ]
     },

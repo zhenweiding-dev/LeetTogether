@@ -27,6 +27,15 @@
       "Sorting"
     ]
   },
+  "4sum": {
+    "difficulty": "Medium",
+    "frontend_id": "18",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Sorting"
+    ]
+  },
   "add-one-row-to-tree": {
     "difficulty": "Medium",
     "frontend_id": "623",
@@ -948,6 +957,16 @@
       "Depth-First Search",
       "Design",
       "Trie"
+    ]
+  },
+  "design-task-manager": {
+    "difficulty": "Medium",
+    "frontend_id": "3408",
+    "tags": [
+      "Hash Table",
+      "Design",
+      "Heap (Priority Queue)",
+      "Ordered Set"
     ]
   },
   "design-underground-system": {
@@ -3229,6 +3248,13 @@
       "Breadth-First Search",
       "Union-Find",
       "Graph Theory"
+    ]
+  },
+  "number-of-dice-rolls-with-target-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "1155",
+    "tags": [
+      "Dynamic Programming"
     ]
   },
   "number-of-good-ways-to-split-a-string": {
