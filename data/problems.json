@@ -390,6 +390,15 @@
       "Brainteaser"
     ]
   },
+  "bulls-and-cows": {
+    "difficulty": "Medium",
+    "frontend_id": "299",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting"
+    ]
+  },
   "burst-balloons": {
     "difficulty": "Hard",
     "frontend_id": "312",
@@ -959,6 +968,17 @@
       "Trie"
     ]
   },
+  "design-in-memory-file-system": {
+    "difficulty": "Hard",
+    "frontend_id": "588",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Design",
+      "Trie",
+      "Sorting"
+    ]
+  },
   "design-task-manager": {
     "difficulty": "Medium",
     "frontend_id": "3408",
@@ -1128,6 +1148,21 @@
     "tags": [
       "Array",
       "Math"
+    ]
+  },
+  "evaluate-division": {
+    "difficulty": "Medium",
+    "frontend_id": "399",
+    "tags": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory",
+      "Shortest Path",
+      "Bellman–Ford Algorithm",
+      "Floyd–Warshall Algorithm"
     ]
   },
   "evaluate-reverse-polish-notation": {
@@ -2398,6 +2433,21 @@
     "frontend_id": "4068",
     "tags": []
   },
+  "maximize-the-confusion-of-an-exam": {
+    "difficulty": "Medium",
+    "frontend_id": "2024",
+    "tags": [
+      "String",
+      "Binary Search",
+      "Sliding Window",
+      "Prefix Sum"
+    ]
+  },
+  "maximum-alternating-subarray-sum-with-one-deletion": {
+    "difficulty": "Medium",
+    "frontend_id": "4072",
+    "tags": []
+  },
   "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts": {
     "difficulty": "Medium",
     "tags": [
@@ -2887,6 +2937,15 @@
       "String"
     ]
   },
+  "minimum-initial-energy-to-finish-tasks": {
+    "difficulty": "Hard",
+    "frontend_id": "1665",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
   "minimum-insertion-steps-to-make-a-string-palindrome": {
     "difficulty": "Hard",
     "frontend_id": "1312",
@@ -2992,6 +3051,16 @@
   "minimum-queen-moves-to-reach-target": {
     "difficulty": "Easy",
     "frontend_id": "4061",
+    "tags": []
+  },
+  "minimum-rotations-to-dial-a-number-i": {
+    "difficulty": "Easy",
+    "frontend_id": "4070",
+    "tags": []
+  },
+  "minimum-rotations-to-dial-a-number-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "4071",
     "tags": []
   },
   "minimum-size-subarray-sum": {
@@ -3414,6 +3483,26 @@
       "Backtracking"
     ]
   },
+  "parallel-courses": {
+    "difficulty": "Medium",
+    "frontend_id": "1136",
+    "tags": [
+      "Graph Theory",
+      "Topological Sort",
+      "Directed Acyclic Graph"
+    ]
+  },
+  "parallel-courses-iii": {
+    "difficulty": "Hard",
+    "frontend_id": "2050",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Graph Theory",
+      "Topological Sort",
+      "Directed Acyclic Graph"
+    ]
+  },
   "partition-array-into-two-equal-product-subsets": {
     "difficulty": "Medium",
     "frontend_id": "3566",
@@ -3450,6 +3539,18 @@
     "tags": [
       "Linked List",
       "Two Pointers"
+    ]
+  },
+  "partition-to-k-equal-sum-subsets": {
+    "difficulty": "Medium",
+    "frontend_id": "698",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Backtracking",
+      "Bit Manipulation",
+      "Memoization",
+      "Bitmask"
     ]
   },
   "path-existence-queries-in-a-graph-i": {
@@ -4189,6 +4290,15 @@
       "Binary Tree"
     ]
   },
+  "set-matrix-zeroes": {
+    "difficulty": "Medium",
+    "frontend_id": "73",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Matrix"
+    ]
+  },
   "shortest-bridge": {
     "difficulty": "Medium",
     "frontend_id": "934",
@@ -4244,6 +4354,15 @@
     "tags": [
       "String",
       "Stack"
+    ]
+  },
+  "single-threaded-cpu": {
+    "difficulty": "Medium",
+    "frontend_id": "1834",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Heap (Priority Queue)"
     ]
   },
   "sliding-puzzle": {
@@ -4493,6 +4612,15 @@
       "Counting"
     ]
   },
+  "subsequence-of-size-k-with-the-largest-even-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "2098",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
   "subsets": {
     "difficulty": "Medium",
     "frontend_id": "78",
@@ -4551,6 +4679,15 @@
       "Matrix",
       "Algorithm X",
       "Dancing Links"
+    ]
+  },
+  "sum-of-absolute-differences-in-a-sorted-array": {
+    "difficulty": "Medium",
+    "frontend_id": "1685",
+    "tags": [
+      "Array",
+      "Math",
+      "Prefix Sum"
     ]
   },
   "sum-of-even-numbers-after-queries": {
@@ -4901,6 +5038,15 @@
       "Sliding Window",
       "Enumeration",
       "Prefix Sum"
+    ]
+  },
+  "valid-sudoku": {
+    "difficulty": "Medium",
+    "frontend_id": "36",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Matrix"
     ]
   },
   "validate-binary-search-tree": {

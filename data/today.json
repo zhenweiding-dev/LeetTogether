@@ -1,9 +1,19 @@
 {
   "date": "2026-10-03",
-  "fetched_at": "2026-10-03T17:30:55+00:00",
+  "fetched_at": "2026-10-04T06:56:03+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Container With Most Water",
+          "slug": "container-with-most-water",
+          "ts": 1791058721
+        },
+        {
+          "title": "Trapping Rain Water",
+          "slug": "trapping-rain-water",
+          "ts": 1791057559
+        },
         {
           "title": "4Sum",
           "slug": "4sum",
@@ -93,21 +103,16 @@
           "title": "Valid Palindrome",
           "slug": "valid-palindrome",
           "ts": 1790319139
-        },
-        {
-          "title": "Jump Game VII",
-          "slug": "jump-game-vii",
-          "ts": 1790203013
-        },
-        {
-          "title": "Jump Game III",
-          "slug": "jump-game-iii",
-          "ts": 1790175361
         }
       ]
     },
     "m2": {
       "recent_ac": [
+        {
+          "title": "Remove Duplicates from Sorted Array",
+          "slug": "remove-duplicates-from-sorted-array",
+          "ts": 1791081698
+        },
         {
           "title": "Kth Smallest Element in a Sorted Matrix",
           "slug": "kth-smallest-element-in-a-sorted-matrix",
@@ -202,11 +207,6 @@
           "title": "Subsets",
           "slug": "subsets",
           "ts": 1788571628
-        },
-        {
-          "title": "Validate Binary Search Tree",
-          "slug": "validate-binary-search-tree",
-          "ts": 1788566778
         }
       ]
     },
@@ -421,6 +421,31 @@
     "m5": {
       "recent_ac": [
         {
+          "title": "Bulls and Cows",
+          "slug": "bulls-and-cows",
+          "ts": 1791095161
+        },
+        {
+          "title": "Sum of Absolute Differences in a Sorted Array",
+          "slug": "sum-of-absolute-differences-in-a-sorted-array",
+          "ts": 1791084894
+        },
+        {
+          "title": "Maximize the Confusion of an Exam",
+          "slug": "maximize-the-confusion-of-an-exam",
+          "ts": 1791084145
+        },
+        {
+          "title": "Minimum Initial Energy to Finish Tasks",
+          "slug": "minimum-initial-energy-to-finish-tasks",
+          "ts": 1791083326
+        },
+        {
+          "title": "Subsequence of Size K With the Largest Even Sum",
+          "slug": "subsequence-of-size-k-with-the-largest-even-sum",
+          "ts": 1791080605
+        },
+        {
           "title": "Rank Teams by Votes",
           "slug": "rank-teams-by-votes",
           "ts": 1791047014
@@ -494,36 +519,21 @@
           "title": "Word Ladder",
           "slug": "word-ladder",
           "ts": 1789882886
-        },
-        {
-          "title": "Path Sum II",
-          "slug": "path-sum-ii",
-          "ts": 1789857279
-        },
-        {
-          "title": "Last Stone Weight II",
-          "slug": "last-stone-weight-ii",
-          "ts": 1789780344
-        },
-        {
-          "title": "Permutations",
-          "slug": "permutations",
-          "ts": 1789764560
-        },
-        {
-          "title": "Number of Islands",
-          "slug": "number-of-islands",
-          "ts": 1789764256
-        },
-        {
-          "title": "Inorder Successor in BST",
-          "slug": "inorder-successor-in-bst",
-          "ts": 1789763748
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Maximal Square",
+          "slug": "maximal-square",
+          "ts": 1791089936
+        },
+        {
+          "title": "Course Schedule II",
+          "slug": "course-schedule-ii",
+          "ts": 1791087758
+        },
         {
           "title": "Time Based Key-Value Store",
           "slug": "time-based-key-value-store",
@@ -613,21 +623,41 @@
           "title": "Word Search II",
           "slug": "word-search-ii",
           "ts": 1790475781
-        },
-        {
-          "title": "Largest Rectangle in Histogram",
-          "slug": "largest-rectangle-in-histogram",
-          "ts": 1790473539
-        },
-        {
-          "title": "Valid Palindrome",
-          "slug": "valid-palindrome",
-          "ts": 1790472757
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Sum of Absolute Differences in a Sorted Array",
+          "slug": "sum-of-absolute-differences-in-a-sorted-array",
+          "ts": 1791096067
+        },
+        {
+          "title": "Maximize the Confusion of an Exam",
+          "slug": "maximize-the-confusion-of-an-exam",
+          "ts": 1791095002
+        },
+        {
+          "title": "Single-Threaded CPU",
+          "slug": "single-threaded-cpu",
+          "ts": 1791094240
+        },
+        {
+          "title": "Reverse Substrings Between Each Pair of Parentheses",
+          "slug": "reverse-substrings-between-each-pair-of-parentheses",
+          "ts": 1791092206
+        },
+        {
+          "title": "Two City Scheduling",
+          "slug": "two-city-scheduling",
+          "ts": 1791091403
+        },
+        {
+          "title": "Partition to K Equal Sum Subsets",
+          "slug": "partition-to-k-equal-sum-subsets",
+          "ts": 1791091029
+        },
         {
           "title": "Rectangle Area",
           "slug": "rectangle-area",
@@ -697,41 +727,26 @@
           "title": "Add One Row to Tree",
           "slug": "add-one-row-to-tree",
           "ts": 1790806531
-        },
-        {
-          "title": "Maximum Product of Three Numbers",
-          "slug": "maximum-product-of-three-numbers",
-          "ts": 1790805715
-        },
-        {
-          "title": "Task Scheduler",
-          "slug": "task-scheduler",
-          "ts": 1790805065
-        },
-        {
-          "title": "Valid Square",
-          "slug": "valid-square",
-          "ts": 1790742418
-        },
-        {
-          "title": "Next Greater Element II",
-          "slug": "next-greater-element-ii",
-          "ts": 1790731681
-        },
-        {
-          "title": "Target Sum",
-          "slug": "target-sum",
-          "ts": 1790731011
-        },
-        {
-          "title": "Reverse Pairs",
-          "slug": "reverse-pairs",
-          "ts": 1790663147
         }
       ]
     },
     "m8": {
       "recent_ac": [
+        {
+          "title": "Maximum Alternating Subarray Sum With One Deletion",
+          "slug": "maximum-alternating-subarray-sum-with-one-deletion",
+          "ts": 1791085164
+        },
+        {
+          "title": "Minimum Rotations to Dial a Number II",
+          "slug": "minimum-rotations-to-dial-a-number-ii",
+          "ts": 1791082734
+        },
+        {
+          "title": "Minimum Rotations to Dial a Number I",
+          "slug": "minimum-rotations-to-dial-a-number-i",
+          "ts": 1791081706
+        },
         {
           "title": "Number of Dice Rolls With Target Sum",
           "slug": "number-of-dice-rolls-with-target-sum",
@@ -816,21 +831,6 @@
           "title": "Minimum Height Trees",
           "slug": "minimum-height-trees",
           "ts": 1790383279
-        },
-        {
-          "title": "Battleships in a Board",
-          "slug": "battleships-in-a-board",
-          "ts": 1790382366
-        },
-        {
-          "title": "Sort Characters By Frequency",
-          "slug": "sort-characters-by-frequency",
-          "ts": 1790379516
-        },
-        {
-          "title": "Maximum Good Subarray Sum",
-          "slug": "maximum-good-subarray-sum",
-          "ts": 1790378301
         }
       ]
     },
@@ -935,6 +935,110 @@
           "title": "String to Integer (atoi)",
           "slug": "string-to-integer-atoi",
           "ts": 1790145011
+        }
+      ]
+    },
+    "m10": {
+      "recent_ac": [
+        {
+          "title": "Group Anagrams",
+          "slug": "group-anagrams",
+          "ts": 1791063213
+        },
+        {
+          "title": "Game of Life",
+          "slug": "game-of-life",
+          "ts": 1791060635
+        },
+        {
+          "title": "Set Matrix Zeroes",
+          "slug": "set-matrix-zeroes",
+          "ts": 1791057073
+        },
+        {
+          "title": "Rotate Image",
+          "slug": "rotate-image",
+          "ts": 1791002146
+        },
+        {
+          "title": "Spiral Matrix",
+          "slug": "spiral-matrix",
+          "ts": 1791001572
+        },
+        {
+          "title": "Valid Sudoku",
+          "slug": "valid-sudoku",
+          "ts": 1790998963
+        },
+        {
+          "title": "Parallel Courses III",
+          "slug": "parallel-courses-iii",
+          "ts": 1790901099
+        },
+        {
+          "title": "Parallel Courses",
+          "slug": "parallel-courses",
+          "ts": 1790898648
+        },
+        {
+          "title": "Design In-Memory File System",
+          "slug": "design-in-memory-file-system",
+          "ts": 1790886585
+        },
+        {
+          "title": "Summary Ranges",
+          "slug": "summary-ranges",
+          "ts": 1789620064
+        },
+        {
+          "title": "Word Search II",
+          "slug": "word-search-ii",
+          "ts": 1789534414
+        },
+        {
+          "title": "Implement Trie (Prefix Tree)",
+          "slug": "implement-trie-prefix-tree",
+          "ts": 1789532679
+        },
+        {
+          "title": "Word Search",
+          "slug": "word-search",
+          "ts": 1789532207
+        },
+        {
+          "title": "Evaluate Division",
+          "slug": "evaluate-division",
+          "ts": 1789437795
+        },
+        {
+          "title": "Surrounded Regions",
+          "slug": "surrounded-regions",
+          "ts": 1789423509
+        },
+        {
+          "title": "Clone Graph",
+          "slug": "clone-graph",
+          "ts": 1789421879
+        },
+        {
+          "title": "Course Schedule II",
+          "slug": "course-schedule-ii",
+          "ts": 1789420649
+        },
+        {
+          "title": "Course Schedule",
+          "slug": "course-schedule",
+          "ts": 1789418216
+        },
+        {
+          "title": "Validate Binary Search Tree",
+          "slug": "validate-binary-search-tree",
+          "ts": 1789358214
+        },
+        {
+          "title": "Path Sum",
+          "slug": "path-sum",
+          "ts": 1789357580
         }
       ]
     }
