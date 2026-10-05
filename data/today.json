@@ -1,9 +1,19 @@
 {
-  "date": "2026-10-03",
-  "fetched_at": "2026-10-04T06:56:03+00:00",
+  "date": "2026-10-04",
+  "fetched_at": "2026-10-05T04:00:43+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Next Permutation",
+          "slug": "next-permutation",
+          "ts": 1791152034
+        },
+        {
+          "title": "Sliding Window Maximum",
+          "slug": "sliding-window-maximum",
+          "ts": 1791147540
+        },
         {
           "title": "Container With Most Water",
           "slug": "container-with-most-water",
@@ -93,21 +103,21 @@
           "title": "LRU Cache",
           "slug": "lru-cache",
           "ts": 1790378186
-        },
-        {
-          "title": "Reverse Words in a String",
-          "slug": "reverse-words-in-a-string",
-          "ts": 1790362533
-        },
-        {
-          "title": "Valid Palindrome",
-          "slug": "valid-palindrome",
-          "ts": 1790319139
         }
       ]
     },
     "m2": {
       "recent_ac": [
+        {
+          "title": "Spiral Matrix",
+          "slug": "spiral-matrix",
+          "ts": 1791156270
+        },
+        {
+          "title": "Rotate Image",
+          "slug": "rotate-image",
+          "ts": 1791151425
+        },
         {
           "title": "Remove Duplicates from Sorted Array",
           "slug": "remove-duplicates-from-sorted-array",
@@ -197,16 +207,6 @@
           "title": "Max Area of Island",
           "slug": "max-area-of-island",
           "ts": 1788655674
-        },
-        {
-          "title": "Add Two Numbers",
-          "slug": "add-two-numbers",
-          "ts": 1788650776
-        },
-        {
-          "title": "Subsets",
-          "slug": "subsets",
-          "ts": 1788571628
         }
       ]
     },
@@ -421,6 +421,16 @@
     "m5": {
       "recent_ac": [
         {
+          "title": "Find the Town Judge",
+          "slug": "find-the-town-judge",
+          "ts": 1791169751
+        },
+        {
+          "title": "Minimum Number of Days to Make m Bouquets",
+          "slug": "minimum-number-of-days-to-make-m-bouquets",
+          "ts": 1791138548
+        },
+        {
           "title": "Bulls and Cows",
           "slug": "bulls-and-cows",
           "ts": 1791095161
@@ -509,21 +519,26 @@
           "title": "Flatten Binary Tree to Linked List",
           "slug": "flatten-binary-tree-to-linked-list",
           "ts": 1789951328
-        },
-        {
-          "title": "All Nodes Distance K in Binary Tree",
-          "slug": "all-nodes-distance-k-in-binary-tree",
-          "ts": 1789930253
-        },
-        {
-          "title": "Word Ladder",
-          "slug": "word-ladder",
-          "ts": 1789882886
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Sort an Array",
+          "slug": "sort-an-array",
+          "ts": 1791171373
+        },
+        {
+          "title": "Design Add and Search Words Data Structure",
+          "slug": "design-add-and-search-words-data-structure",
+          "ts": 1791153575
+        },
+        {
+          "title": "Maximum Subarray",
+          "slug": "maximum-subarray",
+          "ts": 1791152139
+        },
         {
           "title": "Maximal Square",
           "slug": "maximal-square",
@@ -608,21 +623,6 @@
           "title": "Partition Labels",
           "slug": "partition-labels",
           "ts": 1790580333
-        },
-        {
-          "title": "Implement Trie (Prefix Tree)",
-          "slug": "implement-trie-prefix-tree",
-          "ts": 1790578604
-        },
-        {
-          "title": "Partition Equal Subset Sum",
-          "slug": "partition-equal-subset-sum",
-          "ts": 1790554309
-        },
-        {
-          "title": "Word Search II",
-          "slug": "word-search-ii",
-          "ts": 1790475781
         }
       ]
     },
@@ -941,6 +941,21 @@
     "m10": {
       "recent_ac": [
         {
+          "title": "Kth Largest Element in an Array",
+          "slug": "kth-largest-element-in-an-array",
+          "ts": 1791144892
+        },
+        {
+          "title": "Copy List with Random Pointer",
+          "slug": "copy-list-with-random-pointer",
+          "ts": 1791136032
+        },
+        {
+          "title": "LRU Cache",
+          "slug": "lru-cache",
+          "ts": 1791131764
+        },
+        {
           "title": "Group Anagrams",
           "slug": "group-anagrams",
           "ts": 1791063213
@@ -1024,21 +1039,6 @@
           "title": "Course Schedule II",
           "slug": "course-schedule-ii",
           "ts": 1789420649
-        },
-        {
-          "title": "Course Schedule",
-          "slug": "course-schedule",
-          "ts": 1789418216
-        },
-        {
-          "title": "Validate Binary Search Tree",
-          "slug": "validate-binary-search-tree",
-          "ts": 1789358214
-        },
-        {
-          "title": "Path Sum",
-          "slug": "path-sum",
-          "ts": 1789357580
         }
       ]
     }
