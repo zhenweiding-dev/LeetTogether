@@ -364,6 +364,15 @@
       "Binary Tree"
     ]
   },
+  "binary-tree-zigzag-level-order-traversal": {
+    "difficulty": "Medium",
+    "frontend_id": "103",
+    "tags": [
+      "Tree",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
   "binary-trees-with-factors": {
     "difficulty": "Medium",
     "frontend_id": "823",
@@ -987,6 +996,16 @@
       "Design",
       "Heap (Priority Queue)",
       "Ordered Set"
+    ]
+  },
+  "design-twitter": {
+    "difficulty": "Medium",
+    "frontend_id": "355",
+    "tags": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Heap (Priority Queue)"
     ]
   },
   "design-underground-system": {
@@ -2016,6 +2035,16 @@
       "Hash Table",
       "String",
       "Backtracking"
+    ]
+  },
+  "lfu-cache": {
+    "difficulty": "Hard",
+    "frontend_id": "460",
+    "tags": [
+      "Hash Table",
+      "Linked List",
+      "Design",
+      "Doubly-Linked List"
     ]
   },
   "linked-list-cycle": {
@@ -3480,6 +3509,16 @@
     "frontend_id": "576",
     "tags": [
       "Dynamic Programming"
+    ]
+  },
+  "pacific-atlantic-water-flow": {
+    "difficulty": "Medium",
+    "frontend_id": "417",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Matrix"
     ]
   },
   "palindrome-linked-list": {

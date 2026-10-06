@@ -1,9 +1,19 @@
 {
-  "date": "2026-10-04",
-  "fetched_at": "2026-10-05T04:00:43+00:00",
+  "date": "2026-10-05",
+  "fetched_at": "2026-10-06T06:55:31+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Merge Intervals",
+          "slug": "merge-intervals",
+          "ts": 1791269017
+        },
+        {
+          "title": "Remove Covered Intervals",
+          "slug": "remove-covered-intervals",
+          "ts": 1791261672
+        },
         {
           "title": "Next Permutation",
           "slug": "next-permutation",
@@ -93,16 +103,6 @@
           "title": "Next Greater Element I",
           "slug": "next-greater-element-i",
           "ts": 1790455968
-        },
-        {
-          "title": "Min Stack",
-          "slug": "min-stack",
-          "ts": 1790379348
-        },
-        {
-          "title": "LRU Cache",
-          "slug": "lru-cache",
-          "ts": 1790378186
         }
       ]
     },
@@ -525,6 +525,21 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "K Closest Points to Origin",
+          "slug": "k-closest-points-to-origin",
+          "ts": 1791250363
+        },
+        {
+          "title": "Minimum Path Sum",
+          "slug": "minimum-path-sum",
+          "ts": 1791249823
+        },
+        {
+          "title": "Pacific Atlantic Water Flow",
+          "slug": "pacific-atlantic-water-flow",
+          "ts": 1791249187
+        },
+        {
           "title": "Sort an Array",
           "slug": "sort-an-array",
           "ts": 1791171373
@@ -608,26 +623,21 @@
           "title": "Weighted Sum of a Tree",
           "slug": "weighted-sum-of-a-tree",
           "ts": 1790646615
-        },
-        {
-          "title": "Generate Parentheses",
-          "slug": "generate-parentheses",
-          "ts": 1790631478
-        },
-        {
-          "title": "Path Sum III",
-          "slug": "path-sum-iii",
-          "ts": 1790630828
-        },
-        {
-          "title": "Partition Labels",
-          "slug": "partition-labels",
-          "ts": 1790580333
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "LFU Cache",
+          "slug": "lfu-cache",
+          "ts": 1791262610
+        },
+        {
+          "title": "Design Twitter",
+          "slug": "design-twitter",
+          "ts": 1791258071
+        },
         {
           "title": "Sum of Absolute Differences in a Sorted Array",
           "slug": "sum-of-absolute-differences-in-a-sorted-array",
@@ -717,16 +727,6 @@
           "title": "Find K Closest Elements",
           "slug": "find-k-closest-elements",
           "ts": 1790811797
-        },
-        {
-          "title": "Sum of Square Numbers",
-          "slug": "sum-of-square-numbers",
-          "ts": 1790810305
-        },
-        {
-          "title": "Add One Row to Tree",
-          "slug": "add-one-row-to-tree",
-          "ts": 1790806531
         }
       ]
     },
@@ -941,6 +941,26 @@
     "m10": {
       "recent_ac": [
         {
+          "title": "Min Stack",
+          "slug": "min-stack",
+          "ts": 1791230266
+        },
+        {
+          "title": "Binary Tree Zigzag Level Order Traversal",
+          "slug": "binary-tree-zigzag-level-order-traversal",
+          "ts": 1791228421
+        },
+        {
+          "title": "Binary Tree Level Order Traversal",
+          "slug": "binary-tree-level-order-traversal",
+          "ts": 1791228014
+        },
+        {
+          "title": "Validate Binary Search Tree",
+          "slug": "validate-binary-search-tree",
+          "ts": 1791221824
+        },
+        {
           "title": "Kth Largest Element in an Array",
           "slug": "kth-largest-element-in-an-array",
           "ts": 1791144892
@@ -1019,26 +1039,6 @@
           "title": "Word Search",
           "slug": "word-search",
           "ts": 1789532207
-        },
-        {
-          "title": "Evaluate Division",
-          "slug": "evaluate-division",
-          "ts": 1789437795
-        },
-        {
-          "title": "Surrounded Regions",
-          "slug": "surrounded-regions",
-          "ts": 1789423509
-        },
-        {
-          "title": "Clone Graph",
-          "slug": "clone-graph",
-          "ts": 1789421879
-        },
-        {
-          "title": "Course Schedule II",
-          "slug": "course-schedule-ii",
-          "ts": 1789420649
         }
       ]
     }
