@@ -148,6 +148,16 @@
       "String"
     ]
   },
+  "as-far-from-land-as-possible": {
+    "difficulty": "Medium",
+    "frontend_id": "1162",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
   "average-waiting-time": {
     "difficulty": "Medium",
     "tags": [
@@ -846,6 +856,7 @@
   },
   "count-the-number-of-good-subarrays": {
     "difficulty": "Medium",
+    "frontend_id": "2537",
     "tags": [
       "Array",
       "Hash Table",
@@ -986,6 +997,16 @@
       "Design",
       "Trie",
       "Sorting"
+    ]
+  },
+  "design-memory-allocator": {
+    "difficulty": "Medium",
+    "frontend_id": "2502",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Design",
+      "Simulation"
     ]
   },
   "design-task-manager": {
@@ -2579,6 +2600,16 @@
       "Binary Tree"
     ]
   },
+  "maximum-number-of-events-that-can-be-attended": {
+    "difficulty": "Medium",
+    "frontend_id": "1353",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  },
   "maximum-number-of-non-overlapping-substrings": {
     "difficulty": "Hard",
     "frontend_id": "1520",
@@ -3567,6 +3598,14 @@
       "Directed Acyclic Graph"
     ]
   },
+  "partition-array-for-maximum-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "1043",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
+    ]
+  },
   "partition-array-into-two-equal-product-subsets": {
     "difficulty": "Medium",
     "frontend_id": "3566",
@@ -4395,6 +4434,18 @@
       "Monotonic Queue"
     ]
   },
+  "shortest-unsorted-continuous-subarray": {
+    "difficulty": "Medium",
+    "frontend_id": "581",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Stack",
+      "Greedy",
+      "Sorting",
+      "Monotonic Stack"
+    ]
+  },
   "shuffle-an-array": {
     "difficulty": "Medium",
     "frontend_id": "384",
@@ -5062,6 +5113,15 @@
       "Matrix"
     ]
   },
+  "unit-conversion-i": {
+    "difficulty": "Medium",
+    "frontend_id": "3528",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory"
+    ]
+  },
   "valid-palindrome": {
     "difficulty": "Easy",
     "frontend_id": "125",
@@ -5274,6 +5334,17 @@
     "tags": [
       "Hash Table",
       "String",
+      "Breadth-First Search",
+      "Bidirectional Search"
+    ]
+  },
+  "word-ladder-ii": {
+    "difficulty": "Hard",
+    "frontend_id": "126",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Backtracking",
       "Breadth-First Search",
       "Bidirectional Search"
     ]

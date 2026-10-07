@@ -1,9 +1,14 @@
 {
-  "date": "2026-10-05",
-  "fetched_at": "2026-10-06T06:55:31+00:00",
+  "date": "2026-10-06",
+  "fetched_at": "2026-10-07T06:55:29+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Insert Interval",
+          "slug": "insert-interval",
+          "ts": 1791355128
+        },
         {
           "title": "Merge Intervals",
           "slug": "merge-intervals",
@@ -98,11 +103,6 @@
           "title": "Daily Temperatures",
           "slug": "daily-temperatures",
           "ts": 1790456961
-        },
-        {
-          "title": "Next Greater Element I",
-          "slug": "next-greater-element-i",
-          "ts": 1790455968
         }
       ]
     },
@@ -629,6 +629,61 @@
     "m7": {
       "recent_ac": [
         {
+          "title": "Count the Number of Good Subarrays",
+          "slug": "count-the-number-of-good-subarrays",
+          "ts": 1791348128
+        },
+        {
+          "title": "Shortest Unsorted Continuous Subarray",
+          "slug": "shortest-unsorted-continuous-subarray",
+          "ts": 1791346780
+        },
+        {
+          "title": "Design Memory Allocator",
+          "slug": "design-memory-allocator",
+          "ts": 1791336441
+        },
+        {
+          "title": "Product of the Last K Numbers",
+          "slug": "product-of-the-last-k-numbers",
+          "ts": 1791335082
+        },
+        {
+          "title": "Path Sum III",
+          "slug": "path-sum-iii",
+          "ts": 1791331760
+        },
+        {
+          "title": "Unit Conversion I",
+          "slug": "unit-conversion-i",
+          "ts": 1791330320
+        },
+        {
+          "title": "Maximum Number of Events That Can Be Attended",
+          "slug": "maximum-number-of-events-that-can-be-attended",
+          "ts": 1791327536
+        },
+        {
+          "title": "Maximum Sum Circular Subarray",
+          "slug": "maximum-sum-circular-subarray",
+          "ts": 1791313603
+        },
+        {
+          "title": "Partition Array for Maximum Sum",
+          "slug": "partition-array-for-maximum-sum",
+          "ts": 1791312461
+        },
+        {
+          "title": "As Far from Land as Possible",
+          "slug": "as-far-from-land-as-possible",
+          "ts": 1791311165
+        },
+        {
+          "title": "Word Ladder II",
+          "slug": "word-ladder-ii",
+          "ts": 1791310526
+        },
+        {
           "title": "LFU Cache",
           "slug": "lfu-cache",
           "ts": 1791262610
@@ -672,61 +727,6 @@
           "title": "Rectangle Area",
           "slug": "rectangle-area",
           "ts": 1791006792
-        },
-        {
-          "title": "Populating Next Right Pointers in Each Node",
-          "slug": "populating-next-right-pointers-in-each-node",
-          "ts": 1791005971
-        },
-        {
-          "title": "Design Task Manager",
-          "slug": "design-task-manager",
-          "ts": 1791005517
-        },
-        {
-          "title": "Maximum Level Sum of a Binary Tree",
-          "slug": "maximum-level-sum-of-a-binary-tree",
-          "ts": 1790918308
-        },
-        {
-          "title": "Remove Outermost Parentheses",
-          "slug": "remove-outermost-parentheses",
-          "ts": 1790830304
-        },
-        {
-          "title": "All Nodes Distance K in Binary Tree",
-          "slug": "all-nodes-distance-k-in-binary-tree",
-          "ts": 1790829951
-        },
-        {
-          "title": "Minimum Add to Make Parentheses Valid",
-          "slug": "minimum-add-to-make-parentheses-valid",
-          "ts": 1790829882
-        },
-        {
-          "title": "Lemonade Change",
-          "slug": "lemonade-change",
-          "ts": 1790826979
-        },
-        {
-          "title": "Peak Index in a Mountain Array",
-          "slug": "peak-index-in-a-mountain-array",
-          "ts": 1790817300
-        },
-        {
-          "title": "Keys and Rooms",
-          "slug": "keys-and-rooms",
-          "ts": 1790814423
-        },
-        {
-          "title": "Image Overlap",
-          "slug": "image-overlap",
-          "ts": 1790814085
-        },
-        {
-          "title": "Find K Closest Elements",
-          "slug": "find-k-closest-elements",
-          "ts": 1790811797
         }
       ]
     },
@@ -941,6 +941,11 @@
     "m10": {
       "recent_ac": [
         {
+          "title": "Number of Provinces",
+          "slug": "number-of-provinces",
+          "ts": 1791335562
+        },
+        {
           "title": "Min Stack",
           "slug": "min-stack",
           "ts": 1791230266
@@ -1034,11 +1039,6 @@
           "title": "Implement Trie (Prefix Tree)",
           "slug": "implement-trie-prefix-tree",
           "ts": 1789532679
-        },
-        {
-          "title": "Word Search",
-          "slug": "word-search",
-          "ts": 1789532207
         }
       ]
     }
