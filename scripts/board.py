@@ -162,8 +162,12 @@ def streak_with_history(days, today, active, prev_eod):
     derived, limited = streak_of(days, today)
     if prev_eod is None:  # yesterday is not in the window, nothing to carry
         return derived, (derived if active else 0), limited
-    display = max(derived, prev_eod + 1 if active else prev_eod)
-    return display, (display if active else 0), False
+    # The carried count is exact — it accumulated a day at a time and never
+    # depended on the window. Only the derived one is a floor, and only when it is
+    # the larger does the display inherit its uncertainty.
+    carried = prev_eod + 1 if active else prev_eod
+    display = max(derived, carried)
+    return display, (display if active else 0), limited and derived > carried
 
 
 def solved_deltas(days):

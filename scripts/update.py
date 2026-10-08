@@ -141,6 +141,36 @@ def backfill(history, members, problems, cfg, today):
                 entry["tags"] = dict(sorted(tags.items()))
 
 
+def repair_streaks(history, today):
+    """Reconnect a streak that a late submission broke.
+
+    A day's streak is stored at that day's last run, so someone who submits after
+    it — the gap to local midnight is a few minutes at best, an hour when GitHub
+    drops a run — is recorded as having solved nothing and has their streak stored
+    as 0. top_up_yesterday raises that day's count the next morning but cannot
+    raise the 0, and every day after it carries the break forward.
+
+    Solving at least one problem means the streak cannot be 0, so the two
+    disagreeing is always the stored value being wrong. Ascending, so a repaired
+    day is already right when the day after it reads from it. Today is excluded:
+    its 0 means the day is not over, not that the streak broke.
+    """
+    for date in sorted(history):
+        if date >= today:
+            break
+        prev = (
+            datetime.strptime(date, "%Y-%m-%d").date() - timedelta(days=1)
+        ).isoformat()
+        before = history.get(prev, {}).get("members") or {}
+        for mid, m in (history[date].get("members") or {}).items():
+            if m.get("streak") != 0 or (m.get("day") or {}).get("count", 0) < 1:
+                continue
+            carried = (before.get(mid) or {}).get("streak")
+            if carried is None:
+                continue  # nothing to carry from; the board's derived floor stands
+            m["streak"] = carried + 1
+
+
 def core(members):
     """The only two things whose change means the data actually moved.
 
@@ -305,6 +335,8 @@ def main():
     }
     top_up_yesterday(history, detail, problems, cfg, today)
     backfill(history, members, problems, cfg, today)
+    # After the top-up: a day it just raised from zero is one of the days to fix.
+    repair_streaks(history, today)
 
     # The window is why this project does not grow without bound.
     for date in sorted(history)[: -board.RETAIN]:
