@@ -1,6 +1,6 @@
 {
   "date": "2026-10-07",
-  "fetched_at": "2026-10-08T04:30:39+00:00",
+  "fetched_at": "2026-10-08T06:55:28+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,6 +317,11 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Longest Palindromic Substring",
+          "slug": "longest-palindromic-substring",
+          "ts": 1791438057
+        },
+        {
           "title": "Transform Array Using Pair Operations",
           "slug": "transform-array-using-pair-operations",
           "ts": 1790499607
@@ -410,16 +415,21 @@
           "title": "Contains Duplicate II",
           "slug": "contains-duplicate-ii",
           "ts": 1790389539
-        },
-        {
-          "title": "Happy Number",
-          "slug": "happy-number",
-          "ts": 1790389184
         }
       ]
     },
     "m5": {
       "recent_ac": [
+        {
+          "title": "Angle Between Hands of a Clock",
+          "slug": "angle-between-hands-of-a-clock",
+          "ts": 1791438388
+        },
+        {
+          "title": "Merge Intervals",
+          "slug": "merge-intervals",
+          "ts": 1791437230
+        },
         {
           "title": "Find the Town Judge",
           "slug": "find-the-town-judge",
@@ -509,21 +519,21 @@
           "title": "Unique Binary Search Trees II",
           "slug": "unique-binary-search-trees-ii",
           "ts": 1790007558
-        },
-        {
-          "title": "Minimum Depth of Binary Tree",
-          "slug": "minimum-depth-of-binary-tree",
-          "ts": 1789960273
-        },
-        {
-          "title": "Flatten Binary Tree to Linked List",
-          "slug": "flatten-binary-tree-to-linked-list",
-          "ts": 1789951328
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Partition Equal Subset Sum",
+          "slug": "partition-equal-subset-sum",
+          "ts": 1791441489
+        },
+        {
+          "title": "Min Cost Climbing Stairs",
+          "slug": "min-cost-climbing-stairs",
+          "ts": 1791439291
+        },
         {
           "title": "Two Sum",
           "slug": "two-sum",
@@ -613,21 +623,21 @@
           "title": "Best Time to Buy and Sell Stock",
           "slug": "best-time-to-buy-and-sell-stock",
           "ts": 1790750387
-        },
-        {
-          "title": "Find Median from Data Stream",
-          "slug": "find-median-from-data-stream",
-          "ts": 1790746766
-        },
-        {
-          "title": "Reverse Linked List",
-          "slug": "reverse-linked-list",
-          "ts": 1790743671
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Evaluate the Bracket Pairs of a String",
+          "slug": "evaluate-the-bracket-pairs-of-a-string",
+          "ts": 1791435426
+        },
+        {
+          "title": "Minimum Swaps to Arrange a Binary Grid",
+          "slug": "minimum-swaps-to-arrange-a-binary-grid",
+          "ts": 1791434015
+        },
         {
           "title": "Minimum Time to Collect All Apples in a Tree",
           "slug": "minimum-time-to-collect-all-apples-in-a-tree",
@@ -717,16 +727,6 @@
           "title": "Maximum Sum Circular Subarray",
           "slug": "maximum-sum-circular-subarray",
           "ts": 1791313603
-        },
-        {
-          "title": "Partition Array for Maximum Sum",
-          "slug": "partition-array-for-maximum-sum",
-          "ts": 1791312461
-        },
-        {
-          "title": "As Far from Land as Possible",
-          "slug": "as-far-from-land-as-possible",
-          "ts": 1791311165
         }
       ]
     },

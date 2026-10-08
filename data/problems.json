@@ -141,6 +141,13 @@
       "Enumeration"
     ]
   },
+  "angle-between-hands-of-a-clock": {
+    "difficulty": "Medium",
+    "frontend_id": "1344",
+    "tags": [
+      "Math"
+    ]
+  },
   "apply-discount-to-prices": {
     "difficulty": "Medium",
     "frontend_id": "2288",
@@ -1223,6 +1230,15 @@
       "Array",
       "Math",
       "Stack"
+    ]
+  },
+  "evaluate-the-bracket-pairs-of-a-string": {
+    "difficulty": "Medium",
+    "frontend_id": "1807",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String"
     ]
   },
   "exam-room": {
@@ -3240,6 +3256,7 @@
   },
   "minimum-swaps-to-arrange-a-binary-grid": {
     "difficulty": "Medium",
+    "frontend_id": "1536",
     "tags": [
       "Array",
       "Greedy",
