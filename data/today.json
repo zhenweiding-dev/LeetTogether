@@ -1,9 +1,19 @@
 {
-  "date": "2026-10-06",
-  "fetched_at": "2026-10-07T06:55:29+00:00",
+  "date": "2026-10-07",
+  "fetched_at": "2026-10-08T04:30:39+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Minimum Number of Arrows to Burst Balloons",
+          "slug": "minimum-number-of-arrows-to-burst-balloons",
+          "ts": 1791433297
+        },
+        {
+          "title": "Non-overlapping Intervals",
+          "slug": "non-overlapping-intervals",
+          "ts": 1791432223
+        },
         {
           "title": "Insert Interval",
           "slug": "insert-interval",
@@ -93,16 +103,6 @@
           "title": "Top K Frequent Elements",
           "slug": "top-k-frequent-elements",
           "ts": 1790553372
-        },
-        {
-          "title": "Kth Largest Element in an Array",
-          "slug": "kth-largest-element-in-an-array",
-          "ts": 1790549451
-        },
-        {
-          "title": "Daily Temperatures",
-          "slug": "daily-temperatures",
-          "ts": 1790456961
         }
       ]
     },
@@ -525,6 +525,11 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Two Sum",
+          "slug": "two-sum",
+          "ts": 1791356362
+        },
+        {
           "title": "K Closest Points to Origin",
           "slug": "k-closest-points-to-origin",
           "ts": 1791250363
@@ -618,16 +623,61 @@
           "title": "Reverse Linked List",
           "slug": "reverse-linked-list",
           "ts": 1790743671
-        },
-        {
-          "title": "Weighted Sum of a Tree",
-          "slug": "weighted-sum-of-a-tree",
-          "ts": 1790646615
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Minimum Time to Collect All Apples in a Tree",
+          "slug": "minimum-time-to-collect-all-apples-in-a-tree",
+          "ts": 1791424352
+        },
+        {
+          "title": "Number of Nodes in the Sub-Tree With the Same Label",
+          "slug": "number-of-nodes-in-the-sub-tree-with-the-same-label",
+          "ts": 1791421146
+        },
+        {
+          "title": "Kth Largest Sum in a Binary Tree",
+          "slug": "kth-largest-sum-in-a-binary-tree",
+          "ts": 1791417327
+        },
+        {
+          "title": "The Number of Weak Characters in the Game",
+          "slug": "the-number-of-weak-characters-in-the-game",
+          "ts": 1791416916
+        },
+        {
+          "title": "Minimum Interval to Include Each Query",
+          "slug": "minimum-interval-to-include-each-query",
+          "ts": 1791414909
+        },
+        {
+          "title": "Frequency of the Most Frequent Element",
+          "slug": "frequency-of-the-most-frequent-element",
+          "ts": 1791411512
+        },
+        {
+          "title": "Max Number of K-Sum Pairs",
+          "slug": "max-number-of-k-sum-pairs",
+          "ts": 1791408431
+        },
+        {
+          "title": "Minimum Operations to Reduce X to Zero",
+          "slug": "minimum-operations-to-reduce-x-to-zero",
+          "ts": 1791408229
+        },
+        {
+          "title": "Number of Good Ways to Split a String",
+          "slug": "number-of-good-ways-to-split-a-string",
+          "ts": 1791406486
+        },
+        {
+          "title": "Count Number of Nice Subarrays",
+          "slug": "count-number-of-nice-subarrays",
+          "ts": 1791396927
+        },
         {
           "title": "Count the Number of Good Subarrays",
           "slug": "count-the-number-of-good-subarrays",
@@ -677,56 +727,6 @@
           "title": "As Far from Land as Possible",
           "slug": "as-far-from-land-as-possible",
           "ts": 1791311165
-        },
-        {
-          "title": "Word Ladder II",
-          "slug": "word-ladder-ii",
-          "ts": 1791310526
-        },
-        {
-          "title": "LFU Cache",
-          "slug": "lfu-cache",
-          "ts": 1791262610
-        },
-        {
-          "title": "Design Twitter",
-          "slug": "design-twitter",
-          "ts": 1791258071
-        },
-        {
-          "title": "Sum of Absolute Differences in a Sorted Array",
-          "slug": "sum-of-absolute-differences-in-a-sorted-array",
-          "ts": 1791096067
-        },
-        {
-          "title": "Maximize the Confusion of an Exam",
-          "slug": "maximize-the-confusion-of-an-exam",
-          "ts": 1791095002
-        },
-        {
-          "title": "Single-Threaded CPU",
-          "slug": "single-threaded-cpu",
-          "ts": 1791094240
-        },
-        {
-          "title": "Reverse Substrings Between Each Pair of Parentheses",
-          "slug": "reverse-substrings-between-each-pair-of-parentheses",
-          "ts": 1791092206
-        },
-        {
-          "title": "Two City Scheduling",
-          "slug": "two-city-scheduling",
-          "ts": 1791091403
-        },
-        {
-          "title": "Partition to K Equal Sum Subsets",
-          "slug": "partition-to-k-equal-sum-subsets",
-          "ts": 1791091029
-        },
-        {
-          "title": "Rectangle Area",
-          "slug": "rectangle-area",
-          "ts": 1791006792
         }
       ]
     },
@@ -941,6 +941,21 @@
     "m10": {
       "recent_ac": [
         {
+          "title": "Word Search",
+          "slug": "word-search",
+          "ts": 1791398291
+        },
+        {
+          "title": "Network Delay Time",
+          "slug": "network-delay-time",
+          "ts": 1791393146
+        },
+        {
+          "title": "Parallel Courses III",
+          "slug": "parallel-courses-iii",
+          "ts": 1791387235
+        },
+        {
           "title": "Number of Provinces",
           "slug": "number-of-provinces",
           "ts": 1791335562
@@ -1024,21 +1039,6 @@
           "title": "Design In-Memory File System",
           "slug": "design-in-memory-file-system",
           "ts": 1790886585
-        },
-        {
-          "title": "Summary Ranges",
-          "slug": "summary-ranges",
-          "ts": 1789620064
-        },
-        {
-          "title": "Word Search II",
-          "slug": "word-search-ii",
-          "ts": 1789534414
-        },
-        {
-          "title": "Implement Trie (Prefix Tree)",
-          "slug": "implement-trie-prefix-tree",
-          "ts": 1789532679
         }
       ]
     }

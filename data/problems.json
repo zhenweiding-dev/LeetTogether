@@ -784,6 +784,17 @@
       "Recursion"
     ]
   },
+  "count-number-of-nice-subarrays": {
+    "difficulty": "Medium",
+    "frontend_id": "1248",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Sliding Window",
+      "Prefix Sum"
+    ]
+  },
   "count-number-of-teams": {
     "difficulty": "Medium",
     "tags": [
@@ -1554,6 +1565,7 @@
   },
   "frequency-of-the-most-frequent-element": {
     "difficulty": "Medium",
+    "frontend_id": "1838",
     "tags": [
       "Array",
       "Binary Search",
@@ -1944,6 +1956,16 @@
       "Sorting",
       "Heap (Priority Queue)",
       "Quickselect"
+    ]
+  },
+  "kth-largest-sum-in-a-binary-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "2583",
+    "tags": [
+      "Tree",
+      "Breadth-First Search",
+      "Sorting",
+      "Binary Tree"
     ]
   },
   "kth-smallest-element-in-a-bst": {
@@ -2461,6 +2483,16 @@
       "Array",
       "Greedy",
       "Matrix"
+    ]
+  },
+  "max-number-of-k-sum-pairs": {
+    "difficulty": "Medium",
+    "frontend_id": "1679",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Two Pointers",
+      "Sorting"
     ]
   },
   "maximal-square": {
@@ -3033,6 +3065,17 @@
       "Bracket Sequences"
     ]
   },
+  "minimum-interval-to-include-each-query": {
+    "difficulty": "Hard",
+    "frontend_id": "1851",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Sweep Line",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  },
   "minimum-moves-to-clean-the-classroom": {
     "difficulty": "Medium",
     "frontend_id": "3568",
@@ -3103,6 +3146,17 @@
       "Array",
       "Bit Manipulation",
       "Queue",
+      "Sliding Window",
+      "Prefix Sum"
+    ]
+  },
+  "minimum-operations-to-reduce-x-to-zero": {
+    "difficulty": "Medium",
+    "frontend_id": "1658",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
       "Sliding Window",
       "Prefix Sum"
     ]
@@ -3197,6 +3251,17 @@
     "tags": [
       "Array",
       "Sliding Window"
+    ]
+  },
+  "minimum-time-to-collect-all-apples-in-a-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "1443",
+    "tags": [
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "DP on Trees"
     ]
   },
   "minimum-window-substring": {
@@ -3413,6 +3478,7 @@
   },
   "number-of-good-ways-to-split-a-string": {
     "difficulty": "Medium",
+    "frontend_id": "1525",
     "tags": [
       "Hash Table",
       "String",
@@ -3440,6 +3506,18 @@
       "Breadth-First Search",
       "Union-Find",
       "Matrix"
+    ]
+  },
+  "number-of-nodes-in-the-sub-tree-with-the-same-label": {
+    "difficulty": "Medium",
+    "frontend_id": "1519",
+    "tags": [
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Counting",
+      "DP on Trees"
     ]
   },
   "number-of-provinces": {
