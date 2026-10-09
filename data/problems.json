@@ -1579,6 +1579,16 @@
       "Binary Tree"
     ]
   },
+  "flood-fill": {
+    "difficulty": "Easy",
+    "frontend_id": "733",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
   "frequency-of-the-most-frequent-element": {
     "difficulty": "Medium",
     "frontend_id": "1838",
@@ -2087,6 +2097,15 @@
       "String"
     ]
   },
+  "letter-case-permutation": {
+    "difficulty": "Medium",
+    "frontend_id": "784",
+    "tags": [
+      "String",
+      "Backtracking",
+      "Bit Manipulation"
+    ]
+  },
   "letter-combinations-of-a-phone-number": {
     "difficulty": "Medium",
     "frontend_id": "17",
@@ -2415,6 +2434,17 @@
       "Stack",
       "Greedy",
       "Monotonic Stack"
+    ]
+  },
+  "make-costs-of-paths-equal-in-a-binary-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "2673",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy",
+      "Tree",
+      "Binary Tree"
     ]
   },
   "making-a-large-island": {

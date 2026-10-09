@@ -1,9 +1,14 @@
 {
-  "date": "2026-10-07",
-  "fetched_at": "2026-10-08T06:55:28+00:00",
+  "date": "2026-10-08",
+  "fetched_at": "2026-10-09T05:31:03+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Flood Fill",
+          "slug": "flood-fill",
+          "ts": 1791523084
+        },
         {
           "title": "Minimum Number of Arrows to Burst Balloons",
           "slug": "minimum-number-of-arrows-to-burst-balloons",
@@ -98,11 +103,6 @@
           "title": "Merge Triplets to Form Target Triplet",
           "slug": "merge-triplets-to-form-target-triplet",
           "ts": 1790657798
-        },
-        {
-          "title": "Top K Frequent Elements",
-          "slug": "top-k-frequent-elements",
-          "ts": 1790553372
         }
       ]
     },
@@ -421,6 +421,21 @@
     "m5": {
       "recent_ac": [
         {
+          "title": "Min Cost Climbing Stairs",
+          "slug": "min-cost-climbing-stairs",
+          "ts": 1791522472
+        },
+        {
+          "title": "Climbing Stairs",
+          "slug": "climbing-stairs",
+          "ts": 1791521575
+        },
+        {
+          "title": "House Robber",
+          "slug": "house-robber",
+          "ts": 1791520200
+        },
+        {
           "title": "Angle Between Hands of a Clock",
           "slug": "angle-between-hands-of-a-clock",
           "ts": 1791438388
@@ -504,21 +519,6 @@
           "title": "Rotate Image",
           "slug": "rotate-image",
           "ts": 1790143868
-        },
-        {
-          "title": "Network Delay Time",
-          "slug": "network-delay-time",
-          "ts": 1790015069
-        },
-        {
-          "title": "Lowest Common Ancestor of Deepest Leaves",
-          "slug": "lowest-common-ancestor-of-deepest-leaves",
-          "ts": 1790009826
-        },
-        {
-          "title": "Unique Binary Search Trees II",
-          "slug": "unique-binary-search-trees-ii",
-          "ts": 1790007558
         }
       ]
     },
@@ -629,6 +629,26 @@
     "m7": {
       "recent_ac": [
         {
+          "title": "Design Add and Search Words Data Structure",
+          "slug": "design-add-and-search-words-data-structure",
+          "ts": 1791516333
+        },
+        {
+          "title": "Make Costs of Paths Equal in a Binary Tree",
+          "slug": "make-costs-of-paths-equal-in-a-binary-tree",
+          "ts": 1791505193
+        },
+        {
+          "title": "Minimum Cost For Tickets",
+          "slug": "minimum-cost-for-tickets",
+          "ts": 1791504165
+        },
+        {
+          "title": "Letter Case Permutation",
+          "slug": "letter-case-permutation",
+          "ts": 1791502753
+        },
+        {
           "title": "Evaluate the Bracket Pairs of a String",
           "slug": "evaluate-the-bracket-pairs-of-a-string",
           "ts": 1791435426
@@ -707,26 +727,6 @@
           "title": "Product of the Last K Numbers",
           "slug": "product-of-the-last-k-numbers",
           "ts": 1791335082
-        },
-        {
-          "title": "Path Sum III",
-          "slug": "path-sum-iii",
-          "ts": 1791331760
-        },
-        {
-          "title": "Unit Conversion I",
-          "slug": "unit-conversion-i",
-          "ts": 1791330320
-        },
-        {
-          "title": "Maximum Number of Events That Can Be Attended",
-          "slug": "maximum-number-of-events-that-can-be-attended",
-          "ts": 1791327536
-        },
-        {
-          "title": "Maximum Sum Circular Subarray",
-          "slug": "maximum-sum-circular-subarray",
-          "ts": 1791313603
         }
       ]
     },
