@@ -1,9 +1,19 @@
 {
-  "date": "2026-10-08",
-  "fetched_at": "2026-10-09T05:31:03+00:00",
+  "date": "2026-10-09",
+  "fetched_at": "2026-10-10T05:00:38+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Median of Two Sorted Arrays",
+          "slug": "median-of-two-sorted-arrays",
+          "ts": 1791570750
+        },
+        {
+          "title": "Sort Colors",
+          "slug": "sort-colors",
+          "ts": 1791568425
+        },
         {
           "title": "Flood Fill",
           "slug": "flood-fill",
@@ -93,21 +103,21 @@
           "title": "Partition Labels",
           "slug": "partition-labels",
           "ts": 1790832940
-        },
-        {
-          "title": "Find Median from Data Stream",
-          "slug": "find-median-from-data-stream",
-          "ts": 1790741491
-        },
-        {
-          "title": "Merge Triplets to Form Target Triplet",
-          "slug": "merge-triplets-to-form-target-triplet",
-          "ts": 1790657798
         }
       ]
     },
     "m2": {
       "recent_ac": [
+        {
+          "title": "Sort Colors",
+          "slug": "sort-colors",
+          "ts": 1791584274
+        },
+        {
+          "title": "Remove Duplicates from Sorted Array II",
+          "slug": "remove-duplicates-from-sorted-array-ii",
+          "ts": 1791573743
+        },
         {
           "title": "Spiral Matrix",
           "slug": "spiral-matrix",
@@ -197,16 +207,6 @@
           "title": "Nearest Exit from Entrance in Maze",
           "slug": "nearest-exit-from-entrance-in-maze",
           "ts": 1788760284
-        },
-        {
-          "title": "Task Scheduler",
-          "slug": "task-scheduler",
-          "ts": 1788755091
-        },
-        {
-          "title": "Max Area of Island",
-          "slug": "max-area-of-island",
-          "ts": 1788655674
         }
       ]
     },
@@ -525,6 +525,21 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Word Search II",
+          "slug": "word-search-ii",
+          "ts": 1791583875
+        },
+        {
+          "title": "Reverse Linked List",
+          "slug": "reverse-linked-list",
+          "ts": 1791581545
+        },
+        {
+          "title": "Design Add and Search Words Data Structure",
+          "slug": "design-add-and-search-words-data-structure",
+          "ts": 1791529147
+        },
+        {
           "title": "Partition Equal Subset Sum",
           "slug": "partition-equal-subset-sum",
           "ts": 1791441489
@@ -608,26 +623,56 @@
           "title": "Path Sum III",
           "slug": "path-sum-iii",
           "ts": 1790835981
-        },
-        {
-          "title": "Design Add and Search Words Data Structure",
-          "slug": "design-add-and-search-words-data-structure",
-          "ts": 1790834743
-        },
-        {
-          "title": "Maximum Subarray",
-          "slug": "maximum-subarray",
-          "ts": 1790751398
-        },
-        {
-          "title": "Best Time to Buy and Sell Stock",
-          "slug": "best-time-to-buy-and-sell-stock",
-          "ts": 1790750387
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Lowest Common Ancestor of Deepest Leaves",
+          "slug": "lowest-common-ancestor-of-deepest-leaves",
+          "ts": 1791607468
+        },
+        {
+          "title": "Find Original Array From Doubled Array",
+          "slug": "find-original-array-from-doubled-array",
+          "ts": 1791589452
+        },
+        {
+          "title": "Step-By-Step Directions From a Binary Tree Node to Another",
+          "slug": "step-by-step-directions-from-a-binary-tree-node-to-another",
+          "ts": 1791585462
+        },
+        {
+          "title": "Total Cost to Hire K Workers",
+          "slug": "total-cost-to-hire-k-workers",
+          "ts": 1791583372
+        },
+        {
+          "title": "Construct String With Repeat Limit",
+          "slug": "construct-string-with-repeat-limit",
+          "ts": 1791574349
+        },
+        {
+          "title": "Successful Pairs of Spells and Potions",
+          "slug": "successful-pairs-of-spells-and-potions",
+          "ts": 1791572508
+        },
+        {
+          "title": "Grid Game",
+          "slug": "grid-game",
+          "ts": 1791571343
+        },
+        {
+          "title": "Longest Palindrome by Concatenating Two Letter Words",
+          "slug": "longest-palindrome-by-concatenating-two-letter-words",
+          "ts": 1791567565
+        },
+        {
+          "title": "K Radius Subarray Averages",
+          "slug": "k-radius-subarray-averages",
+          "ts": 1791566380
+        },
         {
           "title": "Design Add and Search Words Data Structure",
           "slug": "design-add-and-search-words-data-structure",
@@ -682,51 +727,6 @@
           "title": "Minimum Interval to Include Each Query",
           "slug": "minimum-interval-to-include-each-query",
           "ts": 1791414909
-        },
-        {
-          "title": "Frequency of the Most Frequent Element",
-          "slug": "frequency-of-the-most-frequent-element",
-          "ts": 1791411512
-        },
-        {
-          "title": "Max Number of K-Sum Pairs",
-          "slug": "max-number-of-k-sum-pairs",
-          "ts": 1791408431
-        },
-        {
-          "title": "Minimum Operations to Reduce X to Zero",
-          "slug": "minimum-operations-to-reduce-x-to-zero",
-          "ts": 1791408229
-        },
-        {
-          "title": "Number of Good Ways to Split a String",
-          "slug": "number-of-good-ways-to-split-a-string",
-          "ts": 1791406486
-        },
-        {
-          "title": "Count Number of Nice Subarrays",
-          "slug": "count-number-of-nice-subarrays",
-          "ts": 1791396927
-        },
-        {
-          "title": "Count the Number of Good Subarrays",
-          "slug": "count-the-number-of-good-subarrays",
-          "ts": 1791348128
-        },
-        {
-          "title": "Shortest Unsorted Continuous Subarray",
-          "slug": "shortest-unsorted-continuous-subarray",
-          "ts": 1791346780
-        },
-        {
-          "title": "Design Memory Allocator",
-          "slug": "design-memory-allocator",
-          "ts": 1791336441
-        },
-        {
-          "title": "Product of the Last K Numbers",
-          "slug": "product-of-the-last-k-numbers",
-          "ts": 1791335082
         }
       ]
     },
@@ -941,6 +941,16 @@
     "m10": {
       "recent_ac": [
         {
+          "title": "House Robber II",
+          "slug": "house-robber-ii",
+          "ts": 1791607633
+        },
+        {
+          "title": "Redundant Connection",
+          "slug": "redundant-connection",
+          "ts": 1791604217
+        },
+        {
           "title": "Word Search",
           "slug": "word-search",
           "ts": 1791398291
@@ -1029,16 +1039,6 @@
           "title": "Parallel Courses III",
           "slug": "parallel-courses-iii",
           "ts": 1790901099
-        },
-        {
-          "title": "Parallel Courses",
-          "slug": "parallel-courses",
-          "ts": 1790898648
-        },
-        {
-          "title": "Design In-Memory File System",
-          "slug": "design-in-memory-file-system",
-          "ts": 1790886585
         }
       ]
     }

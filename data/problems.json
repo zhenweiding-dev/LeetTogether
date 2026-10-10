@@ -653,6 +653,17 @@
       "Binary Tree"
     ]
   },
+  "construct-string-with-repeat-limit": {
+    "difficulty": "Medium",
+    "frontend_id": "2182",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Heap (Priority Queue)",
+      "Counting"
+    ]
+  },
   "construct-uniform-parity-array-i": {
     "difficulty": "Easy",
     "frontend_id": "3875",
@@ -1400,6 +1411,16 @@
       "Binary Tree"
     ]
   },
+  "find-original-array-from-doubled-array": {
+    "difficulty": "Medium",
+    "frontend_id": "2007",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sorting"
+    ]
+  },
   "find-peak-element": {
     "difficulty": "Medium",
     "frontend_id": "162",
@@ -1645,6 +1666,15 @@
       "Dynamic Programming",
       "Greedy",
       "Sorting"
+    ]
+  },
+  "grid-game": {
+    "difficulty": "Medium",
+    "frontend_id": "2017",
+    "tags": [
+      "Array",
+      "Matrix",
+      "Prefix Sum"
     ]
   },
   "group-anagrams": {
@@ -1925,6 +1955,14 @@
       "Heap (Priority Queue)",
       "Quickselect",
       "K-D Tree"
+    ]
+  },
+  "k-radius-subarray-averages": {
+    "difficulty": "Medium",
+    "frontend_id": "2090",
+    "tags": [
+      "Array",
+      "Sliding Window"
     ]
   },
   "k-th-largest-perfect-subtree-size-in-binary-tree": {
@@ -2242,6 +2280,17 @@
       "Hash Table",
       "String",
       "Greedy"
+    ]
+  },
+  "longest-palindrome-by-concatenating-two-letter-words": {
+    "difficulty": "Medium",
+    "frontend_id": "2131",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Counting"
     ]
   },
   "longest-palindromic-subsequence": {
@@ -4762,6 +4811,18 @@
       "Sorting"
     ]
   },
+  "step-by-step-directions-from-a-binary-tree-node-to-another": {
+    "difficulty": "Medium",
+    "frontend_id": "2096",
+    "tags": [
+      "String",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree",
+      "Binary Lifting",
+      "Lowest Common Ancestor"
+    ]
+  },
   "stone-game": {
     "difficulty": "Medium",
     "frontend_id": "877",
@@ -5140,6 +5201,16 @@
       "Heap (Priority Queue)",
       "Bucket Sort",
       "Counting"
+    ]
+  },
+  "total-cost-to-hire-k-workers": {
+    "difficulty": "Medium",
+    "frontend_id": "2462",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Heap (Priority Queue)",
+      "Simulation"
     ]
   },
   "transform-array-using-pair-operations": {
