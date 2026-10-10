@@ -3544,6 +3544,14 @@
       "Bit Manipulation"
     ]
   },
+  "number-of-1-bits": {
+    "difficulty": "Easy",
+    "frontend_id": "191",
+    "tags": [
+      "Divide and Conquer",
+      "Bit Manipulation"
+    ]
+  },
   "number-of-closed-islands": {
     "difficulty": "Medium",
     "frontend_id": "1254",
