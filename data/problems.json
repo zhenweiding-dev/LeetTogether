@@ -182,6 +182,18 @@
       "Sorting"
     ]
   },
+  "balance-a-binary-search-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "1382",
+    "tags": [
+      "Divide and Conquer",
+      "Greedy",
+      "Tree",
+      "Depth-First Search",
+      "Binary Search Tree",
+      "Binary Tree"
+    ]
+  },
   "balanced-binary-tree": {
     "difficulty": "Easy",
     "frontend_id": "110",
@@ -3360,6 +3372,18 @@
       "DP on Trees"
     ]
   },
+  "minimum-time-to-visit-a-cell-in-a-grid": {
+    "difficulty": "Hard",
+    "frontend_id": "2577",
+    "tags": [
+      "Array",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Matrix",
+      "Shortest Path"
+    ]
+  },
   "minimum-window-substring": {
     "difficulty": "Hard",
     "frontend_id": "76",
@@ -3541,6 +3565,14 @@
     "difficulty": "Easy",
     "frontend_id": "476",
     "tags": [
+      "Bit Manipulation"
+    ]
+  },
+  "number-of-1-bits": {
+    "difficulty": "Easy",
+    "frontend_id": "191",
+    "tags": [
+      "Divide and Conquer",
       "Bit Manipulation"
     ]
   },
@@ -4091,6 +4123,19 @@
       "Hash Table",
       "String",
       "Counting"
+    ]
+  },
+  "reachable-nodes-with-restrictions": {
+    "difficulty": "Medium",
+    "frontend_id": "2368",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory"
     ]
   },
   "rearrange-array-by-removing-distinct-values": {
@@ -4725,6 +4770,25 @@
     "tags": [
       "Array",
       "Prefix Sum"
+    ]
+  },
+  "smallest-string-starting-from-leaf": {
+    "difficulty": "Medium",
+    "frontend_id": "988",
+    "tags": [
+      "String",
+      "Backtracking",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
+  "solving-questions-with-brainpower": {
+    "difficulty": "Medium",
+    "frontend_id": "2140",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
     ]
   },
   "sort-an-array": {

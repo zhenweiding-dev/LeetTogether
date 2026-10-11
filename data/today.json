@@ -1,9 +1,19 @@
 {
-  "date": "2026-10-09",
-  "fetched_at": "2026-10-10T05:00:38+00:00",
+  "date": "2026-10-10",
+  "fetched_at": "2026-10-11T06:55:36+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Median of Two Sorted Arrays",
+          "slug": "median-of-two-sorted-arrays",
+          "ts": 1791701208
+        },
+        {
+          "title": "Copy List with Random Pointer",
+          "slug": "copy-list-with-random-pointer",
+          "ts": 1791678758
+        },
         {
           "title": "Median of Two Sorted Arrays",
           "slug": "median-of-two-sorted-arrays",
@@ -93,16 +103,6 @@
           "title": "Last Stone Weight",
           "slug": "last-stone-weight",
           "ts": 1790889742
-        },
-        {
-          "title": "Kth Largest Element in a Stream",
-          "slug": "kth-largest-element-in-a-stream",
-          "ts": 1790888311
-        },
-        {
-          "title": "Partition Labels",
-          "slug": "partition-labels",
-          "ts": 1790832940
         }
       ]
     },
@@ -421,6 +421,16 @@
     "m5": {
       "recent_ac": [
         {
+          "title": "Solving Questions With Brainpower",
+          "slug": "solving-questions-with-brainpower",
+          "ts": 1791688896
+        },
+        {
+          "title": "Minimum Time to Visit a Cell In a Grid",
+          "slug": "minimum-time-to-visit-a-cell-in-a-grid",
+          "ts": 1791676729
+        },
+        {
           "title": "Min Cost Climbing Stairs",
           "slug": "min-cost-climbing-stairs",
           "ts": 1791522472
@@ -509,21 +519,26 @@
           "title": "Reorder List",
           "slug": "reorder-list",
           "ts": 1790354844
-        },
-        {
-          "title": "House Robber",
-          "slug": "house-robber",
-          "ts": 1790233288
-        },
-        {
-          "title": "Rotate Image",
-          "slug": "rotate-image",
-          "ts": 1790143868
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Best Time to Buy and Sell Stock",
+          "slug": "best-time-to-buy-and-sell-stock",
+          "ts": 1791652269
+        },
+        {
+          "title": "Path Sum III",
+          "slug": "path-sum-iii",
+          "ts": 1791650942
+        },
+        {
+          "title": "Number of 1 Bits",
+          "slug": "number-of-1-bits",
+          "ts": 1791650179
+        },
         {
           "title": "Word Search II",
           "slug": "word-search-ii",
@@ -608,26 +623,31 @@
           "title": "Kth Largest Element in a Stream",
           "slug": "kth-largest-element-in-a-stream",
           "ts": 1791004983
-        },
-        {
-          "title": "Range Sum Query 2D - Immutable",
-          "slug": "range-sum-query-2d-immutable",
-          "ts": 1790924869
-        },
-        {
-          "title": "Spiral Matrix",
-          "slug": "spiral-matrix",
-          "ts": 1790921289
-        },
-        {
-          "title": "Path Sum III",
-          "slug": "path-sum-iii",
-          "ts": 1790835981
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Nearest Exit from Entrance in Maze",
+          "slug": "nearest-exit-from-entrance-in-maze",
+          "ts": 1791695823
+        },
+        {
+          "title": "Reachable Nodes With Restrictions",
+          "slug": "reachable-nodes-with-restrictions",
+          "ts": 1791695070
+        },
+        {
+          "title": "Smallest String Starting From Leaf",
+          "slug": "smallest-string-starting-from-leaf",
+          "ts": 1791693335
+        },
+        {
+          "title": "Balance a Binary Search Tree",
+          "slug": "balance-a-binary-search-tree",
+          "ts": 1791691647
+        },
         {
           "title": "Lowest Common Ancestor of Deepest Leaves",
           "slug": "lowest-common-ancestor-of-deepest-leaves",
@@ -707,26 +727,6 @@
           "title": "Minimum Time to Collect All Apples in a Tree",
           "slug": "minimum-time-to-collect-all-apples-in-a-tree",
           "ts": 1791424352
-        },
-        {
-          "title": "Number of Nodes in the Sub-Tree With the Same Label",
-          "slug": "number-of-nodes-in-the-sub-tree-with-the-same-label",
-          "ts": 1791421146
-        },
-        {
-          "title": "Kth Largest Sum in a Binary Tree",
-          "slug": "kth-largest-sum-in-a-binary-tree",
-          "ts": 1791417327
-        },
-        {
-          "title": "The Number of Weak Characters in the Game",
-          "slug": "the-number-of-weak-characters-in-the-game",
-          "ts": 1791416916
-        },
-        {
-          "title": "Minimum Interval to Include Each Query",
-          "slug": "minimum-interval-to-include-each-query",
-          "ts": 1791414909
         }
       ]
     },
@@ -837,6 +837,11 @@
     "m9": {
       "recent_ac": [
         {
+          "title": "Find First and Last Position of Element in Sorted Array",
+          "slug": "find-first-and-last-position-of-element-in-sorted-array",
+          "ts": 1791662834
+        },
+        {
           "title": "Car Fleet",
           "slug": "car-fleet",
           "ts": 1790478909
@@ -930,16 +935,26 @@
           "title": "Alien Dictionary",
           "slug": "alien-dictionary",
           "ts": 1790146760
-        },
-        {
-          "title": "String to Integer (atoi)",
-          "slug": "string-to-integer-atoi",
-          "ts": 1790145011
         }
       ]
     },
     "m10": {
       "recent_ac": [
+        {
+          "title": "Word Search II",
+          "slug": "word-search-ii",
+          "ts": 1791694774
+        },
+        {
+          "title": "Insert Delete GetRandom O(1)",
+          "slug": "insert-delete-getrandom-o1",
+          "ts": 1791689566
+        },
+        {
+          "title": "Jump Game",
+          "slug": "jump-game",
+          "ts": 1791688423
+        },
         {
           "title": "House Robber II",
           "slug": "house-robber-ii",
@@ -1024,21 +1039,6 @@
           "title": "Rotate Image",
           "slug": "rotate-image",
           "ts": 1791002146
-        },
-        {
-          "title": "Spiral Matrix",
-          "slug": "spiral-matrix",
-          "ts": 1791001572
-        },
-        {
-          "title": "Valid Sudoku",
-          "slug": "valid-sudoku",
-          "ts": 1790998963
-        },
-        {
-          "title": "Parallel Courses III",
-          "slug": "parallel-courses-iii",
-          "ts": 1790901099
         }
       ]
     }
