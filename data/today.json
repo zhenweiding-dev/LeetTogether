@@ -1,9 +1,24 @@
 {
-  "date": "2026-10-10",
-  "fetched_at": "2026-10-11T06:55:36+00:00",
+  "date": "2026-10-11",
+  "fetched_at": "2026-10-12T04:00:48+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Snapshot Array",
+          "slug": "snapshot-array",
+          "ts": 1791758936
+        },
+        {
+          "title": "Time Based Key-Value Store",
+          "slug": "time-based-key-value-store",
+          "ts": 1791720335
+        },
+        {
+          "title": "Longest Repeating Character Replacement",
+          "slug": "longest-repeating-character-replacement",
+          "ts": 1791713891
+        },
         {
           "title": "Median of Two Sorted Arrays",
           "slug": "median-of-two-sorted-arrays",
@@ -88,21 +103,6 @@
           "title": "Two Sum",
           "slug": "two-sum",
           "ts": 1790929069
-        },
-        {
-          "title": "K Closest Points to Origin",
-          "slug": "k-closest-points-to-origin",
-          "ts": 1790919890
-        },
-        {
-          "title": "Reorganize String",
-          "slug": "reorganize-string",
-          "ts": 1790916444
-        },
-        {
-          "title": "Last Stone Weight",
-          "slug": "last-stone-weight",
-          "ts": 1790889742
         }
       ]
     },
@@ -421,6 +421,16 @@
     "m5": {
       "recent_ac": [
         {
+          "title": "Jump Game III",
+          "slug": "jump-game-iii",
+          "ts": 1791752657
+        },
+        {
+          "title": "Reorganize String",
+          "slug": "reorganize-string",
+          "ts": 1791741170
+        },
+        {
           "title": "Solving Questions With Brainpower",
           "slug": "solving-questions-with-brainpower",
           "ts": 1791688896
@@ -509,21 +519,26 @@
           "title": "Merge k Sorted Lists",
           "slug": "merge-k-sorted-lists",
           "ts": 1790539253
-        },
-        {
-          "title": "Reverse Nodes in k-Group",
-          "slug": "reverse-nodes-in-k-group",
-          "ts": 1790440286
-        },
-        {
-          "title": "Reorder List",
-          "slug": "reorder-list",
-          "ts": 1790354844
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Diameter of Binary Tree",
+          "slug": "diameter-of-binary-tree",
+          "ts": 1791776060
+        },
+        {
+          "title": "Search in Rotated Sorted Array",
+          "slug": "search-in-rotated-sorted-array",
+          "ts": 1791775522
+        },
+        {
+          "title": "Partition Equal Subset Sum",
+          "slug": "partition-equal-subset-sum",
+          "ts": 1791774755
+        },
         {
           "title": "Best Time to Buy and Sell Stock",
           "slug": "best-time-to-buy-and-sell-stock",
@@ -608,26 +623,46 @@
           "title": "Course Schedule II",
           "slug": "course-schedule-ii",
           "ts": 1791087758
-        },
-        {
-          "title": "Time Based Key-Value Store",
-          "slug": "time-based-key-value-store",
-          "ts": 1791010658
-        },
-        {
-          "title": "Climbing Stairs",
-          "slug": "climbing-stairs",
-          "ts": 1791006112
-        },
-        {
-          "title": "Kth Largest Element in a Stream",
-          "slug": "kth-largest-element-in-a-stream",
-          "ts": 1791004983
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Implement Trie (Prefix Tree)",
+          "slug": "implement-trie-prefix-tree",
+          "ts": 1791775112
+        },
+        {
+          "title": "Course Schedule",
+          "slug": "course-schedule",
+          "ts": 1791773693
+        },
+        {
+          "title": "Combination Sum",
+          "slug": "combination-sum",
+          "ts": 1791772056
+        },
+        {
+          "title": "Palindromic Substrings",
+          "slug": "palindromic-substrings",
+          "ts": 1791763156
+        },
+        {
+          "title": "Word Break",
+          "slug": "word-break",
+          "ts": 1791762319
+        },
+        {
+          "title": "Find Minimum Time to Finish All Jobs",
+          "slug": "find-minimum-time-to-finish-all-jobs",
+          "ts": 1791757830
+        },
+        {
+          "title": "Find if Path Exists in Graph",
+          "slug": "find-if-path-exists-in-graph",
+          "ts": 1791756108
+        },
         {
           "title": "Nearest Exit from Entrance in Maze",
           "slug": "nearest-exit-from-entrance-in-maze",
@@ -692,46 +727,31 @@
           "title": "K Radius Subarray Averages",
           "slug": "k-radius-subarray-averages",
           "ts": 1791566380
-        },
-        {
-          "title": "Design Add and Search Words Data Structure",
-          "slug": "design-add-and-search-words-data-structure",
-          "ts": 1791516333
-        },
-        {
-          "title": "Make Costs of Paths Equal in a Binary Tree",
-          "slug": "make-costs-of-paths-equal-in-a-binary-tree",
-          "ts": 1791505193
-        },
-        {
-          "title": "Minimum Cost For Tickets",
-          "slug": "minimum-cost-for-tickets",
-          "ts": 1791504165
-        },
-        {
-          "title": "Letter Case Permutation",
-          "slug": "letter-case-permutation",
-          "ts": 1791502753
-        },
-        {
-          "title": "Evaluate the Bracket Pairs of a String",
-          "slug": "evaluate-the-bracket-pairs-of-a-string",
-          "ts": 1791435426
-        },
-        {
-          "title": "Minimum Swaps to Arrange a Binary Grid",
-          "slug": "minimum-swaps-to-arrange-a-binary-grid",
-          "ts": 1791434015
-        },
-        {
-          "title": "Minimum Time to Collect All Apples in a Tree",
-          "slug": "minimum-time-to-collect-all-apples-in-a-tree",
-          "ts": 1791424352
         }
       ]
     },
     "m8": {
       "recent_ac": [
+        {
+          "title": "Prime Subset Selection II",
+          "slug": "prime-subset-selection-ii",
+          "ts": 1791692188
+        },
+        {
+          "title": "Design Bus Seat Booking System",
+          "slug": "design-bus-seat-booking-system",
+          "ts": 1791687398
+        },
+        {
+          "title": "Prime Subset Selection I",
+          "slug": "prime-subset-selection-i",
+          "ts": 1791686541
+        },
+        {
+          "title": "Three Fibonacci Sum",
+          "slug": "three-fibonacci-sum",
+          "ts": 1791686096
+        },
         {
           "title": "Maximum Alternating Subarray Sum With One Deletion",
           "slug": "maximum-alternating-subarray-sum-with-one-deletion",
@@ -811,31 +831,21 @@
           "title": "Maximize Meeting Earnings with Idle Gaps",
           "slug": "maximize-meeting-earnings-with-idle-gaps",
           "ts": 1790480627
-        },
-        {
-          "title": "Longest Subarray With Restricted Pair Sums",
-          "slug": "longest-subarray-with-restricted-pair-sums",
-          "ts": 1790480613
-        },
-        {
-          "title": "Maximum Equal Adjacent Pairs After at Most One Replacement",
-          "slug": "maximum-equal-adjacent-pairs-after-at-most-one-replacement",
-          "ts": 1790480607
-        },
-        {
-          "title": "Rearrange Array by Removing Distinct Values",
-          "slug": "rearrange-array-by-removing-distinct-values",
-          "ts": 1790480598
-        },
-        {
-          "title": "Minimum Height Trees",
-          "slug": "minimum-height-trees",
-          "ts": 1790383279
         }
       ]
     },
     "m9": {
       "recent_ac": [
+        {
+          "title": "Find the Safest Path in a Grid",
+          "slug": "find-the-safest-path-in-a-grid",
+          "ts": 1791773500
+        },
+        {
+          "title": "Flatten Binary Tree to Linked List",
+          "slug": "flatten-binary-tree-to-linked-list",
+          "ts": 1791760775
+        },
         {
           "title": "Find First and Last Position of Element in Sorted Array",
           "slug": "find-first-and-last-position-of-element-in-sorted-array",
@@ -925,21 +935,31 @@
           "title": "Top K Frequent Elements",
           "slug": "top-k-frequent-elements",
           "ts": 1790230729
-        },
-        {
-          "title": "Group Anagrams",
-          "slug": "group-anagrams",
-          "ts": 1790229311
-        },
-        {
-          "title": "Alien Dictionary",
-          "slug": "alien-dictionary",
-          "ts": 1790146760
         }
       ]
     },
     "m10": {
       "recent_ac": [
+        {
+          "title": "Combination Sum IV",
+          "slug": "combination-sum-iv",
+          "ts": 1791774045
+        },
+        {
+          "title": "Combination Sum II",
+          "slug": "combination-sum-ii",
+          "ts": 1791767506
+        },
+        {
+          "title": "Combination Sum",
+          "slug": "combination-sum",
+          "ts": 1791766188
+        },
+        {
+          "title": "Clone Graph",
+          "slug": "clone-graph",
+          "ts": 1791743599
+        },
         {
           "title": "Word Search II",
           "slug": "word-search-ii",
@@ -1019,26 +1039,6 @@
           "title": "LRU Cache",
           "slug": "lru-cache",
           "ts": 1791131764
-        },
-        {
-          "title": "Group Anagrams",
-          "slug": "group-anagrams",
-          "ts": 1791063213
-        },
-        {
-          "title": "Game of Life",
-          "slug": "game-of-life",
-          "ts": 1791060635
-        },
-        {
-          "title": "Set Matrix Zeroes",
-          "slug": "set-matrix-zeroes",
-          "ts": 1791057073
-        },
-        {
-          "title": "Rotate Image",
-          "slug": "rotate-image",
-          "ts": 1791002146
         }
       ]
     }

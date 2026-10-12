@@ -1029,6 +1029,11 @@
       "Trie"
     ]
   },
+  "design-bus-seat-booking-system": {
+    "difficulty": "Medium",
+    "frontend_id": "4080",
+    "tags": []
+  },
   "design-in-memory-file-system": {
     "difficulty": "Hard",
     "frontend_id": "588",
@@ -1347,6 +1352,16 @@
     "tags": [
       "Array",
       "Binary Search"
+    ]
+  },
+  "find-if-path-exists-in-graph": {
+    "difficulty": "Easy",
+    "frontend_id": "1971",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory"
     ]
   },
   "find-k-closest-elements": {
@@ -3784,6 +3799,15 @@
       "Backtracking"
     ]
   },
+  "palindromic-substrings": {
+    "difficulty": "Medium",
+    "frontend_id": "647",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ]
+  },
   "parallel-courses": {
     "difficulty": "Medium",
     "frontend_id": "1136",
@@ -4025,6 +4049,16 @@
       "Game Theory",
       "Zero-Sum Game"
     ]
+  },
+  "prime-subset-selection-i": {
+    "difficulty": "Medium",
+    "frontend_id": "4079",
+    "tags": []
+  },
+  "prime-subset-selection-ii": {
+    "difficulty": "Hard",
+    "frontend_id": "4081",
+    "tags": []
   },
   "product-of-array-except-self": {
     "difficulty": "Medium",
@@ -4783,6 +4817,17 @@
       "Binary Tree"
     ]
   },
+  "snapshot-array": {
+    "difficulty": "Medium",
+    "frontend_id": "1146",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Design",
+      "Persistent Data Structure"
+    ]
+  },
   "solving-questions-with-brainpower": {
     "difficulty": "Medium",
     "frontend_id": "2140",
@@ -5228,6 +5273,11 @@
       "Sorting",
       "Monotonic Stack"
     ]
+  },
+  "three-fibonacci-sum": {
+    "difficulty": "Easy",
+    "frontend_id": "4078",
+    "tags": []
   },
   "time-based-key-value-store": {
     "difficulty": "Medium",
