@@ -1,9 +1,14 @@
 {
-  "date": "2026-10-11",
-  "fetched_at": "2026-10-12T04:00:48+00:00",
+  "date": "2026-10-12",
+  "fetched_at": "2026-10-13T05:00:32+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Letter Combinations of a Phone Number",
+          "slug": "letter-combinations-of-a-phone-number",
+          "ts": 1791867227
+        },
         {
           "title": "Snapshot Array",
           "slug": "snapshot-array",
@@ -98,11 +103,6 @@
           "title": "3Sum",
           "slug": "3sum",
           "ts": 1790970232
-        },
-        {
-          "title": "Two Sum",
-          "slug": "two-sum",
-          "ts": 1790929069
         }
       ]
     },
@@ -421,6 +421,16 @@
     "m5": {
       "recent_ac": [
         {
+          "title": "Subarrays with K Different Integers",
+          "slug": "subarrays-with-k-different-integers",
+          "ts": 1791866041
+        },
+        {
+          "title": "Container With Most Water",
+          "slug": "container-with-most-water",
+          "ts": 1791829201
+        },
+        {
           "title": "Jump Game III",
           "slug": "jump-game-iii",
           "ts": 1791752657
@@ -509,21 +519,26 @@
           "title": "Open the Lock",
           "slug": "open-the-lock",
           "ts": 1790911733
-        },
-        {
-          "title": "Subarray Sums Divisible by K",
-          "slug": "subarray-sums-divisible-by-k",
-          "ts": 1790899989
-        },
-        {
-          "title": "Merge k Sorted Lists",
-          "slug": "merge-k-sorted-lists",
-          "ts": 1790539253
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Balanced Binary Tree",
+          "slug": "balanced-binary-tree",
+          "ts": 1791859436
+        },
+        {
+          "title": "Kth Largest Element in a Stream",
+          "slug": "kth-largest-element-in-a-stream",
+          "ts": 1791857404
+        },
+        {
+          "title": "Binary Tree Maximum Path Sum",
+          "slug": "binary-tree-maximum-path-sum",
+          "ts": 1791856425
+        },
         {
           "title": "Diameter of Binary Tree",
           "slug": "diameter-of-binary-tree",
@@ -608,26 +623,16 @@
           "title": "Design Add and Search Words Data Structure",
           "slug": "design-add-and-search-words-data-structure",
           "ts": 1791153575
-        },
-        {
-          "title": "Maximum Subarray",
-          "slug": "maximum-subarray",
-          "ts": 1791152139
-        },
-        {
-          "title": "Maximal Square",
-          "slug": "maximal-square",
-          "ts": 1791089936
-        },
-        {
-          "title": "Course Schedule II",
-          "slug": "course-schedule-ii",
-          "ts": 1791087758
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Minimum Number of Operations to Make Array Empty",
+          "slug": "minimum-number-of-operations-to-make-array-empty",
+          "ts": 1791862428
+        },
         {
           "title": "Implement Trie (Prefix Tree)",
           "slug": "implement-trie-prefix-tree",
@@ -722,16 +727,81 @@
           "title": "Longest Palindrome by Concatenating Two Letter Words",
           "slug": "longest-palindrome-by-concatenating-two-letter-words",
           "ts": 1791567565
-        },
-        {
-          "title": "K Radius Subarray Averages",
-          "slug": "k-radius-subarray-averages",
-          "ts": 1791566380
         }
       ]
     },
     "m8": {
       "recent_ac": [
+        {
+          "title": "Subsets",
+          "slug": "subsets",
+          "ts": 1791859729
+        },
+        {
+          "title": "Continuous Subarray Sum",
+          "slug": "continuous-subarray-sum",
+          "ts": 1791859332
+        },
+        {
+          "title": "3Sum",
+          "slug": "3sum",
+          "ts": 1791858628
+        },
+        {
+          "title": "Validate Binary Search Tree",
+          "slug": "validate-binary-search-tree",
+          "ts": 1791858312
+        },
+        {
+          "title": "Fruit Into Baskets",
+          "slug": "fruit-into-baskets",
+          "ts": 1791857810
+        },
+        {
+          "title": "Minimum Insertions to Balance a Parentheses String",
+          "slug": "minimum-insertions-to-balance-a-parentheses-string",
+          "ts": 1791856682
+        },
+        {
+          "title": "Permutation in String",
+          "slug": "permutation-in-string",
+          "ts": 1791854252
+        },
+        {
+          "title": "Remove Invalid Parentheses",
+          "slug": "remove-invalid-parentheses",
+          "ts": 1791853130
+        },
+        {
+          "title": "Minimum Add to Make Parentheses Valid",
+          "slug": "minimum-add-to-make-parentheses-valid",
+          "ts": 1791851407
+        },
+        {
+          "title": "Add Two Numbers",
+          "slug": "add-two-numbers",
+          "ts": 1791851157
+        },
+        {
+          "title": "Shortest Subarray with Sum at Least K",
+          "slug": "shortest-subarray-with-sum-at-least-k",
+          "ts": 1791850736
+        },
+        {
+          "title": "Group Anagrams",
+          "slug": "group-anagrams",
+          "ts": 1791848876
+        },
+        {
+          "title": "Search in Rotated Sorted Array",
+          "slug": "search-in-rotated-sorted-array",
+          "ts": 1791848344
+        },
+        {
+          "title": "Median of Two Sorted Arrays",
+          "slug": "median-of-two-sorted-arrays",
+          "ts": 1791847620
+        },
         {
           "title": "Prime Subset Selection II",
           "slug": "prime-subset-selection-ii",
@@ -761,81 +831,16 @@
           "title": "Minimum Rotations to Dial a Number II",
           "slug": "minimum-rotations-to-dial-a-number-ii",
           "ts": 1791082734
-        },
-        {
-          "title": "Minimum Rotations to Dial a Number I",
-          "slug": "minimum-rotations-to-dial-a-number-i",
-          "ts": 1791081706
-        },
-        {
-          "title": "Number of Dice Rolls With Target Sum",
-          "slug": "number-of-dice-rolls-with-target-sum",
-          "ts": 1791006866
-        },
-        {
-          "title": "Largest Number",
-          "slug": "largest-number",
-          "ts": 1790900952
-        },
-        {
-          "title": "Group Shifted Strings",
-          "slug": "group-shifted-strings",
-          "ts": 1790898655
-        },
-        {
-          "title": "Bulb Switcher",
-          "slug": "bulb-switcher",
-          "ts": 1790897751
-        },
-        {
-          "title": "Wiggle Sort II",
-          "slug": "wiggle-sort-ii",
-          "ts": 1790896184
-        },
-        {
-          "title": "Allocate Mailboxes",
-          "slug": "allocate-mailboxes",
-          "ts": 1790894245
-        },
-        {
-          "title": "Maximum Profit in Job Scheduling",
-          "slug": "maximum-profit-in-job-scheduling",
-          "ts": 1790835019
-        },
-        {
-          "title": "Maximum Score of Non-overlapping Intervals",
-          "slug": "maximum-score-of-non-overlapping-intervals",
-          "ts": 1790832537
-        },
-        {
-          "title": "Last Day Where You Can Still Cross",
-          "slug": "last-day-where-you-can-still-cross",
-          "ts": 1790830551
-        },
-        {
-          "title": "Reverse Substrings Between Each Pair of Parentheses",
-          "slug": "reverse-substrings-between-each-pair-of-parentheses",
-          "ts": 1790659134
-        },
-        {
-          "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
-          "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
-          "ts": 1790657924
-        },
-        {
-          "title": "Minimum Cost For Tickets",
-          "slug": "minimum-cost-for-tickets",
-          "ts": 1790653128
-        },
-        {
-          "title": "Maximize Meeting Earnings with Idle Gaps",
-          "slug": "maximize-meeting-earnings-with-idle-gaps",
-          "ts": 1790480627
         }
       ]
     },
     "m9": {
       "recent_ac": [
+        {
+          "title": "Path With Minimum Effort",
+          "slug": "path-with-minimum-effort",
+          "ts": 1791860296
+        },
         {
           "title": "Find the Safest Path in a Grid",
           "slug": "find-the-safest-path-in-a-grid",
@@ -930,16 +935,36 @@
           "title": "Encode and Decode Strings",
           "slug": "encode-and-decode-strings",
           "ts": 1790232721
-        },
-        {
-          "title": "Top K Frequent Elements",
-          "slug": "top-k-frequent-elements",
-          "ts": 1790230729
         }
       ]
     },
     "m10": {
       "recent_ac": [
+        {
+          "title": "Largest Divisible Subset",
+          "slug": "largest-divisible-subset",
+          "ts": 1791861439
+        },
+        {
+          "title": "Paint House",
+          "slug": "paint-house",
+          "ts": 1791844114
+        },
+        {
+          "title": "Minimum Number of Operations to Make Array Empty",
+          "slug": "minimum-number-of-operations-to-make-array-empty",
+          "ts": 1791841339
+        },
+        {
+          "title": "Next Greater Element III",
+          "slug": "next-greater-element-iii",
+          "ts": 1791835957
+        },
+        {
+          "title": "Next Greater Numerically Balanced Number",
+          "slug": "next-greater-numerically-balanced-number",
+          "ts": 1791829470
+        },
         {
           "title": "Combination Sum IV",
           "slug": "combination-sum-iv",
@@ -1014,31 +1039,6 @@
           "title": "Binary Tree Zigzag Level Order Traversal",
           "slug": "binary-tree-zigzag-level-order-traversal",
           "ts": 1791228421
-        },
-        {
-          "title": "Binary Tree Level Order Traversal",
-          "slug": "binary-tree-level-order-traversal",
-          "ts": 1791228014
-        },
-        {
-          "title": "Validate Binary Search Tree",
-          "slug": "validate-binary-search-tree",
-          "ts": 1791221824
-        },
-        {
-          "title": "Kth Largest Element in an Array",
-          "slug": "kth-largest-element-in-an-array",
-          "ts": 1791144892
-        },
-        {
-          "title": "Copy List with Random Pointer",
-          "slug": "copy-list-with-random-pointer",
-          "ts": 1791136032
-        },
-        {
-          "title": "LRU Cache",
-          "slug": "lru-cache",
-          "ts": 1791131764
         }
       ]
     }

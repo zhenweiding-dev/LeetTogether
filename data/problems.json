@@ -719,6 +719,17 @@
       "Sliding Window"
     ]
   },
+  "continuous-subarray-sum": {
+    "difficulty": "Medium",
+    "frontend_id": "523",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Prefix Sum",
+      "Pigeonhole Principle"
+    ]
+  },
   "continuous-subarrays": {
     "difficulty": "Medium",
     "tags": [
@@ -2079,6 +2090,16 @@
       "Matrix"
     ]
   },
+  "largest-divisible-subset": {
+    "difficulty": "Medium",
+    "frontend_id": "368",
+    "tags": [
+      "Array",
+      "Math",
+      "Dynamic Programming",
+      "Sorting"
+    ]
+  },
   "largest-number": {
     "difficulty": "Medium",
     "frontend_id": "179",
@@ -3243,6 +3264,16 @@
       "Counting"
     ]
   },
+  "minimum-number-of-operations-to-make-array-empty": {
+    "difficulty": "Medium",
+    "frontend_id": "2870",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Counting"
+    ]
+  },
   "minimum-number-of-steps-to-make-two-strings-anagram": {
     "difficulty": "Medium",
     "frontend_id": "1347",
@@ -3550,6 +3581,26 @@
       "Monotonic Stack"
     ]
   },
+  "next-greater-element-iii": {
+    "difficulty": "Medium",
+    "frontend_id": "556",
+    "tags": [
+      "Math",
+      "Two Pointers",
+      "String"
+    ]
+  },
+  "next-greater-numerically-balanced-number": {
+    "difficulty": "Medium",
+    "frontend_id": "2048",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "Backtracking",
+      "Counting",
+      "Enumeration"
+    ]
+  },
   "next-permutation": {
     "difficulty": "Medium",
     "frontend_id": "31",
@@ -3771,6 +3822,14 @@
       "Depth-First Search",
       "Breadth-First Search",
       "Matrix"
+    ]
+  },
+  "paint-house": {
+    "difficulty": "Medium",
+    "frontend_id": "256",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
     ]
   },
   "palindrome-linked-list": {
@@ -4288,6 +4347,15 @@
     "frontend_id": "1272",
     "tags": [
       "Array"
+    ]
+  },
+  "remove-invalid-parentheses": {
+    "difficulty": "Hard",
+    "frontend_id": "301",
+    "tags": [
+      "String",
+      "Backtracking",
+      "Breadth-First Search"
     ]
   },
   "remove-k-balanced-substrings": {
