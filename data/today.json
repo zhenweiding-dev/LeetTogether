@@ -1,9 +1,19 @@
 {
-  "date": "2026-10-12",
-  "fetched_at": "2026-10-13T05:00:32+00:00",
+  "date": "2026-10-13",
+  "fetched_at": "2026-10-14T06:55:31+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Search a 2D Matrix",
+          "slug": "search-a-2d-matrix",
+          "ts": 1791954381
+        },
+        {
+          "title": "Container With Most Water",
+          "slug": "container-with-most-water",
+          "ts": 1791931197
+        },
         {
           "title": "Letter Combinations of a Phone Number",
           "slug": "letter-combinations-of-a-phone-number",
@@ -93,16 +103,6 @@
           "title": "Trapping Rain Water",
           "slug": "trapping-rain-water",
           "ts": 1791057559
-        },
-        {
-          "title": "4Sum",
-          "slug": "4sum",
-          "ts": 1790984367
-        },
-        {
-          "title": "3Sum",
-          "slug": "3sum",
-          "ts": 1790970232
         }
       ]
     },
@@ -525,6 +525,46 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Is Subsequence",
+          "slug": "is-subsequence",
+          "ts": 1791957489
+        },
+        {
+          "title": "Add Two Numbers",
+          "slug": "add-two-numbers",
+          "ts": 1791955948
+        },
+        {
+          "title": "Merge Two Sorted Lists",
+          "slug": "merge-two-sorted-lists",
+          "ts": 1791954864
+        },
+        {
+          "title": "Merge Sorted Array",
+          "slug": "merge-sorted-array",
+          "ts": 1791953864
+        },
+        {
+          "title": "Kth Largest Element in an Array",
+          "slug": "kth-largest-element-in-an-array",
+          "ts": 1791950903
+        },
+        {
+          "title": "Majority Element",
+          "slug": "majority-element",
+          "ts": 1791950850
+        },
+        {
+          "title": "3Sum",
+          "slug": "3sum",
+          "ts": 1791948552
+        },
+        {
+          "title": "Sort an Array",
+          "slug": "sort-an-array",
+          "ts": 1791941304
+        },
+        {
           "title": "Balanced Binary Tree",
           "slug": "balanced-binary-tree",
           "ts": 1791859436
@@ -583,51 +623,26 @@
           "title": "Design Add and Search Words Data Structure",
           "slug": "design-add-and-search-words-data-structure",
           "ts": 1791529147
-        },
-        {
-          "title": "Partition Equal Subset Sum",
-          "slug": "partition-equal-subset-sum",
-          "ts": 1791441489
-        },
-        {
-          "title": "Min Cost Climbing Stairs",
-          "slug": "min-cost-climbing-stairs",
-          "ts": 1791439291
-        },
-        {
-          "title": "Two Sum",
-          "slug": "two-sum",
-          "ts": 1791356362
-        },
-        {
-          "title": "K Closest Points to Origin",
-          "slug": "k-closest-points-to-origin",
-          "ts": 1791250363
-        },
-        {
-          "title": "Minimum Path Sum",
-          "slug": "minimum-path-sum",
-          "ts": 1791249823
-        },
-        {
-          "title": "Pacific Atlantic Water Flow",
-          "slug": "pacific-atlantic-water-flow",
-          "ts": 1791249187
-        },
-        {
-          "title": "Sort an Array",
-          "slug": "sort-an-array",
-          "ts": 1791171373
-        },
-        {
-          "title": "Design Add and Search Words Data Structure",
-          "slug": "design-add-and-search-words-data-structure",
-          "ts": 1791153575
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Longest Path With Different Adjacent Characters",
+          "slug": "longest-path-with-different-adjacent-characters",
+          "ts": 1791959574
+        },
+        {
+          "title": "Diameter of Binary Tree",
+          "slug": "diameter-of-binary-tree",
+          "ts": 1791957769
+        },
+        {
+          "title": "Maximum Width Ramp",
+          "slug": "maximum-width-ramp",
+          "ts": 1791957425
+        },
         {
           "title": "Minimum Number of Operations to Make Array Empty",
           "slug": "minimum-number-of-operations-to-make-array-empty",
@@ -712,21 +727,6 @@
           "title": "Construct String With Repeat Limit",
           "slug": "construct-string-with-repeat-limit",
           "ts": 1791574349
-        },
-        {
-          "title": "Successful Pairs of Spells and Potions",
-          "slug": "successful-pairs-of-spells-and-potions",
-          "ts": 1791572508
-        },
-        {
-          "title": "Grid Game",
-          "slug": "grid-game",
-          "ts": 1791571343
-        },
-        {
-          "title": "Longest Palindrome by Concatenating Two Letter Words",
-          "slug": "longest-palindrome-by-concatenating-two-letter-words",
-          "ts": 1791567565
         }
       ]
     },

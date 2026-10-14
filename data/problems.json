@@ -2359,6 +2359,18 @@
       "Manacher"
     ]
   },
+  "longest-path-with-different-adjacent-characters": {
+    "difficulty": "Hard",
+    "frontend_id": "2246",
+    "tags": [
+      "Array",
+      "String",
+      "Tree",
+      "Depth-First Search",
+      "Graph Theory",
+      "Topological Sort"
+    ]
+  },
   "longest-repeating-character-replacement": {
     "difficulty": "Medium",
     "frontend_id": "424",
@@ -2943,6 +2955,16 @@
       "Depth-First Search",
       "Breadth-First Search",
       "Binary Tree"
+    ]
+  },
+  "maximum-width-ramp": {
+    "difficulty": "Medium",
+    "frontend_id": "962",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Stack",
+      "Monotonic Stack"
     ]
   },
   "median-of-two-sorted-arrays": {
