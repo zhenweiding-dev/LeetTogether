@@ -979,6 +979,15 @@
       "String"
     ]
   },
+  "delete-and-earn": {
+    "difficulty": "Medium",
+    "frontend_id": "740",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Dynamic Programming"
+    ]
+  },
   "delete-leaves-with-a-given-value": {
     "difficulty": "Medium",
     "frontend_id": "1325",
@@ -1428,6 +1437,14 @@
       "Binary Search"
     ]
   },
+  "find-minimum-in-rotated-sorted-array-ii": {
+    "difficulty": "Hard",
+    "frontend_id": "154",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ]
+  },
   "find-minimum-time-to-finish-all-jobs": {
     "difficulty": "Hard",
     "frontend_id": "1723",
@@ -1803,6 +1820,14 @@
       "Depth-First Search",
       "Binary Tree",
       "DP on Trees"
+    ]
+  },
+  "house-robber-v": {
+    "difficulty": "Medium",
+    "frontend_id": "3840",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
     ]
   },
   "image-overlap": {
@@ -2648,6 +2673,15 @@
       "Hash Table",
       "Two Pointers",
       "Sorting"
+    ]
+  },
+  "maximal-score-after-applying-k-operations": {
+    "difficulty": "Medium",
+    "frontend_id": "2530",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Heap (Priority Queue)"
     ]
   },
   "maximal-square": {
@@ -3506,6 +3540,17 @@
       "Math",
       "Sliding Window",
       "Sorting"
+    ]
+  },
+  "my-calendar-i": {
+    "difficulty": "Medium",
+    "frontend_id": "729",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Design",
+      "Segment Tree",
+      "Ordered Set"
     ]
   },
   "my-calendar-ii": {
@@ -4450,6 +4495,15 @@
       "Two Pointers",
       "Stack",
       "Recursion"
+    ]
+  },
+  "reorder-routes-to-make-all-paths-lead-to-the-city-zero": {
+    "difficulty": "Medium",
+    "frontend_id": "1466",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory"
     ]
   },
   "reorganize-string": {
@@ -5431,6 +5485,14 @@
       "Dynamic Programming",
       "Stack",
       "Monotonic Stack"
+    ]
+  },
+  "triangle": {
+    "difficulty": "Medium",
+    "frontend_id": "120",
+    "tags": [
+      "Array",
+      "Dynamic Programming"
     ]
   },
   "two-city-scheduling": {
