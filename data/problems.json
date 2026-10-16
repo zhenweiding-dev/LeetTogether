@@ -84,6 +84,17 @@
       "Directed Acyclic Graph"
     ]
   },
+  "all-ancestors-of-a-node-in-a-directed-acyclic-graph": {
+    "difficulty": "Medium",
+    "frontend_id": "2192",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort",
+      "Directed Acyclic Graph"
+    ]
+  },
   "all-nodes-distance-k-in-binary-tree": {
     "difficulty": "Medium",
     "frontend_id": "863",
@@ -3320,6 +3331,16 @@
       "Counting"
     ]
   },
+  "minimum-number-of-operations-to-make-array-continuous": {
+    "difficulty": "Hard",
+    "frontend_id": "2009",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Sliding Window"
+    ]
+  },
   "minimum-number-of-operations-to-make-array-empty": {
     "difficulty": "Medium",
     "frontend_id": "2870",
@@ -4762,6 +4783,18 @@
     "tags": [
       "Array",
       "Binary Search"
+    ]
+  },
+  "search-suggestions-system": {
+    "difficulty": "Medium",
+    "frontend_id": "1268",
+    "tags": [
+      "Array",
+      "String",
+      "Binary Search",
+      "Trie",
+      "Sorting",
+      "Heap (Priority Queue)"
     ]
   },
   "self-dividing-numbers": {

@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-14",
-  "fetched_at": "2026-10-15T06:55:37+00:00",
+  "date": "2026-10-15",
+  "fetched_at": "2026-10-16T06:00:46+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -525,6 +525,11 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Min Cost Climbing Stairs",
+          "slug": "min-cost-climbing-stairs",
+          "ts": 1792125592
+        },
+        {
           "title": "Design Add and Search Words Data Structure",
           "slug": "design-add-and-search-words-data-structure",
           "ts": 1792046077
@@ -618,16 +623,26 @@
           "title": "Number of 1 Bits",
           "slug": "number-of-1-bits",
           "ts": 1791650179
-        },
-        {
-          "title": "Word Search II",
-          "slug": "word-search-ii",
-          "ts": 1791583875
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "All Ancestors of a Node in a Directed Acyclic Graph",
+          "slug": "all-ancestors-of-a-node-in-a-directed-acyclic-graph",
+          "ts": 1792129433
+        },
+        {
+          "title": "Minimum Number of Operations to Make Array Continuous",
+          "slug": "minimum-number-of-operations-to-make-array-continuous",
+          "ts": 1792125624
+        },
+        {
+          "title": "Search Suggestions System",
+          "slug": "search-suggestions-system",
+          "ts": 1792111864
+        },
         {
           "title": "My Calendar II",
           "slug": "my-calendar-ii",
@@ -712,26 +727,41 @@
           "title": "Palindromic Substrings",
           "slug": "palindromic-substrings",
           "ts": 1791763156
-        },
-        {
-          "title": "Word Break",
-          "slug": "word-break",
-          "ts": 1791762319
-        },
-        {
-          "title": "Find Minimum Time to Finish All Jobs",
-          "slug": "find-minimum-time-to-finish-all-jobs",
-          "ts": 1791757830
-        },
-        {
-          "title": "Find if Path Exists in Graph",
-          "slug": "find-if-path-exists-in-graph",
-          "ts": 1791756108
         }
       ]
     },
     "m8": {
       "recent_ac": [
+        {
+          "title": "Alien Dictionary",
+          "slug": "alien-dictionary",
+          "ts": 1792118843
+        },
+        {
+          "title": "Insert Delete GetRandom O(1)",
+          "slug": "insert-delete-getrandom-o1",
+          "ts": 1792115229
+        },
+        {
+          "title": "Find Median from Data Stream",
+          "slug": "find-median-from-data-stream",
+          "ts": 1792110879
+        },
+        {
+          "title": "Clone Graph",
+          "slug": "clone-graph",
+          "ts": 1792049878
+        },
+        {
+          "title": "Subarray Sum Equals K",
+          "slug": "subarray-sum-equals-k",
+          "ts": 1792049841
+        },
+        {
+          "title": "Sliding Window Maximum",
+          "slug": "sliding-window-maximum",
+          "ts": 1792049012
+        },
         {
           "title": "Word Break",
           "slug": "word-break",
@@ -801,41 +831,21 @@
           "title": "Remove Invalid Parentheses",
           "slug": "remove-invalid-parentheses",
           "ts": 1791853130
-        },
-        {
-          "title": "Minimum Add to Make Parentheses Valid",
-          "slug": "minimum-add-to-make-parentheses-valid",
-          "ts": 1791851407
-        },
-        {
-          "title": "Add Two Numbers",
-          "slug": "add-two-numbers",
-          "ts": 1791851157
-        },
-        {
-          "title": "Shortest Subarray with Sum at Least K",
-          "slug": "shortest-subarray-with-sum-at-least-k",
-          "ts": 1791850736
-        },
-        {
-          "title": "Group Anagrams",
-          "slug": "group-anagrams",
-          "ts": 1791848876
-        },
-        {
-          "title": "Search in Rotated Sorted Array",
-          "slug": "search-in-rotated-sorted-array",
-          "ts": 1791848344
-        },
-        {
-          "title": "Median of Two Sorted Arrays",
-          "slug": "median-of-two-sorted-arrays",
-          "ts": 1791847620
         }
       ]
     },
     "m9": {
       "recent_ac": [
+        {
+          "title": "Course Schedule II",
+          "slug": "course-schedule-ii",
+          "ts": 1792089610
+        },
+        {
+          "title": "Reorder Routes to Make All Paths Lead to the City Zero",
+          "slug": "reorder-routes-to-make-all-paths-lead-to-the-city-zero",
+          "ts": 1792088609
+        },
         {
           "title": "Path With Minimum Effort",
           "slug": "path-with-minimum-effort",
@@ -925,21 +935,21 @@
           "title": "Valid Palindrome",
           "slug": "valid-palindrome",
           "ts": 1790318348
-        },
-        {
-          "title": "Product of Array Except Self",
-          "slug": "product-of-array-except-self",
-          "ts": 1790235172
-        },
-        {
-          "title": "Encode and Decode Strings",
-          "slug": "encode-and-decode-strings",
-          "ts": 1790232721
         }
       ]
     },
     "m10": {
       "recent_ac": [
+        {
+          "title": "Time Based Key-Value Store",
+          "slug": "time-based-key-value-store",
+          "ts": 1792108371
+        },
+        {
+          "title": "Minimum Number of Operations to Make Array Empty",
+          "slug": "minimum-number-of-operations-to-make-array-empty",
+          "ts": 1792090610
+        },
         {
           "title": "Linked List Cycle II",
           "slug": "linked-list-cycle-ii",
@@ -1029,16 +1039,6 @@
           "title": "House Robber II",
           "slug": "house-robber-ii",
           "ts": 1791607633
-        },
-        {
-          "title": "Redundant Connection",
-          "slug": "redundant-connection",
-          "ts": 1791604217
-        },
-        {
-          "title": "Word Search",
-          "slug": "word-search",
-          "ts": 1791398291
         }
       ]
     }
