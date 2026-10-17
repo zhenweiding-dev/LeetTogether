@@ -242,6 +242,15 @@
       "Matrix"
     ]
   },
+  "beautiful-array": {
+    "difficulty": "Medium",
+    "frontend_id": "932",
+    "tags": [
+      "Array",
+      "Math",
+      "Divide and Conquer"
+    ]
+  },
   "beautiful-towers-i": {
     "difficulty": "Medium",
     "frontend_id": "2865",
@@ -462,6 +471,14 @@
     "tags": [
       "Array",
       "Greedy"
+    ]
+  },
+  "capacity-to-ship-packages-within-d-days": {
+    "difficulty": "Medium",
+    "frontend_id": "1011",
+    "tags": [
+      "Array",
+      "Binary Search"
     ]
   },
   "capitalize-the-title": {
@@ -889,6 +906,19 @@
     "tags": [
       "Array",
       "Sliding Window"
+    ]
+  },
+  "count-subarrays-with-majority-element-i": {
+    "difficulty": "Medium",
+    "frontend_id": "3737",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Divide and Conquer",
+      "Segment Tree",
+      "Merge Sort",
+      "Counting",
+      "Prefix Sum"
     ]
   },
   "count-substrings-that-can-be-rearranged-to-contain-a-string-i": {
@@ -2108,6 +2138,7 @@
   },
   "kth-smallest-element-in-a-bst": {
     "difficulty": "Medium",
+    "frontend_id": "230",
     "tags": [
       "Tree",
       "Depth-First Search",
@@ -2992,6 +3023,18 @@
       "Greedy"
     ]
   },
+  "maximum-white-tiles-covered-by-a-carpet": {
+    "difficulty": "Medium",
+    "frontend_id": "2271",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Greedy",
+      "Sliding Window",
+      "Sorting",
+      "Prefix Sum"
+    ]
+  },
   "maximum-width-of-binary-tree": {
     "difficulty": "Medium",
     "frontend_id": "662",
@@ -3367,6 +3410,16 @@
       "Array",
       "Heap (Priority Queue)",
       "Simulation"
+    ]
+  },
+  "minimum-operations-to-make-a-uni-value-grid": {
+    "difficulty": "Medium",
+    "frontend_id": "2033",
+    "tags": [
+      "Array",
+      "Math",
+      "Sorting",
+      "Matrix"
     ]
   },
   "minimum-operations-to-make-binary-array-elements-equal-to-one-i": {
@@ -4176,6 +4229,15 @@
       "Binary Tree"
     ]
   },
+  "power-of-two": {
+    "difficulty": "Easy",
+    "frontend_id": "231",
+    "tags": [
+      "Math",
+      "Bit Manipulation",
+      "Recursion"
+    ]
+  },
   "powx-n": {
     "difficulty": "Medium",
     "frontend_id": "50",
@@ -4267,6 +4329,17 @@
       "Randomized"
     ]
   },
+  "range-sum-of-sorted-subarray-sums": {
+    "difficulty": "Medium",
+    "frontend_id": "1508",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Binary Search",
+      "Sorting",
+      "Prefix Sum"
+    ]
+  },
   "range-sum-query-2d-immutable": {
     "difficulty": "Medium",
     "frontend_id": "304",
@@ -4284,6 +4357,18 @@
       "Array",
       "Design",
       "Prefix Sum"
+    ]
+  },
+  "range-sum-query-mutable": {
+    "difficulty": "Medium",
+    "frontend_id": "307",
+    "tags": [
+      "Array",
+      "Divide and Conquer",
+      "Design",
+      "Binary Indexed Tree",
+      "Segment Tree",
+      "Sqrt Decomposition"
     ]
   },
   "rank-teams-by-votes": {
@@ -4304,6 +4389,14 @@
       "Hash Table",
       "String",
       "Counting"
+    ]
+  },
+  "reach-a-number": {
+    "difficulty": "Medium",
+    "frontend_id": "754",
+    "tags": [
+      "Math",
+      "Binary Search"
     ]
   },
   "reachable-nodes-with-restrictions": {

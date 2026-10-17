@@ -1,9 +1,19 @@
 {
-  "date": "2026-10-15",
-  "fetched_at": "2026-10-16T06:00:46+00:00",
+  "date": "2026-10-16",
+  "fetched_at": "2026-10-17T06:55:27+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Power of Two",
+          "slug": "power-of-two",
+          "ts": 1792176517
+        },
+        {
+          "title": "Number of 1 Bits",
+          "slug": "number-of-1-bits",
+          "ts": 1792174353
+        },
         {
           "title": "Reorder List",
           "slug": "reorder-list",
@@ -93,16 +103,6 @@
           "title": "Remove Covered Intervals",
           "slug": "remove-covered-intervals",
           "ts": 1791261672
-        },
-        {
-          "title": "Next Permutation",
-          "slug": "next-permutation",
-          "ts": 1791152034
-        },
-        {
-          "title": "Sliding Window Maximum",
-          "slug": "sliding-window-maximum",
-          "ts": 1791147540
         }
       ]
     },
@@ -213,6 +213,21 @@
     "m3": {
       "recent_ac": [
         {
+          "title": "Maximum Depth of Binary Tree",
+          "slug": "maximum-depth-of-binary-tree",
+          "ts": 1792201824
+        },
+        {
+          "title": "Search in Rotated Sorted Array",
+          "slug": "search-in-rotated-sorted-array",
+          "ts": 1792199669
+        },
+        {
+          "title": "Merge Intervals",
+          "slug": "merge-intervals",
+          "ts": 1792196011
+        },
+        {
           "title": "Invert Binary Tree",
           "slug": "invert-binary-tree",
           "ts": 1790836375
@@ -296,26 +311,26 @@
           "title": "Sliding Window Maximum",
           "slug": "sliding-window-maximum",
           "ts": 1788593373
-        },
-        {
-          "title": "Minimum Window Substring",
-          "slug": "minimum-window-substring",
-          "ts": 1788588280
-        },
-        {
-          "title": "Permutation in String",
-          "slug": "permutation-in-string",
-          "ts": 1788423235
-        },
-        {
-          "title": "Time Based Key-Value Store",
-          "slug": "time-based-key-value-store",
-          "ts": 1788405664
         }
       ]
     },
     "m4": {
       "recent_ac": [
+        {
+          "title": "Maximum White Tiles Covered by a Carpet",
+          "slug": "maximum-white-tiles-covered-by-a-carpet",
+          "ts": 1792219616
+        },
+        {
+          "title": "Range Sum of Sorted Subarray Sums",
+          "slug": "range-sum-of-sorted-subarray-sums",
+          "ts": 1792215934
+        },
+        {
+          "title": "Reach a Number",
+          "slug": "reach-a-number",
+          "ts": 1792209964
+        },
         {
           "title": "Unique Paths II",
           "slug": "unique-paths-ii",
@@ -400,21 +415,6 @@
           "title": "Greatest Sum Divisible by Three",
           "slug": "greatest-sum-divisible-by-three",
           "ts": 1790493628
-        },
-        {
-          "title": "Queens That Can Attack the King",
-          "slug": "queens-that-can-attack-the-king",
-          "ts": 1790490620
-        },
-        {
-          "title": "Rearrange Array by Removing Distinct Values",
-          "slug": "rearrange-array-by-removing-distinct-values",
-          "ts": 1790489684
-        },
-        {
-          "title": "Maximum Equal Adjacent Pairs After at Most One Replacement",
-          "slug": "maximum-equal-adjacent-pairs-after-at-most-one-replacement",
-          "ts": 1790489679
         }
       ]
     },
@@ -525,6 +525,11 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Kth Smallest Element in a BST",
+          "slug": "kth-smallest-element-in-a-bst",
+          "ts": 1792205205
+        },
+        {
           "title": "Min Cost Climbing Stairs",
           "slug": "min-cost-climbing-stairs",
           "ts": 1792125592
@@ -618,16 +623,16 @@
           "title": "Path Sum III",
           "slug": "path-sum-iii",
           "ts": 1791650942
-        },
-        {
-          "title": "Number of 1 Bits",
-          "slug": "number-of-1-bits",
-          "ts": 1791650179
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Find Eventual Safe States",
+          "slug": "find-eventual-safe-states",
+          "ts": 1792173516
+        },
         {
           "title": "All Ancestors of a Node in a Directed Acyclic Graph",
           "slug": "all-ancestors-of-a-node-in-a-directed-acyclic-graph",
@@ -722,16 +727,31 @@
           "title": "Combination Sum",
           "slug": "combination-sum",
           "ts": 1791772056
-        },
-        {
-          "title": "Palindromic Substrings",
-          "slug": "palindromic-substrings",
-          "ts": 1791763156
         }
       ]
     },
     "m8": {
       "recent_ac": [
+        {
+          "title": "Beautiful Array",
+          "slug": "beautiful-array",
+          "ts": 1792184535
+        },
+        {
+          "title": "Count Subarrays With Majority Element I",
+          "slug": "count-subarrays-with-majority-element-i",
+          "ts": 1792180833
+        },
+        {
+          "title": "Minimum Initial Energy to Finish Tasks",
+          "slug": "minimum-initial-energy-to-finish-tasks",
+          "ts": 1792179414
+        },
+        {
+          "title": "Minimum Operations to Make a Uni-Value Grid",
+          "slug": "minimum-operations-to-make-a-uni-value-grid",
+          "ts": 1792178112
+        },
         {
           "title": "Alien Dictionary",
           "slug": "alien-dictionary",
@@ -811,31 +831,16 @@
           "title": "Validate Binary Search Tree",
           "slug": "validate-binary-search-tree",
           "ts": 1791858312
-        },
-        {
-          "title": "Fruit Into Baskets",
-          "slug": "fruit-into-baskets",
-          "ts": 1791857810
-        },
-        {
-          "title": "Minimum Insertions to Balance a Parentheses String",
-          "slug": "minimum-insertions-to-balance-a-parentheses-string",
-          "ts": 1791856682
-        },
-        {
-          "title": "Permutation in String",
-          "slug": "permutation-in-string",
-          "ts": 1791854252
-        },
-        {
-          "title": "Remove Invalid Parentheses",
-          "slug": "remove-invalid-parentheses",
-          "ts": 1791853130
         }
       ]
     },
     "m9": {
       "recent_ac": [
+        {
+          "title": "Range Sum Query - Mutable",
+          "slug": "range-sum-query-mutable",
+          "ts": 1792208131
+        },
         {
           "title": "Course Schedule II",
           "slug": "course-schedule-ii",
@@ -930,16 +935,46 @@
           "title": "Two Sum II - Input Array Is Sorted",
           "slug": "two-sum-ii-input-array-is-sorted",
           "ts": 1790320622
-        },
-        {
-          "title": "Valid Palindrome",
-          "slug": "valid-palindrome",
-          "ts": 1790318348
         }
       ]
     },
     "m10": {
       "recent_ac": [
+        {
+          "title": "Kth Smallest Element in a Sorted Matrix",
+          "slug": "kth-smallest-element-in-a-sorted-matrix",
+          "ts": 1792192129
+        },
+        {
+          "title": "Median of Two Sorted Arrays",
+          "slug": "median-of-two-sorted-arrays",
+          "ts": 1792186790
+        },
+        {
+          "title": "Split Array Largest Sum",
+          "slug": "split-array-largest-sum",
+          "ts": 1792184139
+        },
+        {
+          "title": "Capacity To Ship Packages Within D Days",
+          "slug": "capacity-to-ship-packages-within-d-days",
+          "ts": 1792176451
+        },
+        {
+          "title": "Find Peak Element",
+          "slug": "find-peak-element",
+          "ts": 1792170830
+        },
+        {
+          "title": "Search in Rotated Sorted Array",
+          "slug": "search-in-rotated-sorted-array",
+          "ts": 1792168918
+        },
+        {
+          "title": "Search Insert Position",
+          "slug": "search-insert-position",
+          "ts": 1792168515
+        },
         {
           "title": "Time Based Key-Value Store",
           "slug": "time-based-key-value-store",
@@ -1004,41 +1039,6 @@
           "title": "Combination Sum IV",
           "slug": "combination-sum-iv",
           "ts": 1791774045
-        },
-        {
-          "title": "Combination Sum II",
-          "slug": "combination-sum-ii",
-          "ts": 1791767506
-        },
-        {
-          "title": "Combination Sum",
-          "slug": "combination-sum",
-          "ts": 1791766188
-        },
-        {
-          "title": "Clone Graph",
-          "slug": "clone-graph",
-          "ts": 1791743599
-        },
-        {
-          "title": "Word Search II",
-          "slug": "word-search-ii",
-          "ts": 1791694774
-        },
-        {
-          "title": "Insert Delete GetRandom O(1)",
-          "slug": "insert-delete-getrandom-o1",
-          "ts": 1791689566
-        },
-        {
-          "title": "Jump Game",
-          "slug": "jump-game",
-          "ts": 1791688423
-        },
-        {
-          "title": "House Robber II",
-          "slug": "house-robber-ii",
-          "ts": 1791607633
         }
       ]
     }
