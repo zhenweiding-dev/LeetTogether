@@ -48,7 +48,7 @@ bottom swaps the trigger for an external cron.
 | `·` `░` | that day had no submission / there is no record of it |
 | `≥21` | at least 21; the window does not reach far enough back to be sure |
 | `12+` | streak is at least 12, possibly longer |
-| `42/43` | days solved out of days in the group — one missed day barely moves it |
+| `42/43` under `Attendance` | days with a solve out of days in the group; one missed day barely moves it |
 | `⚠️` above the table | a fetch went wrong; absent when all is well |
 | `😴 ✨ 💫 ⭐ 🌟 🌙 🌒 🌓 🌔 🌕 ☀️ 🌈 🦄 👑` | streak ladder, front-loaded so it moves in the first week |
 

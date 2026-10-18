@@ -551,12 +551,10 @@ def render(cfg, history, detail, problems, unreadable=()):
                             points=num(r["week_score"], r["week_partial"]),
                         )
                     ),
+                    code(streak),
                     code(
-                        theme.STREAK_CELL.format(
-                            streak=streak,
-                            rate=theme.RATE.format(
-                                solved=r["rate_solved"], seen=r["rate_seen"]
-                            ),
+                        theme.RATE.format(
+                            solved=r["rate_solved"], seen=r["rate_seen"]
                         )
                     ),
                     code(r["spark"]),
