@@ -36,6 +36,16 @@
       "Sorting"
     ]
   },
+  "add-binary": {
+    "difficulty": "Easy",
+    "frontend_id": "67",
+    "tags": [
+      "Math",
+      "String",
+      "Bit Manipulation",
+      "Simulation"
+    ]
+  },
   "add-one-row-to-tree": {
     "difficulty": "Medium",
     "frontend_id": "623",
@@ -954,6 +964,14 @@
       "Array",
       "Hash Table",
       "Sliding Window"
+    ]
+  },
+  "counting-bits": {
+    "difficulty": "Easy",
+    "frontend_id": "338",
+    "tags": [
+      "Dynamic Programming",
+      "Bit Manipulation"
     ]
   },
   "course-schedule": {
@@ -4681,6 +4699,14 @@
       "String",
       "Stack",
       "Simulation"
+    ]
+  },
+  "reverse-bits": {
+    "difficulty": "Easy",
+    "frontend_id": "190",
+    "tags": [
+      "Divide and Conquer",
+      "Bit Manipulation"
     ]
   },
   "reverse-integer": {
