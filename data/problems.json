@@ -1533,6 +1533,11 @@
       "Prefix Sum"
     ]
   },
+  "find-root-of-a-colored-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "4085",
+    "tags": []
+  },
   "find-the-duplicate-number": {
     "difficulty": "Medium",
     "frontend_id": "287",
@@ -2226,6 +2231,11 @@
       "Knapsack Problem",
       "0-1 Knapsack"
     ]
+  },
+  "last-visited-cell-in-a-directional-grid": {
+    "difficulty": "Medium",
+    "frontend_id": "4084",
+    "tags": []
   },
   "left-and-right-sum-differences": {
     "difficulty": "Easy",
@@ -3232,6 +3242,11 @@
       "Greedy"
     ]
   },
+  "minimum-deletions-to-make-array-sharp": {
+    "difficulty": "Easy",
+    "frontend_id": "4083",
+    "tags": []
+  },
   "minimum-depth-of-binary-tree": {
     "difficulty": "Easy",
     "frontend_id": "111",
@@ -3485,6 +3500,14 @@
       "Binary Search",
       "Sliding Window",
       "Prefix Sum"
+    ]
+  },
+  "minimum-speed-to-arrive-on-time": {
+    "difficulty": "Medium",
+    "frontend_id": "1870",
+    "tags": [
+      "Array",
+      "Binary Search"
     ]
   },
   "minimum-string-length-after-balanced-removals": {
@@ -4992,6 +5015,14 @@
     "tags": [
       "String",
       "Stack"
+    ]
+  },
+  "single-number": {
+    "difficulty": "Easy",
+    "frontend_id": "136",
+    "tags": [
+      "Array",
+      "Bit Manipulation"
     ]
   },
   "single-threaded-cpu": {

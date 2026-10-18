@@ -1,9 +1,19 @@
 {
-  "date": "2026-10-16",
-  "fetched_at": "2026-10-17T06:55:27+00:00",
+  "date": "2026-10-17",
+  "fetched_at": "2026-10-18T06:30:30+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Missing Number",
+          "slug": "missing-number",
+          "ts": 1792304132
+        },
+        {
+          "title": "Single Number",
+          "slug": "single-number",
+          "ts": 1792303629
+        },
         {
           "title": "Power of Two",
           "slug": "power-of-two",
@@ -93,16 +103,6 @@
           "title": "Insert Interval",
           "slug": "insert-interval",
           "ts": 1791355128
-        },
-        {
-          "title": "Merge Intervals",
-          "slug": "merge-intervals",
-          "ts": 1791269017
-        },
-        {
-          "title": "Remove Covered Intervals",
-          "slug": "remove-covered-intervals",
-          "ts": 1791261672
         }
       ]
     },
@@ -317,6 +317,11 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Minimum Speed to Arrive on Time",
+          "slug": "minimum-speed-to-arrive-on-time",
+          "ts": 1792286046
+        },
+        {
           "title": "Maximum White Tiles Covered by a Carpet",
           "slug": "maximum-white-tiles-covered-by-a-carpet",
           "ts": 1792219616
@@ -410,11 +415,6 @@
           "title": "Find the Smallest Divisor Given a Threshold",
           "slug": "find-the-smallest-divisor-given-a-threshold",
           "ts": 1790494982
-        },
-        {
-          "title": "Greatest Sum Divisible by Three",
-          "slug": "greatest-sum-divisible-by-three",
-          "ts": 1790493628
         }
       ]
     },
@@ -525,6 +525,21 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Find Root of a Colored Tree",
+          "slug": "find-root-of-a-colored-tree",
+          "ts": 1792292689
+        },
+        {
+          "title": "Last Visited Cell in a Directional Grid",
+          "slug": "last-visited-cell-in-a-directional-grid",
+          "ts": 1792291840
+        },
+        {
+          "title": "Minimum Deletions to Make Array Sharp",
+          "slug": "minimum-deletions-to-make-array-sharp",
+          "ts": 1792291201
+        },
+        {
           "title": "Kth Smallest Element in a BST",
           "slug": "kth-smallest-element-in-a-bst",
           "ts": 1792205205
@@ -608,21 +623,6 @@
           "title": "Search in Rotated Sorted Array",
           "slug": "search-in-rotated-sorted-array",
           "ts": 1791775522
-        },
-        {
-          "title": "Partition Equal Subset Sum",
-          "slug": "partition-equal-subset-sum",
-          "ts": 1791774755
-        },
-        {
-          "title": "Best Time to Buy and Sell Stock",
-          "slug": "best-time-to-buy-and-sell-stock",
-          "ts": 1791652269
-        },
-        {
-          "title": "Path Sum III",
-          "slug": "path-sum-iii",
-          "ts": 1791650942
         }
       ]
     },
@@ -941,6 +941,11 @@
     "m10": {
       "recent_ac": [
         {
+          "title": "Longest Increasing Subsequence",
+          "slug": "longest-increasing-subsequence",
+          "ts": 1792300045
+        },
+        {
           "title": "Kth Smallest Element in a Sorted Matrix",
           "slug": "kth-smallest-element-in-a-sorted-matrix",
           "ts": 1792192129
@@ -1034,11 +1039,6 @@
           "title": "Next Greater Numerically Balanced Number",
           "slug": "next-greater-numerically-balanced-number",
           "ts": 1791829470
-        },
-        {
-          "title": "Combination Sum IV",
-          "slug": "combination-sum-iv",
-          "ts": 1791774045
         }
       ]
     }
