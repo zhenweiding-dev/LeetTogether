@@ -552,12 +552,12 @@ def render(cfg, history, detail, problems, unreadable=()):
                         )
                     ),
                     code(streak),
+                    code(r["spark"]),
                     code(
                         theme.RATE.format(
                             solved=r["rate_solved"], seen=r["rate_seen"]
                         )
                     ),
-                    code(r["spark"]),
                 ]
             )
         legend = theme.LEGEND.format(

@@ -35,8 +35,8 @@ RANK_HEADERS = [
     "Today",
     "Last {week} days",
     "Streak",
-    "Attendance",
     "Last {window} days",
+    "Days",
 ]
 RANK_ALIGNS = ["left"] + ["center"] * (len(RANK_HEADERS) - 1)  # names left
 
@@ -47,11 +47,12 @@ MEMBER_CELL = "{rank} {name}{move}"  # rank lives in the member cell to save a c
 STREAK = "{icon} {days}"
 STREAK_CAPPED = "{icon} {days}+"  # window ran out, the real streak may be longer
 
-# Its own column, next to the streak and deliberately not inside it. The streak
-# answers "are you going right now" and is gone the morning after one missed day;
-# this answers "how often do you show up" and a missed day barely moves it.
-# Someone who has solved on most days for months should not read as a zero
-# because of one of them.
+# Last column, and headed "Days" rather than anything longer: the word only has
+# to be wider than 16/31 to start pushing the rest of the table around, and the
+# legend is where the meaning belongs. The streak answers "are you going right
+# now" and is gone the morning after one missed day; this answers "how often do
+# you show up" and a missed day barely moves it. Someone who has solved on most
+# days for months should not read as a zero because of one of them.
 RATE = "{solved}/{seen}"
 
 # Streak ladder: (upper bound in days, icon), first match wins.
@@ -97,8 +98,7 @@ DIFF_FALLBACK = "?"
 LADDER_JOIN = "&nbsp; "  # Markdown collapses runs of spaces
 LEGEND = (
     "🔥 <b>Streak</b> {ladder}<br>"
-    "📒 <b>Attendance</b> days with a solve out of days in the group — "
-    "one miss barely moves it<br>"
+    "📒 <b>Days</b> solved out of days in the group — one miss barely moves it<br>"
     "💡 <b>Scoring</b> Easy ×{easy} · Med ×{medium} · Hard ×{hard} — "
     "<b>✅</b> solved, <b>pts</b> weighted points<br>"
     "📊 <b>Last {window} days</b> <code>·</code> no submission · "
