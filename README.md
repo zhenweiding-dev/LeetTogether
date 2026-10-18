@@ -27,73 +27,73 @@
 <td align="left">🥇 <code>cici</code> 🔺</td>
 <td align="center"><code>1 ✅丨6 pts</code></td>
 <td align="center"><code>21 ✅丨<b>73 pts</b></code></td>
-<td align="center"><code>⭐ 5</code></td>
+<td align="center"><code>⭐ 5丨16/31</code></td>
 <td align="center"><code>▃ ▁ ▃ · ▁ ▃ ▃ ▅ · ▅ ▁ ▅ ▁ ▁</code></td>
 </tr>
 <tr>
 <td align="left">🥈 <code>john</code> 🔺</td>
 <td align="center"><code>3 ✅丨3 pts</code></td>
 <td align="center"><code>12 ✅丨<b>25 pts</b></code></td>
-<td align="center"><code>💫 3</code></td>
+<td align="center"><code>💫 3丨56/59</code></td>
 <td align="center"><code>▁ ▁ ▁ ▁ ▁ ▁ ▃ ▁ ▁ ▁ · ▁ ▁ ▃</code></td>
 </tr>
 <tr>
 <td align="left">🥉 <code>people</code> 🔺</td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>30 ✅丨<b>117 pts</b></code></td>
-<td align="center"><code>😴 0</code></td>
+<td align="center"><code>😴 0丨21/35</code></td>
 <td align="center"><code>· · · · · ▃ · ▇ · ▅ ▅ ▃ · ·</code></td>
 </tr>
 <tr>
 <td align="left"><code>4</code> <code>kitty</code> 🔺</td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>17 ✅丨<b>55 pts</b></code></td>
-<td align="center"><code>😴 0</code></td>
+<td align="center"><code>😴 0丨27/38</code></td>
 <td align="center"><code>▁ ▇ ▇ ▃ ▇ ▃ ▅ ▁ ▃ ▇ ▃ ▁ · ·</code></td>
 </tr>
 <tr>
 <td align="left"><code>5</code> <code>Alan</code> 🔻</td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>18 ✅丨<b>44 pts</b></code></td>
-<td align="center"><code>☀️ 42</code></td>
+<td align="center"><code>☀️ 42丨42/42</code></td>
 <td align="center"><code>▃ ▁ ▁ ▁ ▁ ▃ ▃ ▃ ▇ ▁ ▁ ▁ ▃ ·</code></td>
 </tr>
 <tr>
 <td align="left"><code>6</code> <code>xiao</code> 🔻</td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>12 ✅丨<b>34 pts</b></code></td>
-<td align="center"><code>💫 2</code></td>
+<td align="center"><code>💫 2丨25/55</code></td>
 <td align="center"><code>· · ▁ · · · · · · ▇ · ▃ ▁ ·</code></td>
 </tr>
 <tr>
 <td align="left"><code>7</code> <code>sky</code></td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>4 ✅丨<b>12 pts</b></code></td>
-<td align="center"><code>😴 0</code></td>
+<td align="center"><code>😴 0丨14/31</code></td>
 <td align="center"><code>· · · · · ▁ ▁ ▁ · · ▁ ▁ · ·</code></td>
 </tr>
 <tr>
 <td align="left"><code>8</code> <code>Andrea</code></td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>2 ✅丨<b>9 pts</b></code></td>
-<td align="center"><code>😴 0</code></td>
+<td align="center"><code>😴 0丨20/49</code></td>
 <td align="center"><code>· · ▁ ▃ · ▁ ▁ ▁ · · · · · ·</code></td>
 </tr>
 <tr>
 <td align="left"><code>9</code> <code>Glo</code></td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>3 ✅丨<b>7 pts</b></code></td>
-<td align="center"><code>😴 0</code></td>
+<td align="center"><code>😴 0丨26/55</code></td>
 <td align="center"><code>· · · · · · · · · · · ▃ · ·</code></td>
 </tr>
 <tr>
 <td align="left"><code>10</code> <code>cheers🍻</code></td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>0 ✅丨<b>0 pts</b></code></td>
-<td align="center"><code>😴 0</code></td>
+<td align="center"><code>😴 0丨29/57</code></td>
 <td align="center"><code>· · · · ▁ · · · · · · · · ·</code></td>
 </tr>
-<tr><td colspan="5"><sub>🔥 <b>Streak</b> 😴0&nbsp; ✨1&nbsp; 💫2&nbsp; ⭐4&nbsp; 🌟6&nbsp; 🌙7&nbsp; 🌒10&nbsp; 🌓14&nbsp; 🌔20&nbsp; 🌕30&nbsp; ☀️37&nbsp; 🌈50&nbsp; 🦄100&nbsp; 👑365<br>💡 <b>Scoring</b> Easy ×1 · Med ×3 · Hard ×6 — <b>✅</b> solved, <b>pts</b> weighted points<br>📊 <b>Last 14 days</b> <code>·</code> no submission · <code>░</code> no data</sub></td></tr>
+<tr><td colspan="5"><sub>🔥 <b>Streak</b> 😴0&nbsp; ✨1&nbsp; 💫2&nbsp; ⭐4&nbsp; 🌟6&nbsp; 🌙7&nbsp; 🌒10&nbsp; 🌓14&nbsp; 🌔20&nbsp; 🌕30&nbsp; ☀️37&nbsp; 🌈50&nbsp; 🦄100&nbsp; 👑365<br>📒 <b>a/b</b> days solved out of days in the group<br>💡 <b>Scoring</b> Easy ×1 · Med ×3 · Hard ×6 — <b>✅</b> solved, <b>pts</b> weighted points<br>📊 <b>Last 14 days</b> <code>·</code> no submission · <code>░</code> no data</sub></td></tr>
 </tbody>
 </table>
 
