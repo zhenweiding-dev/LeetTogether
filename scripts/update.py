@@ -171,6 +171,35 @@ def repair_streaks(history, today):
             m["streak"] = carried + 1
 
 
+def roll_attendance(history, today):
+    """Carry each member's solved/seen day tally forward across the window.
+
+    The pair behind the board's a/b. Carried like the streak and for the same
+    reason — the window holds RETAIN days and the point of this pair is the months
+    before them — but rebuilt from the day counts on every run instead of
+    incremented, so a day whose count was raised after the fact corrects itself
+    and a re-run cannot double-count.
+
+    Only settled days are written. Today is left out because its count is still
+    moving; the board adds it to the display without storing it. The oldest day
+    holding a pair anchors the chain and is taken as given — there is nothing left
+    in the window to rebuild it from — and by the time the window drops it, every
+    day after it has been written often enough to take over.
+    """
+    carried = {}
+    for date in sorted(history):
+        if date >= today:
+            break
+        for mid, m in (history[date].get("members") or {}).items():
+            solved = 1 if (m.get("day") or {}).get("count", 0) >= 1 else 0
+            if mid in carried:
+                on, seen = carried[mid]
+                m["days_solved"], m["days_seen"] = on + solved, seen + 1
+            elif "days_seen" not in m:
+                m["days_solved"], m["days_seen"] = solved, 1
+            carried[mid] = (m.get("days_solved", 0), m["days_seen"])
+
+
 def core(members):
     """The only two things whose change means the data actually moved.
 
@@ -335,8 +364,10 @@ def main():
     }
     top_up_yesterday(history, detail, problems, cfg, today)
     backfill(history, members, problems, cfg, today)
-    # After the top-up: a day it just raised from zero is one of the days to fix.
+    # Both after the top-up: a day it just raised from zero is one of the days to
+    # fix, and one the tally has to count.
     repair_streaks(history, today)
+    roll_attendance(history, today)
 
     # The window is why this project does not grow without bound.
     for date in sorted(history)[: -board.RETAIN]:

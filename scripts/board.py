@@ -170,6 +170,28 @@ def streak_with_history(days, today, active, prev_eod):
     return display, (display if active else 0), limited and derived > carried
 
 
+def stored_attendance(days, today):
+    """The most recent solved/seen day pair before today, or zeros.
+
+    Scans back rather than reading yesterday, so a day the Action never ran at all
+    does not look like the member's record starting over.
+    """
+    for date in sorted(days, reverse=True):
+        if date < today and "days_seen" in days[date]:
+            return days[date].get("days_solved", 0), days[date]["days_seen"]
+    return 0, 0
+
+
+def attendance(days, today, active):
+    """(days solved, days here) through today, which counts only once it has one.
+
+    An unfinished day is not yet a miss — the same rule the streak uses. Without
+    it the pair would dip every morning and climb back every evening.
+    """
+    solved, seen = stored_attendance(days, today)
+    return (solved + 1, seen + 1) if active else (solved, seen)
+
+
 def solved_deltas(days):
     """{date: {easy/medium/hard: newly solved}} from consecutive lifetime totals.
 
@@ -398,6 +420,7 @@ def build_rows(cfg, history, detail, problems, today):
             active=t_probs >= 1,
             prev_eod=stored_streak(mdays, today),
         )
+        rate_solved, rate_seen = attendance(mdays, today, active=t_probs >= 1)
         counts = [day_count(d, days) for d in days_back(today, WINDOW)]
         acs = sorted(
             (dict(slug=s, **v) for s, v in day_events(mid, detail, cfg, today).items()),
@@ -411,6 +434,8 @@ def build_rows(cfg, history, detail, problems, today):
                 "streak": streak,
                 "streak_eod": streak_eod,  # what tomorrow carries forward
                 "streak_limited": streak_limited,
+                "rate_solved": rate_solved,
+                "rate_seen": rate_seen,
                 "today": t_probs,
                 "today_score": t_score,
                 "today_partial": t_partial,
@@ -526,7 +551,14 @@ def render(cfg, history, detail, problems, unreadable=()):
                             points=num(r["week_score"], r["week_partial"]),
                         )
                     ),
-                    code(streak),
+                    code(
+                        theme.STREAK_CELL.format(
+                            streak=streak,
+                            rate=theme.RATE.format(
+                                solved=r["rate_solved"], seen=r["rate_seen"]
+                            ),
+                        )
+                    ),
                     code(r["spark"]),
                 ]
             )

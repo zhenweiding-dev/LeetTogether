@@ -46,6 +46,13 @@ MEMBER_CELL = "{rank} {name}{move}"  # rank lives in the member cell to save a c
 STREAK = "{icon} {days}"
 STREAK_CAPPED = "{icon} {days}+"  # window ran out, the real streak may be longer
 
+# The run, then the whole record. The streak answers "are you going right now"
+# and is gone the morning after one missed day; the pair answers "how often do you
+# show up" and a missed day barely moves it. Someone who has solved on most days
+# for months should not read as a zero because of one of them.
+STREAK_CELL = "{streak}丨{rate}"
+RATE = "{solved}/{seen}"
+
 # Streak ladder: (upper bound in days, icon), first match wins.
 #
 # Front-loaded on purpose — an upgrade every day or two in the first week, when
@@ -89,6 +96,7 @@ DIFF_FALLBACK = "?"
 LADDER_JOIN = "&nbsp; "  # Markdown collapses runs of spaces
 LEGEND = (
     "🔥 <b>Streak</b> {ladder}<br>"
+    "📒 <b>a/b</b> days solved out of days in the group<br>"
     "💡 <b>Scoring</b> Easy ×{easy} · Med ×{medium} · Hard ×{hard} — "
     "<b>✅</b> solved, <b>pts</b> weighted points<br>"
     "📊 <b>Last {window} days</b> <code>·</code> no submission · "

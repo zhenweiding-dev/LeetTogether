@@ -53,7 +53,9 @@
             "medium": 1,
             "hard": 1
           },
-          "streak": 16
+          "streak": 16,
+          "days_solved": 42,
+          "days_seen": 44
         },
         "m2": {
           "solved": {
@@ -68,7 +70,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 27,
+          "days_seen": 43
         },
         "m3": {
           "solved": {
@@ -83,7 +87,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 25,
+          "days_seen": 41
         },
         "m4": {
           "solved": {
@@ -98,7 +104,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 21,
+          "days_seen": 41
         },
         "m5": {
           "solved": {
@@ -113,7 +121,9 @@
             "medium": 5,
             "hard": 1
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 14,
+          "days_seen": 35
         },
         "m6": {
           "solved": {
@@ -128,7 +138,9 @@
             "medium": 2,
             "hard": 0
           },
-          "streak": 28
+          "streak": 28,
+          "days_solved": 28,
+          "days_seen": 28
         },
         "m7": {
           "solved": {
@@ -143,7 +155,9 @@
             "medium": 6,
             "hard": 0
           },
-          "streak": 6
+          "streak": 6,
+          "days_solved": 15,
+          "days_seen": 24
         },
         "m8": {
           "solved": {
@@ -158,7 +172,9 @@
             "medium": 2,
             "hard": 0
           },
-          "streak": 4
+          "streak": 4,
+          "days_solved": 16,
+          "days_seen": 21
         },
         "m9": {
           "solved": {
@@ -173,7 +189,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 9,
+          "days_seen": 17
         },
         "m10": {
           "solved": {
@@ -188,7 +206,9 @@
             "medium": 3,
             "hard": 0
           },
-          "streak": 3
+          "streak": 3,
+          "days_solved": 3,
+          "days_seen": 16
         }
       }
     },
@@ -237,7 +257,9 @@
             "medium": 1,
             "hard": 1
           },
-          "streak": 17
+          "streak": 17,
+          "days_solved": 43,
+          "days_seen": 45
         },
         "m2": {
           "solved": {
@@ -252,7 +274,9 @@
             "medium": 2,
             "hard": 0
           },
-          "streak": 2
+          "streak": 2,
+          "days_solved": 28,
+          "days_seen": 44
         },
         "m3": {
           "solved": {
@@ -267,7 +291,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 25,
+          "days_seen": 42
         },
         "m4": {
           "solved": {
@@ -282,7 +308,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 21,
+          "days_seen": 42
         },
         "m5": {
           "solved": {
@@ -297,7 +325,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 2
+          "streak": 2,
+          "days_solved": 15,
+          "days_seen": 36
         },
         "m6": {
           "solved": {
@@ -312,7 +342,9 @@
             "medium": 3,
             "hard": 0
           },
-          "streak": 29
+          "streak": 29,
+          "days_solved": 29,
+          "days_seen": 29
         },
         "m7": {
           "solved": {
@@ -327,7 +359,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 15,
+          "days_seen": 25
         },
         "m8": {
           "solved": {
@@ -342,7 +376,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 16,
+          "days_seen": 22
         },
         "m9": {
           "solved": {
@@ -357,7 +393,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 9,
+          "days_seen": 18
         },
         "m10": {
           "solved": {
@@ -372,7 +410,9 @@
             "medium": 3,
             "hard": 0
           },
-          "streak": 4
+          "streak": 4,
+          "days_solved": 4,
+          "days_seen": 17
         }
       }
     },
@@ -415,7 +455,9 @@
             "medium": 2,
             "hard": 0
           },
-          "streak": 18
+          "streak": 18,
+          "days_solved": 44,
+          "days_seen": 46
         },
         "m2": {
           "solved": {
@@ -430,7 +472,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 28,
+          "days_seen": 45
         },
         "m3": {
           "solved": {
@@ -445,7 +489,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 25,
+          "days_seen": 43
         },
         "m4": {
           "solved": {
@@ -460,7 +506,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 21,
+          "days_seen": 43
         },
         "m5": {
           "solved": {
@@ -475,7 +523,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 15,
+          "days_seen": 37
         },
         "m6": {
           "solved": {
@@ -490,7 +540,9 @@
             "medium": 3,
             "hard": 0
           },
-          "streak": 30
+          "streak": 30,
+          "days_solved": 30,
+          "days_seen": 30
         },
         "m7": {
           "solved": {
@@ -505,7 +557,9 @@
             "medium": 1,
             "hard": 1
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 16,
+          "days_seen": 26
         },
         "m8": {
           "solved": {
@@ -520,7 +574,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 16,
+          "days_seen": 23
         },
         "m9": {
           "solved": {
@@ -535,7 +591,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 9,
+          "days_seen": 19
         },
         "m10": {
           "solved": {
@@ -550,7 +608,9 @@
             "medium": 4,
             "hard": 0
           },
-          "streak": 5
+          "streak": 5,
+          "days_solved": 5,
+          "days_seen": 18
         }
       }
     },
@@ -600,7 +660,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 19
+          "streak": 19,
+          "days_solved": 45,
+          "days_seen": 47
         },
         "m2": {
           "solved": {
@@ -615,7 +677,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 28,
+          "days_seen": 46
         },
         "m3": {
           "solved": {
@@ -630,7 +694,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 25,
+          "days_seen": 44
         },
         "m4": {
           "solved": {
@@ -645,7 +711,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 21,
+          "days_seen": 44
         },
         "m5": {
           "solved": {
@@ -660,7 +728,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 15,
+          "days_seen": 38
         },
         "m6": {
           "solved": {
@@ -675,7 +745,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 31
+          "streak": 31,
+          "days_solved": 31,
+          "days_seen": 31
         },
         "m7": {
           "solved": {
@@ -690,7 +762,9 @@
             "medium": 10,
             "hard": 1
           },
-          "streak": 2
+          "streak": 2,
+          "days_solved": 17,
+          "days_seen": 27
         },
         "m8": {
           "solved": {
@@ -705,7 +779,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 16,
+          "days_seen": 24
         },
         "m9": {
           "solved": {
@@ -720,7 +796,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 9,
+          "days_seen": 20
         },
         "m10": {
           "solved": {
@@ -735,7 +813,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 6
+          "streak": 6,
+          "days_solved": 6,
+          "days_seen": 19
         }
       }
     },
@@ -790,7 +870,9 @@
             "medium": 2,
             "hard": 0
           },
-          "streak": 20
+          "streak": 20,
+          "days_solved": 46,
+          "days_seen": 48
         },
         "m2": {
           "solved": {
@@ -805,7 +887,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 28,
+          "days_seen": 47
         },
         "m3": {
           "solved": {
@@ -820,7 +904,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 25,
+          "days_seen": 45
         },
         "m4": {
           "solved": {
@@ -835,7 +921,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 22,
+          "days_seen": 45
         },
         "m5": {
           "solved": {
@@ -850,7 +938,9 @@
             "medium": 2,
             "hard": 0
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 16,
+          "days_seen": 39
         },
         "m6": {
           "solved": {
@@ -865,7 +955,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 32
+          "streak": 32,
+          "days_solved": 32,
+          "days_seen": 32
         },
         "m7": {
           "solved": {
@@ -880,7 +972,9 @@
             "medium": 11,
             "hard": 1
           },
-          "streak": 3
+          "streak": 3,
+          "days_solved": 18,
+          "days_seen": 28
         },
         "m8": {
           "solved": {
@@ -895,7 +989,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 16,
+          "days_seen": 25
         },
         "m9": {
           "solved": {
@@ -910,7 +1006,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 9,
+          "days_seen": 21
         },
         "m10": {
           "solved": {
@@ -925,7 +1023,9 @@
             "medium": 2,
             "hard": 1
           },
-          "streak": 7
+          "streak": 7,
+          "days_solved": 7,
+          "days_seen": 20
         }
       }
     },
@@ -962,7 +1062,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 21
+          "streak": 21,
+          "days_solved": 47,
+          "days_seen": 49
         },
         "m2": {
           "solved": {
@@ -977,7 +1079,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 28,
+          "days_seen": 48
         },
         "m3": {
           "solved": {
@@ -992,7 +1096,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 25,
+          "days_seen": 46
         },
         "m4": {
           "solved": {
@@ -1007,7 +1113,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 22,
+          "days_seen": 46
         },
         "m5": {
           "solved": {
@@ -1022,7 +1130,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 2
+          "streak": 2,
+          "days_solved": 17,
+          "days_seen": 40
         },
         "m6": {
           "solved": {
@@ -1037,7 +1147,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 33
+          "streak": 33,
+          "days_solved": 33,
+          "days_seen": 33
         },
         "m7": {
           "solved": {
@@ -1052,7 +1164,9 @@
             "medium": 4,
             "hard": 0
           },
-          "streak": 4
+          "streak": 4,
+          "days_solved": 19,
+          "days_seen": 29
         },
         "m8": {
           "solved": {
@@ -1067,7 +1181,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 16,
+          "days_seen": 26
         },
         "m9": {
           "solved": {
@@ -1082,7 +1198,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 9,
+          "days_seen": 22
         },
         "m10": {
           "solved": {
@@ -1097,7 +1215,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 7,
+          "days_seen": 21
         }
       }
     },
@@ -1149,7 +1269,9 @@
             "medium": 1,
             "hard": 1
           },
-          "streak": 22
+          "streak": 22,
+          "days_solved": 48,
+          "days_seen": 50
         },
         "m2": {
           "solved": {
@@ -1164,7 +1286,9 @@
             "medium": 2,
             "hard": 0
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 29,
+          "days_seen": 49
         },
         "m3": {
           "solved": {
@@ -1179,7 +1303,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 25,
+          "days_seen": 47
         },
         "m4": {
           "solved": {
@@ -1194,7 +1320,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 22,
+          "days_seen": 47
         },
         "m5": {
           "solved": {
@@ -1209,7 +1337,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 17,
+          "days_seen": 41
         },
         "m6": {
           "solved": {
@@ -1224,7 +1354,9 @@
             "medium": 0,
             "hard": 1
           },
-          "streak": 34
+          "streak": 34,
+          "days_solved": 34,
+          "days_seen": 34
         },
         "m7": {
           "solved": {
@@ -1239,7 +1371,9 @@
             "medium": 9,
             "hard": 0
           },
-          "streak": 5
+          "streak": 5,
+          "days_solved": 20,
+          "days_seen": 30
         },
         "m8": {
           "solved": {
@@ -1254,7 +1388,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 16,
+          "days_seen": 27
         },
         "m9": {
           "solved": {
@@ -1269,7 +1405,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 9,
+          "days_seen": 23
         },
         "m10": {
           "solved": {
@@ -1284,7 +1422,9 @@
             "medium": 2,
             "hard": 0
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 8,
+          "days_seen": 22
         }
       }
     },
@@ -1330,7 +1470,9 @@
             "medium": 1,
             "hard": 1
           },
-          "streak": 23
+          "streak": 23,
+          "days_solved": 49,
+          "days_seen": 51
         },
         "m2": {
           "solved": {
@@ -1345,7 +1487,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 29,
+          "days_seen": 50
         },
         "m3": {
           "solved": {
@@ -1360,7 +1504,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 25,
+          "days_seen": 48
         },
         "m4": {
           "solved": {
@@ -1375,7 +1521,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 22,
+          "days_seen": 48
         },
         "m5": {
           "solved": {
@@ -1390,7 +1538,9 @@
             "medium": 1,
             "hard": 1
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 18,
+          "days_seen": 42
         },
         "m6": {
           "solved": {
@@ -1405,7 +1555,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 35
+          "streak": 35,
+          "days_solved": 35,
+          "days_seen": 35
         },
         "m7": {
           "solved": {
@@ -1420,7 +1572,9 @@
             "medium": 4,
             "hard": 0
           },
-          "streak": 6
+          "streak": 6,
+          "days_solved": 21,
+          "days_seen": 31
         },
         "m8": {
           "solved": {
@@ -1435,7 +1589,9 @@
             "medium": 2,
             "hard": 1
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 17,
+          "days_seen": 28
         },
         "m9": {
           "solved": {
@@ -1450,7 +1606,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 10,
+          "days_seen": 24
         },
         "m10": {
           "solved": {
@@ -1465,7 +1623,9 @@
             "medium": 2,
             "hard": 1
           },
-          "streak": 2
+          "streak": 2,
+          "days_solved": 9,
+          "days_seen": 23
         }
       }
     },
@@ -1520,7 +1680,9 @@
             "medium": 3,
             "hard": 0
           },
-          "streak": 24
+          "streak": 24,
+          "days_solved": 50,
+          "days_seen": 52
         },
         "m2": {
           "solved": {
@@ -1535,7 +1697,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 29,
+          "days_seen": 51
         },
         "m3": {
           "solved": {
@@ -1550,7 +1714,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 25,
+          "days_seen": 49
         },
         "m4": {
           "solved": {
@@ -1565,7 +1731,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 22,
+          "days_seen": 49
         },
         "m5": {
           "solved": {
@@ -1580,7 +1748,9 @@
             "medium": 2,
             "hard": 0
           },
-          "streak": 2
+          "streak": 2,
+          "days_solved": 19,
+          "days_seen": 43
         },
         "m6": {
           "solved": {
@@ -1595,7 +1765,9 @@
             "medium": 2,
             "hard": 0
           },
-          "streak": 36
+          "streak": 36,
+          "days_solved": 36,
+          "days_seen": 36
         },
         "m7": {
           "solved": {
@@ -1610,7 +1782,9 @@
             "medium": 5,
             "hard": 1
           },
-          "streak": 7
+          "streak": 7,
+          "days_solved": 22,
+          "days_seen": 32
         },
         "m8": {
           "solved": {
@@ -1625,7 +1799,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 17,
+          "days_seen": 29
         },
         "m9": {
           "solved": {
@@ -1640,7 +1816,9 @@
             "medium": 2,
             "hard": 0
           },
-          "streak": 2
+          "streak": 2,
+          "days_solved": 11,
+          "days_seen": 25
         },
         "m10": {
           "solved": {
@@ -1655,7 +1833,9 @@
             "medium": 4,
             "hard": 0
           },
-          "streak": 3
+          "streak": 3,
+          "days_solved": 10,
+          "days_seen": 24
         }
       }
     },
@@ -1712,7 +1892,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 25
+          "streak": 25,
+          "days_solved": 51,
+          "days_seen": 53
         },
         "m2": {
           "solved": {
@@ -1727,7 +1909,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 29,
+          "days_seen": 52
         },
         "m3": {
           "solved": {
@@ -1742,7 +1926,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 25,
+          "days_seen": 50
         },
         "m4": {
           "solved": {
@@ -1757,7 +1943,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 22,
+          "days_seen": 50
         },
         "m5": {
           "solved": {
@@ -1772,7 +1960,9 @@
             "medium": 1,
             "hard": 1
           },
-          "streak": 3
+          "streak": 3,
+          "days_solved": 20,
+          "days_seen": 44
         },
         "m6": {
           "solved": {
@@ -1787,7 +1977,9 @@
             "medium": 0,
             "hard": 1
           },
-          "streak": 37
+          "streak": 37,
+          "days_solved": 37,
+          "days_seen": 37
         },
         "m7": {
           "solved": {
@@ -1802,7 +1994,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 8
+          "streak": 8,
+          "days_solved": 23,
+          "days_seen": 33
         },
         "m8": {
           "solved": {
@@ -1817,7 +2011,9 @@
             "medium": 11,
             "hard": 3
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 18,
+          "days_seen": 30
         },
         "m9": {
           "solved": {
@@ -1832,7 +2028,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 3
+          "streak": 3,
+          "days_solved": 12,
+          "days_seen": 26
         },
         "m10": {
           "solved": {
@@ -1847,7 +2045,9 @@
             "medium": 5,
             "hard": 0
           },
-          "streak": 4
+          "streak": 4,
+          "days_solved": 11,
+          "days_seen": 25
         }
       }
     },
@@ -1898,7 +2098,9 @@
             "medium": 2,
             "hard": 0
           },
-          "streak": 26
+          "streak": 26,
+          "days_solved": 52,
+          "days_seen": 54
         },
         "m2": {
           "solved": {
@@ -1913,7 +2115,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 29,
+          "days_seen": 53
         },
         "m3": {
           "solved": {
@@ -1928,7 +2132,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 25,
+          "days_seen": 51
         },
         "m4": {
           "solved": {
@@ -1943,7 +2149,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 22,
+          "days_seen": 51
         },
         "m5": {
           "solved": {
@@ -1958,7 +2166,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 20,
+          "days_seen": 45
         },
         "m6": {
           "solved": {
@@ -1973,7 +2183,9 @@
             "medium": 4,
             "hard": 0
           },
-          "streak": 38
+          "streak": 38,
+          "days_solved": 38,
+          "days_seen": 38
         },
         "m7": {
           "solved": {
@@ -1988,7 +2200,9 @@
             "medium": 1,
             "hard": 1
           },
-          "streak": 9
+          "streak": 9,
+          "days_solved": 24,
+          "days_seen": 34
         },
         "m8": {
           "solved": {
@@ -2003,7 +2217,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 18,
+          "days_seen": 31
         },
         "m9": {
           "solved": {
@@ -2018,7 +2234,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 12,
+          "days_seen": 27
         },
         "m10": {
           "solved": {
@@ -2033,7 +2251,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 11,
+          "days_seen": 26
         }
       }
     },
@@ -2091,7 +2311,9 @@
             "medium": 1,
             "hard": 1
           },
-          "streak": 27
+          "streak": 27,
+          "days_solved": 53,
+          "days_seen": 55
         },
         "m2": {
           "solved": {
@@ -2106,7 +2328,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 29,
+          "days_seen": 54
         },
         "m3": {
           "solved": {
@@ -2121,7 +2345,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 25,
+          "days_seen": 52
         },
         "m4": {
           "solved": {
@@ -2136,7 +2362,9 @@
             "medium": 7,
             "hard": 0
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 23,
+          "days_seen": 52
         },
         "m5": {
           "solved": {
@@ -2151,7 +2379,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 20,
+          "days_seen": 46
         },
         "m6": {
           "solved": {
@@ -2166,7 +2396,9 @@
             "medium": 1,
             "hard": 1
           },
-          "streak": 39
+          "streak": 39,
+          "days_solved": 39,
+          "days_seen": 39
         },
         "m7": {
           "solved": {
@@ -2181,7 +2413,9 @@
             "medium": 9,
             "hard": 0
           },
-          "streak": 10
+          "streak": 10,
+          "days_solved": 25,
+          "days_seen": 35
         },
         "m8": {
           "solved": {
@@ -2196,7 +2430,9 @@
             "medium": 4,
             "hard": 2
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 19,
+          "days_seen": 32
         },
         "m9": {
           "solved": {
@@ -2211,7 +2447,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 12,
+          "days_seen": 28
         },
         "m10": {
           "solved": {
@@ -2226,7 +2464,9 @@
             "medium": 4,
             "hard": 1
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 12,
+          "days_seen": 27
         }
       }
     },
@@ -2273,7 +2513,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 53,
+          "days_seen": 56
         },
         "m2": {
           "solved": {
@@ -2288,7 +2530,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 29,
+          "days_seen": 55
         },
         "m3": {
           "solved": {
@@ -2303,7 +2547,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 25,
+          "days_seen": 53
         },
         "m4": {
           "solved": {
@@ -2318,7 +2564,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 23,
+          "days_seen": 53
         },
         "m5": {
           "solved": {
@@ -2333,7 +2581,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 20,
+          "days_seen": 47
         },
         "m6": {
           "solved": {
@@ -2348,7 +2598,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 40
+          "streak": 40,
+          "days_solved": 40,
+          "days_seen": 40
         },
         "m7": {
           "solved": {
@@ -2363,7 +2615,9 @@
             "medium": 2,
             "hard": 1
           },
-          "streak": 11
+          "streak": 11,
+          "days_solved": 26,
+          "days_seen": 36
         },
         "m8": {
           "solved": {
@@ -2378,7 +2632,9 @@
             "medium": 3,
             "hard": 3
           },
-          "streak": 2
+          "streak": 2,
+          "days_solved": 20,
+          "days_seen": 33
         },
         "m9": {
           "solved": {
@@ -2393,7 +2649,9 @@
             "medium": 2,
             "hard": 0
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 13,
+          "days_seen": 29
         },
         "m10": {
           "solved": {
@@ -2408,7 +2666,9 @@
             "medium": 2,
             "hard": 0
           },
-          "streak": 2
+          "streak": 2,
+          "days_solved": 13,
+          "days_seen": 28
         }
       }
     },
@@ -2461,7 +2721,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 54,
+          "days_seen": 57
         },
         "m2": {
           "solved": {
@@ -2476,7 +2738,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 29,
+          "days_seen": 56
         },
         "m3": {
           "solved": {
@@ -2491,7 +2755,9 @@
             "medium": 2,
             "hard": 0
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 26,
+          "days_seen": 54
         },
         "m4": {
           "solved": {
@@ -2506,7 +2772,9 @@
             "medium": 3,
             "hard": 0
           },
-          "streak": 1
+          "streak": 1,
+          "days_solved": 24,
+          "days_seen": 54
         },
         "m5": {
           "solved": {
@@ -2521,7 +2789,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 20,
+          "days_seen": 48
         },
         "m6": {
           "solved": {
@@ -2536,7 +2806,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 41
+          "streak": 41,
+          "days_solved": 41,
+          "days_seen": 41
         },
         "m7": {
           "solved": {
@@ -2551,7 +2823,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 12
+          "streak": 12,
+          "days_solved": 27,
+          "days_seen": 37
         },
         "m8": {
           "solved": {
@@ -2566,7 +2840,9 @@
             "medium": 3,
             "hard": 1
           },
-          "streak": 3
+          "streak": 3,
+          "days_solved": 21,
+          "days_seen": 34
         },
         "m9": {
           "solved": {
@@ -2581,7 +2857,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 2
+          "streak": 2,
+          "days_solved": 14,
+          "days_seen": 30
         },
         "m10": {
           "solved": {
@@ -2596,7 +2874,9 @@
             "medium": 4,
             "hard": 2
           },
-          "streak": 3
+          "streak": 3,
+          "days_solved": 14,
+          "days_seen": 29
         }
       }
     },
@@ -2626,7 +2906,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 2
+          "streak": 2,
+          "days_solved": 55,
+          "days_seen": 58
         },
         "m2": {
           "solved": {
@@ -2641,7 +2923,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 29,
+          "days_seen": 57
         },
         "m3": {
           "solved": {
@@ -2656,7 +2940,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 26,
+          "days_seen": 55
         },
         "m4": {
           "solved": {
@@ -2671,7 +2957,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 2
+          "streak": 2,
+          "days_solved": 25,
+          "days_seen": 55
         },
         "m5": {
           "solved": {
@@ -2686,7 +2974,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 20,
+          "days_seen": 49
         },
         "m6": {
           "solved": {
@@ -2701,7 +2991,9 @@
             "medium": 2,
             "hard": 0
           },
-          "streak": 42
+          "streak": 42,
+          "days_solved": 42,
+          "days_seen": 42
         },
         "m7": {
           "solved": {
@@ -2716,7 +3008,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 27,
+          "days_seen": 38
         },
         "m8": {
           "solved": {
@@ -2731,7 +3025,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 21,
+          "days_seen": 35
         },
         "m9": {
           "solved": {
@@ -2746,7 +3042,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 14,
+          "days_seen": 31
         },
         "m10": {
           "solved": {
@@ -2761,7 +3059,9 @@
             "medium": 1,
             "hard": 0
           },
-          "streak": 4
+          "streak": 4,
+          "days_solved": 15,
+          "days_seen": 30
         }
       }
     },
