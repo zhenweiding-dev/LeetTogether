@@ -889,6 +889,7 @@
   },
   "count-number-of-teams": {
     "difficulty": "Medium",
+    "frontend_id": "1395",
     "tags": [
       "Array",
       "Dynamic Programming",
@@ -3895,6 +3896,17 @@
       "Breadth-First Search",
       "Union-Find",
       "Matrix"
+    ]
+  },
+  "number-of-longest-increasing-subsequence": {
+    "difficulty": "Medium",
+    "frontend_id": "673",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Binary Indexed Tree",
+      "Segment Tree",
+      "Longest Increasing Subsequence"
     ]
   },
   "number-of-nodes-in-the-sub-tree-with-the-same-label": {

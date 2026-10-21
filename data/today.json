@@ -1,9 +1,14 @@
 {
-  "date": "2026-10-19",
-  "fetched_at": "2026-10-20T05:30:37+00:00",
+  "date": "2026-10-20",
+  "fetched_at": "2026-10-21T06:00:40+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Spiral Matrix",
+          "slug": "spiral-matrix",
+          "ts": 1792535062
+        },
         {
           "title": "Rotate Image",
           "slug": "rotate-image",
@@ -98,11 +103,6 @@
           "title": "Median of Two Sorted Arrays",
           "slug": "median-of-two-sorted-arrays",
           "ts": 1791570750
-        },
-        {
-          "title": "Sort Colors",
-          "slug": "sort-colors",
-          "ts": 1791568425
         }
       ]
     },
@@ -317,6 +317,21 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Reach a Number",
+          "slug": "reach-a-number",
+          "ts": 1792528644
+        },
+        {
+          "title": "Range Sum of Sorted Subarray Sums",
+          "slug": "range-sum-of-sorted-subarray-sums",
+          "ts": 1792521605
+        },
+        {
+          "title": "Maximum White Tiles Covered by a Carpet",
+          "slug": "maximum-white-tiles-covered-by-a-carpet",
+          "ts": 1792519865
+        },
+        {
           "title": "Minimum Speed to Arrive on Time",
           "slug": "minimum-speed-to-arrive-on-time",
           "ts": 1792286046
@@ -400,21 +415,6 @@
           "title": "Partition Array into Two Equal Product Subsets",
           "slug": "partition-array-into-two-equal-product-subsets",
           "ts": 1790498338
-        },
-        {
-          "title": "Maximum Side Length of a Square with Sum Less than or Equal to Threshold",
-          "slug": "maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold",
-          "ts": 1790496653
-        },
-        {
-          "title": "Remove Covered Intervals",
-          "slug": "remove-covered-intervals",
-          "ts": 1790495181
-        },
-        {
-          "title": "Find the Smallest Divisor Given a Threshold",
-          "slug": "find-the-smallest-divisor-given-a-threshold",
-          "ts": 1790494982
         }
       ]
     },
@@ -525,6 +525,11 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Coin Change II",
+          "slug": "coin-change-ii",
+          "ts": 1792556645
+        },
+        {
           "title": "Diameter of Binary Tree",
           "slug": "diameter-of-binary-tree",
           "ts": 1792472718
@@ -618,16 +623,51 @@
           "title": "Balanced Binary Tree",
           "slug": "balanced-binary-tree",
           "ts": 1791859436
-        },
-        {
-          "title": "Kth Largest Element in a Stream",
-          "slug": "kth-largest-element-in-a-stream",
-          "ts": 1791857404
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Coin Change II",
+          "slug": "coin-change-ii",
+          "ts": 1792559927
+        },
+        {
+          "title": "Coin Change",
+          "slug": "coin-change",
+          "ts": 1792559013
+        },
+        {
+          "title": "Partition Equal Subset Sum",
+          "slug": "partition-equal-subset-sum",
+          "ts": 1792558468
+        },
+        {
+          "title": "Reorder List",
+          "slug": "reorder-list",
+          "ts": 1792554483
+        },
+        {
+          "title": "Validate Binary Search Tree",
+          "slug": "validate-binary-search-tree",
+          "ts": 1792544502
+        },
+        {
+          "title": "Minimum Size Subarray Sum",
+          "slug": "minimum-size-subarray-sum",
+          "ts": 1792542801
+        },
+        {
+          "title": "Word Break",
+          "slug": "word-break",
+          "ts": 1792542067
+        },
+        {
+          "title": "Subsets",
+          "slug": "subsets",
+          "ts": 1792540752
+        },
         {
           "title": "Find Eventual Safe States",
           "slug": "find-eventual-safe-states",
@@ -687,51 +727,26 @@
           "title": "House Robber",
           "slug": "house-robber",
           "ts": 1792004916
-        },
-        {
-          "title": "Delete and Earn",
-          "slug": "delete-and-earn",
-          "ts": 1792004759
-        },
-        {
-          "title": "Longest Path With Different Adjacent Characters",
-          "slug": "longest-path-with-different-adjacent-characters",
-          "ts": 1791959574
-        },
-        {
-          "title": "Diameter of Binary Tree",
-          "slug": "diameter-of-binary-tree",
-          "ts": 1791957769
-        },
-        {
-          "title": "Maximum Width Ramp",
-          "slug": "maximum-width-ramp",
-          "ts": 1791957425
-        },
-        {
-          "title": "Minimum Number of Operations to Make Array Empty",
-          "slug": "minimum-number-of-operations-to-make-array-empty",
-          "ts": 1791862428
-        },
-        {
-          "title": "Implement Trie (Prefix Tree)",
-          "slug": "implement-trie-prefix-tree",
-          "ts": 1791775112
-        },
-        {
-          "title": "Course Schedule",
-          "slug": "course-schedule",
-          "ts": 1791773693
-        },
-        {
-          "title": "Combination Sum",
-          "slug": "combination-sum",
-          "ts": 1791772056
         }
       ]
     },
     "m8": {
       "recent_ac": [
+        {
+          "title": "Number of Longest Increasing Subsequence",
+          "slug": "number-of-longest-increasing-subsequence",
+          "ts": 1792561667
+        },
+        {
+          "title": "Count Number of Teams",
+          "slug": "count-number-of-teams",
+          "ts": 1792559171
+        },
+        {
+          "title": "Range Sum Query - Mutable",
+          "slug": "range-sum-query-mutable",
+          "ts": 1792554736
+        },
         {
           "title": "Beautiful Array",
           "slug": "beautiful-array",
@@ -816,21 +831,6 @@
           "title": "Subsets",
           "slug": "subsets",
           "ts": 1791859729
-        },
-        {
-          "title": "Continuous Subarray Sum",
-          "slug": "continuous-subarray-sum",
-          "ts": 1791859332
-        },
-        {
-          "title": "3Sum",
-          "slug": "3sum",
-          "ts": 1791858628
-        },
-        {
-          "title": "Validate Binary Search Tree",
-          "slug": "validate-binary-search-tree",
-          "ts": 1791858312
         }
       ]
     },
