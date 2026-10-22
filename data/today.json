@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-20",
-  "fetched_at": "2026-10-21T06:00:40+00:00",
+  "date": "2026-10-21",
+  "fetched_at": "2026-10-22T06:30:32+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -109,6 +109,16 @@
     "m2": {
       "recent_ac": [
         {
+          "title": "Longest Palindromic Substring",
+          "slug": "longest-palindromic-substring",
+          "ts": 1792649939
+        },
+        {
+          "title": "Median of Two Sorted Arrays",
+          "slug": "median-of-two-sorted-arrays",
+          "ts": 1792621307
+        },
+        {
           "title": "Sort Colors",
           "slug": "sort-colors",
           "ts": 1791584274
@@ -197,16 +207,6 @@
           "title": "Subsets II",
           "slug": "subsets-ii",
           "ts": 1788846362
-        },
-        {
-          "title": "Top K Frequent Elements",
-          "slug": "top-k-frequent-elements",
-          "ts": 1788842652
-        },
-        {
-          "title": "Nearest Exit from Entrance in Maze",
-          "slug": "nearest-exit-from-entrance-in-maze",
-          "ts": 1788760284
         }
       ]
     },
@@ -317,6 +317,16 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Best Sightseeing Pair",
+          "slug": "best-sightseeing-pair",
+          "ts": 1792648270
+        },
+        {
+          "title": "Minimum Cost For Tickets",
+          "slug": "minimum-cost-for-tickets",
+          "ts": 1792646223
+        },
+        {
           "title": "Reach a Number",
           "slug": "reach-a-number",
           "ts": 1792528644
@@ -405,16 +415,6 @@
           "title": "Minimum Queen Moves to Reach Target",
           "slug": "minimum-queen-moves-to-reach-target",
           "ts": 1790499378
-        },
-        {
-          "title": "Count Good Numbers",
-          "slug": "count-good-numbers",
-          "ts": 1790498987
-        },
-        {
-          "title": "Partition Array into Two Equal Product Subsets",
-          "slug": "partition-array-into-two-equal-product-subsets",
-          "ts": 1790498338
         }
       ]
     },
@@ -525,6 +525,11 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Balanced Binary Tree",
+          "slug": "balanced-binary-tree",
+          "ts": 1792650402
+        },
+        {
           "title": "Coin Change II",
           "slug": "coin-change-ii",
           "ts": 1792556645
@@ -618,16 +623,81 @@
           "title": "Sort an Array",
           "slug": "sort-an-array",
           "ts": 1791941304
-        },
-        {
-          "title": "Balanced Binary Tree",
-          "slug": "balanced-binary-tree",
-          "ts": 1791859436
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Network Delay Time",
+          "slug": "network-delay-time",
+          "ts": 1792649302
+        },
+        {
+          "title": "Design an Ordered Stream",
+          "slug": "design-an-ordered-stream",
+          "ts": 1792647473
+        },
+        {
+          "title": "String Compression",
+          "slug": "string-compression",
+          "ts": 1792642989
+        },
+        {
+          "title": "Search a 2D Matrix",
+          "slug": "search-a-2d-matrix",
+          "ts": 1792641096
+        },
+        {
+          "title": "Min Stack",
+          "slug": "min-stack",
+          "ts": 1792640554
+        },
+        {
+          "title": "Time Based Key-Value Store",
+          "slug": "time-based-key-value-store",
+          "ts": 1792631133
+        },
+        {
+          "title": "Binary Tree Maximum Path Sum",
+          "slug": "binary-tree-maximum-path-sum",
+          "ts": 1792630287
+        },
+        {
+          "title": "Word Ladder",
+          "slug": "word-ladder",
+          "ts": 1792626575
+        },
+        {
+          "title": "Course Schedule II",
+          "slug": "course-schedule-ii",
+          "ts": 1792624576
+        },
+        {
+          "title": "Longest Valid Parentheses",
+          "slug": "longest-valid-parentheses",
+          "ts": 1792623205
+        },
+        {
+          "title": "Subarray Sum Equals K",
+          "slug": "subarray-sum-equals-k",
+          "ts": 1792621153
+        },
+        {
+          "title": "Find the Duplicate Number",
+          "slug": "find-the-duplicate-number",
+          "ts": 1792620842
+        },
+        {
+          "title": "Word Search",
+          "slug": "word-search",
+          "ts": 1792605029
+        },
+        {
+          "title": "Kth Missing Positive Number",
+          "slug": "kth-missing-positive-number",
+          "ts": 1792603031
+        },
         {
           "title": "Coin Change II",
           "slug": "coin-change-ii",
@@ -657,76 +727,6 @@
           "title": "Minimum Size Subarray Sum",
           "slug": "minimum-size-subarray-sum",
           "ts": 1792542801
-        },
-        {
-          "title": "Word Break",
-          "slug": "word-break",
-          "ts": 1792542067
-        },
-        {
-          "title": "Subsets",
-          "slug": "subsets",
-          "ts": 1792540752
-        },
-        {
-          "title": "Find Eventual Safe States",
-          "slug": "find-eventual-safe-states",
-          "ts": 1792173516
-        },
-        {
-          "title": "All Ancestors of a Node in a Directed Acyclic Graph",
-          "slug": "all-ancestors-of-a-node-in-a-directed-acyclic-graph",
-          "ts": 1792129433
-        },
-        {
-          "title": "Minimum Number of Operations to Make Array Continuous",
-          "slug": "minimum-number-of-operations-to-make-array-continuous",
-          "ts": 1792125624
-        },
-        {
-          "title": "Search Suggestions System",
-          "slug": "search-suggestions-system",
-          "ts": 1792111864
-        },
-        {
-          "title": "My Calendar II",
-          "slug": "my-calendar-ii",
-          "ts": 1792043212
-        },
-        {
-          "title": "My Calendar I",
-          "slug": "my-calendar-i",
-          "ts": 1792042590
-        },
-        {
-          "title": "Maximal Score After Applying K Operations",
-          "slug": "maximal-score-after-applying-k-operations",
-          "ts": 1792025342
-        },
-        {
-          "title": "Reorder Routes to Make All Paths Lead to the City Zero",
-          "slug": "reorder-routes-to-make-all-paths-lead-to-the-city-zero",
-          "ts": 1792022603
-        },
-        {
-          "title": "House Robber V",
-          "slug": "house-robber-v",
-          "ts": 1792020254
-        },
-        {
-          "title": "House Robber III",
-          "slug": "house-robber-iii",
-          "ts": 1792006894
-        },
-        {
-          "title": "House Robber II",
-          "slug": "house-robber-ii",
-          "ts": 1792006449
-        },
-        {
-          "title": "House Robber",
-          "slug": "house-robber",
-          "ts": 1792004916
         }
       ]
     },
@@ -837,6 +837,16 @@
     "m9": {
       "recent_ac": [
         {
+          "title": "Kth Largest Element in an Array",
+          "slug": "kth-largest-element-in-an-array",
+          "ts": 1792645502
+        },
+        {
+          "title": "Maximum Units on a Truck",
+          "slug": "maximum-units-on-a-truck",
+          "ts": 1792643496
+        },
+        {
           "title": "Range Sum Query - Mutable",
           "slug": "range-sum-query-mutable",
           "ts": 1792208131
@@ -925,21 +935,41 @@
           "title": "Container With Most Water",
           "slug": "container-with-most-water",
           "ts": 1790321800
-        },
-        {
-          "title": "3Sum",
-          "slug": "3sum",
-          "ts": 1790321573
-        },
-        {
-          "title": "Two Sum II - Input Array Is Sorted",
-          "slug": "two-sum-ii-input-array-is-sorted",
-          "ts": 1790320622
         }
       ]
     },
     "m10": {
       "recent_ac": [
+        {
+          "title": "Largest Rectangle in Histogram",
+          "slug": "largest-rectangle-in-histogram",
+          "ts": 1792620490
+        },
+        {
+          "title": "Daily Temperatures",
+          "slug": "daily-temperatures",
+          "ts": 1792619552
+        },
+        {
+          "title": "Longest Palindromic Substring",
+          "slug": "longest-palindromic-substring",
+          "ts": 1792617726
+        },
+        {
+          "title": "Longest Substring Without Repeating Characters",
+          "slug": "longest-substring-without-repeating-characters",
+          "ts": 1792617199
+        },
+        {
+          "title": "Longest Palindromic Substring",
+          "slug": "longest-palindromic-substring",
+          "ts": 1792616095
+        },
+        {
+          "title": "Regular Expression Matching",
+          "slug": "regular-expression-matching",
+          "ts": 1792615096
+        },
         {
           "title": "Accounts Merge",
           "slug": "accounts-merge",
@@ -1009,36 +1039,6 @@
           "title": "Capacity To Ship Packages Within D Days",
           "slug": "capacity-to-ship-packages-within-d-days",
           "ts": 1792176451
-        },
-        {
-          "title": "Find Peak Element",
-          "slug": "find-peak-element",
-          "ts": 1792170830
-        },
-        {
-          "title": "Search in Rotated Sorted Array",
-          "slug": "search-in-rotated-sorted-array",
-          "ts": 1792168918
-        },
-        {
-          "title": "Search Insert Position",
-          "slug": "search-insert-position",
-          "ts": 1792168515
-        },
-        {
-          "title": "Time Based Key-Value Store",
-          "slug": "time-based-key-value-store",
-          "ts": 1792108371
-        },
-        {
-          "title": "Minimum Number of Operations to Make Array Empty",
-          "slug": "minimum-number-of-operations-to-make-array-empty",
-          "ts": 1792090610
-        },
-        {
-          "title": "Linked List Cycle II",
-          "slug": "linked-list-cycle-ii",
-          "ts": 1792039135
         }
       ]
     }

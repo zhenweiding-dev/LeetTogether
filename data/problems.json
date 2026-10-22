@@ -1122,6 +1122,16 @@
       "Trie"
     ]
   },
+  "design-an-ordered-stream": {
+    "difficulty": "Easy",
+    "frontend_id": "1656",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Design",
+      "Data Stream"
+    ]
+  },
   "design-bus-seat-booking-system": {
     "difficulty": "Medium",
     "frontend_id": "4080",
@@ -2173,6 +2183,14 @@
       "Binary Tree"
     ]
   },
+  "kth-missing-positive-number": {
+    "difficulty": "Easy",
+    "frontend_id": "1539",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ]
+  },
   "kth-smallest-element-in-a-bst": {
     "difficulty": "Medium",
     "frontend_id": "230",
@@ -3063,6 +3081,15 @@
     "tags": [
       "Math",
       "Greedy"
+    ]
+  },
+  "maximum-units-on-a-truck": {
+    "difficulty": "Easy",
+    "frontend_id": "1710",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
     ]
   },
   "maximum-white-tiles-covered-by-a-carpet": {
