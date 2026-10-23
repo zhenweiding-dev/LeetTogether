@@ -1,9 +1,14 @@
 {
-  "date": "2026-10-21",
-  "fetched_at": "2026-10-22T06:30:32+00:00",
+  "date": "2026-10-22",
+  "fetched_at": "2026-10-23T05:30:38+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Set Matrix Zeroes",
+          "slug": "set-matrix-zeroes",
+          "ts": 1792716732
+        },
         {
           "title": "Spiral Matrix",
           "slug": "spiral-matrix",
@@ -98,16 +103,16 @@
           "title": "Copy List with Random Pointer",
           "slug": "copy-list-with-random-pointer",
           "ts": 1791678758
-        },
-        {
-          "title": "Median of Two Sorted Arrays",
-          "slug": "median-of-two-sorted-arrays",
-          "ts": 1791570750
         }
       ]
     },
     "m2": {
       "recent_ac": [
+        {
+          "title": "Coin Change II",
+          "slug": "coin-change-ii",
+          "ts": 1792656054
+        },
         {
           "title": "Longest Palindromic Substring",
           "slug": "longest-palindromic-substring",
@@ -202,11 +207,6 @@
           "title": "Linked List Cycle",
           "slug": "linked-list-cycle",
           "ts": 1789202472
-        },
-        {
-          "title": "Subsets II",
-          "slug": "subsets-ii",
-          "ts": 1788846362
         }
       ]
     },
@@ -527,7 +527,7 @@
         {
           "title": "Balanced Binary Tree",
           "slug": "balanced-binary-tree",
-          "ts": 1792650402
+          "ts": 1792730272
         },
         {
           "title": "Coin Change II",
@@ -629,6 +629,36 @@
     "m7": {
       "recent_ac": [
         {
+          "title": "Evaluate Division",
+          "slug": "evaluate-division",
+          "ts": 1792730782
+        },
+        {
+          "title": "Palindrome Partitioning",
+          "slug": "palindrome-partitioning",
+          "ts": 1792712567
+        },
+        {
+          "title": "Jump Game III",
+          "slug": "jump-game-iii",
+          "ts": 1792712189
+        },
+        {
+          "title": "Jump Game",
+          "slug": "jump-game",
+          "ts": 1792710103
+        },
+        {
+          "title": "Jump Game II",
+          "slug": "jump-game-ii",
+          "ts": 1792709881
+        },
+        {
+          "title": "Path Sum III",
+          "slug": "path-sum-iii",
+          "ts": 1792708198
+        },
+        {
           "title": "Network Delay Time",
           "slug": "network-delay-time",
           "ts": 1792649302
@@ -697,41 +727,21 @@
           "title": "Kth Missing Positive Number",
           "slug": "kth-missing-positive-number",
           "ts": 1792603031
-        },
-        {
-          "title": "Coin Change II",
-          "slug": "coin-change-ii",
-          "ts": 1792559927
-        },
-        {
-          "title": "Coin Change",
-          "slug": "coin-change",
-          "ts": 1792559013
-        },
-        {
-          "title": "Partition Equal Subset Sum",
-          "slug": "partition-equal-subset-sum",
-          "ts": 1792558468
-        },
-        {
-          "title": "Reorder List",
-          "slug": "reorder-list",
-          "ts": 1792554483
-        },
-        {
-          "title": "Validate Binary Search Tree",
-          "slug": "validate-binary-search-tree",
-          "ts": 1792544502
-        },
-        {
-          "title": "Minimum Size Subarray Sum",
-          "slug": "minimum-size-subarray-sum",
-          "ts": 1792542801
         }
       ]
     },
     "m8": {
       "recent_ac": [
+        {
+          "title": "Text Justification",
+          "slug": "text-justification",
+          "ts": 1792715132
+        },
+        {
+          "title": "Longest Duplicate Substring",
+          "slug": "longest-duplicate-substring",
+          "ts": 1792710383
+        },
         {
           "title": "Number of Longest Increasing Subsequence",
           "slug": "number-of-longest-increasing-subsequence",
@@ -821,21 +831,16 @@
           "title": "LRU Cache",
           "slug": "lru-cache",
           "ts": 1792033214
-        },
-        {
-          "title": "Number of Islands",
-          "slug": "number-of-islands",
-          "ts": 1792025382
-        },
-        {
-          "title": "Subsets",
-          "slug": "subsets",
-          "ts": 1791859729
         }
       ]
     },
     "m9": {
       "recent_ac": [
+        {
+          "title": "Number of Islands",
+          "slug": "number-of-islands",
+          "ts": 1792731875
+        },
         {
           "title": "Kth Largest Element in an Array",
           "slug": "kth-largest-element-in-an-array",
@@ -930,16 +935,31 @@
           "title": "Trapping Rain Water",
           "slug": "trapping-rain-water",
           "ts": 1790323217
-        },
-        {
-          "title": "Container With Most Water",
-          "slug": "container-with-most-water",
-          "ts": 1790321800
         }
       ]
     },
     "m10": {
       "recent_ac": [
+        {
+          "title": "Minimum Number of Days to Make m Bouquets",
+          "slug": "minimum-number-of-days-to-make-m-bouquets",
+          "ts": 1792710602
+        },
+        {
+          "title": "First Missing Positive",
+          "slug": "first-missing-positive",
+          "ts": 1792708490
+        },
+        {
+          "title": "Multiply Strings",
+          "slug": "multiply-strings",
+          "ts": 1792704150
+        },
+        {
+          "title": "Jump Game II",
+          "slug": "jump-game-ii",
+          "ts": 1792699055
+        },
         {
           "title": "Largest Rectangle in Histogram",
           "slug": "largest-rectangle-in-histogram",
@@ -1019,26 +1039,6 @@
           "title": "Longest Increasing Subsequence",
           "slug": "longest-increasing-subsequence",
           "ts": 1792300045
-        },
-        {
-          "title": "Kth Smallest Element in a Sorted Matrix",
-          "slug": "kth-smallest-element-in-a-sorted-matrix",
-          "ts": 1792192129
-        },
-        {
-          "title": "Median of Two Sorted Arrays",
-          "slug": "median-of-two-sorted-arrays",
-          "ts": 1792186790
-        },
-        {
-          "title": "Split Array Largest Sum",
-          "slug": "split-array-largest-sum",
-          "ts": 1792184139
-        },
-        {
-          "title": "Capacity To Ship Packages Within D Days",
-          "slug": "capacity-to-ship-packages-within-d-days",
-          "ts": 1792176451
         }
       ]
     }

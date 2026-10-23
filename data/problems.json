@@ -2412,6 +2412,22 @@
       "Monotonic Queue"
     ]
   },
+  "longest-duplicate-substring": {
+    "difficulty": "Hard",
+    "frontend_id": "1044",
+    "tags": [
+      "String",
+      "Binary Search",
+      "Sliding Window",
+      "Rolling Hash",
+      "Suffix Array",
+      "Hash Function",
+      "Suffix Automaton",
+      "Suffix Tree",
+      "Z Algorithm",
+      "Boyer–Moore String-Search Algorithm"
+    ]
+  },
   "longest-even-odd-subarray-with-threshold": {
     "difficulty": "Easy",
     "frontend_id": "2760",
@@ -3696,6 +3712,15 @@
       "Math",
       "Sliding Window",
       "Sorting"
+    ]
+  },
+  "multiply-strings": {
+    "difficulty": "Medium",
+    "frontend_id": "43",
+    "tags": [
+      "Math",
+      "String",
+      "Simulation"
     ]
   },
   "my-calendar-i": {
@@ -5633,6 +5658,15 @@
       "Sorting",
       "Heap (Priority Queue)",
       "Counting"
+    ]
+  },
+  "text-justification": {
+    "difficulty": "Hard",
+    "frontend_id": "68",
+    "tags": [
+      "Array",
+      "String",
+      "Simulation"
     ]
   },
   "the-earliest-moment-when-everyone-become-friends": {
