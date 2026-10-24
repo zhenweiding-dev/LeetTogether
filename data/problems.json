@@ -1045,6 +1045,14 @@
       "String"
     ]
   },
+  "decode-ways": {
+    "difficulty": "Medium",
+    "frontend_id": "91",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ]
+  },
   "decrypt-string-from-alphabet-to-integer-mapping": {
     "difficulty": "Easy",
     "frontend_id": "1309",
@@ -2048,6 +2056,18 @@
       "Binary Tree"
     ]
   },
+  "is-graph-bipartite": {
+    "difficulty": "Medium",
+    "frontend_id": "785",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory",
+      "Graph Coloring",
+      "Bipartite Graph"
+    ]
+  },
   "is-subsequence": {
     "difficulty": "Easy",
     "frontend_id": "392",
@@ -2737,6 +2757,13 @@
       "Trie"
     ]
   },
+  "masking-personal-information": {
+    "difficulty": "Medium",
+    "frontend_id": "831",
+    "tags": [
+      "String"
+    ]
+  },
   "matrix-block-sum": {
     "difficulty": "Medium",
     "tags": [
@@ -3147,6 +3174,38 @@
       "Array",
       "Binary Search",
       "Divide and Conquer"
+    ]
+  },
+  "meeting-rooms": {
+    "difficulty": "Easy",
+    "frontend_id": "252",
+    "tags": [
+      "Array",
+      "Sorting",
+      "Quicksort"
+    ]
+  },
+  "meeting-rooms-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "253",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Prefix Sum"
+    ]
+  },
+  "meeting-rooms-iii": {
+    "difficulty": "Hard",
+    "frontend_id": "2402",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Simulation"
     ]
   },
   "merge-adjacent-equal-elements": {
