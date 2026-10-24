@@ -2947,6 +2947,15 @@
       "Prefix Sum"
     ]
   },
+  "maximum-length-of-subarray-with-positive-product": {
+    "difficulty": "Medium",
+    "frontend_id": "1567",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
   "maximum-length-substring-with-two-occurrences": {
     "difficulty": "Easy",
     "frontend_id": "3090",
@@ -5625,6 +5634,15 @@
       "Math",
       "Two Pointers",
       "Binary Search"
+    ]
+  },
+  "sum-root-to-leaf-numbers": {
+    "difficulty": "Medium",
+    "frontend_id": "129",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
     ]
   },
   "summary-ranges": {
