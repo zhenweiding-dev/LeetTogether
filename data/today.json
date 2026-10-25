@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-23",
-  "fetched_at": "2026-10-24T06:22:35+00:00",
+  "date": "2026-10-24",
+  "fetched_at": "2026-10-25T06:55:29+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,6 +317,86 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Minimum Length of String After Deleting Similar Ends",
+          "slug": "minimum-length-of-string-after-deleting-similar-ends",
+          "ts": 1792911234
+        },
+        {
+          "title": "Change Minimum Characters to Satisfy One of Three Conditions",
+          "slug": "change-minimum-characters-to-satisfy-one-of-three-conditions",
+          "ts": 1792910685
+        },
+        {
+          "title": "Maximum Score From Removing Substrings",
+          "slug": "maximum-score-from-removing-substrings",
+          "ts": 1792909355
+        },
+        {
+          "title": "Maximum Binary String After Change",
+          "slug": "maximum-binary-string-after-change",
+          "ts": 1792907029
+        },
+        {
+          "title": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
+          "slug": "partitioning-into-minimum-number-of-deci-binary-numbers",
+          "ts": 1792904885
+        },
+        {
+          "title": "Smallest String With A Given Numeric Value",
+          "slug": "smallest-string-with-a-given-numeric-value",
+          "ts": 1792904569
+        },
+        {
+          "title": "Determine if Two Strings Are Close",
+          "slug": "determine-if-two-strings-are-close",
+          "ts": 1792903424
+        },
+        {
+          "title": "Minimum Deletions to Make String Balanced",
+          "slug": "minimum-deletions-to-make-string-balanced",
+          "ts": 1792902431
+        },
+        {
+          "title": "Minimum Deletions to Make Character Frequencies Unique",
+          "slug": "minimum-deletions-to-make-character-frequencies-unique",
+          "ts": 1792900683
+        },
+        {
+          "title": "Count Substrings That Differ by One Character",
+          "slug": "count-substrings-that-differ-by-one-character",
+          "ts": 1792897113
+        },
+        {
+          "title": "Minimum Time to Make Rope Colorful",
+          "slug": "minimum-time-to-make-rope-colorful",
+          "ts": 1792895188
+        },
+        {
+          "title": "Visit Array Positions to Maximize Score",
+          "slug": "visit-array-positions-to-maximize-score",
+          "ts": 1792887128
+        },
+        {
+          "title": "Longest Non-decreasing Subarray From Two Arrays",
+          "slug": "longest-non-decreasing-subarray-from-two-arrays",
+          "ts": 1792882227
+        },
+        {
+          "title": "Maximum Number of Jumps to Reach the Last Index",
+          "slug": "maximum-number-of-jumps-to-reach-the-last-index",
+          "ts": 1792879467
+        },
+        {
+          "title": "Ways to Split Array Into Good Subarrays",
+          "slug": "ways-to-split-array-into-good-subarrays",
+          "ts": 1792878741
+        },
+        {
+          "title": "Partition String Into Minimum Beautiful Substrings",
+          "slug": "partition-string-into-minimum-beautiful-substrings",
+          "ts": 1792877897
+        },
+        {
           "title": "Masking Personal Information",
           "slug": "masking-personal-information",
           "ts": 1792744002
@@ -335,91 +415,16 @@
           "title": "Reach a Number",
           "slug": "reach-a-number",
           "ts": 1792528644
-        },
-        {
-          "title": "Range Sum of Sorted Subarray Sums",
-          "slug": "range-sum-of-sorted-subarray-sums",
-          "ts": 1792521605
-        },
-        {
-          "title": "Maximum White Tiles Covered by a Carpet",
-          "slug": "maximum-white-tiles-covered-by-a-carpet",
-          "ts": 1792519865
-        },
-        {
-          "title": "Minimum Speed to Arrive on Time",
-          "slug": "minimum-speed-to-arrive-on-time",
-          "ts": 1792286046
-        },
-        {
-          "title": "Maximum White Tiles Covered by a Carpet",
-          "slug": "maximum-white-tiles-covered-by-a-carpet",
-          "ts": 1792219616
-        },
-        {
-          "title": "Range Sum of Sorted Subarray Sums",
-          "slug": "range-sum-of-sorted-subarray-sums",
-          "ts": 1792215934
-        },
-        {
-          "title": "Reach a Number",
-          "slug": "reach-a-number",
-          "ts": 1792209964
-        },
-        {
-          "title": "Unique Paths II",
-          "slug": "unique-paths-ii",
-          "ts": 1792012587
-        },
-        {
-          "title": "Minimum Path Sum",
-          "slug": "minimum-path-sum",
-          "ts": 1792012278
-        },
-        {
-          "title": "Triangle",
-          "slug": "triangle",
-          "ts": 1792011338
-        },
-        {
-          "title": "Longest Increasing Subsequence",
-          "slug": "longest-increasing-subsequence",
-          "ts": 1792011023
-        },
-        {
-          "title": "Coin Change",
-          "slug": "coin-change",
-          "ts": 1792010270
-        },
-        {
-          "title": "Word Break",
-          "slug": "word-break",
-          "ts": 1792008757
-        },
-        {
-          "title": "House Robber",
-          "slug": "house-robber",
-          "ts": 1792007854
-        },
-        {
-          "title": "Climbing Stairs",
-          "slug": "climbing-stairs",
-          "ts": 1792007565
-        },
-        {
-          "title": "Longest Palindromic Substring",
-          "slug": "longest-palindromic-substring",
-          "ts": 1791438057
-        },
-        {
-          "title": "Transform Array Using Pair Operations",
-          "slug": "transform-array-using-pair-operations",
-          "ts": 1790499607
         }
       ]
     },
     "m5": {
       "recent_ac": [
+        {
+          "title": "Maximum Length of Subarray With Positive Product",
+          "slug": "maximum-length-of-subarray-with-positive-product",
+          "ts": 1792865696
+        },
         {
           "title": "Subarrays with K Different Integers",
           "slug": "subarrays-with-k-different-integers",
@@ -514,16 +519,21 @@
           "title": "Rank Teams by Votes",
           "slug": "rank-teams-by-votes",
           "ts": 1791047014
-        },
-        {
-          "title": "Open the Lock",
-          "slug": "open-the-lock",
-          "ts": 1790911733
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Design Add and Search Words Data Structure",
+          "slug": "design-add-and-search-words-data-structure",
+          "ts": 1792903519
+        },
+        {
+          "title": "Maximal Square",
+          "slug": "maximal-square",
+          "ts": 1792902222
+        },
         {
           "title": "Kth Smallest Element in a BST",
           "slug": "kth-smallest-element-in-a-bst",
@@ -613,21 +623,51 @@
           "title": "Merge Sorted Array",
           "slug": "merge-sorted-array",
           "ts": 1791953864
-        },
-        {
-          "title": "Kth Largest Element in an Array",
-          "slug": "kth-largest-element-in-an-array",
-          "ts": 1791950903
-        },
-        {
-          "title": "Majority Element",
-          "slug": "majority-element",
-          "ts": 1791950850
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Number of Ways to Arrive at Destination",
+          "slug": "number-of-ways-to-arrive-at-destination",
+          "ts": 1792902671
+        },
+        {
+          "title": "Smallest String With Swaps",
+          "slug": "smallest-string-with-swaps",
+          "ts": 1792884770
+        },
+        {
+          "title": "Design Authentication Manager",
+          "slug": "design-authentication-manager",
+          "ts": 1792882014
+        },
+        {
+          "title": "Design Front Middle Back Queue",
+          "slug": "design-front-middle-back-queue",
+          "ts": 1792880127
+        },
+        {
+          "title": "Sum Root to Leaf Numbers",
+          "slug": "sum-root-to-leaf-numbers",
+          "ts": 1792865869
+        },
+        {
+          "title": "Combination Sum II",
+          "slug": "combination-sum-ii",
+          "ts": 1792865641
+        },
+        {
+          "title": "Path Sum",
+          "slug": "path-sum",
+          "ts": 1792864542
+        },
+        {
+          "title": "Restore IP Addresses",
+          "slug": "restore-ip-addresses",
+          "ts": 1792863829
+        },
         {
           "title": "Combination Sum III",
           "slug": "combination-sum-iii",
@@ -687,46 +727,6 @@
           "title": "Palindrome Partitioning",
           "slug": "palindrome-partitioning",
           "ts": 1792712567
-        },
-        {
-          "title": "Jump Game III",
-          "slug": "jump-game-iii",
-          "ts": 1792712189
-        },
-        {
-          "title": "Jump Game",
-          "slug": "jump-game",
-          "ts": 1792710103
-        },
-        {
-          "title": "Jump Game II",
-          "slug": "jump-game-ii",
-          "ts": 1792709881
-        },
-        {
-          "title": "Path Sum III",
-          "slug": "path-sum-iii",
-          "ts": 1792708198
-        },
-        {
-          "title": "Network Delay Time",
-          "slug": "network-delay-time",
-          "ts": 1792649302
-        },
-        {
-          "title": "Design an Ordered Stream",
-          "slug": "design-an-ordered-stream",
-          "ts": 1792647473
-        },
-        {
-          "title": "String Compression",
-          "slug": "string-compression",
-          "ts": 1792642989
-        },
-        {
-          "title": "Search a 2D Matrix",
-          "slug": "search-a-2d-matrix",
-          "ts": 1792641096
         }
       ]
     },
@@ -837,6 +837,71 @@
     "m9": {
       "recent_ac": [
         {
+          "title": "Sliding Window Maximum",
+          "slug": "sliding-window-maximum",
+          "ts": 1792902027
+        },
+        {
+          "title": "Minimum Window Substring",
+          "slug": "minimum-window-substring",
+          "ts": 1792900830
+        },
+        {
+          "title": "Fruit Into Baskets",
+          "slug": "fruit-into-baskets",
+          "ts": 1792899611
+        },
+        {
+          "title": "Find All Anagrams in a String",
+          "slug": "find-all-anagrams-in-a-string",
+          "ts": 1792897377
+        },
+        {
+          "title": "Max Consecutive Ones III",
+          "slug": "max-consecutive-ones-iii",
+          "ts": 1792896453
+        },
+        {
+          "title": "Minimum Size Subarray Sum",
+          "slug": "minimum-size-subarray-sum",
+          "ts": 1792896036
+        },
+        {
+          "title": "Maximum Average Subarray I",
+          "slug": "maximum-average-subarray-i",
+          "ts": 1792893190
+        },
+        {
+          "title": "Longest Word in Dictionary through Deleting",
+          "slug": "longest-word-in-dictionary-through-deleting",
+          "ts": 1792885883
+        },
+        {
+          "title": "Two Sum II - Input Array Is Sorted",
+          "slug": "two-sum-ii-input-array-is-sorted",
+          "ts": 1792885102
+        },
+        {
+          "title": "Shortest Way to Form String",
+          "slug": "shortest-way-to-form-string",
+          "ts": 1792884559
+        },
+        {
+          "title": "Word Break",
+          "slug": "word-break",
+          "ts": 1792883833
+        },
+        {
+          "title": "Zero Array Transformation I",
+          "slug": "zero-array-transformation-i",
+          "ts": 1792882706
+        },
+        {
+          "title": "First Missing Positive",
+          "slug": "first-missing-positive",
+          "ts": 1792877878
+        },
+        {
           "title": "Meeting Rooms III",
           "slug": "meeting-rooms-iii",
           "ts": 1792807217
@@ -870,71 +935,6 @@
           "title": "Binary Tree Cameras",
           "slug": "binary-tree-cameras",
           "ts": 1792792747
-        },
-        {
-          "title": "House Robber III",
-          "slug": "house-robber-iii",
-          "ts": 1792791051
-        },
-        {
-          "title": "Maximum Depth of Binary Tree",
-          "slug": "maximum-depth-of-binary-tree",
-          "ts": 1792786230
-        },
-        {
-          "title": "Diameter of Binary Tree",
-          "slug": "diameter-of-binary-tree",
-          "ts": 1792785774
-        },
-        {
-          "title": "Binary Tree Maximum Path Sum",
-          "slug": "binary-tree-maximum-path-sum",
-          "ts": 1792784542
-        },
-        {
-          "title": "Rotting Oranges",
-          "slug": "rotting-oranges",
-          "ts": 1792782974
-        },
-        {
-          "title": "Number of Islands",
-          "slug": "number-of-islands",
-          "ts": 1792731875
-        },
-        {
-          "title": "Kth Largest Element in an Array",
-          "slug": "kth-largest-element-in-an-array",
-          "ts": 1792645502
-        },
-        {
-          "title": "Maximum Units on a Truck",
-          "slug": "maximum-units-on-a-truck",
-          "ts": 1792643496
-        },
-        {
-          "title": "Range Sum Query - Mutable",
-          "slug": "range-sum-query-mutable",
-          "ts": 1792208131
-        },
-        {
-          "title": "Course Schedule II",
-          "slug": "course-schedule-ii",
-          "ts": 1792089610
-        },
-        {
-          "title": "Reorder Routes to Make All Paths Lead to the City Zero",
-          "slug": "reorder-routes-to-make-all-paths-lead-to-the-city-zero",
-          "ts": 1792088609
-        },
-        {
-          "title": "Path With Minimum Effort",
-          "slug": "path-with-minimum-effort",
-          "ts": 1791860296
-        },
-        {
-          "title": "Find the Safest Path in a Grid",
-          "slug": "find-the-safest-path-in-a-grid",
-          "ts": 1791773500
         }
       ]
     },
