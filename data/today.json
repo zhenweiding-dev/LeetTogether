@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-24",
-  "fetched_at": "2026-10-25T06:55:29+00:00",
+  "date": "2026-10-25",
+  "fetched_at": "2026-10-26T06:53:02+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,104 +317,104 @@
     "m4": {
       "recent_ac": [
         {
-          "title": "Minimum Length of String After Deleting Similar Ends",
-          "slug": "minimum-length-of-string-after-deleting-similar-ends",
-          "ts": 1792911234
+          "title": "Reward Top K Students",
+          "slug": "reward-top-k-students",
+          "ts": 1792977666
         },
         {
-          "title": "Change Minimum Characters to Satisfy One of Three Conditions",
-          "slug": "change-minimum-characters-to-satisfy-one-of-three-conditions",
-          "ts": 1792910685
+          "title": "Append Characters to String to Make Subsequence",
+          "slug": "append-characters-to-string-to-make-subsequence",
+          "ts": 1792975053
         },
         {
-          "title": "Maximum Score From Removing Substrings",
-          "slug": "maximum-score-from-removing-substrings",
-          "ts": 1792909355
+          "title": "Minimum Penalty for a Shop",
+          "slug": "minimum-penalty-for-a-shop",
+          "ts": 1792974724
         },
         {
-          "title": "Maximum Binary String After Change",
-          "slug": "maximum-binary-string-after-change",
-          "ts": 1792907029
+          "title": "Most Popular Video Creator",
+          "slug": "most-popular-video-creator",
+          "ts": 1792973570
         },
         {
-          "title": "Partitioning Into Minimum Number Of Deci-Binary Numbers",
-          "slug": "partitioning-into-minimum-number-of-deci-binary-numbers",
-          "ts": 1792904885
+          "title": "Words Within Two Edits of Dictionary",
+          "slug": "words-within-two-edits-of-dictionary",
+          "ts": 1792971289
         },
         {
-          "title": "Smallest String With A Given Numeric Value",
-          "slug": "smallest-string-with-a-given-numeric-value",
-          "ts": 1792904569
+          "title": "Length of the Longest Alphabetical Continuous Substring",
+          "slug": "length-of-the-longest-alphabetical-continuous-substring",
+          "ts": 1792970722
         },
         {
-          "title": "Determine if Two Strings Are Close",
-          "slug": "determine-if-two-strings-are-close",
-          "ts": 1792903424
+          "title": "Largest Palindromic Number",
+          "slug": "largest-palindromic-number",
+          "ts": 1792970423
         },
         {
-          "title": "Minimum Deletions to Make String Balanced",
-          "slug": "minimum-deletions-to-make-string-balanced",
-          "ts": 1792902431
+          "title": "Number of Pairs of Strings With Concatenation Equal to Target",
+          "slug": "number-of-pairs-of-strings-with-concatenation-equal-to-target",
+          "ts": 1792968325
         },
         {
-          "title": "Minimum Deletions to Make Character Frequencies Unique",
-          "slug": "minimum-deletions-to-make-character-frequencies-unique",
-          "ts": 1792900683
+          "title": "Unique Length-3 Palindromic Subsequences",
+          "slug": "unique-length-3-palindromic-subsequences",
+          "ts": 1792962624
         },
         {
-          "title": "Count Substrings That Differ by One Character",
-          "slug": "count-substrings-that-differ-by-one-character",
-          "ts": 1792897113
+          "title": "Smallest Subsequence of Distinct Characters",
+          "slug": "smallest-subsequence-of-distinct-characters",
+          "ts": 1792955584
         },
         {
-          "title": "Minimum Time to Make Rope Colorful",
-          "slug": "minimum-time-to-make-rope-colorful",
-          "ts": 1792895188
+          "title": "Sort Vowels in a String",
+          "slug": "sort-vowels-in-a-string",
+          "ts": 1792930006
         },
         {
-          "title": "Visit Array Positions to Maximize Score",
-          "slug": "visit-array-positions-to-maximize-score",
-          "ts": 1792887128
+          "title": "Count Number of Texts",
+          "slug": "count-number-of-texts",
+          "ts": 1792929356
         },
         {
-          "title": "Longest Non-decreasing Subarray From Two Arrays",
-          "slug": "longest-non-decreasing-subarray-from-two-arrays",
-          "ts": 1792882227
+          "title": "Find All Possible Recipes from Given Supplies",
+          "slug": "find-all-possible-recipes-from-given-supplies",
+          "ts": 1792927990
         },
         {
-          "title": "Maximum Number of Jumps to Reach the Last Index",
-          "slug": "maximum-number-of-jumps-to-reach-the-last-index",
-          "ts": 1792879467
+          "title": "Adding Spaces to a String",
+          "slug": "adding-spaces-to-a-string",
+          "ts": 1792927375
         },
         {
-          "title": "Ways to Split Array Into Good Subarrays",
-          "slug": "ways-to-split-array-into-good-subarrays",
-          "ts": 1792878741
+          "title": "Minimum Number of Food Buckets to Feed the Hamsters",
+          "slug": "minimum-number-of-food-buckets-to-feed-the-hamsters",
+          "ts": 1792926940
         },
         {
-          "title": "Partition String Into Minimum Beautiful Substrings",
-          "slug": "partition-string-into-minimum-beautiful-substrings",
-          "ts": 1792877897
+          "title": "Decode the Slanted Ciphertext",
+          "slug": "decode-the-slanted-ciphertext",
+          "ts": 1792925725
         },
         {
-          "title": "Masking Personal Information",
-          "slug": "masking-personal-information",
-          "ts": 1792744002
+          "title": "Find the Kth Largest Integer in the Array",
+          "slug": "find-the-kth-largest-integer-in-the-array",
+          "ts": 1792924731
         },
         {
-          "title": "Best Sightseeing Pair",
-          "slug": "best-sightseeing-pair",
-          "ts": 1792648270
+          "title": "Minimum Number of Swaps to Make the String Balanced",
+          "slug": "minimum-number-of-swaps-to-make-the-string-balanced",
+          "ts": 1792924426
         },
         {
-          "title": "Minimum Cost For Tickets",
-          "slug": "minimum-cost-for-tickets",
-          "ts": 1792646223
+          "title": "Largest Number After Mutating Substring",
+          "slug": "largest-number-after-mutating-substring",
+          "ts": 1792924080
         },
         {
-          "title": "Reach a Number",
-          "slug": "reach-a-number",
-          "ts": 1792528644
+          "title": "Maximum Value after Insertion",
+          "slug": "maximum-value-after-insertion",
+          "ts": 1792922945
         }
       ]
     },
@@ -525,6 +525,16 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Minimum Path Sum",
+          "slug": "minimum-path-sum",
+          "ts": 1792996990
+        },
+        {
+          "title": "K Closest Points to Origin",
+          "slug": "k-closest-points-to-origin",
+          "ts": 1792996080
+        },
+        {
           "title": "Design Add and Search Words Data Structure",
           "slug": "design-add-and-search-words-data-structure",
           "ts": 1792903519
@@ -613,25 +623,20 @@
           "title": "Add Two Numbers",
           "slug": "add-two-numbers",
           "ts": 1791955948
-        },
-        {
-          "title": "Merge Two Sorted Lists",
-          "slug": "merge-two-sorted-lists",
-          "ts": 1791954864
-        },
-        {
-          "title": "Merge Sorted Array",
-          "slug": "merge-sorted-array",
-          "ts": 1791953864
         }
       ]
     },
     "m7": {
       "recent_ac": [
         {
+          "title": "LRU Cache",
+          "slug": "lru-cache",
+          "ts": 1792966248
+        },
+        {
           "title": "Number of Ways to Arrive at Destination",
           "slug": "number-of-ways-to-arrive-at-destination",
-          "ts": 1792902671
+          "ts": 1792961387
         },
         {
           "title": "Smallest String With Swaps",
@@ -722,11 +727,6 @@
           "title": "Evaluate Division",
           "slug": "evaluate-division",
           "ts": 1792730782
-        },
-        {
-          "title": "Palindrome Partitioning",
-          "slug": "palindrome-partitioning",
-          "ts": 1792712567
         }
       ]
     },
@@ -837,6 +837,41 @@
     "m9": {
       "recent_ac": [
         {
+          "title": "Find First and Last Position of Element in Sorted Array",
+          "slug": "find-first-and-last-position-of-element-in-sorted-array",
+          "ts": 1792978025
+        },
+        {
+          "title": "Search in Rotated Sorted Array",
+          "slug": "search-in-rotated-sorted-array",
+          "ts": 1792976648
+        },
+        {
+          "title": "Find Minimum in Rotated Sorted Array",
+          "slug": "find-minimum-in-rotated-sorted-array",
+          "ts": 1792973599
+        },
+        {
+          "title": "Split Array Largest Sum",
+          "slug": "split-array-largest-sum",
+          "ts": 1792972953
+        },
+        {
+          "title": "Find the Smallest Divisor Given a Threshold",
+          "slug": "find-the-smallest-divisor-given-a-threshold",
+          "ts": 1792971681
+        },
+        {
+          "title": "Capacity To Ship Packages Within D Days",
+          "slug": "capacity-to-ship-packages-within-d-days",
+          "ts": 1792967581
+        },
+        {
+          "title": "Find Peak Element",
+          "slug": "find-peak-element",
+          "ts": 1792965454
+        },
+        {
           "title": "Sliding Window Maximum",
           "slug": "sliding-window-maximum",
           "ts": 1792902027
@@ -900,41 +935,6 @@
           "title": "First Missing Positive",
           "slug": "first-missing-positive",
           "ts": 1792877878
-        },
-        {
-          "title": "Meeting Rooms III",
-          "slug": "meeting-rooms-iii",
-          "ts": 1792807217
-        },
-        {
-          "title": "Meeting Rooms II",
-          "slug": "meeting-rooms-ii",
-          "ts": 1792805626
-        },
-        {
-          "title": "Meeting Rooms",
-          "slug": "meeting-rooms",
-          "ts": 1792804703
-        },
-        {
-          "title": "Subarray Sums Divisible by K",
-          "slug": "subarray-sums-divisible-by-k",
-          "ts": 1792803350
-        },
-        {
-          "title": "Subarray Sum Equals K",
-          "slug": "subarray-sum-equals-k",
-          "ts": 1792802724
-        },
-        {
-          "title": "Clone Graph",
-          "slug": "clone-graph",
-          "ts": 1792801710
-        },
-        {
-          "title": "Binary Tree Cameras",
-          "slug": "binary-tree-cameras",
-          "ts": 1792792747
         }
       ]
     },

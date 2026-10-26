@@ -94,6 +94,16 @@
       "Recursion"
     ]
   },
+  "adding-spaces-to-a-string": {
+    "difficulty": "Medium",
+    "frontend_id": "2109",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "String",
+      "Simulation"
+    ]
+  },
   "alien-dictionary": {
     "difficulty": "Hard",
     "frontend_id": "269",
@@ -180,6 +190,15 @@
     "frontend_id": "1344",
     "tags": [
       "Math"
+    ]
+  },
+  "append-characters-to-string-to-make-subsequence": {
+    "difficulty": "Medium",
+    "frontend_id": "2486",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Greedy"
     ]
   },
   "apply-discount-to-prices": {
@@ -886,6 +905,14 @@
       "Recursion"
     ]
   },
+  "count-number-of-homogenous-substrings": {
+    "difficulty": "Medium",
+    "frontend_id": "1759",
+    "tags": [
+      "Math",
+      "String"
+    ]
+  },
   "count-number-of-nice-subarrays": {
     "difficulty": "Medium",
     "frontend_id": "1248",
@@ -905,6 +932,16 @@
       "Dynamic Programming",
       "Binary Indexed Tree",
       "Segment Tree"
+    ]
+  },
+  "count-number-of-texts": {
+    "difficulty": "Medium",
+    "frontend_id": "2266",
+    "tags": [
+      "Hash Table",
+      "Math",
+      "String",
+      "Dynamic Programming"
     ]
   },
   "count-prefix-and-suffix-pairs-i": {
@@ -1063,6 +1100,14 @@
     "tags": [
       "Hash Table",
       "String"
+    ]
+  },
+  "decode-the-slanted-ciphertext": {
+    "difficulty": "Medium",
+    "frontend_id": "2075",
+    "tags": [
+      "String",
+      "Simulation"
     ]
   },
   "decode-ways": {
@@ -1486,6 +1531,18 @@
       "Sliding Window"
     ]
   },
+  "find-all-possible-recipes-from-given-supplies": {
+    "difficulty": "Medium",
+    "frontend_id": "2115",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Graph Theory",
+      "Topological Sort",
+      "Directed Acyclic Graph"
+    ]
+  },
   "find-closest-node-to-given-two-nodes": {
     "difficulty": "Medium",
     "frontend_id": "2359",
@@ -1679,6 +1736,18 @@
       "Z Algorithm",
       "Knuth–Morris–Pratt Algorithm",
       "Boyer–Moore String-Search Algorithm"
+    ]
+  },
+  "find-the-kth-largest-integer-in-the-array": {
+    "difficulty": "Medium",
+    "frontend_id": "1985",
+    "tags": [
+      "Array",
+      "String",
+      "Divide and Conquer",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Quickselect"
     ]
   },
   "find-the-length-of-the-longest-common-prefix": {
@@ -2303,6 +2372,15 @@
       "Sorting"
     ]
   },
+  "largest-merge-of-two-strings": {
+    "difficulty": "Medium",
+    "frontend_id": "1754",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Greedy"
+    ]
+  },
   "largest-number": {
     "difficulty": "Medium",
     "frontend_id": "179",
@@ -2311,6 +2389,25 @@
       "String",
       "Greedy",
       "Sorting"
+    ]
+  },
+  "largest-number-after-mutating-substring": {
+    "difficulty": "Medium",
+    "frontend_id": "1946",
+    "tags": [
+      "Array",
+      "String",
+      "Greedy"
+    ]
+  },
+  "largest-palindromic-number": {
+    "difficulty": "Medium",
+    "frontend_id": "2384",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Counting"
     ]
   },
   "largest-rectangle-in-histogram": {
@@ -2387,6 +2484,13 @@
   "length-of-last-word": {
     "difficulty": "Easy",
     "frontend_id": "58",
+    "tags": [
+      "String"
+    ]
+  },
+  "length-of-the-longest-alphabetical-continuous-substring": {
+    "difficulty": "Medium",
+    "frontend_id": "2414",
     "tags": [
       "String"
     ]
@@ -3248,6 +3352,14 @@
       "Sorting"
     ]
   },
+  "maximum-value-after-insertion": {
+    "difficulty": "Medium",
+    "frontend_id": "1881",
+    "tags": [
+      "String",
+      "Greedy"
+    ]
+  },
   "maximum-white-tiles-covered-by-a-carpet": {
     "difficulty": "Medium",
     "frontend_id": "2271",
@@ -3655,6 +3767,15 @@
       "Binary Search"
     ]
   },
+  "minimum-number-of-food-buckets-to-feed-the-hamsters": {
+    "difficulty": "Medium",
+    "frontend_id": "2086",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
   "minimum-number-of-frogs-croaking": {
     "difficulty": "Medium",
     "frontend_id": "1419",
@@ -3683,6 +3804,15 @@
       "Counting"
     ]
   },
+  "minimum-number-of-operations-to-move-all-balls-to-each-box": {
+    "difficulty": "Medium",
+    "frontend_id": "1769",
+    "tags": [
+      "Array",
+      "String",
+      "Prefix Sum"
+    ]
+  },
   "minimum-number-of-steps-to-make-two-strings-anagram": {
     "difficulty": "Medium",
     "frontend_id": "1347",
@@ -3690,6 +3820,25 @@
       "Hash Table",
       "String",
       "Counting"
+    ]
+  },
+  "minimum-number-of-swaps-to-make-the-binary-string-alternating": {
+    "difficulty": "Medium",
+    "frontend_id": "1864",
+    "tags": [
+      "String",
+      "Greedy"
+    ]
+  },
+  "minimum-number-of-swaps-to-make-the-string-balanced": {
+    "difficulty": "Medium",
+    "frontend_id": "1963",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Stack",
+      "Greedy",
+      "Bracket Sequences"
     ]
   },
   "minimum-operations-to-exceed-threshold-value-ii": {
@@ -3740,6 +3889,14 @@
       "Array",
       "Dynamic Programming",
       "Matrix"
+    ]
+  },
+  "minimum-penalty-for-a-shop": {
+    "difficulty": "Medium",
+    "frontend_id": "2483",
+    "tags": [
+      "String",
+      "Prefix Sum"
     ]
   },
   "minimum-positive-sum-subarray": {
@@ -3893,6 +4050,17 @@
     "frontend_id": "896",
     "tags": [
       "Array"
+    ]
+  },
+  "most-popular-video-creator": {
+    "difficulty": "Medium",
+    "frontend_id": "2456",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting",
+      "Heap (Priority Queue)"
     ]
   },
   "most-stones-removed-with-same-row-or-column": {
@@ -4180,6 +4348,16 @@
       "Breadth-First Search",
       "Counting",
       "DP on Trees"
+    ]
+  },
+  "number-of-pairs-of-strings-with-concatenation-equal-to-target": {
+    "difficulty": "Medium",
+    "frontend_id": "2023",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Counting"
     ]
   },
   "number-of-provinces": {
@@ -4655,6 +4833,15 @@
       "Binary Tree"
     ]
   },
+  "push-dominoes": {
+    "difficulty": "Medium",
+    "frontend_id": "838",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Dynamic Programming"
+    ]
+  },
   "queens-that-can-attack-the-king": {
     "difficulty": "Medium",
     "frontend_id": "1222",
@@ -5116,6 +5303,17 @@
       "String"
     ]
   },
+  "reward-top-k-students": {
+    "difficulty": "Medium",
+    "frontend_id": "2512",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Sorting",
+      "Heap (Priority Queue)"
+    ]
+  },
   "richest-customer-wealth": {
     "difficulty": "Easy",
     "frontend_id": "1672",
@@ -5282,6 +5480,15 @@
     "frontend_id": "728",
     "tags": [
       "Math"
+    ]
+  },
+  "sentence-similarity-iii": {
+    "difficulty": "Medium",
+    "frontend_id": "1813",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "String"
     ]
   },
   "sequential-digits": {
@@ -5513,6 +5720,16 @@
       "Sorting"
     ]
   },
+  "smallest-subsequence-of-distinct-characters": {
+    "difficulty": "Medium",
+    "frontend_id": "1081",
+    "tags": [
+      "String",
+      "Stack",
+      "Greedy",
+      "Monotonic Stack"
+    ]
+  },
   "snapshot-array": {
     "difficulty": "Medium",
     "frontend_id": "1146",
@@ -5569,6 +5786,14 @@
       "Bubble Sort"
     ]
   },
+  "sort-vowels-in-a-string": {
+    "difficulty": "Medium",
+    "frontend_id": "2785",
+    "tags": [
+      "String",
+      "Sorting"
+    ]
+  },
   "spiral-matrix": {
     "difficulty": "Medium",
     "frontend_id": "54",
@@ -5605,6 +5830,15 @@
       "Dynamic Programming",
       "Greedy",
       "Prefix Sum"
+    ]
+  },
+  "splitting-a-string-into-descending-consecutive-values": {
+    "difficulty": "Medium",
+    "frontend_id": "1849",
+    "tags": [
+      "String",
+      "Backtracking",
+      "Enumeration"
     ]
   },
   "squares-of-a-sorted-array": {
@@ -5808,6 +6042,15 @@
       "Array",
       "Math",
       "Prefix Sum"
+    ]
+  },
+  "sum-of-beauty-of-all-substrings": {
+    "difficulty": "Medium",
+    "frontend_id": "1781",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Counting"
     ]
   },
   "sum-of-even-numbers-after-queries": {
@@ -6127,6 +6370,16 @@
       "Binary Tree"
     ]
   },
+  "unique-length-3-palindromic-subsequences": {
+    "difficulty": "Medium",
+    "frontend_id": "1930",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Bit Manipulation",
+      "Prefix Sum"
+    ]
+  },
   "unique-paths": {
     "difficulty": "Medium",
     "frontend_id": "62",
@@ -6427,6 +6680,15 @@
       "Array",
       "Hash Table",
       "String"
+    ]
+  },
+  "words-within-two-edits-of-dictionary": {
+    "difficulty": "Medium",
+    "frontend_id": "2452",
+    "tags": [
+      "Array",
+      "String",
+      "Trie"
     ]
   },
   "zero-array-transformation-i": {
