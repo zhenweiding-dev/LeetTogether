@@ -2292,6 +2292,13 @@
       "Array"
     ]
   },
+  "knight-probability-in-chessboard": {
+    "difficulty": "Medium",
+    "frontend_id": "688",
+    "tags": [
+      "Dynamic Programming"
+    ]
+  },
   "koko-eating-bananas": {
     "difficulty": "Medium",
     "frontend_id": "875",
@@ -3268,6 +3275,16 @@
       "String Matching"
     ]
   },
+  "maximum-score-after-binary-swaps": {
+    "difficulty": "Medium",
+    "frontend_id": "3781",
+    "tags": [
+      "Array",
+      "String",
+      "Greedy",
+      "Heap (Priority Queue)"
+    ]
+  },
   "maximum-score-after-splitting-a-string": {
     "difficulty": "Easy",
     "tags": [
@@ -3535,6 +3552,17 @@
       "Prefix Sum"
     ]
   },
+  "minimize-the-maximum-edge-weight-of-graph": {
+    "difficulty": "Medium",
+    "frontend_id": "3419",
+    "tags": [
+      "Binary Search",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Shortest Path"
+    ]
+  },
   "minimum-absolute-distance-between-mirror-pairs": {
     "difficulty": "Medium",
     "frontend_id": "3761",
@@ -3590,6 +3618,16 @@
     "tags": [
       "Array",
       "Dynamic Programming"
+    ]
+  },
+  "minimum-deletion-cost-to-make-all-characters-equal": {
+    "difficulty": "Medium",
+    "frontend_id": "3784",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Enumeration"
     ]
   },
   "minimum-deletions-to-make-array-beautiful": {
@@ -4620,6 +4658,14 @@
       "Greedy"
     ]
   },
+  "password-strength": {
+    "difficulty": "Medium",
+    "frontend_id": "3941",
+    "tags": [
+      "Hash Table",
+      "String"
+    ]
+  },
   "path-existence-queries-in-a-graph-i": {
     "difficulty": "Medium",
     "frontend_id": "3532",
@@ -5301,6 +5347,15 @@
     "tags": [
       "Two Pointers",
       "String"
+    ]
+  },
+  "reverse-words-with-same-vowel-count": {
+    "difficulty": "Medium",
+    "frontend_id": "3775",
+    "tags": [
+      "Two Pointers",
+      "String",
+      "Simulation"
     ]
   },
   "reward-top-k-students": {

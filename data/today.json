@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-25",
-  "fetched_at": "2026-10-26T06:53:02+00:00",
+  "date": "2026-10-26",
+  "fetched_at": "2026-10-27T03:30:37+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,6 +317,36 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Word Search II",
+          "slug": "word-search-ii",
+          "ts": 1793060883
+        },
+        {
+          "title": "Password Strength",
+          "slug": "password-strength",
+          "ts": 1793048795
+        },
+        {
+          "title": "Minimum Deletion Cost to Make All Characters Equal",
+          "slug": "minimum-deletion-cost-to-make-all-characters-equal",
+          "ts": 1793048217
+        },
+        {
+          "title": "Maximum Score After Binary Swaps",
+          "slug": "maximum-score-after-binary-swaps",
+          "ts": 1793048021
+        },
+        {
+          "title": "Reverse Words With Same Vowel Count",
+          "slug": "reverse-words-with-same-vowel-count",
+          "ts": 1793046756
+        },
+        {
+          "title": "Knight Probability in Chessboard",
+          "slug": "knight-probability-in-chessboard",
+          "ts": 1793046408
+        },
+        {
           "title": "Reward Top K Students",
           "slug": "reward-top-k-students",
           "ts": 1792977666
@@ -385,36 +415,6 @@
           "title": "Adding Spaces to a String",
           "slug": "adding-spaces-to-a-string",
           "ts": 1792927375
-        },
-        {
-          "title": "Minimum Number of Food Buckets to Feed the Hamsters",
-          "slug": "minimum-number-of-food-buckets-to-feed-the-hamsters",
-          "ts": 1792926940
-        },
-        {
-          "title": "Decode the Slanted Ciphertext",
-          "slug": "decode-the-slanted-ciphertext",
-          "ts": 1792925725
-        },
-        {
-          "title": "Find the Kth Largest Integer in the Array",
-          "slug": "find-the-kth-largest-integer-in-the-array",
-          "ts": 1792924731
-        },
-        {
-          "title": "Minimum Number of Swaps to Make the String Balanced",
-          "slug": "minimum-number-of-swaps-to-make-the-string-balanced",
-          "ts": 1792924426
-        },
-        {
-          "title": "Largest Number After Mutating Substring",
-          "slug": "largest-number-after-mutating-substring",
-          "ts": 1792924080
-        },
-        {
-          "title": "Maximum Value after Insertion",
-          "slug": "maximum-value-after-insertion",
-          "ts": 1792922945
         }
       ]
     },
@@ -525,6 +525,16 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Minimize the Maximum Edge Weight of Graph",
+          "slug": "minimize-the-maximum-edge-weight-of-graph",
+          "ts": 1793066002
+        },
+        {
+          "title": "Word Search II",
+          "slug": "word-search-ii",
+          "ts": 1793000683
+        },
+        {
           "title": "Minimum Path Sum",
           "slug": "minimum-path-sum",
           "ts": 1792996990
@@ -613,16 +623,6 @@
           "title": "Word Search II",
           "slug": "word-search-ii",
           "ts": 1792043560
-        },
-        {
-          "title": "Is Subsequence",
-          "slug": "is-subsequence",
-          "ts": 1791957489
-        },
-        {
-          "title": "Add Two Numbers",
-          "slug": "add-two-numbers",
-          "ts": 1791955948
         }
       ]
     },
@@ -837,6 +837,11 @@
     "m9": {
       "recent_ac": [
         {
+          "title": "Top K Frequent Elements",
+          "slug": "top-k-frequent-elements",
+          "ts": 1793070550
+        },
+        {
           "title": "Find First and Last Position of Element in Sorted Array",
           "slug": "find-first-and-last-position-of-element-in-sorted-array",
           "ts": 1792978025
@@ -930,11 +935,6 @@
           "title": "Zero Array Transformation I",
           "slug": "zero-array-transformation-i",
           "ts": 1792882706
-        },
-        {
-          "title": "First Missing Positive",
-          "slug": "first-missing-positive",
-          "ts": 1792877878
         }
       ]
     },
