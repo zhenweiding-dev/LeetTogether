@@ -5,218 +5,8 @@
     "medium": 3,
     "hard": 6
   },
-  "fetched_at": "2026-10-27T03:30:37+00:00",
+  "fetched_at": "2026-10-28T05:30:46+00:00",
   "days": {
-    "2026-10-11": {
-      "run_hours": "111111111111111111111111",
-      "tags": {
-        "0-1 Knapsack": 1,
-        "Array": 11,
-        "Backtracking": 4,
-        "Binary Search": 4,
-        "Binary Tree": 2,
-        "Bit Manipulation": 1,
-        "Bitmask": 1,
-        "Breadth-First Search": 5,
-        "Brute-Force Search": 1,
-        "Counting": 1,
-        "DP on Trees": 1,
-        "Depth-First Search": 6,
-        "Design": 3,
-        "Directed Acyclic Graph": 1,
-        "Dynamic Programming": 5,
-        "Graph Theory": 3,
-        "Greedy": 1,
-        "Hash Table": 7,
-        "Heap (Priority Queue)": 2,
-        "Knapsack Problem": 1,
-        "Linked List": 1,
-        "Matrix": 1,
-        "Memoization": 1,
-        "Persistent Data Structure": 1,
-        "Sliding Window": 1,
-        "Sorting": 1,
-        "Stack": 1,
-        "String": 6,
-        "Topological Sort": 1,
-        "Tree": 2,
-        "Trie": 2,
-        "Two Pointers": 1,
-        "Union-Find": 2
-      },
-      "members": {
-        "m1": {
-          "solved": {
-            "all": 205,
-            "easy": 57,
-            "medium": 127,
-            "hard": 21
-          },
-          "day": {
-            "count": 3,
-            "easy": 0,
-            "medium": 3,
-            "hard": 0
-          },
-          "streak": 24,
-          "days_solved": 50,
-          "days_seen": 52
-        },
-        "m2": {
-          "solved": {
-            "all": 97,
-            "easy": 33,
-            "medium": 60,
-            "hard": 4
-          },
-          "day": {
-            "count": 0,
-            "easy": 0,
-            "medium": 0,
-            "hard": 0
-          },
-          "streak": 0,
-          "days_solved": 29,
-          "days_seen": 51
-        },
-        "m3": {
-          "solved": {
-            "all": 50,
-            "easy": 15,
-            "medium": 28,
-            "hard": 7
-          },
-          "day": {
-            "count": 0,
-            "easy": 0,
-            "medium": 0,
-            "hard": 0
-          },
-          "streak": 0,
-          "days_solved": 25,
-          "days_seen": 49
-        },
-        "m4": {
-          "solved": {
-            "all": 811,
-            "easy": 229,
-            "medium": 562,
-            "hard": 20
-          },
-          "day": {
-            "count": 0,
-            "easy": 0,
-            "medium": 0,
-            "hard": 0
-          },
-          "streak": 0,
-          "days_solved": 22,
-          "days_seen": 49
-        },
-        "m5": {
-          "solved": {
-            "all": 557,
-            "easy": 177,
-            "medium": 339,
-            "hard": 41
-          },
-          "day": {
-            "count": 2,
-            "easy": 0,
-            "medium": 2,
-            "hard": 0
-          },
-          "streak": 2,
-          "days_solved": 19,
-          "days_seen": 43
-        },
-        "m6": {
-          "solved": {
-            "all": 409,
-            "easy": 135,
-            "medium": 245,
-            "hard": 29
-          },
-          "day": {
-            "count": 3,
-            "easy": 1,
-            "medium": 2,
-            "hard": 0
-          },
-          "streak": 36,
-          "days_solved": 36,
-          "days_seen": 36
-        },
-        "m7": {
-          "solved": {
-            "all": 792,
-            "easy": 266,
-            "medium": 487,
-            "hard": 39
-          },
-          "day": {
-            "count": 7,
-            "easy": 1,
-            "medium": 5,
-            "hard": 1
-          },
-          "streak": 7,
-          "days_solved": 22,
-          "days_seen": 32
-        },
-        "m8": {
-          "solved": {
-            "all": 770,
-            "easy": 190,
-            "medium": 506,
-            "hard": 74
-          },
-          "day": {
-            "count": 0,
-            "easy": 0,
-            "medium": 0,
-            "hard": 0
-          },
-          "streak": 0,
-          "days_solved": 17,
-          "days_seen": 29
-        },
-        "m9": {
-          "solved": {
-            "all": 407,
-            "easy": 110,
-            "medium": 259,
-            "hard": 38
-          },
-          "day": {
-            "count": 2,
-            "easy": 0,
-            "medium": 2,
-            "hard": 0
-          },
-          "streak": 2,
-          "days_solved": 11,
-          "days_seen": 25
-        },
-        "m10": {
-          "solved": {
-            "all": 447,
-            "easy": 108,
-            "medium": 296,
-            "hard": 43
-          },
-          "day": {
-            "count": 4,
-            "easy": 0,
-            "medium": 4,
-            "hard": 0
-          },
-          "streak": 3,
-          "days_solved": 10,
-          "days_seen": 24
-        }
-      }
-    },
     "2026-10-12": {
       "run_hours": "111111111111111111111111",
       "tags": {
@@ -3135,7 +2925,9 @@
             "medium": 0,
             "hard": 0
           },
-          "streak": 0
+          "streak": 0,
+          "days_solved": 59,
+          "days_seen": 67
         },
         "m2": {
           "solved": {
@@ -3150,7 +2942,208 @@
             "medium": 0,
             "hard": 0
           },
+          "streak": 0,
+          "days_solved": 31,
+          "days_seen": 66
+        },
+        "m3": {
+          "solved": {
+            "all": 52,
+            "easy": 16,
+            "medium": 29,
+            "hard": 7
+          },
+          "day": {
+            "count": 0,
+            "easy": 0,
+            "medium": 0,
+            "hard": 0
+          },
+          "streak": 0,
+          "days_solved": 26,
+          "days_seen": 64
+        },
+        "m4": {
+          "solved": {
+            "all": 868,
+            "easy": 229,
+            "medium": 619,
+            "hard": 20
+          },
+          "day": {
+            "count": 6,
+            "easy": 0,
+            "medium": 5,
+            "hard": 1
+          },
+          "streak": 4,
+          "days_solved": 31,
+          "days_seen": 64
+        },
+        "m5": {
+          "solved": {
+            "all": 558,
+            "easy": 177,
+            "medium": 340,
+            "hard": 41
+          },
+          "day": {
+            "count": 0,
+            "easy": 0,
+            "medium": 0,
+            "hard": 0
+          },
+          "streak": 0,
+          "days_solved": 21,
+          "days_seen": 58
+        },
+        "m6": {
+          "solved": {
+            "all": 414,
+            "easy": 137,
+            "medium": 248,
+            "hard": 29
+          },
+          "day": {
+            "count": 2,
+            "easy": 0,
+            "medium": 1,
+            "hard": 1
+          },
+          "streak": 51,
+          "days_solved": 51,
+          "days_seen": 51
+        },
+        "m7": {
+          "solved": {
+            "all": 802,
+            "easy": 267,
+            "medium": 494,
+            "hard": 41
+          },
+          "day": {
+            "count": 0,
+            "easy": 0,
+            "medium": 0,
+            "hard": 0
+          },
+          "streak": 0,
+          "days_solved": 33,
+          "days_seen": 47
+        },
+        "m8": {
+          "solved": {
+            "all": 780,
+            "easy": 190,
+            "medium": 513,
+            "hard": 77
+          },
+          "day": {
+            "count": 0,
+            "easy": 0,
+            "medium": 0,
+            "hard": 0
+          },
+          "streak": 0,
+          "days_solved": 23,
+          "days_seen": 44
+        },
+        "m9": {
+          "solved": {
+            "all": 415,
+            "easy": 113,
+            "medium": 264,
+            "hard": 38
+          },
+          "day": {
+            "count": 1,
+            "easy": 0,
+            "medium": 1,
+            "hard": 0
+          },
+          "streak": 6,
+          "days_solved": 20,
+          "days_seen": 40
+        },
+        "m10": {
+          "solved": {
+            "all": 457,
+            "easy": 108,
+            "medium": 304,
+            "hard": 45
+          },
+          "day": {
+            "count": 0,
+            "easy": 0,
+            "medium": 0,
+            "hard": 0
+          },
+          "streak": 0,
+          "days_solved": 20,
+          "days_seen": 39
+        }
+      }
+    },
+    "2026-10-27": {
+      "run_hours": "111111111111111111111111",
+      "tags": {
+        "Array": 22,
+        "Binary Search": 9,
+        "Binary Search Tree": 1,
+        "Binary Tree": 2,
+        "Boyer–Moore Majority Vote Algorithm": 1,
+        "Counting": 1,
+        "Counting Sort": 1,
+        "Depth-First Search": 2,
+        "Divide and Conquer": 1,
+        "Dynamic Programming": 5,
+        "Greedy": 6,
+        "Hash Function": 1,
+        "Hash Table": 3,
+        "Heap (Priority Queue)": 1,
+        "Linked List": 1,
+        "Longest Common Subsequence": 1,
+        "Math": 2,
+        "Newton's Method": 1,
+        "Prefix Sum": 1,
+        "Simulation": 1,
+        "Sliding Window": 1,
+        "Sorting": 4,
+        "String": 1,
+        "String Matching": 1,
+        "Tree": 2,
+        "Two Pointers": 7
+      },
+      "members": {
+        "m1": {
+          "solved": {
+            "all": 219,
+            "easy": 64,
+            "medium": 133,
+            "hard": 22
+          },
+          "day": {
+            "count": 0,
+            "easy": 0,
+            "medium": 0,
+            "hard": 0
+          },
           "streak": 0
+        },
+        "m2": {
+          "solved": {
+            "all": 102,
+            "easy": 34,
+            "medium": 63,
+            "hard": 5
+          },
+          "day": {
+            "count": 2,
+            "easy": 1,
+            "medium": 1,
+            "hard": 0
+          },
+          "streak": 1
         },
         "m3": {
           "solved": {
@@ -3169,33 +3162,33 @@
         },
         "m4": {
           "solved": {
-            "all": 868,
+            "all": 871,
             "easy": 229,
-            "medium": 619,
+            "medium": 622,
             "hard": 20
           },
           "day": {
-            "count": 6,
-            "easy": 0,
-            "medium": 5,
-            "hard": 1
+            "count": 19,
+            "easy": 8,
+            "medium": 11,
+            "hard": 0
           },
-          "streak": 4
+          "streak": 5
         },
         "m5": {
           "solved": {
-            "all": 558,
-            "easy": 177,
-            "medium": 340,
+            "all": 560,
+            "easy": 178,
+            "medium": 341,
             "hard": 41
           },
           "day": {
-            "count": 0,
-            "easy": 0,
-            "medium": 0,
+            "count": 2,
+            "easy": 1,
+            "medium": 1,
             "hard": 0
           },
-          "streak": 0
+          "streak": 1
         },
         "m6": {
           "solved": {
@@ -3206,11 +3199,11 @@
           },
           "day": {
             "count": 2,
-            "easy": 0,
+            "easy": 1,
             "medium": 1,
-            "hard": 1
+            "hard": 0
           },
-          "streak": 51
+          "streak": 52
         },
         "m7": {
           "solved": {
@@ -3220,12 +3213,12 @@
             "hard": 41
           },
           "day": {
-            "count": 0,
+            "count": 2,
             "easy": 0,
-            "medium": 0,
+            "medium": 2,
             "hard": 0
           },
-          "streak": 0
+          "streak": 1
         },
         "m8": {
           "solved": {
@@ -3250,12 +3243,12 @@
             "hard": 38
           },
           "day": {
-            "count": 1,
+            "count": 0,
             "easy": 0,
-            "medium": 1,
+            "medium": 0,
             "hard": 0
           },
-          "streak": 6
+          "streak": 0
         },
         "m10": {
           "solved": {

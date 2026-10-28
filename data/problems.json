@@ -225,6 +225,17 @@
       "Simulation"
     ]
   },
+  "avoid-flood-in-the-city": {
+    "difficulty": "Medium",
+    "frontend_id": "1488",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Greedy",
+      "Heap (Priority Queue)"
+    ]
+  },
   "bag-of-tokens": {
     "difficulty": "Medium",
     "frontend_id": "948",
@@ -712,6 +723,14 @@
     "frontend_id": "77",
     "tags": [
       "Backtracking"
+    ]
+  },
+  "concatenation-of-array": {
+    "difficulty": "Easy",
+    "frontend_id": "1929",
+    "tags": [
+      "Array",
+      "Simulation"
     ]
   },
   "construct-binary-tree-from-inorder-and-postorder-traversal": {
@@ -3109,6 +3128,14 @@
       "Cartesian Tree"
     ]
   },
+  "maximum-candies-allocated-to-k-children": {
+    "difficulty": "Medium",
+    "frontend_id": "2226",
+    "tags": [
+      "Array",
+      "Binary Search"
+    ]
+  },
   "maximum-depth-of-binary-tree": {
     "difficulty": "Easy",
     "frontend_id": "104",
@@ -3766,6 +3793,14 @@
     "tags": [
       "Two Pointers",
       "String"
+    ]
+  },
+  "minimum-limit-of-balls-in-a-bag": {
+    "difficulty": "Medium",
+    "frontend_id": "1760",
+    "tags": [
+      "Array",
+      "Binary Search"
     ]
   },
   "minimum-moves-to-clean-the-classroom": {
@@ -5896,6 +5931,15 @@
       "Enumeration"
     ]
   },
+  "sqrtx": {
+    "difficulty": "Easy",
+    "frontend_id": "69",
+    "tags": [
+      "Math",
+      "Binary Search",
+      "Newton's Method"
+    ]
+  },
   "squares-of-a-sorted-array": {
     "difficulty": "Easy",
     "frontend_id": "977",
@@ -6402,6 +6446,15 @@
       "Breadth-First Search",
       "Binary Search Tree",
       "Binary Tree"
+    ]
+  },
+  "uncrossed-lines": {
+    "difficulty": "Medium",
+    "frontend_id": "1035",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Longest Common Subsequence"
     ]
   },
   "unique-3-digit-even-numbers": {

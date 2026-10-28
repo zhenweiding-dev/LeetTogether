@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-26",
-  "fetched_at": "2026-10-27T03:30:37+00:00",
+  "date": "2026-10-27",
+  "fetched_at": "2026-10-28T05:30:46+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -109,6 +109,16 @@
     "m2": {
       "recent_ac": [
         {
+          "title": "Partition Labels",
+          "slug": "partition-labels",
+          "ts": 1793130964
+        },
+        {
+          "title": "Maximum Units on a Truck",
+          "slug": "maximum-units-on-a-truck",
+          "ts": 1793084931
+        },
+        {
           "title": "Coin Change II",
           "slug": "coin-change-ii",
           "ts": 1792656054
@@ -197,16 +207,6 @@
           "title": "Lowest Common Ancestor of a Binary Search Tree",
           "slug": "lowest-common-ancestor-of-a-binary-search-tree",
           "ts": 1789343032
-        },
-        {
-          "title": "Find the Duplicate Number",
-          "slug": "find-the-duplicate-number",
-          "ts": 1789242792
-        },
-        {
-          "title": "Linked List Cycle",
-          "slug": "linked-list-cycle",
-          "ts": 1789202472
         }
       ]
     },
@@ -317,109 +317,119 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Minimum Size Subarray Sum",
+          "slug": "minimum-size-subarray-sum",
+          "ts": 1793143227
+        },
+        {
+          "title": "Sqrt(x)",
+          "slug": "sqrtx",
+          "ts": 1793142837
+        },
+        {
+          "title": "Search Insert Position",
+          "slug": "search-insert-position",
+          "ts": 1793142469
+        },
+        {
+          "title": "Binary Search",
+          "slug": "binary-search",
+          "ts": 1793132581
+        },
+        {
+          "title": "Minimum Limit of Balls in a Bag",
+          "slug": "minimum-limit-of-balls-in-a-bag",
+          "ts": 1793129593
+        },
+        {
+          "title": "Maximum Candies Allocated to K Children",
+          "slug": "maximum-candies-allocated-to-k-children",
+          "ts": 1793128150
+        },
+        {
+          "title": "Koko Eating Bananas",
+          "slug": "koko-eating-bananas",
+          "ts": 1793126533
+        },
+        {
+          "title": "H-Index",
+          "slug": "h-index",
+          "ts": 1793100039
+        },
+        {
+          "title": "Jump Game II",
+          "slug": "jump-game-ii",
+          "ts": 1793099913
+        },
+        {
+          "title": "Jump Game",
+          "slug": "jump-game",
+          "ts": 1793099513
+        },
+        {
+          "title": "Best Time to Buy and Sell Stock II",
+          "slug": "best-time-to-buy-and-sell-stock-ii",
+          "ts": 1793099346
+        },
+        {
+          "title": "Best Time to Buy and Sell Stock",
+          "slug": "best-time-to-buy-and-sell-stock",
+          "ts": 1793099309
+        },
+        {
+          "title": "Rotate Array",
+          "slug": "rotate-array",
+          "ts": 1793098996
+        },
+        {
+          "title": "Majority Element",
+          "slug": "majority-element",
+          "ts": 1793098798
+        },
+        {
+          "title": "Remove Duplicates from Sorted Array II",
+          "slug": "remove-duplicates-from-sorted-array-ii",
+          "ts": 1793098728
+        },
+        {
+          "title": "Remove Duplicates from Sorted Array",
+          "slug": "remove-duplicates-from-sorted-array",
+          "ts": 1793098659
+        },
+        {
+          "title": "Remove Element",
+          "slug": "remove-element",
+          "ts": 1793098482
+        },
+        {
+          "title": "Merge Sorted Array",
+          "slug": "merge-sorted-array",
+          "ts": 1793098417
+        },
+        {
+          "title": "Uncrossed Lines",
+          "slug": "uncrossed-lines",
+          "ts": 1793096723
+        },
+        {
           "title": "Word Search II",
           "slug": "word-search-ii",
           "ts": 1793060883
-        },
-        {
-          "title": "Password Strength",
-          "slug": "password-strength",
-          "ts": 1793048795
-        },
-        {
-          "title": "Minimum Deletion Cost to Make All Characters Equal",
-          "slug": "minimum-deletion-cost-to-make-all-characters-equal",
-          "ts": 1793048217
-        },
-        {
-          "title": "Maximum Score After Binary Swaps",
-          "slug": "maximum-score-after-binary-swaps",
-          "ts": 1793048021
-        },
-        {
-          "title": "Reverse Words With Same Vowel Count",
-          "slug": "reverse-words-with-same-vowel-count",
-          "ts": 1793046756
-        },
-        {
-          "title": "Knight Probability in Chessboard",
-          "slug": "knight-probability-in-chessboard",
-          "ts": 1793046408
-        },
-        {
-          "title": "Reward Top K Students",
-          "slug": "reward-top-k-students",
-          "ts": 1792977666
-        },
-        {
-          "title": "Append Characters to String to Make Subsequence",
-          "slug": "append-characters-to-string-to-make-subsequence",
-          "ts": 1792975053
-        },
-        {
-          "title": "Minimum Penalty for a Shop",
-          "slug": "minimum-penalty-for-a-shop",
-          "ts": 1792974724
-        },
-        {
-          "title": "Most Popular Video Creator",
-          "slug": "most-popular-video-creator",
-          "ts": 1792973570
-        },
-        {
-          "title": "Words Within Two Edits of Dictionary",
-          "slug": "words-within-two-edits-of-dictionary",
-          "ts": 1792971289
-        },
-        {
-          "title": "Length of the Longest Alphabetical Continuous Substring",
-          "slug": "length-of-the-longest-alphabetical-continuous-substring",
-          "ts": 1792970722
-        },
-        {
-          "title": "Largest Palindromic Number",
-          "slug": "largest-palindromic-number",
-          "ts": 1792970423
-        },
-        {
-          "title": "Number of Pairs of Strings With Concatenation Equal to Target",
-          "slug": "number-of-pairs-of-strings-with-concatenation-equal-to-target",
-          "ts": 1792968325
-        },
-        {
-          "title": "Unique Length-3 Palindromic Subsequences",
-          "slug": "unique-length-3-palindromic-subsequences",
-          "ts": 1792962624
-        },
-        {
-          "title": "Smallest Subsequence of Distinct Characters",
-          "slug": "smallest-subsequence-of-distinct-characters",
-          "ts": 1792955584
-        },
-        {
-          "title": "Sort Vowels in a String",
-          "slug": "sort-vowels-in-a-string",
-          "ts": 1792930006
-        },
-        {
-          "title": "Count Number of Texts",
-          "slug": "count-number-of-texts",
-          "ts": 1792929356
-        },
-        {
-          "title": "Find All Possible Recipes from Given Supplies",
-          "slug": "find-all-possible-recipes-from-given-supplies",
-          "ts": 1792927990
-        },
-        {
-          "title": "Adding Spaces to a String",
-          "slug": "adding-spaces-to-a-string",
-          "ts": 1792927375
         }
       ]
     },
     "m5": {
       "recent_ac": [
+        {
+          "title": "Concatenation of Array",
+          "slug": "concatenation-of-array",
+          "ts": 1793159865
+        },
+        {
+          "title": "Avoid Flood in The City",
+          "slug": "avoid-flood-in-the-city",
+          "ts": 1793159705
+        },
         {
           "title": "Maximum Length of Subarray With Positive Product",
           "slug": "maximum-length-of-subarray-with-positive-product",
@@ -509,21 +519,21 @@
           "title": "Minimum Initial Energy to Finish Tasks",
           "slug": "minimum-initial-energy-to-finish-tasks",
           "ts": 1791083326
-        },
-        {
-          "title": "Subsequence of Size K With the Largest Even Sum",
-          "slug": "subsequence-of-size-k-with-the-largest-even-sum",
-          "ts": 1791080605
-        },
-        {
-          "title": "Rank Teams by Votes",
-          "slug": "rank-teams-by-votes",
-          "ts": 1791047014
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Kth Smallest Element in a BST",
+          "slug": "kth-smallest-element-in-a-bst",
+          "ts": 1793163660
+        },
+        {
+          "title": "Subtree of Another Tree",
+          "slug": "subtree-of-another-tree",
+          "ts": 1793159278
+        },
         {
           "title": "Minimize the Maximum Edge Weight of Graph",
           "slug": "minimize-the-maximum-edge-weight-of-graph",
@@ -613,21 +623,21 @@
           "title": "Min Cost Climbing Stairs",
           "slug": "min-cost-climbing-stairs",
           "ts": 1792125592
-        },
-        {
-          "title": "Design Add and Search Words Data Structure",
-          "slug": "design-add-and-search-words-data-structure",
-          "ts": 1792046077
-        },
-        {
-          "title": "Word Search II",
-          "slug": "word-search-ii",
-          "ts": 1792043560
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Koko Eating Bananas",
+          "slug": "koko-eating-bananas",
+          "ts": 1793160945
+        },
+        {
+          "title": "Remove Duplicates from Sorted List II",
+          "slug": "remove-duplicates-from-sorted-list-ii",
+          "ts": 1793158874
+        },
         {
           "title": "LRU Cache",
           "slug": "lru-cache",
@@ -717,16 +727,6 @@
           "title": "Permutations II",
           "slug": "permutations-ii",
           "ts": 1792783136
-        },
-        {
-          "title": "Minimum Path Sum",
-          "slug": "minimum-path-sum",
-          "ts": 1792782476
-        },
-        {
-          "title": "Evaluate Division",
-          "slug": "evaluate-division",
-          "ts": 1792730782
         }
       ]
     },
