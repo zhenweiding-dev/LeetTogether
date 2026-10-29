@@ -2835,6 +2835,17 @@
       "Lowest Common Ancestor"
     ]
   },
+  "lowest-common-ancestor-of-a-binary-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "236",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree",
+      "Binary Lifting",
+      "Lowest Common Ancestor"
+    ]
+  },
   "lowest-common-ancestor-of-deepest-leaves": {
     "difficulty": "Medium",
     "frontend_id": "1123",
@@ -6177,6 +6188,14 @@
       "Math",
       "Two Pointers",
       "Binary Search"
+    ]
+  },
+  "sum-of-two-integers": {
+    "difficulty": "Medium",
+    "frontend_id": "371",
+    "tags": [
+      "Math",
+      "Bit Manipulation"
     ]
   },
   "sum-root-to-leaf-numbers": {

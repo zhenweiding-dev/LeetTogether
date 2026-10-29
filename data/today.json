@@ -1,9 +1,19 @@
 {
-  "date": "2026-10-27",
-  "fetched_at": "2026-10-28T05:30:46+00:00",
+  "date": "2026-10-28",
+  "fetched_at": "2026-10-29T06:21:11+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Largest Rectangle in Histogram",
+          "slug": "largest-rectangle-in-histogram",
+          "ts": 1793219876
+        },
+        {
+          "title": "Sum of Two Integers",
+          "slug": "sum-of-two-integers",
+          "ts": 1793213007
+        },
         {
           "title": "Set Matrix Zeroes",
           "slug": "set-matrix-zeroes",
@@ -93,16 +103,6 @@
           "title": "Longest Repeating Character Replacement",
           "slug": "longest-repeating-character-replacement",
           "ts": 1791713891
-        },
-        {
-          "title": "Median of Two Sorted Arrays",
-          "slug": "median-of-two-sorted-arrays",
-          "ts": 1791701208
-        },
-        {
-          "title": "Copy List with Random Pointer",
-          "slug": "copy-list-with-random-pointer",
-          "ts": 1791678758
         }
       ]
     },
@@ -317,6 +317,46 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Surrounded Regions",
+          "slug": "surrounded-regions",
+          "ts": 1793253855
+        },
+        {
+          "title": "Number of Islands",
+          "slug": "number-of-islands",
+          "ts": 1793253494
+        },
+        {
+          "title": "H-Index",
+          "slug": "h-index",
+          "ts": 1793253058
+        },
+        {
+          "title": "Jump Game II",
+          "slug": "jump-game-ii",
+          "ts": 1793252966
+        },
+        {
+          "title": "Jump Game",
+          "slug": "jump-game",
+          "ts": 1793252843
+        },
+        {
+          "title": "Best Time to Buy and Sell Stock II",
+          "slug": "best-time-to-buy-and-sell-stock-ii",
+          "ts": 1793252799
+        },
+        {
+          "title": "Course Schedule",
+          "slug": "course-schedule",
+          "ts": 1793252688
+        },
+        {
+          "title": "Lowest Common Ancestor of a Binary Tree",
+          "slug": "lowest-common-ancestor-of-a-binary-tree",
+          "ts": 1793251232
+        },
+        {
           "title": "Minimum Size Subarray Sum",
           "slug": "minimum-size-subarray-sum",
           "ts": 1793143227
@@ -375,46 +415,6 @@
           "title": "Best Time to Buy and Sell Stock",
           "slug": "best-time-to-buy-and-sell-stock",
           "ts": 1793099309
-        },
-        {
-          "title": "Rotate Array",
-          "slug": "rotate-array",
-          "ts": 1793098996
-        },
-        {
-          "title": "Majority Element",
-          "slug": "majority-element",
-          "ts": 1793098798
-        },
-        {
-          "title": "Remove Duplicates from Sorted Array II",
-          "slug": "remove-duplicates-from-sorted-array-ii",
-          "ts": 1793098728
-        },
-        {
-          "title": "Remove Duplicates from Sorted Array",
-          "slug": "remove-duplicates-from-sorted-array",
-          "ts": 1793098659
-        },
-        {
-          "title": "Remove Element",
-          "slug": "remove-element",
-          "ts": 1793098482
-        },
-        {
-          "title": "Merge Sorted Array",
-          "slug": "merge-sorted-array",
-          "ts": 1793098417
-        },
-        {
-          "title": "Uncrossed Lines",
-          "slug": "uncrossed-lines",
-          "ts": 1793096723
-        },
-        {
-          "title": "Word Search II",
-          "slug": "word-search-ii",
-          "ts": 1793060883
         }
       ]
     },
@@ -525,6 +525,11 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Random Pick with Weight",
+          "slug": "random-pick-with-weight",
+          "ts": 1793244080
+        },
+        {
           "title": "Kth Smallest Element in a BST",
           "slug": "kth-smallest-element-in-a-bst",
           "ts": 1793163660
@@ -618,11 +623,6 @@
           "title": "Kth Smallest Element in a BST",
           "slug": "kth-smallest-element-in-a-bst",
           "ts": 1792205205
-        },
-        {
-          "title": "Min Cost Climbing Stairs",
-          "slug": "min-cost-climbing-stairs",
-          "ts": 1792125592
         }
       ]
     },
