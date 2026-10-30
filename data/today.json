@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-28",
-  "fetched_at": "2026-10-29T06:21:11+00:00",
+  "date": "2026-10-29",
+  "fetched_at": "2026-10-30T06:00:33+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,6 +317,36 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Shortest Path in Binary Matrix",
+          "slug": "shortest-path-in-binary-matrix",
+          "ts": 1793299876
+        },
+        {
+          "title": "Two Sum",
+          "slug": "two-sum",
+          "ts": 1793298809
+        },
+        {
+          "title": "Rotate Array",
+          "slug": "rotate-array",
+          "ts": 1793267431
+        },
+        {
+          "title": "Majority Element",
+          "slug": "majority-element",
+          "ts": 1793267321
+        },
+        {
+          "title": "Remove Duplicates from Sorted Array II",
+          "slug": "remove-duplicates-from-sorted-array-ii",
+          "ts": 1793267227
+        },
+        {
+          "title": "Remove Element",
+          "slug": "remove-element",
+          "ts": 1793266974
+        },
+        {
           "title": "Surrounded Regions",
           "slug": "surrounded-regions",
           "ts": 1793253855
@@ -385,41 +415,26 @@
           "title": "Maximum Candies Allocated to K Children",
           "slug": "maximum-candies-allocated-to-k-children",
           "ts": 1793128150
-        },
-        {
-          "title": "Koko Eating Bananas",
-          "slug": "koko-eating-bananas",
-          "ts": 1793126533
-        },
-        {
-          "title": "H-Index",
-          "slug": "h-index",
-          "ts": 1793100039
-        },
-        {
-          "title": "Jump Game II",
-          "slug": "jump-game-ii",
-          "ts": 1793099913
-        },
-        {
-          "title": "Jump Game",
-          "slug": "jump-game",
-          "ts": 1793099513
-        },
-        {
-          "title": "Best Time to Buy and Sell Stock II",
-          "slug": "best-time-to-buy-and-sell-stock-ii",
-          "ts": 1793099346
-        },
-        {
-          "title": "Best Time to Buy and Sell Stock",
-          "slug": "best-time-to-buy-and-sell-stock",
-          "ts": 1793099309
         }
       ]
     },
     "m5": {
       "recent_ac": [
+        {
+          "title": "Minimum Sum of Squared Difference",
+          "slug": "minimum-sum-of-squared-difference",
+          "ts": 1793324670
+        },
+        {
+          "title": "Max Consecutive Ones",
+          "slug": "max-consecutive-ones",
+          "ts": 1793305714
+        },
+        {
+          "title": "Split Array Largest Sum",
+          "slug": "split-array-largest-sum",
+          "ts": 1793302385
+        },
         {
           "title": "Concatenation of Array",
           "slug": "concatenation-of-array",
@@ -504,26 +519,16 @@
           "title": "Bulls and Cows",
           "slug": "bulls-and-cows",
           "ts": 1791095161
-        },
-        {
-          "title": "Sum of Absolute Differences in a Sorted Array",
-          "slug": "sum-of-absolute-differences-in-a-sorted-array",
-          "ts": 1791084894
-        },
-        {
-          "title": "Maximize the Confusion of an Exam",
-          "slug": "maximize-the-confusion-of-an-exam",
-          "ts": 1791084145
-        },
-        {
-          "title": "Minimum Initial Energy to Finish Tasks",
-          "slug": "minimum-initial-energy-to-finish-tasks",
-          "ts": 1791083326
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Shortest Path in Binary Matrix",
+          "slug": "shortest-path-in-binary-matrix",
+          "ts": 1793337365
+        },
         {
           "title": "Random Pick with Weight",
           "slug": "random-pick-with-weight",
@@ -618,16 +623,46 @@
           "title": "Minimum Deletions to Make Array Sharp",
           "slug": "minimum-deletions-to-make-array-sharp",
           "ts": 1792291201
-        },
-        {
-          "title": "Kth Smallest Element in a BST",
-          "slug": "kth-smallest-element-in-a-bst",
-          "ts": 1792205205
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Minimum Remove to Make Valid Parentheses",
+          "slug": "minimum-remove-to-make-valid-parentheses",
+          "ts": 1793335136
+        },
+        {
+          "title": "Delete Node in a Linked List",
+          "slug": "delete-node-in-a-linked-list",
+          "ts": 1793334410
+        },
+        {
+          "title": "Find if Path Exists in Graph",
+          "slug": "find-if-path-exists-in-graph",
+          "ts": 1793333361
+        },
+        {
+          "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+          "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+          "ts": 1793331301
+        },
+        {
+          "title": "Subsets II",
+          "slug": "subsets-ii",
+          "ts": 1793329896
+        },
+        {
+          "title": "Minimum Interval to Include Each Query",
+          "slug": "minimum-interval-to-include-each-query",
+          "ts": 1793324181
+        },
+        {
+          "title": "Maximum Subarray",
+          "slug": "maximum-subarray",
+          "ts": 1793318403
+        },
         {
           "title": "Koko Eating Bananas",
           "slug": "koko-eating-bananas",
@@ -692,46 +727,26 @@
           "title": "Symmetric Tree",
           "slug": "symmetric-tree",
           "ts": 1792818689
-        },
-        {
-          "title": "Is Graph Bipartite?",
-          "slug": "is-graph-bipartite",
-          "ts": 1792817964
-        },
-        {
-          "title": "Sort Colors",
-          "slug": "sort-colors",
-          "ts": 1792816159
-        },
-        {
-          "title": "Generate Parentheses",
-          "slug": "generate-parentheses",
-          "ts": 1792800411
-        },
-        {
-          "title": "Cheapest Flights Within K Stops",
-          "slug": "cheapest-flights-within-k-stops",
-          "ts": 1792799706
-        },
-        {
-          "title": "Invert Binary Tree",
-          "slug": "invert-binary-tree",
-          "ts": 1792797776
-        },
-        {
-          "title": "Letter Case Permutation",
-          "slug": "letter-case-permutation",
-          "ts": 1792785072
-        },
-        {
-          "title": "Permutations II",
-          "slug": "permutations-ii",
-          "ts": 1792783136
         }
       ]
     },
     "m8": {
       "recent_ac": [
+        {
+          "title": "Longest String Chain",
+          "slug": "longest-string-chain",
+          "ts": 1793338399
+        },
+        {
+          "title": "Find the Longest Valid Obstacle Course at Each Position",
+          "slug": "find-the-longest-valid-obstacle-course-at-each-position",
+          "ts": 1793336646
+        },
+        {
+          "title": "Increasing Triplet Subsequence",
+          "slug": "increasing-triplet-subsequence",
+          "ts": 1793334307
+        },
         {
           "title": "Text Justification",
           "slug": "text-justification",
@@ -816,21 +831,6 @@
           "title": "Serialize and Deserialize Binary Tree",
           "slug": "serialize-and-deserialize-binary-tree",
           "ts": 1792037909
-        },
-        {
-          "title": "Merge Intervals",
-          "slug": "merge-intervals",
-          "ts": 1792036909
-        },
-        {
-          "title": "Trapping Rain Water",
-          "slug": "trapping-rain-water",
-          "ts": 1792036160
-        },
-        {
-          "title": "LRU Cache",
-          "slug": "lru-cache",
-          "ts": 1792033214
         }
       ]
     },

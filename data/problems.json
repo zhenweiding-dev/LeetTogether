@@ -1798,6 +1798,16 @@
       "Sliding Window"
     ]
   },
+  "find-the-longest-valid-obstacle-course-at-each-position": {
+    "difficulty": "Hard",
+    "frontend_id": "1964",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Binary Indexed Tree",
+      "Longest Increasing Subsequence"
+    ]
+  },
   "find-the-middle-index-in-array": {
     "difficulty": "Easy",
     "frontend_id": "1991",
@@ -3997,6 +4007,14 @@
     "frontend_id": "4061",
     "tags": []
   },
+  "minimum-remove-to-make-valid-parentheses": {
+    "difficulty": "Medium",
+    "frontend_id": "1249",
+    "tags": [
+      "String",
+      "Stack"
+    ]
+  },
   "minimum-rotations-to-dial-a-number-i": {
     "difficulty": "Easy",
     "frontend_id": "4070",
@@ -4057,6 +4075,17 @@
     "tags": [
       "String",
       "Greedy"
+    ]
+  },
+  "minimum-sum-of-squared-difference": {
+    "difficulty": "Medium",
+    "frontend_id": "2333",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)"
     ]
   },
   "minimum-swaps-to-arrange-a-binary-grid": {
