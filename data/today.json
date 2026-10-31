@@ -1,9 +1,24 @@
 {
-  "date": "2026-10-29",
-  "fetched_at": "2026-10-30T06:00:33+00:00",
+  "date": "2026-10-30",
+  "fetched_at": "2026-10-31T06:30:26+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Replace Words",
+          "slug": "replace-words",
+          "ts": 1793424639
+        },
+        {
+          "title": "Implement Trie (Prefix Tree)",
+          "slug": "implement-trie-prefix-tree",
+          "ts": 1793400566
+        },
+        {
+          "title": "Valid Parenthesis String",
+          "slug": "valid-parenthesis-string",
+          "ts": 1793343489
+        },
         {
           "title": "Largest Rectangle in Histogram",
           "slug": "largest-rectangle-in-histogram",
@@ -88,21 +103,6 @@
           "title": "Letter Combinations of a Phone Number",
           "slug": "letter-combinations-of-a-phone-number",
           "ts": 1791867227
-        },
-        {
-          "title": "Snapshot Array",
-          "slug": "snapshot-array",
-          "ts": 1791758936
-        },
-        {
-          "title": "Time Based Key-Value Store",
-          "slug": "time-based-key-value-store",
-          "ts": 1791720335
-        },
-        {
-          "title": "Longest Repeating Character Replacement",
-          "slug": "longest-repeating-character-replacement",
-          "ts": 1791713891
         }
       ]
     },
@@ -317,6 +317,71 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Minimum Height Trees",
+          "slug": "minimum-height-trees",
+          "ts": 1793427371
+        },
+        {
+          "title": "Course Schedule II",
+          "slug": "course-schedule-ii",
+          "ts": 1793423229
+        },
+        {
+          "title": "Course Schedule",
+          "slug": "course-schedule",
+          "ts": 1793422667
+        },
+        {
+          "title": "Minimum Genetic Mutation",
+          "slug": "minimum-genetic-mutation",
+          "ts": 1793420432
+        },
+        {
+          "title": "Open the Lock",
+          "slug": "open-the-lock",
+          "ts": 1793419275
+        },
+        {
+          "title": "Word Ladder",
+          "slug": "word-ladder",
+          "ts": 1793413809
+        },
+        {
+          "title": "Rotting Oranges",
+          "slug": "rotting-oranges",
+          "ts": 1793402326
+        },
+        {
+          "title": "Number of Islands",
+          "slug": "number-of-islands",
+          "ts": 1793401030
+        },
+        {
+          "title": "Binary Tree Zigzag Level Order Traversal",
+          "slug": "binary-tree-zigzag-level-order-traversal",
+          "ts": 1793398200
+        },
+        {
+          "title": "Binary Tree Level Order Traversal",
+          "slug": "binary-tree-level-order-traversal",
+          "ts": 1793394516
+        },
+        {
+          "title": "Longest Common Subsequence",
+          "slug": "longest-common-subsequence",
+          "ts": 1793367878
+        },
+        {
+          "title": "Longest Palindromic Substring",
+          "slug": "longest-palindromic-substring",
+          "ts": 1793366724
+        },
+        {
+          "title": "Climbing Stairs",
+          "slug": "climbing-stairs",
+          "ts": 1793344461
+        },
+        {
           "title": "Shortest Path in Binary Matrix",
           "slug": "shortest-path-in-binary-matrix",
           "ts": 1793299876
@@ -350,71 +415,6 @@
           "title": "Surrounded Regions",
           "slug": "surrounded-regions",
           "ts": 1793253855
-        },
-        {
-          "title": "Number of Islands",
-          "slug": "number-of-islands",
-          "ts": 1793253494
-        },
-        {
-          "title": "H-Index",
-          "slug": "h-index",
-          "ts": 1793253058
-        },
-        {
-          "title": "Jump Game II",
-          "slug": "jump-game-ii",
-          "ts": 1793252966
-        },
-        {
-          "title": "Jump Game",
-          "slug": "jump-game",
-          "ts": 1793252843
-        },
-        {
-          "title": "Best Time to Buy and Sell Stock II",
-          "slug": "best-time-to-buy-and-sell-stock-ii",
-          "ts": 1793252799
-        },
-        {
-          "title": "Course Schedule",
-          "slug": "course-schedule",
-          "ts": 1793252688
-        },
-        {
-          "title": "Lowest Common Ancestor of a Binary Tree",
-          "slug": "lowest-common-ancestor-of-a-binary-tree",
-          "ts": 1793251232
-        },
-        {
-          "title": "Minimum Size Subarray Sum",
-          "slug": "minimum-size-subarray-sum",
-          "ts": 1793143227
-        },
-        {
-          "title": "Sqrt(x)",
-          "slug": "sqrtx",
-          "ts": 1793142837
-        },
-        {
-          "title": "Search Insert Position",
-          "slug": "search-insert-position",
-          "ts": 1793142469
-        },
-        {
-          "title": "Binary Search",
-          "slug": "binary-search",
-          "ts": 1793132581
-        },
-        {
-          "title": "Minimum Limit of Balls in a Bag",
-          "slug": "minimum-limit-of-balls-in-a-bag",
-          "ts": 1793129593
-        },
-        {
-          "title": "Maximum Candies Allocated to K Children",
-          "slug": "maximum-candies-allocated-to-k-children",
-          "ts": 1793128150
         }
       ]
     },
@@ -525,6 +525,16 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Making A Large Island",
+          "slug": "making-a-large-island",
+          "ts": 1793396248
+        },
+        {
+          "title": "Find the Safest Path in a Grid",
+          "slug": "find-the-safest-path-in-a-grid",
+          "ts": 1793343974
+        },
+        {
           "title": "Shortest Path in Binary Matrix",
           "slug": "shortest-path-in-binary-matrix",
           "ts": 1793337365
@@ -613,21 +623,96 @@
           "title": "Find Root of a Colored Tree",
           "slug": "find-root-of-a-colored-tree",
           "ts": 1792292689
-        },
-        {
-          "title": "Last Visited Cell in a Directional Grid",
-          "slug": "last-visited-cell-in-a-directional-grid",
-          "ts": 1792291840
-        },
-        {
-          "title": "Minimum Deletions to Make Array Sharp",
-          "slug": "minimum-deletions-to-make-array-sharp",
-          "ts": 1792291201
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Group the People Given the Group Size They Belong To",
+          "slug": "group-the-people-given-the-group-size-they-belong-to",
+          "ts": 1793421989
+        },
+        {
+          "title": "Path with Maximum Probability",
+          "slug": "path-with-maximum-probability",
+          "ts": 1793421375
+        },
+        {
+          "title": "Furthest Building You Can Reach",
+          "slug": "furthest-building-you-can-reach",
+          "ts": 1793420387
+        },
+        {
+          "title": "Determine if Two Strings Are Close",
+          "slug": "determine-if-two-strings-are-close",
+          "ts": 1793418309
+        },
+        {
+          "title": "Sum of Subarray Minimums",
+          "slug": "sum-of-subarray-minimums",
+          "ts": 1793417677
+        },
+        {
+          "title": "Hand of Straights",
+          "slug": "hand-of-straights",
+          "ts": 1793408254
+        },
+        {
+          "title": "Soup Servings",
+          "slug": "soup-servings",
+          "ts": 1793406670
+        },
+        {
+          "title": "Find Eventual Safe States",
+          "slug": "find-eventual-safe-states",
+          "ts": 1793405043
+        },
+        {
+          "title": "All Paths From Source to Target",
+          "slug": "all-paths-from-source-to-target",
+          "ts": 1793402989
+        },
+        {
+          "title": "Custom Sort String",
+          "slug": "custom-sort-string",
+          "ts": 1793402394
+        },
+        {
+          "title": "Reorganize String",
+          "slug": "reorganize-string",
+          "ts": 1793401922
+        },
+        {
+          "title": "Partition Labels",
+          "slug": "partition-labels",
+          "ts": 1793401049
+        },
+        {
+          "title": "Contiguous Array",
+          "slug": "contiguous-array",
+          "ts": 1793398025
+        },
+        {
+          "title": "Longest Palindromic Subsequence",
+          "slug": "longest-palindromic-subsequence",
+          "ts": 1793389625
+        },
+        {
+          "title": "Number of Ways to Arrive at Destination",
+          "slug": "number-of-ways-to-arrive-at-destination",
+          "ts": 1793384711
+        },
+        {
+          "title": "Minimum Genetic Mutation",
+          "slug": "minimum-genetic-mutation",
+          "ts": 1793382743
+        },
+        {
+          "title": "Validate Binary Search Tree",
+          "slug": "validate-binary-search-tree",
+          "ts": 1793381181
+        },
         {
           "title": "Minimum Remove to Make Valid Parentheses",
           "slug": "minimum-remove-to-make-valid-parentheses",
@@ -642,91 +727,6 @@
           "title": "Find if Path Exists in Graph",
           "slug": "find-if-path-exists-in-graph",
           "ts": 1793333361
-        },
-        {
-          "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
-          "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
-          "ts": 1793331301
-        },
-        {
-          "title": "Subsets II",
-          "slug": "subsets-ii",
-          "ts": 1793329896
-        },
-        {
-          "title": "Minimum Interval to Include Each Query",
-          "slug": "minimum-interval-to-include-each-query",
-          "ts": 1793324181
-        },
-        {
-          "title": "Maximum Subarray",
-          "slug": "maximum-subarray",
-          "ts": 1793318403
-        },
-        {
-          "title": "Koko Eating Bananas",
-          "slug": "koko-eating-bananas",
-          "ts": 1793160945
-        },
-        {
-          "title": "Remove Duplicates from Sorted List II",
-          "slug": "remove-duplicates-from-sorted-list-ii",
-          "ts": 1793158874
-        },
-        {
-          "title": "LRU Cache",
-          "slug": "lru-cache",
-          "ts": 1792966248
-        },
-        {
-          "title": "Number of Ways to Arrive at Destination",
-          "slug": "number-of-ways-to-arrive-at-destination",
-          "ts": 1792961387
-        },
-        {
-          "title": "Smallest String With Swaps",
-          "slug": "smallest-string-with-swaps",
-          "ts": 1792884770
-        },
-        {
-          "title": "Design Authentication Manager",
-          "slug": "design-authentication-manager",
-          "ts": 1792882014
-        },
-        {
-          "title": "Design Front Middle Back Queue",
-          "slug": "design-front-middle-back-queue",
-          "ts": 1792880127
-        },
-        {
-          "title": "Sum Root to Leaf Numbers",
-          "slug": "sum-root-to-leaf-numbers",
-          "ts": 1792865869
-        },
-        {
-          "title": "Combination Sum II",
-          "slug": "combination-sum-ii",
-          "ts": 1792865641
-        },
-        {
-          "title": "Path Sum",
-          "slug": "path-sum",
-          "ts": 1792864542
-        },
-        {
-          "title": "Restore IP Addresses",
-          "slug": "restore-ip-addresses",
-          "ts": 1792863829
-        },
-        {
-          "title": "Combination Sum III",
-          "slug": "combination-sum-iii",
-          "ts": 1792820477
-        },
-        {
-          "title": "Symmetric Tree",
-          "slug": "symmetric-tree",
-          "ts": 1792818689
         }
       ]
     },
@@ -837,6 +837,21 @@
     "m9": {
       "recent_ac": [
         {
+          "title": "Longest Substring Without Repeating Characters",
+          "slug": "longest-substring-without-repeating-characters",
+          "ts": 1793383704
+        },
+        {
+          "title": "Minimum Size Subarray Sum",
+          "slug": "minimum-size-subarray-sum",
+          "ts": 1793382069
+        },
+        {
+          "title": "Maximum Average Subarray I",
+          "slug": "maximum-average-subarray-i",
+          "ts": 1793381627
+        },
+        {
           "title": "Top K Frequent Elements",
           "slug": "top-k-frequent-elements",
           "ts": 1793070550
@@ -920,21 +935,6 @@
           "title": "Two Sum II - Input Array Is Sorted",
           "slug": "two-sum-ii-input-array-is-sorted",
           "ts": 1792885102
-        },
-        {
-          "title": "Shortest Way to Form String",
-          "slug": "shortest-way-to-form-string",
-          "ts": 1792884559
-        },
-        {
-          "title": "Word Break",
-          "slug": "word-break",
-          "ts": 1792883833
-        },
-        {
-          "title": "Zero Array Transformation I",
-          "slug": "zero-array-transformation-i",
-          "ts": 1792882706
         }
       ]
     },
