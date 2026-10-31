@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-30",
-  "fetched_at": "2026-10-31T06:30:26+00:00",
+  "date": "2026-10-31",
+  "fetched_at": "2026-10-31T22:30:26+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,109 +317,114 @@
     "m4": {
       "recent_ac": [
         {
-          "title": "Minimum Height Trees",
-          "slug": "minimum-height-trees",
-          "ts": 1793427371
+          "title": "Number of Closed Islands",
+          "slug": "number-of-closed-islands",
+          "ts": 1793460478
         },
         {
-          "title": "Course Schedule II",
-          "slug": "course-schedule-ii",
-          "ts": 1793423229
+          "title": "All Paths From Source to Target",
+          "slug": "all-paths-from-source-to-target",
+          "ts": 1793460066
         },
         {
-          "title": "Course Schedule",
-          "slug": "course-schedule",
-          "ts": 1793422667
+          "title": "Pacific Atlantic Water Flow",
+          "slug": "pacific-atlantic-water-flow",
+          "ts": 1793459362
         },
         {
-          "title": "Minimum Genetic Mutation",
-          "slug": "minimum-genetic-mutation",
-          "ts": 1793420432
+          "title": "Flood Fill",
+          "slug": "flood-fill",
+          "ts": 1793457597
         },
         {
-          "title": "Open the Lock",
-          "slug": "open-the-lock",
-          "ts": 1793419275
+          "title": "Max Area of Island",
+          "slug": "max-area-of-island",
+          "ts": 1793455984
+        },
+        {
+          "title": "As Far from Land as Possible",
+          "slug": "as-far-from-land-as-possible",
+          "ts": 1793454039
         },
         {
           "title": "Word Ladder",
           "slug": "word-ladder",
-          "ts": 1793413809
+          "ts": 1793453451
+        },
+        {
+          "title": "Minimum Genetic Mutation",
+          "slug": "minimum-genetic-mutation",
+          "ts": 1793452858
+        },
+        {
+          "title": "Open the Lock",
+          "slug": "open-the-lock",
+          "ts": 1793452639
         },
         {
           "title": "Rotting Oranges",
           "slug": "rotting-oranges",
-          "ts": 1793402326
+          "ts": 1793452396
         },
         {
-          "title": "Number of Islands",
-          "slug": "number-of-islands",
-          "ts": 1793401030
-        },
-        {
-          "title": "Binary Tree Zigzag Level Order Traversal",
-          "slug": "binary-tree-zigzag-level-order-traversal",
-          "ts": 1793398200
-        },
-        {
-          "title": "Binary Tree Level Order Traversal",
-          "slug": "binary-tree-level-order-traversal",
-          "ts": 1793394516
-        },
-        {
-          "title": "Longest Common Subsequence",
-          "slug": "longest-common-subsequence",
-          "ts": 1793367878
-        },
-        {
-          "title": "Longest Palindromic Substring",
-          "slug": "longest-palindromic-substring",
-          "ts": 1793366724
-        },
-        {
-          "title": "Climbing Stairs",
-          "slug": "climbing-stairs",
-          "ts": 1793344461
+          "title": "01 Matrix",
+          "slug": "01-matrix",
+          "ts": 1793452160
         },
         {
           "title": "Shortest Path in Binary Matrix",
           "slug": "shortest-path-in-binary-matrix",
-          "ts": 1793299876
+          "ts": 1793451891
         },
         {
-          "title": "Two Sum",
-          "slug": "two-sum",
-          "ts": 1793298809
+          "title": "Number of Islands",
+          "slug": "number-of-islands",
+          "ts": 1793451601
         },
         {
-          "title": "Rotate Array",
-          "slug": "rotate-array",
-          "ts": 1793267431
+          "title": "Minimum Height Trees",
+          "slug": "minimum-height-trees",
+          "ts": 1793448233
         },
         {
-          "title": "Majority Element",
-          "slug": "majority-element",
-          "ts": 1793267321
+          "title": "Longest Increasing Path in a Matrix",
+          "slug": "longest-increasing-path-in-a-matrix",
+          "ts": 1793447947
         },
         {
-          "title": "Remove Duplicates from Sorted Array II",
-          "slug": "remove-duplicates-from-sorted-array-ii",
-          "ts": 1793267227
+          "title": "Network Delay Time",
+          "slug": "network-delay-time",
+          "ts": 1793446440
         },
         {
-          "title": "Remove Element",
-          "slug": "remove-element",
-          "ts": 1793266974
+          "title": "Path With Minimum Effort",
+          "slug": "path-with-minimum-effort",
+          "ts": 1793443001
         },
         {
-          "title": "Surrounded Regions",
-          "slug": "surrounded-regions",
-          "ts": 1793253855
+          "title": "Network Delay Time",
+          "slug": "network-delay-time",
+          "ts": 1793441856
+        },
+        {
+          "title": "Longest Increasing Path in a Matrix",
+          "slug": "longest-increasing-path-in-a-matrix",
+          "ts": 1793439239
+        },
+        {
+          "title": "Minimum Height Trees",
+          "slug": "minimum-height-trees",
+          "ts": 1793427371
         }
       ]
     },
     "m5": {
       "recent_ac": [
+        {
+          "title": "Redundant Connection",
+          "slug": "redundant-connection",
+          "ts": 1793469498
+        },
         {
           "title": "Minimum Sum of Squared Difference",
           "slug": "minimum-sum-of-squared-difference",
@@ -514,11 +519,6 @@
           "title": "Minimum Number of Days to Make m Bouquets",
           "slug": "minimum-number-of-days-to-make-m-bouquets",
           "ts": 1791138548
-        },
-        {
-          "title": "Bulls and Cows",
-          "slug": "bulls-and-cows",
-          "ts": 1791095161
         }
       ]
     },
@@ -629,6 +629,21 @@
     "m7": {
       "recent_ac": [
         {
+          "title": "Remove Duplicate Letters",
+          "slug": "remove-duplicate-letters",
+          "ts": 1793485244
+        },
+        {
+          "title": "Longest Mountain in Array",
+          "slug": "longest-mountain-in-array",
+          "ts": 1793470557
+        },
+        {
+          "title": "Number of Closed Islands",
+          "slug": "number-of-closed-islands",
+          "ts": 1793468886
+        },
+        {
           "title": "Group the People Given the Group Size They Belong To",
           "slug": "group-the-people-given-the-group-size-they-belong-to",
           "ts": 1793421989
@@ -712,21 +727,6 @@
           "title": "Validate Binary Search Tree",
           "slug": "validate-binary-search-tree",
           "ts": 1793381181
-        },
-        {
-          "title": "Minimum Remove to Make Valid Parentheses",
-          "slug": "minimum-remove-to-make-valid-parentheses",
-          "ts": 1793335136
-        },
-        {
-          "title": "Delete Node in a Linked List",
-          "slug": "delete-node-in-a-linked-list",
-          "ts": 1793334410
-        },
-        {
-          "title": "Find if Path Exists in Graph",
-          "slug": "find-if-path-exists-in-graph",
-          "ts": 1793333361
         }
       ]
     },

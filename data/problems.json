@@ -2693,6 +2693,21 @@
       "Sliding Window"
     ]
   },
+  "longest-increasing-path-in-a-matrix": {
+    "difficulty": "Hard",
+    "frontend_id": "329",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort",
+      "Memoization",
+      "Matrix",
+      "Directed Acyclic Graph"
+    ]
+  },
   "longest-increasing-subsequence": {
     "difficulty": "Medium",
     "frontend_id": "300",
