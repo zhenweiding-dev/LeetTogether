@@ -185,6 +185,17 @@
       "Enumeration"
     ]
   },
+  "amount-of-time-for-binary-tree-to-be-infected": {
+    "difficulty": "Medium",
+    "frontend_id": "2385",
+    "tags": [
+      "Hash Table",
+      "Tree",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Binary Tree"
+    ]
+  },
   "angle-between-hands-of-a-clock": {
     "difficulty": "Medium",
     "frontend_id": "1344",
@@ -1182,6 +1193,7 @@
   },
   "delete-node-in-a-bst": {
     "difficulty": "Medium",
+    "frontend_id": "450",
     "tags": [
       "Tree",
       "Binary Search Tree",
@@ -2444,6 +2456,14 @@
       "Sorting"
     ]
   },
+  "largest-integer-with-given-digit-sum": {
+    "difficulty": "Easy",
+    "frontend_id": "4000",
+    "tags": [
+      "Math",
+      "Greedy"
+    ]
+  },
   "largest-merge-of-two-strings": {
     "difficulty": "Medium",
     "frontend_id": "1754",
@@ -2691,6 +2711,21 @@
     "tags": [
       "Array",
       "Sliding Window"
+    ]
+  },
+  "longest-increasing-path-in-a-matrix": {
+    "difficulty": "Hard",
+    "frontend_id": "329",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Topological Sort",
+      "Memoization",
+      "Matrix",
+      "Directed Acyclic Graph"
     ]
   },
   "longest-increasing-subsequence": {
@@ -3647,6 +3682,11 @@
       "Shortest Path"
     ]
   },
+  "minimize-the-maximum-value-of-gcd-connected-array": {
+    "difficulty": "Medium",
+    "frontend_id": "4098",
+    "tags": []
+  },
   "minimum-absolute-distance-between-mirror-pairs": {
     "difficulty": "Medium",
     "frontend_id": "3761",
@@ -3766,6 +3806,14 @@
       "Sliding Window",
       "Simulation",
       "Counting"
+    ]
+  },
+  "minimum-distance-to-type-a-word-using-two-fingers": {
+    "difficulty": "Hard",
+    "frontend_id": "1320",
+    "tags": [
+      "String",
+      "Dynamic Programming"
     ]
   },
   "minimum-falling-path-sum": {
@@ -4182,6 +4230,11 @@
       "Matrix",
       "Shortest Path"
     ]
+  },
+  "minimum-value-of-merged-integers": {
+    "difficulty": "Easy",
+    "frontend_id": "4097",
+    "tags": []
   },
   "minimum-window-substring": {
     "difficulty": "Hard",
@@ -5138,6 +5191,21 @@
     "frontend_id": "4065",
     "tags": []
   },
+  "reconstruct-itinerary": {
+    "difficulty": "Hard",
+    "frontend_id": "332",
+    "tags": [
+      "Array",
+      "String",
+      "Depth-First Search",
+      "Graph Theory",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Eulerian Circuit",
+      "Eulerian Path",
+      "Semi-Eulerian Graph"
+    ]
+  },
   "rectangle-area": {
     "difficulty": "Medium",
     "frontend_id": "223",
@@ -5793,6 +5861,14 @@
     "tags": [
       "String",
       "Stack"
+    ]
+  },
+  "single-element-in-a-sorted-array": {
+    "difficulty": "Medium",
+    "frontend_id": "540",
+    "tags": [
+      "Array",
+      "Binary Search"
     ]
   },
   "single-number": {
