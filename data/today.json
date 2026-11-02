@@ -1,6 +1,6 @@
 {
-  "date": "2026-10-31",
-  "fetched_at": "2026-11-01T06:30:37+00:00",
+  "date": "2026-11-01",
+  "fetched_at": "2026-11-02T07:55:29+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,109 +317,114 @@
     "m4": {
       "recent_ac": [
         {
-          "title": "Path With Minimum Effort",
-          "slug": "path-with-minimum-effort",
-          "ts": 1793513684
+          "title": "Merge Two Sorted Lists",
+          "slug": "merge-two-sorted-lists",
+          "ts": 1793604730
         },
         {
-          "title": "Network Delay Time",
-          "slug": "network-delay-time",
-          "ts": 1793507408
+          "title": "Interleaving String",
+          "slug": "interleaving-string",
+          "ts": 1793579353
         },
         {
-          "title": "Find Eventual Safe States",
-          "slug": "find-eventual-safe-states",
-          "ts": 1793506170
+          "title": "Swim in Rising Water",
+          "slug": "swim-in-rising-water",
+          "ts": 1793572672
         },
         {
-          "title": "Minimum Height Trees",
-          "slug": "minimum-height-trees",
-          "ts": 1793504664
+          "title": "Edit Distance",
+          "slug": "edit-distance",
+          "ts": 1793564682
         },
         {
-          "title": "Course Schedule II",
-          "slug": "course-schedule-ii",
-          "ts": 1793504295
+          "title": "Delete Operation for Two Strings",
+          "slug": "delete-operation-for-two-strings",
+          "ts": 1793560453
         },
         {
-          "title": "Course Schedule",
-          "slug": "course-schedule",
-          "ts": 1793503387
+          "title": "Cheapest Flights Within K Stops",
+          "slug": "cheapest-flights-within-k-stops",
+          "ts": 1793556706
         },
         {
-          "title": "Reconstruct Itinerary",
-          "slug": "reconstruct-itinerary",
-          "ts": 1793494293
+          "title": "Minimum Falling Path Sum",
+          "slug": "minimum-falling-path-sum",
+          "ts": 1793552111
         },
         {
-          "title": "Network Delay Time",
-          "slug": "network-delay-time",
-          "ts": 1793490117
+          "title": "Maximal Square",
+          "slug": "maximal-square",
+          "ts": 1793551347
         },
         {
-          "title": "Number of Closed Islands",
-          "slug": "number-of-closed-islands",
-          "ts": 1793460478
+          "title": "Swim in Rising Water",
+          "slug": "swim-in-rising-water",
+          "ts": 1793551097
         },
         {
-          "title": "All Paths From Source to Target",
-          "slug": "all-paths-from-source-to-target",
-          "ts": 1793460066
+          "title": "Number of Longest Increasing Subsequence",
+          "slug": "number-of-longest-increasing-subsequence",
+          "ts": 1793539421
         },
         {
-          "title": "Pacific Atlantic Water Flow",
-          "slug": "pacific-atlantic-water-flow",
-          "ts": 1793459362
+          "title": "Word Break",
+          "slug": "word-break",
+          "ts": 1793537080
         },
         {
-          "title": "Flood Fill",
-          "slug": "flood-fill",
-          "ts": 1793457597
+          "title": "Maximum Product Subarray",
+          "slug": "maximum-product-subarray",
+          "ts": 1793536131
         },
         {
-          "title": "Max Area of Island",
-          "slug": "max-area-of-island",
-          "ts": 1793455984
+          "title": "Maximum Subarray",
+          "slug": "maximum-subarray",
+          "ts": 1793533631
         },
         {
-          "title": "As Far from Land as Possible",
-          "slug": "as-far-from-land-as-possible",
-          "ts": 1793454039
+          "title": "House Robber II",
+          "slug": "house-robber-ii",
+          "ts": 1793532745
         },
         {
-          "title": "Word Ladder",
-          "slug": "word-ladder",
-          "ts": 1793453451
+          "title": "House Robber",
+          "slug": "house-robber",
+          "ts": 1793530703
         },
         {
-          "title": "Minimum Genetic Mutation",
-          "slug": "minimum-genetic-mutation",
-          "ts": 1793452858
+          "title": "Min Cost Climbing Stairs",
+          "slug": "min-cost-climbing-stairs",
+          "ts": 1793530349
         },
         {
-          "title": "Open the Lock",
-          "slug": "open-the-lock",
-          "ts": 1793452639
+          "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
+          "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
+          "ts": 1793529800
         },
         {
-          "title": "Rotting Oranges",
-          "slug": "rotting-oranges",
-          "ts": 1793452396
+          "title": "Design Graph With Shortest Path Calculator",
+          "slug": "design-graph-with-shortest-path-calculator",
+          "ts": 1793528996
         },
         {
-          "title": "01 Matrix",
-          "slug": "01-matrix",
-          "ts": 1793452160
+          "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
+          "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
+          "ts": 1793527246
         },
         {
-          "title": "Shortest Path in Binary Matrix",
-          "slug": "shortest-path-in-binary-matrix",
-          "ts": 1793451891
+          "title": "Number of Ways to Arrive at Destination",
+          "slug": "number-of-ways-to-arrive-at-destination",
+          "ts": 1793525012
         }
       ]
     },
     "m5": {
       "recent_ac": [
+        {
+          "title": "Partition Equal Subset Sum",
+          "slug": "partition-equal-subset-sum",
+          "ts": 1793598240
+        },
         {
           "title": "Redundant Connection",
           "slug": "redundant-connection",
@@ -514,16 +519,31 @@
           "title": "Find the Town Judge",
           "slug": "find-the-town-judge",
           "ts": 1791169751
-        },
-        {
-          "title": "Minimum Number of Days to Make m Bouquets",
-          "slug": "minimum-number-of-days-to-make-m-bouquets",
-          "ts": 1791138548
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Lexicographical Numbers",
+          "slug": "lexicographical-numbers",
+          "ts": 1793605409
+        },
+        {
+          "title": "Partition Equal Subset Sum",
+          "slug": "partition-equal-subset-sum",
+          "ts": 1793577253
+        },
+        {
+          "title": "Minimum Distance to Type a Word Using Two Fingers",
+          "slug": "minimum-distance-to-type-a-word-using-two-fingers",
+          "ts": 1793576333
+        },
+        {
+          "title": "Find the Index of the First Occurrence in a String",
+          "slug": "find-the-index-of-the-first-occurrence-in-a-string",
+          "ts": 1793516401
+        },
         {
           "title": "Minimum Distance to Type a Word Using Two Fingers",
           "slug": "minimum-distance-to-type-a-word-using-two-fingers",
@@ -603,31 +623,26 @@
           "title": "K Closest Points to Origin",
           "slug": "k-closest-points-to-origin",
           "ts": 1792996080
-        },
-        {
-          "title": "Design Add and Search Words Data Structure",
-          "slug": "design-add-and-search-words-data-structure",
-          "ts": 1792903519
-        },
-        {
-          "title": "Maximal Square",
-          "slug": "maximal-square",
-          "ts": 1792902222
-        },
-        {
-          "title": "Kth Smallest Element in a BST",
-          "slug": "kth-smallest-element-in-a-bst",
-          "ts": 1792814302
-        },
-        {
-          "title": "Range Sum Query 2D - Immutable",
-          "slug": "range-sum-query-2d-immutable",
-          "ts": 1792811689
         }
       ]
     },
     "m7": {
       "recent_ac": [
+        {
+          "title": "Count the Number of Good Nodes",
+          "slug": "count-the-number-of-good-nodes",
+          "ts": 1793562019
+        },
+        {
+          "title": "K-th Largest Perfect Subtree Size in Binary Tree",
+          "slug": "k-th-largest-perfect-subtree-size-in-binary-tree",
+          "ts": 1793560517
+        },
+        {
+          "title": "Basic Calculator",
+          "slug": "basic-calculator",
+          "ts": 1793556534
+        },
         {
           "title": "Minimize the Maximum Value of GCD-Connected Array",
           "slug": "minimize-the-maximum-value-of-gcd-connected-array",
@@ -712,21 +727,6 @@
           "title": "Soup Servings",
           "slug": "soup-servings",
           "ts": 1793406670
-        },
-        {
-          "title": "Find Eventual Safe States",
-          "slug": "find-eventual-safe-states",
-          "ts": 1793405043
-        },
-        {
-          "title": "All Paths From Source to Target",
-          "slug": "all-paths-from-source-to-target",
-          "ts": 1793402989
-        },
-        {
-          "title": "Custom Sort String",
-          "slug": "custom-sort-string",
-          "ts": 1793402394
         }
       ]
     },

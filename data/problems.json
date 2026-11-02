@@ -1281,6 +1281,16 @@
       "Data Stream"
     ]
   },
+  "design-graph-with-shortest-path-calculator": {
+    "difficulty": "Hard",
+    "frontend_id": "2642",
+    "tags": [
+      "Graph Theory",
+      "Design",
+      "Heap (Priority Queue)",
+      "Shortest Path"
+    ]
+  },
   "design-in-memory-file-system": {
     "difficulty": "Hard",
     "frontend_id": "588",
@@ -1755,6 +1765,18 @@
     "frontend_id": "4085",
     "tags": []
   },
+  "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance": {
+    "difficulty": "Medium",
+    "frontend_id": "1334",
+    "tags": [
+      "Dynamic Programming",
+      "Graph Theory",
+      "Shortest Path",
+      "Dijkstra's Algorithm",
+      "Bellman–Ford Algorithm",
+      "Floyd–Warshall Algorithm"
+    ]
+  },
   "find-the-duplicate-number": {
     "difficulty": "Medium",
     "frontend_id": "287",
@@ -2214,6 +2236,14 @@
       "String"
     ]
   },
+  "interleaving-string": {
+    "difficulty": "Medium",
+    "frontend_id": "97",
+    "tags": [
+      "String",
+      "Dynamic Programming"
+    ]
+  },
   "intersection-of-two-arrays": {
     "difficulty": "Easy",
     "frontend_id": "349",
@@ -2603,6 +2633,14 @@
       "Hash Table",
       "String",
       "Backtracking"
+    ]
+  },
+  "lexicographical-numbers": {
+    "difficulty": "Medium",
+    "frontend_id": "386",
+    "tags": [
+      "Depth-First Search",
+      "Trie"
     ]
   },
   "lfu-cache": {
@@ -3742,6 +3780,20 @@
     "tags": [
       "Array",
       "Dynamic Programming"
+    ]
+  },
+  "minimum-cost-to-make-at-least-one-valid-path-in-a-grid": {
+    "difficulty": "Hard",
+    "frontend_id": "1368",
+    "tags": [
+      "Array",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Matrix",
+      "Shortest Path",
+      "0-1 BFS",
+      "Dijkstra's Algorithm"
     ]
   },
   "minimum-deletion-cost-to-make-all-characters-equal": {
