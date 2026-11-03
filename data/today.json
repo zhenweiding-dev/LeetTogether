@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-01",
-  "fetched_at": "2026-11-02T07:55:29+00:00",
+  "date": "2026-11-02",
+  "fetched_at": "2026-11-03T06:00:47+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,109 +317,114 @@
     "m4": {
       "recent_ac": [
         {
-          "title": "Merge Two Sorted Lists",
-          "slug": "merge-two-sorted-lists",
-          "ts": 1793604730
+          "title": "Daily Temperatures",
+          "slug": "daily-temperatures",
+          "ts": 1793684546
         },
         {
-          "title": "Interleaving String",
-          "slug": "interleaving-string",
-          "ts": 1793579353
+          "title": "Richest Customer Wealth",
+          "slug": "richest-customer-wealth",
+          "ts": 1793681328
         },
         {
-          "title": "Swim in Rising Water",
-          "slug": "swim-in-rising-water",
-          "ts": 1793572672
+          "title": "Number of Good Pairs",
+          "slug": "number-of-good-pairs",
+          "ts": 1793681182
         },
         {
-          "title": "Edit Distance",
-          "slug": "edit-distance",
-          "ts": 1793564682
+          "title": "Find the Duplicate Number",
+          "slug": "find-the-duplicate-number",
+          "ts": 1793680877
         },
         {
-          "title": "Delete Operation for Two Strings",
-          "slug": "delete-operation-for-two-strings",
-          "ts": 1793560453
+          "title": "Spiral Matrix",
+          "slug": "spiral-matrix",
+          "ts": 1793680535
         },
         {
-          "title": "Cheapest Flights Within K Stops",
-          "slug": "cheapest-flights-within-k-stops",
-          "ts": 1793556706
+          "title": "Rotate Image",
+          "slug": "rotate-image",
+          "ts": 1793680234
         },
         {
-          "title": "Minimum Falling Path Sum",
-          "slug": "minimum-falling-path-sum",
-          "ts": 1793552111
+          "title": "Subarray Sum Equals K",
+          "slug": "subarray-sum-equals-k",
+          "ts": 1793680005
         },
         {
-          "title": "Maximal Square",
-          "slug": "maximal-square",
-          "ts": 1793551347
+          "title": "Insert Interval",
+          "slug": "insert-interval",
+          "ts": 1793679464
         },
         {
-          "title": "Swim in Rising Water",
-          "slug": "swim-in-rising-water",
-          "ts": 1793551097
+          "title": "Max Consecutive Ones",
+          "slug": "max-consecutive-ones",
+          "ts": 1793678972
         },
         {
-          "title": "Number of Longest Increasing Subsequence",
-          "slug": "number-of-longest-increasing-subsequence",
-          "ts": 1793539421
+          "title": "Concatenation of Array",
+          "slug": "concatenation-of-array",
+          "ts": 1793678903
         },
         {
-          "title": "Word Break",
-          "slug": "word-break",
-          "ts": 1793537080
+          "title": "Next Permutation",
+          "slug": "next-permutation",
+          "ts": 1793678822
         },
         {
-          "title": "Maximum Product Subarray",
-          "slug": "maximum-product-subarray",
-          "ts": 1793536131
+          "title": "Merge Intervals",
+          "slug": "merge-intervals",
+          "ts": 1793678618
         },
         {
-          "title": "Maximum Subarray",
-          "slug": "maximum-subarray",
-          "ts": 1793533631
+          "title": "Product of Array Except Self",
+          "slug": "product-of-array-except-self",
+          "ts": 1793678476
         },
         {
-          "title": "House Robber II",
-          "slug": "house-robber-ii",
-          "ts": 1793532745
+          "title": "Rotate Array",
+          "slug": "rotate-array",
+          "ts": 1793677989
         },
         {
-          "title": "House Robber",
-          "slug": "house-robber",
-          "ts": 1793530703
+          "title": "Longest Consecutive Sequence",
+          "slug": "longest-consecutive-sequence",
+          "ts": 1793677796
         },
         {
-          "title": "Min Cost Climbing Stairs",
-          "slug": "min-cost-climbing-stairs",
-          "ts": 1793530349
+          "title": "Group Anagrams",
+          "slug": "group-anagrams",
+          "ts": 1793677648
         },
         {
-          "title": "Minimum Cost to Make at Least One Valid Path in a Grid",
-          "slug": "minimum-cost-to-make-at-least-one-valid-path-in-a-grid",
-          "ts": 1793529800
+          "title": "Valid Anagram",
+          "slug": "valid-anagram",
+          "ts": 1793677572
         },
         {
-          "title": "Design Graph With Shortest Path Calculator",
-          "slug": "design-graph-with-shortest-path-calculator",
-          "ts": 1793528996
+          "title": "Contains Duplicate",
+          "slug": "contains-duplicate",
+          "ts": 1793677429
         },
         {
-          "title": "Find the City With the Smallest Number of Neighbors at a Threshold Distance",
-          "slug": "find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance",
-          "ts": 1793527246
+          "title": "Next Permutation",
+          "slug": "next-permutation",
+          "ts": 1793677334
         },
         {
-          "title": "Number of Ways to Arrive at Destination",
-          "slug": "number-of-ways-to-arrive-at-destination",
-          "ts": 1793525012
+          "title": "Permutation Sequence",
+          "slug": "permutation-sequence",
+          "ts": 1793674216
         }
       ]
     },
     "m5": {
       "recent_ac": [
+        {
+          "title": "Arranging Coins",
+          "slug": "arranging-coins",
+          "ts": 1793652372
+        },
         {
           "title": "Partition Equal Subset Sum",
           "slug": "partition-equal-subset-sum",
@@ -514,11 +519,6 @@
           "title": "Merge Intervals",
           "slug": "merge-intervals",
           "ts": 1791437230
-        },
-        {
-          "title": "Find the Town Judge",
-          "slug": "find-the-town-judge",
-          "ts": 1791169751
         }
       ]
     },
@@ -527,7 +527,7 @@
         {
           "title": "Lexicographical Numbers",
           "slug": "lexicographical-numbers",
-          "ts": 1793605409
+          "ts": 1793663160
         },
         {
           "title": "Partition Equal Subset Sum",
@@ -941,6 +941,11 @@
     "m10": {
       "recent_ac": [
         {
+          "title": "Daily Temperatures",
+          "slug": "daily-temperatures",
+          "ts": 1793682787
+        },
+        {
           "title": "Serialize and Deserialize Binary Tree",
           "slug": "serialize-and-deserialize-binary-tree",
           "ts": 1792821859
@@ -1034,11 +1039,6 @@
           "title": "Binary Tree Maximum Path Sum",
           "slug": "binary-tree-maximum-path-sum",
           "ts": 1792447493
-        },
-        {
-          "title": "Remove Duplicates From an Unsorted Linked List",
-          "slug": "remove-duplicates-from-an-unsorted-linked-list",
-          "ts": 1792444614
         }
       ]
     }

@@ -219,6 +219,14 @@
       "String"
     ]
   },
+  "arranging-coins": {
+    "difficulty": "Easy",
+    "frontend_id": "441",
+    "tags": [
+      "Math",
+      "Binary Search"
+    ]
+  },
   "as-far-from-land-as-possible": {
     "difficulty": "Medium",
     "frontend_id": "1162",
@@ -456,6 +464,16 @@
       "Depth-First Search",
       "Binary Tree",
       "DP on Trees"
+    ]
+  },
+  "binary-tree-preorder-traversal": {
+    "difficulty": "Easy",
+    "frontend_id": "144",
+    "tags": [
+      "Stack",
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
     ]
   },
   "binary-tree-pruning": {
@@ -2383,6 +2401,13 @@
       "Binary Tree"
     ]
   },
+  "k-th-smallest-in-lexicographical-order": {
+    "difficulty": "Hard",
+    "frontend_id": "440",
+    "tags": [
+      "Trie"
+    ]
+  },
   "keys-and-rooms": {
     "difficulty": "Medium",
     "frontend_id": "841",
@@ -3661,6 +3686,14 @@
       "Recursion"
     ]
   },
+  "middle-of-the-linked-list": {
+    "difficulty": "Easy",
+    "frontend_id": "876",
+    "tags": [
+      "Linked List",
+      "Two Pointers"
+    ]
+  },
   "min-cost-climbing-stairs": {
     "difficulty": "Easy",
     "frontend_id": "746",
@@ -4559,6 +4592,16 @@
       "Dynamic Programming"
     ]
   },
+  "number-of-good-pairs": {
+    "difficulty": "Easy",
+    "frontend_id": "1512",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Math",
+      "Counting"
+    ]
+  },
   "number-of-good-ways-to-split-a-string": {
     "difficulty": "Medium",
     "frontend_id": "1525",
@@ -5008,6 +5051,14 @@
       "Two Pointers",
       "String",
       "Sliding Window"
+    ]
+  },
+  "permutation-sequence": {
+    "difficulty": "Hard",
+    "frontend_id": "60",
+    "tags": [
+      "Math",
+      "Recursion"
     ]
   },
   "permutations": {
@@ -6560,6 +6611,14 @@
       "Sorting"
     ]
   },
+  "the-k-th-lexicographical-string-of-all-happy-strings-of-length-n": {
+    "difficulty": "Medium",
+    "frontend_id": "1415",
+    "tags": [
+      "String",
+      "Backtracking"
+    ]
+  },
   "the-number-of-beautiful-subsets": {
     "difficulty": "Medium",
     "frontend_id": "2597",
@@ -6775,6 +6834,15 @@
       "Depth-First Search",
       "Breadth-First Search",
       "Graph Theory"
+    ]
+  },
+  "valid-anagram": {
+    "difficulty": "Easy",
+    "frontend_id": "242",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Sorting"
     ]
   },
   "valid-palindrome": {
