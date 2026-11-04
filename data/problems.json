@@ -5906,6 +5906,16 @@
       "Matrix"
     ]
   },
+  "shortest-path-with-at-most-k-consecutive-identical-characters": {
+    "difficulty": "Medium",
+    "frontend_id": "3970",
+    "tags": [
+      "String",
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Shortest Path"
+    ]
+  },
   "shortest-subarray-with-sum-at-least-k": {
     "difficulty": "Hard",
     "frontend_id": "862",
@@ -6534,6 +6544,14 @@
       "Hash Table",
       "String",
       "Sliding Window"
+    ]
+  },
+  "swap-nodes-in-pairs": {
+    "difficulty": "Medium",
+    "frontend_id": "24",
+    "tags": [
+      "Linked List",
+      "Recursion"
     ]
   },
   "swim-in-rising-water": {

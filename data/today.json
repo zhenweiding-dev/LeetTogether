@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-02",
-  "fetched_at": "2026-11-03T06:00:47+00:00",
+  "date": "2026-11-03",
+  "fetched_at": "2026-11-04T05:30:40+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,6 +317,41 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Swap Nodes in Pairs",
+          "slug": "swap-nodes-in-pairs",
+          "ts": 1793750232
+        },
+        {
+          "title": "First Missing Positive",
+          "slug": "first-missing-positive",
+          "ts": 1793744753
+        },
+        {
+          "title": "Trapping Rain Water",
+          "slug": "trapping-rain-water",
+          "ts": 1793740388
+        },
+        {
+          "title": "Shortest Path With At Most K Consecutive Identical Characters",
+          "slug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+          "ts": 1793740022
+        },
+        {
+          "title": "Trapping Rain Water",
+          "slug": "trapping-rain-water",
+          "ts": 1793736338
+        },
+        {
+          "title": "Container With Most Water",
+          "slug": "container-with-most-water",
+          "ts": 1793735630
+        },
+        {
+          "title": "3Sum",
+          "slug": "3sum",
+          "ts": 1793735202
+        },
+        {
           "title": "Daily Temperatures",
           "slug": "daily-temperatures",
           "ts": 1793684546
@@ -380,41 +415,6 @@
           "title": "Product of Array Except Self",
           "slug": "product-of-array-except-self",
           "ts": 1793678476
-        },
-        {
-          "title": "Rotate Array",
-          "slug": "rotate-array",
-          "ts": 1793677989
-        },
-        {
-          "title": "Longest Consecutive Sequence",
-          "slug": "longest-consecutive-sequence",
-          "ts": 1793677796
-        },
-        {
-          "title": "Group Anagrams",
-          "slug": "group-anagrams",
-          "ts": 1793677648
-        },
-        {
-          "title": "Valid Anagram",
-          "slug": "valid-anagram",
-          "ts": 1793677572
-        },
-        {
-          "title": "Contains Duplicate",
-          "slug": "contains-duplicate",
-          "ts": 1793677429
-        },
-        {
-          "title": "Next Permutation",
-          "slug": "next-permutation",
-          "ts": 1793677334
-        },
-        {
-          "title": "Permutation Sequence",
-          "slug": "permutation-sequence",
-          "ts": 1793674216
         }
       ]
     },
@@ -525,6 +525,11 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Shortest Path With At Most K Consecutive Identical Characters",
+          "slug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+          "ts": 1793751658
+        },
+        {
           "title": "Lexicographical Numbers",
           "slug": "lexicographical-numbers",
           "ts": 1793663160
@@ -618,11 +623,6 @@
           "title": "Minimum Path Sum",
           "slug": "minimum-path-sum",
           "ts": 1792996990
-        },
-        {
-          "title": "K Closest Points to Origin",
-          "slug": "k-closest-points-to-origin",
-          "ts": 1792996080
         }
       ]
     },
@@ -941,6 +941,16 @@
     "m10": {
       "recent_ac": [
         {
+          "title": "Partition Equal Subset Sum",
+          "slug": "partition-equal-subset-sum",
+          "ts": 1793768837
+        },
+        {
+          "title": "Construct Binary Tree from Preorder and Inorder Traversal",
+          "slug": "construct-binary-tree-from-preorder-and-inorder-traversal",
+          "ts": 1793767650
+        },
+        {
           "title": "Daily Temperatures",
           "slug": "daily-temperatures",
           "ts": 1793682787
@@ -1029,16 +1039,6 @@
           "title": "Accounts Merge",
           "slug": "accounts-merge",
           "ts": 1792470003
-        },
-        {
-          "title": "Implement Trie (Prefix Tree)",
-          "slug": "implement-trie-prefix-tree",
-          "ts": 1792448353
-        },
-        {
-          "title": "Binary Tree Maximum Path Sum",
-          "slug": "binary-tree-maximum-path-sum",
-          "ts": 1792447493
         }
       ]
     }
