@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-03",
-  "fetched_at": "2026-11-04T05:30:40+00:00",
+  "date": "2026-11-04",
+  "fetched_at": "2026-11-05T05:30:35+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,6 +317,21 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Restore IP Addresses",
+          "slug": "restore-ip-addresses",
+          "ts": 1793855934
+        },
+        {
+          "title": "Concatenated Words",
+          "slug": "concatenated-words",
+          "ts": 1793830098
+        },
+        {
+          "title": "Word Break II",
+          "slug": "word-break-ii",
+          "ts": 1793828632
+        },
+        {
           "title": "Swap Nodes in Pairs",
           "slug": "swap-nodes-in-pairs",
           "ts": 1793750232
@@ -400,21 +415,6 @@
           "title": "Concatenation of Array",
           "slug": "concatenation-of-array",
           "ts": 1793678903
-        },
-        {
-          "title": "Next Permutation",
-          "slug": "next-permutation",
-          "ts": 1793678822
-        },
-        {
-          "title": "Merge Intervals",
-          "slug": "merge-intervals",
-          "ts": 1793678618
-        },
-        {
-          "title": "Product of Array Except Self",
-          "slug": "product-of-array-except-self",
-          "ts": 1793678476
         }
       ]
     },
@@ -525,6 +525,11 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Find the Safest Path in a Grid",
+          "slug": "find-the-safest-path-in-a-grid",
+          "ts": 1793848271
+        },
+        {
           "title": "Shortest Path With At Most K Consecutive Identical Characters",
           "slug": "shortest-path-with-at-most-k-consecutive-identical-characters",
           "ts": 1793751658
@@ -618,11 +623,6 @@
           "title": "Word Search II",
           "slug": "word-search-ii",
           "ts": 1793000683
-        },
-        {
-          "title": "Minimum Path Sum",
-          "slug": "minimum-path-sum",
-          "ts": 1792996990
         }
       ]
     },
@@ -941,6 +941,16 @@
     "m10": {
       "recent_ac": [
         {
+          "title": "Longest Repeating Character Replacement",
+          "slug": "longest-repeating-character-replacement",
+          "ts": 1793856510
+        },
+        {
+          "title": "Subarray Sum Equals K",
+          "slug": "subarray-sum-equals-k",
+          "ts": 1793855074
+        },
+        {
           "title": "Partition Equal Subset Sum",
           "slug": "partition-equal-subset-sum",
           "ts": 1793768837
@@ -1029,16 +1039,6 @@
           "title": "Longest Palindromic Substring",
           "slug": "longest-palindromic-substring",
           "ts": 1792616095
-        },
-        {
-          "title": "Regular Expression Matching",
-          "slug": "regular-expression-matching",
-          "ts": 1792615096
-        },
-        {
-          "title": "Accounts Merge",
-          "slug": "accounts-merge",
-          "ts": 1792470003
         }
       ]
     }

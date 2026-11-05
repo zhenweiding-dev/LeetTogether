@@ -754,6 +754,18 @@
       "Backtracking"
     ]
   },
+  "concatenated-words": {
+    "difficulty": "Hard",
+    "frontend_id": "472",
+    "tags": [
+      "Array",
+      "String",
+      "Dynamic Programming",
+      "Depth-First Search",
+      "Trie",
+      "Sorting"
+    ]
+  },
   "concatenation-of-array": {
     "difficulty": "Easy",
     "frontend_id": "1929",
