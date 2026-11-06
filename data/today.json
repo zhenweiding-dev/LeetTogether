@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-04",
-  "fetched_at": "2026-11-05T05:30:35+00:00",
+  "date": "2026-11-05",
+  "fetched_at": "2026-11-06T07:55:31+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,6 +317,51 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Minimize the Maximum Difference of Pairs",
+          "slug": "minimize-the-maximum-difference-of-pairs",
+          "ts": 1793950232
+        },
+        {
+          "title": "Shortest Common Supersequence ",
+          "slug": "shortest-common-supersequence",
+          "ts": 1793945798
+        },
+        {
+          "title": "Delete Operation for Two Strings",
+          "slug": "delete-operation-for-two-strings",
+          "ts": 1793942296
+        },
+        {
+          "title": "Edit Distance",
+          "slug": "edit-distance",
+          "ts": 1793941939
+        },
+        {
+          "title": "Minimum ASCII Delete Sum for Two Strings",
+          "slug": "minimum-ascii-delete-sum-for-two-strings",
+          "ts": 1793941632
+        },
+        {
+          "title": "Longest Common Subsequence",
+          "slug": "longest-common-subsequence",
+          "ts": 1793940917
+        },
+        {
+          "title": "Uncrossed Lines",
+          "slug": "uncrossed-lines",
+          "ts": 1793940522
+        },
+        {
+          "title": "Maximum Matching of Players With Trainers",
+          "slug": "maximum-matching-of-players-with-trainers",
+          "ts": 1793940297
+        },
+        {
+          "title": "Assign Cookies",
+          "slug": "assign-cookies",
+          "ts": 1793939369
+        },
+        {
           "title": "Restore IP Addresses",
           "slug": "restore-ip-addresses",
           "ts": 1793855934
@@ -370,56 +415,16 @@
           "title": "Daily Temperatures",
           "slug": "daily-temperatures",
           "ts": 1793684546
-        },
-        {
-          "title": "Richest Customer Wealth",
-          "slug": "richest-customer-wealth",
-          "ts": 1793681328
-        },
-        {
-          "title": "Number of Good Pairs",
-          "slug": "number-of-good-pairs",
-          "ts": 1793681182
-        },
-        {
-          "title": "Find the Duplicate Number",
-          "slug": "find-the-duplicate-number",
-          "ts": 1793680877
-        },
-        {
-          "title": "Spiral Matrix",
-          "slug": "spiral-matrix",
-          "ts": 1793680535
-        },
-        {
-          "title": "Rotate Image",
-          "slug": "rotate-image",
-          "ts": 1793680234
-        },
-        {
-          "title": "Subarray Sum Equals K",
-          "slug": "subarray-sum-equals-k",
-          "ts": 1793680005
-        },
-        {
-          "title": "Insert Interval",
-          "slug": "insert-interval",
-          "ts": 1793679464
-        },
-        {
-          "title": "Max Consecutive Ones",
-          "slug": "max-consecutive-ones",
-          "ts": 1793678972
-        },
-        {
-          "title": "Concatenation of Array",
-          "slug": "concatenation-of-array",
-          "ts": 1793678903
         }
       ]
     },
     "m5": {
       "recent_ac": [
+        {
+          "title": "N-Queens",
+          "slug": "n-queens",
+          "ts": 1793942627
+        },
         {
           "title": "Arranging Coins",
           "slug": "arranging-coins",
@@ -514,16 +519,26 @@
           "title": "Angle Between Hands of a Clock",
           "slug": "angle-between-hands-of-a-clock",
           "ts": 1791438388
-        },
-        {
-          "title": "Merge Intervals",
-          "slug": "merge-intervals",
-          "ts": 1791437230
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Shortest Path With At Most K Consecutive Identical Characters",
+          "slug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+          "ts": 1793946155
+        },
+        {
+          "title": "Cheapest Flights Within K Stops",
+          "slug": "cheapest-flights-within-k-stops",
+          "ts": 1793942956
+        },
+        {
+          "title": "Random Pick with Weight",
+          "slug": "random-pick-with-weight",
+          "ts": 1793927184
+        },
         {
           "title": "Find the Safest Path in a Grid",
           "slug": "find-the-safest-path-in-a-grid",
@@ -608,21 +623,6 @@
           "title": "Kth Smallest Element in a BST",
           "slug": "kth-smallest-element-in-a-bst",
           "ts": 1793163660
-        },
-        {
-          "title": "Subtree of Another Tree",
-          "slug": "subtree-of-another-tree",
-          "ts": 1793159278
-        },
-        {
-          "title": "Minimize the Maximum Edge Weight of Graph",
-          "slug": "minimize-the-maximum-edge-weight-of-graph",
-          "ts": 1793066002
-        },
-        {
-          "title": "Word Search II",
-          "slug": "word-search-ii",
-          "ts": 1793000683
         }
       ]
     },
@@ -941,6 +941,16 @@
     "m10": {
       "recent_ac": [
         {
+          "title": "Reorder List",
+          "slug": "reorder-list",
+          "ts": 1793936639
+        },
+        {
+          "title": "Find Median from Data Stream",
+          "slug": "find-median-from-data-stream",
+          "ts": 1793928299
+        },
+        {
           "title": "Longest Repeating Character Replacement",
           "slug": "longest-repeating-character-replacement",
           "ts": 1793856510
@@ -1029,16 +1039,6 @@
           "title": "Longest Palindromic Substring",
           "slug": "longest-palindromic-substring",
           "ts": 1792617726
-        },
-        {
-          "title": "Longest Substring Without Repeating Characters",
-          "slug": "longest-substring-without-repeating-characters",
-          "ts": 1792617199
-        },
-        {
-          "title": "Longest Palindromic Substring",
-          "slug": "longest-palindromic-substring",
-          "ts": 1792616095
         }
       ]
     }

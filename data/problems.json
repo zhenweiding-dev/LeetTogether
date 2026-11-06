@@ -237,6 +237,17 @@
       "Matrix"
     ]
   },
+  "assign-cookies": {
+    "difficulty": "Easy",
+    "frontend_id": "455",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Greedy",
+      "Sorting",
+      "Quicksort"
+    ]
+  },
   "average-waiting-time": {
     "difficulty": "Medium",
     "tags": [
@@ -3367,6 +3378,16 @@
       "Binary Tree"
     ]
   },
+  "maximum-matching-of-players-with-trainers": {
+    "difficulty": "Medium",
+    "frontend_id": "2410",
+    "tags": [
+      "Array",
+      "Two Pointers",
+      "Greedy",
+      "Sorting"
+    ]
+  },
   "maximum-number-of-events-that-can-be-attended": {
     "difficulty": "Medium",
     "frontend_id": "1353",
@@ -3752,6 +3773,17 @@
       "Dynamic Programming",
       "Greedy",
       "Prefix Sum"
+    ]
+  },
+  "minimize-the-maximum-difference-of-pairs": {
+    "difficulty": "Medium",
+    "frontend_id": "2616",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Greedy",
+      "Sorting"
     ]
   },
   "minimize-the-maximum-edge-weight-of-graph": {
@@ -5907,6 +5939,15 @@
       "Depth-First Search",
       "Breadth-First Search",
       "Matrix"
+    ]
+  },
+  "shortest-common-supersequence": {
+    "difficulty": "Hard",
+    "frontend_id": "1092",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Longest Common Subsequence"
     ]
   },
   "shortest-path-in-binary-matrix": {
