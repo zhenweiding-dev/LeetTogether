@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-06",
-  "fetched_at": "2026-11-07T07:55:27+00:00",
+  "date": "2026-11-07",
+  "fetched_at": "2026-11-07T13:00:47+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,6 +317,66 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Rotated Digits",
+          "slug": "rotated-digits",
+          "ts": 1794055312
+        },
+        {
+          "title": "Numbers With Same Consecutive Differences",
+          "slug": "numbers-with-same-consecutive-differences",
+          "ts": 1794055108
+        },
+        {
+          "title": "Lexicographical Numbers",
+          "slug": "lexicographical-numbers",
+          "ts": 1794054706
+        },
+        {
+          "title": "Count Numbers with Unique Digits",
+          "slug": "count-numbers-with-unique-digits",
+          "ts": 1794054310
+        },
+        {
+          "title": "Numbers With Same Consecutive Differences",
+          "slug": "numbers-with-same-consecutive-differences",
+          "ts": 1794050387
+        },
+        {
+          "title": "Lexicographical Numbers",
+          "slug": "lexicographical-numbers",
+          "ts": 1794049129
+        },
+        {
+          "title": "Rotated Digits",
+          "slug": "rotated-digits",
+          "ts": 1794048076
+        },
+        {
+          "title": "Letter Combinations of a Phone Number",
+          "slug": "letter-combinations-of-a-phone-number",
+          "ts": 1794044269
+        },
+        {
+          "title": "Subsets",
+          "slug": "subsets",
+          "ts": 1794044130
+        },
+        {
+          "title": "Maximum Profit in Job Scheduling",
+          "slug": "maximum-profit-in-job-scheduling",
+          "ts": 1794041840
+        },
+        {
+          "title": "Maximize Win From Two Segments",
+          "slug": "maximize-win-from-two-segments",
+          "ts": 1794041514
+        },
+        {
+          "title": "Two Best Non-Overlapping Events",
+          "slug": "two-best-non-overlapping-events",
+          "ts": 1794040268
+        },
+        {
           "title": "Maximum Profit in Job Scheduling",
           "slug": "maximum-profit-in-job-scheduling",
           "ts": 1794026382
@@ -355,66 +415,6 @@
           "title": "Best Time to Buy and Sell Stock with Cooldown",
           "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
           "ts": 1793973192
-        },
-        {
-          "title": "Delete and Earn",
-          "slug": "delete-and-earn",
-          "ts": 1793965118
-        },
-        {
-          "title": "House Robber",
-          "slug": "house-robber",
-          "ts": 1793961785
-        },
-        {
-          "title": "Longest Common Subsequence",
-          "slug": "longest-common-subsequence",
-          "ts": 1793961546
-        },
-        {
-          "title": "Uncrossed Lines",
-          "slug": "uncrossed-lines",
-          "ts": 1793961385
-        },
-        {
-          "title": "Minimum Number of Arrows to Burst Balloons",
-          "slug": "minimum-number-of-arrows-to-burst-balloons",
-          "ts": 1793961129
-        },
-        {
-          "title": "Maximum Matching of Players With Trainers",
-          "slug": "maximum-matching-of-players-with-trainers",
-          "ts": 1793960558
-        },
-        {
-          "title": "Assign Cookies",
-          "slug": "assign-cookies",
-          "ts": 1793960414
-        },
-        {
-          "title": "Two City Scheduling",
-          "slug": "two-city-scheduling",
-          "ts": 1793954837
-        },
-        {
-          "title": "Minimum Absolute Sum Difference",
-          "slug": "minimum-absolute-sum-difference",
-          "ts": 1793952133
-        },
-        {
-          "title": "Minimize the Maximum Difference of Pairs",
-          "slug": "minimize-the-maximum-difference-of-pairs",
-          "ts": 1793950232
-        },
-        {
-          "title": "Shortest Common Supersequence ",
-          "slug": "shortest-common-supersequence",
-          "ts": 1793945798
-        },
-        {
-          "title": "Delete Operation for Two Strings",
-          "slug": "delete-operation-for-two-strings",
-          "ts": 1793942296
         }
       ]
     },

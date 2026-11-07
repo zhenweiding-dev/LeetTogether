@@ -1032,6 +1032,15 @@
       "Dynamic Programming"
     ]
   },
+  "count-numbers-with-unique-digits": {
+    "difficulty": "Medium",
+    "frontend_id": "357",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Backtracking"
+    ]
+  },
   "count-prefix-and-suffix-pairs-i": {
     "difficulty": "Easy",
     "frontend_id": "3042",
@@ -3263,6 +3272,15 @@
       "Prefix Sum"
     ]
   },
+  "maximize-win-from-two-segments": {
+    "difficulty": "Medium",
+    "frontend_id": "2555",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Sliding Window"
+    ]
+  },
   "maximum-alternating-subarray-sum-with-one-deletion": {
     "difficulty": "Medium",
     "frontend_id": "4072",
@@ -4805,6 +4823,14 @@
       "Dijkstra's Algorithm"
     ]
   },
+  "numbers-with-same-consecutive-differences": {
+    "difficulty": "Medium",
+    "frontend_id": "967",
+    "tags": [
+      "Backtracking",
+      "Breadth-First Search"
+    ]
+  },
   "odd-even-linked-list": {
     "difficulty": "Medium",
     "frontend_id": "328",
@@ -5813,6 +5839,14 @@
     "tags": [
       "String",
       "String Matching"
+    ]
+  },
+  "rotated-digits": {
+    "difficulty": "Medium",
+    "frontend_id": "788",
+    "tags": [
+      "Math",
+      "Dynamic Programming"
     ]
   },
   "rotting-oranges": {
@@ -6826,6 +6860,17 @@
     "tags": [
       "Array",
       "Dynamic Programming"
+    ]
+  },
+  "two-best-non-overlapping-events": {
+    "difficulty": "Medium",
+    "frontend_id": "2054",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Sorting",
+      "Heap (Priority Queue)"
     ]
   },
   "two-city-scheduling": {
