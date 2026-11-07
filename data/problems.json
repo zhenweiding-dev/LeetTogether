@@ -9,6 +9,14 @@
       "Matrix"
     ]
   },
+  "2-keys-keyboard": {
+    "difficulty": "Medium",
+    "frontend_id": "650",
+    "tags": [
+      "Math",
+      "Dynamic Programming"
+    ]
+  },
   "3sum": {
     "difficulty": "Medium",
     "frontend_id": "15",
@@ -3324,6 +3332,17 @@
       "Binary Tree"
     ]
   },
+  "maximum-earnings-from-taxi": {
+    "difficulty": "Medium",
+    "frontend_id": "2008",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Dynamic Programming",
+      "Sorting"
+    ]
+  },
   "maximum-equal-adjacent-pairs-after-at-most-one-replacement": {
     "difficulty": "Medium",
     "frontend_id": "4066",
@@ -3809,6 +3828,16 @@
       "Array",
       "Hash Table",
       "Math"
+    ]
+  },
+  "minimum-absolute-sum-difference": {
+    "difficulty": "Medium",
+    "frontend_id": "1818",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Sorting",
+      "Ordered Set"
     ]
   },
   "minimum-add-to-make-parentheses-valid": {
