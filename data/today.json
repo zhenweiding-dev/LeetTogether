@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-06",
-  "fetched_at": "2026-11-07T07:55:27+00:00",
+  "date": "2026-11-07",
+  "fetched_at": "2026-11-08T06:00:33+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,109 +317,119 @@
     "m4": {
       "recent_ac": [
         {
-          "title": "Maximum Profit in Job Scheduling",
-          "slug": "maximum-profit-in-job-scheduling",
-          "ts": 1794026382
+          "title": "Beautiful Towers II",
+          "slug": "beautiful-towers-ii",
+          "ts": 1794117151
         },
         {
-          "title": "Maximum Earnings From Taxi",
-          "slug": "maximum-earnings-from-taxi",
-          "ts": 1794026163
+          "title": "132 Pattern",
+          "slug": "132-pattern",
+          "ts": 1794115799
         },
         {
-          "title": "Maximum Number of Events That Can Be Attended",
-          "slug": "maximum-number-of-events-that-can-be-attended",
-          "ts": 1794025746
+          "title": "Count Bowl Subarrays",
+          "slug": "count-bowl-subarrays",
+          "ts": 1794114326
         },
         {
-          "title": "Maximum Earnings From Taxi",
-          "slug": "maximum-earnings-from-taxi",
-          "ts": 1793996034
+          "title": "Next Greater Element II",
+          "slug": "next-greater-element-ii",
+          "ts": 1794109366
         },
         {
-          "title": "Maximum Number of Events That Can Be Attended",
-          "slug": "maximum-number-of-events-that-can-be-attended",
-          "ts": 1793982083
+          "title": "Next Greater Element I",
+          "slug": "next-greater-element-i",
+          "ts": 1794108515
         },
         {
-          "title": "Non-overlapping Intervals",
-          "slug": "non-overlapping-intervals",
-          "ts": 1793977840
+          "title": "Final Prices With a Special Discount in a Shop",
+          "slug": "final-prices-with-a-special-discount-in-a-shop",
+          "ts": 1794107592
         },
         {
-          "title": "2 Keys Keyboard",
-          "slug": "2-keys-keyboard",
-          "ts": 1793974711
+          "title": "Daily Temperatures",
+          "slug": "daily-temperatures",
+          "ts": 1794104139
         },
         {
           "title": "Best Time to Buy and Sell Stock with Cooldown",
           "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
-          "ts": 1793973192
+          "ts": 1794092094
         },
         {
-          "title": "Delete and Earn",
-          "slug": "delete-and-earn",
-          "ts": 1793965118
+          "title": "Rotated Digits",
+          "slug": "rotated-digits",
+          "ts": 1794055312
         },
         {
-          "title": "House Robber",
-          "slug": "house-robber",
-          "ts": 1793961785
+          "title": "Numbers With Same Consecutive Differences",
+          "slug": "numbers-with-same-consecutive-differences",
+          "ts": 1794055108
         },
         {
-          "title": "Longest Common Subsequence",
-          "slug": "longest-common-subsequence",
-          "ts": 1793961546
+          "title": "Lexicographical Numbers",
+          "slug": "lexicographical-numbers",
+          "ts": 1794054706
         },
         {
-          "title": "Uncrossed Lines",
-          "slug": "uncrossed-lines",
-          "ts": 1793961385
+          "title": "Count Numbers with Unique Digits",
+          "slug": "count-numbers-with-unique-digits",
+          "ts": 1794054310
         },
         {
-          "title": "Minimum Number of Arrows to Burst Balloons",
-          "slug": "minimum-number-of-arrows-to-burst-balloons",
-          "ts": 1793961129
+          "title": "Numbers With Same Consecutive Differences",
+          "slug": "numbers-with-same-consecutive-differences",
+          "ts": 1794050387
         },
         {
-          "title": "Maximum Matching of Players With Trainers",
-          "slug": "maximum-matching-of-players-with-trainers",
-          "ts": 1793960558
+          "title": "Lexicographical Numbers",
+          "slug": "lexicographical-numbers",
+          "ts": 1794049129
         },
         {
-          "title": "Assign Cookies",
-          "slug": "assign-cookies",
-          "ts": 1793960414
+          "title": "Rotated Digits",
+          "slug": "rotated-digits",
+          "ts": 1794048076
         },
         {
-          "title": "Two City Scheduling",
-          "slug": "two-city-scheduling",
-          "ts": 1793954837
+          "title": "Letter Combinations of a Phone Number",
+          "slug": "letter-combinations-of-a-phone-number",
+          "ts": 1794044269
         },
         {
-          "title": "Minimum Absolute Sum Difference",
-          "slug": "minimum-absolute-sum-difference",
-          "ts": 1793952133
+          "title": "Subsets",
+          "slug": "subsets",
+          "ts": 1794044130
         },
         {
-          "title": "Minimize the Maximum Difference of Pairs",
-          "slug": "minimize-the-maximum-difference-of-pairs",
-          "ts": 1793950232
+          "title": "Maximum Profit in Job Scheduling",
+          "slug": "maximum-profit-in-job-scheduling",
+          "ts": 1794041840
         },
         {
-          "title": "Shortest Common Supersequence ",
-          "slug": "shortest-common-supersequence",
-          "ts": 1793945798
+          "title": "Maximize Win From Two Segments",
+          "slug": "maximize-win-from-two-segments",
+          "ts": 1794041514
         },
         {
-          "title": "Delete Operation for Two Strings",
-          "slug": "delete-operation-for-two-strings",
-          "ts": 1793942296
+          "title": "Two Best Non-Overlapping Events",
+          "slug": "two-best-non-overlapping-events",
+          "ts": 1794040268
         }
       ]
     },
     "m5": {
       "recent_ac": [
+        {
+          "title": "Coin Change",
+          "slug": "coin-change",
+          "ts": 1794114073
+        },
+        {
+          "title": "Burst Balloons",
+          "slug": "burst-balloons",
+          "ts": 1794075660
+        },
         {
           "title": "N-Queens",
           "slug": "n-queens",
@@ -509,21 +519,21 @@
           "title": "Climbing Stairs",
           "slug": "climbing-stairs",
           "ts": 1791521575
-        },
-        {
-          "title": "House Robber",
-          "slug": "house-robber",
-          "ts": 1791520200
-        },
-        {
-          "title": "Angle Between Hands of a Clock",
-          "slug": "angle-between-hands-of-a-clock",
-          "ts": 1791438388
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Rotated Digits",
+          "slug": "rotated-digits",
+          "ts": 1794096504
+        },
+        {
+          "title": "Swim in Rising Water",
+          "slug": "swim-in-rising-water",
+          "ts": 1794089296
+        },
         {
           "title": "Last Stone Weight",
           "slug": "last-stone-weight",
@@ -613,16 +623,6 @@
           "title": "Making A Large Island",
           "slug": "making-a-large-island",
           "ts": 1793396248
-        },
-        {
-          "title": "Find the Safest Path in a Grid",
-          "slug": "find-the-safest-path-in-a-grid",
-          "ts": 1793343974
-        },
-        {
-          "title": "Shortest Path in Binary Matrix",
-          "slug": "shortest-path-in-binary-matrix",
-          "ts": 1793337365
         }
       ]
     },
@@ -941,6 +941,21 @@
     "m10": {
       "recent_ac": [
         {
+          "title": "Top K Frequent Elements",
+          "slug": "top-k-frequent-elements",
+          "ts": 1794107216
+        },
+        {
+          "title": "Pow(x, n)",
+          "slug": "powx-n",
+          "ts": 1794076900
+        },
+        {
+          "title": "Generate Parentheses",
+          "slug": "generate-parentheses",
+          "ts": 1794075220
+        },
+        {
           "title": "Evaluate Division",
           "slug": "evaluate-division",
           "ts": 1794024090
@@ -1024,21 +1039,6 @@
           "title": "First Missing Positive",
           "slug": "first-missing-positive",
           "ts": 1792708490
-        },
-        {
-          "title": "Multiply Strings",
-          "slug": "multiply-strings",
-          "ts": 1792704150
-        },
-        {
-          "title": "Jump Game II",
-          "slug": "jump-game-ii",
-          "ts": 1792699055
-        },
-        {
-          "title": "Largest Rectangle in Histogram",
-          "slug": "largest-rectangle-in-histogram",
-          "ts": 1792620490
         }
       ]
     }

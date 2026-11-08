@@ -9,6 +9,17 @@
       "Matrix"
     ]
   },
+  "132-pattern": {
+    "difficulty": "Medium",
+    "frontend_id": "456",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Stack",
+      "Monotonic Stack",
+      "Ordered Set"
+    ]
+  },
   "2-keys-keyboard": {
     "difficulty": "Medium",
     "frontend_id": "650",
@@ -345,6 +356,15 @@
   "beautiful-towers-i": {
     "difficulty": "Medium",
     "frontend_id": "2865",
+    "tags": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  "beautiful-towers-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "2866",
     "tags": [
       "Array",
       "Stack",
@@ -953,6 +973,15 @@
       "String"
     ]
   },
+  "count-bowl-subarrays": {
+    "difficulty": "Medium",
+    "frontend_id": "3676",
+    "tags": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
   "count-commas-in-range": {
     "difficulty": "Easy",
     "frontend_id": "3870",
@@ -1030,6 +1059,15 @@
       "Math",
       "String",
       "Dynamic Programming"
+    ]
+  },
+  "count-numbers-with-unique-digits": {
+    "difficulty": "Medium",
+    "frontend_id": "357",
+    "tags": [
+      "Math",
+      "Dynamic Programming",
+      "Backtracking"
     ]
   },
   "count-prefix-and-suffix-pairs-i": {
@@ -1628,6 +1666,15 @@
       "Dynamic Programming",
       "Recursion",
       "Memoization"
+    ]
+  },
+  "final-prices-with-a-special-discount-in-a-shop": {
+    "difficulty": "Easy",
+    "frontend_id": "1475",
+    "tags": [
+      "Array",
+      "Stack",
+      "Monotonic Stack"
     ]
   },
   "find-all-anagrams-in-a-string": {
@@ -3263,6 +3310,15 @@
       "Prefix Sum"
     ]
   },
+  "maximize-win-from-two-segments": {
+    "difficulty": "Medium",
+    "frontend_id": "2555",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Sliding Window"
+    ]
+  },
   "maximum-alternating-subarray-sum-with-one-deletion": {
     "difficulty": "Medium",
     "frontend_id": "4072",
@@ -4805,6 +4861,14 @@
       "Dijkstra's Algorithm"
     ]
   },
+  "numbers-with-same-consecutive-differences": {
+    "difficulty": "Medium",
+    "frontend_id": "967",
+    "tags": [
+      "Backtracking",
+      "Breadth-First Search"
+    ]
+  },
   "odd-even-linked-list": {
     "difficulty": "Medium",
     "frontend_id": "328",
@@ -5813,6 +5877,14 @@
     "tags": [
       "String",
       "String Matching"
+    ]
+  },
+  "rotated-digits": {
+    "difficulty": "Medium",
+    "frontend_id": "788",
+    "tags": [
+      "Math",
+      "Dynamic Programming"
     ]
   },
   "rotting-oranges": {
@@ -6826,6 +6898,17 @@
     "tags": [
       "Array",
       "Dynamic Programming"
+    ]
+  },
+  "two-best-non-overlapping-events": {
+    "difficulty": "Medium",
+    "frontend_id": "2054",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Dynamic Programming",
+      "Sorting",
+      "Heap (Priority Queue)"
     ]
   },
   "two-city-scheduling": {
