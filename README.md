@@ -10,7 +10,7 @@
 
 ## 🏆 Leaderboard
 
-⏳ **4/10 submitted today** · pending: kitty, john, people, sky, cheers🍻, Glo
+⏳ **3/10 submitted today** · pending: Andrea, john, kitty, people, sky, cheers🍻, Glo
 
 <table>
 <thead>
@@ -26,75 +26,75 @@
 <tbody>
 <tr>
 <td align="left">🥇 <code>xiao</code></td>
-<td align="center"><code>17 ✅丨50 pts</code></td>
-<td align="center"><code>88 ✅丨<b>273 pts</b></code></td>
-<td align="center"><code>🌓 16</code></td>
-<td align="center"><code>▇ ▅ ▇ ▇ ▅ ▇ ▇ ▇ ▇ ▅ ▃ ▇ ▇ ▇</code></td>
-<td align="center"><code>43/76</code></td>
+<td align="center"><code>24 ✅丨62 pts</code></td>
+<td align="center"><code>93 ✅丨<b>273 pts</b></code></td>
+<td align="center"><code>🌓 17</code></td>
+<td align="center"><code>▅ ▇ ▇ ▅ ▇ ▇ ▇ ▇ ▅ ▃ ▇ ▇ ▇ ▇</code></td>
+<td align="center"><code>44/77</code></td>
 </tr>
 <tr>
-<td align="left">🥈 <code>Alan</code> 🔺</td>
+<td align="left">🥈 <code>Alan</code></td>
+<td align="center"><code>5 ✅丨13 pts</code></td>
+<td align="center"><code>15 ✅丨<b>44 pts</b></code></td>
+<td align="center"><code>🌈 64</code></td>
+<td align="center"><code>▁ ▁ ▁ ▁ ▁ ▅ ▃ ▁ ▁ ▁ ▃ ▁ ▁ ▅</code></td>
+<td align="center"><code>64/64</code></td>
+</tr>
+<tr>
+<td align="left">🥉 <code>cici</code></td>
 <td align="center"><code>2 ✅丨9 pts</code></td>
-<td align="center"><code>14 ✅丨<b>44 pts</b></code></td>
-<td align="center"><code>🌈 63</code></td>
-<td align="center"><code>▁ ▁ ▁ ▁ ▁ ▁ ▅ ▃ ▁ ▁ ▁ ▃ ▁ ▁</code></td>
-<td align="center"><code>63/63</code></td>
+<td align="center"><code>14 ✅丨<b>48 pts</b></code></td>
+<td align="center"><code>🌙 7</code></td>
+<td align="center"><code>· · · · · · · ▁ ▁ ▁ ▁ ▁ ▃ ▁</code></td>
+<td align="center"><code>27/52</code></td>
 </tr>
 <tr>
-<td align="left">🥉 <code>cici</code> 🔻</td>
-<td align="center"><code>3 ✅丨9 pts</code></td>
-<td align="center"><code>12 ✅丨<b>39 pts</b></code></td>
-<td align="center"><code>🌟 6</code></td>
-<td align="center"><code>· · · · · · · · ▁ ▁ ▁ ▁ ▁ ▃</code></td>
-<td align="center"><code>26/51</code></td>
-</tr>
-<tr>
-<td align="left"><code>4</code> <code>Andrea</code> 🔺</td>
-<td align="center"><code>2 ✅丨9 pts</code></td>
-<td align="center"><code>5 ✅丨<b>19 pts</b></code></td>
+<td align="left"><code>4</code> <code>Andrea</code></td>
+<td align="center"><code>0 ✅丨0 pts</code></td>
+<td align="center"><code>4 ✅丨<b>16 pts</b></code></td>
 <td align="center"><code>✨ 1</code></td>
-<td align="center"><code>· · ▁ · ▃ · ▁ ▁ ▁ · · ▁ · ▁</code></td>
+<td align="center"><code>· ▁ · ▃ · ▁ ▁ ▁ · · ▁ · ▁ ·</code></td>
 <td align="center"><code>28/70</code></td>
 </tr>
 <tr>
-<td align="left"><code>5</code> <code>kitty</code></td>
-<td align="center"><code>0 ✅丨0 pts</code></td>
-<td align="center"><code>3 ✅丨<b>12 pts</b></code></td>
-<td align="center"><code>😴 0</code></td>
-<td align="center"><code>▁ · ▁ · ▅ ▇ ▇ ▃ · · · · · ·</code></td>
-<td align="center"><code>38/58</code></td>
-</tr>
-<tr>
-<td align="left"><code>6</code> <code>john</code> 🔻</td>
+<td align="left"><code>5</code> <code>john</code> 🔺</td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>2 ✅丨<b>6 pts</b></code></td>
-<td align="center"><code>✨ 1</code></td>
-<td align="center"><code>· · · ▁ ▁ ▁ · · · · · · ▁ ·</code></td>
-<td align="center"><code>63/78</code></td>
+<td align="center"><code>😴 0</code></td>
+<td align="center"><code>· · ▁ ▁ ▁ · · · · · · ▁ · ·</code></td>
+<td align="center"><code>63/79</code></td>
+</tr>
+<tr>
+<td align="left"><code>6</code> <code>kitty</code> 🔻</td>
+<td align="center"><code>0 ✅丨0 pts</code></td>
+<td align="center"><code>0 ✅丨<b>0 pts</b></code></td>
+<td align="center"><code>😴 0</code></td>
+<td align="center"><code>· ▁ · ▅ ▇ ▇ ▃ · · · · · · ·</code></td>
+<td align="center"><code>38/59</code></td>
 </tr>
 <tr>
 <td align="left"><code>7</code> <code>people</code></td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>0 ✅丨<b>0 pts</b></code></td>
 <td align="center"><code>😴 0</code></td>
-<td align="center"><code>· · · · ▃ · · · · · · · · ·</code></td>
-<td align="center"><code>24/55</code></td>
+<td align="center"><code>· · · ▃ · · · · · · · · · ·</code></td>
+<td align="center"><code>24/56</code></td>
 </tr>
 <tr>
 <td align="left"><code>8</code> <code>sky</code></td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>0 ✅丨<b>0 pts</b></code></td>
 <td align="center"><code>😴 0</code></td>
-<td align="center"><code>▅ ▁ · · · ▃ · · · · · · · ·</code></td>
-<td align="center"><code>21/51</code></td>
+<td align="center"><code>▁ · · · ▃ · · · · · · · · ·</code></td>
+<td align="center"><code>21/52</code></td>
 </tr>
 <tr>
 <td align="left"><code>9</code> <code>cheers🍻</code></td>
 <td align="center"><code>0 ✅丨0 pts</code></td>
 <td align="center"><code>0 ✅丨<b>0 pts</b></code></td>
 <td align="center"><code>😴 0</code></td>
-<td align="center"><code>· · ▁ · · · · · · · · · · ·</code></td>
-<td align="center"><code>32/77</code></td>
+<td align="center"><code>· ▁ · · · · · · · · · · · ·</code></td>
+<td align="center"><code>32/78</code></td>
 </tr>
 <tr>
 <td align="left"><code>10</code> <code>Glo</code></td>
@@ -102,7 +102,7 @@
 <td align="center"><code>0 ✅丨<b>0 pts</b></code></td>
 <td align="center"><code>😴 0</code></td>
 <td align="center"><code>· · · · · · · · · · · · · ·</code></td>
-<td align="center"><code>26/75</code></td>
+<td align="center"><code>26/76</code></td>
 </tr>
 <tr><td colspan="6"><sub>🔥 <b>Streak</b> 😴0&nbsp; ✨1&nbsp; 💫2&nbsp; ⭐4&nbsp; 🌟6&nbsp; 🌙7&nbsp; 🌒10&nbsp; 🌓14&nbsp; 🌔20&nbsp; 🌕30&nbsp; ☀️37&nbsp; 🌈50&nbsp; 🦄100&nbsp; 👑365<br>📒 <b>Days</b> solved out of days in the group — one miss barely moves it<br>💡 <b>Scoring</b> Easy ×1 · Med ×3 · Hard ×6 — <b>✅</b> solved, <b>pts</b> weighted points<br>📊 <b>Last 14 days</b> <code>·</code> no submission · <code>░</code> no data</sub></td></tr>
 </tbody>
@@ -121,34 +121,29 @@
 <tbody>
 <tr>
 <td align="left"><code>xiao</code></td>
-<td align="left"><code>Med</code> <code>2054</code> <a href="https://leetcode.com/problems/two-best-non-overlapping-events/"><code>Two Best Non-Overlapping Events</code></a><br><code>Med</code> <code>2555</code> <a href="https://leetcode.com/problems/maximize-win-from-two-segments/"><code>Maximize Win From Two Segments</code></a><br><code>Hard</code> <code>1235</code> <a href="https://leetcode.com/problems/maximum-profit-in-job-scheduling/"><code>Maximum Profit in Job Scheduling</code></a><br><code>Med</code> <code>78</code> <a href="https://leetcode.com/problems/subsets/"><code>Subsets</code></a><br><code>Med</code> <code>17</code> <a href="https://leetcode.com/problems/letter-combinations-of-a-phone-number/"><code>Letter Combinations of a Phone Number</code></a><br><code>Med</code> <code>788</code> <a href="https://leetcode.com/problems/rotated-digits/"><code>Rotated Digits</code></a><br><code>Med</code> <code>386</code> <a href="https://leetcode.com/problems/lexicographical-numbers/"><code>Lexicographical Numbers</code></a><br><code>Med</code> <code>967</code> <a href="https://leetcode.com/problems/numbers-with-same-consecutive-differences/"><code>Numbers With Same Consecutive Differences</code></a><br><code>Med</code> <code>357</code> <a href="https://leetcode.com/problems/count-numbers-with-unique-digits/"><code>Count Numbers with Unique Digits</code></a><br><code>Med</code> <code>309</code> <a href="https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-cooldown/"><code>Best Time to Buy and Sell Stock with Cooldown</code></a><br><code>Med</code> <code>739</code> <a href="https://leetcode.com/problems/daily-temperatures/"><code>Daily Temperatures</code></a><br><code>Easy</code> <code>1475</code> <a href="https://leetcode.com/problems/final-prices-with-a-special-discount-in-a-shop/"><code>Final Prices With a Special Discount in a Shop</code></a><br><code>Easy</code> <code>496</code> <a href="https://leetcode.com/problems/next-greater-element-i/"><code>Next Greater Element I</code></a><br><code>Med</code> <code>503</code> <a href="https://leetcode.com/problems/next-greater-element-ii/"><code>Next Greater Element II</code></a><br><code>Med</code> <code>3676</code> <a href="https://leetcode.com/problems/count-bowl-subarrays/"><code>Count Bowl Subarrays</code></a><br><code>Med</code> <code>456</code> <a href="https://leetcode.com/problems/132-pattern/"><code>132 Pattern</code></a><br><code>Med</code> <code>2866</code> <a href="https://leetcode.com/problems/beautiful-towers-ii/"><code>Beautiful Towers II</code></a></td>
-<td align="left"><code>Array丨12</code> <code>Monotonic Stack丨7</code> <code>Stack丨7</code> <code>Dynamic Programming丨5</code> <code>Backtracking丨4</code> <code>Binary Search丨4</code> <code>Hash Table丨2</code> <code>Math丨2</code> <code>Sorting丨2</code> <code>Bit Manipulation丨1</code> <code>Breadth-First Search丨1</code> <code>Depth-First Search丨1</code> <code>Heap (Priority Queue)丨1</code> <code>Ordered Set丨1</code> <code>Sliding Window丨1</code> <code>String丨1</code> <code>Trie丨1</code></td>
-</tr>
-<tr>
-<td align="left"><code>cici</code></td>
-<td align="left"><code>Med</code> <code>22</code> <a href="https://leetcode.com/problems/generate-parentheses/"><code>Generate Parentheses</code></a><br><code>Med</code> <code>50</code> <a href="https://leetcode.com/problems/powx-n/"><code>Pow(x, n)</code></a><br><code>Med</code> <code>347</code> <a href="https://leetcode.com/problems/top-k-frequent-elements/"><code>Top K Frequent Elements</code></a></td>
-<td align="left"><code>Array丨1</code> <code>Backtracking丨1</code> <code>Bracket Sequences丨1</code> …</td>
+<td align="left"><code>Easy</code> <code>1005</code> <a href="https://leetcode.com/problems/maximize-sum-of-array-after-k-negations/"><code>Maximize Sum Of Array After K Negations</code></a><br><code>Med</code> <code>1481</code> <a href="https://leetcode.com/problems/least-number-of-unique-integers-after-k-removals/"><code>Least Number of Unique Integers after K Removals</code></a><br><code>Med</code> <code>3075</code> <a href="https://leetcode.com/problems/maximize-happiness-of-selected-children/"><code>Maximize Happiness of Selected Children</code></a><br><code>Med</code> <code>2554</code> <a href="https://leetcode.com/problems/maximum-number-of-integers-to-choose-from-a-range-i/"><code>Maximum Number of Integers to Choose From a Range I</code></a><br><code>Med</code> <code>2126</code> <a href="https://leetcode.com/problems/destroying-asteroids/"><code>Destroying Asteroids</code></a><br><code>Med</code> <code>2587</code> <a href="https://leetcode.com/problems/rearrange-array-to-maximize-prefix-score/"><code>Rearrange Array to Maximize Prefix Score</code></a><br><code>Med</code> <code>1561</code> <a href="https://leetcode.com/problems/maximum-number-of-coins-you-can-get/"><code>Maximum Number of Coins You Can Get</code></a><br><code>Med</code> <code>3627</code> <a href="https://leetcode.com/problems/maximum-median-sum-of-subsequences-of-size-3/"><code>Maximum Median Sum of Subsequences of Size 3</code></a><br><code>Med</code> <code>3462</code> <a href="https://leetcode.com/problems/maximum-sum-with-at-most-k-elements/"><code>Maximum Sum With at Most K Elements</code></a><br><code>Med</code> <code>3301</code> <a href="https://leetcode.com/problems/maximize-the-total-height-of-unique-towers/"><code>Maximize the Total Height of Unique Towers</code></a><br><code>Med</code> <code>4093</code> <a href="https://leetcode.com/problems/maximize-sum-after-at-most-k-digit-rearrangements/"><code>Maximize Sum After At Most K Digit Rearrangements</code></a><br><code>Med</code> <code>4079</code> <a href="https://leetcode.com/problems/prime-subset-selection-i/"><code>Prime Subset Selection I</code></a><br><code>Med</code> <code>1846</code> <a href="https://leetcode.com/problems/maximum-element-after-decreasing-and-rearranging/"><code>Maximum Element After Decreasing and Rearranging</code></a><br><code>Med</code> <code>3727</code> <a href="https://leetcode.com/problems/maximum-alternating-sum-of-squares/"><code>Maximum Alternating Sum of Squares</code></a><br><code>Med</code> <code>1647</code> <a href="https://leetcode.com/problems/minimum-deletions-to-make-character-frequencies-unique/"><code>Minimum Deletions to Make Character Frequencies Unique</code></a><br><code>Med</code> <code>2971</code> <a href="https://leetcode.com/problems/find-polygon-with-the-largest-perimeter/"><code>Find Polygon With the Largest Perimeter</code></a><br><code>Med</code> <code>2178</code> <a href="https://leetcode.com/problems/maximum-split-of-positive-even-integers/"><code>Maximum Split of Positive Even Integers</code></a><br><code>Med</code> <code>954</code> <a href="https://leetcode.com/problems/array-of-doubled-pairs/"><code>Array of Doubled Pairs</code></a><br><code>Med</code> <code>2567</code> <a href="https://leetcode.com/problems/minimum-score-by-changing-two-elements/"><code>Minimum Score by Changing Two Elements</code></a><br><code>Med</code> <code>1509</code> <a href="https://leetcode.com/problems/minimum-difference-between-largest-and-smallest-value-in-three-moves/"><code>Minimum Difference Between Largest and Smallest Value in Three Moves</code></a></td>
+<td align="left"><code>Greedy丨18</code> <code>Sorting丨17</code> <code>Array丨16</code> <code>Hash Table丨4</code> <code>Math丨3</code> <code>Game Theory丨2</code> <code>Prefix Sum丨2</code> <code>Backtracking丨1</code> <code>Binary Search丨1</code> <code>Counting丨1</code> <code>Heap (Priority Queue)丨1</code> <code>Matrix丨1</code> <code>Polygons丨1</code> <code>String丨1</code></td>
 </tr>
 <tr>
 <td align="left"><code>Alan</code></td>
-<td align="left"><code>Hard</code> <code>778</code> <a href="https://leetcode.com/problems/swim-in-rising-water/"><code>Swim in Rising Water</code></a><br><code>Med</code> <code>788</code> <a href="https://leetcode.com/problems/rotated-digits/"><code>Rotated Digits</code></a></td>
-<td align="left"><code>Array丨1</code> <code>Binary Search丨1</code> …</td>
+<td align="left"><code>Easy</code> <code>70</code> <a href="https://leetcode.com/problems/climbing-stairs/"><code>Climbing Stairs</code></a><br><code>Med</code> <code>75</code> <a href="https://leetcode.com/problems/sort-colors/"><code>Sort Colors</code></a><br><code>Med</code> <code>62</code> <a href="https://leetcode.com/problems/unique-paths/"><code>Unique Paths</code></a><br><code>Med</code> <code>215</code> <a href="https://leetcode.com/problems/kth-largest-element-in-an-array/"><code>Kth Largest Element in an Array</code></a><br><code>Med</code> <code>973</code> <a href="https://leetcode.com/problems/k-closest-points-to-origin/"><code>K Closest Points to Origin</code></a></td>
+<td align="left"><code>Array丨3</code> <code>Math丨3</code> <code>Sorting丨3</code> <code>Divide and Conquer丨2</code> <code>Dynamic Programming丨2</code> …</td>
 </tr>
 <tr>
-<td align="left"><code>Andrea</code></td>
-<td align="left"><code>Hard</code> <code>312</code> <a href="https://leetcode.com/problems/burst-balloons/"><code>Burst Balloons</code></a><br><code>Med</code> <code>322</code> <a href="https://leetcode.com/problems/coin-change/"><code>Coin Change</code></a></td>
-<td align="left"><code>Array丨2</code> <code>Dynamic Programming丨2</code> …</td>
+<td align="left"><code>cici</code></td>
+<td align="left"><code>Hard</code> <code>968</code> <a href="https://leetcode.com/problems/binary-tree-cameras/"><code>Binary Tree Cameras</code></a><br><code>Med</code> <code>1131</code> <a href="https://leetcode.com/problems/maximum-of-absolute-value-expression/"><code>Maximum of Absolute Value Expression</code></a></td>
+<td align="left"><code>Array丨1</code> <code>Binary Tree丨1</code> <code>DP on Trees丨1</code> …</td>
 </tr>
 </tbody>
 </table>
 
 ## 🏷️ Tags, last 7 days
 
-> Easy 15 Med 92 Hard 17
+> Easy 14 Med 97 Hard 13
 
-> <code>🔢 Array丨81</code> <code>🧩 Dynamic Programming丨48</code> <code>🧵 String丨25</code> <code>📶 Sorting丨24</code> <code>🗂️ Hash Table丨17</code> <code>🔍 Binary Search丨16</code> <code>⛰️ Heap (Priority Queue)丨16</code> <code>↔️ Two Pointers丨15</code> <code>➗ Math丨13</code> <code>🥞 Stack丨13</code> <code>🤿 Depth-First Search丨12</code> <code>🕸️ Graph Theory丨10</code> <code>🤑 Greedy丨10</code> <code>🧱 Monotonic Stack丨10</code> <code>🛣️ Shortest Path丨10</code> <code>🌊 Breadth-First Search丨9</code> <code>🧇 Matrix丨9</code> <code>↩️ Backtracking丨8</code> <code>🧬 Longest Common Subsequence丨8</code> <code>🌿 Trie丨7</code> <code>🔁 Recursion丨6</code> <code>⚪ Dijkstra&#x27;s Algorithm丨5</code> <code>🤝 Union-Find丨5</code> <code>🎒 Knapsack Problem丨4</code> <code>➕ Prefix Sum丨4</code> <code>🧳 0-1 Knapsack丨3</code> <code>🎛️ Bit Manipulation丨3</code> <code>⚔️ Divide and Conquer丨3</code> <code>🔗 Linked List丨3</code> <code>⚪ Quicksort丨3</code> <code>🪟 Sliding Window丨3</code> <code>🌳 Tree丨3</code> <code>⚪ Bellman–Ford Algorithm丨2</code> <code>🌲 Binary Tree丨2</code> <code>🧮 Counting丨2</code> <code>🏗️ Design丨2</code> <code>⚪ Floyd&#x27;s Cycle Finding Algorithm丨2</code> <code>⚪ Floyd–Warshall Algorithm丨2</code> <code>🗒️ Memoization丨2</code> <code>♟️ Minimax丨2</code> <code>📚 Ordered Set丨2</code> <code>⚪ Pigeonhole Principle丨2</code> <code>🎮 Simulation丨2</code> <code>⚪ 0-1 BFS</code> <code>✖️ Algorithm X</code> <code>🎍 Binary Indexed Tree</code> <code>⚪ Boyer–Moore String-Search Algorithm</code> <code>🪆 Bracket Sequences</code> <code>⚪ Brute-Force Search</code> <code>🪣 Bucket Sort</code> <code>⚪ Complete Knapsack</code> <code>🚰 Data Stream</code> <code>⚪ Hungarian Algorithm</code> <code>⚪ Knuth–Morris–Pratt Algorithm</code> <code>⚪ Longest Increasing Subsequence</code> <code>⚡ Quickselect</code> <code>🪙 Randomized</code> <code>🎋 Segment Tree</code> <code>🔎 String Matching</code> <code>⚪ Successive Shortest Path Algorithm</code> <code>🧭 Topological Sort</code> <code>⚪ Z Algorithm</code>
+> <code>🔢 Array丨88</code> <code>📶 Sorting丨43</code> <code>🧩 Dynamic Programming丨33</code> <code>🤑 Greedy丨28</code> <code>🗂️ Hash Table丨20</code> <code>➗ Math丨19</code> <code>🧵 String丨19</code> <code>🔍 Binary Search丨16</code> <code>⛰️ Heap (Priority Queue)丨15</code> <code>↔️ Two Pointers丨15</code> <code>🥞 Stack丨12</code> <code>🧱 Monotonic Stack丨10</code> <code>↩️ Backtracking丨9</code> <code>🤿 Depth-First Search丨8</code> <code>🧬 Longest Common Subsequence丨7</code> <code>🌊 Breadth-First Search丨6</code> <code>🧇 Matrix丨6</code> <code>➕ Prefix Sum丨6</code> <code>🕸️ Graph Theory丨5</code> <code>🛣️ Shortest Path丨5</code> <code>🌿 Trie丨5</code> <code>⚔️ Divide and Conquer丨4</code> <code>⚪ Quicksort丨4</code> <code>🔁 Recursion丨4</code> <code>🤝 Union-Find丨4</code> <code>🎛️ Bit Manipulation丨3</code> <code>🧮 Counting丨3</code> <code>⚡ Quickselect丨3</code> <code>🪟 Sliding Window丨3</code> <code>🌲 Binary Tree丨2</code> <code>⚪ Floyd&#x27;s Cycle Finding Algorithm丨2</code> <code>🎲 Game Theory丨2</code> <code>🎒 Knapsack Problem丨2</code> <code>🔗 Linked List丨2</code> <code>🗒️ Memoization丨2</code> <code>📚 Ordered Set丨2</code> <code>⚪ Pigeonhole Principle丨2</code> <code>🎮 Simulation丨2</code> <code>🌳 Tree丨2</code> <code>🧳 0-1 Knapsack</code> <code>✖️ Algorithm X</code> <code>⚪ Bellman–Ford Algorithm</code> <code>🪆 Bracket Sequences</code> <code>⚪ Bubble Sort</code> <code>🪣 Bucket Sort</code> <code>🎰 Combinatorics</code> <code>⚪ Complete Knapsack</code> <code>🪵 DP on Trees</code> <code>🚰 Data Stream</code> <code>🏗️ Design</code> <code>⚪ Dijkstra&#x27;s Algorithm</code> <code>⚪ Floyd–Warshall Algorithm</code> <code>📐 Geometry</code> <code>⚪ Hungarian Algorithm</code> <code>⚪ K-D Tree</code> <code>♟️ Minimax</code> <code>⚪ Polygons</code> <code>🪙 Randomized</code> <code>⚪ Successive Shortest Path Algorithm</code>
 
-<sub>🕒 Updated 2026-11-07 22:00 (America/Los_Angeles) · 16 day(s) of history · ⏱️ 100% of hourly runs landed</sub>
+<sub>🕒 Updated 2026-11-08 21:30 (America/Los_Angeles) · 16 day(s) of history · ⏱️ 100% of hourly runs landed</sub>
 
 <!-- LEADERBOARD:END -->
 

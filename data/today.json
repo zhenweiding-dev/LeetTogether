@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-07",
-  "fetched_at": "2026-11-08T06:00:33+00:00",
+  "date": "2026-11-08",
+  "fetched_at": "2026-11-09T05:30:29+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,104 +317,104 @@
     "m4": {
       "recent_ac": [
         {
-          "title": "Beautiful Towers II",
-          "slug": "beautiful-towers-ii",
-          "ts": 1794117151
+          "title": "Minimum Difference Between Largest and Smallest Value in Three Moves",
+          "slug": "minimum-difference-between-largest-and-smallest-value-in-three-moves",
+          "ts": 1794184748
         },
         {
-          "title": "132 Pattern",
-          "slug": "132-pattern",
-          "ts": 1794115799
+          "title": "Minimum Score by Changing Two Elements",
+          "slug": "minimum-score-by-changing-two-elements",
+          "ts": 1794183456
         },
         {
-          "title": "Count Bowl Subarrays",
-          "slug": "count-bowl-subarrays",
-          "ts": 1794114326
+          "title": "Array of Doubled Pairs",
+          "slug": "array-of-doubled-pairs",
+          "ts": 1794182138
         },
         {
-          "title": "Next Greater Element II",
-          "slug": "next-greater-element-ii",
-          "ts": 1794109366
+          "title": "Maximum Split of Positive Even Integers",
+          "slug": "maximum-split-of-positive-even-integers",
+          "ts": 1794181374
         },
         {
-          "title": "Next Greater Element I",
-          "slug": "next-greater-element-i",
-          "ts": 1794108515
+          "title": "Find Polygon With the Largest Perimeter",
+          "slug": "find-polygon-with-the-largest-perimeter",
+          "ts": 1794180380
         },
         {
-          "title": "Final Prices With a Special Discount in a Shop",
-          "slug": "final-prices-with-a-special-discount-in-a-shop",
-          "ts": 1794107592
+          "title": "Minimum Deletions to Make Character Frequencies Unique",
+          "slug": "minimum-deletions-to-make-character-frequencies-unique",
+          "ts": 1794179762
         },
         {
-          "title": "Daily Temperatures",
-          "slug": "daily-temperatures",
-          "ts": 1794104139
+          "title": "Maximum Alternating Sum of Squares",
+          "slug": "maximum-alternating-sum-of-squares",
+          "ts": 1794179274
         },
         {
-          "title": "Best Time to Buy and Sell Stock with Cooldown",
-          "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
-          "ts": 1794092094
+          "title": "Maximum Element After Decreasing and Rearranging",
+          "slug": "maximum-element-after-decreasing-and-rearranging",
+          "ts": 1794179115
         },
         {
-          "title": "Rotated Digits",
-          "slug": "rotated-digits",
-          "ts": 1794055312
+          "title": "Prime Subset Selection I",
+          "slug": "prime-subset-selection-i",
+          "ts": 1794178730
         },
         {
-          "title": "Numbers With Same Consecutive Differences",
-          "slug": "numbers-with-same-consecutive-differences",
-          "ts": 1794055108
+          "title": "Maximize Sum After At Most K Digit Rearrangements",
+          "slug": "maximize-sum-after-at-most-k-digit-rearrangements",
+          "ts": 1794176666
         },
         {
-          "title": "Lexicographical Numbers",
-          "slug": "lexicographical-numbers",
-          "ts": 1794054706
+          "title": "Maximize the Total Height of Unique Towers",
+          "slug": "maximize-the-total-height-of-unique-towers",
+          "ts": 1794149164
         },
         {
-          "title": "Count Numbers with Unique Digits",
-          "slug": "count-numbers-with-unique-digits",
-          "ts": 1794054310
+          "title": "Maximum Sum With at Most K Elements",
+          "slug": "maximum-sum-with-at-most-k-elements",
+          "ts": 1794148767
         },
         {
-          "title": "Numbers With Same Consecutive Differences",
-          "slug": "numbers-with-same-consecutive-differences",
-          "ts": 1794050387
+          "title": "Maximum Median Sum of Subsequences of Size 3",
+          "slug": "maximum-median-sum-of-subsequences-of-size-3",
+          "ts": 1794148354
         },
         {
-          "title": "Lexicographical Numbers",
-          "slug": "lexicographical-numbers",
-          "ts": 1794049129
+          "title": "Maximum Number of Coins You Can Get",
+          "slug": "maximum-number-of-coins-you-can-get",
+          "ts": 1794148191
         },
         {
-          "title": "Rotated Digits",
-          "slug": "rotated-digits",
-          "ts": 1794048076
+          "title": "Rearrange Array to Maximize Prefix Score",
+          "slug": "rearrange-array-to-maximize-prefix-score",
+          "ts": 1794147964
         },
         {
-          "title": "Letter Combinations of a Phone Number",
-          "slug": "letter-combinations-of-a-phone-number",
-          "ts": 1794044269
+          "title": "Destroying Asteroids",
+          "slug": "destroying-asteroids",
+          "ts": 1794147569
         },
         {
-          "title": "Subsets",
-          "slug": "subsets",
-          "ts": 1794044130
+          "title": "Maximum Number of Integers to Choose From a Range I",
+          "slug": "maximum-number-of-integers-to-choose-from-a-range-i",
+          "ts": 1794147350
         },
         {
-          "title": "Maximum Profit in Job Scheduling",
-          "slug": "maximum-profit-in-job-scheduling",
-          "ts": 1794041840
+          "title": "Maximize Happiness of Selected Children",
+          "slug": "maximize-happiness-of-selected-children",
+          "ts": 1794147065
         },
         {
-          "title": "Maximize Win From Two Segments",
-          "slug": "maximize-win-from-two-segments",
-          "ts": 1794041514
+          "title": "Least Number of Unique Integers after K Removals",
+          "slug": "least-number-of-unique-integers-after-k-removals",
+          "ts": 1794145663
         },
         {
-          "title": "Two Best Non-Overlapping Events",
-          "slug": "two-best-non-overlapping-events",
-          "ts": 1794040268
+          "title": "Maximize Sum Of Array After K Negations",
+          "slug": "maximize-sum-of-array-after-k-negations",
+          "ts": 1794145152
         }
       ]
     },
@@ -525,6 +525,36 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Climbing Stairs",
+          "slug": "climbing-stairs",
+          "ts": 1794201259
+        },
+        {
+          "title": "K Closest Points to Origin",
+          "slug": "k-closest-points-to-origin",
+          "ts": 1794197519
+        },
+        {
+          "title": "Kth Largest Element in an Array",
+          "slug": "kth-largest-element-in-an-array",
+          "ts": 1794196627
+        },
+        {
+          "title": "Unique Paths",
+          "slug": "unique-paths",
+          "ts": 1794194052
+        },
+        {
+          "title": "Sort Colors",
+          "slug": "sort-colors",
+          "ts": 1794193244
+        },
+        {
+          "title": "Climbing Stairs",
+          "slug": "climbing-stairs",
+          "ts": 1794191446
+        },
+        {
           "title": "Rotated Digits",
           "slug": "rotated-digits",
           "ts": 1794096504
@@ -593,36 +623,6 @@
           "title": "Minimum Distance to Type a Word Using Two Fingers",
           "slug": "minimum-distance-to-type-a-word-using-two-fingers",
           "ts": 1793513833
-        },
-        {
-          "title": "Path Sum III",
-          "slug": "path-sum-iii",
-          "ts": 1793510148
-        },
-        {
-          "title": "Word Search II",
-          "slug": "word-search-ii",
-          "ts": 1793508634
-        },
-        {
-          "title": "Random Pick with Weight",
-          "slug": "random-pick-with-weight",
-          "ts": 1793506801
-        },
-        {
-          "title": "Minimize the Maximum Value of GCD-Connected Array",
-          "slug": "minimize-the-maximum-value-of-gcd-connected-array",
-          "ts": 1793505430
-        },
-        {
-          "title": "Minimum Value of Merged Integers",
-          "slug": "minimum-value-of-merged-integers",
-          "ts": 1793500893
-        },
-        {
-          "title": "Making A Large Island",
-          "slug": "making-a-large-island",
-          "ts": 1793396248
         }
       ]
     },
@@ -941,6 +941,16 @@
     "m10": {
       "recent_ac": [
         {
+          "title": "Maximum of Absolute Value Expression",
+          "slug": "maximum-of-absolute-value-expression",
+          "ts": 1794185234
+        },
+        {
+          "title": "Binary Tree Cameras",
+          "slug": "binary-tree-cameras",
+          "ts": 1794184016
+        },
+        {
           "title": "Top K Frequent Elements",
           "slug": "top-k-frequent-elements",
           "ts": 1794107216
@@ -1029,16 +1039,6 @@
           "title": "Multiply Strings",
           "slug": "multiply-strings",
           "ts": 1792776980
-        },
-        {
-          "title": "Minimum Number of Days to Make m Bouquets",
-          "slug": "minimum-number-of-days-to-make-m-bouquets",
-          "ts": 1792710602
-        },
-        {
-          "title": "First Missing Positive",
-          "slug": "first-missing-positive",
-          "ts": 1792708490
         }
       ]
     }

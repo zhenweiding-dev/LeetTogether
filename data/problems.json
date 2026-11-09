@@ -231,6 +231,15 @@
       "Greedy"
     ]
   },
+  "apple-redistribution-into-boxes": {
+    "difficulty": "Easy",
+    "frontend_id": "3074",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
   "apply-discount-to-prices": {
     "difficulty": "Medium",
     "frontend_id": "2288",
@@ -244,6 +253,16 @@
     "tags": [
       "Math",
       "Binary Search"
+    ]
+  },
+  "array-of-doubled-pairs": {
+    "difficulty": "Medium",
+    "frontend_id": "954",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sorting"
     ]
   },
   "as-far-from-land-as-possible": {
@@ -1436,6 +1455,15 @@
       "String"
     ]
   },
+  "destroying-asteroids": {
+    "difficulty": "Medium",
+    "frontend_id": "2126",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
   "detect-cycles-in-2d-grid": {
     "difficulty": "Medium",
     "frontend_id": "1559",
@@ -1854,6 +1882,17 @@
     "tags": [
       "Array",
       "Prefix Sum"
+    ]
+  },
+  "find-polygon-with-the-largest-perimeter": {
+    "difficulty": "Medium",
+    "frontend_id": "2971",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Prefix Sum",
+      "Polygons"
     ]
   },
   "find-root-of-a-colored-tree": {
@@ -2690,6 +2729,17 @@
     "frontend_id": "4084",
     "tags": []
   },
+  "least-number-of-unique-integers-after-k-removals": {
+    "difficulty": "Medium",
+    "frontend_id": "1481",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Greedy",
+      "Sorting",
+      "Counting"
+    ]
+  },
   "left-and-right-sum-differences": {
     "difficulty": "Easy",
     "frontend_id": "2574",
@@ -3295,10 +3345,43 @@
       "Array"
     ]
   },
+  "maximize-expression-of-three-elements": {
+    "difficulty": "Easy",
+    "frontend_id": "3745",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Enumeration"
+    ]
+  },
+  "maximize-happiness-of-selected-children": {
+    "difficulty": "Medium",
+    "frontend_id": "3075",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
   "maximize-meeting-earnings-with-idle-gaps": {
     "difficulty": "Hard",
     "frontend_id": "4068",
     "tags": []
+  },
+  "maximize-sum-after-at-most-k-digit-rearrangements": {
+    "difficulty": "Medium",
+    "frontend_id": "4093",
+    "tags": []
+  },
+  "maximize-sum-of-array-after-k-negations": {
+    "difficulty": "Easy",
+    "frontend_id": "1005",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
   },
   "maximize-the-confusion-of-an-exam": {
     "difficulty": "Medium",
@@ -3308,6 +3391,15 @@
       "Binary Search",
       "Sliding Window",
       "Prefix Sum"
+    ]
+  },
+  "maximize-the-total-height-of-unique-towers": {
+    "difficulty": "Medium",
+    "frontend_id": "3301",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
     ]
   },
   "maximize-win-from-two-segments": {
@@ -3324,6 +3416,15 @@
     "frontend_id": "4072",
     "tags": []
   },
+  "maximum-alternating-sum-of-squares": {
+    "difficulty": "Medium",
+    "frontend_id": "3727",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
   "maximum-area-of-a-piece-of-cake-after-horizontal-and-vertical-cuts": {
     "difficulty": "Medium",
     "tags": [
@@ -3338,6 +3439,15 @@
     "tags": [
       "Array",
       "Sliding Window"
+    ]
+  },
+  "maximum-bags-with-full-capacity-of-rocks": {
+    "difficulty": "Medium",
+    "frontend_id": "2279",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
     ]
   },
   "maximum-beauty-of-an-array-after-applying-operation": {
@@ -3399,6 +3509,15 @@
       "Sorting"
     ]
   },
+  "maximum-element-after-decreasing-and-rearranging": {
+    "difficulty": "Medium",
+    "frontend_id": "1846",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
   "maximum-equal-adjacent-pairs-after-at-most-one-replacement": {
     "difficulty": "Medium",
     "frontend_id": "4066",
@@ -3423,6 +3542,16 @@
       "Array",
       "Hash Table",
       "Prefix Sum"
+    ]
+  },
+  "maximum-ice-cream-bars": {
+    "difficulty": "Medium",
+    "frontend_id": "1833",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Counting Sort"
     ]
   },
   "maximum-length-of-subarray-with-positive-product": {
@@ -3463,6 +3592,28 @@
       "Sorting"
     ]
   },
+  "maximum-median-sum-of-subsequences-of-size-3": {
+    "difficulty": "Medium",
+    "frontend_id": "3627",
+    "tags": [
+      "Array",
+      "Math",
+      "Greedy",
+      "Sorting",
+      "Game Theory"
+    ]
+  },
+  "maximum-number-of-coins-you-can-get": {
+    "difficulty": "Medium",
+    "frontend_id": "1561",
+    "tags": [
+      "Array",
+      "Math",
+      "Greedy",
+      "Sorting",
+      "Game Theory"
+    ]
+  },
   "maximum-number-of-events-that-can-be-attended": {
     "difficulty": "Medium",
     "frontend_id": "1353",
@@ -3471,6 +3622,17 @@
       "Greedy",
       "Sorting",
       "Heap (Priority Queue)"
+    ]
+  },
+  "maximum-number-of-integers-to-choose-from-a-range-i": {
+    "difficulty": "Medium",
+    "frontend_id": "2554",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Binary Search",
+      "Greedy",
+      "Sorting"
     ]
   },
   "maximum-number-of-jumps-to-reach-the-last-index": {
@@ -3513,6 +3675,14 @@
     "tags": [
       "String",
       "Sliding Window"
+    ]
+  },
+  "maximum-of-absolute-value-expression": {
+    "difficulty": "Medium",
+    "frontend_id": "1131",
+    "tags": [
+      "Array",
+      "Math"
     ]
   },
   "maximum-population-year": {
@@ -3611,6 +3781,15 @@
       "Prefix Sum"
     ]
   },
+  "maximum-split-of-positive-even-integers": {
+    "difficulty": "Medium",
+    "frontend_id": "2178",
+    "tags": [
+      "Math",
+      "Backtracking",
+      "Greedy"
+    ]
+  },
   "maximum-strong-pair-xor-i": {
     "difficulty": "Easy",
     "frontend_id": "2932",
@@ -3640,6 +3819,17 @@
       "Dynamic Programming",
       "Queue",
       "Monotonic Queue"
+    ]
+  },
+  "maximum-sum-with-at-most-k-elements": {
+    "difficulty": "Medium",
+    "frontend_id": "3462",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Heap (Priority Queue)",
+      "Matrix"
     ]
   },
   "maximum-swap": {
@@ -3944,6 +4134,15 @@
       "Dynamic Programming"
     ]
   },
+  "minimum-cost-of-buying-candies-with-discount": {
+    "difficulty": "Easy",
+    "frontend_id": "2144",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
+  },
   "minimum-cost-to-make-at-least-one-valid-path-in-a-grid": {
     "difficulty": "Hard",
     "frontend_id": "1368",
@@ -3966,6 +4165,17 @@
       "Hash Table",
       "String",
       "Enumeration"
+    ]
+  },
+  "minimum-deletions-for-at-most-k-distinct-characters": {
+    "difficulty": "Easy",
+    "frontend_id": "3545",
+    "tags": [
+      "Hash Table",
+      "String",
+      "Greedy",
+      "Sorting",
+      "Counting"
     ]
   },
   "minimum-deletions-to-make-array-beautiful": {
@@ -4009,6 +4219,15 @@
       "Depth-First Search",
       "Breadth-First Search",
       "Binary Tree"
+    ]
+  },
+  "minimum-difference-between-largest-and-smallest-value-in-three-moves": {
+    "difficulty": "Medium",
+    "frontend_id": "1509",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
     ]
   },
   "minimum-discards-to-balance-inventory": {
@@ -4332,6 +4551,15 @@
     "difficulty": "Medium",
     "frontend_id": "4071",
     "tags": []
+  },
+  "minimum-score-by-changing-two-elements": {
+    "difficulty": "Medium",
+    "frontend_id": "2567",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
+    ]
   },
   "minimum-size-subarray-sum": {
     "difficulty": "Medium",
@@ -5431,6 +5659,16 @@
     "frontend_id": "4065",
     "tags": []
   },
+  "rearrange-array-to-maximize-prefix-score": {
+    "difficulty": "Medium",
+    "frontend_id": "2587",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting",
+      "Prefix Sum"
+    ]
+  },
   "reconstruct-itinerary": {
     "difficulty": "Hard",
     "frontend_id": "332",
@@ -6068,6 +6306,15 @@
       "Graph Theory",
       "Heap (Priority Queue)",
       "Shortest Path"
+    ]
+  },
+  "shortest-string-that-contains-three-strings": {
+    "difficulty": "Medium",
+    "frontend_id": "2800",
+    "tags": [
+      "String",
+      "Greedy",
+      "Enumeration"
     ]
   },
   "shortest-subarray-with-sum-at-least-k": {
