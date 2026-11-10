@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-08",
-  "fetched_at": "2026-11-09T05:30:29+00:00",
+  "date": "2026-11-09",
+  "fetched_at": "2026-11-10T07:30:19+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,104 +317,104 @@
     "m4": {
       "recent_ac": [
         {
-          "title": "Minimum Difference Between Largest and Smallest Value in Three Moves",
-          "slug": "minimum-difference-between-largest-and-smallest-value-in-three-moves",
-          "ts": 1794184748
+          "title": "Edit Distance",
+          "slug": "edit-distance",
+          "ts": 1794281371
         },
         {
-          "title": "Minimum Score by Changing Two Elements",
-          "slug": "minimum-score-by-changing-two-elements",
-          "ts": 1794183456
+          "title": "Best Time to Buy and Sell Stock with Cooldown",
+          "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
+          "ts": 1794281068
         },
         {
-          "title": "Array of Doubled Pairs",
-          "slug": "array-of-doubled-pairs",
-          "ts": 1794182138
+          "title": "Number of Dice Rolls With Target Sum",
+          "slug": "number-of-dice-rolls-with-target-sum",
+          "ts": 1794280532
         },
         {
-          "title": "Maximum Split of Positive Even Integers",
-          "slug": "maximum-split-of-positive-even-integers",
-          "ts": 1794181374
+          "title": "Longest ZigZag Path in a Binary Tree",
+          "slug": "longest-zigzag-path-in-a-binary-tree",
+          "ts": 1794272715
         },
         {
-          "title": "Find Polygon With the Largest Perimeter",
-          "slug": "find-polygon-with-the-largest-perimeter",
-          "ts": 1794180380
+          "title": "Binary Tree Maximum Path Sum",
+          "slug": "binary-tree-maximum-path-sum",
+          "ts": 1794272451
         },
         {
-          "title": "Minimum Deletions to Make Character Frequencies Unique",
-          "slug": "minimum-deletions-to-make-character-frequencies-unique",
-          "ts": 1794179762
+          "title": "Serialize and Deserialize Binary Tree",
+          "slug": "serialize-and-deserialize-binary-tree",
+          "ts": 1794272324
         },
         {
-          "title": "Maximum Alternating Sum of Squares",
-          "slug": "maximum-alternating-sum-of-squares",
-          "ts": 1794179274
+          "title": "Longest ZigZag Path in a Binary Tree",
+          "slug": "longest-zigzag-path-in-a-binary-tree",
+          "ts": 1794272115
         },
         {
-          "title": "Maximum Element After Decreasing and Rearranging",
-          "slug": "maximum-element-after-decreasing-and-rearranging",
-          "ts": 1794179115
+          "title": "Binary Tree Maximum Path Sum",
+          "slug": "binary-tree-maximum-path-sum",
+          "ts": 1794271956
         },
         {
-          "title": "Prime Subset Selection I",
-          "slug": "prime-subset-selection-i",
-          "ts": 1794178730
+          "title": "Serialize and Deserialize Binary Tree",
+          "slug": "serialize-and-deserialize-binary-tree",
+          "ts": 1794271827
         },
         {
-          "title": "Maximize Sum After At Most K Digit Rearrangements",
-          "slug": "maximize-sum-after-at-most-k-digit-rearrangements",
-          "ts": 1794176666
+          "title": "Longest ZigZag Path in a Binary Tree",
+          "slug": "longest-zigzag-path-in-a-binary-tree",
+          "ts": 1794271358
         },
         {
-          "title": "Maximize the Total Height of Unique Towers",
-          "slug": "maximize-the-total-height-of-unique-towers",
-          "ts": 1794149164
+          "title": "Binary Tree Maximum Path Sum",
+          "slug": "binary-tree-maximum-path-sum",
+          "ts": 1794271005
         },
         {
-          "title": "Maximum Sum With at Most K Elements",
-          "slug": "maximum-sum-with-at-most-k-elements",
-          "ts": 1794148767
+          "title": "Longest ZigZag Path in a Binary Tree",
+          "slug": "longest-zigzag-path-in-a-binary-tree",
+          "ts": 1794270728
         },
         {
-          "title": "Maximum Median Sum of Subsequences of Size 3",
-          "slug": "maximum-median-sum-of-subsequences-of-size-3",
-          "ts": 1794148354
+          "title": "Binary Tree Maximum Path Sum",
+          "slug": "binary-tree-maximum-path-sum",
+          "ts": 1794269737
         },
         {
-          "title": "Maximum Number of Coins You Can Get",
-          "slug": "maximum-number-of-coins-you-can-get",
-          "ts": 1794148191
+          "title": "Two City Scheduling",
+          "slug": "two-city-scheduling",
+          "ts": 1794268459
         },
         {
-          "title": "Rearrange Array to Maximize Prefix Score",
-          "slug": "rearrange-array-to-maximize-prefix-score",
-          "ts": 1794147964
+          "title": "Maximum Number of Events That Can Be Attended",
+          "slug": "maximum-number-of-events-that-can-be-attended",
+          "ts": 1794267615
         },
         {
-          "title": "Destroying Asteroids",
-          "slug": "destroying-asteroids",
-          "ts": 1794147569
+          "title": "Video Stitching",
+          "slug": "video-stitching",
+          "ts": 1794266557
         },
         {
-          "title": "Maximum Number of Integers to Choose From a Range I",
-          "slug": "maximum-number-of-integers-to-choose-from-a-range-i",
-          "ts": 1794147350
+          "title": "Non-overlapping Intervals",
+          "slug": "non-overlapping-intervals",
+          "ts": 1794252639
         },
         {
-          "title": "Maximize Happiness of Selected Children",
-          "slug": "maximize-happiness-of-selected-children",
-          "ts": 1794147065
+          "title": "Split Array Largest Sum",
+          "slug": "split-array-largest-sum",
+          "ts": 1794251328
         },
         {
-          "title": "Least Number of Unique Integers after K Removals",
-          "slug": "least-number-of-unique-integers-after-k-removals",
-          "ts": 1794145663
+          "title": "Capacity To Ship Packages Within D Days",
+          "slug": "capacity-to-ship-packages-within-d-days",
+          "ts": 1794250804
         },
         {
-          "title": "Maximize Sum Of Array After K Negations",
-          "slug": "maximize-sum-of-array-after-k-negations",
-          "ts": 1794145152
+          "title": "Decode String",
+          "slug": "decode-string",
+          "ts": 1794250383
         }
       ]
     },
@@ -525,6 +525,16 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Min Cost to Connect All Points",
+          "slug": "min-cost-to-connect-all-points",
+          "ts": 1794295361
+        },
+        {
+          "title": "Minimum Distance to Type a Word Using Two Fingers",
+          "slug": "minimum-distance-to-type-a-word-using-two-fingers",
+          "ts": 1794288960
+        },
+        {
           "title": "Climbing Stairs",
           "slug": "climbing-stairs",
           "ts": 1794201259
@@ -613,16 +623,6 @@
           "title": "Minimum Distance to Type a Word Using Two Fingers",
           "slug": "minimum-distance-to-type-a-word-using-two-fingers",
           "ts": 1793576333
-        },
-        {
-          "title": "Find the Index of the First Occurrence in a String",
-          "slug": "find-the-index-of-the-first-occurrence-in-a-string",
-          "ts": 1793516401
-        },
-        {
-          "title": "Minimum Distance to Type a Word Using Two Fingers",
-          "slug": "minimum-distance-to-type-a-word-using-two-fingers",
-          "ts": 1793513833
         }
       ]
     },
@@ -941,6 +941,16 @@
     "m10": {
       "recent_ac": [
         {
+          "title": "Alien Dictionary",
+          "slug": "alien-dictionary",
+          "ts": 1794288351
+        },
+        {
+          "title": "Fruit Into Baskets",
+          "slug": "fruit-into-baskets",
+          "ts": 1794272873
+        },
+        {
           "title": "Maximum of Absolute Value Expression",
           "slug": "maximum-of-absolute-value-expression",
           "ts": 1794185234
@@ -1029,16 +1039,6 @@
           "title": "Minimum Number of Days to Make m Bouquets",
           "slug": "minimum-number-of-days-to-make-m-bouquets",
           "ts": 1792778755
-        },
-        {
-          "title": "First Missing Positive",
-          "slug": "first-missing-positive",
-          "ts": 1792778010
-        },
-        {
-          "title": "Multiply Strings",
-          "slug": "multiply-strings",
-          "ts": 1792776980
         }
       ]
     }
