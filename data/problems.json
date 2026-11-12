@@ -691,6 +691,15 @@
       "Array"
     ]
   },
+  "check-if-array-pairs-are-divisible-by-k": {
+    "difficulty": "Medium",
+    "frontend_id": "1497",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Counting"
+    ]
+  },
   "check-knight-tour-configuration": {
     "difficulty": "Medium",
     "frontend_id": "2596",
@@ -1087,6 +1096,15 @@
       "Math",
       "Dynamic Programming",
       "Backtracking"
+    ]
+  },
+  "count-pairs-that-form-a-complete-day-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "3185",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Counting"
     ]
   },
   "count-prefix-and-suffix-pairs-i": {
@@ -3858,6 +3876,14 @@
       "Greedy"
     ]
   },
+  "maximum-value-of-an-ordered-triplet-ii": {
+    "difficulty": "Medium",
+    "frontend_id": "2874",
+    "tags": [
+      "Array",
+      "Prefix Sum"
+    ]
+  },
   "maximum-white-tiles-covered-by-a-carpet": {
     "difficulty": "Medium",
     "frontend_id": "2271",
@@ -5160,6 +5186,15 @@
     "tags": [
       "Array",
       "Dynamic Programming"
+    ]
+  },
+  "pairs-of-songs-with-total-durations-divisible-by-60": {
+    "difficulty": "Medium",
+    "frontend_id": "1010",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Counting"
     ]
   },
   "palindrome-linked-list": {
