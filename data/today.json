@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-13",
-  "fetched_at": "2026-11-14T07:55:16+00:00",
+  "date": "2026-11-14",
+  "fetched_at": "2026-11-14T10:30:24+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,6 +317,41 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Sum of Subarray Ranges",
+          "slug": "sum-of-subarray-ranges",
+          "ts": 1794651957
+        },
+        {
+          "title": "Count Monobit Integers",
+          "slug": "count-monobit-integers",
+          "ts": 1794651274
+        },
+        {
+          "title": "Smallest Number With All Set Bits",
+          "slug": "smallest-number-with-all-set-bits",
+          "ts": 1794650868
+        },
+        {
+          "title": "Minimum Obstacle Removal to Reach Corner",
+          "slug": "minimum-obstacle-removal-to-reach-corner",
+          "ts": 1794648240
+        },
+        {
+          "title": "Find a Safe Walk Through a Grid",
+          "slug": "find-a-safe-walk-through-a-grid",
+          "ts": 1794647582
+        },
+        {
+          "title": "Making A Large Island",
+          "slug": "making-a-large-island",
+          "ts": 1794644411
+        },
+        {
+          "title": "Detect Cycles in 2D Grid",
+          "slug": "detect-cycles-in-2d-grid",
+          "ts": 1794643185
+        },
+        {
           "title": "Count Sub Islands",
           "slug": "count-sub-islands",
           "ts": 1794642050
@@ -380,41 +415,6 @@
           "title": "Number of Dice Rolls With Target Sum",
           "slug": "number-of-dice-rolls-with-target-sum",
           "ts": 1794280532
-        },
-        {
-          "title": "Longest ZigZag Path in a Binary Tree",
-          "slug": "longest-zigzag-path-in-a-binary-tree",
-          "ts": 1794272715
-        },
-        {
-          "title": "Binary Tree Maximum Path Sum",
-          "slug": "binary-tree-maximum-path-sum",
-          "ts": 1794272451
-        },
-        {
-          "title": "Serialize and Deserialize Binary Tree",
-          "slug": "serialize-and-deserialize-binary-tree",
-          "ts": 1794272324
-        },
-        {
-          "title": "Longest ZigZag Path in a Binary Tree",
-          "slug": "longest-zigzag-path-in-a-binary-tree",
-          "ts": 1794272115
-        },
-        {
-          "title": "Binary Tree Maximum Path Sum",
-          "slug": "binary-tree-maximum-path-sum",
-          "ts": 1794271956
-        },
-        {
-          "title": "Serialize and Deserialize Binary Tree",
-          "slug": "serialize-and-deserialize-binary-tree",
-          "ts": 1794271827
-        },
-        {
-          "title": "Longest ZigZag Path in a Binary Tree",
-          "slug": "longest-zigzag-path-in-a-binary-tree",
-          "ts": 1794271358
         }
       ]
     },

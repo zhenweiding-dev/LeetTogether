@@ -1061,6 +1061,14 @@
       "Matrix"
     ]
   },
+  "count-monobit-integers": {
+    "difficulty": "Easy",
+    "frontend_id": "3827",
+    "tags": [
+      "Bit Manipulation",
+      "Enumeration"
+    ]
+  },
   "count-number-of-homogenous-substrings": {
     "difficulty": "Medium",
     "frontend_id": "1759",
@@ -1744,6 +1752,18 @@
       "Array",
       "Stack",
       "Monotonic Stack"
+    ]
+  },
+  "find-a-safe-walk-through-a-grid": {
+    "difficulty": "Medium",
+    "frontend_id": "3286",
+    "tags": [
+      "Array",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Matrix",
+      "Shortest Path"
     ]
   },
   "find-all-anagrams-in-a-string": {
@@ -4520,6 +4540,20 @@
       "Bracket Sequences"
     ]
   },
+  "minimum-obstacle-removal-to-reach-corner": {
+    "difficulty": "Hard",
+    "frontend_id": "2290",
+    "tags": [
+      "Array",
+      "Breadth-First Search",
+      "Graph Theory",
+      "Heap (Priority Queue)",
+      "Matrix",
+      "Shortest Path",
+      "0-1 BFS",
+      "Dijkstra's Algorithm"
+    ]
+  },
   "minimum-operations-to-exceed-threshold-value-ii": {
     "difficulty": "Medium",
     "frontend_id": "3066",
@@ -6505,6 +6539,14 @@
       "Sorting"
     ]
   },
+  "smallest-number-with-all-set-bits": {
+    "difficulty": "Easy",
+    "frontend_id": "3370",
+    "tags": [
+      "Math",
+      "Bit Manipulation"
+    ]
+  },
   "smallest-palindromic-rearrangement-i": {
     "difficulty": "Medium",
     "frontend_id": "3517",
@@ -6958,6 +7000,15 @@
     "tags": [
       "Array",
       "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack"
+    ]
+  },
+  "sum-of-subarray-ranges": {
+    "difficulty": "Medium",
+    "frontend_id": "2104",
+    "tags": [
+      "Array",
       "Stack",
       "Monotonic Stack"
     ]
