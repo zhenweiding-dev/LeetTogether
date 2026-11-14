@@ -1050,6 +1050,17 @@
       "Recursion"
     ]
   },
+  "count-islands-with-total-value-divisible-by-k": {
+    "difficulty": "Medium",
+    "frontend_id": "3619",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Matrix"
+    ]
+  },
   "count-number-of-homogenous-substrings": {
     "difficulty": "Medium",
     "frontend_id": "1759",
@@ -1414,6 +1425,17 @@
       "Design",
       "Heap (Priority Queue)",
       "Shortest Path"
+    ]
+  },
+  "design-hit-counter": {
+    "difficulty": "Medium",
+    "frontend_id": "362",
+    "tags": [
+      "Array",
+      "Binary Search",
+      "Design",
+      "Queue",
+      "Data Stream"
     ]
   },
   "design-in-memory-file-system": {
@@ -3660,6 +3682,15 @@
     "tags": [
       "Array",
       "Dynamic Programming"
+    ]
+  },
+  "maximum-number-of-moves-in-a-grid": {
+    "difficulty": "Medium",
+    "frontend_id": "2684",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Matrix"
     ]
   },
   "maximum-number-of-non-overlapping-substrings": {

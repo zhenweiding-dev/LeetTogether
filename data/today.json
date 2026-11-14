@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-12",
-  "fetched_at": "2026-11-13T07:55:18+00:00",
+  "date": "2026-11-13",
+  "fetched_at": "2026-11-14T07:55:16+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -213,6 +213,31 @@
     "m3": {
       "recent_ac": [
         {
+          "title": "K Closest Points to Origin",
+          "slug": "k-closest-points-to-origin",
+          "ts": 1794638492
+        },
+        {
+          "title": "Kth Largest Element in an Array",
+          "slug": "kth-largest-element-in-an-array",
+          "ts": 1794634237
+        },
+        {
+          "title": "Unique Paths",
+          "slug": "unique-paths",
+          "ts": 1794629415
+        },
+        {
+          "title": "Sort Colors",
+          "slug": "sort-colors",
+          "ts": 1794626253
+        },
+        {
+          "title": "Climbing Stairs",
+          "slug": "climbing-stairs",
+          "ts": 1794623089
+        },
+        {
           "title": "Maximum Depth of Binary Tree",
           "slug": "maximum-depth-of-binary-tree",
           "ts": 1792201824
@@ -286,36 +311,26 @@
           "title": "Remove Nth Node From End of List",
           "slug": "remove-nth-node-from-end-of-list",
           "ts": 1789104043
-        },
-        {
-          "title": "Reorder List",
-          "slug": "reorder-list",
-          "ts": 1789002048
-        },
-        {
-          "title": "Linked List Cycle",
-          "slug": "linked-list-cycle",
-          "ts": 1788916103
-        },
-        {
-          "title": "Merge Two Sorted Lists",
-          "slug": "merge-two-sorted-lists",
-          "ts": 1788914558
-        },
-        {
-          "title": "Reverse Linked List",
-          "slug": "reverse-linked-list",
-          "ts": 1788816642
-        },
-        {
-          "title": "Sliding Window Maximum",
-          "slug": "sliding-window-maximum",
-          "ts": 1788593373
         }
       ]
     },
     "m4": {
       "recent_ac": [
+        {
+          "title": "Count Sub Islands",
+          "slug": "count-sub-islands",
+          "ts": 1794642050
+        },
+        {
+          "title": "Maximum Number of Moves in a Grid",
+          "slug": "maximum-number-of-moves-in-a-grid",
+          "ts": 1794640061
+        },
+        {
+          "title": "Count Islands With Total Value Divisible by K",
+          "slug": "count-islands-with-total-value-divisible-by-k",
+          "ts": 1794616106
+        },
         {
           "title": "Daily Temperatures",
           "slug": "daily-temperatures",
@@ -400,21 +415,6 @@
           "title": "Longest ZigZag Path in a Binary Tree",
           "slug": "longest-zigzag-path-in-a-binary-tree",
           "ts": 1794271358
-        },
-        {
-          "title": "Binary Tree Maximum Path Sum",
-          "slug": "binary-tree-maximum-path-sum",
-          "ts": 1794271005
-        },
-        {
-          "title": "Longest ZigZag Path in a Binary Tree",
-          "slug": "longest-zigzag-path-in-a-binary-tree",
-          "ts": 1794270728
-        },
-        {
-          "title": "Binary Tree Maximum Path Sum",
-          "slug": "binary-tree-maximum-path-sum",
-          "ts": 1794269737
         }
       ]
     },
@@ -733,6 +733,31 @@
     "m8": {
       "recent_ac": [
         {
+          "title": "Climbing Stairs",
+          "slug": "climbing-stairs",
+          "ts": 1794608439
+        },
+        {
+          "title": "Sort Colors",
+          "slug": "sort-colors",
+          "ts": 1794608428
+        },
+        {
+          "title": "Unique Paths",
+          "slug": "unique-paths",
+          "ts": 1794608407
+        },
+        {
+          "title": "Kth Largest Element in an Array",
+          "slug": "kth-largest-element-in-an-array",
+          "ts": 1794608377
+        },
+        {
+          "title": "K Closest Points to Origin",
+          "slug": "k-closest-points-to-origin",
+          "ts": 1794608365
+        },
+        {
           "title": "Longest String Chain",
           "slug": "longest-string-chain",
           "ts": 1793338399
@@ -806,31 +831,6 @@
           "title": "Find Median from Data Stream",
           "slug": "find-median-from-data-stream",
           "ts": 1792110879
-        },
-        {
-          "title": "Clone Graph",
-          "slug": "clone-graph",
-          "ts": 1792049878
-        },
-        {
-          "title": "Subarray Sum Equals K",
-          "slug": "subarray-sum-equals-k",
-          "ts": 1792049841
-        },
-        {
-          "title": "Sliding Window Maximum",
-          "slug": "sliding-window-maximum",
-          "ts": 1792049012
-        },
-        {
-          "title": "Word Break",
-          "slug": "word-break",
-          "ts": 1792039375
-        },
-        {
-          "title": "Serialize and Deserialize Binary Tree",
-          "slug": "serialize-and-deserialize-binary-tree",
-          "ts": 1792037909
         }
       ]
     },
@@ -941,6 +941,11 @@
     "m10": {
       "recent_ac": [
         {
+          "title": "Design Hit Counter",
+          "slug": "design-hit-counter",
+          "ts": 1794618298
+        },
+        {
           "title": "Encode and Decode Strings",
           "slug": "encode-and-decode-strings",
           "ts": 1794547333
@@ -1034,11 +1039,6 @@
           "title": "Longest Repeating Character Replacement",
           "slug": "longest-repeating-character-replacement",
           "ts": 1793856510
-        },
-        {
-          "title": "Subarray Sum Equals K",
-          "slug": "subarray-sum-equals-k",
-          "ts": 1793855074
         }
       ]
     }
