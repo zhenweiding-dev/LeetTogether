@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-13",
-  "fetched_at": "2026-11-14T07:55:16+00:00",
+  "date": "2026-11-14",
+  "fetched_at": "2026-11-15T07:55:17+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,6 +317,61 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Maximum Binary Tree",
+          "slug": "maximum-binary-tree",
+          "ts": 1794727941
+        },
+        {
+          "title": "Count Bowl Subarrays",
+          "slug": "count-bowl-subarrays",
+          "ts": 1794714229
+        },
+        {
+          "title": "132 Pattern",
+          "slug": "132-pattern",
+          "ts": 1794711712
+        },
+        {
+          "title": "Count Bowl Subarrays",
+          "slug": "count-bowl-subarrays",
+          "ts": 1794698174
+        },
+        {
+          "title": "Sum of Subarray Ranges",
+          "slug": "sum-of-subarray-ranges",
+          "ts": 1794651957
+        },
+        {
+          "title": "Count Monobit Integers",
+          "slug": "count-monobit-integers",
+          "ts": 1794651274
+        },
+        {
+          "title": "Smallest Number With All Set Bits",
+          "slug": "smallest-number-with-all-set-bits",
+          "ts": 1794650868
+        },
+        {
+          "title": "Minimum Obstacle Removal to Reach Corner",
+          "slug": "minimum-obstacle-removal-to-reach-corner",
+          "ts": 1794648240
+        },
+        {
+          "title": "Find a Safe Walk Through a Grid",
+          "slug": "find-a-safe-walk-through-a-grid",
+          "ts": 1794647582
+        },
+        {
+          "title": "Making A Large Island",
+          "slug": "making-a-large-island",
+          "ts": 1794644411
+        },
+        {
+          "title": "Detect Cycles in 2D Grid",
+          "slug": "detect-cycles-in-2d-grid",
+          "ts": 1794643185
+        },
+        {
           "title": "Count Sub Islands",
           "slug": "count-sub-islands",
           "ts": 1794642050
@@ -360,61 +415,6 @@
           "title": "Pairs of Songs With Total Durations Divisible by 60",
           "slug": "pairs-of-songs-with-total-durations-divisible-by-60",
           "ts": 1794458242
-        },
-        {
-          "title": "Word Search",
-          "slug": "word-search",
-          "ts": 1794455854
-        },
-        {
-          "title": "Edit Distance",
-          "slug": "edit-distance",
-          "ts": 1794281371
-        },
-        {
-          "title": "Best Time to Buy and Sell Stock with Cooldown",
-          "slug": "best-time-to-buy-and-sell-stock-with-cooldown",
-          "ts": 1794281068
-        },
-        {
-          "title": "Number of Dice Rolls With Target Sum",
-          "slug": "number-of-dice-rolls-with-target-sum",
-          "ts": 1794280532
-        },
-        {
-          "title": "Longest ZigZag Path in a Binary Tree",
-          "slug": "longest-zigzag-path-in-a-binary-tree",
-          "ts": 1794272715
-        },
-        {
-          "title": "Binary Tree Maximum Path Sum",
-          "slug": "binary-tree-maximum-path-sum",
-          "ts": 1794272451
-        },
-        {
-          "title": "Serialize and Deserialize Binary Tree",
-          "slug": "serialize-and-deserialize-binary-tree",
-          "ts": 1794272324
-        },
-        {
-          "title": "Longest ZigZag Path in a Binary Tree",
-          "slug": "longest-zigzag-path-in-a-binary-tree",
-          "ts": 1794272115
-        },
-        {
-          "title": "Binary Tree Maximum Path Sum",
-          "slug": "binary-tree-maximum-path-sum",
-          "ts": 1794271956
-        },
-        {
-          "title": "Serialize and Deserialize Binary Tree",
-          "slug": "serialize-and-deserialize-binary-tree",
-          "ts": 1794271827
-        },
-        {
-          "title": "Longest ZigZag Path in a Binary Tree",
-          "slug": "longest-zigzag-path-in-a-binary-tree",
-          "ts": 1794271358
         }
       ]
     },
@@ -525,6 +525,26 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Valid Anagram",
+          "slug": "valid-anagram",
+          "ts": 1794724517
+        },
+        {
+          "title": "Contains Duplicate",
+          "slug": "contains-duplicate",
+          "ts": 1794723817
+        },
+        {
+          "title": "Reconstruct Itinerary",
+          "slug": "reconstruct-itinerary",
+          "ts": 1794722047
+        },
+        {
+          "title": "Shortest Path With At Most K Consecutive Identical Characters",
+          "slug": "shortest-path-with-at-most-k-consecutive-identical-characters",
+          "ts": 1794716867
+        },
+        {
           "title": "Min Cost to Connect All Points",
           "slug": "min-cost-to-connect-all-points",
           "ts": 1794556083
@@ -603,26 +623,6 @@
           "title": "Cheapest Flights Within K Stops",
           "slug": "cheapest-flights-within-k-stops",
           "ts": 1793942956
-        },
-        {
-          "title": "Random Pick with Weight",
-          "slug": "random-pick-with-weight",
-          "ts": 1793927184
-        },
-        {
-          "title": "Find the Safest Path in a Grid",
-          "slug": "find-the-safest-path-in-a-grid",
-          "ts": 1793848271
-        },
-        {
-          "title": "Shortest Path With At Most K Consecutive Identical Characters",
-          "slug": "shortest-path-with-at-most-k-consecutive-identical-characters",
-          "ts": 1793751658
-        },
-        {
-          "title": "Lexicographical Numbers",
-          "slug": "lexicographical-numbers",
-          "ts": 1793663160
         }
       ]
     },
@@ -941,9 +941,14 @@
     "m10": {
       "recent_ac": [
         {
+          "title": "Search a 2D Matrix",
+          "slug": "search-a-2d-matrix",
+          "ts": 1794700314
+        },
+        {
           "title": "Design Hit Counter",
           "slug": "design-hit-counter",
-          "ts": 1794618298
+          "ts": 1794696850
         },
         {
           "title": "Encode and Decode Strings",
@@ -1034,11 +1039,6 @@
           "title": "Find Median from Data Stream",
           "slug": "find-median-from-data-stream",
           "ts": 1793928299
-        },
-        {
-          "title": "Longest Repeating Character Replacement",
-          "slug": "longest-repeating-character-replacement",
-          "ts": 1793856510
         }
       ]
     }
