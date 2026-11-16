@@ -1220,6 +1220,16 @@
       "Sliding Window"
     ]
   },
+  "count-unreachable-pairs-of-nodes-in-an-undirected-graph": {
+    "difficulty": "Medium",
+    "frontend_id": "2316",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory"
+    ]
+  },
   "counting-bits": {
     "difficulty": "Easy",
     "frontend_id": "338",
@@ -4236,6 +4246,18 @@
       "Dijkstra's Algorithm"
     ]
   },
+  "minimum-cost-tree-from-leaf-values": {
+    "difficulty": "Medium",
+    "frontend_id": "1130",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Stack",
+      "Greedy",
+      "Monotonic Stack",
+      "Cartesian Tree"
+    ]
+  },
   "minimum-deletion-cost-to-make-all-characters-equal": {
     "difficulty": "Medium",
     "frontend_id": "3784",
@@ -6092,6 +6114,13 @@
       "Linked List"
     ]
   },
+  "reverse-nodes-in-even-length-groups": {
+    "difficulty": "Medium",
+    "frontend_id": "2074",
+    "tags": [
+      "Linked List"
+    ]
+  },
   "reverse-nodes-in-k-group": {
     "difficulty": "Hard",
     "frontend_id": "25",
@@ -6775,6 +6804,18 @@
       "Binary Tree",
       "Binary Lifting",
       "Lowest Common Ancestor"
+    ]
+  },
+  "steps-to-make-array-non-decreasing": {
+    "difficulty": "Medium",
+    "frontend_id": "2289",
+    "tags": [
+      "Array",
+      "Linked List",
+      "Dynamic Programming",
+      "Stack",
+      "Monotonic Stack",
+      "Simulation"
     ]
   },
   "stone-game": {
