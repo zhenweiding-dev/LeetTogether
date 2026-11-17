@@ -1,9 +1,14 @@
 {
-  "date": "2026-11-15",
-  "fetched_at": "2026-11-16T02:21:22+00:00",
+  "date": "2026-11-16",
+  "fetched_at": "2026-11-17T06:00:23+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Car Fleet",
+          "slug": "car-fleet",
+          "ts": 1794878483
+        },
         {
           "title": "Evaluate Reverse Polish Notation",
           "slug": "evaluate-reverse-polish-notation",
@@ -98,11 +103,6 @@
           "title": "Split Array Largest Sum",
           "slug": "split-array-largest-sum",
           "ts": 1791965151
-        },
-        {
-          "title": "Search a 2D Matrix",
-          "slug": "search-a-2d-matrix",
-          "ts": 1791954381
         }
       ]
     },
@@ -317,6 +317,71 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Maximum Number of Items From Sale I",
+          "slug": "maximum-number-of-items-from-sale-i",
+          "ts": 1794893738
+        },
+        {
+          "title": "The k Strongest Values in an Array",
+          "slug": "the-k-strongest-values-in-an-array",
+          "ts": 1794877722
+        },
+        {
+          "title": "Reverse Only Letters",
+          "slug": "reverse-only-letters",
+          "ts": 1794877183
+        },
+        {
+          "title": "Minimum Number of Flips to Make the Binary String Alternating",
+          "slug": "minimum-number-of-flips-to-make-the-binary-string-alternating",
+          "ts": 1794876888
+        },
+        {
+          "title": "Reschedule Meetings for Maximum Free Time I",
+          "slug": "reschedule-meetings-for-maximum-free-time-i",
+          "ts": 1794876087
+        },
+        {
+          "title": " Minimum Discards to Balance Inventory",
+          "slug": "minimum-discards-to-balance-inventory",
+          "ts": 1794875380
+        },
+        {
+          "title": "Grumpy Bookstore Owner",
+          "slug": "grumpy-bookstore-owner",
+          "ts": 1794874237
+        },
+        {
+          "title": "Maximum Points You Can Obtain from Cards",
+          "slug": "maximum-points-you-can-obtain-from-cards",
+          "ts": 1794873793
+        },
+        {
+          "title": "Maximum Sum of Distinct Subarrays With Length K",
+          "slug": "maximum-sum-of-distinct-subarrays-with-length-k",
+          "ts": 1794873221
+        },
+        {
+          "title": "Maximum Sum of Almost Unique Subarray",
+          "slug": "maximum-sum-of-almost-unique-subarray",
+          "ts": 1794872954
+        },
+        {
+          "title": "K Radius Subarray Averages",
+          "slug": "k-radius-subarray-averages",
+          "ts": 1794872643
+        },
+        {
+          "title": "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold",
+          "slug": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
+          "ts": 1794872163
+        },
+        {
+          "title": "Maximum Number of Vowels in a Substring of Given Length",
+          "slug": "maximum-number-of-vowels-in-a-substring-of-given-length",
+          "ts": 1794871178
+        },
+        {
           "title": "K Closest Points to Origin",
           "slug": "k-closest-points-to-origin",
           "ts": 1794795084
@@ -350,76 +415,16 @@
           "title": "Reverse Nodes in Even Length Groups",
           "slug": "reverse-nodes-in-even-length-groups",
           "ts": 1794738859
-        },
-        {
-          "title": "Reverse Nodes in k-Group",
-          "slug": "reverse-nodes-in-k-group",
-          "ts": 1794738012
-        },
-        {
-          "title": "Swap Nodes in Pairs",
-          "slug": "swap-nodes-in-pairs",
-          "ts": 1794737184
-        },
-        {
-          "title": "Reverse Linked List II",
-          "slug": "reverse-linked-list-ii",
-          "ts": 1794736979
-        },
-        {
-          "title": "Steps to Make Array Non-decreasing",
-          "slug": "steps-to-make-array-non-decreasing",
-          "ts": 1794732465
-        },
-        {
-          "title": "Minimum Cost Tree From Leaf Values",
-          "slug": "minimum-cost-tree-from-leaf-values",
-          "ts": 1794731319
-        },
-        {
-          "title": "Maximum Binary Tree",
-          "slug": "maximum-binary-tree",
-          "ts": 1794731158
-        },
-        {
-          "title": "132 Pattern",
-          "slug": "132-pattern",
-          "ts": 1794731003
-        },
-        {
-          "title": "Count Bowl Subarrays",
-          "slug": "count-bowl-subarrays",
-          "ts": 1794730790
-        },
-        {
-          "title": "132 Pattern",
-          "slug": "132-pattern",
-          "ts": 1794730547
-        },
-        {
-          "title": "Maximum Binary Tree",
-          "slug": "maximum-binary-tree",
-          "ts": 1794730013
-        },
-        {
-          "title": "Count Bowl Subarrays",
-          "slug": "count-bowl-subarrays",
-          "ts": 1794714229
-        },
-        {
-          "title": "132 Pattern",
-          "slug": "132-pattern",
-          "ts": 1794711712
-        },
-        {
-          "title": "Count Bowl Subarrays",
-          "slug": "count-bowl-subarrays",
-          "ts": 1794698174
         }
       ]
     },
     "m5": {
       "recent_ac": [
+        {
+          "title": "Minimum Height Trees",
+          "slug": "minimum-height-trees",
+          "ts": 1794887526
+        },
         {
           "title": "Unique Paths",
           "slug": "unique-paths",
@@ -514,16 +519,16 @@
           "title": "Container With Most Water",
           "slug": "container-with-most-water",
           "ts": 1791829201
-        },
-        {
-          "title": "Jump Game III",
-          "slug": "jump-game-iii",
-          "ts": 1791752657
         }
       ]
     },
     "m6": {
       "recent_ac": [
+        {
+          "title": "Contiguous Array",
+          "slug": "contiguous-array",
+          "ts": 1794887578
+        },
         {
           "title": "Valid Anagram",
           "slug": "valid-anagram",
@@ -618,11 +623,6 @@
           "title": "Shortest Path With At Most K Consecutive Identical Characters",
           "slug": "shortest-path-with-at-most-k-consecutive-identical-characters",
           "ts": 1793946155
-        },
-        {
-          "title": "Cheapest Flights Within K Stops",
-          "slug": "cheapest-flights-within-k-stops",
-          "ts": 1793942956
         }
       ]
     },

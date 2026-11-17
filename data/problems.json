@@ -2284,6 +2284,7 @@
   },
   "grumpy-bookstore-owner": {
     "difficulty": "Medium",
+    "frontend_id": "1052",
     "tags": [
       "Array",
       "Sliding Window"
@@ -3707,6 +3708,15 @@
       "Sorting"
     ]
   },
+  "maximum-number-of-items-from-sale-i": {
+    "difficulty": "Medium",
+    "frontend_id": "3946",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Greedy"
+    ]
+  },
   "maximum-number-of-jumps-to-reach-the-last-index": {
     "difficulty": "Medium",
     "frontend_id": "2770",
@@ -3764,6 +3774,15 @@
     "tags": [
       "Array",
       "Math"
+    ]
+  },
+  "maximum-points-you-can-obtain-from-cards": {
+    "difficulty": "Medium",
+    "frontend_id": "1423",
+    "tags": [
+      "Array",
+      "Sliding Window",
+      "Prefix Sum"
     ]
   },
   "maximum-population-year": {
@@ -3900,6 +3919,24 @@
       "Dynamic Programming",
       "Queue",
       "Monotonic Queue"
+    ]
+  },
+  "maximum-sum-of-almost-unique-subarray": {
+    "difficulty": "Medium",
+    "frontend_id": "2841",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
+    ]
+  },
+  "maximum-sum-of-distinct-subarrays-with-length-k": {
+    "difficulty": "Medium",
+    "frontend_id": "2461",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Sliding Window"
     ]
   },
   "maximum-sum-with-at-most-k-elements": {
@@ -4487,6 +4524,15 @@
     "tags": [
       "Array",
       "Binary Search"
+    ]
+  },
+  "minimum-number-of-flips-to-make-the-binary-string-alternating": {
+    "difficulty": "Medium",
+    "frontend_id": "1888",
+    "tags": [
+      "String",
+      "Dynamic Programming",
+      "Sliding Window"
     ]
   },
   "minimum-number-of-food-buckets-to-feed-the-hamsters": {
@@ -5165,6 +5211,14 @@
     "tags": [
       "Array",
       "String"
+    ]
+  },
+  "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold": {
+    "difficulty": "Medium",
+    "frontend_id": "1343",
+    "tags": [
+      "Array",
+      "Sliding Window"
     ]
   },
   "number-of-sub-arrays-with-odd-sum": {
@@ -6067,6 +6121,15 @@
       "Trie"
     ]
   },
+  "reschedule-meetings-for-maximum-free-time-i": {
+    "difficulty": "Medium",
+    "frontend_id": "3439",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sliding Window"
+    ]
+  },
   "restore-ip-addresses": {
     "difficulty": "Medium",
     "frontend_id": "93",
@@ -6127,6 +6190,14 @@
     "tags": [
       "Linked List",
       "Recursion"
+    ]
+  },
+  "reverse-only-letters": {
+    "difficulty": "Easy",
+    "frontend_id": "917",
+    "tags": [
+      "Two Pointers",
+      "String"
     ]
   },
   "reverse-pairs": {
@@ -7187,6 +7258,15 @@
     "tags": [
       "Array",
       "Union-Find",
+      "Sorting"
+    ]
+  },
+  "the-k-strongest-values-in-an-array": {
+    "difficulty": "Medium",
+    "frontend_id": "1471",
+    "tags": [
+      "Array",
+      "Two Pointers",
       "Sorting"
     ]
   },
