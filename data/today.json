@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-16",
-  "fetched_at": "2026-11-17T06:00:23+00:00",
+  "date": "2026-11-17",
+  "fetched_at": "2026-11-18T06:30:19+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -317,104 +317,104 @@
     "m4": {
       "recent_ac": [
         {
-          "title": "Maximum Number of Items From Sale I",
-          "slug": "maximum-number-of-items-from-sale-i",
-          "ts": 1794893738
+          "title": "Finish Time of Tasks I",
+          "slug": "finish-time-of-tasks-i",
+          "ts": 1794982211
         },
         {
-          "title": "The k Strongest Values in an Array",
-          "slug": "the-k-strongest-values-in-an-array",
-          "ts": 1794877722
+          "title": "Count Dominant Nodes in a Binary Tree",
+          "slug": "count-dominant-nodes-in-a-binary-tree",
+          "ts": 1794980975
         },
         {
-          "title": "Reverse Only Letters",
-          "slug": "reverse-only-letters",
-          "ts": 1794877183
+          "title": "Maximal Network Rank",
+          "slug": "maximal-network-rank",
+          "ts": 1794980592
         },
         {
-          "title": "Minimum Number of Flips to Make the Binary String Alternating",
-          "slug": "minimum-number-of-flips-to-make-the-binary-string-alternating",
-          "ts": 1794876888
+          "title": "Minimum Number of Vertices to Reach All Nodes",
+          "slug": "minimum-number-of-vertices-to-reach-all-nodes",
+          "ts": 1794978925
         },
         {
-          "title": "Reschedule Meetings for Maximum Free Time I",
-          "slug": "reschedule-meetings-for-maximum-free-time-i",
-          "ts": 1794876087
+          "title": "Min Cost to Connect All Points",
+          "slug": "min-cost-to-connect-all-points",
+          "ts": 1794977498
         },
         {
-          "title": " Minimum Discards to Balance Inventory",
-          "slug": "minimum-discards-to-balance-inventory",
-          "ts": 1794875380
+          "title": "Grid Teleportation Traversal",
+          "slug": "grid-teleportation-traversal",
+          "ts": 1794969951
         },
         {
-          "title": "Grumpy Bookstore Owner",
-          "slug": "grumpy-bookstore-owner",
-          "ts": 1794874237
+          "title": "Split Linked List in Parts",
+          "slug": "split-linked-list-in-parts",
+          "ts": 1794968869
         },
         {
-          "title": "Maximum Points You Can Obtain from Cards",
-          "slug": "maximum-points-you-can-obtain-from-cards",
-          "ts": 1794873793
+          "title": "Fraction Addition and Subtraction",
+          "slug": "fraction-addition-and-subtraction",
+          "ts": 1794960889
         },
         {
-          "title": "Maximum Sum of Distinct Subarrays With Length K",
-          "slug": "maximum-sum-of-distinct-subarrays-with-length-k",
-          "ts": 1794873221
+          "title": "Intervals Between Identical Elements",
+          "slug": "intervals-between-identical-elements",
+          "ts": 1794956524
         },
         {
-          "title": "Maximum Sum of Almost Unique Subarray",
-          "slug": "maximum-sum-of-almost-unique-subarray",
-          "ts": 1794872954
+          "title": "Number of Matching Subsequences",
+          "slug": "number-of-matching-subsequences",
+          "ts": 1794955361
         },
         {
-          "title": "K Radius Subarray Averages",
-          "slug": "k-radius-subarray-averages",
-          "ts": 1794872643
+          "title": "Multi Source Flood Fill",
+          "slug": "multi-source-flood-fill",
+          "ts": 1794947767
         },
         {
-          "title": "Number of Sub-arrays of Size K and Average Greater than or Equal to Threshold",
-          "slug": "number-of-sub-arrays-of-size-k-and-average-greater-than-or-equal-to-threshold",
-          "ts": 1794872163
+          "title": "Next Greater Element III",
+          "slug": "next-greater-element-iii",
+          "ts": 1794946387
         },
         {
-          "title": "Maximum Number of Vowels in a Substring of Given Length",
-          "slug": "maximum-number-of-vowels-in-a-substring-of-given-length",
-          "ts": 1794871178
+          "title": "Video Stitching",
+          "slug": "video-stitching",
+          "ts": 1794945520
         },
         {
-          "title": "K Closest Points to Origin",
-          "slug": "k-closest-points-to-origin",
-          "ts": 1794795084
+          "title": "Minimum Number of Arrows to Burst Balloons",
+          "slug": "minimum-number-of-arrows-to-burst-balloons",
+          "ts": 1794944532
         },
         {
-          "title": "Kth Largest Element in an Array",
-          "slug": "kth-largest-element-in-an-array",
-          "ts": 1794794808
+          "title": "Non-overlapping Intervals",
+          "slug": "non-overlapping-intervals",
+          "ts": 1794944221
         },
         {
-          "title": "Unique Paths",
-          "slug": "unique-paths",
-          "ts": 1794794329
+          "title": "Interval List Intersections",
+          "slug": "interval-list-intersections",
+          "ts": 1794942870
         },
         {
-          "title": "Sort Colors",
-          "slug": "sort-colors",
-          "ts": 1794794054
+          "title": "My Calendar III",
+          "slug": "my-calendar-iii",
+          "ts": 1794939454
         },
         {
-          "title": "Climbing Stairs",
-          "slug": "climbing-stairs",
-          "ts": 1794792845
+          "title": "Maximum Population Year",
+          "slug": "maximum-population-year",
+          "ts": 1794938626
         },
         {
-          "title": "Count Unreachable Pairs of Nodes in an Undirected Graph",
-          "slug": "count-unreachable-pairs-of-nodes-in-an-undirected-graph",
-          "ts": 1794743990
+          "title": "LRU Cache",
+          "slug": "lru-cache",
+          "ts": 1794910864
         },
         {
-          "title": "Reverse Nodes in Even Length Groups",
-          "slug": "reverse-nodes-in-even-length-groups",
-          "ts": 1794738859
+          "title": "Find the Most Competitive Subsequence",
+          "slug": "find-the-most-competitive-subsequence",
+          "ts": 1794910114
         }
       ]
     },

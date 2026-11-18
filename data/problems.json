@@ -1032,6 +1032,15 @@
       "Sliding Window"
     ]
   },
+  "count-dominant-nodes-in-a-binary-tree": {
+    "difficulty": "Medium",
+    "frontend_id": "3997",
+    "tags": [
+      "Tree",
+      "Depth-First Search",
+      "Binary Tree"
+    ]
+  },
   "count-good-nodes-in-binary-tree": {
     "difficulty": "Medium",
     "frontend_id": "1448",
@@ -2074,6 +2083,16 @@
       "Prefix Sum"
     ]
   },
+  "find-the-most-competitive-subsequence": {
+    "difficulty": "Medium",
+    "frontend_id": "1673",
+    "tags": [
+      "Array",
+      "Stack",
+      "Greedy",
+      "Monotonic Stack"
+    ]
+  },
   "find-the-power-of-k-size-subarrays-i": {
     "difficulty": "Medium",
     "frontend_id": "3254",
@@ -2139,6 +2158,16 @@
       "Backtracking"
     ]
   },
+  "finish-time-of-tasks-i": {
+    "difficulty": "Medium",
+    "frontend_id": "3965",
+    "tags": [
+      "Array",
+      "Dynamic Programming",
+      "Tree",
+      "Depth-First Search"
+    ]
+  },
   "first-missing-positive": {
     "difficulty": "Hard",
     "frontend_id": "41",
@@ -2176,6 +2205,17 @@
       "Depth-First Search",
       "Breadth-First Search",
       "Matrix"
+    ]
+  },
+  "fraction-addition-and-subtraction": {
+    "difficulty": "Medium",
+    "frontend_id": "592",
+    "tags": [
+      "Math",
+      "String",
+      "Simulation",
+      "Euclidean Algorithm",
+      "Greatest Common Divisor"
     ]
   },
   "frequency-of-the-most-frequent-element": {
@@ -2252,6 +2292,16 @@
       "Array",
       "Matrix",
       "Prefix Sum"
+    ]
+  },
+  "grid-teleportation-traversal": {
+    "difficulty": "Medium",
+    "frontend_id": "3552",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Breadth-First Search",
+      "Matrix"
     ]
   },
   "group-anagrams": {
@@ -2478,6 +2528,15 @@
       "Array",
       "Two Pointers",
       "Sweep Line"
+    ]
+  },
+  "intervals-between-identical-elements": {
+    "difficulty": "Medium",
+    "frontend_id": "2121",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Prefix Sum"
     ]
   },
   "invalid-transactions": {
@@ -3384,6 +3443,13 @@
       "Sorting"
     ]
   },
+  "maximal-network-rank": {
+    "difficulty": "Medium",
+    "frontend_id": "1615",
+    "tags": [
+      "Graph Theory"
+    ]
+  },
   "maximal-score-after-applying-k-operations": {
     "difficulty": "Medium",
     "frontend_id": "2530",
@@ -3908,6 +3974,17 @@
       "Array",
       "Divide and Conquer",
       "Dynamic Programming"
+    ]
+  },
+  "maximum-subarray-min-product": {
+    "difficulty": "Medium",
+    "frontend_id": "1856",
+    "tags": [
+      "Array",
+      "Stack",
+      "Monotonic Stack",
+      "Prefix Sum",
+      "Cartesian Tree"
     ]
   },
   "maximum-sum-circular-subarray": {
@@ -4609,6 +4686,14 @@
       "Bracket Sequences"
     ]
   },
+  "minimum-number-of-vertices-to-reach-all-nodes": {
+    "difficulty": "Medium",
+    "frontend_id": "1557",
+    "tags": [
+      "Graph Theory",
+      "Directed Acyclic Graph"
+    ]
+  },
   "minimum-obstacle-removal-to-reach-corner": {
     "difficulty": "Hard",
     "frontend_id": "2290",
@@ -4906,6 +4991,15 @@
       "Sorting"
     ]
   },
+  "multi-source-flood-fill": {
+    "difficulty": "Medium",
+    "frontend_id": "3905",
+    "tags": [
+      "Array",
+      "Breadth-First Search",
+      "Matrix"
+    ]
+  },
   "multiply-strings": {
     "difficulty": "Medium",
     "frontend_id": "43",
@@ -4931,6 +5025,17 @@
     "frontend_id": "731",
     "tags": [
       "Array",
+      "Binary Search",
+      "Design",
+      "Segment Tree",
+      "Prefix Sum",
+      "Ordered Set"
+    ]
+  },
+  "my-calendar-iii": {
+    "difficulty": "Hard",
+    "frontend_id": "732",
+    "tags": [
       "Binary Search",
       "Design",
       "Segment Tree",
@@ -5161,6 +5266,19 @@
       "Binary Indexed Tree",
       "Segment Tree",
       "Longest Increasing Subsequence"
+    ]
+  },
+  "number-of-matching-subsequences": {
+    "difficulty": "Medium",
+    "frontend_id": "792",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "String",
+      "Binary Search",
+      "Dynamic Programming",
+      "Trie",
+      "Sorting"
     ]
   },
   "number-of-nodes-in-the-sub-tree-with-the-same-label": {
@@ -6836,6 +6954,13 @@
       "Dynamic Programming",
       "Greedy",
       "Prefix Sum"
+    ]
+  },
+  "split-linked-list-in-parts": {
+    "difficulty": "Medium",
+    "frontend_id": "725",
+    "tags": [
+      "Linked List"
     ]
   },
   "splitting-a-string-into-descending-consecutive-values": {
