@@ -1,9 +1,14 @@
 {
-  "date": "2026-11-17",
-  "fetched_at": "2026-11-18T06:30:19+00:00",
+  "date": "2026-11-18",
+  "fetched_at": "2026-11-19T07:30:18+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Basic Calculator",
+          "slug": "basic-calculator",
+          "ts": 1795072412
+        },
         {
           "title": "Car Fleet",
           "slug": "car-fleet",
@@ -98,11 +103,6 @@
           "title": "Reorder List",
           "slug": "reorder-list",
           "ts": 1791996081
-        },
-        {
-          "title": "Split Array Largest Sum",
-          "slug": "split-array-largest-sum",
-          "ts": 1791965151
         }
       ]
     },
@@ -317,104 +317,104 @@
     "m4": {
       "recent_ac": [
         {
-          "title": "Finish Time of Tasks I",
-          "slug": "finish-time-of-tasks-i",
-          "ts": 1794982211
+          "title": "Loud and Rich",
+          "slug": "loud-and-rich",
+          "ts": 1795070882
         },
         {
-          "title": "Count Dominant Nodes in a Binary Tree",
-          "slug": "count-dominant-nodes-in-a-binary-tree",
-          "ts": 1794980975
+          "title": "Course Schedule II",
+          "slug": "course-schedule-ii",
+          "ts": 1795035497
         },
         {
-          "title": "Maximal Network Rank",
-          "slug": "maximal-network-rank",
-          "ts": 1794980592
+          "title": "Course Schedule",
+          "slug": "course-schedule",
+          "ts": 1795035174
         },
         {
-          "title": "Minimum Number of Vertices to Reach All Nodes",
-          "slug": "minimum-number-of-vertices-to-reach-all-nodes",
-          "ts": 1794978925
+          "title": "Shortest Subarray with Sum at Least K",
+          "slug": "shortest-subarray-with-sum-at-least-k",
+          "ts": 1795034880
         },
         {
-          "title": "Min Cost to Connect All Points",
-          "slug": "min-cost-to-connect-all-points",
-          "ts": 1794977498
+          "title": "Partition Array Such That Maximum Difference Is K",
+          "slug": "partition-array-such-that-maximum-difference-is-k",
+          "ts": 1795032313
         },
         {
-          "title": "Grid Teleportation Traversal",
-          "slug": "grid-teleportation-traversal",
-          "ts": 1794969951
+          "title": "Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit",
+          "slug": "longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit",
+          "ts": 1795031569
         },
         {
-          "title": "Split Linked List in Parts",
-          "slug": "split-linked-list-in-parts",
-          "ts": 1794968869
+          "title": "Accounts Merge",
+          "slug": "accounts-merge",
+          "ts": 1795016202
         },
         {
-          "title": "Fraction Addition and Subtraction",
-          "slug": "fraction-addition-and-subtraction",
-          "ts": 1794960889
+          "title": "Number of Islands",
+          "slug": "number-of-islands",
+          "ts": 1795015766
         },
         {
-          "title": "Intervals Between Identical Elements",
-          "slug": "intervals-between-identical-elements",
-          "ts": 1794956524
+          "title": "Redundant Connection",
+          "slug": "redundant-connection",
+          "ts": 1795015561
         },
         {
-          "title": "Number of Matching Subsequences",
-          "slug": "number-of-matching-subsequences",
-          "ts": 1794955361
+          "title": "Number of Provinces",
+          "slug": "number-of-provinces",
+          "ts": 1795015434
         },
         {
-          "title": "Multi Source Flood Fill",
-          "slug": "multi-source-flood-fill",
-          "ts": 1794947767
+          "title": "Kth Smallest Element in a BST",
+          "slug": "kth-smallest-element-in-a-bst",
+          "ts": 1795015199
         },
         {
-          "title": "Next Greater Element III",
-          "slug": "next-greater-element-iii",
-          "ts": 1794946387
+          "title": "Lowest Common Ancestor of a Binary Search Tree",
+          "slug": "lowest-common-ancestor-of-a-binary-search-tree",
+          "ts": 1795014867
         },
         {
-          "title": "Video Stitching",
-          "slug": "video-stitching",
-          "ts": 1794945520
+          "title": "Delete Node in a BST",
+          "slug": "delete-node-in-a-bst",
+          "ts": 1795014718
         },
         {
-          "title": "Minimum Number of Arrows to Burst Balloons",
-          "slug": "minimum-number-of-arrows-to-burst-balloons",
-          "ts": 1794944532
+          "title": "Binary Tree Maximum Path Sum",
+          "slug": "binary-tree-maximum-path-sum",
+          "ts": 1795008851
         },
         {
-          "title": "Non-overlapping Intervals",
-          "slug": "non-overlapping-intervals",
-          "ts": 1794944221
+          "title": "Longest Repeating Character Replacement",
+          "slug": "longest-repeating-character-replacement",
+          "ts": 1795008515
         },
         {
-          "title": "Interval List Intersections",
-          "slug": "interval-list-intersections",
-          "ts": 1794942870
+          "title": "Trapping Rain Water",
+          "slug": "trapping-rain-water",
+          "ts": 1795008181
         },
         {
-          "title": "My Calendar III",
-          "slug": "my-calendar-iii",
-          "ts": 1794939454
+          "title": "Reorder List",
+          "slug": "reorder-list",
+          "ts": 1795007911
         },
         {
-          "title": "Maximum Population Year",
-          "slug": "maximum-population-year",
-          "ts": 1794938626
+          "title": "Reverse Linked List",
+          "slug": "reverse-linked-list",
+          "ts": 1795007664
         },
         {
-          "title": "LRU Cache",
-          "slug": "lru-cache",
-          "ts": 1794910864
+          "title": "Word Search II",
+          "slug": "word-search-ii",
+          "ts": 1795007362
         },
         {
-          "title": "Find the Most Competitive Subsequence",
-          "slug": "find-the-most-competitive-subsequence",
-          "ts": 1794910114
+          "title": "Design Add and Search Words Data Structure",
+          "slug": "design-add-and-search-words-data-structure",
+          "ts": 1795006290
         }
       ]
     },
@@ -525,6 +525,11 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "House Robber",
+          "slug": "house-robber",
+          "ts": 1795031763
+        },
+        {
           "title": "Contiguous Array",
           "slug": "contiguous-array",
           "ts": 1794887578
@@ -618,11 +623,6 @@
           "title": "Lexicographical Numbers",
           "slug": "lexicographical-numbers",
           "ts": 1794022822
-        },
-        {
-          "title": "Shortest Path With At Most K Consecutive Identical Characters",
-          "slug": "shortest-path-with-at-most-k-consecutive-identical-characters",
-          "ts": 1793946155
         }
       ]
     },

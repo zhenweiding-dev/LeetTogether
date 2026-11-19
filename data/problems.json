@@ -3226,6 +3226,17 @@
       "DP on Trees"
     ]
   },
+  "loud-and-rich": {
+    "difficulty": "Medium",
+    "frontend_id": "851",
+    "tags": [
+      "Array",
+      "Depth-First Search",
+      "Graph Theory",
+      "Topological Sort",
+      "Directed Acyclic Graph"
+    ]
+  },
   "lowest-common-ancestor-of-a-binary-search-tree": {
     "difficulty": "Medium",
     "frontend_id": "235",
@@ -5528,6 +5539,15 @@
       "Bit Manipulation",
       "Recursion",
       "Enumeration"
+    ]
+  },
+  "partition-array-such-that-maximum-difference-is-k": {
+    "difficulty": "Medium",
+    "frontend_id": "2294",
+    "tags": [
+      "Array",
+      "Greedy",
+      "Sorting"
     ]
   },
   "partition-equal-subset-sum": {
