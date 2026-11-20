@@ -5837,6 +5837,18 @@
       "Prefix Sum"
     ]
   },
+  "properties-graph": {
+    "difficulty": "Medium",
+    "frontend_id": "3493",
+    "tags": [
+      "Array",
+      "Hash Table",
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory"
+    ]
+  },
   "pseudo-palindromic-paths-in-a-binary-tree": {
     "difficulty": "Medium",
     "frontend_id": "1457",

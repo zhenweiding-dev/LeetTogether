@@ -1,9 +1,14 @@
 {
-  "date": "2026-11-18",
-  "fetched_at": "2026-11-19T07:30:18+00:00",
+  "date": "2026-11-19",
+  "fetched_at": "2026-11-20T05:00:21+00:00",
   "members": {
     "m1": {
       "recent_ac": [
+        {
+          "title": "Evaluate Reverse Polish Notation",
+          "slug": "evaluate-reverse-polish-notation",
+          "ts": 1795077616
+        },
         {
           "title": "Basic Calculator",
           "slug": "basic-calculator",
@@ -98,11 +103,6 @@
           "title": "Number of 1 Bits",
           "slug": "number-of-1-bits",
           "ts": 1792174353
-        },
-        {
-          "title": "Reorder List",
-          "slug": "reorder-list",
-          "ts": 1791996081
         }
       ]
     },
@@ -317,6 +317,11 @@
     "m4": {
       "recent_ac": [
         {
+          "title": "Properties Graph",
+          "slug": "properties-graph",
+          "ts": 1795075581
+        },
+        {
           "title": "Loud and Rich",
           "slug": "loud-and-rich",
           "ts": 1795070882
@@ -410,11 +415,6 @@
           "title": "Word Search II",
           "slug": "word-search-ii",
           "ts": 1795007362
-        },
-        {
-          "title": "Design Add and Search Words Data Structure",
-          "slug": "design-add-and-search-words-data-structure",
-          "ts": 1795006290
         }
       ]
     },
@@ -525,6 +525,11 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Minimum Distance to Type a Word Using Two Fingers",
+          "slug": "minimum-distance-to-type-a-word-using-two-fingers",
+          "ts": 1795149065
+        },
+        {
           "title": "House Robber",
           "slug": "house-robber",
           "ts": 1795031763
@@ -618,11 +623,6 @@
           "title": "Last Stone Weight",
           "slug": "last-stone-weight",
           "ts": 1794024615
-        },
-        {
-          "title": "Lexicographical Numbers",
-          "slug": "lexicographical-numbers",
-          "ts": 1794022822
         }
       ]
     },
