@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-20",
-  "fetched_at": "2026-11-20T08:00:29+00:00",
+  "date": "2026-11-21",
+  "fetched_at": "2026-11-21T08:42:48+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -525,6 +525,11 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Min Cost to Connect All Points",
+          "slug": "min-cost-to-connect-all-points",
+          "ts": 1795250177
+        },
+        {
           "title": "Minimum Distance to Type a Word Using Two Fingers",
           "slug": "minimum-distance-to-type-a-word-using-two-fingers",
           "ts": 1795149065
@@ -618,11 +623,6 @@
           "title": "Swim in Rising Water",
           "slug": "swim-in-rising-water",
           "ts": 1794089296
-        },
-        {
-          "title": "Last Stone Weight",
-          "slug": "last-stone-weight",
-          "ts": 1794024615
         }
       ]
     },
