@@ -5778,6 +5778,18 @@
       "Binary Tree"
     ]
   },
+  "possible-bipartition": {
+    "difficulty": "Medium",
+    "frontend_id": "886",
+    "tags": [
+      "Depth-First Search",
+      "Breadth-First Search",
+      "Union-Find",
+      "Graph Theory",
+      "Graph Coloring",
+      "Bipartite Graph"
+    ]
+  },
   "power-of-two": {
     "difficulty": "Easy",
     "frontend_id": "231",
