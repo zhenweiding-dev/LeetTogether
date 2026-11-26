@@ -1,6 +1,6 @@
 {
-  "date": "2026-11-24",
-  "fetched_at": "2026-11-25T07:30:22+00:00",
+  "date": "2026-11-25",
+  "fetched_at": "2026-11-26T05:30:20+00:00",
   "members": {
     "m1": {
       "recent_ac": [
@@ -525,6 +525,11 @@
     "m6": {
       "recent_ac": [
         {
+          "title": "Lowest Common Ancestor of a Binary Tree",
+          "slug": "lowest-common-ancestor-of-a-binary-tree",
+          "ts": 1795669541
+        },
+        {
           "title": "Search in Rotated Sorted Array",
           "slug": "search-in-rotated-sorted-array",
           "ts": 1795591442
@@ -618,11 +623,6 @@
           "title": "Climbing Stairs",
           "slug": "climbing-stairs",
           "ts": 1794201259
-        },
-        {
-          "title": "K Closest Points to Origin",
-          "slug": "k-closest-points-to-origin",
-          "ts": 1794197519
         }
       ]
     },
@@ -631,7 +631,7 @@
         {
           "title": "Count the Number of Good Nodes",
           "slug": "count-the-number-of-good-nodes",
-          "ts": 1793562019
+          "ts": 1795628475
         },
         {
           "title": "K-th Largest Perfect Subtree Size in Binary Tree",
